@@ -219,7 +219,7 @@ C_HornVoiceI_a = {
     
     % [C HornVoiceI measure 20 / measure 3]                                                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'8
+    g'8                                                                                            %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -254,7 +254,7 @@ C_HornVoiceIII_a = {
     
     % [C HornVoiceIII measure 20 / measure 3]                                                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'8
+    c'8                                                                                            %! downbeat_attack
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -324,7 +324,7 @@ C_HornVoiceII_a = {
     
     % [C HornVoiceII measure 20 / measure 3]                                                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!8
+    df'!8                                                                                          %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -359,7 +359,7 @@ C_HornVoiceIV_a = {
     
     % [C HornVoiceIV measure 20 / measure 3]                                                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b8
+    b8                                                                                             %! downbeat_attack
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -429,7 +429,7 @@ C_TrumpetVoiceI_a = {
     
     % [C TrumpetVoiceI measure 20 / measure 3]                                                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''8
+    d''8                                                                                           %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -464,7 +464,7 @@ C_TrumpetVoiceIII_a = {
     
     % [C TrumpetVoiceIII measure 20 / measure 3]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'8
+    g'8                                                                                            %! downbeat_attack
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -534,7 +534,7 @@ C_TrumpetVoiceII_a = {
     
     % [C TrumpetVoiceII measure 20 / measure 3]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!8
+    af'!8                                                                                          %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -569,7 +569,7 @@ C_TrumpetVoiceIV_a = {
     
     % [C TrumpetVoiceIV measure 20 / measure 3]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'8
+    f'8                                                                                            %! downbeat_attack
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -639,7 +639,7 @@ C_TromboneVoiceI_a = {
     
     % [C TromboneVoiceI measure 20 / measure 3]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'8
+    g'8                                                                                            %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -674,7 +674,7 @@ C_TromboneVoiceIII_a = {
     
     % [C TromboneVoiceIII measure 20 / measure 3]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'8
+    c'8                                                                                            %! downbeat_attack
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -744,7 +744,7 @@ C_TromboneVoiceII_a = {
     
     % [C TromboneVoiceII measure 20 / measure 3]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!8
+    df'!8                                                                                          %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -779,7 +779,7 @@ C_TromboneVoiceIV_a = {
     
     % [C TromboneVoiceIV measure 20 / measure 3]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b8
+    b8                                                                                             %! downbeat_attack
 %%% \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -841,7 +841,7 @@ C_TubaVoiceI_a = {
     
     % [C TubaVoiceI measure 20 / measure 3]                                                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c,8
+    c,8                                                                                            %! downbeat_attack
     \baca_sffz                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
@@ -1048,7 +1048,7 @@ C_FirstViolinVoiceII_a = {
     \override DynamicLineSpanner.direction = #up                                                   %! OverrideCommand(1):-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c''2
+    c''2                                                                                           %! glissando_rhythm
 %%% \stopTrillSpan                                                                                 %! IndicatorCommand:+PARTS
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "solo (first violin)" }                                                            %! IndicatorCommand:-PARTS
@@ -1057,72 +1057,72 @@ C_FirstViolinVoiceII_a = {
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                                     %! SpannerCommand
     
-    b'8
-    [
+    b'8                                                                                            %! glissando_rhythm
+    [                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    g''8
-    ]
+    g''8                                                                                           %! glissando_rhythm
+    ]                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    a'4
+    a'4                                                                                            %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
     % [C FirstViolinVoiceII measure 21 / measure 4]                                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'''8
+    d'''8                                                                                          %! glissando_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    [
+    [                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
     e''8
-    ]
+    ]                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
     c'''2
     \glissando                                                                                     %! SpannerCommand
     
-    d''8
-    [
+    d''8                                                                                           %! glissando_rhythm
+    [                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    g'''8
-    ]
+    g'''8                                                                                          %! glissando_rhythm
+    ]                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
     % [C FirstViolinVoiceII measure 22 / measure 5]                                                %! _comment_measure_numbers
-    c'''8
-    [
+    c'''8                                                                                          %! glissando_rhythm
+    [                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    f'''8
-    ]
+    f'''8                                                                                          %! glissando_rhythm
+    ]                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    g''2
+    g''2                                                                                           %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    b'''8
-    [
+    b'''8                                                                                          %! glissando_rhythm
+    [                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'''8
+    d'''8                                                                                          %! glissando_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    ]
+    ]                                                                                              %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
     % [C FirstViolinVoiceII measure 23 / measure 6]                                                %! _comment_measure_numbers
-    a'''4
+    a'''4                                                                                          %! glissando_rhythm
     \glissando                                                                                     %! SpannerCommand
     
-    c'''8
+    c'''8                                                                                          %! glissando_rhythm
     ~                                                                                              %! SpannerCommand
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'''4.
+    c'''4.                                                                                         %! glissando_rhythm
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \revert DynamicLineSpanner.direction                                                           %! OverrideCommand(2):-PARTS
     
@@ -1161,7 +1161,7 @@ C_FirstViolinVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (1-10)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1180,10 +1180,10 @@ C_FirstViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [C FirstViolinVoiceI measure 19 / measure 2]                                                 %! _comment_measure_numbers
-    df'!4
+    df'!4                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    df'!2.
+    df'!2.                                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
 }
 
@@ -1258,7 +1258,7 @@ C_FirstViolinVoiceIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (11-18)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1277,10 +1277,10 @@ C_FirstViolinVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [C FirstViolinVoiceIII measure 19 / measure 2]                                               %! _comment_measure_numbers
-    df'!2
+    df'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    df'!2
+    df'!2                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [C FirstViolinVoiceIII measure 20 / measure 3]                                               %! _comment_measure_numbers
@@ -1338,7 +1338,7 @@ C_SecondViolinVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (1-10)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1357,10 +1357,10 @@ C_SecondViolinVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [C SecondViolinVoiceI measure 19 / measure 2]                                                %! _comment_measure_numbers
-    df'!2..
+    df'!2..                                                                                        %! sforzando_exchange_rhythm
     \repeatTie
     
-    df'!8
+    df'!8                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [C SecondViolinVoiceI measure 20 / measure 3]                                                %! _comment_measure_numbers
@@ -1418,7 +1418,7 @@ C_SecondViolinVoiceIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (11-18)”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1437,7 +1437,7 @@ C_SecondViolinVoiceIII_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [C SecondViolinVoiceIII measure 19 / measure 2]                                              %! _comment_measure_numbers
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [C SecondViolinVoiceIII measure 20 / measure 3]                                              %! _comment_measure_numbers
@@ -1495,7 +1495,7 @@ C_ViolaVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!4.
+    df'!4.                                                                                         %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (1-10)”]"                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1513,14 +1513,14 @@ C_ViolaVoiceI_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    df'!8
+    df'!8                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
-    df'!2
+    df'!2                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [C ViolaVoiceI measure 19 / measure 2]                                                       %! _comment_measure_numbers
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [C ViolaVoiceI measure 20 / measure 3]                                                       %! _comment_measure_numbers
@@ -1580,7 +1580,7 @@ C_ViolaVoiceIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!2
+    df'!2                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (11-18)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1598,11 +1598,11 @@ C_ViolaVoiceIII_a = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    df'!2
+    df'!2                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [C ViolaVoiceIII measure 19 / measure 2]                                                     %! _comment_measure_numbers
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
     % [C ViolaVoiceIII measure 20 / measure 3]                                                     %! _comment_measure_numbers
@@ -1658,7 +1658,7 @@ C_CelloVoiceI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    df'!1
+    df'!1                                                                                          %! sforzando_exchange_rhythm
     \baca_f_sub_but_accents_continue_sffz                                                          %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1673,10 +1673,10 @@ C_CelloVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [C CelloVoiceI measure 19 / measure 2]                                                       %! _comment_measure_numbers
-    df'!8
+    df'!8                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     
-    df'!2..
+    df'!2..                                                                                        %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     
     % [C CelloVoiceI measure 20 / measure 3]                                                       %! _comment_measure_numbers

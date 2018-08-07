@@ -282,7 +282,7 @@ K_HornVoiceI_a = {
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
 %%% e'8                                                                                            %! AccidentalAdjustmentCommand:+PARTS
-    e'!8                                                                                           %! AccidentalAdjustmentCommand:-PARTS %@%
+    e'!8                                                                                           %! AccidentalAdjustmentCommand:-PARTS %! downbeat_attack %@%
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -334,7 +334,7 @@ K_HornVoiceIII_a = {
     % [K HornVoiceIII measure 68 / measure 1]                                                      %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!8
+    ef'!8                                                                                          %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -398,7 +398,7 @@ K_HornVoiceII_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    fs'!8
+    fs'!8                                                                                          %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -450,7 +450,7 @@ K_HornVoiceIV_a = {
     % [K HornVoiceIV measure 68 / measure 1]                                                       %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!8
+    ef'!8                                                                                          %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -514,7 +514,7 @@ K_TrumpetVoiceI_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf'!8
+    bf'!8                                                                                          %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -566,7 +566,7 @@ K_TrumpetVoiceIII_a = {
     % [K TrumpetVoiceIII measure 68 / measure 1]                                                   %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'8
+    g'8                                                                                            %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -630,7 +630,7 @@ K_TrumpetVoiceII_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!8
+    af'!8                                                                                          %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -684,7 +684,7 @@ K_TrumpetVoiceIV_a = {
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
 %%% a'8                                                                                            %! AccidentalAdjustmentCommand:+PARTS
-    a'!8                                                                                           %! AccidentalAdjustmentCommand:-PARTS %@%
+    a'!8                                                                                           %! AccidentalAdjustmentCommand:-PARTS %! downbeat_attack %@%
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -748,7 +748,7 @@ K_TromboneVoiceI_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf!8
+    bf!8                                                                                           %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -800,7 +800,7 @@ K_TromboneVoiceIII_a = {
     % [K TromboneVoiceIII measure 68 / measure 1]                                                  %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g8
+    g8                                                                                             %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -864,7 +864,7 @@ K_TromboneVoiceII_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!8
+    af!8                                                                                           %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -918,7 +918,7 @@ K_TromboneVoiceIV_a = {
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
 %%% a8                                                                                             %! AccidentalAdjustmentCommand:+PARTS
-    a!8                                                                                            %! AccidentalAdjustmentCommand:-PARTS %@%
+    a!8                                                                                            %! AccidentalAdjustmentCommand:-PARTS %! downbeat_attack %@%
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -976,7 +976,7 @@ K_PianoVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -990,51 +990,51 @@ K_PianoVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K PianoVoiceI measure 69 / measure 2]                                                       %! _comment_measure_numbers
-    r1
-    \times 2/3 {
+    r1                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
         % [K PianoVoiceI measure 70 / measure 3]                                                   %! _comment_measure_numbers
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [K PianoVoiceI measure 71 / measure 4]                                                       %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [K PianoVoiceI measure 72 / measure 5]                                                       %! _comment_measure_numbers
-    r4
-    \times 2/3 {
+    r4                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [K PianoVoiceI measure 73 / measure 6]                                                       %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K PianoVoiceI measure 74 / measure 7]                                                       %! _comment_measure_numbers
-    r1
-    \times 2/3 {
+    r1                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
         % [K PianoVoiceI measure 75 / measure 8]                                                   %! _comment_measure_numbers
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
 }
 
@@ -1065,7 +1065,7 @@ K_HarpVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "(“Harp”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "[“Hp.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1079,49 +1079,49 @@ K_HarpVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [K HarpVoiceI measure 69 / measure 2]                                                        %! _comment_measure_numbers
-    r2.
-    \times 2/3 {
+    r2.                                                                                            %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
     % [K HarpVoiceI measure 70 / measure 3]                                                        %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K HarpVoiceI measure 71 / measure 4]                                                        %! _comment_measure_numbers
-    r2
-    \times 2/3 {
+    r2                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
     % [K HarpVoiceI measure 72 / measure 5]                                                        %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [K HarpVoiceI measure 73 / measure 6]                                                        %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K HarpVoiceI measure 74 / measure 7]                                                        %! _comment_measure_numbers
-    r2.
-    \times 2/3 {
+    r2.                                                                                            %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
     % [K HarpVoiceI measure 75 / measure 8]                                                        %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
 }
 
@@ -1252,7 +1252,7 @@ K_PercussionVoiceIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     \mp                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Vibraphone”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1268,54 +1268,54 @@ K_PercussionVoiceIII_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 69 / measure 2]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 70 / measure 3]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 71 / measure 4]                                                %! _comment_measure_numbers
-    r4
-    \times 2/3 {
+    r4                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 72 / measure 5]                                                %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 73 / measure 6]                                                %! _comment_measure_numbers
-    r4
-    \times 2/3 {
+    r4                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        c''8
+        c''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 74 / measure 7]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K PercussionVoiceIII measure 75 / measure 8]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
 }
 
@@ -1630,7 +1630,7 @@ K_ContrabassVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. 1”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1646,59 +1646,59 @@ K_ContrabassVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
-        cqf''!8
+        cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 69 / measure 2]                                                  %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 70 / measure 3]                                                  %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 71 / measure 4]                                                  %! _comment_measure_numbers
-    r4
-    \times 2/3 {
+    r4                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        r8
+        r8                                                                                         %! harp_exchange_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        cqf''!8
+        cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r8
-    }
+        r8                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 72 / measure 5]                                                  %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 73 / measure 6]                                                  %! _comment_measure_numbers
-    r2
-    \times 2/3 {
+    r2                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        r4
+        r4                                                                                         %! harp_exchange_rhythm
         
-        cqf''!8
+        cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
-    }
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 74 / measure 7]                                                  %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [K ContrabassVoiceI measure 75 / measure 8]                                                  %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
 }
 

@@ -263,7 +263,7 @@ G_PianoVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -275,37 +275,37 @@ G_PianoVoiceI_a = {
             Pf.                                                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
         % [G PianoVoiceI measure 45 / measure 2]                                                   %! _comment_measure_numbers
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G PianoVoiceI measure 46 / measure 3]                                                       %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [G PianoVoiceI measure 47 / measure 4]                                                       %! _comment_measure_numbers
-    r2
-    \times 2/3 {
+    r2                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
     % [G PianoVoiceI measure 48 / measure 5]                                                       %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G PianoVoiceI measure 49 / measure 6]                                                       %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
 }
 
@@ -336,7 +336,7 @@ G_HarpVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "(“Harp”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "[“Hp.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -348,41 +348,41 @@ G_HarpVoiceI_a = {
             Hp.                                                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [G HarpVoiceI measure 45 / measure 2]                                                        %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [G HarpVoiceI measure 46 / measure 3]                                                        %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [G HarpVoiceI measure 47 / measure 4]                                                        %! _comment_measure_numbers
-    r4
-    \times 2/3 {
+    r4                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         - \stopped                                                                                 %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
     % [G HarpVoiceI measure 48 / measure 5]                                                        %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G HarpVoiceI measure 49 / measure 6]                                                        %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
 }
 
@@ -508,7 +508,7 @@ G_PercussionVoiceIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     \mp                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Vibraphone”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -524,46 +524,46 @@ G_PercussionVoiceIII_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     
     % [G PercussionVoiceIII measure 45 / measure 2]                                                %! _comment_measure_numbers
-    r2.
-    \times 2/3 {
+    r2.                                                                                            %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
     % [G PercussionVoiceIII measure 46 / measure 3]                                                %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! harp_exchange_rhythm
     
     % [G PercussionVoiceIII measure 47 / measure 4]                                                %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G PercussionVoiceIII measure 48 / measure 5]                                                %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G PercussionVoiceIII measure 49 / measure 6]                                                %! _comment_measure_numbers
-    r4
-    \times 2/3 {
+    r4                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     
 }
 
@@ -1110,7 +1110,7 @@ G_ContrabassVoiceI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cb. 1”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1126,51 +1126,51 @@ G_ContrabassVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        r8
+        r8                                                                                         %! harp_exchange_rhythm
         
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
-        r8
-    }
+        r8                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2
+    r2                                                                                             %! harp_exchange_rhythm
     
     % [G ContrabassVoiceI measure 45 / measure 2]                                                  %! _comment_measure_numbers
-    r1
-    \times 2/3 {
+    r1                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
         % [G ContrabassVoiceI measure 46 / measure 3]                                              %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
-    }
+    }                                                                                              %! harp_exchange_rhythm
     
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G ContrabassVoiceI measure 47 / measure 4]                                                  %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G ContrabassVoiceI measure 48 / measure 5]                                                  %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! harp_exchange_rhythm
     
     % [G ContrabassVoiceI measure 49 / measure 6]                                                  %! _comment_measure_numbers
-    r2
-    \times 2/3 {
+    r2                                                                                             %! harp_exchange_rhythm
+    \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        d''8
+        d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
         
-        r4
-    }
+        r4                                                                                         %! harp_exchange_rhythm
+    }                                                                                              %! harp_exchange_rhythm
     
-    r4
+    r4                                                                                             %! harp_exchange_rhythm
     
 }
 

@@ -365,11 +365,11 @@ AA_FirstViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    d'16
+    d'16                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! clb_rhythm
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -382,58 +382,58 @@ AA_FirstViolinVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
     % [AA FirstViolinVoiceI measure 159 / measure 2]                                               %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceI measure 160 / measure 3]                                               %! _comment_measure_numbers
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
 }
 
@@ -457,53 +457,53 @@ AA_FirstViolinVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r2.
+    r2.                                                                                            %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceII measure 159 / measure 2]                                              %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceII measure 160 / measure 3]                                              %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -522,7 +522,7 @@ AA_FirstViolinStaffI = <<
 
 
 AA_FirstViolinVoiceIII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceIII measure 158 / measure 1]                                         %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -538,7 +538,7 @@ AA_FirstViolinVoiceIII_a = {
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        r4
+        r4                                                                                         %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))               %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (3-4)”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -554,55 +554,55 @@ AA_FirstViolinVoiceIII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceIII measure 159 / measure 2]                                         %! _comment_measure_numbers
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA FirstViolinVoiceIII measure 160 / measure 3]                                             %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -612,7 +612,7 @@ AA_FirstViolinVoiceIII = {
 
 
 AA_FirstViolinVoiceIV_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceIV measure 158 / measure 1]                                          %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -626,59 +626,59 @@ AA_FirstViolinVoiceIV_a = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        r8
+        r8                                                                                         %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))               %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA FirstViolinVoiceIV measure 159 / measure 2]                                              %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceIV measure 160 / measure 3]                                              %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -711,7 +711,7 @@ AA_FirstViolinVoiceV_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4.
+    r4.                                                                                            %! clb_rhythm
     \f                                                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -727,61 +727,61 @@ AA_FirstViolinVoiceV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceV measure 159 / measure 2]                                               %! _comment_measure_numbers
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceV measure 160 / measure 3]                                               %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -804,60 +804,60 @@ AA_FirstViolinVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4.
+    r4.                                                                                            %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA FirstViolinVoiceVI measure 159 / measure 2]                                              %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA FirstViolinVoiceVI measure 160 / measure 3]                                              %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -876,7 +876,7 @@ AA_FirstViolinStaffIII = <<
 
 
 AA_FirstViolinVoiceVII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceVII measure 158 / measure 1]                                         %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -891,7 +891,7 @@ AA_FirstViolinVoiceVII_a = {
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        r4
+        r4                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (7-8)”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -905,53 +905,53 @@ AA_FirstViolinVoiceVII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceVII measure 159 / measure 2]                                             %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceVII measure 160 / measure 3]                                         %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -961,7 +961,7 @@ AA_FirstViolinVoiceVII = {
 
 
 AA_FirstViolinVoiceVIII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceVIII measure 158 / measure 1]                                        %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -974,66 +974,66 @@ AA_FirstViolinVoiceVIII_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        b8
+        b8                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! clb_rhythm
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceVIII measure 159 / measure 2]                                            %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [AA FirstViolinVoiceVIII measure 160 / measure 3]                                            %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -1068,7 +1068,7 @@ AA_FirstViolinVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    d'16
+    d'16                                                                                           %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1082,61 +1082,61 @@ AA_FirstViolinVoiceIX_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
     % [AA FirstViolinVoiceIX measure 159 / measure 2]                                              %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceIX measure 160 / measure 3]                                              %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -1159,53 +1159,53 @@ AA_FirstViolinVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceX measure 159 / measure 2]                                               %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA FirstViolinVoiceX measure 160 / measure 3]                                               %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -1238,7 +1238,7 @@ AA_FirstViolinVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r16
+    r16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1252,59 +1252,59 @@ AA_FirstViolinVoiceXI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXI measure 159 / measure 2]                                              %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXI measure 160 / measure 3]                                              %! _comment_measure_numbers
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -1315,7 +1315,7 @@ AA_FirstViolinVoiceXI = {
 
 
 AA_FirstViolinVoiceXII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceXII measure 158 / measure 1]                                         %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1328,68 +1328,68 @@ AA_FirstViolinVoiceXII_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        b8
+        b8                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceXII measure 159 / measure 2]                                             %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceXII measure 160 / measure 3]                                         %! _comment_measure_numbers
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -1437,39 +1437,39 @@ AA_FirstViolinVoiceXIII_a = {
                     (13-14)                                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceXIII measure 159 / measure 2]                                        %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceXIII measure 160 / measure 3]                                            %! _comment_measure_numbers
     r1
@@ -1495,53 +1495,53 @@ AA_FirstViolinVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXIV measure 159 / measure 2]                                             %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXIV measure 160 / measure 3]                                             %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -1574,7 +1574,7 @@ AA_FirstViolinVoiceXV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1588,63 +1588,63 @@ AA_FirstViolinVoiceXV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXV measure 159 / measure 2]                                              %! _comment_measure_numbers
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXV measure 160 / measure 3]                                              %! _comment_measure_numbers
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
 }
 
@@ -1670,46 +1670,46 @@ AA_FirstViolinVoiceXVI_a = {
     r2
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceXVI measure 159 / measure 2]                                             %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [AA FirstViolinVoiceXVI measure 160 / measure 3]                                             %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -1757,40 +1757,40 @@ AA_FirstViolinVoiceXVII_a = {
                     (17-18)                                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA FirstViolinVoiceXVII measure 159 / measure 2]                                        %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA FirstViolinVoiceXVII measure 160 / measure 3]                                            %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -1815,61 +1815,61 @@ AA_FirstViolinVoiceXVIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXVIII measure 159 / measure 2]                                           %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA FirstViolinVoiceXVIII measure 160 / measure 3]                                           %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
 }
 
@@ -1903,7 +1903,7 @@ AA_SecondViolinVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1919,61 +1919,61 @@ AA_SecondViolinVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA SecondViolinVoiceI measure 159 / measure 2]                                              %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
     % [AA SecondViolinVoiceI measure 160 / measure 3]                                              %! _comment_measure_numbers
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
 }
 
@@ -1997,53 +1997,53 @@ AA_SecondViolinVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4..
+    r4..                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceII measure 159 / measure 2]                                             %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceII measure 160 / measure 3]                                             %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
 }
 
@@ -2092,67 +2092,67 @@ AA_SecondViolinVoiceIII_a = {
                     (3-4)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceIII measure 159 / measure 2]                                        %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA SecondViolinVoiceIII measure 160 / measure 3]                                            %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -2178,67 +2178,67 @@ AA_SecondViolinVoiceIV_a = {
     r4
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [AA SecondViolinVoiceIV measure 159 / measure 2]                                             %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceIV measure 160 / measure 3]                                         %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -2270,7 +2270,7 @@ AA_SecondViolinVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r16
+    r16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2284,59 +2284,59 @@ AA_SecondViolinVoiceV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceV measure 159 / measure 2]                                              %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
     % [AA SecondViolinVoiceV measure 160 / measure 3]                                              %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
 }
 
@@ -2359,63 +2359,63 @@ AA_SecondViolinVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    b16
+    b16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceVI measure 159 / measure 2]                                             %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA SecondViolinVoiceVI measure 160 / measure 3]                                             %! _comment_measure_numbers
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
 }
 
@@ -2461,52 +2461,52 @@ AA_SecondViolinVoiceVII_a = {
                     (7-8)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceVII measure 159 / measure 2]                                        %! _comment_measure_numbers
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceVII measure 160 / measure 3]                                            %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
@@ -2519,7 +2519,7 @@ AA_SecondViolinVoiceVII = {
 
 
 AA_SecondViolinVoiceVIII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceVIII measure 158 / measure 1]                                       %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2532,59 +2532,59 @@ AA_SecondViolinVoiceVIII_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        r4
+        r4                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceVIII measure 159 / measure 2]                                       %! _comment_measure_numbers
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA SecondViolinVoiceVIII measure 160 / measure 3]                                           %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -2616,7 +2616,7 @@ AA_SecondViolinVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r16
+    r16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2630,49 +2630,49 @@ AA_SecondViolinVoiceIX_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
     % [AA SecondViolinVoiceIX measure 159 / measure 2]                                             %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA SecondViolinVoiceIX measure 160 / measure 3]                                             %! _comment_measure_numbers
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
 }
 
@@ -2695,65 +2695,65 @@ AA_SecondViolinVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4.
+    r4.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceX measure 159 / measure 2]                                              %! _comment_measure_numbers
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA SecondViolinVoiceX measure 160 / measure 3]                                              %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -2786,7 +2786,7 @@ AA_SecondViolinVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4.
+    r4.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2800,57 +2800,57 @@ AA_SecondViolinVoiceXI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceXI measure 159 / measure 2]                                             %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceXI measure 160 / measure 3]                                             %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -2861,7 +2861,7 @@ AA_SecondViolinVoiceXI = {
 
 
 AA_SecondViolinVoiceXII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXII measure 158 / measure 1]                                        %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2874,57 +2874,57 @@ AA_SecondViolinVoiceXII_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        r4
+        r4                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceXII measure 159 / measure 2]                                            %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXII measure 160 / measure 3]                                        %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -2942,7 +2942,7 @@ AA_SecondViolinStaffVI = <<
 
 
 AA_SecondViolinVoiceXIII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXIII measure 158 / measure 1]                                       %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2957,9 +2957,9 @@ AA_SecondViolinVoiceXIII_a = {
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        d'8
+        d'8                                                                                        %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! clb_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2972,61 +2972,61 @@ AA_SecondViolinVoiceXIII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceXIII measure 159 / measure 2]                                           %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [AA SecondViolinVoiceXIII measure 160 / measure 3]                                           %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -3051,65 +3051,65 @@ AA_SecondViolinVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    b16
+    b16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceXIV measure 159 / measure 2]                                            %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceXIV measure 160 / measure 3]                                            %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -3142,7 +3142,7 @@ AA_SecondViolinVoiceXV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3156,49 +3156,49 @@ AA_SecondViolinVoiceXV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA SecondViolinVoiceXV measure 159 / measure 2]                                             %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA SecondViolinVoiceXV measure 160 / measure 3]                                             %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -3209,7 +3209,7 @@ AA_SecondViolinVoiceXV = {
 
 
 AA_SecondViolinVoiceXVI_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXVI measure 158 / measure 1]                                        %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3222,67 +3222,67 @@ AA_SecondViolinVoiceXVI_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        r8
+        r8                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceXVI measure 159 / measure 2]                                            %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXVI measure 160 / measure 3]                                        %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -3300,7 +3300,7 @@ AA_SecondViolinStaffVIII = <<
 
 
 AA_SecondViolinVoiceXVII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXVII measure 158 / measure 1]                                       %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3315,7 +3315,7 @@ AA_SecondViolinVoiceXVII_a = {
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        d'8
+        d'8                                                                                        %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Vni. II (17-18)”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3329,64 +3329,64 @@ AA_SecondViolinVoiceXVII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceXVII measure 159 / measure 2]                                           %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA SecondViolinVoiceXVII measure 160 / measure 3]                                       %! _comment_measure_numbers
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -3411,63 +3411,63 @@ AA_SecondViolinVoiceXVIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA SecondViolinVoiceXVIII measure 159 / measure 2]                                          %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA SecondViolinVoiceXVIII measure 160 / measure 3]                                          %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
 }
 
@@ -3501,7 +3501,7 @@ AA_ViolaVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3517,49 +3517,49 @@ AA_ViolaVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceI measure 159 / measure 2]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceI measure 160 / measure 3]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -3583,67 +3583,67 @@ AA_ViolaVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceII measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceII measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
 }
 
@@ -3692,46 +3692,46 @@ AA_ViolaVoiceIII_a = {
                     (3-4)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA ViolaVoiceIII measure 159 / measure 2]                                                   %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [AA ViolaVoiceIII measure 160 / measure 3]                                                   %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -3760,40 +3760,40 @@ AA_ViolaVoiceIV_a = {
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceIV measure 159 / measure 2]                                                %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA ViolaVoiceIV measure 160 / measure 3]                                                    %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -3828,7 +3828,7 @@ AA_ViolaVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3842,57 +3842,57 @@ AA_ViolaVoiceV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceV measure 159 / measure 2]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceV measure 160 / measure 3]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
 }
 
@@ -3915,65 +3915,65 @@ AA_ViolaVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceVI measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
     % [AA ViolaVoiceVI measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
 }
 
@@ -4019,48 +4019,48 @@ AA_ViolaVoiceVII_a = {
                     (7-8)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceVII measure 159 / measure 2]                                               %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceVII measure 160 / measure 3]                                               %! _comment_measure_numbers
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -4088,67 +4088,67 @@ AA_ViolaVoiceVIII_a = {
     r4
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceVIII measure 159 / measure 2]                                              %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA ViolaVoiceVIII measure 160 / measure 3]                                                  %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -4180,7 +4180,7 @@ AA_ViolaVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4194,49 +4194,49 @@ AA_ViolaVoiceIX_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceIX measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA ViolaVoiceIX measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
 }
 
@@ -4259,63 +4259,63 @@ AA_ViolaVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r16
+    r16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
     % [AA ViolaVoiceX measure 159 / measure 2]                                                     %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
     % [AA ViolaVoiceX measure 160 / measure 3]                                                     %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
 }
 
@@ -4348,9 +4348,9 @@ AA_ViolaVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    d'16
+    d'16                                                                                           %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! clb_rhythm
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4363,58 +4363,58 @@ AA_ViolaVoiceXI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
     % [AA ViolaVoiceXI measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceXI measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
 }
 
@@ -4440,52 +4440,52 @@ AA_ViolaVoiceXII_a = {
     r1
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceXII measure 159 / measure 2]                                               %! _comment_measure_numbers
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA ViolaVoiceXII measure 160 / measure 3]                                                   %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
@@ -4506,7 +4506,7 @@ AA_ViolaStaffVI = <<
 
 
 AA_ViolaVoiceXIII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceXIII measure 158 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4521,7 +4521,7 @@ AA_ViolaVoiceXIII_a = {
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        r4
+        r4                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Vle. (13-14)”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4535,55 +4535,55 @@ AA_ViolaVoiceXIII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceXIII measure 159 / measure 2]                                              %! _comment_measure_numbers
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA ViolaVoiceXIII measure 160 / measure 3]                                                  %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -4605,53 +4605,53 @@ AA_ViolaVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r16
+    r16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
     % [AA ViolaVoiceXIV measure 159 / measure 2]                                                   %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceXIV measure 160 / measure 3]                                                   %! _comment_measure_numbers
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
 }
 
@@ -4684,7 +4684,7 @@ AA_ViolaVoiceXV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4.
+    r4.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4698,61 +4698,61 @@ AA_ViolaVoiceXV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA ViolaVoiceXV measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceXV measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -4778,55 +4778,55 @@ AA_ViolaVoiceXVI_a = {
     r2
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceXVI measure 159 / measure 2]                                               %! _comment_measure_numbers
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA ViolaVoiceXVI measure 160 / measure 3]                                                   %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -4844,7 +4844,7 @@ AA_ViolaStaffVIII = <<
 
 
 AA_ViolaVoiceXVII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceXVII measure 158 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4859,7 +4859,7 @@ AA_ViolaVoiceXVII_a = {
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        r4
+        r4                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Vle. (17-18)”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4873,53 +4873,53 @@ AA_ViolaVoiceXVII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA ViolaVoiceXVII measure 159 / measure 2]                                                  %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA ViolaVoiceXVII measure 160 / measure 3]                                              %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -4941,61 +4941,61 @@ AA_ViolaVoiceXVIII_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    b16
+    b16                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA ViolaVoiceXVIII measure 159 / measure 2]                                                 %! _comment_measure_numbers
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
     % [AA ViolaVoiceXVIII measure 160 / measure 3]                                                 %! _comment_measure_numbers
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
 }
 
@@ -5029,7 +5029,7 @@ AA_CelloVoiceI_a = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    d'16
+    d'16                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -5045,61 +5045,61 @@ AA_CelloVoiceI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4..
+    r4..                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
     % [AA CelloVoiceI measure 159 / measure 2]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA CelloVoiceI measure 160 / measure 3]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
 }
 
@@ -5123,53 +5123,53 @@ AA_CelloVoiceII_a = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceII measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA CelloVoiceII measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -5188,7 +5188,7 @@ AA_CelloStaffI = <<
 
 
 AA_CelloVoiceIII_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceIII measure 158 / measure 1]                                               %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5203,7 +5203,7 @@ AA_CelloVoiceIII_a = {
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                                                  %! IndicatorCommand:-PARTS
-        r8
+        r8                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Vc. (3-4)”]"                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5217,63 +5217,63 @@ AA_CelloVoiceIII_a = {
                     }                                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA CelloVoiceIII measure 159 / measure 2]                                                   %! _comment_measure_numbers
     r1
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceIII measure 160 / measure 3]                                               %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -5283,7 +5283,7 @@ AA_CelloVoiceIII = {
 
 
 AA_CelloVoiceIV_a = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceIV measure 158 / measure 1]                                                %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -5296,68 +5296,68 @@ AA_CelloVoiceIV_a = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                                                  %! IndicatorCommand:-PARTS
-        b8
+        b8                                                                                         %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA CelloVoiceIV measure 159 / measure 2]                                                    %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceIV measure 160 / measure 3]                                                %! _comment_measure_numbers
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -5392,7 +5392,7 @@ AA_CelloVoiceV_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5406,59 +5406,59 @@ AA_CelloVoiceV_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [AA CelloVoiceV measure 159 / measure 2]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceV measure 160 / measure 3]                                                     %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
 }
 
@@ -5481,53 +5481,53 @@ AA_CelloVoiceVI_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r4
+    r4                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceVI measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceVI measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
 }
 
@@ -5573,68 +5573,68 @@ AA_CelloVoiceVII_a = {
                     (7-8)                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA CelloVoiceVII measure 159 / measure 2]                                                   %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceVII measure 160 / measure 3]                                               %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -5662,46 +5662,46 @@ AA_CelloVoiceVIII_a = {
     r2
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [AA CelloVoiceVIII measure 159 / measure 2]                                                  %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
     
     % [AA CelloVoiceVIII measure 160 / measure 3]                                                  %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -5736,7 +5736,7 @@ AA_CelloVoiceIX_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r2.
+    r2.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5750,47 +5750,47 @@ AA_CelloVoiceIX_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
     % [AA CelloVoiceIX measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
     % [AA CelloVoiceIX measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
 }
 
@@ -5813,61 +5813,61 @@ AA_CelloVoiceX_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceX measure 159 / measure 2]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceX measure 160 / measure 3]                                                     %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
 }
 
@@ -5900,7 +5900,7 @@ AA_CelloVoiceXI_a = {
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
-    r8
+    r8                                                                                             %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5914,61 +5914,61 @@ AA_CelloVoiceXI_a = {
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceXI measure 159 / measure 2]                                                    %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
     % [AA CelloVoiceXI measure 160 / measure 3]                                                    %! _comment_measure_numbers
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
+    d'16                                                                                           %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    d'16
-    [
+    d'16                                                                                           %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    d'16
-    ]
+    d'16                                                                                           %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4.
+    r4.                                                                                            %! clb_rhythm
     
 }
 
@@ -5994,48 +5994,48 @@ AA_CelloVoiceXII_a = {
     r2
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        b8
-        [
+        b8                                                                                         %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        b8
-        ]
-    }
+        b8                                                                                         %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceXII measure 159 / measure 2]                                               %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        b8
-    }
-    \times 2/3 {
+        b8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceXII measure 160 / measure 3]                                               %! _comment_measure_numbers
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        b8
+        b8                                                                                         %! clb_rhythm
         
-        r4
-    }
+        r4                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
@@ -6083,67 +6083,67 @@ AA_CelloVoiceXIII_a = {
                     (13-14)                                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
-    \times 2/3 {
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
         
-        r8
-    }
+        r8                                                                                         %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
         % [AA CelloVoiceXIII measure 159 / measure 2]                                              %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! clb_rhythm
         
-        d'8
-        [
+        d'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
-        d'8
-        ]
-    }
+        d'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
     
     % [AA CelloVoiceXIII measure 160 / measure 3]                                                  %! _comment_measure_numbers
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
-    }
+        d'8                                                                                        %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     r4
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! clb_rhythm
         
-        r4
+        r4                                                                                         %! clb_rhythm
         
-        d'8
+        d'8                                                                                        %! clb_rhythm
         
-    }
+    }                                                                                              %! clb_rhythm
 }
 
 
@@ -6165,53 +6165,53 @@ AA_CelloVoiceXIV_a = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
-    r8.
+    r8.                                                                                            %! clb_rhythm
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
-    r2
+    r2                                                                                             %! clb_rhythm
     
     % [AA CelloVoiceXIV measure 159 / measure 2]                                                   %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r4
+    r4                                                                                             %! clb_rhythm
     
-    r16
+    r16                                                                                            %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    b16
+    b16                                                                                            %! clb_rhythm
     
-    r8.
+    r8.                                                                                            %! clb_rhythm
     
     % [AA CelloVoiceXIV measure 160 / measure 3]                                                   %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! clb_rhythm
     
-    b16
-    [
+    b16                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
-    b16
-    ]
+    b16                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
-    r2.
+    r2.                                                                                            %! clb_rhythm
     
 }
 

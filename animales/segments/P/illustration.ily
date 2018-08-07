@@ -510,114 +510,114 @@ P_HornVoiceI_a = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'2
+    d'2                                                                                            %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceI measure 111 / measure 3]                                                       %! _comment_measure_numbers
-    d'4
+    d'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'4
+        d'4                                                                                        %! brass_manifest_rhythm
         
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    e'2
+    e'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceI measure 112 / measure 4]                                                       %! _comment_measure_numbers
-    e'4
+    e'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         \mf                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r4
-    }
+        r4                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'2
+    d'2                                                                                            %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceI measure 113 / measure 5]                                                       %! _comment_measure_numbers
-    d'4
+    d'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'4
+        d'4                                                                                        %! brass_manifest_rhythm
         
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    e'2
+    e'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceI measure 114 / measure 6]                                                       %! _comment_measure_numbers
-    e'4
+    e'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r4
-    }
+        r4                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'4
+    d'4                                                                                            %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceI measure 115 / measure 7]                                                       %! _comment_measure_numbers
-    d'2
+    d'2                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'4
+        d'4                                                                                        %! brass_manifest_rhythm
         
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceI measure 116 / measure 8]                                                       %! _comment_measure_numbers
-    e'2.
+    e'2.                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r4
-    }
+        r4                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceI measure 117 / measure 9]                                                       %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'4
+        d'4                                                                                        %! brass_manifest_rhythm
         
-        e'8
+        e'8                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceI measure 118 / measure 10]                                                      %! _comment_measure_numbers
-    e'2
+    e'2                                                                                            %! brass_manifest_rhythm
     
 }
 
@@ -632,7 +632,7 @@ P_HornVoiceIII_a = {
     % [P HornVoiceIII measure 109 / measure 1]                                                     %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!2.
+    df'!2.                                                                                         %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -640,79 +640,79 @@ P_HornVoiceIII_a = {
     ~
     
     % [P HornVoiceIII measure 110 / measure 2]                                                     %! _comment_measure_numbers
-    df'!8
-    [
+    df'!8                                                                                          %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    ef'!8
+    ef'!8                                                                                          %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
-    ef'!2
+    ef'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIII measure 111 / measure 3]                                                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!4
+    ef'!4                                                                                          %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!2
+    df'!2                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceIII measure 112 / measure 4]                                                     %! _comment_measure_numbers
-    df'!4.
+    df'!4.                                                                                         %! brass_manifest_rhythm
     
-    ef'!8
+    ef'!8                                                                                          %! brass_manifest_rhythm
     ~
     
-    ef'!2
+    ef'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIII measure 113 / measure 5]                                                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!4
+    ef'!4                                                                                          %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!2
+    df'!2                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceIII measure 114 / measure 6]                                                     %! _comment_measure_numbers
-    df'!4.
+    df'!4.                                                                                         %! brass_manifest_rhythm
     
-    ef'!4.
+    ef'!4.                                                                                         %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIII measure 115 / measure 7]                                                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!2
+    ef'!2                                                                                          %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     % [P HornVoiceIII measure 116 / measure 8]                                                     %! _comment_measure_numbers
-    df'!2..
+    df'!2..                                                                                        %! brass_manifest_rhythm
     
-    ef'!8
+    ef'!8                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIII measure 117 / measure 9]                                                     %! _comment_measure_numbers
-    ef'!2.
+    ef'!2.                                                                                         %! brass_manifest_rhythm
     
     r4
     
     % [P HornVoiceIII measure 118 / measure 10]                                                    %! _comment_measure_numbers
-    df'!2
+    df'!2                                                                                          %! brass_manifest_rhythm
     
 }
 
@@ -769,115 +769,115 @@ P_HornVoiceII_a = {
     
     % [P HornVoiceII measure 110 / measure 2]                                                      %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceII measure 111 / measure 3]                                                      %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         
-        e'4
+        e'4                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceII measure 112 / measure 4]                                                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'2.
+    e'2.                                                                                           %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceII measure 113 / measure 5]                                                      %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         
-        e'4
+        e'4                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P HornVoiceII measure 114 / measure 6]                                                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'2.
+    e'2.                                                                                           %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P HornVoiceII measure 115 / measure 7]                                                  %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    d'2
+    d'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceII measure 116 / measure 8]                                                      %! _comment_measure_numbers
-    d'4
+    d'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         
-        e'4
+        e'4                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    e'2
+    e'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceII measure 117 / measure 9]                                                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'4
+    e'4                                                                                            %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    d'2
+    d'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceII measure 118 / measure 10]                                                     %! _comment_measure_numbers
-    d'4
+    d'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        d'8
+        d'8                                                                                        %! brass_manifest_rhythm
         
-        e'4
+        e'4                                                                                        %! brass_manifest_rhythm
         
-    }
+    }                                                                                              %! brass_manifest_rhythm
 }
 
 
@@ -896,106 +896,106 @@ P_HornVoiceIV_a = {
     ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!4.
+    df'!4.                                                                                         %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceIV measure 110 / measure 2]                                                      %! _comment_measure_numbers
-    df'!2
+    df'!2                                                                                          %! brass_manifest_rhythm
     
-    ef'!4
+    ef'!4                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIV measure 111 / measure 3]                                                      %! _comment_measure_numbers
-    ef'!2
+    ef'!2                                                                                          %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef'!4
+        ef'!4                                                                                      %! brass_manifest_rhythm
         \mf                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r8
-    }
+        r8                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!8
+    df'!8                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceIV measure 112 / measure 4]                                                      %! _comment_measure_numbers
-    df'!2.
+    df'!2.                                                                                         %! brass_manifest_rhythm
     
-    ef'!4
+    ef'!4                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIV measure 113 / measure 5]                                                      %! _comment_measure_numbers
-    ef'!2
+    ef'!2                                                                                          %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef'!4
+        ef'!4                                                                                      %! brass_manifest_rhythm
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r8
-    }
+        r8                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df'!8
+    df'!8                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P HornVoiceIV measure 114 / measure 6]                                                      %! _comment_measure_numbers
-    df'!2.
+    df'!2.                                                                                         %! brass_manifest_rhythm
     
     % [P HornVoiceIV measure 115 / measure 7]                                                      %! _comment_measure_numbers
-    ef'!2.
+    ef'!2.                                                                                         %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P HornVoiceIV measure 116 / measure 8]                                                  %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef'!4
+        ef'!4                                                                                      %! brass_manifest_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r8
-    }
+        r8                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    df'!8
+    df'!8                                                                                          %! brass_manifest_rhythm
     ~
     
-    df'!2
+    df'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P HornVoiceIV measure 117 / measure 9]                                                      %! _comment_measure_numbers
-    df'!4
+    df'!4                                                                                          %! brass_manifest_rhythm
     
-    ef'!2.
+    ef'!2.                                                                                         %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P HornVoiceIV measure 118 / measure 10]                                                 %! _comment_measure_numbers
-        ef'!4
+        ef'!4                                                                                      %! brass_manifest_rhythm
         
-        r8
-    }
+        r8                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    df'!8
+    df'!8                                                                                          %! brass_manifest_rhythm
     
 }
 
@@ -1052,88 +1052,88 @@ P_TrumpetVoiceI_a = {
     
     % [P TrumpetVoiceI measure 110 / measure 2]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf'!2.
+    gf'!2.                                                                                         %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [P TrumpetVoiceI measure 111 / measure 3]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!2.
+    af'!2.                                                                                         %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     % [P TrumpetVoiceI measure 112 / measure 4]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf'!2.
+    gf'!2.                                                                                         %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
-    af'!4
+    af'!4                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceI measure 113 / measure 5]                                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!2
+    af'!2                                                                                          %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf'!4
+    gf'!4                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TrumpetVoiceI measure 114 / measure 6]                                                    %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! brass_manifest_rhythm
     
-    af'!4
+    af'!4                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceI measure 115 / measure 7]                                                    %! _comment_measure_numbers
-    af'!2
+    af'!2                                                                                          %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        af'!8
+        af'!8                                                                                      %! brass_manifest_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r4
-    }
+        r4                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TrumpetVoiceI measure 116 / measure 8]                                                    %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        gf'!8
+        gf'!8                                                                                      %! brass_manifest_rhythm
         
-        af'!4
+        af'!4                                                                                      %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TrumpetVoiceI measure 117 / measure 9]                                                    %! _comment_measure_numbers
-    af'!2
+    af'!2                                                                                          %! brass_manifest_rhythm
     ~
     
-    af'!8
+    af'!8                                                                                          %! brass_manifest_rhythm
     
-    r8
-    \times 2/3 {
+    r8                                                                                             %! brass_manifest_rhythm
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r8
+        r8                                                                                         %! brass_manifest_rhythm
         
-        gf'!4
+        gf'!4                                                                                      %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TrumpetVoiceI measure 118 / measure 10]                                                   %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! brass_manifest_rhythm
     
 }
 
@@ -1148,123 +1148,123 @@ P_TrumpetVoiceIII_a = {
     % [P TrumpetVoiceIII measure 109 / measure 1]                                                  %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'2.
+    f'2.                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [P TrumpetVoiceIII measure 110 / measure 2]                                                  %! _comment_measure_numbers
-    g'2.
+    g'2.                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TrumpetVoiceIII measure 111 / measure 3]                                              %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        g'8
+        g'8                                                                                        %! brass_manifest_rhythm
         \mf                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r4
-    }
+        r4                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'2.
+    f'2.                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TrumpetVoiceIII measure 112 / measure 4]                                              %! _comment_measure_numbers
-        f'8
+        f'8                                                                                        %! brass_manifest_rhythm
         
-        g'4
+        g'4                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     ~
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'8
+    g'8                                                                                            %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
-    \times 2/3 {
+    r8                                                                                             %! brass_manifest_rhythm
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TrumpetVoiceIII measure 113 / measure 5]                                              %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f'4
+        f'4                                                                                        %! brass_manifest_rhythm
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     ~
     
-    f'8
-    [
+    f'8                                                                                            %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    g'8
+    g'8                                                                                            %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
     % [P TrumpetVoiceIII measure 114 / measure 6]                                                  %! _comment_measure_numbers
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     ~
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'8
+    g'8                                                                                            %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     % [P TrumpetVoiceIII measure 115 / measure 7]                                                  %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    f'8
+    f'8                                                                                            %! brass_manifest_rhythm
     ~
     
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIII measure 116 / measure 8]                                                  %! _comment_measure_numbers
-    f'8
-    [
+    f'8                                                                                            %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    g'8
+    g'8                                                                                            %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     ~
     
-    g'8
+    g'8                                                                                            %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     % [P TrumpetVoiceIII measure 117 / measure 9]                                                  %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    f'8
+    f'8                                                                                            %! brass_manifest_rhythm
     ~
     
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     ~
     
-    f'8
-    [
+    f'8                                                                                            %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    g'8
+    g'8                                                                                            %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
     % [P TrumpetVoiceIII measure 118 / measure 10]                                                 %! _comment_measure_numbers
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     
 }
 
@@ -1323,107 +1323,107 @@ P_TrumpetVoiceII_a = {
     r4.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf'!4.
+    gf'!4.                                                                                         %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TrumpetVoiceII measure 111 / measure 3]                                                   %! _comment_measure_numbers
-    gf'!4.
+    gf'!4.                                                                                         %! brass_manifest_rhythm
     
-    af'!8
+    af'!8                                                                                          %! brass_manifest_rhythm
     ~
     
-    af'!2
+    af'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceII measure 112 / measure 4]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!8
+    af'!8                                                                                          %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf'!8
+    gf'!8                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
-    gf'!2
+    gf'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceII measure 113 / measure 5]                                                   %! _comment_measure_numbers
-    gf'!8
-    [
+    gf'!8                                                                                          %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    af'!8
+    af'!8                                                                                          %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
-    af'!2
+    af'!2                                                                                          %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        af'!4
+        af'!4                                                                                      %! brass_manifest_rhythm
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r8
-    }
+        r8                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TrumpetVoiceII measure 114 / measure 6]                                                   %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf'!8
+    gf'!8                                                                                          %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
-    gf'!2
+    gf'!2                                                                                          %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TrumpetVoiceII measure 115 / measure 7]                                               %! _comment_measure_numbers
-        gf'!4
+        gf'!4                                                                                      %! brass_manifest_rhythm
         
-        af'!8
+        af'!8                                                                                      %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    af'!2
+    af'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceII measure 116 / measure 8]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!4
+    af'!4                                                                                          %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
-        gf'!8
+        gf'!8                                                                                      %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    gf'!2
+    gf'!2                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceII measure 117 / measure 9]                                                   %! _comment_measure_numbers
-    gf'!4
+    gf'!4                                                                                          %! brass_manifest_rhythm
     
-    af'!2.
+    af'!2.                                                                                         %! brass_manifest_rhythm
     
     % [P TrumpetVoiceII measure 118 / measure 10]                                                  %! _comment_measure_numbers
     r4
     
-    gf'!4
+    gf'!4                                                                                          %! brass_manifest_rhythm
     
 }
 
@@ -1443,99 +1443,99 @@ P_TrumpetVoiceIV_a = {
     ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'4.
+    f'4.                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TrumpetVoiceIV measure 110 / measure 2]                                                   %! _comment_measure_numbers
-    f'4
+    f'4                                                                                            %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        f'4
+        f'4                                                                                        %! brass_manifest_rhythm
         
-        g'8
+        g'8                                                                                        %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    g'4
+    g'4                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 111 / measure 3]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f'8
+        f'8                                                                                        %! brass_manifest_rhythm
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    f'4
+    f'4                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 112 / measure 4]                                                   %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 113 / measure 5]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'4
+    g'4                                                                                            %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TrumpetVoiceIV measure 114 / measure 6]                                                   %! _comment_measure_numbers
-    f'4
+    f'4                                                                                            %! brass_manifest_rhythm
     
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 115 / measure 7]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'4
+    g'4                                                                                            %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
-    f'4
+    f'4                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 116 / measure 8]                                                   %! _comment_measure_numbers
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     
-    g'2
+    g'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 117 / measure 9]                                                   %! _comment_measure_numbers
-    g'4
+    g'4                                                                                            %! brass_manifest_rhythm
     
     r4
     
-    f'2
+    f'2                                                                                            %! brass_manifest_rhythm
     ~
     
     % [P TrumpetVoiceIV measure 118 / measure 10]                                                  %! _comment_measure_numbers
-    f'4
+    f'4                                                                                            %! brass_manifest_rhythm
     
-    g'4
+    g'4                                                                                            %! brass_manifest_rhythm
     
 }
 
@@ -1594,107 +1594,107 @@ P_TromboneVoiceI_a = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceI measure 111 / measure 3]                                                   %! _comment_measure_numbers
-    gf!4
+    gf!4                                                                                           %! brass_manifest_rhythm
     
-    af!2
+    af!2                                                                                           %! brass_manifest_rhythm
     ~
     
-    af!8
-    [
+    af!8                                                                                           %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    gf!8
+    gf!8                                                                                           %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceI measure 112 / measure 4]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!4
+    af!4                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceI measure 113 / measure 5]                                                   %! _comment_measure_numbers
-    af!4
+    af!4                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        af!4
+        af!4                                                                                       %! brass_manifest_rhythm
         
-        gf!8
+        gf!8                                                                                       %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceI measure 114 / measure 6]                                                   %! _comment_measure_numbers
-    gf!8
-    [
+    gf!8                                                                                           %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    af!8
+    af!8                                                                                           %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!2
+    af!2                                                                                           %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     % [P TromboneVoiceI measure 115 / measure 7]                                                   %! _comment_measure_numbers
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceI measure 116 / measure 8]                                                   %! _comment_measure_numbers
-    gf!8
-    [
+    gf!8                                                                                           %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    af!8
+    af!8                                                                                           %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
-    af!2
+    af!2                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        af!8
+        af!8                                                                                       %! brass_manifest_rhythm
         
-        gf!4
+        gf!4                                                                                       %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceI measure 117 / measure 9]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
-    af!4
+    af!4                                                                                           %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceI measure 118 / measure 10]                                                  %! _comment_measure_numbers
-    af!4.
+    af!4.                                                                                          %! brass_manifest_rhythm
     
-    gf!8
+    gf!8                                                                                           %! brass_manifest_rhythm
     
 }
 
@@ -1709,114 +1709,114 @@ P_TromboneVoiceIII_a = {
     % [P TromboneVoiceIII measure 109 / measure 1]                                                 %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        f4
+        f4                                                                                         %! brass_manifest_rhythm
         
-        g8
+        g8                                                                                         %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceIII measure 110 / measure 2]                                                 %! _comment_measure_numbers
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     ~
     
-    g8
-    [
+    g8                                                                                             %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    f8
+    f8                                                                                             %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceIII measure 111 / measure 3]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g4
+    g4                                                                                             %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceIII measure 112 / measure 4]                                                 %! _comment_measure_numbers
-    g4.
+    g4.                                                                                            %! brass_manifest_rhythm
     
-    f8
+    f8                                                                                             %! brass_manifest_rhythm
     ~
     
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TromboneVoiceIII measure 113 / measure 5]                                             %! _comment_measure_numbers
-        f8
+        f8                                                                                         %! brass_manifest_rhythm
         
-        g4
+        g4                                                                                         %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
     r4
     
     % [P TromboneVoiceIII measure 114 / measure 6]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
-    f8
-    [
+    f8                                                                                             %! brass_manifest_rhythm
+    [                                                                                              %! brass_manifest_rhythm
     
-    g8
+    g8                                                                                             %! brass_manifest_rhythm
     ~
-    ]
+    ]                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceIII measure 115 / measure 7]                                                 %! _comment_measure_numbers
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     
-    f4
+    f4                                                                                             %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceIII measure 116 / measure 8]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
-        g8
+        g8                                                                                         %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    g4
+    g4                                                                                             %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceIII measure 117 / measure 9]                                                 %! _comment_measure_numbers
-    g4.
+    g4.                                                                                            %! brass_manifest_rhythm
     
-    f8
+    f8                                                                                             %! brass_manifest_rhythm
     ~
     
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     
     % [P TromboneVoiceIII measure 118 / measure 10]                                                %! _comment_measure_numbers
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     
 }
 
@@ -1873,105 +1873,105 @@ P_TromboneVoiceII_a = {
     
     % [P TromboneVoiceII measure 110 / measure 2]                                                  %! _comment_measure_numbers
     r2
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        r4
+        r4                                                                                         %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        gf!8
+        gf!8                                                                                       %! brass_manifest_rhythm
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceII measure 111 / measure 3]                                                  %! _comment_measure_numbers
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     ~
     
-    gf!8
+    gf!8                                                                                           %! brass_manifest_rhythm
     
-    af!4.
+    af!4.                                                                                          %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceII measure 112 / measure 4]                                                  %! _comment_measure_numbers
-    af!4
+    af!4                                                                                           %! brass_manifest_rhythm
     
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        gf!4
+        gf!4                                                                                       %! brass_manifest_rhythm
         \mf                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        r8
-    }
+        r8                                                                                         %! brass_manifest_rhythm
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceII measure 113 / measure 5]                                                  %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!8
+    af!8                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
-    af!2
+    af!2                                                                                           %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        af!8
+        af!8                                                                                       %! brass_manifest_rhythm
         
-        gf!4
+        gf!4                                                                                       %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
     % [P TromboneVoiceII measure 114 / measure 6]                                                  %! _comment_measure_numbers
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     
-    af!4
+    af!4                                                                                           %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceII measure 115 / measure 7]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!4.
+    af!4.                                                                                          %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!8
+    gf!8                                                                                           %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceII measure 116 / measure 8]                                                  %! _comment_measure_numbers
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     
-    af!2
+    af!2                                                                                           %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceII measure 117 / measure 9]                                                  %! _comment_measure_numbers
-    af!4
+    af!4                                                                                           %! brass_manifest_rhythm
     
-    gf!2
+    gf!2                                                                                           %! brass_manifest_rhythm
     ~
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!8
+    gf!8                                                                                           %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     % [P TromboneVoiceII measure 118 / measure 10]                                                 %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    af!4.
+    af!4.                                                                                          %! brass_manifest_rhythm
     
 }
 
@@ -1991,115 +1991,115 @@ P_TromboneVoiceIV_a = {
     ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f4.
+    f4.                                                                                            %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceIV measure 110 / measure 2]                                                  %! _comment_measure_numbers
-    f4
+    f4                                                                                             %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
-        f8
+        f8                                                                                         %! brass_manifest_rhythm
         
-        g4
+        g4                                                                                         %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    g4
+    g4                                                                                             %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceIV measure 111 / measure 3]                                                  %! _comment_measure_numbers
-    g4
+    g4                                                                                             %! brass_manifest_rhythm
     
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     ~
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f8
+    f8                                                                                             %! brass_manifest_rhythm
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     % [P TromboneVoiceIV measure 112 / measure 4]                                                  %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g8
+    g8                                                                                             %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     
-    f4
+    f4                                                                                             %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceIV measure 113 / measure 5]                                                  %! _comment_measure_numbers
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceIV measure 114 / measure 6]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g8
+    g8                                                                                             %! brass_manifest_rhythm
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
-    r8
+    r8                                                                                             %! brass_manifest_rhythm
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f4.
+    f4.                                                                                            %! brass_manifest_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
     
     % [P TromboneVoiceIV measure 115 / measure 7]                                                  %! _comment_measure_numbers
-    f4
+    f4                                                                                             %! brass_manifest_rhythm
     
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     ~
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TromboneVoiceIV measure 116 / measure 8]                                              %! _comment_measure_numbers
-        g4
+        g4                                                                                         %! brass_manifest_rhythm
         
-        f8
+        f8                                                                                         %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    f2
+    f2                                                                                             %! brass_manifest_rhythm
     ~
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f8
+    f8                                                                                             %! brass_manifest_rhythm
     \ff                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    r8
-    \times 2/3 {
+    r8                                                                                             %! brass_manifest_rhythm
+    \times 2/3 {                                                                                   %! brass_manifest_rhythm
         
         % [P TromboneVoiceIV measure 117 / measure 9]                                              %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! brass_manifest_rhythm
         
-        g4
+        g4                                                                                         %! brass_manifest_rhythm
         ~
-    }
+    }                                                                                              %! brass_manifest_rhythm
     
-    g2
+    g2                                                                                             %! brass_manifest_rhythm
     
-    f4
+    f4                                                                                             %! brass_manifest_rhythm
     ~
     
     % [P TromboneVoiceIV measure 118 / measure 10]                                                 %! _comment_measure_numbers
-    f4.
+    f4.                                                                                            %! brass_manifest_rhythm
     
-    g8
+    g8                                                                                             %! brass_manifest_rhythm
     
 }
 

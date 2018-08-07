@@ -217,7 +217,7 @@ Q_HornVoiceI_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'8
+    d'8                                                                                            %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -295,7 +295,7 @@ Q_HornVoiceIII_a = {
     % [Q HornVoiceIII measure 119 / measure 1]                                                     %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!8
+    ef'!8                                                                                          %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -385,7 +385,7 @@ Q_HornVoiceII_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'8
+    d'8                                                                                            %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -463,7 +463,7 @@ Q_HornVoiceIV_a = {
     % [Q HornVoiceIV measure 119 / measure 1]                                                      %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!8
+    ef'!8                                                                                          %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -553,7 +553,7 @@ Q_TrumpetVoiceI_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!8
+    af'!8                                                                                          %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -631,7 +631,7 @@ Q_TrumpetVoiceIII_a = {
     % [Q TrumpetVoiceIII measure 119 / measure 1]                                                  %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'8
+    f'8                                                                                            %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -721,7 +721,7 @@ Q_TrumpetVoiceII_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!8
+    af'!8                                                                                          %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -799,7 +799,7 @@ Q_TrumpetVoiceIV_a = {
     % [Q TrumpetVoiceIV measure 119 / measure 1]                                                   %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'8
+    f'8                                                                                            %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -889,7 +889,7 @@ Q_TromboneVoiceI_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!8
+    af!8                                                                                           %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -967,7 +967,7 @@ Q_TromboneVoiceIII_a = {
     % [Q TromboneVoiceIII measure 119 / measure 1]                                                 %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f8
+    f8                                                                                             %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
@@ -1057,7 +1057,7 @@ Q_TromboneVoiceII_a = {
     \dynamicUp                                                                                     %! IndicatorCommand:-PARTS
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gf!8
+    gf!8                                                                                           %! downbeat_attack
 %%% \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     ^ \markup \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1135,7 +1135,7 @@ Q_TromboneVoiceIV_a = {
     % [Q TromboneVoiceIV measure 119 / measure 1]                                                  %! _comment_measure_numbers
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f8
+    f8                                                                                             %! downbeat_attack
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
