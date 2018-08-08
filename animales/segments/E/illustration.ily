@@ -24,9 +24,9 @@ E_GlobalRests = {
 E_GlobalSkips = {
     
     % [E GlobalSkips measure 30 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.bound-details.left.padding = #1                                          %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.Y-offset = #8                                                            %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \override TextSpanner.bound-details.left.padding = #1                                          %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
+%%% \override TextSpanner.Y-offset = #8                                                            %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(1)
     \time 4/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #5                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -110,8 +110,8 @@ E_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [E.6]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[1'02'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-%%% \revert TextSpanner.bound-details.left.padding                                                 %! OverrideCommand(2):+TABLOID_SCORE
-%%% \revert TextSpanner.Y-offset                                                                   %! OverrideCommand(2):+TABLOID_SCORE
+%%% \revert TextSpanner.bound-details.left.padding                                                 %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
+%%% \revert TextSpanner.Y-offset                                                                   %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     

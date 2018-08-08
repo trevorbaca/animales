@@ -24,8 +24,8 @@ M_GlobalRests = {
 M_GlobalSkips = {
     
     % [M GlobalSkips measure 82 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                                     %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.bound-details.left.padding = #-2                                         %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                                     %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \override TextSpanner.bound-details.left.padding = #-2                                         %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
     \time 3/4                                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #13                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -105,7 +105,7 @@ M_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [M.6]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[2'55'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-%%% \revert TextSpanner.bound-details.left.padding                                                 %! OverrideCommand(2):+TABLOID_SCORE
+%%% \revert TextSpanner.bound-details.left.padding                                                 %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -1158,7 +1158,7 @@ M_PercussionStaffIII = {
 M_FirstViolinVoiceIII_a = {
     
     % [M FirstViolinVoiceIII measure 82 / measure 1]                                               %! _comment_measure_numbers
-    \override DynamicLineSpanner.direction = #up                                                   %! OverrideCommand(1):-PARTS
+    \override DynamicLineSpanner.direction = #up                                                   %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'4                                                                                            %! glissando_rhythm
@@ -1210,7 +1210,7 @@ M_FirstViolinVoiceIII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8                                                                                            %! glissando_rhythm
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \revert DynamicLineSpanner.direction                                                           %! OverrideCommand(2):-PARTS
+    \revert DynamicLineSpanner.direction                                                           %! -PARTS:baca_dls_up:OverrideCommand(2)
     
     % [M FirstViolinVoiceIII measure 85 / measure 4]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences

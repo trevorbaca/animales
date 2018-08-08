@@ -305,7 +305,7 @@ i_FirstViolinVoiceI_a = {
                     (1-10)                                                                         %! IndicatorCommand:baca_start_markup:-PARTS
                 }                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -360,7 +360,7 @@ i_FirstViolinVoiceI_a = {
     af'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -399,7 +399,7 @@ i_FirstViolinVoiceIII_a = {
                     (11-18)                                                                        %! IndicatorCommand:baca_start_markup:-PARTS
                 }                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #6                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -467,7 +467,7 @@ i_FirstViolinVoiceIII_a = {
     af'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -506,7 +506,7 @@ i_SecondViolinVoiceI_a = {
                     (1-10)                                                                         %! IndicatorCommand:baca_start_markup:-PARTS
                 }                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -573,7 +573,7 @@ i_SecondViolinVoiceI_a = {
     af'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -612,7 +612,7 @@ i_SecondViolinVoiceIII_a = {
                     (11-18)                                                                        %! IndicatorCommand:baca_start_markup:-PARTS
                 }                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #6                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -686,7 +686,7 @@ i_SecondViolinVoiceIII_a = {
     af'!2.                                                                                         %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -725,7 +725,7 @@ i_ViolaVoiceI_a = {
                     (1-10)                                                                         %! IndicatorCommand:baca_start_markup:-PARTS
                 }                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -787,7 +787,7 @@ i_ViolaVoiceI_a = {
     af'!4.                                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -826,7 +826,7 @@ i_ViolaVoiceIII_a = {
                     (11-18)                                                                        %! IndicatorCommand:baca_start_markup:-PARTS
                 }                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -879,7 +879,7 @@ i_ViolaVoiceIII_a = {
     af'!4                                                                                          %! sforzando_exchange_rhythm
     - \accent                                                                                      %! IndicatorCommand
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -910,7 +910,7 @@ i_CelloVoiceI_a = {
             #16                                                                                    %! IndicatorCommand:baca_start_markup:-PARTS
             Cellos                                                                                 %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "tenor"                                                                                  %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)                          %! DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -970,7 +970,7 @@ i_CelloVoiceI_a = {
     af'!1                                                                                          %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
 }
 

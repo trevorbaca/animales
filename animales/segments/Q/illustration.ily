@@ -54,7 +54,7 @@ Q_GlobalRests = {
 Q_GlobalSkips = {
     
     % [Q GlobalSkips measure 119 / measure 1]                                                      %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                                     %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                                     %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #17                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -1218,10 +1218,10 @@ Q_FirstViolinVoiceI_a = {
                     (5-8)                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1349,10 +1349,10 @@ Q_FirstViolinVoiceI_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -1365,7 +1365,7 @@ Q_FirstViolinVoiceI = {
 Q_FirstViolinVoiceII_a = {
     
     % [Q FirstViolinVoiceII measure 119 / measure 1]                                               %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -1473,7 +1473,7 @@ Q_FirstViolinVoiceII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -1505,10 +1505,10 @@ Q_FirstViolinVoiceIII_a = {
                     (13-17)                                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1636,10 +1636,10 @@ Q_FirstViolinVoiceIII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -1652,7 +1652,7 @@ Q_FirstViolinVoiceIII = {
 Q_FirstViolinVoiceIV_a = {
     
     % [Q FirstViolinVoiceIV measure 119 / measure 1]                                               %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -1760,7 +1760,7 @@ Q_FirstViolinVoiceIV_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -1905,10 +1905,10 @@ Q_SecondViolinVoiceI_a = {
                     (5-8)                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2040,10 +2040,10 @@ Q_SecondViolinVoiceI_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -2056,7 +2056,7 @@ Q_SecondViolinVoiceI = {
 Q_SecondViolinVoiceII_a = {
     
     % [Q SecondViolinVoiceII measure 119 / measure 1]                                              %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -2164,7 +2164,7 @@ Q_SecondViolinVoiceII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -2196,10 +2196,10 @@ Q_SecondViolinVoiceIII_a = {
                     (13-18)                                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2327,10 +2327,10 @@ Q_SecondViolinVoiceIII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -2343,7 +2343,7 @@ Q_SecondViolinVoiceIII = {
 Q_SecondViolinVoiceIV_a = {
     
     % [Q SecondViolinVoiceIV measure 119 / measure 1]                                              %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -2451,7 +2451,7 @@ Q_SecondViolinVoiceIV_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -2483,10 +2483,10 @@ Q_ViolaVoiceI_a = {
                     (5-8)                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2614,10 +2614,10 @@ Q_ViolaVoiceI_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -2630,7 +2630,7 @@ Q_ViolaVoiceI = {
 Q_ViolaVoiceII_a = {
     
     % [Q ViolaVoiceII measure 119 / measure 1]                                                     %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -2738,7 +2738,7 @@ Q_ViolaVoiceII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -2770,10 +2770,10 @@ Q_ViolaVoiceIII_a = {
                     (13-18)                                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2901,10 +2901,10 @@ Q_ViolaVoiceIII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -2917,7 +2917,7 @@ Q_ViolaVoiceIII = {
 Q_ViolaVoiceIV_a = {
     
     % [Q ViolaVoiceIV measure 119 / measure 1]                                                     %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -3025,7 +3025,7 @@ Q_ViolaVoiceIV_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -3057,10 +3057,10 @@ Q_CelloVoiceI_a = {
                     (9-14)                                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):+PARTS
-    \override DynamicText.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
-    \override Hairpin.stencil = ##f                                                                %! OverrideCommand(1):-PARTS
-    \override TextSpanner.stencil = ##f                                                            %! OverrideCommand(1):-PARTS
+%%% \override TextSpanner.staff-padding = #5                                                       %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                                            %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                                                %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                                            %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3192,10 +3192,10 @@ Q_CelloVoiceI_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-%%% \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):+PARTS
-    \revert DynamicText.stencil                                                                    %! OverrideCommand(2):-PARTS
-    \revert Hairpin.stencil                                                                        %! OverrideCommand(2):-PARTS
-    \revert TextSpanner.stencil                                                                    %! OverrideCommand(2):-PARTS
+%%% \revert TextSpanner.staff-padding                                                              %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                                    %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                                        %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                                    %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
     
 }
 
@@ -3208,7 +3208,7 @@ Q_CelloVoiceI = {
 Q_CelloVoiceII_a = {
     
     % [Q CelloVoiceII measure 119 / measure 1]                                                     %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1):-PARTS
+    \override TextSpanner.staff-padding = #5                                                       %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -3316,7 +3316,7 @@ Q_CelloVoiceII_a = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2):-PARTS
+    \revert TextSpanner.staff-padding                                                              %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 

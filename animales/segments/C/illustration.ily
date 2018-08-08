@@ -65,7 +65,7 @@ C_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[0'31'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
     % [C GlobalSkips measure 20 / measure 3]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                                     %! OverrideCommand(1):+SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                                     %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \mark #3                                                                                       %! IndicatorCommand
     s1 * 1                                                                                         %! _make_global_skips(1)
 %@% ^ \markup \baca-dark-cyan-markup (20)                                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -1045,7 +1045,7 @@ C_PercussionStaffII = {
 C_FirstViolinVoiceII_a = {
     
     % [C FirstViolinVoiceII measure 20 / measure 3]                                                %! _comment_measure_numbers
-    \override DynamicLineSpanner.direction = #up                                                   %! OverrideCommand(1):-PARTS
+    \override DynamicLineSpanner.direction = #up                                                   %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c''2                                                                                           %! glissando_rhythm
@@ -1124,7 +1124,7 @@ C_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'''4.                                                                                         %! glissando_rhythm
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \revert DynamicLineSpanner.direction                                                           %! OverrideCommand(2):-PARTS
+    \revert DynamicLineSpanner.direction                                                           %! -PARTS:baca_dls_up:OverrideCommand(2)
     
 }
 
@@ -1153,7 +1153,7 @@ C_FirstViolinVoiceI_a = {
                     (1-10)                                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1206,7 +1206,7 @@ C_FirstViolinVoiceI_b = {
                     }                                                                              %! IndicatorCommand:-PARTS
         }                                                                                          %! IndicatorCommand:-PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C FirstViolinVoiceI measure 21 / measure 4]                                                 %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes
@@ -1250,7 +1250,7 @@ C_FirstViolinVoiceIII_a = {
                     (11-18)                                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #6                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1289,7 +1289,7 @@ C_FirstViolinVoiceIII_a = {
     \baca_p_sub                                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C FirstViolinVoiceIII measure 21 / measure 4]                                               %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes
@@ -1330,7 +1330,7 @@ C_SecondViolinVoiceI_a = {
                     (1-10)                                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1369,7 +1369,7 @@ C_SecondViolinVoiceI_a = {
     \baca_p_sub                                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C SecondViolinVoiceI measure 21 / measure 4]                                                %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes
@@ -1410,7 +1410,7 @@ C_SecondViolinVoiceIII_a = {
                     (11-18)                                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #6                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1446,7 +1446,7 @@ C_SecondViolinVoiceIII_a = {
     \baca_p_sub                                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C SecondViolinVoiceIII measure 21 / measure 4]                                              %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes
@@ -1487,7 +1487,7 @@ C_ViolaVoiceI_a = {
                     (1-10)                                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1529,7 +1529,7 @@ C_ViolaVoiceI_a = {
     \baca_p_sub                                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C ViolaVoiceI measure 21 / measure 4]                                                       %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes
@@ -1572,7 +1572,7 @@ C_ViolaVoiceIII_a = {
                     (11-18)                                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1611,7 +1611,7 @@ C_ViolaVoiceIII_a = {
     \baca_p_sub                                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C ViolaVoiceIII measure 21 / measure 4]                                                     %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes
@@ -1650,7 +1650,7 @@ C_CelloVoiceI_a = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TrillSpanner.staff-padding = #4                                                      %! OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                                      %! baca_trill_spanner_staff_padding:OverrideCommand(1)
     \clef "tenor"                                                                                  %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1685,7 +1685,7 @@ C_CelloVoiceI_a = {
     \baca_p_sub                                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                                            %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TrillSpanner.staff-padding                                                             %! OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                                             %! baca_trill_spanner_staff_padding:OverrideCommand(2)
     
     % [C CelloVoiceI measure 21 / measure 4]                                                       %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeat_tied_notes

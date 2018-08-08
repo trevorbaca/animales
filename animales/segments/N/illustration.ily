@@ -19,7 +19,7 @@ N_GlobalRests = {
     R1 * 1                                                                                         %! _make_global_rests
     
     % [N GlobalRests measure 94 / measure 7]                                                       %! _comment_measure_numbers
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)                                 %! OverrideCommand(1):-PARTS
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)                                 %! -PARTS:baca_mmrest_text_extra_offset:OverrideCommand(1)
     \once \override Score.MultiMeasureRest.transparent = ##t                                       %! GlobalFermataCommand(2)
     \once \override Score.TimeSignature.stencil = ##f                                              %! GlobalFermataCommand(2)
     R1 * 1/4                                                                                       %! _make_global_rests
@@ -34,7 +34,7 @@ N_GlobalRests = {
 N_GlobalSkips = {
     
     % [N GlobalSkips measure 88 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                                     %! OverrideCommand(1):+SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                                     %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 4/4                                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #14                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -1244,7 +1244,7 @@ N_PercussionStaffIII = {
 N_FirstViolinVoiceII_a = {
     
     % [N FirstViolinVoiceII measure 88 / measure 1]                                                %! _comment_measure_numbers
-    \override DynamicLineSpanner.direction = #up                                                   %! OverrideCommand(1):-PARTS
+    \override DynamicLineSpanner.direction = #up                                                   %! -PARTS:baca_dls_up:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     g'4                                                                                            %! glissando_rhythm
@@ -1301,7 +1301,7 @@ N_FirstViolinVoiceII_a = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'4                                                                                            %! glissando_rhythm
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \revert DynamicLineSpanner.direction                                                           %! OverrideCommand(2):-PARTS
+    \revert DynamicLineSpanner.direction                                                           %! -PARTS:baca_dls_up:OverrideCommand(2)
     
     % [N FirstViolinVoiceII measure 91 / measure 4]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
