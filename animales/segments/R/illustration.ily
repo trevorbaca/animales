@@ -21,11 +21,11 @@ R_GlobalSkips = {
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca_time_signature_color "blue"                                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                                         %! _make_global_skips(1)
-%@% ^ \markup \baca-dark-cyan-markup (131)                                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \markup \baca-dark-cyan-markup <0>                                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \markup \baca-dark-cyan-markup ((1))                                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \markup \baca-dark-cyan-markup [R.1]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[4'19'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% ^ \baca-dark-cyan-markup (131)                                                                 %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \baca-dark-cyan-markup <0>                                                                   %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \baca-dark-cyan-markup ((1))                                                                 %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \baca-dark-cyan-markup [R.1]                                                                 %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup "[4'19'']"                                                            %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% - \abjad_invisible_line                                                                        %! _attach_metronome_marks(2)
 %@% - \tweak bound-details.left.text \markup {                                                     %! _attach_metronome_marks(2)
 %@%     \concat                                                                                    %! _attach_metronome_marks(2)
@@ -53,21 +53,21 @@ R_GlobalSkips = {
     \time 2/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                                       %! _make_global_skips(1)
-%@% ^ \markup \baca-dark-cyan-markup (132)                                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \markup \baca-dark-cyan-markup <1>                                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \markup \baca-dark-cyan-markup ((2))                                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \markup \baca-dark-cyan-markup [R.2]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[4'22'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% ^ \baca-dark-cyan-markup (132)                                                                 %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \baca-dark-cyan-markup <1>                                                                   %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \baca-dark-cyan-markup ((2))                                                                 %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \baca-dark-cyan-markup [R.2]                                                                 %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup "[4'22'']"                                                            %! CLOCK_TIME_MARKUP:_label_clock_time
     
     % [R GlobalSkips measure 133 / measure 3]                                                      %! _comment_measure_numbers
     \time 4/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                                         %! _make_global_skips(1)
-%@% ^ \markup \baca-dark-cyan-markup (133)                                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \markup \baca-dark-cyan-markup <2>                                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \markup \baca-dark-cyan-markup ((3))                                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \markup \baca-dark-cyan-markup [R.3]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[4'23'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% ^ \baca-dark-cyan-markup (133)                                                                 %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \baca-dark-cyan-markup <2>                                                                   %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \baca-dark-cyan-markup ((3))                                                                 %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \baca-dark-cyan-markup [R.3]                                                                 %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup "[4'23'']"                                                            %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
@@ -97,7 +97,7 @@ R_HornVoiceI = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
 %%% \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -126,7 +126,7 @@ R_HornVoiceIII = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1                                                                                         %! _call_rhythm_commands
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Horn”)"                                                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     % [R HornVoiceIII measure 132 / measure 2]                                                     %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _call_rhythm_commands
@@ -167,7 +167,7 @@ R_HornVoiceII = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
 %%% \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -196,7 +196,7 @@ R_HornVoiceIV = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1                                                                                         %! _call_rhythm_commands
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Horn”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Horn”)"                                                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     % [R HornVoiceIV measure 132 / measure 2]                                                      %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _call_rhythm_commands
@@ -237,7 +237,7 @@ R_TrumpetVoiceI = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
 %%% \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -266,7 +266,7 @@ R_TrumpetVoiceIII = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1                                                                                         %! _call_rhythm_commands
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Trumpet”)"                                               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     % [R TrumpetVoiceIII measure 132 / measure 2]                                                  %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _call_rhythm_commands
@@ -307,7 +307,7 @@ R_TrumpetVoiceII = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
 %%% \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -336,7 +336,7 @@ R_TrumpetVoiceIV = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1                                                                                         %! _call_rhythm_commands
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Trumpet”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Trumpet”)"                                               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     % [R TrumpetVoiceIV measure 132 / measure 2]                                                   %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _call_rhythm_commands
@@ -377,7 +377,7 @@ R_TromboneVoiceI = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
 %%% \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -406,7 +406,7 @@ R_TromboneVoiceIII = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1                                                                                         %! _call_rhythm_commands
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Trombone”)"                                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     % [R TromboneVoiceIII measure 132 / measure 2]                                                 %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _call_rhythm_commands
@@ -447,7 +447,7 @@ R_TromboneVoiceII = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
 %%% \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -476,7 +476,7 @@ R_TromboneVoiceIV = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1                                                                                         %! _call_rhythm_commands
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Trombone”)"                                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Trombone”)"                                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
     % [R TromboneVoiceIV measure 132 / measure 2]                                                  %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _call_rhythm_commands
@@ -513,8 +513,8 @@ R_TubaVoiceI = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
     \baca_sffz                                                                                     %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Tub.”]"                                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \markup \baca-reapplied-indicator-markup "(“Tuba”)"                                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Tub.”]"                                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Tuba”)"                                                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -557,8 +557,8 @@ R_PianoVoiceI = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Piano”)"                                                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Pf.”]"                                                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -610,8 +610,8 @@ R_PercussionVoiceI = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
     \mp                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -667,8 +667,8 @@ R_PercussionVoiceII = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
     \mp                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -719,8 +719,8 @@ R_PercussionVoiceIII = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
     \mp                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \markup \baca-reapplied-indicator-markup "(“Vibraphone”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"                                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -769,8 +769,8 @@ R_PercussionVoiceIV = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     R1 * 1                                                                                         %! _call_rhythm_commands
-    ^ \markup \baca-reapplied-indicator-markup "[“Perc.”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "[“Perc.”]"                                                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -825,7 +825,7 @@ R_FirstViolinVoiceI_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     d'16                                                                                           %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Violin”)"                                                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -836,7 +836,7 @@ R_FirstViolinVoiceI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (1-2)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (1-2)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -948,7 +948,7 @@ R_FirstViolinVoiceIII_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Violin”)"                                                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -959,7 +959,7 @@ R_FirstViolinVoiceIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (3-4)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (3-4)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1069,7 +1069,7 @@ R_FirstViolinVoiceV_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1                                                                                             %! clb_rhythm
     \f                                                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Violin”)"                                                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1080,7 +1080,7 @@ R_FirstViolinVoiceV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (5-6)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (5-6)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1202,7 +1202,7 @@ R_FirstViolinVoiceVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (7-8)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (7-8)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1246,7 +1246,7 @@ R_FirstViolinVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1319,7 +1319,7 @@ R_FirstViolinVoiceIX_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (9-10)”]"                                  %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (9-10)”]"                                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1363,7 +1363,7 @@ R_FirstViolinVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1436,7 +1436,7 @@ R_FirstViolinVoiceXI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (11-12)”]"                                 %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (11-12)”]"                                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1480,7 +1480,7 @@ R_FirstViolinVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1553,7 +1553,7 @@ R_FirstViolinVoiceXIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (13-14)”]"                                 %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (13-14)”]"                                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1597,7 +1597,7 @@ R_FirstViolinVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1670,7 +1670,7 @@ R_FirstViolinVoiceXV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (15-16)”]"                                 %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (15-16)”]"                                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1714,7 +1714,7 @@ R_FirstViolinVoiceXVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1787,7 +1787,7 @@ R_FirstViolinVoiceXVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. I (17-18)”]"                                 %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. I (17-18)”]"                                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -1831,7 +1831,7 @@ R_FirstViolinVoiceXVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1900,7 +1900,7 @@ R_SecondViolinVoiceI_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Violin”)"                                                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -1911,7 +1911,7 @@ R_SecondViolinVoiceI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (1-2)”]"                                  %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (1-2)”]"                                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2021,7 +2021,7 @@ R_SecondViolinVoiceIII_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Violin”)"                                                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2032,7 +2032,7 @@ R_SecondViolinVoiceIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (3-4)”]"                                  %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (3-4)”]"                                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2160,7 +2160,7 @@ R_SecondViolinVoiceV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (5-6)”]"                                  %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (5-6)”]"                                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2204,7 +2204,7 @@ R_SecondViolinVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2279,7 +2279,7 @@ R_SecondViolinVoiceVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (7-8)”]"                                  %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (7-8)”]"                                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2323,7 +2323,7 @@ R_SecondViolinVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2396,7 +2396,7 @@ R_SecondViolinVoiceIX_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (9-10)”]"                                 %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (9-10)”]"                                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2440,7 +2440,7 @@ R_SecondViolinVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2513,7 +2513,7 @@ R_SecondViolinVoiceXI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (11-12)”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (11-12)”]"                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2557,7 +2557,7 @@ R_SecondViolinVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2642,7 +2642,7 @@ R_SecondViolinVoiceXIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (13-14)”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (13-14)”]"                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2686,7 +2686,7 @@ R_SecondViolinVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2759,7 +2759,7 @@ R_SecondViolinVoiceXV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (15-16)”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (15-16)”]"                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2803,7 +2803,7 @@ R_SecondViolinVoiceXVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2876,7 +2876,7 @@ R_SecondViolinVoiceXVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vni. II (17-18)”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vni. II (17-18)”]"                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -2920,7 +2920,7 @@ R_SecondViolinVoiceXVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Violin”)"                                                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2985,7 +2985,7 @@ R_ViolaVoiceI_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Viola”)"                                                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -2996,7 +2996,7 @@ R_ViolaVoiceI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (1-2)”]"                                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (1-2)”]"                                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3106,7 +3106,7 @@ R_ViolaVoiceIII_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Viola”)"                                                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3117,7 +3117,7 @@ R_ViolaVoiceIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (3-4)”]"                                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (3-4)”]"                                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3235,7 +3235,7 @@ R_ViolaVoiceV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (5-6)”]"                                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (5-6)”]"                                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3279,7 +3279,7 @@ R_ViolaVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r2                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3362,7 +3362,7 @@ R_ViolaVoiceVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (7-8)”]"                                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (7-8)”]"                                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3406,7 +3406,7 @@ R_ViolaVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3479,7 +3479,7 @@ R_ViolaVoiceIX_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (9-10)”]"                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (9-10)”]"                                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3523,7 +3523,7 @@ R_ViolaVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3596,7 +3596,7 @@ R_ViolaVoiceXI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (11-12)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (11-12)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3640,7 +3640,7 @@ R_ViolaVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r2
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3721,7 +3721,7 @@ R_ViolaVoiceXIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (13-14)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (13-14)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3765,7 +3765,7 @@ R_ViolaVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3838,7 +3838,7 @@ R_ViolaVoiceXV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (15-16)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (15-16)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -3888,7 +3888,7 @@ R_ViolaVoiceXVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -3961,7 +3961,7 @@ R_ViolaVoiceXVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vle. (17-18)”]"                                   %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vle. (17-18)”]"                                           %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4005,7 +4005,7 @@ R_ViolaVoiceXVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r4                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Viola”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Viola”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4076,7 +4076,7 @@ R_CelloVoiceI_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1                                                                                             %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Cello”)"                                                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4087,7 +4087,7 @@ R_CelloVoiceI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (1-2)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (1-2)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4205,7 +4205,7 @@ R_CelloVoiceIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (3-4)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (3-4)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4249,7 +4249,7 @@ R_CelloVoiceIV_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Cello”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Cello”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4322,7 +4322,7 @@ R_CelloVoiceV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (5-6)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (5-6)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4368,7 +4368,7 @@ R_CelloVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Cello”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Cello”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4441,7 +4441,7 @@ R_CelloVoiceVII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (7-8)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (7-8)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4485,7 +4485,7 @@ R_CelloVoiceVIII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Cello”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Cello”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4558,7 +4558,7 @@ R_CelloVoiceIX_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (9-10)”]"                                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (9-10)”]"                                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4602,7 +4602,7 @@ R_CelloVoiceX_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Cello”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Cello”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4675,7 +4675,7 @@ R_CelloVoiceXI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (11-12)”]"                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (11-12)”]"                                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4723,7 +4723,7 @@ R_CelloVoiceXII_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1
-    ^ \markup \baca-default-indicator-markup "(“Cello”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Cello”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4796,7 +4796,7 @@ R_CelloVoiceXIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Vc. (13-14)”]"                                    %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Vc. (13-14)”]"                                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -4840,7 +4840,7 @@ R_CelloVoiceXIV_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Cello”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Cello”)"                                                   %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4905,7 +4905,7 @@ R_ContrabassVoiceI_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1                                                                                             %! clb_rhythm
     \mf                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -4916,7 +4916,7 @@ R_ContrabassVoiceI_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Cb. (1-2)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Cb. (1-2)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -5024,7 +5024,7 @@ R_ContrabassVoiceIII_a = {
     \magnifyStaff #3/5                                                                             %! _magnify_staves_:-PARTS
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
@@ -5035,7 +5035,7 @@ R_ContrabassVoiceIII_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Cb. (3-4)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Cb. (3-4)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -5151,7 +5151,7 @@ R_ContrabassVoiceV_a = {
 %%%                     "tap G string with wood of bow in rhythm indicated."                       %! IndicatorCommand:+PARTS
 %%%                 }                                                                              %! IndicatorCommand:+PARTS
 %%%     }                                                                                          %! IndicatorCommand:+PARTS
-    ^ \markup \baca-explicit-indicator-markup "[“Cb. (5-6)”]"                                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-explicit-indicator-markup "[“Cb. (5-6)”]"                                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
@@ -5195,7 +5195,7 @@ R_ContrabassVoiceVI_a = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r1                                                                                             %! clb_rhythm
-    ^ \markup \baca-default-indicator-markup "(“Contrabass”)"                                      %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    ^ \baca-default-indicator-markup "(“Contrabass”)"                                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                                    %! IndicatorCommand:+PARTS
 %%%     \override                                                                                  %! IndicatorCommand:+PARTS
 %%%         #'(box-padding . 0.5)                                                                  %! IndicatorCommand:+PARTS
