@@ -100,8 +100,8 @@ def downbeat_attack(count=1, denominator=8):
                                 %@% \override Staff.Clef.color = ##f                                 %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
                                     \set Staff.forceClef = ##t                                       %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
                                     a8                                                               %! downbeat_attack
-                                    ^ \markup \baca-default-indicator-markup "(FrenchHorn)"          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-                                    ^ \markup \baca-default-indicator-markup "[“Hn.”]"               %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+                                    ^ \baca-default-indicator-markup "(FrenchHorn)"                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+                                    ^ \baca-default-indicator-markup "[“Hn.”]"                       %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
                                     \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
                                     \set Staff.shortInstrumentName =                                 %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
                                     \markup {                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
