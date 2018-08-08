@@ -15,7 +15,7 @@ V_GlobalRests = {
 V_GlobalSkips = {
     
     % [V GlobalSkips measure 143 / measure 1]                                                      %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 2/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #22                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR

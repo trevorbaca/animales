@@ -24,7 +24,7 @@ H_GlobalRests = {
 H_GlobalSkips = {
     
     % [H GlobalSkips measure 50 / measure 1]                                                       %! _comment_measure_numbers
-%%% \override TextSpanner.bound-details.left.padding = #-8                                         %! OverrideCommand(1):+TABLOID_SCORE
+%%% \override TextSpanner.bound-details.left.padding = #-8                                         %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
     \time 4/4                                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #8                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -102,7 +102,7 @@ H_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [H.6]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[1'48'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-%%% \revert TextSpanner.bound-details.left.padding                                                 %! OverrideCommand(2):+TABLOID_SCORE
+%%% \revert TextSpanner.bound-details.left.padding                                                 %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -156,7 +156,7 @@ H_ClarinetVoiceI_a = {
     \repeatTie
     
     % [H ClarinetVoiceI measure 53 / measure 4]                                                    %! _comment_measure_numbers
-%%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)                                 %! OverrideCommand(1):+SCORE
+%%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)                                 %! +SCORE:baca_mmrest_text_extra_offset:OverrideCommand(1)
     R1 * 3/4                                                                                       %! _make_measure_silences
     ^ \markup {                                                                                    %! IndicatorCommand
         \override                                                                                  %! IndicatorCommand
@@ -910,7 +910,7 @@ H_ContrabassVoiceI_a = {
     r2                                                                                             %! harp_exchange_rhythm
     \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
         cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         ^ \markup { "7th partial / D (sounds slightly flat)" }                                     %! IndicatorCommand
@@ -932,7 +932,7 @@ H_ContrabassVoiceI_a = {
         
         cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
         
         r4                                                                                         %! harp_exchange_rhythm
     }                                                                                              %! harp_exchange_rhythm

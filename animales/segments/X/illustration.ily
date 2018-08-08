@@ -15,7 +15,7 @@ X_GlobalRests = {
 X_GlobalSkips = {
     
     % [X GlobalSkips measure 149 / measure 1]                                                      %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 4/4                                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #24                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -731,9 +731,9 @@ X_PercussionVoiceIII_a = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-%%% \override TextScript.extra-offset = #'(0 . 4)                                                  %! OverrideCommand(1):+PARTS
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_149:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! OverrideCommand(1):MEASURE_149:SHIFTED_CLEF
+%%% \override TextScript.extra-offset = #'(0 . 4)                                                  %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_149:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! MEASURE_149:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "percussion"                                                                             %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)                                %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -775,7 +775,7 @@ X_PercussionVoiceIII_a = {
     :32                                                                                            %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
-%%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
+%%% \revert TextScript.extra-offset                                                                %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
     
 }
 
@@ -807,7 +807,7 @@ X_PercussionVoiceIV_a = {
     \stopStaff                                                                                     %! REDUNDANT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                                               %! REDUNDANT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! REDUNDANT_STAFF_LINES:_set_status_tag:IndicatorCommand
-%%% \override TextScript.extra-offset = #'(0 . 4)                                                  %! OverrideCommand(1):+PARTS
+%%% \override TextScript.extra-offset = #'(0 . 4)                                                  %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
     \clef "percussion"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -849,7 +849,7 @@ X_PercussionVoiceIV_a = {
     :32                                                                                            %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
-%%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
+%%% \revert TextScript.extra-offset                                                                %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
     
 }
 

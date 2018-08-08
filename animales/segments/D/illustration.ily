@@ -24,7 +24,7 @@ D_GlobalRests = {
 D_GlobalSkips = {
     
     % [D GlobalSkips measure 24 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                                     %! OverrideCommand(1):+SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                                     %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #4                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -357,7 +357,7 @@ D_PercussionStaffII = {
 D_FirstViolinVoiceII_a = {
     
     % [D FirstViolinVoiceII measure 24 / measure 1]                                                %! _comment_measure_numbers
-    \override DynamicLineSpanner.direction = #up                                                   %! OverrideCommand(1):-PARTS
+    \override DynamicLineSpanner.direction = #up                                                   %! -PARTS:baca_dls_up:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     \voiceOne                                                                                      %! IndicatorCommand:-PARTS
     b'2                                                                                            %! glissando_rhythm
@@ -462,7 +462,7 @@ D_FirstViolinVoiceII_a = {
     b8                                                                                             %! glissando_rhythm
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     ]                                                                                              %! glissando_rhythm
-    \revert DynamicLineSpanner.direction                                                           %! OverrideCommand(2):-PARTS
+    \revert DynamicLineSpanner.direction                                                           %! -PARTS:baca_dls_up:OverrideCommand(2)
     
 }
 

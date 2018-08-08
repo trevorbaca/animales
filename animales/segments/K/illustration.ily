@@ -40,9 +40,9 @@ K_GlobalRests = {
 K_GlobalSkips = {
     
     % [K GlobalSkips measure 68 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.bound-details.left.padding = #-8                                         %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.Y-offset = #8                                                            %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \override TextSpanner.bound-details.left.padding = #-8                                         %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
+%%% \override TextSpanner.Y-offset = #8                                                            %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(1)
     \time 4/4                                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #11                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -136,8 +136,8 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [K.8]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[2'32'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-%%% \revert TextSpanner.bound-details.left.padding                                                 %! OverrideCommand(2):+TABLOID_SCORE
-%%% \revert TextSpanner.Y-offset                                                                   %! OverrideCommand(2):+TABLOID_SCORE
+%%% \revert TextSpanner.bound-details.left.padding                                                 %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
+%%% \revert TextSpanner.Y-offset                                                                   %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -272,7 +272,7 @@ K_HornVoiceI_a = {
                     (1+3)                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \once \override NoteColumn.force-hshift = #1.7                                                 %! OverrideCommand(1):-PARTS
+    \once \override NoteColumn.force-hshift = #1.7                                                 %! -PARTS:baca_note_colun_shift:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -680,7 +680,7 @@ K_TrumpetVoiceII = {
 K_TrumpetVoiceIV_a = {
     
     % [K TrumpetVoiceIV measure 68 / measure 1]                                                    %! _comment_measure_numbers
-    \once \override NoteColumn.force-hshift = #1.0                                                 %! OverrideCommand(1):-PARTS
+    \once \override NoteColumn.force-hshift = #1.0                                                 %! -PARTS:baca_note_colun_shift:OverrideCommand(1)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
 %%% a'8                                                                                            %! AccidentalAdjustmentCommand:+PARTS
@@ -914,7 +914,7 @@ K_TromboneVoiceII = {
 K_TromboneVoiceIV_a = {
     
     % [K TromboneVoiceIV measure 68 / measure 1]                                                   %! _comment_measure_numbers
-    \once \override NoteColumn.force-hshift = #1.0                                                 %! OverrideCommand(1):-PARTS
+    \once \override NoteColumn.force-hshift = #1.0                                                 %! -PARTS:baca_note_colun_shift:OverrideCommand(1)
     \voiceTwo                                                                                      %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
 %%% a8                                                                                             %! AccidentalAdjustmentCommand:+PARTS
@@ -1648,7 +1648,7 @@ K_ContrabassVoiceI_a = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
-        \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
         cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
         
@@ -1689,7 +1689,7 @@ K_ContrabassVoiceI_a = {
         
         cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }                                                                                              %! harp_exchange_rhythm
     
     r4                                                                                             %! harp_exchange_rhythm

@@ -42,7 +42,7 @@ AC_GlobalRests = {
 AC_GlobalSkips = {
     
     % [AC GlobalSkips measure 165 / measure 1]                                                     %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #29                                                                                      %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -171,8 +171,8 @@ AC_PianoVoiceI_a = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Pf.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
-%%% \override TextScript.X-offset = #3                                                             %! OverrideCommand(1):+PARTS
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
+%%% \override TextScript.X-offset = #3                                                             %! +PARTS:baca_text_script_x_offset:OverrideCommand(1)
 %%% \magnifyStaff #10/7                                                                            %! IndicatorCommand:+TABLOID_SCORE
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -231,8 +231,8 @@ AC_PianoVoiceI_a = {
     % [AC PianoVoiceI measure 173 / measure 9]                                                     %! _comment_measure_numbers
     cs'!1                                                                                          %! baca_make_notes
     - \laissezVibrer                                                                               %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
-%%% \revert TextScript.X-offset                                                                    %! OverrideCommand(2):+PARTS
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
+%%% \revert TextScript.X-offset                                                                    %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
     
     % [AC PianoVoiceI measure 174 / measure 10]                                                    %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                                       %! IndicatorCommand:+PARTS
@@ -273,7 +273,7 @@ AC_PercussionVoiceIV_a = {
                     (slate)                                                                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
                 }                                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
         }                                                                                          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
-%%% \override TextScript.X-offset = #3                                                             %! OverrideCommand(1):+PARTS
+%%% \override TextScript.X-offset = #3                                                             %! +PARTS:baca_text_script_x_offset:OverrideCommand(1)
 %%% \magnifyStaff #10/7                                                                            %! IndicatorCommand:+TABLOID_SCORE
     \clef "percussion"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -396,7 +396,7 @@ AC_PercussionVoiceIV_a = {
     
     c'4                                                                                            %! baca_make_tied_reepated_durations
     \repeatTie
-%%% \revert TextScript.X-offset                                                                    %! OverrideCommand(2):+PARTS
+%%% \revert TextScript.X-offset                                                                    %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
     
     % [AC PercussionVoiceIV measure 173 / measure 9]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences

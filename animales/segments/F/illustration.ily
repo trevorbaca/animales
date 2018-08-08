@@ -40,9 +40,9 @@ F_GlobalRests = {
 F_GlobalSkips = {
     
     % [F GlobalSkips measure 36 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.bound-details.left.padding = #-9                                         %! OverrideCommand(1):+TABLOID_SCORE
-%%% \override TextSpanner.Y-offset = #8                                                            %! OverrideCommand(1):+TABLOID_SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \override TextSpanner.bound-details.left.padding = #-9                                         %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
+%%% \override TextSpanner.Y-offset = #8                                                            %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(1)
     \time 2/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #6                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -138,8 +138,8 @@ F_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [F.8]                                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[1'22'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-%%% \revert TextSpanner.bound-details.left.padding                                                 %! OverrideCommand(2):+TABLOID_SCORE
-%%% \revert TextSpanner.Y-offset                                                                   %! OverrideCommand(2):+TABLOID_SCORE
+%%% \revert TextSpanner.bound-details.left.padding                                                 %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
+%%% \revert TextSpanner.Y-offset                                                                   %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -656,7 +656,7 @@ F_PercussionVoiceIII_a = {
                         (vib.)                                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
                     }                                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
             }                                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
-    %%% \override TextScript.extra-offset = #'(1.5 . 1.5)                                          %! OverrideCommand(1):+PARTS
+    %%% \override TextScript.extra-offset = #'(1.5 . 1.5)                                          %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
         \clef "treble"                                                                             %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)                            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -726,7 +726,7 @@ F_PercussionVoiceIII_a = {
     
     % [F PercussionVoiceIII measure 43 / measure 8]                                                %! _comment_measure_numbers
     r1                                                                                             %! harp_exchange_rhythm
-%%% \revert TextScript.extra-offset                                                                %! OverrideCommand(2):+PARTS
+%%% \revert TextScript.extra-offset                                                                %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
     
 }
 
@@ -1072,7 +1072,7 @@ F_ContrabassVoiceI_a = {
     \times 2/3 {                                                                                   %! harp_exchange_rhythm
         
         % [F ContrabassVoiceI measure 37 / measure 2]                                              %! _comment_measure_numbers
-        \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
         \clef "treble"                                                                             %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1112,7 +1112,7 @@ F_ContrabassVoiceI_a = {
         % [F ContrabassVoiceI measure 41 / measure 6]                                              %! _comment_measure_numbers
         d''8                                                                                       %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
         
         r4                                                                                         %! harp_exchange_rhythm
     }                                                                                              %! harp_exchange_rhythm

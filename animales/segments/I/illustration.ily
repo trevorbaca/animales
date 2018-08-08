@@ -24,7 +24,7 @@ I_GlobalRests = {
 I_GlobalSkips = {
     
     % [I GlobalSkips measure 56 / measure 1]                                                       %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! OverrideCommand(1):+SCORE
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                                      %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 2/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #9                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -1968,7 +1968,7 @@ I_ContrabassVoiceI_a = {
         % [I ContrabassVoiceI measure 58 / measure 3]                                              %! _comment_measure_numbers
         r8                                                                                         %! harp_exchange_rhythm
         
-        \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
@@ -1987,7 +1987,7 @@ I_ContrabassVoiceI_a = {
         
         cqf''!8                                                                                    %! harp_exchange_rhythm
         - \laissezVibrer                                                                           %! IndicatorCommand
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }                                                                                              %! harp_exchange_rhythm
     
     r4                                                                                             %! harp_exchange_rhythm
