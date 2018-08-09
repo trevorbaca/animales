@@ -1,42 +1,42 @@
-AC_GlobalRests = {
-    
+AC_GlobalRests = {                                                             %! extern
+
     % [AC GlobalRests measure 165 / measure 1]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [AC GlobalRests measure 166 / measure 2]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [AC GlobalRests measure 167 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [AC GlobalRests measure 168 / measure 4]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [AC GlobalRests measure 169 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [AC GlobalRests measure 170 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [AC GlobalRests measure 171 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [AC GlobalRests measure 172 / measure 8]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [AC GlobalRests measure 173 / measure 9]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [AC GlobalRests measure 174 / measure 10]                                %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
-}
+
+}                                                                              %! extern
 
 
-AC_GlobalSkips = {
-    
+AC_GlobalSkips = {                                                             %! extern
+
     % [AC GlobalSkips measure 165 / measure 1]                                 %! _comment_measure_numbers
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -71,7 +71,7 @@ AC_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [AC GlobalSkips measure 166 / measure 2]                                 %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (166)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -79,7 +79,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.2]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'49'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 167 / measure 3]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -89,7 +89,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.3]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'51'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 168 / measure 4]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (168)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -97,7 +97,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.4]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'54'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 169 / measure 5]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (169)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -105,7 +105,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.5]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'58'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 170 / measure 6]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -115,7 +115,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((6))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.6]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'01'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 171 / measure 7]                                 %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (171)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -123,7 +123,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.7]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'03'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 172 / measure 8]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -133,7 +133,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((8))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.8]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'05'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 173 / measure 9]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (173)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -141,7 +141,7 @@ AC_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [AC.9]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'09'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [AC GlobalSkips measure 174 / measure 10]                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -154,12 +154,12 @@ AC_GlobalSkips = {
     \stopTextSpan                                                              %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|."                                                                  %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-AC_PianoVoiceI_a = {
-    
+AC_PianoVoiceI_a = {                                                           %! extern
+
     % [AC PianoVoiceI measure 165 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -195,41 +195,41 @@ AC_PianoVoiceI_a = {
             Pf.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [AC PianoVoiceI measure 166 / measure 2]                                 %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 167 / measure 3]                                 %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 168 / measure 4]                                 %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 169 / measure 5]                                 %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 170 / measure 6]                                 %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 171 / measure 7]                                 %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 172 / measure 8]                                 %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
-    
+
     % [AC PianoVoiceI measure 173 / measure 9]                                 %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 %%% \revert TextScript.X-offset                                                %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
-    
+
     % [AC PianoVoiceI measure 174 / measure 10]                                %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
@@ -238,23 +238,23 @@ AC_PianoVoiceI_a = {
 %%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
 %%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
-    
-}
+
+}                                                                              %! extern
 
 
-AC_PianoVoiceI = {
+AC_PianoVoiceI = {                                                             %! extern
     \AC_PianoVoiceI_a                                                          %! extern
-}
+}                                                                              %! extern
 
 
-AC_PianoStaffI = {
+AC_PianoStaffI = {                                                             %! extern
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \AC_PianoVoiceI                                                            %! extern
-}
+}                                                                              %! extern
 
 
-AC_PercussionVoiceIV_a = {
-    
+AC_PercussionVoiceIV_a = {                                                     %! extern
+
     % [AC PercussionVoiceIV measure 165 / measure 1]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -304,99 +304,99 @@ AC_PercussionVoiceIV_a = {
                     (slate)                                                    %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 166 / measure 2]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 167 / measure 3]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 168 / measure 4]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 169 / measure 5]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 170 / measure 6]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 171 / measure 7]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     % [AC PercussionVoiceIV measure 172 / measure 8]                           %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
-    
+
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 %%% \revert TextScript.X-offset                                                %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
-    
+
     % [AC PercussionVoiceIV measure 173 / measure 9]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [AC PercussionVoiceIV measure 174 / measure 10]                          %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
@@ -405,16 +405,16 @@ AC_PercussionVoiceIV_a = {
 %%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
 %%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
-    
-}
+
+}                                                                              %! extern
 
 
-AC_PercussionVoiceIV = {
+AC_PercussionVoiceIV = {                                                       %! extern
     \AC_PercussionVoiceIV_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-AC_PercussionStaffIV = {
+AC_PercussionStaffIV = {                                                       %! extern
     \context Voice = "PercussionVoiceIV"                                       %! ScoreTemplate
     \AC_PercussionVoiceIV                                                      %! extern
-}
+}                                                                              %! extern
