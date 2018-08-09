@@ -1,28 +1,28 @@
-C_GlobalRests = {
-    
+C_GlobalRests = {                                                              %! extern
+
     % [C GlobalRests measure 18 / measure 1]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [C GlobalRests measure 19 / measure 2]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [C GlobalRests measure 20 / measure 3]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [C GlobalRests measure 21 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [C GlobalRests measure 22 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [C GlobalRests measure 23 / measure 6]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
-}
+
+}                                                                              %! extern
 
 
-C_GlobalSkips = {
-    
+C_GlobalSkips = {                                                              %! extern
+
     % [C GlobalSkips measure 18 / measure 1]                                   %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -55,7 +55,7 @@ C_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [C GlobalSkips measure 19 / measure 2]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (19)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -63,7 +63,7 @@ C_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [C.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[0'31'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [C GlobalSkips measure 20 / measure 3]                                   %! _comment_measure_numbers
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                 %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \mark #3                                                                   %! IndicatorCommand
@@ -73,7 +73,7 @@ C_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [C.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[0'33'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [C GlobalSkips measure 21 / measure 4]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (21)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -81,7 +81,7 @@ C_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [C.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[0'35'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [C GlobalSkips measure 22 / measure 5]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (22)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -89,7 +89,7 @@ C_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [C.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[0'37'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [C GlobalSkips measure 23 / measure 6]                                   %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -102,12 +102,12 @@ C_GlobalSkips = {
     \stopTextSpan                                                              %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-C_ClarinetVoiceI_a = {
-    
+C_ClarinetVoiceI_a = {                                                         %! extern
+
     % [C ClarinetVoiceI measure 18 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -139,10 +139,10 @@ C_ClarinetVoiceI_a = {
                     3                                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C ClarinetVoiceI measure 19 / measure 2]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C ClarinetVoiceI measure 20 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''1                                                                       %! baca_make_repeat_tied_notes
@@ -151,37 +151,37 @@ C_ClarinetVoiceI_a = {
 %%% ^ \markup { solo }                                                         %! IndicatorCommand:+PARTS
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     % [C ClarinetVoiceI measure 21 / measure 4]                                %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C ClarinetVoiceI measure 22 / measure 5]                                %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C ClarinetVoiceI measure 23 / measure 6]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_ClarinetVoiceI = {
+C_ClarinetVoiceI = {                                                           %! extern
     \C_ClarinetVoiceI_a                                                        %! extern
-}
+}                                                                              %! extern
 
 
-C_ClarinetStaffI = {
+C_ClarinetStaffI = {                                                           %! extern
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \C_ClarinetVoiceI                                                          %! extern
-}
+}                                                                              %! extern
 
 
-C_HornVoiceI_a = {
-    
+C_HornVoiceI_a = {                                                             %! extern
+
     % [C HornVoiceI measure 18 / measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -213,80 +213,80 @@ C_HornVoiceI_a = {
                     (1+3)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C HornVoiceI measure 19 / measure 2]                                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceI measure 20 / measure 3]                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8                                                                        %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C HornVoiceI measure 21 / measure 4]                                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceI measure 22 / measure 5]                                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceI measure 23 / measure 6]                                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_HornVoiceI = {
+C_HornVoiceI = {                                                               %! extern
     \C_HornVoiceI_a                                                            %! extern
-}
+}                                                                              %! extern
 
 
-C_HornVoiceIII_a = {
-    
+C_HornVoiceIII_a = {                                                           %! extern
+
     % [C HornVoiceIII measure 18 / measure 1]                                  %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Horn”)"                                %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [C HornVoiceIII measure 19 / measure 2]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceIII measure 20 / measure 3]                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'8                                                                        %! downbeat_attack
 %%% \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C HornVoiceIII measure 21 / measure 4]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceIII measure 22 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceIII measure 23 / measure 6]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_HornVoiceIII = {
+C_HornVoiceIII = {                                                             %! extern
     \C_HornVoiceIII_a                                                          %! extern
-}
+}                                                                              %! extern
 
 
-C_HornStaffI = <<
+C_HornStaffI = <<                                                              %! extern
     \context Voice = "HornVoiceI"                                              %! ScoreTemplate
     \C_HornVoiceI                                                              %! extern
     \context Voice = "HornVoiceIII"                                            %! ScoreTemplate
     \C_HornVoiceIII                                                            %! extern
->>
+>>                                                                             %! extern
 
 
-C_HornVoiceII_a = {
-    
+C_HornVoiceII_a = {                                                            %! extern
+
     % [C HornVoiceII measure 18 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -318,80 +318,80 @@ C_HornVoiceII_a = {
                     (2+4)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C HornVoiceII measure 19 / measure 2]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceII measure 20 / measure 3]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     df'!8                                                                      %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C HornVoiceII measure 21 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceII measure 22 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceII measure 23 / measure 6]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_HornVoiceII = {
+C_HornVoiceII = {                                                              %! extern
     \C_HornVoiceII_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-C_HornVoiceIV_a = {
-    
+C_HornVoiceIV_a = {                                                            %! extern
+
     % [C HornVoiceIV measure 18 / measure 1]                                   %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Horn”)"                                %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [C HornVoiceIV measure 19 / measure 2]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceIV measure 20 / measure 3]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b8                                                                         %! downbeat_attack
 %%% \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C HornVoiceIV measure 21 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceIV measure 22 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C HornVoiceIV measure 23 / measure 6]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_HornVoiceIV = {
+C_HornVoiceIV = {                                                              %! extern
     \C_HornVoiceIV_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-C_HornStaffII = <<
+C_HornStaffII = <<                                                             %! extern
     \context Voice = "HornVoiceII"                                             %! ScoreTemplate
     \C_HornVoiceII                                                             %! extern
     \context Voice = "HornVoiceIV"                                             %! ScoreTemplate
     \C_HornVoiceIV                                                             %! extern
->>
+>>                                                                             %! extern
 
 
-C_TrumpetVoiceI_a = {
-    
+C_TrumpetVoiceI_a = {                                                          %! extern
+
     % [C TrumpetVoiceI measure 18 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -423,80 +423,80 @@ C_TrumpetVoiceI_a = {
                     (1+3)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C TrumpetVoiceI measure 19 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceI measure 20 / measure 3]                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''8                                                                       %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TrumpetVoiceI measure 21 / measure 4]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceI measure 22 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceI measure 23 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TrumpetVoiceI = {
+C_TrumpetVoiceI = {                                                            %! extern
     \C_TrumpetVoiceI_a                                                         %! extern
-}
+}                                                                              %! extern
 
 
-C_TrumpetVoiceIII_a = {
-    
+C_TrumpetVoiceIII_a = {                                                        %! extern
+
     % [C TrumpetVoiceIII measure 18 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trumpet”)"                             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [C TrumpetVoiceIII measure 19 / measure 2]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceIII measure 20 / measure 3]                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8                                                                        %! downbeat_attack
 %%% \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TrumpetVoiceIII measure 21 / measure 4]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceIII measure 22 / measure 5]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceIII measure 23 / measure 6]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TrumpetVoiceIII = {
+C_TrumpetVoiceIII = {                                                          %! extern
     \C_TrumpetVoiceIII_a                                                       %! extern
-}
+}                                                                              %! extern
 
 
-C_TrumpetStaffI = <<
+C_TrumpetStaffI = <<                                                           %! extern
     \context Voice = "TrumpetVoiceI"                                           %! ScoreTemplate
     \C_TrumpetVoiceI                                                           %! extern
     \context Voice = "TrumpetVoiceIII"                                         %! ScoreTemplate
     \C_TrumpetVoiceIII                                                         %! extern
->>
+>>                                                                             %! extern
 
 
-C_TrumpetVoiceII_a = {
-    
+C_TrumpetVoiceII_a = {                                                         %! extern
+
     % [C TrumpetVoiceII measure 18 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -528,80 +528,80 @@ C_TrumpetVoiceII_a = {
                     (2+4)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C TrumpetVoiceII measure 19 / measure 2]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceII measure 20 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af'!8                                                                      %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TrumpetVoiceII measure 21 / measure 4]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceII measure 22 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceII measure 23 / measure 6]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TrumpetVoiceII = {
+C_TrumpetVoiceII = {                                                           %! extern
     \C_TrumpetVoiceII_a                                                        %! extern
-}
+}                                                                              %! extern
 
 
-C_TrumpetVoiceIV_a = {
-    
+C_TrumpetVoiceIV_a = {                                                         %! extern
+
     % [C TrumpetVoiceIV measure 18 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trumpet”)"                             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [C TrumpetVoiceIV measure 19 / measure 2]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceIV measure 20 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'8                                                                        %! downbeat_attack
 %%% \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TrumpetVoiceIV measure 21 / measure 4]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceIV measure 22 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TrumpetVoiceIV measure 23 / measure 6]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TrumpetVoiceIV = {
+C_TrumpetVoiceIV = {                                                           %! extern
     \C_TrumpetVoiceIV_a                                                        %! extern
-}
+}                                                                              %! extern
 
 
-C_TrumpetStaffII = <<
+C_TrumpetStaffII = <<                                                          %! extern
     \context Voice = "TrumpetVoiceII"                                          %! ScoreTemplate
     \C_TrumpetVoiceII                                                          %! extern
     \context Voice = "TrumpetVoiceIV"                                          %! ScoreTemplate
     \C_TrumpetVoiceIV                                                          %! extern
->>
+>>                                                                             %! extern
 
 
-C_TromboneVoiceI_a = {
-    
+C_TromboneVoiceI_a = {                                                         %! extern
+
     % [C TromboneVoiceI measure 18 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -633,80 +633,80 @@ C_TromboneVoiceI_a = {
                     (1+3)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C TromboneVoiceI measure 19 / measure 2]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceI measure 20 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8                                                                        %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TromboneVoiceI measure 21 / measure 4]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceI measure 22 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceI measure 23 / measure 6]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TromboneVoiceI = {
+C_TromboneVoiceI = {                                                           %! extern
     \C_TromboneVoiceI_a                                                        %! extern
-}
+}                                                                              %! extern
 
 
-C_TromboneVoiceIII_a = {
-    
+C_TromboneVoiceIII_a = {                                                       %! extern
+
     % [C TromboneVoiceIII measure 18 / measure 1]                              %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trombone”)"                            %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [C TromboneVoiceIII measure 19 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceIII measure 20 / measure 3]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'8                                                                        %! downbeat_attack
 %%% \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TromboneVoiceIII measure 21 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceIII measure 22 / measure 5]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceIII measure 23 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TromboneVoiceIII = {
+C_TromboneVoiceIII = {                                                         %! extern
     \C_TromboneVoiceIII_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-C_TromboneStaffI = <<
+C_TromboneStaffI = <<                                                          %! extern
     \context Voice = "TromboneVoiceI"                                          %! ScoreTemplate
     \C_TromboneVoiceI                                                          %! extern
     \context Voice = "TromboneVoiceIII"                                        %! ScoreTemplate
     \C_TromboneVoiceIII                                                        %! extern
->>
+>>                                                                             %! extern
 
 
-C_TromboneVoiceII_a = {
-    
+C_TromboneVoiceII_a = {                                                        %! extern
+
     % [C TromboneVoiceII measure 18 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -738,80 +738,80 @@ C_TromboneVoiceII_a = {
                     (2+4)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C TromboneVoiceII measure 19 / measure 2]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceII measure 20 / measure 3]                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     df'!8                                                                      %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TromboneVoiceII measure 21 / measure 4]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceII measure 22 / measure 5]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceII measure 23 / measure 6]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TromboneVoiceII = {
+C_TromboneVoiceII = {                                                          %! extern
     \C_TromboneVoiceII_a                                                       %! extern
-}
+}                                                                              %! extern
 
 
-C_TromboneVoiceIV_a = {
-    
+C_TromboneVoiceIV_a = {                                                        %! extern
+
     % [C TromboneVoiceIV measure 18 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trombone”)"                            %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [C TromboneVoiceIV measure 19 / measure 2]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceIV measure 20 / measure 3]                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b8                                                                         %! downbeat_attack
 %%% \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand:+PARTS
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TromboneVoiceIV measure 21 / measure 4]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceIV measure 22 / measure 5]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TromboneVoiceIV measure 23 / measure 6]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TromboneVoiceIV = {
+C_TromboneVoiceIV = {                                                          %! extern
     \C_TromboneVoiceIV_a                                                       %! extern
-}
+}                                                                              %! extern
 
 
-C_TromboneStaffII = <<
+C_TromboneStaffII = <<                                                         %! extern
     \context Voice = "TromboneVoiceII"                                         %! ScoreTemplate
     \C_TromboneVoiceII                                                         %! extern
     \context Voice = "TromboneVoiceIV"                                         %! ScoreTemplate
     \C_TromboneVoiceIV                                                         %! extern
->>
+>>                                                                             %! extern
 
 
-C_TubaVoiceI_a = {
-    
+C_TubaVoiceI_a = {                                                             %! extern
+
     % [C TubaVoiceI measure 18 / measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -835,43 +835,43 @@ C_TubaVoiceI_a = {
             Tub.                                                               %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C TubaVoiceI measure 19 / measure 2]                                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TubaVoiceI measure 20 / measure 3]                                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c,8                                                                        %! downbeat_attack
     \baca_sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
-    
+
     r2..
-    
+
     % [C TubaVoiceI measure 21 / measure 4]                                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TubaVoiceI measure 22 / measure 5]                                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C TubaVoiceI measure 23 / measure 6]                                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-C_TubaVoiceI = {
+C_TubaVoiceI = {                                                               %! extern
     \C_TubaVoiceI_a                                                            %! extern
-}
+}                                                                              %! extern
 
 
-C_TubaStaffI = {
+C_TubaStaffI = {                                                               %! extern
     \context Voice = "TubaVoiceI"                                              %! ScoreTemplate
     \C_TubaVoiceI                                                              %! extern
-}
+}                                                                              %! extern
 
 
-C_PercussionVoiceI_a = {
-    
+C_PercussionVoiceI_a = {                                                       %! extern
+
     % [C PercussionVoiceI measure 18 / measure 1]                              %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -907,10 +907,10 @@ C_PercussionVoiceI_a = {
                     (tri.)                                                     %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C PercussionVoiceI measure 19 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C PercussionVoiceI measure 20 / measure 3]                              %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:IndicatorCommand:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! IndicatorCommand:+PARTS:TEMPORARY
@@ -924,40 +924,40 @@ C_PercussionVoiceI_a = {
             \box                                                               %! IndicatorCommand
                 "triangle (small beater)"                                      %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [C PercussionVoiceI measure 21 / measure 4]                              %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
-    
+
     % [C PercussionVoiceI measure 22 / measure 5]                              %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
-    
+
     % [C PercussionVoiceI measure 23 / measure 6]                              %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_PercussionVoiceI = {
+C_PercussionVoiceI = {                                                         %! extern
     \C_PercussionVoiceI_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-C_PercussionStaffI = {
+C_PercussionStaffI = {                                                         %! extern
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \C_PercussionVoiceI                                                        %! extern
-}
+}                                                                              %! extern
 
 
-C_PercussionVoiceII_a = {
-    
+C_PercussionVoiceII_a = {                                                      %! extern
+
     % [C PercussionVoiceII measure 18 / measure 1]                             %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -993,10 +993,10 @@ C_PercussionVoiceII_a = {
                     (cym.)                                                     %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
-    
+
     % [C PercussionVoiceII measure 19 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C PercussionVoiceII measure 20 / measure 3]                             %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:IndicatorCommand:-PARTS
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! IndicatorCommand:+PARTS:TEMPORARY
@@ -1010,40 +1010,40 @@ C_PercussionVoiceII_a = {
             \box                                                               %! IndicatorCommand
                 "suspended cymbal (soft yarn mallets: attackless sound)"       %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [C PercussionVoiceII measure 21 / measure 4]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
-    
+
     % [C PercussionVoiceII measure 22 / measure 5]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
-    
+
     % [C PercussionVoiceII measure 23 / measure 6]                             %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_PercussionVoiceII = {
+C_PercussionVoiceII = {                                                        %! extern
     \C_PercussionVoiceII_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-C_PercussionStaffII = {
+C_PercussionStaffII = {                                                        %! extern
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \C_PercussionVoiceII                                                       %! extern
-}
+}                                                                              %! extern
 
 
-C_FirstViolinVoiceII_a = {
-    
+C_FirstViolinVoiceII_a = {                                                     %! extern
+
     % [C FirstViolinVoiceII measure 20 / measure 3]                            %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                  %! IndicatorCommand:-PARTS
@@ -1056,56 +1056,56 @@ C_FirstViolinVoiceII_a = {
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                 %! SpannerCommand
-    
+
     b'8                                                                        %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     g''8                                                                       %! glissando_rhythm
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     a'4                                                                        %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     % [C FirstViolinVoiceII measure 21 / measure 4]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d'''8                                                                      %! glissando_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     e''8
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     c'''2
     \glissando                                                                 %! SpannerCommand
-    
+
     d''8                                                                       %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     g'''8                                                                      %! glissando_rhythm
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     % [C FirstViolinVoiceII measure 22 / measure 5]                            %! _comment_measure_numbers
     c'''8                                                                      %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     f'''8                                                                      %! glissando_rhythm
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     g''2                                                                       %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     b'''8                                                                      %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d'''8                                                                      %! glissando_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1113,35 +1113,35 @@ C_FirstViolinVoiceII_a = {
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     % [C FirstViolinVoiceII measure 23 / measure 6]                            %! _comment_measure_numbers
     a'''4                                                                      %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     c'''8                                                                      %! glissando_rhythm
     ~                                                                          %! SpannerCommand
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'''4.                                                                     %! glissando_rhythm
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca_dls_up:OverrideCommand(2)
-    
-}
+
+}                                                                              %! extern
 
 
-C_FirstViolinVoiceII = {
-    
+C_FirstViolinVoiceII = {                                                       %! extern
+
     % [C FirstViolinVoiceII measure 18 / measure 1]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C FirstViolinVoiceII measure 19 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \C_FirstViolinVoiceII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-C_FirstViolinVoiceI_a = {
-    
+C_FirstViolinVoiceI_a = {                                                      %! extern
+
     % [C FirstViolinVoiceI measure 18 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1178,18 +1178,18 @@ C_FirstViolinVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C FirstViolinVoiceI measure 19 / measure 2]                             %! _comment_measure_numbers
     df'!4                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     df'!2.                                                                     %! sforzando_exchange_rhythm
     - \accent                                                                  %! IndicatorCommand
-}
+}                                                                              %! extern
 
 
-C_FirstViolinVoiceI_b = {
-    
+C_FirstViolinVoiceI_b = {                                                      %! extern
+
     % [C FirstViolinVoiceI measure 20 / measure 3]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1207,38 +1207,38 @@ C_FirstViolinVoiceI_b = {
         }                                                                      %! IndicatorCommand:-PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C FirstViolinVoiceI measure 21 / measure 4]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C FirstViolinVoiceI measure 22 / measure 5]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C FirstViolinVoiceI measure 23 / measure 6]                             %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_FirstViolinVoiceI = {
+C_FirstViolinVoiceI = {                                                        %! extern
     \C_FirstViolinVoiceI_a                                                     %! extern
     \C_FirstViolinVoiceI_b                                                     %! extern
-}
+}                                                                              %! extern
 
 
-C_FirstViolinStaffI = <<
+C_FirstViolinStaffI = <<                                                       %! extern
     \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
     \C_FirstViolinVoiceII                                                      %! extern
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \C_FirstViolinVoiceI                                                       %! extern
->>
+>>                                                                             %! extern
 
 
-C_FirstViolinVoiceIII_a = {
-    
+C_FirstViolinVoiceIII_a = {                                                    %! extern
+
     % [C FirstViolinVoiceIII measure 18 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1275,14 +1275,14 @@ C_FirstViolinVoiceIII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C FirstViolinVoiceIII measure 19 / measure 2]                           %! _comment_measure_numbers
     df'!2                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     df'!2                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! IndicatorCommand
-    
+
     % [C FirstViolinVoiceIII measure 20 / measure 3]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1290,35 +1290,35 @@ C_FirstViolinVoiceIII_a = {
 %%% ^ \markup { "still (non vibrato)" }                                        %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C FirstViolinVoiceIII measure 21 / measure 4]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C FirstViolinVoiceIII measure 22 / measure 5]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C FirstViolinVoiceIII measure 23 / measure 6]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_FirstViolinVoiceIII = {
+C_FirstViolinVoiceIII = {                                                      %! extern
     \C_FirstViolinVoiceIII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-C_FirstViolinStaffII = {
+C_FirstViolinStaffII = {                                                       %! extern
     \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
     \C_FirstViolinVoiceIII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-C_SecondViolinVoiceI_a = {
-    
+C_SecondViolinVoiceI_a = {                                                     %! extern
+
     % [C SecondViolinVoiceI measure 18 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1355,14 +1355,14 @@ C_SecondViolinVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C SecondViolinVoiceI measure 19 / measure 2]                            %! _comment_measure_numbers
     df'!2..                                                                    %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     df'!8                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! IndicatorCommand
-    
+
     % [C SecondViolinVoiceI measure 20 / measure 3]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1370,35 +1370,35 @@ C_SecondViolinVoiceI_a = {
 %%% ^ \markup { "still (non vibrato)" }                                        %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C SecondViolinVoiceI measure 21 / measure 4]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C SecondViolinVoiceI measure 22 / measure 5]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C SecondViolinVoiceI measure 23 / measure 6]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_SecondViolinVoiceI = {
+C_SecondViolinVoiceI = {                                                       %! extern
     \C_SecondViolinVoiceI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-C_SecondViolinStaffI = {
+C_SecondViolinStaffI = {                                                       %! extern
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \C_SecondViolinVoiceI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-C_SecondViolinVoiceIII_a = {
-    
+C_SecondViolinVoiceIII_a = {                                                   %! extern
+
     % [C SecondViolinVoiceIII measure 18 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1435,11 +1435,11 @@ C_SecondViolinVoiceIII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C SecondViolinVoiceIII measure 19 / measure 2]                          %! _comment_measure_numbers
     df'!1                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     % [C SecondViolinVoiceIII measure 20 / measure 3]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1447,35 +1447,35 @@ C_SecondViolinVoiceIII_a = {
 %%% ^ \markup { "still (non vibrato)" }                                        %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C SecondViolinVoiceIII measure 21 / measure 4]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C SecondViolinVoiceIII measure 22 / measure 5]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C SecondViolinVoiceIII measure 23 / measure 6]                          %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_SecondViolinVoiceIII = {
+C_SecondViolinVoiceIII = {                                                     %! extern
     \C_SecondViolinVoiceIII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-C_SecondViolinStaffII = {
+C_SecondViolinStaffII = {                                                      %! extern
     \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
     \C_SecondViolinVoiceIII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-C_ViolaVoiceI_a = {
-    
+C_ViolaVoiceI_a = {                                                            %! extern
+
     % [C ViolaVoiceI measure 18 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1512,17 +1512,17 @@ C_ViolaVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     df'!8                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! IndicatorCommand
-    
+
     df'!2                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     % [C ViolaVoiceI measure 19 / measure 2]                                   %! _comment_measure_numbers
     df'!1                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     % [C ViolaVoiceI measure 20 / measure 3]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1530,37 +1530,37 @@ C_ViolaVoiceI_a = {
 %%% ^ \markup { "still (non vibrato)" }                                        %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C ViolaVoiceI measure 21 / measure 4]                                   %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
-    
+
     % [C ViolaVoiceI measure 22 / measure 5]                                   %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
-    
+
     % [C ViolaVoiceI measure 23 / measure 6]                                   %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_ViolaVoiceI = {
+C_ViolaVoiceI = {                                                              %! extern
     \C_ViolaVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-C_ViolaStaffI = {
+C_ViolaStaffI = {                                                              %! extern
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \C_ViolaVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-C_ViolaVoiceIII_a = {
-    
+C_ViolaVoiceIII_a = {                                                          %! extern
+
     % [C ViolaVoiceIII measure 18 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1597,14 +1597,14 @@ C_ViolaVoiceIII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     df'!2                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! IndicatorCommand
-    
+
     % [C ViolaVoiceIII measure 19 / measure 2]                                 %! _comment_measure_numbers
     df'!1                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     % [C ViolaVoiceIII measure 20 / measure 3]                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1612,37 +1612,37 @@ C_ViolaVoiceIII_a = {
 %%% ^ \markup { "still (non vibrato)" }                                        %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C ViolaVoiceIII measure 21 / measure 4]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
-    
+
     % [C ViolaVoiceIII measure 22 / measure 5]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
-    
+
     % [C ViolaVoiceIII measure 23 / measure 6]                                 %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_ViolaVoiceIII = {
+C_ViolaVoiceIII = {                                                            %! extern
     \C_ViolaVoiceIII_a                                                         %! extern
-}
+}                                                                              %! extern
 
 
-C_ViolaStaffII = {
+C_ViolaStaffII = {                                                             %! extern
     \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
     \C_ViolaVoiceIII                                                           %! extern
-}
+}                                                                              %! extern
 
 
-C_CelloVoiceI_a = {
-    
+C_CelloVoiceI_a = {                                                            %! extern
+
     % [C CelloVoiceI measure 18 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1671,14 +1671,14 @@ C_CelloVoiceI_a = {
             Vc.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C CelloVoiceI measure 19 / measure 2]                                   %! _comment_measure_numbers
     df'!8                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    
+
     df'!2..                                                                    %! sforzando_exchange_rhythm
     - \accent                                                                  %! IndicatorCommand
-    
+
     % [C CelloVoiceI measure 20 / measure 3]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1686,35 +1686,35 @@ C_CelloVoiceI_a = {
 %%% ^ \markup { "still (non vibrato)" }                                        %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
-    
+
     % [C CelloVoiceI measure 21 / measure 4]                                   %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C CelloVoiceI measure 22 / measure 5]                                   %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C CelloVoiceI measure 23 / measure 6]                                   %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-C_CelloVoiceI = {
+C_CelloVoiceI = {                                                              %! extern
     \C_CelloVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-C_CelloStaffI = {
+C_CelloStaffI = {                                                              %! extern
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \C_CelloVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-C_ContrabassVoiceIII_a = {
-    
+C_ContrabassVoiceIII_a = {                                                     %! extern
+
     % [C ContrabassVoiceIII measure 18 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -1738,39 +1738,39 @@ C_ContrabassVoiceIII_a = {
             Cb.                                                                %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [C ContrabassVoiceIII measure 19 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [C ContrabassVoiceIII measure 20 / measure 3]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c1                                                                         %! baca_make_repeat_tied_notes
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     % [C ContrabassVoiceIII measure 21 / measure 4]                            %! _comment_measure_numbers
     c1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C ContrabassVoiceIII measure 22 / measure 5]                            %! _comment_measure_numbers
     c1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [C ContrabassVoiceIII measure 23 / measure 6]                            %! _comment_measure_numbers
     c2.                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    
-}
+
+}                                                                              %! extern
 
 
-C_ContrabassVoiceIII = {
+C_ContrabassVoiceIII = {                                                       %! extern
     \C_ContrabassVoiceIII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-C_ContrabassStaffII = {
+C_ContrabassStaffII = {                                                        %! extern
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \C_ContrabassVoiceIII                                                      %! extern
-}
+}                                                                              %! extern

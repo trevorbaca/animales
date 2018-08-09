@@ -1,28 +1,28 @@
-M_GlobalRests = {
-    
+M_GlobalRests = {                                                              %! extern
+
     % [M GlobalRests measure 82 / measure 1]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [M GlobalRests measure 83 / measure 2]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [M GlobalRests measure 84 / measure 3]                                   %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [M GlobalRests measure 85 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [M GlobalRests measure 86 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [M GlobalRests measure 87 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
-}
+
+}                                                                              %! extern
 
 
-M_GlobalSkips = {
-    
+M_GlobalSkips = {                                                              %! extern
+
     % [M GlobalSkips measure 82 / measure 1]                                   %! _comment_measure_numbers
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
 %%% \override TextSpanner.bound-details.left.padding = #-2                     %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
@@ -58,7 +58,7 @@ M_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [M GlobalSkips measure 83 / measure 2]                                   %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -68,7 +68,7 @@ M_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [M.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'48'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [M GlobalSkips measure 84 / measure 3]                                   %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -78,7 +78,7 @@ M_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [M.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'50'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [M GlobalSkips measure 85 / measure 4]                                   %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -88,7 +88,7 @@ M_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [M.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'51'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [M GlobalSkips measure 86 / measure 5]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (86)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -96,7 +96,7 @@ M_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [M.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'53'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [M GlobalSkips measure 87 / measure 6]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (87)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -108,12 +108,12 @@ M_GlobalSkips = {
 %%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-M_FluteVoiceI_a = {
-    
+M_FluteVoiceI_a = {                                                            %! extern
+
     % [M FluteVoiceI measure 82 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -146,7 +146,7 @@ M_FluteVoiceI_a = {
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         % [M FluteVoiceI measure 83 / measure 2]                               %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         g''8                                                                   %! pennant_rhythm
@@ -155,91 +155,91 @@ M_FluteVoiceI_a = {
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1):+PARTS
         [                                                                      %! pennant_rhythm
         (                                                                      %! SpannerCommand
-        
+
         af''!8                                                                 %! pennant_rhythm
-        
+
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
-    
+
     fs''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
-    
+
     fs''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
-    
+
     bf''!16                                                                    %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
-    
+
     bf''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         % [M FluteVoiceI measure 84 / measure 3]                               %! _comment_measure_numbers
         b''8                                                                   %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         bf''!8                                                                 %! pennant_rhythm
-        
+
         c'''8                                                                  %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         cs'''!8                                                                %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         b''8                                                                   %! pennant_rhythm
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'''8                                                                  %! pennant_rhythm
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2):+PARTS
         ]                                                                      %! pennant_rhythm
         )                                                                      %! SpannerCommand
     }                                                                          %! pennant_rhythm
-    
+
     % [M FluteVoiceI measure 85 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceI measure 86 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceI measure 87 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_FluteVoiceI = {
+M_FluteVoiceI = {                                                              %! extern
     \M_FluteVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-M_FluteVoiceIII_a = {
-    
+M_FluteVoiceIII_a = {                                                          %! extern
+
     % [M FluteVoiceIII measure 82 / measure 1]                                 %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     r2                                                                         %! pennant_rhythm
     ^ \baca-default-indicator-markup "(“Flute”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f''16                                                                      %! pennant_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -247,106 +247,106 @@ M_FluteVoiceIII_a = {
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     [                                                                          %! pennant_rhythm
     (                                                                          %! SpannerCommand
-    
+
     fs''!16                                                                    %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
-    
+
     e''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         % [M FluteVoiceIII measure 83 / measure 2]                             %! _comment_measure_numbers
         ef''!8                                                                 %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         f''8                                                                   %! pennant_rhythm
-        
+
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         f''8                                                                   %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         fs''!8                                                                 %! pennant_rhythm
-        
+
         af''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     fs''!16                                                                    %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
-    
+
     bf''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     % [M FluteVoiceIII measure 84 / measure 3]                                 %! _comment_measure_numbers
     b''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
-    
+
     bf''!16                                                                    %! pennant_rhythm
-    
+
     b''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         c'''8                                                                  %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         b''8                                                                   %! pennant_rhythm
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bf''!8                                                                 %! pennant_rhythm
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! pennant_rhythm
         )                                                                      %! SpannerCommand
     }                                                                          %! pennant_rhythm
-    
+
     % [M FluteVoiceIII measure 85 / measure 4]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceIII measure 86 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceIII measure 87 / measure 6]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_FluteVoiceIII = {
+M_FluteVoiceIII = {                                                            %! extern
     \M_FluteVoiceIII_a                                                         %! extern
-}
+}                                                                              %! extern
 
 
-M_FluteStaffI = <<
+M_FluteStaffI = <<                                                             %! extern
     \context Voice = "FluteVoiceI"                                             %! ScoreTemplate
     \M_FluteVoiceI                                                             %! extern
     \context Voice = "FluteVoiceIII"                                           %! ScoreTemplate
     \M_FluteVoiceIII                                                           %! extern
->>
+>>                                                                             %! extern
 
 
-M_FluteVoiceII_a = {
-    
+M_FluteVoiceII_a = {                                                           %! extern
+
     % [M FluteVoiceII measure 82 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS:ANIMALES
@@ -379,7 +379,7 @@ M_FluteVoiceII_a = {
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS:ANIMALES
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         ef''!8                                                                 %! pennant_rhythm
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1):+PARTS
@@ -387,107 +387,107 @@ M_FluteVoiceII_a = {
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1):+PARTS
         [                                                                      %! pennant_rhythm
         (                                                                      %! SpannerCommand
-        
+
         e''8                                                                   %! pennant_rhythm
-        
+
         ef''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         d''8                                                                   %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         cs''!8                                                                 %! pennant_rhythm
-        
+
         ef''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
-    
+
     % [M FluteVoiceII measure 83 / measure 2]                                  %! _comment_measure_numbers
     d''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     ef''!16                                                                    %! pennant_rhythm
-    
+
     e''16                                                                      %! pennant_rhythm
-    
+
     fs''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     e''16                                                                      %! pennant_rhythm
-    
+
     ef''!16                                                                    %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         fs''!8                                                                 %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         g''8                                                                   %! pennant_rhythm
-        
+
         fs''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         af''!8                                                                 %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         a''8                                                                   %! pennant_rhythm
-        
+
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
-    
+
     % [M FluteVoiceII measure 84 / measure 3]                                  %! _comment_measure_numbers
     af''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
-    
+
     bf''!16                                                                    %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af''!16                                                                    %! pennant_rhythm
 %%% \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2):+PARTS
     ]                                                                          %! pennant_rhythm
     )                                                                          %! SpannerCommand
-    
+
     % [M FluteVoiceII measure 85 / measure 4]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceII measure 86 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceII measure 87 / measure 6]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_FluteVoiceII = {
+M_FluteVoiceII = {                                                             %! extern
     \M_FluteVoiceII_a                                                          %! extern
-}
+}                                                                              %! extern
 
 
-M_FluteVoiceIV_a = {
-    
+M_FluteVoiceIV_a = {                                                           %! extern
+
     % [M FluteVoiceIV measure 82 / measure 1]                                  %! _comment_measure_numbers
     \voiceTwo                                                                  %! IndicatorCommand:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -498,126 +498,126 @@ M_FluteVoiceIV_a = {
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     [                                                                          %! pennant_rhythm
     (                                                                          %! SpannerCommand
-    
+
     ef''!16                                                                    %! pennant_rhythm
-    
+
     d''16                                                                      %! pennant_rhythm
-    
+
     cs''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     c''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     d''16                                                                      %! pennant_rhythm
-    
+
     cs''!16                                                                    %! pennant_rhythm
-    
+
     d''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         ef''!8                                                                 %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         f''8                                                                   %! pennant_rhythm
-        
+
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         % [M FluteVoiceIV measure 83 / measure 2]                              %! _comment_measure_numbers
         ef''!8                                                                 %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         d''8                                                                   %! pennant_rhythm
-        
+
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     fs''!16                                                                    %! pennant_rhythm
-    
+
     f''16                                                                      %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     fs''!16                                                                    %! pennant_rhythm
-    
+
     g''16                                                                      %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         a''8                                                                   %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         af''!8                                                                 %! pennant_rhythm
-        
+
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
     \times 2/3 {                                                               %! pennant_rhythm
-        
+
         % [M FluteVoiceIV measure 84 / measure 3]                              %! _comment_measure_numbers
         fs''!8                                                                 %! pennant_rhythm
         [                                                                      %! pennant_rhythm
-        
+
         af''!8                                                                 %! pennant_rhythm
-        
+
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
     }                                                                          %! pennant_rhythm
-    
+
     af''!16                                                                    %! pennant_rhythm
     [                                                                          %! pennant_rhythm
-    
+
     a''16                                                                      %! pennant_rhythm
-    
+
     b''16                                                                      %! pennant_rhythm
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     bf''!16                                                                    %! pennant_rhythm
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     ]                                                                          %! pennant_rhythm
     )                                                                          %! SpannerCommand
-    
+
     % [M FluteVoiceIV measure 85 / measure 4]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceIV measure 86 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FluteVoiceIV measure 87 / measure 6]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_FluteVoiceIV = {
+M_FluteVoiceIV = {                                                             %! extern
     \M_FluteVoiceIV_a                                                          %! extern
-}
+}                                                                              %! extern
 
 
-M_FluteStaffII = <<
+M_FluteStaffII = <<                                                            %! extern
     \context Voice = "FluteVoiceII"                                            %! ScoreTemplate
     \M_FluteVoiceII                                                            %! extern
     \context Voice = "FluteVoiceIV"                                            %! ScoreTemplate
     \M_FluteVoiceIV                                                            %! extern
->>
+>>                                                                             %! extern
 
 
-M_ClarinetVoiceI_a = {
-    
+M_ClarinetVoiceI_a = {                                                         %! extern
+
     % [M ClarinetVoiceI measure 82 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -651,17 +651,17 @@ M_ClarinetVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M ClarinetVoiceI measure 83 / measure 2]                                %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [M ClarinetVoiceI measure 84 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f''2                                                                       %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [M ClarinetVoiceI measure 85 / measure 4]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     ^ \markup {                                                                %! IndicatorCommand
@@ -670,29 +670,29 @@ M_ClarinetVoiceI_a = {
             \box                                                               %! IndicatorCommand
                 "choke sound suddenly"                                         %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [M ClarinetVoiceI measure 86 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M ClarinetVoiceI measure 87 / measure 6]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_ClarinetVoiceI = {
+M_ClarinetVoiceI = {                                                           %! extern
     \M_ClarinetVoiceI_a                                                        %! extern
-}
+}                                                                              %! extern
 
 
-M_ClarinetStaffI = {
+M_ClarinetStaffI = {                                                           %! extern
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \M_ClarinetVoiceI                                                          %! extern
-}
+}                                                                              %! extern
 
 
-M_BassClarinetVoiceI_a = {
-    
+M_BassClarinetVoiceI_a = {                                                     %! extern
+
     % [M BassClarinetVoiceI measure 82 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -719,43 +719,43 @@ M_BassClarinetVoiceI_a = {
             "B. cl."                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M BassClarinetVoiceI measure 83 / measure 2]                            %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [M BassClarinetVoiceI measure 84 / measure 3]                            %! _comment_measure_numbers
     bf!2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [M BassClarinetVoiceI measure 85 / measure 4]                            %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [M BassClarinetVoiceI measure 86 / measure 5]                            %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [M BassClarinetVoiceI measure 87 / measure 6]                            %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
-}
+
+}                                                                              %! extern
 
 
-M_BassClarinetVoiceI = {
+M_BassClarinetVoiceI = {                                                       %! extern
     \M_BassClarinetVoiceI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-M_BassClarinetStaffI = {
+M_BassClarinetStaffI = {                                                       %! extern
     \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
     \M_BassClarinetVoiceI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-M_PianoVoiceI_a = {
-    
+M_PianoVoiceI_a = {                                                            %! extern
+
     % [M PianoVoiceI measure 82 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -782,59 +782,59 @@ M_PianoVoiceI_a = {
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [M PianoVoiceI measure 83 / measure 2]                               %! _comment_measure_numbers
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [M PianoVoiceI measure 84 / measure 3]                                   %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [M PianoVoiceI measure 85 / measure 4]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [M PianoVoiceI measure 86 / measure 5]                                   %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         r8                                                                     %! harp_exchange_rhythm
-        
+
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r8                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [M PianoVoiceI measure 87 / measure 6]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-M_PianoVoiceI = {
+M_PianoVoiceI = {                                                              %! extern
     \M_PianoVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-M_PianoStaffI = {
+M_PianoStaffI = {                                                              %! extern
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \M_PianoVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-M_HarpVoiceI_a = {
+M_HarpVoiceI_a = {                                                             %! extern
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [M HarpVoiceI measure 82 / measure 1]                                %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -862,61 +862,61 @@ M_HarpVoiceI_a = {
                 Hp.                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [M HarpVoiceI measure 83 / measure 2]                                    %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [M HarpVoiceI measure 84 / measure 3]                                    %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [M HarpVoiceI measure 85 / measure 4]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     % [M HarpVoiceI measure 86 / measure 5]                                    %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [M HarpVoiceI measure 87 / measure 6]                                    %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r4                                                                         %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-M_HarpVoiceI = {
+M_HarpVoiceI = {                                                               %! extern
     \M_HarpVoiceI_a                                                            %! extern
-}
+}                                                                              %! extern
 
 
-M_HarpStaffI = {
+M_HarpStaffI = {                                                               %! extern
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \M_HarpVoiceI                                                              %! extern
-}
+}                                                                              %! extern
 
 
-M_PercussionVoiceI_a = {
-    
+M_PercussionVoiceI_a = {                                                       %! extern
+
     % [M PercussionVoiceI measure 82 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -957,43 +957,43 @@ M_PercussionVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M PercussionVoiceI measure 83 / measure 2]                              %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     - \tweak direction #up                                                     %! TCC
     \repeatTie                                                                 %! TCC
-    
+
     % [M PercussionVoiceI measure 84 / measure 3]                              %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \repeatTie                                                                 %! TCC
-    
+
     % [M PercussionVoiceI measure 85 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M PercussionVoiceI measure 86 / measure 5]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M PercussionVoiceI measure 87 / measure 6]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_PercussionVoiceI = {
+M_PercussionVoiceI = {                                                         %! extern
     \M_PercussionVoiceI_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-M_PercussionStaffI = {
+M_PercussionStaffI = {                                                         %! extern
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \M_PercussionVoiceI                                                        %! extern
-}
+}                                                                              %! extern
 
 
-M_PercussionVoiceII_a = {
-    
+M_PercussionVoiceII_a = {                                                      %! extern
+
     % [M PercussionVoiceII measure 82 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1034,44 +1034,44 @@ M_PercussionVoiceII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M PercussionVoiceII measure 83 / measure 2]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     - \tweak direction #up                                                     %! TCC
     \repeatTie                                                                 %! TCC
-    
+
     % [M PercussionVoiceII measure 84 / measure 3]                             %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \repeatTie                                                                 %! TCC
-    
+
     % [M PercussionVoiceII measure 85 / measure 4]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M PercussionVoiceII measure 86 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M PercussionVoiceII measure 87 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_PercussionVoiceII = {
+M_PercussionVoiceII = {                                                        %! extern
     \M_PercussionVoiceII_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-M_PercussionStaffII = {
+M_PercussionStaffII = {                                                        %! extern
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \M_PercussionVoiceII                                                       %! extern
-}
+}                                                                              %! extern
 
 
-M_PercussionVoiceIII_a = {
+M_PercussionVoiceIII_a = {                                                     %! extern
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [M PercussionVoiceIII measure 82 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1106,57 +1106,57 @@ M_PercussionVoiceIII_a = {
                     }                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [M PercussionVoiceIII measure 83 / measure 2]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     % [M PercussionVoiceIII measure 84 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [M PercussionVoiceIII measure 85 / measure 4]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [M PercussionVoiceIII measure 86 / measure 5]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [M PercussionVoiceIII measure 87 / measure 6]                        %! _comment_measure_numbers
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2.                                                                        %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-M_PercussionVoiceIII = {
+M_PercussionVoiceIII = {                                                       %! extern
     \M_PercussionVoiceIII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-M_PercussionStaffIII = {
+M_PercussionStaffIII = {                                                       %! extern
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \M_PercussionVoiceIII                                                      %! extern
-}
+}                                                                              %! extern
 
 
-M_FirstViolinVoiceIII_a = {
-    
+M_FirstViolinVoiceIII_a = {                                                    %! extern
+
     % [M FirstViolinVoiceIII measure 82 / measure 1]                           %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                  %! IndicatorCommand:-PARTS
@@ -1169,68 +1169,68 @@ M_FirstViolinVoiceIII_a = {
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                 %! SpannerCommand
-    
+
     e'''8                                                                      %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     a''4.                                                                      %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     % [M FirstViolinVoiceIII measure 83 / measure 2]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'''4                                                                      %! glissando_rhythm
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \glissando                                                                 %! SpannerCommand
-    
+
     d''8                                                                       %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     c'''8
     \glissando                                                                 %! SpannerCommand
-    
+
     g''8
     \glissando                                                                 %! SpannerCommand
-    
+
     d'''8                                                                      %! glissando_rhythm
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a'4                                                                        %! glissando_rhythm
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                 %! SpannerCommand
-    
+
     % [M FirstViolinVoiceIII measure 84 / measure 3]                           %! _comment_measure_numbers
     g''4.                                                                      %! glissando_rhythm
     \glissando                                                                 %! SpannerCommand
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'8                                                                        %! glissando_rhythm
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca_dls_up:OverrideCommand(2)
-    
+
     % [M FirstViolinVoiceIII measure 85 / measure 4]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FirstViolinVoiceIII measure 86 / measure 5]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FirstViolinVoiceIII measure 87 / measure 6]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_FirstViolinVoiceIII = {
+M_FirstViolinVoiceIII = {                                                      %! extern
     \M_FirstViolinVoiceIII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-M_FirstViolinVoiceI_a = {
-    
+M_FirstViolinVoiceI_a = {                                                      %! extern
+
     % [M FirstViolinVoiceI measure 82 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1259,17 +1259,17 @@ M_FirstViolinVoiceI_a = {
             "Vni. I"                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M FirstViolinVoiceI measure 83 / measure 2]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g1                                                                         %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [M FirstViolinVoiceI measure 84 / measure 3]                             %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [M FirstViolinVoiceI measure 85 / measure 4]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     ^ \markup {                                                                %! IndicatorCommand
@@ -1283,31 +1283,31 @@ M_FirstViolinVoiceI_a = {
                     }                                                          %! IndicatorCommand
         }                                                                      %! IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [M FirstViolinVoiceI measure 86 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M FirstViolinVoiceI measure 87 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_FirstViolinVoiceI = {
+M_FirstViolinVoiceI = {                                                        %! extern
     \M_FirstViolinVoiceI_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-M_FirstViolinStaffI = <<
+M_FirstViolinStaffI = <<                                                       %! extern
     \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
     \M_FirstViolinVoiceIII                                                     %! extern
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \M_FirstViolinVoiceI                                                       %! extern
->>
+>>                                                                             %! extern
 
 
-M_SecondViolinVoiceI_a = {
-    
+M_SecondViolinVoiceI_a = {                                                     %! extern
+
     % [M SecondViolinVoiceI measure 82 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1335,17 +1335,17 @@ M_SecondViolinVoiceI_a = {
             "Vni. II"                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M SecondViolinVoiceI measure 83 / measure 2]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g1                                                                         %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [M SecondViolinVoiceI measure 84 / measure 3]                            %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [M SecondViolinVoiceI measure 85 / measure 4]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -1359,29 +1359,29 @@ M_SecondViolinVoiceI_a = {
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [M SecondViolinVoiceI measure 86 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M SecondViolinVoiceI measure 87 / measure 6]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_SecondViolinVoiceI = {
+M_SecondViolinVoiceI = {                                                       %! extern
     \M_SecondViolinVoiceI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-M_SecondViolinStaffI = {
+M_SecondViolinStaffI = {                                                       %! extern
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \M_SecondViolinVoiceI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-M_ViolaVoiceI_a = {
-    
+M_ViolaVoiceI_a = {                                                            %! extern
+
     % [M ViolaVoiceI measure 82 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1409,17 +1409,17 @@ M_ViolaVoiceI_a = {
             Vle.                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M ViolaVoiceI measure 83 / measure 2]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g1                                                                         %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [M ViolaVoiceI measure 84 / measure 3]                                   %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [M ViolaVoiceI measure 85 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -1433,29 +1433,29 @@ M_ViolaVoiceI_a = {
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [M ViolaVoiceI measure 86 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M ViolaVoiceI measure 87 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_ViolaVoiceI = {
+M_ViolaVoiceI = {                                                              %! extern
     \M_ViolaVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-M_ViolaStaffI = {
+M_ViolaStaffI = {                                                              %! extern
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \M_ViolaVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-M_CelloVoiceI_a = {
-    
+M_CelloVoiceI_a = {                                                            %! extern
+
     % [M CelloVoiceI measure 82 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1483,17 +1483,17 @@ M_CelloVoiceI_a = {
             Vc.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M CelloVoiceI measure 83 / measure 2]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g1                                                                         %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [M CelloVoiceI measure 84 / measure 3]                                   %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [M CelloVoiceI measure 85 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -1507,29 +1507,29 @@ M_CelloVoiceI_a = {
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [M CelloVoiceI measure 86 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M CelloVoiceI measure 87 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_CelloVoiceI = {
+M_CelloVoiceI = {                                                              %! extern
     \M_CelloVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-M_CelloStaffI = {
+M_CelloStaffI = {                                                              %! extern
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \M_CelloVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-M_ContrabassVoiceI_a = {
-    
+M_ContrabassVoiceI_a = {                                                       %! extern
+
     % [M ContrabassVoiceI measure 82 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1564,61 +1564,61 @@ M_ContrabassVoiceI_a = {
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         ^ \markup { "as bell-like as possible (at sounding pitch)" }           %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r4                                                                         %! harp_exchange_rhythm
-    
+
     % [M ContrabassVoiceI measure 83 / measure 2]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [M ContrabassVoiceI measure 84 / measure 3]                          %! _comment_measure_numbers
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r4                                                                         %! harp_exchange_rhythm
-    
+
     % [M ContrabassVoiceI measure 85 / measure 4]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [M ContrabassVoiceI measure 86 / measure 5]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [M ContrabassVoiceI measure 87 / measure 6]                          %! _comment_measure_numbers
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2.                                                                        %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-M_ContrabassVoiceI = {
+M_ContrabassVoiceI = {                                                         %! extern
     \M_ContrabassVoiceI_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-M_ContrabassStaffI = {
+M_ContrabassStaffI = {                                                         %! extern
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \M_ContrabassVoiceI                                                        %! extern
-}
+}                                                                              %! extern
 
 
-M_ContrabassVoiceIII_a = {
-    
+M_ContrabassVoiceIII_a = {                                                     %! extern
+
     % [M ContrabassVoiceIII measure 82 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1652,17 +1652,17 @@ M_ContrabassVoiceIII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [M ContrabassVoiceIII measure 83 / measure 2]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g,1                                                                        %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [M ContrabassVoiceIII measure 84 / measure 3]                            %! _comment_measure_numbers
     g,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [M ContrabassVoiceIII measure 85 / measure 4]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -1675,22 +1675,22 @@ M_ContrabassVoiceIII_a = {
 %%%                     "las. vib. possibile"                                  %! IndicatorCommand:+PARTS
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
-    
+
     % [M ContrabassVoiceIII measure 86 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [M ContrabassVoiceIII measure 87 / measure 6]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-M_ContrabassVoiceIII = {
+M_ContrabassVoiceIII = {                                                       %! extern
     \M_ContrabassVoiceIII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-M_ContrabassStaffII = {
+M_ContrabassStaffII = {                                                        %! extern
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \M_ContrabassVoiceIII                                                      %! extern
-}
+}                                                                              %! extern

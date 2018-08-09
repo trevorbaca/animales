@@ -1,28 +1,28 @@
-H_GlobalRests = {
-    
+H_GlobalRests = {                                                              %! extern
+
     % [H GlobalRests measure 50 / measure 1]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [H GlobalRests measure 51 / measure 2]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [H GlobalRests measure 52 / measure 3]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [H GlobalRests measure 53 / measure 4]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [H GlobalRests measure 54 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [H GlobalRests measure 55 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
-}
+
+}                                                                              %! extern
 
 
-H_GlobalSkips = {
-    
+H_GlobalSkips = {                                                              %! extern
+
     % [H GlobalSkips measure 50 / measure 1]                                   %! _comment_measure_numbers
 %%% \override TextSpanner.bound-details.left.padding = #-8                     %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
@@ -57,7 +57,7 @@ H_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [H GlobalSkips measure 51 / measure 2]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (51)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -65,7 +65,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[1'41'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 52 / measure 3]                                   %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -75,7 +75,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[1'43'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 53 / measure 4]                                   %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (53)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -83,7 +83,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[1'44'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 54 / measure 5]                                   %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -93,7 +93,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[1'46'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 55 / measure 6]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (55)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -105,12 +105,12 @@ H_GlobalSkips = {
 %%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-H_ClarinetVoiceI_a = {
-    
+H_ClarinetVoiceI_a = {                                                         %! extern
+
     % [H ClarinetVoiceI measure 50 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -144,17 +144,17 @@ H_ClarinetVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H ClarinetVoiceI measure 51 / measure 2]                                %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [H ClarinetVoiceI measure 52 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g''2.                                                                      %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [H ClarinetVoiceI measure 53 / measure 4]                                %! _comment_measure_numbers
 %%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)             %! +SCORE:baca_mmrest_text_extra_offset:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -169,29 +169,29 @@ H_ClarinetVoiceI_a = {
                         "exactly on downbeat"                                  %! IndicatorCommand
                     }                                                          %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [H ClarinetVoiceI measure 54 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [H ClarinetVoiceI measure 55 / measure 6]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-H_ClarinetVoiceI = {
+H_ClarinetVoiceI = {                                                           %! extern
     \H_ClarinetVoiceI_a                                                        %! extern
-}
+}                                                                              %! extern
 
 
-H_ClarinetStaffI = {
+H_ClarinetStaffI = {                                                           %! extern
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \H_ClarinetVoiceI                                                          %! extern
-}
+}                                                                              %! extern
 
 
-H_BassClarinetVoiceI_a = {
-    
+H_BassClarinetVoiceI_a = {                                                     %! extern
+
     % [H BassClarinetVoiceI measure 50 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -218,43 +218,43 @@ H_BassClarinetVoiceI_a = {
             "B. cl."                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H BassClarinetVoiceI measure 51 / measure 2]                            %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [H BassClarinetVoiceI measure 52 / measure 3]                            %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [H BassClarinetVoiceI measure 53 / measure 4]                            %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [H BassClarinetVoiceI measure 54 / measure 5]                            %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
+
     % [H BassClarinetVoiceI measure 55 / measure 6]                            %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TCC
-    
-}
+
+}                                                                              %! extern
 
 
-H_BassClarinetVoiceI = {
+H_BassClarinetVoiceI = {                                                       %! extern
     \H_BassClarinetVoiceI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_BassClarinetStaffI = {
+H_BassClarinetStaffI = {                                                       %! extern
     \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
     \H_BassClarinetVoiceI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PianoVoiceI_a = {
-    
+H_PianoVoiceI_a = {                                                            %! extern
+
     % [H PianoVoiceI measure 50 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -281,56 +281,56 @@ H_PianoVoiceI_a = {
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         r8                                                                     %! harp_exchange_rhythm
-        
+
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r8                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     % [H PianoVoiceI measure 51 / measure 2]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [H PianoVoiceI measure 52 / measure 3]                                   %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         r4                                                                     %! harp_exchange_rhythm
-        
+
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
     }                                                                          %! harp_exchange_rhythm
-    
+
     % [H PianoVoiceI measure 53 / measure 4]                                   %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H PianoVoiceI measure 54 / measure 5]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [H PianoVoiceI measure 55 / measure 6]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PianoVoiceI = {
+H_PianoVoiceI = {                                                              %! extern
     \H_PianoVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-H_PianoStaffI = {
+H_PianoStaffI = {                                                              %! extern
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \H_PianoVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-H_HarpVoiceI_a = {
-    
+H_HarpVoiceI_a = {                                                             %! extern
+
     % [H HarpVoiceI measure 50 / measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -357,63 +357,63 @@ H_HarpVoiceI_a = {
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     % [H HarpVoiceI measure 51 / measure 2]                                    %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [H HarpVoiceI measure 52 / measure 3]                                    %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r4                                                                         %! harp_exchange_rhythm
-    
+
     % [H HarpVoiceI measure 53 / measure 4]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H HarpVoiceI measure 54 / measure 5]                                    %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
+
     % [H HarpVoiceI measure 55 / measure 6]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
-        
+
     }                                                                          %! harp_exchange_rhythm
-}
+}                                                                              %! extern
 
 
-H_HarpVoiceI = {
+H_HarpVoiceI = {                                                               %! extern
     \H_HarpVoiceI_a                                                            %! extern
-}
+}                                                                              %! extern
 
 
-H_HarpStaffI = {
+H_HarpStaffI = {                                                               %! extern
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \H_HarpVoiceI                                                              %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceII_a = {
-    
+H_PercussionVoiceII_a = {                                                      %! extern
+
     % [H PercussionVoiceII measure 50 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -452,38 +452,38 @@ H_PercussionVoiceII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceII measure 51 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [H PercussionVoiceII measure 52 / measure 3]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
-    
+
     % [H PercussionVoiceII measure 53 / measure 4]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
-    
+
     % [H PercussionVoiceII measure 54 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [H PercussionVoiceII measure 55 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceII = {
+H_PercussionVoiceII = {                                                        %! extern
     \H_PercussionVoiceII_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionStaffII = {
+H_PercussionStaffII = {                                                        %! extern
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \H_PercussionVoiceII                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceIII_a = {
-    
+H_PercussionVoiceIII_a = {                                                     %! extern
+
     % [H PercussionVoiceIII measure 50 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -518,53 +518,53 @@ H_PercussionVoiceIII_a = {
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         % [H PercussionVoiceIII measure 51 / measure 2]                        %! _comment_measure_numbers
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H PercussionVoiceIII measure 52 / measure 3]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H PercussionVoiceIII measure 53 / measure 4]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H PercussionVoiceIII measure 54 / measure 5]                            %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r2                                                                         %! harp_exchange_rhythm
-    
+
     % [H PercussionVoiceIII measure 55 / measure 6]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceIII = {
+H_PercussionVoiceIII = {                                                       %! extern
     \H_PercussionVoiceIII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionStaffIII = {
+H_PercussionStaffIII = {                                                       %! extern
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \H_PercussionVoiceIII                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_FirstViolinVoiceI_a = {
-    
+H_FirstViolinVoiceI_a = {                                                      %! extern
+
     % [H FirstViolinVoiceI measure 50 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -592,17 +592,17 @@ H_FirstViolinVoiceI_a = {
             "Vni. I"                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H FirstViolinVoiceI measure 51 / measure 2]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!1                                                                       %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [H FirstViolinVoiceI measure 52 / measure 3]                             %! _comment_measure_numbers
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [H FirstViolinVoiceI measure 53 / measure 4]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -627,29 +627,29 @@ H_FirstViolinVoiceI_a = {
                     }                                                          %! IndicatorCommand:-PARTS
         }                                                                      %! IndicatorCommand:-PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [H FirstViolinVoiceI measure 54 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [H FirstViolinVoiceI measure 55 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-H_FirstViolinVoiceI = {
+H_FirstViolinVoiceI = {                                                        %! extern
     \H_FirstViolinVoiceI_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_FirstViolinStaffI = {
+H_FirstViolinStaffI = {                                                        %! extern
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \H_FirstViolinVoiceI                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_SecondViolinVoiceI_a = {
-    
+H_SecondViolinVoiceI_a = {                                                     %! extern
+
     % [H SecondViolinVoiceI measure 50 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -677,17 +677,17 @@ H_SecondViolinVoiceI_a = {
             "Vni. II"                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H SecondViolinVoiceI measure 51 / measure 2]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!1                                                                       %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [H SecondViolinVoiceI measure 52 / measure 3]                            %! _comment_measure_numbers
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [H SecondViolinVoiceI measure 53 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -701,29 +701,29 @@ H_SecondViolinVoiceI_a = {
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [H SecondViolinVoiceI measure 54 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [H SecondViolinVoiceI measure 55 / measure 6]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-H_SecondViolinVoiceI = {
+H_SecondViolinVoiceI = {                                                       %! extern
     \H_SecondViolinVoiceI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_SecondViolinStaffI = {
+H_SecondViolinStaffI = {                                                       %! extern
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \H_SecondViolinVoiceI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_ViolaVoiceI_a = {
-    
+H_ViolaVoiceI_a = {                                                            %! extern
+
     % [H ViolaVoiceI measure 50 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -751,17 +751,17 @@ H_ViolaVoiceI_a = {
             Vle.                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H ViolaVoiceI measure 51 / measure 2]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!1                                                                       %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [H ViolaVoiceI measure 52 / measure 3]                                   %! _comment_measure_numbers
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [H ViolaVoiceI measure 53 / measure 4]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -775,29 +775,29 @@ H_ViolaVoiceI_a = {
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [H ViolaVoiceI measure 54 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [H ViolaVoiceI measure 55 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-H_ViolaVoiceI = {
+H_ViolaVoiceI = {                                                              %! extern
     \H_ViolaVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-H_ViolaStaffI = {
+H_ViolaStaffI = {                                                              %! extern
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \H_ViolaVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-H_CelloVoiceI_a = {
-    
+H_CelloVoiceI_a = {                                                            %! extern
+
     % [H CelloVoiceI measure 50 / measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -825,17 +825,17 @@ H_CelloVoiceI_a = {
             Vc.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H CelloVoiceI measure 51 / measure 2]                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!1                                                                       %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [H CelloVoiceI measure 52 / measure 3]                                   %! _comment_measure_numbers
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [H CelloVoiceI measure 53 / measure 4]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -849,29 +849,29 @@ H_CelloVoiceI_a = {
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
     \stopTrillSpan                                                             %! SpannerCommand
-    
+
     % [H CelloVoiceI measure 54 / measure 5]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [H CelloVoiceI measure 55 / measure 6]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-H_CelloVoiceI = {
+H_CelloVoiceI = {                                                              %! extern
     \H_CelloVoiceI_a                                                           %! extern
-}
+}                                                                              %! extern
 
 
-H_CelloStaffI = {
+H_CelloStaffI = {                                                              %! extern
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \H_CelloVoiceI                                                             %! extern
-}
+}                                                                              %! extern
 
 
-H_ContrabassVoiceI_a = {
-    
+H_ContrabassVoiceI_a = {                                                       %! extern
+
     % [H ContrabassVoiceI measure 50 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -905,59 +905,59 @@ H_ContrabassVoiceI_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H ContrabassVoiceI measure 51 / measure 2]                              %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
         cqf''!8                                                                %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         ^ \markup { "7th partial / D (sounds slightly flat)" }                 %! IndicatorCommand
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r4                                                                         %! harp_exchange_rhythm
-    
+
     % [H ContrabassVoiceI measure 52 / measure 3]                              %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H ContrabassVoiceI measure 53 / measure 4]                              %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
-    
+
     % [H ContrabassVoiceI measure 54 / measure 5]                              %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
     \times 2/3 {                                                               %! harp_exchange_rhythm
-        
+
         cqf''!8                                                                %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
-        
+
         r4                                                                     %! harp_exchange_rhythm
     }                                                                          %! harp_exchange_rhythm
-    
+
     r4                                                                         %! harp_exchange_rhythm
-    
+
     % [H ContrabassVoiceI measure 55 / measure 6]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_ContrabassVoiceI = {
+H_ContrabassVoiceI = {                                                         %! extern
     \H_ContrabassVoiceI_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_ContrabassStaffI = {
+H_ContrabassStaffI = {                                                         %! extern
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \H_ContrabassVoiceI                                                        %! extern
-}
+}                                                                              %! extern
 
 
-H_ContrabassVoiceIII_a = {
-    
+H_ContrabassVoiceIII_a = {                                                     %! extern
+
     % [H ContrabassVoiceIII measure 50 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -991,17 +991,17 @@ H_ContrabassVoiceIII_a = {
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H ContrabassVoiceIII measure 51 / measure 2]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [H ContrabassVoiceIII measure 52 / measure 3]                            %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    
+
     % [H ContrabassVoiceIII measure 53 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
@@ -1014,22 +1014,22 @@ H_ContrabassVoiceIII_a = {
 %%%                     "las. vib. poss."                                      %! IndicatorCommand:+PARTS
 %%%                 }                                                          %! IndicatorCommand:+PARTS
 %%%     }                                                                      %! IndicatorCommand:+PARTS
-    
+
     % [H ContrabassVoiceIII measure 54 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [H ContrabassVoiceIII measure 55 / measure 6]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-H_ContrabassVoiceIII = {
+H_ContrabassVoiceIII = {                                                       %! extern
     \H_ContrabassVoiceIII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_ContrabassStaffII = {
+H_ContrabassStaffII = {                                                        %! extern
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \H_ContrabassVoiceIII                                                      %! extern
-}
+}                                                                              %! extern
