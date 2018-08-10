@@ -34,38 +34,38 @@ N_GlobalSkips = {                                                              %
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #14                                                                  %! IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "green4"                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (88)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((1))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.1]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.1]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[2'58'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! _attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "114"                       %! _attach_metronome_marks(2)
-%@% \startTextSpan                                                             %! _attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! _attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "114" #'green4      %! _attach_metronome_marks(3)
-    \startTextSpan                                                             %! _attach_metronome_marks(3)
+%@% - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "114"                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+    - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "114" #'green4      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [N GlobalSkips measure 89 / measure 2]                                   %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (89)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <1>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'00'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [N GlobalSkips measure 90 / measure 3]                                   %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (90)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'01'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [N GlobalSkips measure 91 / measure 4]                                   %! _comment_measure_numbers
@@ -73,7 +73,7 @@ N_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (91)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <3>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.4]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'03'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [N GlobalSkips measure 92 / measure 5]                                   %! _comment_measure_numbers
@@ -81,7 +81,7 @@ N_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (92)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <4>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.5]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'05'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [N GlobalSkips measure 93 / measure 6]                                   %! _comment_measure_numbers
@@ -89,19 +89,19 @@ N_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (93)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((6))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.6]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.6]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'07'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [N GlobalSkips measure 94 / measure 7]                                   %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (94)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <6>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [N.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [N.7]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'09'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    \stopTextSpan                                                              %! _attach_metronome_marks(4)
+    \stopTextSpan                                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
@@ -127,7 +127,7 @@ N_FluteVoiceI_a = {                                                            %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.                                                                        %! pennant_rhythm
 %%% \ff                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Fl. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -234,13 +234,13 @@ N_FluteVoiceI_a = {                                                            %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N FluteVoiceI measure 94 / measure 7]                                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -254,7 +254,7 @@ N_FluteVoiceIII_a = {                                                          %
 
     % [N FluteVoiceIII measure 88 / measure 1]                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! pennant_rhythm
     \ff                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Flute”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -359,13 +359,13 @@ N_FluteVoiceIII_a = {                                                          %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N FluteVoiceIII measure 94 / measure 7]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -402,7 +402,7 @@ N_FluteVoiceII_a = {                                                           %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r4                                                                         %! pennant_rhythm
 %%% \ff                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Fl. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -529,13 +529,13 @@ N_FluteVoiceII_a = {                                                           %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N FluteVoiceII measure 94 / measure 7]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -548,7 +548,7 @@ N_FluteVoiceII = {                                                             %
 N_FluteVoiceIV_a = {                                                           %! extern
 
     % [N FluteVoiceIV measure 88 / measure 1]                                  %! _comment_measure_numbers
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''16                                                                      %! pennant_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -670,13 +670,13 @@ N_FluteVoiceIV_a = {                                                           %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N FluteVoiceIV measure 94 / measure 7]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -717,7 +717,7 @@ N_BassClarinetVoiceI_a = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -755,13 +755,13 @@ N_BassClarinetVoiceI_a = {                                                     %
     \repeatTie
 
     % [N BassClarinetVoiceI measure 94 / measure 7]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -847,13 +847,13 @@ N_PianoVoiceI_a = {                                                            %
     r1                                                                         %! harp_exchange_rhythm
 
     % [N PianoVoiceI measure 94 / measure 7]                                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -929,13 +929,13 @@ N_HarpVoiceI_a = {                                                             %
     }                                                                          %! harp_exchange_rhythm
 
     % [N HarpVoiceI measure 94 / measure 7]                                    %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1019,13 +1019,13 @@ N_PercussionVoiceI_a = {                                                       %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N PercussionVoiceI measure 94 / measure 7]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1109,13 +1109,13 @@ N_PercussionVoiceII_a = {                                                      %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N PercussionVoiceII measure 94 / measure 7]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1199,13 +1199,13 @@ N_PercussionVoiceIII_a = {                                                     %
     r1                                                                         %! harp_exchange_rhythm
 
     % [N PercussionVoiceIII measure 94 / measure 7]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1226,9 +1226,9 @@ N_FirstViolinVoiceII_a = {                                                     %
     % [N FirstViolinVoiceII measure 88 / measure 1]                            %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     g'4                                                                        %! glissando_rhythm
-%%% \stopTrillSpan                                                             %! IndicatorCommand:+PARTS
+%%% \stopTrillSpan                                                             %! +PARTS:IndicatorCommand
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1293,13 +1293,13 @@ N_FirstViolinVoiceII_a = {                                                     %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N FirstViolinVoiceII measure 94 / measure 7]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1323,7 +1323,7 @@ N_FirstViolinVoiceI_a = {                                                      %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     g1                                                                         %! baca_make_repeat_tied_notes
@@ -1354,16 +1354,16 @@ N_FirstViolinVoiceI_a = {                                                      %
 
     % [N FirstViolinVoiceI measure 91 / measure 4]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    ^ \markup {                                                                %! IndicatorCommand
-        \override                                                              %! IndicatorCommand
-            #'(box-padding . 0.5)                                              %! IndicatorCommand
-            \box                                                               %! IndicatorCommand
-                \column                                                        %! IndicatorCommand
-                    {                                                          %! IndicatorCommand
-                        "suddenly ripped off;"                                 %! IndicatorCommand
-                        "las. vib. possibile"                                  %! IndicatorCommand
-                    }                                                          %! IndicatorCommand
-        }                                                                      %! IndicatorCommand
+    ^ \markup {                                                                %! baca_markup:IndicatorCommand
+        \override                                                              %! baca_markup:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
+            \box                                                               %! baca_markup:IndicatorCommand
+                \column                                                        %! baca_markup:IndicatorCommand
+                    {                                                          %! baca_markup:IndicatorCommand
+                        "suddenly ripped off;"                                 %! baca_markup:IndicatorCommand
+                        "las. vib. possibile"                                  %! baca_markup:IndicatorCommand
+                    }                                                          %! baca_markup:IndicatorCommand
+        }                                                                      %! baca_markup:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
 
     % [N FirstViolinVoiceI measure 92 / measure 5]                             %! _comment_measure_numbers
@@ -1373,13 +1373,13 @@ N_FirstViolinVoiceI_a = {                                                      %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N FirstViolinVoiceI measure 94 / measure 7]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1441,16 +1441,16 @@ N_SecondViolinVoiceI_a = {                                                     %
 
     % [N SecondViolinVoiceI measure 91 / measure 4]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             \column                                                        %! IndicatorCommand:+PARTS
-%%%                 {                                                          %! IndicatorCommand:+PARTS
-%%%                     "suddenly ripped off;"                                 %! IndicatorCommand:+PARTS
-%%%                     "las. vib. possibile"                                  %! IndicatorCommand:+PARTS
-%%%                 }                                                          %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
+%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
 
     % [N SecondViolinVoiceI measure 92 / measure 5]                            %! _comment_measure_numbers
@@ -1460,13 +1460,13 @@ N_SecondViolinVoiceI_a = {                                                     %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N SecondViolinVoiceI measure 94 / measure 7]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1526,16 +1526,16 @@ N_ViolaVoiceI_a = {                                                            %
 
     % [N ViolaVoiceI measure 91 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             \column                                                        %! IndicatorCommand:+PARTS
-%%%                 {                                                          %! IndicatorCommand:+PARTS
-%%%                     "suddenly ripped off;"                                 %! IndicatorCommand:+PARTS
-%%%                     "las. vib. possibile"                                  %! IndicatorCommand:+PARTS
-%%%                 }                                                          %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
+%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
 
     % [N ViolaVoiceI measure 92 / measure 5]                                   %! _comment_measure_numbers
@@ -1545,13 +1545,13 @@ N_ViolaVoiceI_a = {                                                            %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N ViolaVoiceI measure 94 / measure 7]                                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1611,16 +1611,16 @@ N_CelloVoiceI_a = {                                                            %
 
     % [N CelloVoiceI measure 91 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             \column                                                        %! IndicatorCommand:+PARTS
-%%%                 {                                                          %! IndicatorCommand:+PARTS
-%%%                     "suddenly ripped off;"                                 %! IndicatorCommand:+PARTS
-%%%                     "las. vib. possibile"                                  %! IndicatorCommand:+PARTS
-%%%                 }                                                          %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
+%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
 
     % [N CelloVoiceI measure 92 / measure 5]                                   %! _comment_measure_numbers
@@ -1630,13 +1630,13 @@ N_CelloVoiceI_a = {                                                            %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N CelloVoiceI measure 94 / measure 7]                                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1723,13 +1723,13 @@ N_ContrabassVoiceI_a = {                                                       %
     r1                                                                         %! harp_exchange_rhythm
 
     % [N ContrabassVoiceI measure 94 / measure 7]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1795,16 +1795,16 @@ N_ContrabassVoiceIII_a = {                                                     %
 
     % [N ContrabassVoiceIII measure 91 / measure 4]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             \column                                                        %! IndicatorCommand:+PARTS
-%%%                 {                                                          %! IndicatorCommand:+PARTS
-%%%                     "suddenly ripped off;"                                 %! IndicatorCommand:+PARTS
-%%%                     "las. vib. possibile"                                  %! IndicatorCommand:+PARTS
-%%%                 }                                                          %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
+%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
+%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [N ContrabassVoiceIII measure 92 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1813,13 +1813,13 @@ N_ContrabassVoiceIII_a = {                                                     %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [N ContrabassVoiceIII measure 94 / measure 7]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
