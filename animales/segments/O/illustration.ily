@@ -643,7 +643,7 @@ O_FirstViolinVoiceI_a = {                                                      %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -752,7 +752,7 @@ O_FirstViolinVoiceII_a = {                                                     %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -901,7 +901,7 @@ O_FirstViolinVoiceIII_a = {                                                    %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1010,7 +1010,7 @@ O_FirstViolinVoiceIV_a = {                                                     %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1286,7 +1286,7 @@ O_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1399,7 +1399,7 @@ O_SecondViolinVoiceII_a = {                                                    %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1548,7 +1548,7 @@ O_SecondViolinVoiceIII_a = {                                                   %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1657,7 +1657,7 @@ O_SecondViolinVoiceIV_a = {                                                    %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1806,7 +1806,7 @@ O_ViolaVoiceI_a = {                                                            %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1915,7 +1915,7 @@ O_ViolaVoiceII_a = {                                                           %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2064,7 +2064,7 @@ O_ViolaVoiceIII_a = {                                                          %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2173,7 +2173,7 @@ O_ViolaVoiceIV_a = {                                                           %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2323,7 +2323,7 @@ O_CelloVoiceI_a = {                                                            %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2436,7 +2436,7 @@ O_CelloVoiceII_a = {                                                           %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2570,7 +2570,7 @@ O_ContrabassVoiceIII_a = {                                                     %
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "tasto"                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
