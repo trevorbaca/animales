@@ -100,17 +100,17 @@ maker(
 
 def crescendi():
     return baca.suite(
-        baca.map(
-            baca.runs()[:-1],
+        baca.new(
             baca.hairpin('mp < mf'),
+            map=baca.runs()[:-1],
             ),
-        baca.map(
-            baca.run(-1),
+        baca.new(
             baca.hairpin(
                 'mp <',
                 remove_length_1_spanner_start=True,
                 right_broken=True,
                 ),
+            map=baca.run(-1),
             ),
         )
 

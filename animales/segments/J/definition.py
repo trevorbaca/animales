@@ -95,16 +95,16 @@ maker(
 # horns
 
 crescendi = baca.suite(
-    baca.map(
-        baca.run(0),
+    baca.new(
         baca.hairpin('< f', left_broken=True),
+        map=baca.run(0),
         ),
-    baca.map(
-        baca.runs()[1:],
+    baca.new(
         baca.hairpin(
             'mp < ff',
             remove_length_1_spanner_start=True,
             ),
+        map=baca.runs()[1:],
         ),
     )
 
