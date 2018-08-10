@@ -65,10 +65,10 @@ maker(
 
 maker(
     'GlobalRests',
-    baca.apply(
-        baca.leaf(7 - 1),
+    baca.new(
         baca.global_fermata('fermata'),
         baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
+        selector=baca.leaf(7 - 1),
         ),
     )
 
