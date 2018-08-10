@@ -1260,7 +1260,7 @@ Q_FirstViolinVoiceI_a = {                                                      %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceI measure 123 / measure 5]                            %! _comment_measure_numbers
@@ -1280,7 +1280,7 @@ Q_FirstViolinVoiceI_a = {                                                      %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1310,7 +1310,7 @@ Q_FirstViolinVoiceI_a = {                                                      %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceI measure 128 / measure 10]                           %! _comment_measure_numbers
@@ -1330,7 +1330,7 @@ Q_FirstViolinVoiceI_a = {                                                      %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1384,7 +1384,7 @@ Q_FirstViolinVoiceII_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceII measure 123 / measure 5]                           %! _comment_measure_numbers
@@ -1404,7 +1404,7 @@ Q_FirstViolinVoiceII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1434,7 +1434,7 @@ Q_FirstViolinVoiceII_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceII measure 128 / measure 10]                          %! _comment_measure_numbers
@@ -1454,7 +1454,7 @@ Q_FirstViolinVoiceII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1547,7 +1547,7 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceIII measure 123 / measure 5]                          %! _comment_measure_numbers
@@ -1567,7 +1567,7 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1597,7 +1597,7 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceIII measure 128 / measure 10]                         %! _comment_measure_numbers
@@ -1617,7 +1617,7 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1671,7 +1671,7 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceIV measure 123 / measure 5]                           %! _comment_measure_numbers
@@ -1691,7 +1691,7 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1721,7 +1721,7 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q FirstViolinVoiceIV measure 128 / measure 10]                          %! _comment_measure_numbers
@@ -1741,7 +1741,7 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1947,7 +1947,7 @@ Q_SecondViolinVoiceI_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceI measure 123 / measure 5]                           %! _comment_measure_numbers
@@ -1969,7 +1969,7 @@ Q_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1999,7 +1999,7 @@ Q_SecondViolinVoiceI_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceI measure 128 / measure 10]                          %! _comment_measure_numbers
@@ -2021,7 +2021,7 @@ Q_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2075,7 +2075,7 @@ Q_SecondViolinVoiceII_a = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceII measure 123 / measure 5]                          %! _comment_measure_numbers
@@ -2095,7 +2095,7 @@ Q_SecondViolinVoiceII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2125,7 +2125,7 @@ Q_SecondViolinVoiceII_a = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceII measure 128 / measure 10]                         %! _comment_measure_numbers
@@ -2145,7 +2145,7 @@ Q_SecondViolinVoiceII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2238,7 +2238,7 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceIII measure 123 / measure 5]                         %! _comment_measure_numbers
@@ -2258,7 +2258,7 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2288,7 +2288,7 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceIII measure 128 / measure 10]                        %! _comment_measure_numbers
@@ -2308,7 +2308,7 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2362,7 +2362,7 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceIV measure 123 / measure 5]                          %! _comment_measure_numbers
@@ -2382,7 +2382,7 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2412,7 +2412,7 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q SecondViolinVoiceIV measure 128 / measure 10]                         %! _comment_measure_numbers
@@ -2432,7 +2432,7 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2525,7 +2525,7 @@ Q_ViolaVoiceI_a = {                                                            %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceI measure 123 / measure 5]                                  %! _comment_measure_numbers
@@ -2545,7 +2545,7 @@ Q_ViolaVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2575,7 +2575,7 @@ Q_ViolaVoiceI_a = {                                                            %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceI measure 128 / measure 10]                                 %! _comment_measure_numbers
@@ -2595,7 +2595,7 @@ Q_ViolaVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2649,7 +2649,7 @@ Q_ViolaVoiceII_a = {                                                           %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceII measure 123 / measure 5]                                 %! _comment_measure_numbers
@@ -2669,7 +2669,7 @@ Q_ViolaVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2699,7 +2699,7 @@ Q_ViolaVoiceII_a = {                                                           %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceII measure 128 / measure 10]                                %! _comment_measure_numbers
@@ -2719,7 +2719,7 @@ Q_ViolaVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2812,7 +2812,7 @@ Q_ViolaVoiceIII_a = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceIII measure 123 / measure 5]                                %! _comment_measure_numbers
@@ -2832,7 +2832,7 @@ Q_ViolaVoiceIII_a = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2862,7 +2862,7 @@ Q_ViolaVoiceIII_a = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceIII measure 128 / measure 10]                               %! _comment_measure_numbers
@@ -2882,7 +2882,7 @@ Q_ViolaVoiceIII_a = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2936,7 +2936,7 @@ Q_ViolaVoiceIV_a = {                                                           %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceIV measure 123 / measure 5]                                 %! _comment_measure_numbers
@@ -2956,7 +2956,7 @@ Q_ViolaVoiceIV_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2986,7 +2986,7 @@ Q_ViolaVoiceIV_a = {                                                           %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ViolaVoiceIV measure 128 / measure 10]                                %! _comment_measure_numbers
@@ -3006,7 +3006,7 @@ Q_ViolaVoiceIV_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3099,7 +3099,7 @@ Q_CelloVoiceI_a = {                                                            %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q CelloVoiceI measure 123 / measure 5]                                  %! _comment_measure_numbers
@@ -3121,7 +3121,7 @@ Q_CelloVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3151,7 +3151,7 @@ Q_CelloVoiceI_a = {                                                            %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q CelloVoiceI measure 128 / measure 10]                                 %! _comment_measure_numbers
@@ -3173,7 +3173,7 @@ Q_CelloVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3227,7 +3227,7 @@ Q_CelloVoiceII_a = {                                                           %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q CelloVoiceII measure 123 / measure 5]                                 %! _comment_measure_numbers
@@ -3247,7 +3247,7 @@ Q_CelloVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3277,7 +3277,7 @@ Q_CelloVoiceII_a = {                                                           %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q CelloVoiceII measure 128 / measure 10]                                %! _comment_measure_numbers
@@ -3297,7 +3297,7 @@ Q_CelloVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3375,7 +3375,7 @@ Q_ContrabassVoiceIII_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ContrabassVoiceIII measure 123 / measure 5]                           %! _comment_measure_numbers
@@ -3395,7 +3395,7 @@ Q_ContrabassVoiceIII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3425,7 +3425,7 @@ Q_ContrabassVoiceIII_a = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [Q ContrabassVoiceIII measure 128 / measure 10]                          %! _comment_measure_numbers
@@ -3445,7 +3445,7 @@ Q_ContrabassVoiceIII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ext. pont."           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
