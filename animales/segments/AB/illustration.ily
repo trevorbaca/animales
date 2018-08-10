@@ -24,28 +24,28 @@ AB_GlobalSkips = {                                                             %
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #28                                                                  %! IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (161)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((1))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [AB.1]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [AB.1]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'39'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! _attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "76"                        %! _attach_metronome_marks(2)
-%@% \startTextSpan                                                             %! _attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! _attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "76" #'green4       %! _attach_metronome_marks(3)
-    \startTextSpan                                                             %! _attach_metronome_marks(3)
+%@% - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "76"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+    - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "76" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [AB GlobalSkips measure 162 / measure 2]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (162)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <1>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [AB.2]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [AB.2]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'40'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [AB GlobalSkips measure 163 / measure 3]                                 %! _comment_measure_numbers
@@ -53,19 +53,19 @@ AB_GlobalSkips = {                                                             %
 %@% ^ \baca-dark-cyan-markup (163)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [AB.3]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [AB.3]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'43'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [AB GlobalSkips measure 164 / measure 4]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (164)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <3>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [AB.4]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [AB.4]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'46'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    \stopTextSpan                                                              %! _attach_metronome_marks(4)
+    \stopTextSpan                                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
@@ -101,7 +101,7 @@ AB_PercussionVoiceI_a = {                                                      %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -118,23 +118,23 @@ AB_PercussionVoiceI_a = {                                                      %
     % [AB PercussionVoiceI measure 162 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak direction #up                                                     %! TCC
-    \repeatTie                                                                 %! TCC
+    - \tweak direction #up                                                     %! TieCorrectionCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [AB PercussionVoiceI measure 163 / measure 3]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak direction #up                                                     %! TCC
-    \repeatTie                                                                 %! TCC
+    - \tweak direction #up                                                     %! TieCorrectionCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [AB PercussionVoiceI measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -165,7 +165,7 @@ AB_FirstViolinVoiceI_a = {                                                     %
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     d'16                                                                       %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -203,13 +203,13 @@ AB_FirstViolinVoiceI_a = {                                                     %
     r8.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceI measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -232,7 +232,7 @@ AB_FirstViolinVoiceII_a = {                                                    %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -248,13 +248,13 @@ AB_FirstViolinVoiceII_a = {                                                    %
     r2.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceII measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -288,7 +288,7 @@ AB_FirstViolinVoiceIII_a = {                                                   %
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        \voiceOne                                                              %! IndicatorCommand:-PARTS
+        \voiceOne                                                              %! -PARTS:IndicatorCommand
         r8                                                                     %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Vni. I (3-4)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -329,13 +329,13 @@ AB_FirstViolinVoiceIII_a = {                                                   %
     r2.
 
     % [AB FirstViolinVoiceIII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -358,7 +358,7 @@ AB_FirstViolinVoiceIV_a = {                                                    %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -378,13 +378,13 @@ AB_FirstViolinVoiceIV_a = {                                                    %
     r1
 
     % [AB FirstViolinVoiceIV measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -417,7 +417,7 @@ AB_FirstViolinVoiceV_a = {                                                     %
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r8.                                                                        %! clb_rhythm
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -453,13 +453,13 @@ AB_FirstViolinVoiceV_a = {                                                     %
     d'16                                                                       %! clb_rhythm
 
     % [AB FirstViolinVoiceV measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -481,7 +481,7 @@ AB_FirstViolinVoiceVI_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -502,13 +502,13 @@ AB_FirstViolinVoiceVI_a = {                                                    %
     r4..                                                                       %! clb_rhythm
 
     % [AB FirstViolinVoiceVI measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -540,7 +540,7 @@ AB_FirstViolinVoiceVII_a = {                                                   %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vni. I (7-8)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -570,13 +570,13 @@ AB_FirstViolinVoiceVII_a = {                                                   %
     r2
 
     % [AB FirstViolinVoiceVII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -598,7 +598,7 @@ AB_FirstViolinVoiceVIII_a = {                                                  %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -620,13 +620,13 @@ AB_FirstViolinVoiceVIII_a = {                                                  %
     r1
 
     % [AB FirstViolinVoiceVIII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -658,7 +658,7 @@ AB_FirstViolinVoiceIX_a = {                                                    %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -682,13 +682,13 @@ AB_FirstViolinVoiceIX_a = {                                                    %
     r1                                                                         %! clb_rhythm
 
     % [AB FirstViolinVoiceIX measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -710,7 +710,7 @@ AB_FirstViolinVoiceX_a = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -736,13 +736,13 @@ AB_FirstViolinVoiceX_a = {                                                     %
     r8.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceX measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -774,7 +774,7 @@ AB_FirstViolinVoiceXI_a = {                                                    %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -808,13 +808,13 @@ AB_FirstViolinVoiceXI_a = {                                                    %
     r2                                                                         %! clb_rhythm
 
     % [AB FirstViolinVoiceXI measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -836,7 +836,7 @@ AB_FirstViolinVoiceXII_a = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -856,13 +856,13 @@ AB_FirstViolinVoiceXII_a = {                                                   %
     r2.
 
     % [AB FirstViolinVoiceXII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -894,7 +894,7 @@ AB_FirstViolinVoiceXIII_a = {                                                  %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vni. I (13-14)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -930,13 +930,13 @@ AB_FirstViolinVoiceXIII_a = {                                                  %
     r1
 
     % [AB FirstViolinVoiceXIII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -958,7 +958,7 @@ AB_FirstViolinVoiceXIV_a = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -976,13 +976,13 @@ AB_FirstViolinVoiceXIV_a = {                                                   %
     b16                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceXIV measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1014,7 +1014,7 @@ AB_FirstViolinVoiceXV_a = {                                                    %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1050,13 +1050,13 @@ AB_FirstViolinVoiceXV_a = {                                                    %
     r4..                                                                       %! clb_rhythm
 
     % [AB FirstViolinVoiceXV measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1078,7 +1078,7 @@ AB_FirstViolinVoiceXVI_a = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1104,13 +1104,13 @@ AB_FirstViolinVoiceXVI_a = {                                                   %
     r4
 
     % [AB FirstViolinVoiceXVI measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1142,7 +1142,7 @@ AB_FirstViolinVoiceXVII_a = {                                                  %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vni. I (17-18)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1170,13 +1170,13 @@ AB_FirstViolinVoiceXVII_a = {                                                  %
     r1
 
     % [AB FirstViolinVoiceXVII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1198,7 +1198,7 @@ AB_FirstViolinVoiceXVIII_a = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4..                                                                       %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1220,13 +1220,13 @@ AB_FirstViolinVoiceXVIII_a = {                                                 %
     r2.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceXVIII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1259,7 +1259,7 @@ AB_SecondViolinVoiceI_a = {                                                    %
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     d'16                                                                       %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1291,13 +1291,13 @@ AB_SecondViolinVoiceI_a = {                                                    %
     r4                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceI measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1320,7 +1320,7 @@ AB_SecondViolinVoiceII_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1344,13 +1344,13 @@ AB_SecondViolinVoiceII_a = {                                                   %
     r2                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1384,7 +1384,7 @@ AB_SecondViolinVoiceIII_a = {                                                  %
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        \voiceOne                                                              %! IndicatorCommand:-PARTS
+        \voiceOne                                                              %! -PARTS:IndicatorCommand
         r4                                                                     %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Vni. II (3-4)”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1419,13 +1419,13 @@ AB_SecondViolinVoiceIII_a = {                                                  %
     r2.
 
     % [AB SecondViolinVoiceIII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1448,7 +1448,7 @@ AB_SecondViolinVoiceIV_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1474,13 +1474,13 @@ AB_SecondViolinVoiceIV_a = {                                                   %
     }                                                                          %! clb_rhythm
 
     % [AB SecondViolinVoiceIV measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1512,7 +1512,7 @@ AB_SecondViolinVoiceV_a = {                                                    %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r8.                                                                        %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1544,13 +1544,13 @@ AB_SecondViolinVoiceV_a = {                                                    %
     r1                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceV measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1572,7 +1572,7 @@ AB_SecondViolinVoiceVI_a = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1588,13 +1588,13 @@ AB_SecondViolinVoiceVI_a = {                                                   %
     r2                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceVI measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1626,7 +1626,7 @@ AB_SecondViolinVoiceVII_a = {                                                  %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r4
     ^ \baca-reapplied-indicator-markup "[“Vni. II (7-8)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1668,13 +1668,13 @@ AB_SecondViolinVoiceVII_a = {                                                  %
     r4
 
     % [AB SecondViolinVoiceVII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1696,7 +1696,7 @@ AB_SecondViolinVoiceVIII_a = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1716,13 +1716,13 @@ AB_SecondViolinVoiceVIII_a = {                                                 %
     r1
 
     % [AB SecondViolinVoiceVIII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1754,7 +1754,7 @@ AB_SecondViolinVoiceIX_a = {                                                   %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r4..                                                                       %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1782,13 +1782,13 @@ AB_SecondViolinVoiceIX_a = {                                                   %
     r2..                                                                       %! clb_rhythm
 
     % [AB SecondViolinVoiceIX measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1810,7 +1810,7 @@ AB_SecondViolinVoiceX_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     b16                                                                        %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1836,13 +1836,13 @@ AB_SecondViolinVoiceX_a = {                                                    %
     r8.                                                                        %! clb_rhythm
 
     % [AB SecondViolinVoiceX measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1874,7 +1874,7 @@ AB_SecondViolinVoiceXI_a = {                                                   %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1900,13 +1900,13 @@ AB_SecondViolinVoiceXI_a = {                                                   %
     r2.                                                                        %! clb_rhythm
 
     % [AB SecondViolinVoiceXI measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1929,7 +1929,7 @@ AB_SecondViolinVoiceXII_a = {                                                  %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        \voiceTwo                                                              %! IndicatorCommand:-PARTS
+        \voiceTwo                                                              %! -PARTS:IndicatorCommand
         r8                                                                     %! clb_rhythm
         ^ \baca-reapplied-indicator-markup "(“Violin”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1958,13 +1958,13 @@ AB_SecondViolinVoiceXII_a = {                                                  %
     r2.
 
     % [AB SecondViolinVoiceXII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -1996,7 +1996,7 @@ AB_SecondViolinVoiceXIII_a = {                                                 %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2026,13 +2026,13 @@ AB_SecondViolinVoiceXIII_a = {                                                 %
     r1
 
     % [AB SecondViolinVoiceXIII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2054,7 +2054,7 @@ AB_SecondViolinVoiceXIV_a = {                                                  %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r8.                                                                        %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2078,13 +2078,13 @@ AB_SecondViolinVoiceXIV_a = {                                                  %
     b16                                                                        %! clb_rhythm
 
     % [AB SecondViolinVoiceXIV measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2116,7 +2116,7 @@ AB_SecondViolinVoiceXV_a = {                                                   %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2148,13 +2148,13 @@ AB_SecondViolinVoiceXV_a = {                                                   %
     r4..                                                                       %! clb_rhythm
 
     % [AB SecondViolinVoiceXV measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2176,7 +2176,7 @@ AB_SecondViolinVoiceXVI_a = {                                                  %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2196,13 +2196,13 @@ AB_SecondViolinVoiceXVI_a = {                                                  %
     r2
 
     % [AB SecondViolinVoiceXVI measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2234,7 +2234,7 @@ AB_SecondViolinVoiceXVII_a = {                                                 %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vni. II (17-18)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2266,13 +2266,13 @@ AB_SecondViolinVoiceXVII_a = {                                                 %
     r1
 
     % [AB SecondViolinVoiceXVII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2294,7 +2294,7 @@ AB_SecondViolinVoiceXVIII_a = {                                                %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2308,13 +2308,13 @@ AB_SecondViolinVoiceXVIII_a = {                                                %
     r1                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceXVIII measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2347,7 +2347,7 @@ AB_ViolaVoiceI_a = {                                                           %
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2385,13 +2385,13 @@ AB_ViolaVoiceI_a = {                                                           %
     r8.                                                                        %! clb_rhythm
 
     % [AB ViolaVoiceI measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2414,7 +2414,7 @@ AB_ViolaVoiceII_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2438,13 +2438,13 @@ AB_ViolaVoiceII_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceII measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2477,7 +2477,7 @@ AB_ViolaVoiceIII_a = {                                                         %
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vle. (3-4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2509,13 +2509,13 @@ AB_ViolaVoiceIII_a = {                                                         %
     r2.
 
     % [AB ViolaVoiceIII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2538,7 +2538,7 @@ AB_ViolaVoiceIV_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2564,13 +2564,13 @@ AB_ViolaVoiceIV_a = {                                                          %
     r1
 
     % [AB ViolaVoiceIV measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2602,7 +2602,7 @@ AB_ViolaVoiceV_a = {                                                           %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r4                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2630,13 +2630,13 @@ AB_ViolaVoiceV_a = {                                                           %
     d'16                                                                       %! clb_rhythm
 
     % [AB ViolaVoiceV measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2658,7 +2658,7 @@ AB_ViolaVoiceVI_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2684,13 +2684,13 @@ AB_ViolaVoiceVI_a = {                                                          %
     r4..                                                                       %! clb_rhythm
 
     % [AB ViolaVoiceVI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2722,7 +2722,7 @@ AB_ViolaVoiceVII_a = {                                                         %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vle. (7-8)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2758,13 +2758,13 @@ AB_ViolaVoiceVII_a = {                                                         %
     r4
 
     % [AB ViolaVoiceVII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2786,7 +2786,7 @@ AB_ViolaVoiceVIII_a = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2804,13 +2804,13 @@ AB_ViolaVoiceVIII_a = {                                                        %
     r1
 
     % [AB ViolaVoiceVIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2842,7 +2842,7 @@ AB_ViolaVoiceIX_a = {                                                          %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r4..                                                                       %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2874,13 +2874,13 @@ AB_ViolaVoiceIX_a = {                                                          %
     r2.                                                                        %! clb_rhythm
 
     % [AB ViolaVoiceIX measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2902,7 +2902,7 @@ AB_ViolaVoiceX_a = {                                                           %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     b16                                                                        %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2922,13 +2922,13 @@ AB_ViolaVoiceX_a = {                                                           %
     r4                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceX measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -2960,7 +2960,7 @@ AB_ViolaVoiceXI_a = {                                                          %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2994,13 +2994,13 @@ AB_ViolaVoiceXI_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceXI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3023,7 +3023,7 @@ AB_ViolaVoiceXII_a = {                                                         %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        \voiceTwo                                                              %! IndicatorCommand:-PARTS
+        \voiceTwo                                                              %! -PARTS:IndicatorCommand
         r4                                                                     %! clb_rhythm
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3046,13 +3046,13 @@ AB_ViolaVoiceXII_a = {                                                         %
     r2.
 
     % [AB ViolaVoiceXII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3084,7 +3084,7 @@ AB_ViolaVoiceXIII_a = {                                                        %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vle. (13-14)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3120,13 +3120,13 @@ AB_ViolaVoiceXIII_a = {                                                        %
     }                                                                          %! clb_rhythm
 
     % [AB ViolaVoiceXIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3148,7 +3148,7 @@ AB_ViolaVoiceXIV_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r8.                                                                        %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3170,13 +3170,13 @@ AB_ViolaVoiceXIV_a = {                                                         %
     r1                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceXIV measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3208,7 +3208,7 @@ AB_ViolaVoiceXV_a = {                                                          %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3234,13 +3234,13 @@ AB_ViolaVoiceXV_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceXV measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3262,7 +3262,7 @@ AB_ViolaVoiceXVI_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3294,13 +3294,13 @@ AB_ViolaVoiceXVI_a = {                                                         %
     r4
 
     % [AB ViolaVoiceXVI measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3332,7 +3332,7 @@ AB_ViolaVoiceXVII_a = {                                                        %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vle. (17-18)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3362,13 +3362,13 @@ AB_ViolaVoiceXVII_a = {                                                        %
     r1
 
     % [AB ViolaVoiceXVII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3390,7 +3390,7 @@ AB_ViolaVoiceXVIII_a = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4..                                                                       %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3408,13 +3408,13 @@ AB_ViolaVoiceXVIII_a = {                                                       %
     r2..                                                                       %! clb_rhythm
 
     % [AB ViolaVoiceXVIII measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3447,7 +3447,7 @@ AB_CelloVoiceI_a = {                                                           %
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     d'16                                                                       %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -3485,13 +3485,13 @@ AB_CelloVoiceI_a = {                                                           %
     r8.                                                                        %! clb_rhythm
 
     % [AB CelloVoiceI measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3514,7 +3514,7 @@ AB_CelloVoiceII_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3530,13 +3530,13 @@ AB_CelloVoiceII_a = {                                                          %
     r2.                                                                        %! clb_rhythm
 
     % [AB CelloVoiceII measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3569,7 +3569,7 @@ AB_CelloVoiceIII_a = {                                                         %
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \voiceOne                                                              %! IndicatorCommand:-PARTS
+        \voiceOne                                                              %! -PARTS:IndicatorCommand
         r8                                                                     %! clb_rhythm
         ^ \baca-reapplied-indicator-markup "[“Vc. (3-4)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3608,13 +3608,13 @@ AB_CelloVoiceIII_a = {                                                         %
     r2.
 
     % [AB CelloVoiceIII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3636,7 +3636,7 @@ AB_CelloVoiceIV_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3656,13 +3656,13 @@ AB_CelloVoiceIV_a = {                                                          %
     r1
 
     % [AB CelloVoiceIV measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3694,7 +3694,7 @@ AB_CelloVoiceV_a = {                                                           %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r8.                                                                        %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3728,13 +3728,13 @@ AB_CelloVoiceV_a = {                                                           %
     d'16                                                                       %! clb_rhythm
 
     % [AB CelloVoiceV measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3756,7 +3756,7 @@ AB_CelloVoiceVI_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3778,13 +3778,13 @@ AB_CelloVoiceVI_a = {                                                          %
     r4..                                                                       %! clb_rhythm
 
     % [AB CelloVoiceVI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3816,7 +3816,7 @@ AB_CelloVoiceVII_a = {                                                         %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vc. (7-8)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3846,13 +3846,13 @@ AB_CelloVoiceVII_a = {                                                         %
     r2
 
     % [AB CelloVoiceVII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3874,7 +3874,7 @@ AB_CelloVoiceVIII_a = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3896,13 +3896,13 @@ AB_CelloVoiceVIII_a = {                                                        %
     r1
 
     % [AB CelloVoiceVIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3934,7 +3934,7 @@ AB_CelloVoiceIX_a = {                                                          %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3958,13 +3958,13 @@ AB_CelloVoiceIX_a = {                                                          %
     r1                                                                         %! clb_rhythm
 
     % [AB CelloVoiceIX measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -3986,7 +3986,7 @@ AB_CelloVoiceX_a = {                                                           %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -4012,13 +4012,13 @@ AB_CelloVoiceX_a = {                                                           %
     r8.                                                                        %! clb_rhythm
 
     % [AB CelloVoiceX measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -4050,7 +4050,7 @@ AB_CelloVoiceXI_a = {                                                          %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -4084,13 +4084,13 @@ AB_CelloVoiceXI_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB CelloVoiceXI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -4112,7 +4112,7 @@ AB_CelloVoiceXII_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -4132,13 +4132,13 @@ AB_CelloVoiceXII_a = {                                                         %
     r2.
 
     % [AB CelloVoiceXII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -4170,7 +4170,7 @@ AB_CelloVoiceXIII_a = {                                                        %
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2
     ^ \baca-reapplied-indicator-markup "[“Vc. (13-14)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -4206,13 +4206,13 @@ AB_CelloVoiceXIII_a = {                                                        %
     r1
 
     % [AB CelloVoiceXIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 
@@ -4234,7 +4234,7 @@ AB_CelloVoiceXIV_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4                                                                         %! clb_rhythm
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -4252,13 +4252,13 @@ AB_CelloVoiceXIV_a = {                                                         %
     b16                                                                        %! clb_rhythm
 
     % [AB CelloVoiceXIV measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! IndicatorCommand:+PARTS
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! IndicatorCommand:+PARTS
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \musicglyph                                                            %! IndicatorCommand:+PARTS
-%%%         #"scripts.ufermata"                                                %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
+%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
 }                                                                              %! extern
 

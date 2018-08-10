@@ -40,36 +40,36 @@ P_GlobalSkips = {                                                              %
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #16                                                                  %! IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (109)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((1))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.1]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.1]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'34'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! _attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "114"                       %! _attach_metronome_marks(2)
-%@% \startTextSpan                                                             %! _attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! _attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "114" #'green4      %! _attach_metronome_marks(3)
-    \startTextSpan                                                             %! _attach_metronome_marks(3)
+%@% - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "114"                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+    - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "114" #'green4      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [P GlobalSkips measure 110 / measure 2]                                  %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (110)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <1>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'35'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 111 / measure 3]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (111)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'37'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 112 / measure 4]                                  %! _comment_measure_numbers
@@ -77,7 +77,7 @@ P_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (112)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <3>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.4]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'39'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 113 / measure 5]                                  %! _comment_measure_numbers
@@ -85,17 +85,17 @@ P_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (113)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <4>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.5]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'41'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 114 / measure 6]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (114)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((6))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.6]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.6]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'43'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 115 / measure 7]                                  %! _comment_measure_numbers
@@ -103,17 +103,17 @@ P_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (115)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <6>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.7]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'45'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 116 / measure 8]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (116)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <7>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((8))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.8]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.8]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'46'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 117 / measure 9]                                  %! _comment_measure_numbers
@@ -121,19 +121,19 @@ P_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup (117)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <8>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.9]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.9]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'48'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [P GlobalSkips measure 118 / measure 10]                                 %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (118)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <9>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((10))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% ^ \baca-dark-cyan-markup [P.10]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \baca-dark-cyan-markup [P.10]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[3'50'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    \stopTextSpan                                                              %! _attach_metronome_marks(4)
+    \stopTextSpan                                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
@@ -315,7 +315,7 @@ P_BassoonVoiceI_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     b2.                                                                        %! baca_make_repeat_tied_notes
 %%% \!                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1):+PARTS
@@ -381,7 +381,7 @@ P_BassoonVoiceII_a = {                                                         %
             Bsn.                                                               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     g,2.                                                                       %! baca_make_repeat_tied_notes
     \!                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -472,8 +472,8 @@ P_HornVoiceI_a = {                                                             %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \dynamicUp                                                                 %! IndicatorCommand:-PARTS
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \dynamicUp                                                                 %! -PARTS:IndicatorCommand
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -614,7 +614,7 @@ P_HornVoiceI = {                                                               %
 P_HornVoiceIII_a = {                                                           %! extern
 
     % [P HornVoiceIII measure 109 / measure 1]                                 %! _comment_measure_numbers
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     df'!2.                                                                     %! brass_manifest_rhythm
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -733,8 +733,8 @@ P_HornVoiceII_a = {                                                            %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \dynamicUp                                                                 %! IndicatorCommand:-PARTS
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \dynamicUp                                                                 %! -PARTS:IndicatorCommand
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -874,7 +874,7 @@ P_HornVoiceIV_a = {                                                            %
 
     % [P HornVoiceIV measure 109 / measure 1]                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4.
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Horn”)"                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1016,8 +1016,8 @@ P_TrumpetVoiceI_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \dynamicUp                                                                 %! IndicatorCommand:-PARTS
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \dynamicUp                                                                 %! -PARTS:IndicatorCommand
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1130,7 +1130,7 @@ P_TrumpetVoiceI = {                                                            %
 P_TrumpetVoiceIII_a = {                                                        %! extern
 
     % [P TrumpetVoiceIII measure 109 / measure 1]                              %! _comment_measure_numbers
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'2.                                                                       %! brass_manifest_rhythm
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1285,8 +1285,8 @@ P_TrumpetVoiceII_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \dynamicUp                                                                 %! IndicatorCommand:-PARTS
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \dynamicUp                                                                 %! -PARTS:IndicatorCommand
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1421,7 +1421,7 @@ P_TrumpetVoiceIV_a = {                                                         %
 
     % [P TrumpetVoiceIV measure 109 / measure 1]                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4.
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1556,8 +1556,8 @@ P_TromboneVoiceI_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \dynamicUp                                                                 %! IndicatorCommand:-PARTS
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \dynamicUp                                                                 %! -PARTS:IndicatorCommand
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1691,7 +1691,7 @@ P_TromboneVoiceI = {                                                           %
 P_TromboneVoiceIII_a = {                                                       %! extern
 
     % [P TromboneVoiceIII measure 109 / measure 1]                             %! _comment_measure_numbers
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f2                                                                         %! brass_manifest_rhythm
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1837,8 +1837,8 @@ P_TromboneVoiceII_a = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \dynamicUp                                                                 %! IndicatorCommand:-PARTS
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \dynamicUp                                                                 %! -PARTS:IndicatorCommand
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     r2.
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1969,7 +1969,7 @@ P_TromboneVoiceIV_a = {                                                        %
 
     % [P TromboneVoiceIV measure 109 / measure 1]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     r4.
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2125,7 +2125,7 @@ P_FirstViolinVoiceI_a = {                                                      %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -2133,18 +2133,18 @@ P_FirstViolinVoiceI_a = {                                                      %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup {                                                                %! IndicatorCommand:-PARTS
-        \override                                                              %! IndicatorCommand:-PARTS
-            #'(box-padding . 0.5)                                              %! IndicatorCommand:-PARTS
-            \box                                                               %! IndicatorCommand:-PARTS
-                "tutti: sim."                                                  %! IndicatorCommand:-PARTS
-        }                                                                      %! IndicatorCommand:-PARTS
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+    ^ \markup {                                                                %! baca_markup:-PARTS:IndicatorCommand
+        \override                                                              %! baca_markup:-PARTS:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca_markup:-PARTS:IndicatorCommand
+            \box                                                               %! baca_markup:-PARTS:IndicatorCommand
+                "tutti: sim."                                                  %! baca_markup:-PARTS:IndicatorCommand
+        }                                                                      %! baca_markup:-PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2243,18 +2243,18 @@ P_FirstViolinVoiceII_a = {                                                     %
 
     % [P FirstViolinVoiceII measure 109 / measure 1]                           %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P FirstViolinVoiceII measure 110 / measure 2]                           %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
@@ -2364,7 +2364,7 @@ P_FirstViolinVoiceIII_a = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -2372,12 +2372,12 @@ P_FirstViolinVoiceIII_a = {                                                    %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2476,18 +2476,18 @@ P_FirstViolinVoiceIV_a = {                                                     %
 
     % [P FirstViolinVoiceIV measure 109 / measure 1]                           %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P FirstViolinVoiceIV measure 110 / measure 2]                           %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
@@ -2597,7 +2597,7 @@ P_FirstViolinVoiceV_a = {                                                      %
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I 18”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2614,47 +2614,47 @@ P_FirstViolinVoiceV_a = {                                                      %
     % [P FirstViolinVoiceV measure 110 / measure 2]                            %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 111 / measure 3]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 112 / measure 4]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 113 / measure 5]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 114 / measure 6]                            %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 115 / measure 7]                            %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 116 / measure 8]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 117 / measure 9]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
     % [P FirstViolinVoiceV measure 118 / measure 10]                           %! _comment_measure_numbers
     cs'!2                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    \repeatTie                                                                 %! TCC
+    \repeatTie                                                                 %! TieCorrectionCommand
 
 }                                                                              %! extern
 
@@ -2694,7 +2694,7 @@ P_SecondViolinVoiceI_a = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -2702,12 +2702,12 @@ P_SecondViolinVoiceI_a = {                                                     %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2811,18 +2811,18 @@ P_SecondViolinVoiceII_a = {                                                    %
 
     % [P SecondViolinVoiceII measure 109 / measure 1]                          %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P SecondViolinVoiceII measure 110 / measure 2]                          %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
@@ -2932,7 +2932,7 @@ P_SecondViolinVoiceIII_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -2940,12 +2940,12 @@ P_SecondViolinVoiceIII_a = {                                                   %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3044,18 +3044,18 @@ P_SecondViolinVoiceIV_a = {                                                    %
 
     % [P SecondViolinVoiceIV measure 109 / measure 1]                          %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P SecondViolinVoiceIV measure 110 / measure 2]                          %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
@@ -3165,7 +3165,7 @@ P_ViolaVoiceI_a = {                                                            %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3173,12 +3173,12 @@ P_ViolaVoiceI_a = {                                                            %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3277,18 +3277,18 @@ P_ViolaVoiceII_a = {                                                           %
 
     % [P ViolaVoiceII measure 109 / measure 1]                                 %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P ViolaVoiceII measure 110 / measure 2]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
@@ -3398,7 +3398,7 @@ P_ViolaVoiceIII_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3406,12 +3406,12 @@ P_ViolaVoiceIII_a = {                                                          %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3510,18 +3510,18 @@ P_ViolaVoiceIV_a = {                                                           %
 
     % [P ViolaVoiceIV measure 109 / measure 1]                                 %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P ViolaVoiceIV measure 110 / measure 2]                                 %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
@@ -3631,7 +3631,7 @@ P_CelloVoiceI_a = {                                                            %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! IndicatorCommand:-PARTS
+    \voiceOne                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3639,12 +3639,12 @@ P_CelloVoiceI_a = {                                                            %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3748,18 +3748,18 @@ P_CelloVoiceII_a = {                                                           %
 
     % [P CelloVoiceII measure 109 / measure 1]                                 %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
-    \voiceTwo                                                                  %! IndicatorCommand:-PARTS
+    \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
     % [P CelloVoiceII measure 110 / measure 2]                                 %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
@@ -3866,12 +3866,12 @@ P_ContrabassVoiceIII_a = {                                                     %
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Cb.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%%% ^ \markup {                                                                %! IndicatorCommand:+PARTS
-%%%     \override                                                              %! IndicatorCommand:+PARTS
-%%%         #'(box-padding . 0.5)                                              %! IndicatorCommand:+PARTS
-%%%         \box                                                               %! IndicatorCommand:+PARTS
-%%%             "ext. ponticello: like acide"                                  %! IndicatorCommand:+PARTS
-%%%     }                                                                      %! IndicatorCommand:+PARTS
+%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
