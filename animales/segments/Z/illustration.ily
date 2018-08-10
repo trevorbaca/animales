@@ -4010,7 +4010,7 @@ Z_ContrabassVoiceIII_a = {                                                     %
 %@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TCC
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca_text_spanner_left_text "ord."                                      %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.text \markup \baca-right "ext. pont."         %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_right_text "ext. pont."                               %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
