@@ -11,6 +11,7 @@ K_GlobalRests_a = {                                                            %
 
     % [K GlobalRests measure 71 / measure 4]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
+
 }                                                                              %! extern
 
 
@@ -32,8 +33,11 @@ K_GlobalRests_b = {                                                            %
 
 
 K_GlobalRests = {                                                              %! extern
+
     \K_GlobalRests_a                                                           %! extern
+
     \K_GlobalRests_b                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -179,6 +183,7 @@ K_ClarinetVoiceI_a = {                                                         %
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
 }                                                                              %! extern
 
 
@@ -232,14 +237,19 @@ K_ClarinetVoiceI_b = {                                                         %
 
 
 K_ClarinetVoiceI = {                                                           %! extern
+
     \K_ClarinetVoiceI_a                                                        %! extern
+
     \K_ClarinetVoiceI_b                                                        %! extern
+
 }                                                                              %! extern
 
 
 K_ClarinetStaffI = {                                                           %! extern
+
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \K_ClarinetVoiceI                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -309,7 +319,9 @@ K_HornVoiceI_a = {                                                             %
 
 
 K_HornVoiceI = {                                                               %! extern
+
     \K_HornVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
@@ -349,15 +361,20 @@ K_HornVoiceIII_a = {                                                           %
 
 
 K_HornVoiceIII = {                                                             %! extern
+
     \K_HornVoiceIII_a                                                          %! extern
+
 }                                                                              %! extern
 
 
 K_HornStaffI = <<                                                              %! extern
+
     \context Voice = "HornVoiceI"                                              %! ScoreTemplate
     \K_HornVoiceI                                                              %! extern
+
     \context Voice = "HornVoiceIII"                                            %! ScoreTemplate
     \K_HornVoiceIII                                                            %! extern
+
 >>                                                                             %! extern
 
 
@@ -425,7 +442,9 @@ K_HornVoiceII_a = {                                                            %
 
 
 K_HornVoiceII = {                                                              %! extern
+
     \K_HornVoiceII_a                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -465,15 +484,20 @@ K_HornVoiceIV_a = {                                                            %
 
 
 K_HornVoiceIV = {                                                              %! extern
+
     \K_HornVoiceIV_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 K_HornStaffII = <<                                                             %! extern
+
     \context Voice = "HornVoiceII"                                             %! ScoreTemplate
     \K_HornVoiceII                                                             %! extern
+
     \context Voice = "HornVoiceIV"                                             %! ScoreTemplate
     \K_HornVoiceIV                                                             %! extern
+
 >>                                                                             %! extern
 
 
@@ -541,7 +565,9 @@ K_TrumpetVoiceI_a = {                                                          %
 
 
 K_TrumpetVoiceI = {                                                            %! extern
+
     \K_TrumpetVoiceI_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -581,15 +607,20 @@ K_TrumpetVoiceIII_a = {                                                        %
 
 
 K_TrumpetVoiceIII = {                                                          %! extern
+
     \K_TrumpetVoiceIII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
 K_TrumpetStaffI = <<                                                           %! extern
+
     \context Voice = "TrumpetVoiceI"                                           %! ScoreTemplate
     \K_TrumpetVoiceI                                                           %! extern
+
     \context Voice = "TrumpetVoiceIII"                                         %! ScoreTemplate
     \K_TrumpetVoiceIII                                                         %! extern
+
 >>                                                                             %! extern
 
 
@@ -657,7 +688,9 @@ K_TrumpetVoiceII_a = {                                                         %
 
 
 K_TrumpetVoiceII = {                                                           %! extern
+
     \K_TrumpetVoiceII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -699,15 +732,20 @@ K_TrumpetVoiceIV_a = {                                                         %
 
 
 K_TrumpetVoiceIV = {                                                           %! extern
+
     \K_TrumpetVoiceIV_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 K_TrumpetStaffII = <<                                                          %! extern
+
     \context Voice = "TrumpetVoiceII"                                          %! ScoreTemplate
     \K_TrumpetVoiceII                                                          %! extern
+
     \context Voice = "TrumpetVoiceIV"                                          %! ScoreTemplate
     \K_TrumpetVoiceIV                                                          %! extern
+
 >>                                                                             %! extern
 
 
@@ -775,7 +813,9 @@ K_TromboneVoiceI_a = {                                                         %
 
 
 K_TromboneVoiceI = {                                                           %! extern
+
     \K_TromboneVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -815,15 +855,20 @@ K_TromboneVoiceIII_a = {                                                       %
 
 
 K_TromboneVoiceIII = {                                                         %! extern
+
     \K_TromboneVoiceIII_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 K_TromboneStaffI = <<                                                          %! extern
+
     \context Voice = "TromboneVoiceI"                                          %! ScoreTemplate
     \K_TromboneVoiceI                                                          %! extern
+
     \context Voice = "TromboneVoiceIII"                                        %! ScoreTemplate
     \K_TromboneVoiceIII                                                        %! extern
+
 >>                                                                             %! extern
 
 
@@ -891,7 +936,9 @@ K_TromboneVoiceII_a = {                                                        %
 
 
 K_TromboneVoiceII = {                                                          %! extern
+
     \K_TromboneVoiceII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -933,15 +980,20 @@ K_TromboneVoiceIV_a = {                                                        %
 
 
 K_TromboneVoiceIV = {                                                          %! extern
+
     \K_TromboneVoiceIV_a                                                       %! extern
+
 }                                                                              %! extern
 
 
 K_TromboneStaffII = <<                                                         %! extern
+
     \context Voice = "TromboneVoiceII"                                         %! ScoreTemplate
     \K_TromboneVoiceII                                                         %! extern
+
     \context Voice = "TromboneVoiceIV"                                         %! ScoreTemplate
     \K_TromboneVoiceIV                                                         %! extern
+
 >>                                                                             %! extern
 
 
@@ -975,6 +1027,7 @@ K_PianoVoiceI_a = {                                                            %
 
     % [K PianoVoiceI measure 69 / measure 2]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [K PianoVoiceI measure 70 / measure 3]                               %! _comment_measure_numbers
@@ -983,6 +1036,7 @@ K_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -992,6 +1046,7 @@ K_PianoVoiceI_a = {                                                            %
 
     % [K PianoVoiceI measure 72 / measure 5]                                   %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -999,6 +1054,7 @@ K_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1008,6 +1064,7 @@ K_PianoVoiceI_a = {                                                            %
 
     % [K PianoVoiceI measure 74 / measure 7]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [K PianoVoiceI measure 75 / measure 8]                               %! _comment_measure_numbers
@@ -1016,6 +1073,7 @@ K_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1024,13 +1082,17 @@ K_PianoVoiceI_a = {                                                            %
 
 
 K_PianoVoiceI = {                                                              %! extern
+
     \K_PianoVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 K_PianoStaffI = {                                                              %! extern
+
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \K_PianoVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1064,6 +1126,7 @@ K_HarpVoiceI_a = {                                                             %
 
     % [K HarpVoiceI measure 69 / measure 2]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -1071,6 +1134,7 @@ K_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [K HarpVoiceI measure 70 / measure 3]                                    %! _comment_measure_numbers
@@ -1078,6 +1142,7 @@ K_HarpVoiceI_a = {                                                             %
 
     % [K HarpVoiceI measure 71 / measure 4]                                    %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -1085,6 +1150,7 @@ K_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [K HarpVoiceI measure 72 / measure 5]                                    %! _comment_measure_numbers
@@ -1095,6 +1161,7 @@ K_HarpVoiceI_a = {                                                             %
 
     % [K HarpVoiceI measure 74 / measure 7]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -1102,6 +1169,7 @@ K_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [K HarpVoiceI measure 75 / measure 8]                                    %! _comment_measure_numbers
@@ -1111,13 +1179,17 @@ K_HarpVoiceI_a = {                                                             %
 
 
 K_HarpVoiceI = {                                                               %! extern
+
     \K_HarpVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
 K_HarpStaffI = {                                                               %! extern
+
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \K_HarpVoiceI                                                              %! extern
+
 }                                                                              %! extern
 
 
@@ -1207,13 +1279,17 @@ K_PercussionVoiceII_a = {                                                      %
 
 
 K_PercussionVoiceII = {                                                        %! extern
+
     \K_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 K_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \K_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1252,12 +1328,14 @@ K_PercussionVoiceIII_a = {                                                     %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
@@ -1270,12 +1348,14 @@ K_PercussionVoiceIII_a = {                                                     %
 
     % [K PercussionVoiceIII measure 71 / measure 4]                            %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1285,12 +1365,14 @@ K_PercussionVoiceIII_a = {                                                     %
 
     % [K PercussionVoiceIII measure 73 / measure 6]                            %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
@@ -1305,13 +1387,17 @@ K_PercussionVoiceIII_a = {                                                     %
 
 
 K_PercussionVoiceIII = {                                                       %! extern
+
     \K_PercussionVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 K_PercussionStaffIII = {                                                       %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \K_PercussionVoiceIII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1375,13 +1461,17 @@ K_FirstViolinVoiceI_a = {                                                      %
 
 
 K_FirstViolinVoiceI = {                                                        %! extern
+
     \K_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 K_FirstViolinStaffI = {                                                        %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \K_FirstViolinVoiceI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1445,13 +1535,17 @@ K_SecondViolinVoiceI_a = {                                                     %
 
 
 K_SecondViolinVoiceI = {                                                       %! extern
+
     \K_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 K_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \K_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1515,13 +1609,17 @@ K_ViolaVoiceI_a = {                                                            %
 
 
 K_ViolaVoiceI = {                                                              %! extern
+
     \K_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 K_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \K_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1585,13 +1683,17 @@ K_CelloVoiceI_a = {                                                            %
 
 
 K_CelloVoiceI = {                                                              %! extern
+
     \K_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 K_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \K_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1630,6 +1732,7 @@ K_ContrabassVoiceI_a = {                                                       %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -1637,6 +1740,7 @@ K_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1649,6 +1753,7 @@ K_ContrabassVoiceI_a = {                                                       %
 
     % [K ContrabassVoiceI measure 71 / measure 4]                              %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r8                                                                     %! harp_exchange_rhythm
@@ -1658,6 +1763,7 @@ K_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1667,6 +1773,7 @@ K_ContrabassVoiceI_a = {                                                       %
 
     % [K ContrabassVoiceI measure 73 / measure 6]                              %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r4                                                                     %! harp_exchange_rhythm
@@ -1674,6 +1781,7 @@ K_ContrabassVoiceI_a = {                                                       %
         cqf''!8                                                                %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1688,13 +1796,17 @@ K_ContrabassVoiceI_a = {                                                       %
 
 
 K_ContrabassVoiceI = {                                                         %! extern
+
     \K_ContrabassVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 K_ContrabassStaffI = {                                                         %! extern
+
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \K_ContrabassVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1766,11 +1878,15 @@ K_ContrabassVoiceIII_a = {                                                     %
 
 
 K_ContrabassVoiceIII = {                                                       %! extern
+
     \K_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 K_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \K_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern

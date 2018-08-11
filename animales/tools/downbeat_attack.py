@@ -35,10 +35,13 @@ def downbeat_attack(count=1, denominator=8):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=89)
+            <BLANKLINE>
             \context Score = "Score"                                                                 %! ScoreTemplate
             <<                                                                                       %! ScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                             %! _make_global_context
                 <<                                                                                   %! _make_global_context
+            <BLANKLINE>
                     \context GlobalRests = "GlobalRests"                                             %! _make_global_context
                     {                                                                                %! _make_global_context
             <BLANKLINE>
@@ -52,6 +55,7 @@ def downbeat_attack(count=1, denominator=8):
                         R1 * 1/2                                                                     %! _make_global_rests
             <BLANKLINE>
                     }                                                                                %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                             %! _make_global_context
                     {                                                                                %! _make_global_context
             <BLANKLINE>
@@ -76,15 +80,21 @@ def downbeat_attack(count=1, denominator=8):
                         \bar "|"                                                                     %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                                %! _make_global_context
+            <BLANKLINE>
                 >>                                                                                   %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                               %! make_music_context
                 <<                                                                                   %! make_music_context
+            <BLANKLINE>
                     \context StaffGroup = "BrassStaffGroup"                                          %! make_staff_group
                     <<                                                                               %! make_staff_group
+            <BLANKLINE>
                         \context Staff = "HornStaffI"                                                %! ScoreTemplate
                         {                                                                            %! ScoreTemplate
+            <BLANKLINE>
                             \context Voice = "HornVoiceI"                                            %! ScoreTemplate
                             {                                                                        %! ScoreTemplate
+            <BLANKLINE>
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
                                     % [HornVoiceI measure 1]                                         %! _comment_measure_numbers
@@ -112,6 +122,7 @@ def downbeat_attack(count=1, denominator=8):
                                     \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
             <BLANKLINE>
                                     r2..
+            <BLANKLINE>
                                 }   %*% PartAssignment('Horn')
             <BLANKLINE>
                                 % [HornVoiceI measure 2]                                             %! _comment_measure_numbers
@@ -121,9 +132,13 @@ def downbeat_attack(count=1, denominator=8):
                                 R1 * 1/2                                                             %! _make_measure_silences
             <BLANKLINE>
                             }                                                                        %! ScoreTemplate
+            <BLANKLINE>
                         }                                                                            %! ScoreTemplate
+            <BLANKLINE>
                     >>                                                                               %! make_staff_group
+            <BLANKLINE>
                 >>                                                                                   %! make_music_context
+            <BLANKLINE>
             >>                                                                                       %! ScoreTemplate
 
     """

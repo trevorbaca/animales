@@ -184,13 +184,17 @@ E_ClarinetVoiceI_a = {                                                         %
 
 
 E_ClarinetVoiceI = {                                                           %! extern
+
     \E_ClarinetVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 E_ClarinetStaffI = {                                                           %! extern
+
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \E_ClarinetVoiceI                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -274,13 +278,17 @@ E_PercussionVoiceI_a = {                                                       %
 
 
 E_PercussionVoiceI = {                                                         %! extern
+
     \E_PercussionVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 E_PercussionStaffI = {                                                         %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \E_PercussionVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -359,13 +367,17 @@ E_PercussionVoiceII_a = {                                                      %
 
 
 E_PercussionVoiceII = {                                                        %! extern
+
     \E_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 E_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \E_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -484,13 +496,17 @@ E_FirstViolinVoiceI_a = {                                                      %
 
 
 E_FirstViolinVoiceI = {                                                        %! extern
+
     \E_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 E_FirstViolinStaffI = {                                                        %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \E_FirstViolinVoiceI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -550,8 +566,10 @@ E_FirstViolinVoiceIII = {                                                      %
 
 
 E_FirstViolinStaffII = {                                                       %! extern
+
     \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
     \E_FirstViolinVoiceIII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -669,13 +687,17 @@ E_SecondViolinVoiceI_a = {                                                     %
 
 
 E_SecondViolinVoiceI = {                                                       %! extern
+
     \E_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 E_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \E_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -735,8 +757,10 @@ E_SecondViolinVoiceIII = {                                                     %
 
 
 E_SecondViolinStaffII = {                                                      %! extern
+
     \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
     \E_SecondViolinVoiceIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -854,13 +878,17 @@ E_ViolaVoiceI_a = {                                                            %
 
 
 E_ViolaVoiceI = {                                                              %! extern
+
     \E_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 E_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \E_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -920,8 +948,10 @@ E_ViolaVoiceIII = {                                                            %
 
 
 E_ViolaStaffII = {                                                             %! extern
+
     \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
     \E_ViolaVoiceIII                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -1039,13 +1069,17 @@ E_CelloVoiceI_a = {                                                            %
 
 
 E_CelloVoiceI = {                                                              %! extern
+
     \E_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 E_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \E_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1160,11 +1194,15 @@ E_ContrabassVoiceIII_a = {                                                     %
 
 
 E_ContrabassVoiceIII = {                                                       %! extern
+
     \E_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 E_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \E_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern

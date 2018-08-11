@@ -115,13 +115,17 @@ AA_PercussionVoiceI_a = {                                                      %
 
 
 AA_PercussionVoiceI = {                                                        %! extern
+
     \AA_PercussionVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 AA_PercussionStaffI = {                                                        %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \AA_PercussionVoiceI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -185,13 +189,17 @@ AA_PercussionVoiceII_a = {                                                     %
 
 
 AA_PercussionVoiceII = {                                                       %! extern
+
     \AA_PercussionVoiceII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 AA_PercussionStaffII = {                                                       %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \AA_PercussionVoiceII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -254,13 +262,17 @@ AA_PercussionVoiceIII_a = {                                                    %
 
 
 AA_PercussionVoiceIII = {                                                      %! extern
+
     \AA_PercussionVoiceIII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 AA_PercussionStaffIII = {                                                      %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \AA_PercussionVoiceIII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -323,13 +335,17 @@ AA_PercussionVoiceIV_a = {                                                     %
 
 
 AA_PercussionVoiceIV = {                                                       %! extern
+
     \AA_PercussionVoiceIV_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 AA_PercussionStaffIV = {                                                       %! extern
+
     \context Voice = "PercussionVoiceIV"                                       %! ScoreTemplate
     \AA_PercussionVoiceIV                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -423,7 +439,9 @@ AA_FirstViolinVoiceI_a = {                                                     %
 
 
 AA_FirstViolinVoiceI = {                                                       %! extern
+
     \AA_FirstViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -493,19 +511,25 @@ AA_FirstViolinVoiceII_a = {                                                    %
 
 
 AA_FirstViolinVoiceII = {                                                      %! extern
+
     \AA_FirstViolinVoiceII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffI = <<                                                      %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \AA_FirstViolinVoiceI                                                      %! extern
+
     \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
     \AA_FirstViolinVoiceII                                                     %! extern
+
 >>                                                                             %! extern
 
 
 AA_FirstViolinVoiceIII_a = {                                                   %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceIII measure 158 / measure 1]                     %! _comment_measure_numbers
@@ -539,43 +563,53 @@ AA_FirstViolinVoiceIII_a = {                                                   %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceIII measure 159 / measure 2]                     %! _comment_measure_numbers
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA FirstViolinVoiceIII measure 160 / measure 3]                         %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -587,15 +621,19 @@ AA_FirstViolinVoiceIII_a = {                                                   %
         r8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_FirstViolinVoiceIII = {                                                     %! extern
+
     \AA_FirstViolinVoiceIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinVoiceIV_a = {                                                    %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceIV measure 158 / measure 1]                      %! _comment_measure_numbers
@@ -619,43 +657,53 @@ AA_FirstViolinVoiceIV_a = {                                                    %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA FirstViolinVoiceIV measure 159 / measure 2]                          %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceIV measure 160 / measure 3]                          %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -663,19 +711,25 @@ AA_FirstViolinVoiceIV_a = {                                                    %
         r4                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_FirstViolinVoiceIV = {                                                      %! extern
+
     \AA_FirstViolinVoiceIV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffII = <<                                                     %! extern
+
     \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
     \AA_FirstViolinVoiceIII                                                    %! extern
+
     \context Voice = "FirstViolinVoiceIV"                                      %! ScoreTemplate
     \AA_FirstViolinVoiceIV                                                     %! extern
+
 >>                                                                             %! extern
 
 
@@ -771,7 +825,9 @@ AA_FirstViolinVoiceV_a = {                                                     %
 
 
 AA_FirstViolinVoiceV = {                                                       %! extern
+
     \AA_FirstViolinVoiceV_a                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -847,19 +903,25 @@ AA_FirstViolinVoiceVI_a = {                                                    %
 
 
 AA_FirstViolinVoiceVI = {                                                      %! extern
+
     \AA_FirstViolinVoiceVI_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffIII = <<                                                    %! extern
+
     \context Voice = "FirstViolinVoiceV"                                       %! ScoreTemplate
     \AA_FirstViolinVoiceV                                                      %! extern
+
     \context Voice = "FirstViolinVoiceVI"                                      %! ScoreTemplate
     \AA_FirstViolinVoiceVI                                                     %! extern
+
 >>                                                                             %! extern
 
 
 AA_FirstViolinVoiceVII_a = {                                                   %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceVII measure 158 / measure 1]                     %! _comment_measure_numbers
@@ -890,41 +952,51 @@ AA_FirstViolinVoiceVII_a = {                                                   %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceVII measure 159 / measure 2]                         %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceVII measure 160 / measure 3]                     %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -936,15 +1008,19 @@ AA_FirstViolinVoiceVII_a = {                                                   %
         r8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_FirstViolinVoiceVII = {                                                     %! extern
+
     \AA_FirstViolinVoiceVII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinVoiceVIII_a = {                                                  %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceVIII measure 158 / measure 1]                    %! _comment_measure_numbers
@@ -967,9 +1043,11 @@ AA_FirstViolinVoiceVIII_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -979,7 +1057,9 @@ AA_FirstViolinVoiceVIII_a = {                                                  %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -989,10 +1069,12 @@ AA_FirstViolinVoiceVIII_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceVIII measure 159 / measure 2]                        %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -1002,12 +1084,14 @@ AA_FirstViolinVoiceVIII_a = {                                                  %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
 
     % [AA FirstViolinVoiceVIII measure 160 / measure 3]                        %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -1017,6 +1101,7 @@ AA_FirstViolinVoiceVIII_a = {                                                  %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -1025,15 +1110,20 @@ AA_FirstViolinVoiceVIII_a = {                                                  %
 
 
 AA_FirstViolinVoiceVIII = {                                                    %! extern
+
     \AA_FirstViolinVoiceVIII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffIV = <<                                                     %! extern
+
     \context Voice = "FirstViolinVoiceVII"                                     %! ScoreTemplate
     \AA_FirstViolinVoiceVII                                                    %! extern
+
     \context Voice = "FirstViolinVoiceVIII"                                    %! ScoreTemplate
     \AA_FirstViolinVoiceVIII                                                   %! extern
+
 >>                                                                             %! extern
 
 
@@ -1126,7 +1216,9 @@ AA_FirstViolinVoiceIX_a = {                                                    %
 
 
 AA_FirstViolinVoiceIX = {                                                      %! extern
+
     \AA_FirstViolinVoiceIX_a                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -1195,15 +1287,20 @@ AA_FirstViolinVoiceX_a = {                                                     %
 
 
 AA_FirstViolinVoiceX = {                                                       %! extern
+
     \AA_FirstViolinVoiceX_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffV = <<                                                      %! extern
+
     \context Voice = "FirstViolinVoiceIX"                                      %! ScoreTemplate
     \AA_FirstViolinVoiceIX                                                     %! extern
+
     \context Voice = "FirstViolinVoiceX"                                       %! ScoreTemplate
     \AA_FirstViolinVoiceX                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -1294,11 +1391,14 @@ AA_FirstViolinVoiceXI_a = {                                                    %
 
 
 AA_FirstViolinVoiceXI = {                                                      %! extern
+
     \AA_FirstViolinVoiceXI_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinVoiceXII_a = {                                                   %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceXII measure 158 / measure 1]                     %! _comment_measure_numbers
@@ -1317,18 +1417,22 @@ AA_FirstViolinVoiceXII_a = {                                                   %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceXII measure 159 / measure 2]                         %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -1338,9 +1442,11 @@ AA_FirstViolinVoiceXII_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -1350,7 +1456,9 @@ AA_FirstViolinVoiceXII_a = {                                                   %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceXII measure 160 / measure 3]                     %! _comment_measure_numbers
@@ -1361,9 +1469,11 @@ AA_FirstViolinVoiceXII_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -1373,6 +1483,7 @@ AA_FirstViolinVoiceXII_a = {                                                   %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -1381,15 +1492,20 @@ AA_FirstViolinVoiceXII_a = {                                                   %
 
 
 AA_FirstViolinVoiceXII = {                                                     %! extern
+
     \AA_FirstViolinVoiceXII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffVI = <<                                                     %! extern
+
     \context Voice = "FirstViolinVoiceXI"                                      %! ScoreTemplate
     \AA_FirstViolinVoiceXI                                                     %! extern
+
     \context Voice = "FirstViolinVoiceXII"                                     %! ScoreTemplate
     \AA_FirstViolinVoiceXII                                                    %! extern
+
 >>                                                                             %! extern
 
 
@@ -1421,29 +1537,36 @@ AA_FirstViolinVoiceXIII_a = {                                                  %
                     (13-14)                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceXIII measure 159 / measure 2]                    %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -1453,6 +1576,7 @@ AA_FirstViolinVoiceXIII_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceXIII measure 160 / measure 3]                        %! _comment_measure_numbers
@@ -1462,7 +1586,9 @@ AA_FirstViolinVoiceXIII_a = {                                                  %
 
 
 AA_FirstViolinVoiceXIII = {                                                    %! extern
+
     \AA_FirstViolinVoiceXIII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
@@ -1531,15 +1657,20 @@ AA_FirstViolinVoiceXIV_a = {                                                   %
 
 
 AA_FirstViolinVoiceXIV = {                                                     %! extern
+
     \AA_FirstViolinVoiceXIV_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffVII = <<                                                    %! extern
+
     \context Voice = "FirstViolinVoiceXIII"                                    %! ScoreTemplate
     \AA_FirstViolinVoiceXIII                                                   %! extern
+
     \context Voice = "FirstViolinVoiceXIV"                                     %! ScoreTemplate
     \AA_FirstViolinVoiceXIV                                                    %! extern
+
 >>                                                                             %! extern
 
 
@@ -1634,7 +1765,9 @@ AA_FirstViolinVoiceXV_a = {                                                    %
 
 
 AA_FirstViolinVoiceXV = {                                                      %! extern
+
     \AA_FirstViolinVoiceXV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -1654,21 +1787,26 @@ AA_FirstViolinVoiceXVI_a = {                                                   %
     r2
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceXVI measure 159 / measure 2]                         %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -1678,12 +1816,14 @@ AA_FirstViolinVoiceXVI_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
 
     % [AA FirstViolinVoiceXVI measure 160 / measure 3]                         %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -1693,6 +1833,7 @@ AA_FirstViolinVoiceXVI_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -1701,15 +1842,20 @@ AA_FirstViolinVoiceXVI_a = {                                                   %
 
 
 AA_FirstViolinVoiceXVI = {                                                     %! extern
+
     \AA_FirstViolinVoiceXVI_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffVIII = <<                                                   %! extern
+
     \context Voice = "FirstViolinVoiceXV"                                      %! ScoreTemplate
     \AA_FirstViolinVoiceXV                                                     %! extern
+
     \context Voice = "FirstViolinVoiceXVI"                                     %! ScoreTemplate
     \AA_FirstViolinVoiceXVI                                                    %! extern
+
 >>                                                                             %! extern
 
 
@@ -1741,6 +1887,7 @@ AA_FirstViolinVoiceXVII_a = {                                                  %
                     (17-18)                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA FirstViolinVoiceXVII measure 159 / measure 2]                    %! _comment_measure_numbers
@@ -1751,29 +1898,36 @@ AA_FirstViolinVoiceXVII_a = {                                                  %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA FirstViolinVoiceXVII measure 160 / measure 3]                        %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -1782,7 +1936,9 @@ AA_FirstViolinVoiceXVII_a = {                                                  %
 
 
 AA_FirstViolinVoiceXVII = {                                                    %! extern
+
     \AA_FirstViolinVoiceXVII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
@@ -1859,15 +2015,20 @@ AA_FirstViolinVoiceXVIII_a = {                                                 %
 
 
 AA_FirstViolinVoiceXVIII = {                                                   %! extern
+
     \AA_FirstViolinVoiceXVIII_a                                                %! extern
+
 }                                                                              %! extern
 
 
 AA_FirstViolinStaffIX = <<                                                     %! extern
+
     \context Voice = "FirstViolinVoiceXVII"                                    %! ScoreTemplate
     \AA_FirstViolinVoiceXVII                                                   %! extern
+
     \context Voice = "FirstViolinVoiceXVIII"                                   %! ScoreTemplate
     \AA_FirstViolinVoiceXVIII                                                  %! extern
+
 >>                                                                             %! extern
 
 
@@ -1963,7 +2124,9 @@ AA_SecondViolinVoiceI_a = {                                                    %
 
 
 AA_SecondViolinVoiceI = {                                                      %! extern
+
     \AA_SecondViolinVoiceI_a                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -2033,15 +2196,20 @@ AA_SecondViolinVoiceII_a = {                                                   %
 
 
 AA_SecondViolinVoiceII = {                                                     %! extern
+
     \AA_SecondViolinVoiceII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffI = <<                                                     %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \AA_SecondViolinVoiceI                                                     %! extern
+
     \context Voice = "SecondViolinVoiceII"                                     %! ScoreTemplate
     \AA_SecondViolinVoiceII                                                    %! extern
+
 >>                                                                             %! extern
 
 
@@ -2076,6 +2244,7 @@ AA_SecondViolinVoiceIII_a = {                                                  %
                     (3-4)                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -2085,7 +2254,9 @@ AA_SecondViolinVoiceIII_a = {                                                  %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -2095,9 +2266,11 @@ AA_SecondViolinVoiceIII_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceIII measure 159 / measure 2]                    %! _comment_measure_numbers
@@ -2108,28 +2281,34 @@ AA_SecondViolinVoiceIII_a = {                                                  %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA SecondViolinVoiceIII measure 160 / measure 3]                        %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
@@ -2137,11 +2316,14 @@ AA_SecondViolinVoiceIII_a = {                                                  %
         d'8                                                                    %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceIII = {                                                    %! extern
+
     \AA_SecondViolinVoiceIII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
@@ -2162,6 +2344,7 @@ AA_SecondViolinVoiceIV_a = {                                                   %
     r4
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -2171,12 +2354,14 @@ AA_SecondViolinVoiceIV_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
 
     % [AA SecondViolinVoiceIV measure 159 / measure 2]                         %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -2186,9 +2371,11 @@ AA_SecondViolinVoiceIV_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceIV measure 160 / measure 3]                     %! _comment_measure_numbers
@@ -2199,7 +2386,9 @@ AA_SecondViolinVoiceIV_a = {                                                   %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -2209,9 +2398,11 @@ AA_SecondViolinVoiceIV_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -2223,19 +2414,25 @@ AA_SecondViolinVoiceIV_a = {                                                   %
         ]                                                                      %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceIV = {                                                     %! extern
+
     \AA_SecondViolinVoiceIV_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffII = <<                                                    %! extern
+
     \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
     \AA_SecondViolinVoiceIII                                                   %! extern
+
     \context Voice = "SecondViolinVoiceIV"                                     %! ScoreTemplate
     \AA_SecondViolinVoiceIV                                                    %! extern
+
 >>                                                                             %! extern
 
 
@@ -2326,7 +2523,9 @@ AA_SecondViolinVoiceV_a = {                                                    %
 
 
 AA_SecondViolinVoiceV = {                                                      %! extern
+
     \AA_SecondViolinVoiceV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -2405,15 +2604,20 @@ AA_SecondViolinVoiceVI_a = {                                                   %
 
 
 AA_SecondViolinVoiceVI = {                                                     %! extern
+
     \AA_SecondViolinVoiceVI_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffIII = <<                                                   %! extern
+
     \context Voice = "SecondViolinVoiceV"                                      %! ScoreTemplate
     \AA_SecondViolinVoiceV                                                     %! extern
+
     \context Voice = "SecondViolinVoiceVI"                                     %! ScoreTemplate
     \AA_SecondViolinVoiceVI                                                    %! extern
+
 >>                                                                             %! extern
 
 
@@ -2445,6 +2649,7 @@ AA_SecondViolinVoiceVII_a = {                                                  %
                     (7-8)                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceVII measure 159 / measure 2]                    %! _comment_measure_numbers
@@ -2455,9 +2660,11 @@ AA_SecondViolinVoiceVII_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -2467,7 +2674,9 @@ AA_SecondViolinVoiceVII_a = {                                                  %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -2477,10 +2686,12 @@ AA_SecondViolinVoiceVII_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA SecondViolinVoiceVII measure 160 / measure 3]                        %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -2490,6 +2701,7 @@ AA_SecondViolinVoiceVII_a = {                                                  %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
@@ -2498,11 +2710,14 @@ AA_SecondViolinVoiceVII_a = {                                                  %
 
 
 AA_SecondViolinVoiceVII = {                                                    %! extern
+
     \AA_SecondViolinVoiceVII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceVIII_a = {                                                 %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceVIII measure 158 / measure 1]                   %! _comment_measure_numbers
@@ -2521,43 +2736,53 @@ AA_SecondViolinVoiceVIII_a = {                                                 %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceVIII measure 159 / measure 2]                   %! _comment_measure_numbers
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA SecondViolinVoiceVIII measure 160 / measure 3]                       %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -2569,19 +2794,25 @@ AA_SecondViolinVoiceVIII_a = {                                                 %
         r8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceVIII = {                                                   %! extern
+
     \AA_SecondViolinVoiceVIII_a                                                %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffIV = <<                                                    %! extern
+
     \context Voice = "SecondViolinVoiceVII"                                    %! ScoreTemplate
     \AA_SecondViolinVoiceVII                                                   %! extern
+
     \context Voice = "SecondViolinVoiceVIII"                                   %! ScoreTemplate
     \AA_SecondViolinVoiceVIII                                                  %! extern
+
 >>                                                                             %! extern
 
 
@@ -2662,7 +2893,9 @@ AA_SecondViolinVoiceIX_a = {                                                   %
 
 
 AA_SecondViolinVoiceIX = {                                                     %! extern
+
     \AA_SecondViolinVoiceIX_a                                                  %! extern
+
 }                                                                              %! extern
 
 
@@ -2743,15 +2976,20 @@ AA_SecondViolinVoiceX_a = {                                                    %
 
 
 AA_SecondViolinVoiceX = {                                                      %! extern
+
     \AA_SecondViolinVoiceX_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffV = <<                                                     %! extern
+
     \context Voice = "SecondViolinVoiceIX"                                     %! ScoreTemplate
     \AA_SecondViolinVoiceIX                                                    %! extern
+
     \context Voice = "SecondViolinVoiceX"                                      %! ScoreTemplate
     \AA_SecondViolinVoiceX                                                     %! extern
+
 >>                                                                             %! extern
 
 
@@ -2840,11 +3078,14 @@ AA_SecondViolinVoiceXI_a = {                                                   %
 
 
 AA_SecondViolinVoiceXI = {                                                     %! extern
+
     \AA_SecondViolinVoiceXI_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceXII_a = {                                                  %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXII measure 158 / measure 1]                    %! _comment_measure_numbers
@@ -2863,41 +3104,51 @@ AA_SecondViolinVoiceXII_a = {                                                  %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA SecondViolinVoiceXII measure 159 / measure 2]                        %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXII measure 160 / measure 3]                    %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -2909,23 +3160,30 @@ AA_SecondViolinVoiceXII_a = {                                                  %
         r8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceXII = {                                                    %! extern
+
     \AA_SecondViolinVoiceXII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffVI = <<                                                    %! extern
+
     \context Voice = "SecondViolinVoiceXI"                                     %! ScoreTemplate
     \AA_SecondViolinVoiceXI                                                    %! extern
+
     \context Voice = "SecondViolinVoiceXII"                                    %! ScoreTemplate
     \AA_SecondViolinVoiceXII                                                   %! extern
+
 >>                                                                             %! extern
 
 
 AA_SecondViolinVoiceXIII_a = {                                                 %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXIII measure 158 / measure 1]                   %! _comment_measure_numbers
@@ -2960,9 +3218,11 @@ AA_SecondViolinVoiceXIII_a = {                                                 %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -2972,7 +3232,9 @@ AA_SecondViolinVoiceXIII_a = {                                                 %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -2982,10 +3244,12 @@ AA_SecondViolinVoiceXIII_a = {                                                 %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA SecondViolinVoiceXIII measure 159 / measure 2]                       %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -2995,12 +3259,14 @@ AA_SecondViolinVoiceXIII_a = {                                                 %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
 
     % [AA SecondViolinVoiceXIII measure 160 / measure 3]                       %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -3010,6 +3276,7 @@ AA_SecondViolinVoiceXIII_a = {                                                 %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -3018,7 +3285,9 @@ AA_SecondViolinVoiceXIII_a = {                                                 %
 
 
 AA_SecondViolinVoiceXIII = {                                                   %! extern
+
     \AA_SecondViolinVoiceXIII_a                                                %! extern
+
 }                                                                              %! extern
 
 
@@ -3099,15 +3368,20 @@ AA_SecondViolinVoiceXIV_a = {                                                  %
 
 
 AA_SecondViolinVoiceXIV = {                                                    %! extern
+
     \AA_SecondViolinVoiceXIV_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffVII = <<                                                   %! extern
+
     \context Voice = "SecondViolinVoiceXIII"                                   %! ScoreTemplate
     \AA_SecondViolinVoiceXIII                                                  %! extern
+
     \context Voice = "SecondViolinVoiceXIV"                                    %! ScoreTemplate
     \AA_SecondViolinVoiceXIV                                                   %! extern
+
 >>                                                                             %! extern
 
 
@@ -3188,11 +3462,14 @@ AA_SecondViolinVoiceXV_a = {                                                   %
 
 
 AA_SecondViolinVoiceXV = {                                                     %! extern
+
     \AA_SecondViolinVoiceXV_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceXVI_a = {                                                  %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXVI measure 158 / measure 1]                    %! _comment_measure_numbers
@@ -3215,7 +3492,9 @@ AA_SecondViolinVoiceXVI_a = {                                                  %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -3225,9 +3504,11 @@ AA_SecondViolinVoiceXVI_a = {                                                  %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -3237,10 +3518,12 @@ AA_SecondViolinVoiceXVI_a = {                                                  %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA SecondViolinVoiceXVI measure 159 / measure 2]                        %! _comment_measure_numbers
     r1
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXVI measure 160 / measure 3]                    %! _comment_measure_numbers
@@ -3251,15 +3534,19 @@ AA_SecondViolinVoiceXVI_a = {                                                  %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -3267,23 +3554,30 @@ AA_SecondViolinVoiceXVI_a = {                                                  %
         r4                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_SecondViolinVoiceXVI = {                                                    %! extern
+
     \AA_SecondViolinVoiceXVI_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffVIII = <<                                                  %! extern
+
     \context Voice = "SecondViolinVoiceXV"                                     %! ScoreTemplate
     \AA_SecondViolinVoiceXV                                                    %! extern
+
     \context Voice = "SecondViolinVoiceXVI"                                    %! ScoreTemplate
     \AA_SecondViolinVoiceXVI                                                   %! extern
+
 >>                                                                             %! extern
 
 
 AA_SecondViolinVoiceXVII_a = {                                                 %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXVII measure 158 / measure 1]                   %! _comment_measure_numbers
@@ -3314,18 +3608,22 @@ AA_SecondViolinVoiceXVII_a = {                                                 %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA SecondViolinVoiceXVII measure 159 / measure 2]                       %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -3335,9 +3633,11 @@ AA_SecondViolinVoiceXVII_a = {                                                 %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -3347,7 +3647,9 @@ AA_SecondViolinVoiceXVII_a = {                                                 %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA SecondViolinVoiceXVII measure 160 / measure 3]                   %! _comment_measure_numbers
@@ -3358,9 +3660,11 @@ AA_SecondViolinVoiceXVII_a = {                                                 %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -3370,6 +3674,7 @@ AA_SecondViolinVoiceXVII_a = {                                                 %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -3378,7 +3683,9 @@ AA_SecondViolinVoiceXVII_a = {                                                 %
 
 
 AA_SecondViolinVoiceXVII = {                                                   %! extern
+
     \AA_SecondViolinVoiceXVII_a                                                %! extern
+
 }                                                                              %! extern
 
 
@@ -3457,15 +3764,20 @@ AA_SecondViolinVoiceXVIII_a = {                                                %
 
 
 AA_SecondViolinVoiceXVIII = {                                                  %! extern
+
     \AA_SecondViolinVoiceXVIII_a                                               %! extern
+
 }                                                                              %! extern
 
 
 AA_SecondViolinStaffIX = <<                                                    %! extern
+
     \context Voice = "SecondViolinVoiceXVII"                                   %! ScoreTemplate
     \AA_SecondViolinVoiceXVII                                                  %! extern
+
     \context Voice = "SecondViolinVoiceXVIII"                                  %! ScoreTemplate
     \AA_SecondViolinVoiceXVIII                                                 %! extern
+
 >>                                                                             %! extern
 
 
@@ -3549,7 +3861,9 @@ AA_ViolaVoiceI_a = {                                                           %
 
 
 AA_ViolaVoiceI = {                                                             %! extern
+
     \AA_ViolaVoiceI_a                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -3633,15 +3947,20 @@ AA_ViolaVoiceII_a = {                                                          %
 
 
 AA_ViolaVoiceII = {                                                            %! extern
+
     \AA_ViolaVoiceII_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffI = <<                                                            %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \AA_ViolaVoiceI                                                            %! extern
+
     \context Voice = "ViolaVoiceII"                                            %! ScoreTemplate
     \AA_ViolaVoiceII                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -3676,21 +3995,26 @@ AA_ViolaVoiceIII_a = {                                                         %
                     (3-4)                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA ViolaVoiceIII measure 159 / measure 2]                               %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -3700,12 +4024,14 @@ AA_ViolaVoiceIII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
 
     % [AA ViolaVoiceIII measure 160 / measure 3]                               %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -3715,6 +4041,7 @@ AA_ViolaVoiceIII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -3723,7 +4050,9 @@ AA_ViolaVoiceIII_a = {                                                         %
 
 
 AA_ViolaVoiceIII = {                                                           %! extern
+
     \AA_ViolaVoiceIII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -3744,6 +4073,7 @@ AA_ViolaVoiceIV_a = {                                                          %
     r1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceIV measure 159 / measure 2]                            %! _comment_measure_numbers
@@ -3754,29 +4084,36 @@ AA_ViolaVoiceIV_a = {                                                          %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA ViolaVoiceIV measure 160 / measure 3]                                %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -3785,15 +4122,20 @@ AA_ViolaVoiceIV_a = {                                                          %
 
 
 AA_ViolaVoiceIV = {                                                            %! extern
+
     \AA_ViolaVoiceIV_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffII = <<                                                           %! extern
+
     \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
     \AA_ViolaVoiceIII                                                          %! extern
+
     \context Voice = "ViolaVoiceIV"                                            %! ScoreTemplate
     \AA_ViolaVoiceIV                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -3882,7 +4224,9 @@ AA_ViolaVoiceV_a = {                                                           %
 
 
 AA_ViolaVoiceV = {                                                             %! extern
+
     \AA_ViolaVoiceV_a                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -3963,15 +4307,20 @@ AA_ViolaVoiceVI_a = {                                                          %
 
 
 AA_ViolaVoiceVI = {                                                            %! extern
+
     \AA_ViolaVoiceVI_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffIII = <<                                                          %! extern
+
     \context Voice = "ViolaVoiceV"                                             %! ScoreTemplate
     \AA_ViolaVoiceV                                                            %! extern
+
     \context Voice = "ViolaVoiceVI"                                            %! ScoreTemplate
     \AA_ViolaVoiceVI                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -4003,6 +4352,7 @@ AA_ViolaVoiceVII_a = {                                                         %
                     (7-8)                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -4012,38 +4362,47 @@ AA_ViolaVoiceVII_a = {                                                         %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceVII measure 159 / measure 2]                           %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceVII measure 160 / measure 3]                           %! _comment_measure_numbers
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -4052,7 +4411,9 @@ AA_ViolaVoiceVII_a = {                                                         %
 
 
 AA_ViolaVoiceVII = {                                                           %! extern
+
     \AA_ViolaVoiceVII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -4072,6 +4433,7 @@ AA_ViolaVoiceVIII_a = {                                                        %
     r4
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -4081,7 +4443,9 @@ AA_ViolaVoiceVIII_a = {                                                        %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -4091,9 +4455,11 @@ AA_ViolaVoiceVIII_a = {                                                        %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceVIII measure 159 / measure 2]                          %! _comment_measure_numbers
@@ -4104,28 +4470,34 @@ AA_ViolaVoiceVIII_a = {                                                        %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA ViolaVoiceVIII measure 160 / measure 3]                              %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
@@ -4133,19 +4505,25 @@ AA_ViolaVoiceVIII_a = {                                                        %
         b8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_ViolaVoiceVIII = {                                                          %! extern
+
     \AA_ViolaVoiceVIII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffIV = <<                                                           %! extern
+
     \context Voice = "ViolaVoiceVII"                                           %! ScoreTemplate
     \AA_ViolaVoiceVII                                                          %! extern
+
     \context Voice = "ViolaVoiceVIII"                                          %! ScoreTemplate
     \AA_ViolaVoiceVIII                                                         %! extern
+
 >>                                                                             %! extern
 
 
@@ -4226,7 +4604,9 @@ AA_ViolaVoiceIX_a = {                                                          %
 
 
 AA_ViolaVoiceIX = {                                                            %! extern
+
     \AA_ViolaVoiceIX_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4305,15 +4685,20 @@ AA_ViolaVoiceX_a = {                                                           %
 
 
 AA_ViolaVoiceX = {                                                             %! extern
+
     \AA_ViolaVoiceX_a                                                          %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffV = <<                                                            %! extern
+
     \context Voice = "ViolaVoiceIX"                                            %! ScoreTemplate
     \AA_ViolaVoiceIX                                                           %! extern
+
     \context Voice = "ViolaVoiceX"                                             %! ScoreTemplate
     \AA_ViolaVoiceX                                                            %! extern
+
 >>                                                                             %! extern
 
 
@@ -4404,7 +4789,9 @@ AA_ViolaVoiceXI_a = {                                                          %
 
 
 AA_ViolaVoiceXI = {                                                            %! extern
+
     \AA_ViolaVoiceXI_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4424,6 +4811,7 @@ AA_ViolaVoiceXII_a = {                                                         %
     r1
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceXII measure 159 / measure 2]                           %! _comment_measure_numbers
@@ -4434,9 +4822,11 @@ AA_ViolaVoiceXII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -4446,7 +4836,9 @@ AA_ViolaVoiceXII_a = {                                                         %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -4456,10 +4848,12 @@ AA_ViolaVoiceXII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA ViolaVoiceXII measure 160 / measure 3]                               %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -4469,6 +4863,7 @@ AA_ViolaVoiceXII_a = {                                                         %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
@@ -4477,19 +4872,25 @@ AA_ViolaVoiceXII_a = {                                                         %
 
 
 AA_ViolaVoiceXII = {                                                           %! extern
+
     \AA_ViolaVoiceXII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffVI = <<                                                           %! extern
+
     \context Voice = "ViolaVoiceXI"                                            %! ScoreTemplate
     \AA_ViolaVoiceXI                                                           %! extern
+
     \context Voice = "ViolaVoiceXII"                                           %! ScoreTemplate
     \AA_ViolaVoiceXII                                                          %! extern
+
 >>                                                                             %! extern
 
 
 AA_ViolaVoiceXIII_a = {                                                        %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceXIII measure 158 / measure 1]                          %! _comment_measure_numbers
@@ -4520,43 +4921,53 @@ AA_ViolaVoiceXIII_a = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceXIII measure 159 / measure 2]                          %! _comment_measure_numbers
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA ViolaVoiceXIII measure 160 / measure 3]                              %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -4568,11 +4979,14 @@ AA_ViolaVoiceXIII_a = {                                                        %
         r8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_ViolaVoiceXIII = {                                                          %! extern
+
     \AA_ViolaVoiceXIII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -4641,15 +5055,20 @@ AA_ViolaVoiceXIV_a = {                                                         %
 
 
 AA_ViolaVoiceXIV = {                                                           %! extern
+
     \AA_ViolaVoiceXIV_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffVII = <<                                                          %! extern
+
     \context Voice = "ViolaVoiceXIII"                                          %! ScoreTemplate
     \AA_ViolaVoiceXIII                                                         %! extern
+
     \context Voice = "ViolaVoiceXIV"                                           %! ScoreTemplate
     \AA_ViolaVoiceXIV                                                          %! extern
+
 >>                                                                             %! extern
 
 
@@ -4742,7 +5161,9 @@ AA_ViolaVoiceXV_a = {                                                          %
 
 
 AA_ViolaVoiceXV = {                                                            %! extern
+
     \AA_ViolaVoiceXV_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4762,32 +5183,39 @@ AA_ViolaVoiceXVI_a = {                                                         %
     r2
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceXVI measure 159 / measure 2]                           %! _comment_measure_numbers
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA ViolaVoiceXVI measure 160 / measure 3]                               %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -4797,9 +5225,11 @@ AA_ViolaVoiceXVI_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -4811,23 +5241,30 @@ AA_ViolaVoiceXVI_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_ViolaVoiceXVI = {                                                           %! extern
+
     \AA_ViolaVoiceXVI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffVIII = <<                                                         %! extern
+
     \context Voice = "ViolaVoiceXV"                                            %! ScoreTemplate
     \AA_ViolaVoiceXV                                                           %! extern
+
     \context Voice = "ViolaVoiceXVI"                                           %! ScoreTemplate
     \AA_ViolaVoiceXVI                                                          %! extern
+
 >>                                                                             %! extern
 
 
 AA_ViolaVoiceXVII_a = {                                                        %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceXVII measure 158 / measure 1]                          %! _comment_measure_numbers
@@ -4858,41 +5295,51 @@ AA_ViolaVoiceXVII_a = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA ViolaVoiceXVII measure 159 / measure 2]                              %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA ViolaVoiceXVII measure 160 / measure 3]                          %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -4904,11 +5351,14 @@ AA_ViolaVoiceXVII_a = {                                                        %
         r8                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_ViolaVoiceXVII = {                                                          %! extern
+
     \AA_ViolaVoiceXVII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -4985,15 +5435,20 @@ AA_ViolaVoiceXVIII_a = {                                                       %
 
 
 AA_ViolaVoiceXVIII = {                                                         %! extern
+
     \AA_ViolaVoiceXVIII_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 AA_ViolaStaffIX = <<                                                           %! extern
+
     \context Voice = "ViolaVoiceXVII"                                          %! ScoreTemplate
     \AA_ViolaVoiceXVII                                                         %! extern
+
     \context Voice = "ViolaVoiceXVIII"                                         %! ScoreTemplate
     \AA_ViolaVoiceXVIII                                                        %! extern
+
 >>                                                                             %! extern
 
 
@@ -5089,7 +5544,9 @@ AA_CelloVoiceI_a = {                                                           %
 
 
 AA_CelloVoiceI = {                                                             %! extern
+
     \AA_CelloVoiceI_a                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -5159,19 +5616,25 @@ AA_CelloVoiceII_a = {                                                          %
 
 
 AA_CelloVoiceII = {                                                            %! extern
+
     \AA_CelloVoiceII_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffI = <<                                                            %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \AA_CelloVoiceI                                                            %! extern
+
     \context Voice = "CelloVoiceII"                                            %! ScoreTemplate
     \AA_CelloVoiceII                                                           %! extern
+
 >>                                                                             %! extern
 
 
 AA_CelloVoiceIII_a = {                                                         %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceIII measure 158 / measure 1]                           %! _comment_measure_numbers
@@ -5206,7 +5669,9 @@ AA_CelloVoiceIII_a = {                                                         %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -5216,9 +5681,11 @@ AA_CelloVoiceIII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -5228,10 +5695,12 @@ AA_CelloVoiceIII_a = {                                                         %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA CelloVoiceIII measure 159 / measure 2]                               %! _comment_measure_numbers
     r1
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceIII measure 160 / measure 3]                           %! _comment_measure_numbers
@@ -5242,15 +5711,19 @@ AA_CelloVoiceIII_a = {                                                         %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -5258,15 +5731,19 @@ AA_CelloVoiceIII_a = {                                                         %
         r4                                                                     %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_CelloVoiceIII = {                                                           %! extern
+
     \AA_CelloVoiceIII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloVoiceIV_a = {                                                          %! extern
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceIV measure 158 / measure 1]                            %! _comment_measure_numbers
@@ -5285,18 +5762,22 @@ AA_CelloVoiceIV_a = {                                                          %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA CelloVoiceIV measure 159 / measure 2]                                %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -5306,9 +5787,11 @@ AA_CelloVoiceIV_a = {                                                          %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -5318,7 +5801,9 @@ AA_CelloVoiceIV_a = {                                                          %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceIV measure 160 / measure 3]                            %! _comment_measure_numbers
@@ -5329,9 +5814,11 @@ AA_CelloVoiceIV_a = {                                                          %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -5341,6 +5828,7 @@ AA_CelloVoiceIV_a = {                                                          %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -5349,15 +5837,20 @@ AA_CelloVoiceIV_a = {                                                          %
 
 
 AA_CelloVoiceIV = {                                                            %! extern
+
     \AA_CelloVoiceIV_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffII = <<                                                           %! extern
+
     \context Voice = "CelloVoiceIII"                                           %! ScoreTemplate
     \AA_CelloVoiceIII                                                          %! extern
+
     \context Voice = "CelloVoiceIV"                                            %! ScoreTemplate
     \AA_CelloVoiceIV                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -5448,7 +5941,9 @@ AA_CelloVoiceV_a = {                                                           %
 
 
 AA_CelloVoiceV = {                                                             %! extern
+
     \AA_CelloVoiceV_a                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -5517,15 +6012,20 @@ AA_CelloVoiceVI_a = {                                                          %
 
 
 AA_CelloVoiceVI = {                                                            %! extern
+
     \AA_CelloVoiceVI_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffIII = <<                                                          %! extern
+
     \context Voice = "CelloVoiceV"                                             %! ScoreTemplate
     \AA_CelloVoiceV                                                            %! extern
+
     \context Voice = "CelloVoiceVI"                                            %! ScoreTemplate
     \AA_CelloVoiceVI                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -5557,14 +6057,17 @@ AA_CelloVoiceVII_a = {                                                         %
                     (7-8)                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -5574,10 +6077,12 @@ AA_CelloVoiceVII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA CelloVoiceVII measure 159 / measure 2]                               %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -5587,7 +6092,9 @@ AA_CelloVoiceVII_a = {                                                         %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -5597,9 +6104,11 @@ AA_CelloVoiceVII_a = {                                                         %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceVII measure 160 / measure 3]                           %! _comment_measure_numbers
@@ -5610,14 +6119,17 @@ AA_CelloVoiceVII_a = {                                                         %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -5626,7 +6138,9 @@ AA_CelloVoiceVII_a = {                                                         %
 
 
 AA_CelloVoiceVII = {                                                           %! extern
+
     \AA_CelloVoiceVII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -5646,21 +6160,26 @@ AA_CelloVoiceVIII_a = {                                                        %
     r2
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [AA CelloVoiceVIII measure 159 / measure 2]                              %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -5670,12 +6189,14 @@ AA_CelloVoiceVIII_a = {                                                        %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
 
     % [AA CelloVoiceVIII measure 160 / measure 3]                              %! _comment_measure_numbers
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -5685,6 +6206,7 @@ AA_CelloVoiceVIII_a = {                                                        %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -5693,15 +6215,20 @@ AA_CelloVoiceVIII_a = {                                                        %
 
 
 AA_CelloVoiceVIII = {                                                          %! extern
+
     \AA_CelloVoiceVIII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffIV = <<                                                           %! extern
+
     \context Voice = "CelloVoiceVII"                                           %! ScoreTemplate
     \AA_CelloVoiceVII                                                          %! extern
+
     \context Voice = "CelloVoiceVIII"                                          %! ScoreTemplate
     \AA_CelloVoiceVIII                                                         %! extern
+
 >>                                                                             %! extern
 
 
@@ -5780,7 +6307,9 @@ AA_CelloVoiceIX_a = {                                                          %
 
 
 AA_CelloVoiceIX = {                                                            %! extern
+
     \AA_CelloVoiceIX_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -5857,15 +6386,20 @@ AA_CelloVoiceX_a = {                                                           %
 
 
 AA_CelloVoiceX = {                                                             %! extern
+
     \AA_CelloVoiceX_a                                                          %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffV = <<                                                            %! extern
+
     \context Voice = "CelloVoiceIX"                                            %! ScoreTemplate
     \AA_CelloVoiceIX                                                           %! extern
+
     \context Voice = "CelloVoiceX"                                             %! ScoreTemplate
     \AA_CelloVoiceX                                                            %! extern
+
 >>                                                                             %! extern
 
 
@@ -5958,7 +6492,9 @@ AA_CelloVoiceXI_a = {                                                          %
 
 
 AA_CelloVoiceXI = {                                                            %! extern
+
     \AA_CelloVoiceXI_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -5978,6 +6514,7 @@ AA_CelloVoiceXII_a = {                                                         %
     r2
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -5987,38 +6524,47 @@ AA_CelloVoiceXII_a = {                                                         %
 
         b8                                                                     %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceXII measure 159 / measure 2]                           %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r2
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceXII measure 160 / measure 3]                           %! _comment_measure_numbers
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
@@ -6027,15 +6573,20 @@ AA_CelloVoiceXII_a = {                                                         %
 
 
 AA_CelloVoiceXII = {                                                           %! extern
+
     \AA_CelloVoiceXII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffVI = <<                                                           %! extern
+
     \context Voice = "CelloVoiceXI"                                            %! ScoreTemplate
     \AA_CelloVoiceXI                                                           %! extern
+
     \context Voice = "CelloVoiceXII"                                           %! ScoreTemplate
     \AA_CelloVoiceXII                                                          %! extern
+
 >>                                                                             %! extern
 
 
@@ -6067,6 +6618,7 @@ AA_CelloVoiceXIII_a = {                                                        %
                     (13-14)                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
@@ -6076,7 +6628,9 @@ AA_CelloVoiceXIII_a = {                                                        %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \times 2/3 {                                                               %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -6086,9 +6640,11 @@ AA_CelloVoiceXIII_a = {                                                        %
         ]                                                                      %! clb_rhythm
 
         r8                                                                     %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         % [AA CelloVoiceXIII measure 159 / measure 2]                          %! _comment_measure_numbers
@@ -6099,28 +6655,34 @@ AA_CelloVoiceXIII_a = {                                                        %
 
         d'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
 
     % [AA CelloVoiceXIII measure 160 / measure 3]                              %! _comment_measure_numbers
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     r4
+
     \times 2/3 {                                                               %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
@@ -6128,11 +6690,14 @@ AA_CelloVoiceXIII_a = {                                                        %
         d'8                                                                    %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 AA_CelloVoiceXIII = {                                                          %! extern
+
     \AA_CelloVoiceXIII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -6201,13 +6766,18 @@ AA_CelloVoiceXIV_a = {                                                         %
 
 
 AA_CelloVoiceXIV = {                                                           %! extern
+
     \AA_CelloVoiceXIV_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 AA_CelloStaffVII = <<                                                          %! extern
+
     \context Voice = "CelloVoiceXIII"                                          %! ScoreTemplate
     \AA_CelloVoiceXIII                                                         %! extern
+
     \context Voice = "CelloVoiceXIV"                                           %! ScoreTemplate
     \AA_CelloVoiceXIV                                                          %! extern
+
 >>                                                                             %! extern
