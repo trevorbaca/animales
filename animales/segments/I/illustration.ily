@@ -162,13 +162,17 @@ I_ClarinetVoiceI_a = {                                                         %
 
 
 I_ClarinetVoiceI = {                                                           %! extern
+
     \I_ClarinetVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 I_ClarinetStaffI = {                                                           %! extern
+
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \I_ClarinetVoiceI                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -228,13 +232,17 @@ I_BassClarinetVoiceI_a = {                                                     %
 
 
 I_BassClarinetVoiceI = {                                                       %! extern
+
     \I_BassClarinetVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 I_BassClarinetStaffI = {                                                       %! extern
+
     \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
     \I_BassClarinetVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -288,17 +296,20 @@ I_HornVoiceI_a = {                                                             %
     % [I HornVoiceI measure 58 / measure 3]                                    %! _comment_measure_numbers
     e'2                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         e'4                                                                    %! brass_manifest_rhythm
 
         fs'!8                                                                  %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     % [I HornVoiceI measure 59 / measure 4]                                    %! _comment_measure_numbers
     fs'!2.                                                                     %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -306,6 +317,7 @@ I_HornVoiceI_a = {                                                             %
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r4                                                                     %! brass_manifest_rhythm
+
     }                                                                          %! brass_manifest_rhythm
 
     % [I HornVoiceI measure 60 / measure 5]                                    %! _comment_measure_numbers
@@ -319,12 +331,14 @@ I_HornVoiceI_a = {                                                             %
     % [I HornVoiceI measure 61 / measure 6]                                    %! _comment_measure_numbers
     e'4                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         e'4                                                                    %! brass_manifest_rhythm
 
         fs'!8                                                                  %! brass_manifest_rhythm
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! brass_manifest_rhythm
 
     fs'!2                                                                      %! brass_manifest_rhythm
@@ -335,7 +349,9 @@ I_HornVoiceI_a = {                                                             %
 
 
 I_HornVoiceI = {                                                               %! extern
+
     \I_HornVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
@@ -395,15 +411,20 @@ I_HornVoiceIII_a = {                                                           %
 
 
 I_HornVoiceIII = {                                                             %! extern
+
     \I_HornVoiceIII_a                                                          %! extern
+
 }                                                                              %! extern
 
 
 I_HornStaffI = <<                                                              %! extern
+
     \context Voice = "HornVoiceI"                                              %! ScoreTemplate
     \I_HornVoiceI                                                              %! extern
+
     \context Voice = "HornVoiceIII"                                            %! ScoreTemplate
     \I_HornVoiceIII                                                            %! extern
+
 >>                                                                             %! extern
 
 
@@ -446,6 +467,7 @@ I_HornVoiceII_a = {                                                            %
 
     % [I HornVoiceII measure 57 / measure 2]                                   %! _comment_measure_numbers
     r2.
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I HornVoiceII measure 58 / measure 3]                               %! _comment_measure_numbers
@@ -457,6 +479,7 @@ I_HornVoiceII_a = {                                                            %
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     e'2                                                                        %! brass_manifest_rhythm
@@ -465,12 +488,14 @@ I_HornVoiceII_a = {                                                            %
     % [I HornVoiceII measure 59 / measure 4]                                   %! _comment_measure_numbers
     e'4                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         e'8                                                                    %! brass_manifest_rhythm
 
         fs'!4                                                                  %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     fs'!2                                                                      %! brass_manifest_rhythm
@@ -480,6 +505,7 @@ I_HornVoiceII_a = {                                                            %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     fs'!4                                                                      %! brass_manifest_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         r4                                                                     %! brass_manifest_rhythm
@@ -490,11 +516,13 @@ I_HornVoiceII_a = {                                                            %
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     % [I HornVoiceII measure 61 / measure 6]                                   %! _comment_measure_numbers
     e'2.                                                                       %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         e'8                                                                    %! brass_manifest_rhythm
@@ -504,11 +532,14 @@ I_HornVoiceII_a = {                                                            %
         \!                                                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS
 
     }                                                                          %! brass_manifest_rhythm
+
 }                                                                              %! extern
 
 
 I_HornVoiceII = {                                                              %! extern
+
     \I_HornVoiceII_a                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -534,6 +565,7 @@ I_HornVoiceIV_a = {                                                            %
     % [I HornVoiceIV measure 58 / measure 3]                                   %! _comment_measure_numbers
     f'2.                                                                       %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I HornVoiceIV measure 59 / measure 4]                               %! _comment_measure_numbers
@@ -542,6 +574,7 @@ I_HornVoiceIV_a = {                                                            %
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r8                                                                     %! brass_manifest_rhythm
+
     }                                                                          %! brass_manifest_rhythm
 
     r8                                                                         %! brass_manifest_rhythm
@@ -565,6 +598,7 @@ I_HornVoiceIV_a = {                                                            %
     % [I HornVoiceIV measure 61 / measure 6]                                   %! _comment_measure_numbers
     f'2                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -572,6 +606,7 @@ I_HornVoiceIV_a = {                                                            %
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r8                                                                     %! brass_manifest_rhythm
+
     }                                                                          %! brass_manifest_rhythm
 
     r8                                                                         %! brass_manifest_rhythm
@@ -586,15 +621,20 @@ I_HornVoiceIV_a = {                                                            %
 
 
 I_HornVoiceIV = {                                                              %! extern
+
     \I_HornVoiceIV_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 I_HornStaffII = <<                                                             %! extern
+
     \context Voice = "HornVoiceII"                                             %! ScoreTemplate
     \I_HornVoiceII                                                             %! extern
+
     \context Voice = "HornVoiceIV"                                             %! ScoreTemplate
     \I_HornVoiceIV                                                             %! extern
+
 >>                                                                             %! extern
 
 
@@ -688,7 +728,9 @@ I_TrumpetVoiceI_a = {                                                          %
 
 
 I_TrumpetVoiceI = {                                                            %! extern
+
     \I_TrumpetVoiceI_a                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -713,6 +755,7 @@ I_TrumpetVoiceIII_a = {                                                        %
     % [I TrumpetVoiceIII measure 58 / measure 3]                               %! _comment_measure_numbers
     a'4                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -720,6 +763,7 @@ I_TrumpetVoiceIII_a = {                                                        %
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r4                                                                     %! brass_manifest_rhythm
+
     }                                                                          %! brass_manifest_rhythm
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -732,12 +776,14 @@ I_TrumpetVoiceIII_a = {                                                        %
     % [I TrumpetVoiceIII measure 59 / measure 4]                               %! _comment_measure_numbers
     g'2                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         g'8                                                                    %! brass_manifest_rhythm
 
         a'4                                                                    %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     a'4                                                                        %! brass_manifest_rhythm
@@ -749,6 +795,7 @@ I_TrumpetVoiceIII_a = {                                                        %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
     r8                                                                         %! brass_manifest_rhythm
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I TrumpetVoiceIII measure 61 / measure 6]                           %! _comment_measure_numbers
@@ -760,6 +807,7 @@ I_TrumpetVoiceIII_a = {                                                        %
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     g'2                                                                        %! brass_manifest_rhythm
@@ -777,15 +825,20 @@ I_TrumpetVoiceIII_a = {                                                        %
 
 
 I_TrumpetVoiceIII = {                                                          %! extern
+
     \I_TrumpetVoiceIII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
 I_TrumpetStaffI = <<                                                           %! extern
+
     \context Voice = "TrumpetVoiceI"                                           %! ScoreTemplate
     \I_TrumpetVoiceI                                                           %! extern
+
     \context Voice = "TrumpetVoiceIII"                                         %! ScoreTemplate
     \I_TrumpetVoiceIII                                                         %! extern
+
 >>                                                                             %! extern
 
 
@@ -882,6 +935,7 @@ I_TrumpetVoiceII_a = {                                                         %
 
     bf'!2                                                                      %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         bf'!4                                                                  %! brass_manifest_rhythm
@@ -890,11 +944,14 @@ I_TrumpetVoiceII_a = {                                                         %
         r8                                                                     %! brass_manifest_rhythm
 
     }                                                                          %! brass_manifest_rhythm
+
 }                                                                              %! extern
 
 
 I_TrumpetVoiceII = {                                                           %! extern
+
     \I_TrumpetVoiceII_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -917,18 +974,21 @@ I_TrumpetVoiceIV_a = {                                                         %
     % [I TrumpetVoiceIV measure 57 / measure 2]                                %! _comment_measure_numbers
     g'2                                                                        %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         g'4                                                                    %! brass_manifest_rhythm
 
         a'8                                                                    %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     % [I TrumpetVoiceIV measure 58 / measure 3]                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a'2.                                                                       %! brass_manifest_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I TrumpetVoiceIV measure 59 / measure 4]                            %! _comment_measure_numbers
@@ -940,6 +1000,7 @@ I_TrumpetVoiceIV_a = {                                                         %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     g'2.                                                                       %! brass_manifest_rhythm
@@ -965,15 +1026,20 @@ I_TrumpetVoiceIV_a = {                                                         %
 
 
 I_TrumpetVoiceIV = {                                                           %! extern
+
     \I_TrumpetVoiceIV_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 I_TrumpetStaffII = <<                                                          %! extern
+
     \context Voice = "TrumpetVoiceII"                                          %! ScoreTemplate
     \I_TrumpetVoiceII                                                          %! extern
+
     \context Voice = "TrumpetVoiceIV"                                          %! ScoreTemplate
     \I_TrumpetVoiceIV                                                          %! extern
+
 >>                                                                             %! extern
 
 
@@ -1053,12 +1119,14 @@ I_TromboneVoiceI_a = {                                                         %
     % [I TromboneVoiceI measure 61 / measure 6]                                %! _comment_measure_numbers
     bf!4                                                                       %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         bf!4                                                                   %! brass_manifest_rhythm
 
         af!8                                                                   %! brass_manifest_rhythm
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! brass_manifest_rhythm
 
     af!2                                                                       %! brass_manifest_rhythm
@@ -1069,7 +1137,9 @@ I_TromboneVoiceI_a = {                                                         %
 
 
 I_TromboneVoiceI = {                                                           %! extern
+
     \I_TromboneVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1084,6 +1154,7 @@ I_TromboneVoiceIII_a = {                                                       %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I TromboneVoiceIII measure 57 / measure 2]                          %! _comment_measure_numbers
@@ -1091,6 +1162,7 @@ I_TromboneVoiceIII_a = {                                                       %
 
         a8                                                                     %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     a2                                                                         %! brass_manifest_rhythm
@@ -1128,6 +1200,7 @@ I_TromboneVoiceIII_a = {                                                       %
     % [I TromboneVoiceIII measure 60 / measure 5]                              %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I TromboneVoiceIII measure 61 / measure 6]                          %! _comment_measure_numbers
@@ -1135,6 +1208,7 @@ I_TromboneVoiceIII_a = {                                                       %
 
         a4                                                                     %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     a2                                                                         %! brass_manifest_rhythm
@@ -1146,15 +1220,20 @@ I_TromboneVoiceIII_a = {                                                       %
 
 
 I_TromboneVoiceIII = {                                                         %! extern
+
     \I_TromboneVoiceIII_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 I_TromboneStaffI = <<                                                          %! extern
+
     \context Voice = "TromboneVoiceI"                                          %! ScoreTemplate
     \I_TromboneVoiceI                                                          %! extern
+
     \context Voice = "TromboneVoiceIII"                                        %! ScoreTemplate
     \I_TromboneVoiceIII                                                        %! extern
+
 >>                                                                             %! extern
 
 
@@ -1197,6 +1276,7 @@ I_TromboneVoiceII_a = {                                                        %
 
     % [I TromboneVoiceII measure 57 / measure 2]                               %! _comment_measure_numbers
     r2.
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [I TromboneVoiceII measure 58 / measure 3]                           %! _comment_measure_numbers
@@ -1208,6 +1288,7 @@ I_TromboneVoiceII_a = {                                                        %
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     af!2                                                                       %! brass_manifest_rhythm
@@ -1229,6 +1310,7 @@ I_TromboneVoiceII_a = {                                                        %
     % [I TromboneVoiceII measure 60 / measure 5]                               %! _comment_measure_numbers
     af!4                                                                       %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1236,6 +1318,7 @@ I_TromboneVoiceII_a = {                                                        %
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r8                                                                     %! brass_manifest_rhythm
+
     }                                                                          %! brass_manifest_rhythm
 
     % [I TromboneVoiceII measure 61 / measure 6]                               %! _comment_measure_numbers
@@ -1250,6 +1333,7 @@ I_TromboneVoiceII_a = {                                                        %
 
     bf!2                                                                       %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         bf!8                                                                   %! brass_manifest_rhythm
@@ -1259,11 +1343,14 @@ I_TromboneVoiceII_a = {                                                        %
         \!                                                                     %! HIDE_TO_JOIN_BROKEN_SPANNERS
 
     }                                                                          %! brass_manifest_rhythm
+
 }                                                                              %! extern
 
 
 I_TromboneVoiceII = {                                                          %! extern
+
     \I_TromboneVoiceII_a                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1286,12 +1373,14 @@ I_TromboneVoiceIV_a = {                                                        %
     % [I TromboneVoiceIV measure 57 / measure 2]                               %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm
     ~
+
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         g8                                                                     %! brass_manifest_rhythm
 
         a4                                                                     %! brass_manifest_rhythm
         ~
+
     }                                                                          %! brass_manifest_rhythm
 
     % [I TromboneVoiceIV measure 58 / measure 3]                               %! _comment_measure_numbers
@@ -1333,19 +1422,25 @@ I_TromboneVoiceIV_a = {                                                        %
 
 
 I_TromboneVoiceIV = {                                                          %! extern
+
     \I_TromboneVoiceIV_a                                                       %! extern
+
 }                                                                              %! extern
 
 
 I_TromboneStaffII = <<                                                         %! extern
+
     \context Voice = "TromboneVoiceII"                                         %! ScoreTemplate
     \I_TromboneVoiceII                                                         %! extern
+
     \context Voice = "TromboneVoiceIV"                                         %! ScoreTemplate
     \I_TromboneVoiceIV                                                         %! extern
+
 >>                                                                             %! extern
 
 
 I_PianoVoiceI_a = {                                                            %! extern
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [I PianoVoiceI measure 56 / measure 1]                               %! _comment_measure_numbers
@@ -1377,6 +1472,7 @@ I_PianoVoiceI_a = {                                                            %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1386,6 +1482,7 @@ I_PianoVoiceI_a = {                                                            %
 
     % [I PianoVoiceI measure 58 / measure 3]                                   %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [I PianoVoiceI measure 59 / measure 4]                               %! _comment_measure_numbers
@@ -1394,6 +1491,7 @@ I_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1408,13 +1506,17 @@ I_PianoVoiceI_a = {                                                            %
 
 
 I_PianoVoiceI = {                                                              %! extern
+
     \I_PianoVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 I_PianoStaffI = {                                                              %! extern
+
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \I_PianoVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1451,6 +1553,7 @@ I_HarpVoiceI_a = {                                                             %
 
     % [I HarpVoiceI measure 58 / measure 3]                                    %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -1458,6 +1561,7 @@ I_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1470,6 +1574,7 @@ I_HarpVoiceI_a = {                                                             %
 
     % [I HarpVoiceI measure 61 / measure 6]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -1479,17 +1584,22 @@ I_HarpVoiceI_a = {                                                             %
         r4                                                                     %! harp_exchange_rhythm
 
     }                                                                          %! harp_exchange_rhythm
+
 }                                                                              %! extern
 
 
 I_HarpVoiceI = {                                                               %! extern
+
     \I_HarpVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
 I_HarpStaffI = {                                                               %! extern
+
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \I_HarpVoiceI                                                              %! extern
+
 }                                                                              %! extern
 
 
@@ -1553,8 +1663,10 @@ I_PercussionVoiceII = {                                                        %
 
 
 I_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \I_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1596,6 +1708,7 @@ I_PercussionVoiceIII_a = {                                                     %
 
     % [I PercussionVoiceIII measure 57 / measure 2]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [I PercussionVoiceIII measure 58 / measure 3]                        %! _comment_measure_numbers
@@ -1603,18 +1716,21 @@ I_PercussionVoiceIII_a = {                                                     %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
 
     % [I PercussionVoiceIII measure 59 / measure 4]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [I PercussionVoiceIII measure 60 / measure 5]                            %! _comment_measure_numbers
@@ -1627,13 +1743,17 @@ I_PercussionVoiceIII_a = {                                                     %
 
 
 I_PercussionVoiceIII = {                                                       %! extern
+
     \I_PercussionVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 I_PercussionStaffIII = {                                                       %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \I_PercussionVoiceIII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1695,13 +1815,17 @@ I_FirstViolinVoiceI_a = {                                                      %
 
 
 I_FirstViolinVoiceI = {                                                        %! extern
+
     \I_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 I_FirstViolinStaffI = {                                                        %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \I_FirstViolinVoiceI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1763,13 +1887,17 @@ I_SecondViolinVoiceI_a = {                                                     %
 
 
 I_SecondViolinVoiceI = {                                                       %! extern
+
     \I_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 I_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \I_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1831,13 +1959,17 @@ I_ViolaVoiceI_a = {                                                            %
 
 
 I_ViolaVoiceI = {                                                              %! extern
+
     \I_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 I_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \I_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1899,13 +2031,17 @@ I_CelloVoiceI_a = {                                                            %
 
 
 I_CelloVoiceI = {                                                              %! extern
+
     \I_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 I_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \I_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1947,6 +2083,7 @@ I_ContrabassVoiceI_a = {                                                       %
 
     % [I ContrabassVoiceI measure 57 / measure 2]                              %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [I ContrabassVoiceI measure 58 / measure 3]                          %! _comment_measure_numbers
@@ -1958,12 +2095,14 @@ I_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
 
     % [I ContrabassVoiceI measure 59 / measure 4]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [I ContrabassVoiceI measure 60 / measure 5]                          %! _comment_measure_numbers
@@ -1972,6 +2111,7 @@ I_ContrabassVoiceI_a = {                                                       %
         cqf''!8                                                                %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1983,13 +2123,17 @@ I_ContrabassVoiceI_a = {                                                       %
 
 
 I_ContrabassVoiceI = {                                                         %! extern
+
     \I_ContrabassVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 I_ContrabassStaffI = {                                                         %! extern
+
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \I_ContrabassVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -2056,11 +2200,15 @@ I_ContrabassVoiceIII_a = {                                                     %
 
 
 I_ContrabassVoiceIII = {                                                       %! extern
+
     \I_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 I_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \I_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern

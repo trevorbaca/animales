@@ -158,13 +158,17 @@ D_ClarinetVoiceI_a = {                                                         %
 
 
 D_ClarinetVoiceI = {                                                           %! extern
+
     \D_ClarinetVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 D_ClarinetStaffI = {                                                           %! extern
+
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \D_ClarinetVoiceI                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -243,13 +247,17 @@ D_PercussionVoiceI_a = {                                                       %
 
 
 D_PercussionVoiceI = {                                                         %! extern
+
     \D_PercussionVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 D_PercussionStaffI = {                                                         %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \D_PercussionVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -328,13 +336,17 @@ D_PercussionVoiceII_a = {                                                      %
 
 
 D_PercussionVoiceII = {                                                        %! extern
+
     \D_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 D_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \D_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -452,7 +464,9 @@ D_FirstViolinVoiceII_a = {                                                     %
 
 
 D_FirstViolinVoiceII = {                                                       %! extern
+
     \D_FirstViolinVoiceII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -526,15 +540,20 @@ D_FirstViolinVoiceI_a = {                                                      %
 
 
 D_FirstViolinVoiceI = {                                                        %! extern
+
     \D_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 D_FirstViolinStaffI = <<                                                       %! extern
+
     \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
     \D_FirstViolinVoiceII                                                      %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \D_FirstViolinVoiceI                                                       %! extern
+
 >>                                                                             %! extern
 
 
@@ -587,6 +606,7 @@ D_FirstViolinVoiceIII_a = {                                                    %
     % [D FirstViolinVoiceIII measure 27 / measure 4]                           %! _comment_measure_numbers
     b4                                                                         %! sforzando_exchange_rhythm
     \repeatTie
+
     \times 2/3 {                                                               %! sforzando_exchange_rhythm
 
         b8                                                                     %! sforzando_exchange_rhythm
@@ -595,6 +615,7 @@ D_FirstViolinVoiceIII_a = {                                                    %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         b4                                                                     %! sforzando_exchange_rhythm
         - \accent                                                              %! IndicatorCommand
+
     }                                                                          %! sforzando_exchange_rhythm
 
     b2                                                                         %! sforzando_exchange_rhythm
@@ -613,13 +634,17 @@ D_FirstViolinVoiceIII_a = {                                                    %
 
 
 D_FirstViolinVoiceIII = {                                                      %! extern
+
     \D_FirstViolinVoiceIII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 D_FirstViolinStaffII = {                                                       %! extern
+
     \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
     \D_FirstViolinVoiceIII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -695,17 +720,22 @@ D_SecondViolinVoiceI_a = {                                                     %
 
 
 D_SecondViolinVoiceI = {                                                       %! extern
+
     \D_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 D_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \D_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
 D_SecondViolinVoiceIII_a = {                                                   %! extern
+
     \times 2/3 {                                                               %! sforzando_exchange_rhythm
 
         % [D SecondViolinVoiceIII measure 24 / measure 1]                      %! _comment_measure_numbers
@@ -747,6 +777,7 @@ D_SecondViolinVoiceIII_a = {                                                   %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         b4                                                                     %! sforzando_exchange_rhythm
         - \accent                                                              %! IndicatorCommand
+
     }                                                                          %! sforzando_exchange_rhythm
 
     b2                                                                         %! sforzando_exchange_rhythm
@@ -759,6 +790,7 @@ D_SecondViolinVoiceIII_a = {                                                   %
     % [D SecondViolinVoiceIII measure 26 / measure 3]                          %! _comment_measure_numbers
     b4                                                                         %! sforzando_exchange_rhythm
     \repeatTie
+
     \times 2/3 {                                                               %! sforzando_exchange_rhythm
 
         b4                                                                     %! sforzando_exchange_rhythm
@@ -766,6 +798,7 @@ D_SecondViolinVoiceIII_a = {                                                   %
 
         b8                                                                     %! sforzando_exchange_rhythm
         - \accent                                                              %! IndicatorCommand
+
     }                                                                          %! sforzando_exchange_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -789,13 +822,17 @@ D_SecondViolinVoiceIII_a = {                                                   %
 
 
 D_SecondViolinVoiceIII = {                                                     %! extern
+
     \D_SecondViolinVoiceIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 D_SecondViolinStaffII = {                                                      %! extern
+
     \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
     \D_SecondViolinVoiceIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -881,13 +918,17 @@ D_ViolaVoiceI_a = {                                                            %
 
 
 D_ViolaVoiceI = {                                                              %! extern
+
     \D_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 D_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \D_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -957,13 +998,17 @@ D_ViolaVoiceIII_a = {                                                          %
 
 
 D_ViolaVoiceIII = {                                                            %! extern
+
     \D_ViolaVoiceIII_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 D_ViolaStaffII = {                                                             %! extern
+
     \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
     \D_ViolaVoiceIII                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -1039,13 +1084,17 @@ D_CelloVoiceI_a = {                                                            %
 
 
 D_CelloVoiceI = {                                                              %! extern
+
     \D_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 D_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \D_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1103,11 +1152,15 @@ D_ContrabassVoiceIII_a = {                                                     %
 
 
 D_ContrabassVoiceIII = {                                                       %! extern
+
     \D_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 D_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \D_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern

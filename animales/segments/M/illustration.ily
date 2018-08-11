@@ -129,6 +129,7 @@ M_FluteVoiceI_a = {                                                            %
                     (1+3)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [M FluteVoiceI measure 83 / measure 2]                               %! _comment_measure_numbers
@@ -144,6 +145,7 @@ M_FluteVoiceI_a = {                                                            %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     fs''!16                                                                    %! pennant_rhythm
@@ -175,6 +177,7 @@ M_FluteVoiceI_a = {                                                            %
 
     bf''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [M FluteVoiceI measure 84 / measure 3]                               %! _comment_measure_numbers
@@ -185,7 +188,9 @@ M_FluteVoiceI_a = {                                                            %
 
         c'''8                                                                  %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         cs'''!8                                                                %! pennant_rhythm
@@ -198,6 +203,7 @@ M_FluteVoiceI_a = {                                                            %
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2):+PARTS
         ]                                                                      %! pennant_rhythm
         )                                                                      %! SpannerCommand
+
     }                                                                          %! pennant_rhythm
 
     % [M FluteVoiceI measure 85 / measure 4]                                   %! _comment_measure_numbers
@@ -213,7 +219,9 @@ M_FluteVoiceI_a = {                                                            %
 
 
 M_FluteVoiceI = {                                                              %! extern
+
     \M_FluteVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -238,6 +246,7 @@ M_FluteVoiceIII_a = {                                                          %
 
     e''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [M FluteVoiceIII measure 83 / measure 2]                             %! _comment_measure_numbers
@@ -248,7 +257,9 @@ M_FluteVoiceIII_a = {                                                          %
 
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         f''8                                                                   %! pennant_rhythm
@@ -258,6 +269,7 @@ M_FluteVoiceIII_a = {                                                          %
 
         af''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
@@ -290,6 +302,7 @@ M_FluteVoiceIII_a = {                                                          %
 
     b''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         c'''8                                                                  %! pennant_rhythm
@@ -302,6 +315,7 @@ M_FluteVoiceIII_a = {                                                          %
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! pennant_rhythm
         )                                                                      %! SpannerCommand
+
     }                                                                          %! pennant_rhythm
 
     % [M FluteVoiceIII measure 85 / measure 4]                                 %! _comment_measure_numbers
@@ -317,15 +331,20 @@ M_FluteVoiceIII_a = {                                                          %
 
 
 M_FluteVoiceIII = {                                                            %! extern
+
     \M_FluteVoiceIII_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 M_FluteStaffI = <<                                                             %! extern
+
     \context Voice = "FluteVoiceI"                                             %! ScoreTemplate
     \M_FluteVoiceI                                                             %! extern
+
     \context Voice = "FluteVoiceIII"                                           %! ScoreTemplate
     \M_FluteVoiceIII                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -362,6 +381,7 @@ M_FluteVoiceII_a = {                                                           %
                     (2+4)                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -376,7 +396,9 @@ M_FluteVoiceII_a = {                                                           %
 
         ef''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         d''8                                                                   %! pennant_rhythm
@@ -386,6 +408,7 @@ M_FluteVoiceII_a = {                                                           %
 
         ef''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     % [M FluteVoiceII measure 83 / measure 2]                                  %! _comment_measure_numbers
@@ -408,6 +431,7 @@ M_FluteVoiceII_a = {                                                           %
 
     f''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         fs''!8                                                                 %! pennant_rhythm
@@ -417,7 +441,9 @@ M_FluteVoiceII_a = {                                                           %
 
         fs''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         af''!8                                                                 %! pennant_rhythm
@@ -427,6 +453,7 @@ M_FluteVoiceII_a = {                                                           %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     % [M FluteVoiceII measure 84 / measure 3]                                  %! _comment_measure_numbers
@@ -466,7 +493,9 @@ M_FluteVoiceII_a = {                                                           %
 
 
 M_FluteVoiceII = {                                                             %! extern
+
     \M_FluteVoiceII_a                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -499,6 +528,7 @@ M_FluteVoiceIV_a = {                                                           %
 
     d''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
@@ -508,7 +538,9 @@ M_FluteVoiceIV_a = {                                                           %
 
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [M FluteVoiceIV measure 83 / measure 2]                              %! _comment_measure_numbers
@@ -519,6 +551,7 @@ M_FluteVoiceIV_a = {                                                           %
 
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     f''16                                                                      %! pennant_rhythm
@@ -540,6 +573,7 @@ M_FluteVoiceIV_a = {                                                           %
 
     af''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         a''8                                                                   %! pennant_rhythm
@@ -549,7 +583,9 @@ M_FluteVoiceIV_a = {                                                           %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [M FluteVoiceIV measure 84 / measure 3]                              %! _comment_measure_numbers
@@ -560,6 +596,7 @@ M_FluteVoiceIV_a = {                                                           %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
@@ -588,15 +625,20 @@ M_FluteVoiceIV_a = {                                                           %
 
 
 M_FluteVoiceIV = {                                                             %! extern
+
     \M_FluteVoiceIV_a                                                          %! extern
+
 }                                                                              %! extern
 
 
 M_FluteStaffII = <<                                                            %! extern
+
     \context Voice = "FluteVoiceII"                                            %! ScoreTemplate
     \M_FluteVoiceII                                                            %! extern
+
     \context Voice = "FluteVoiceIV"                                            %! ScoreTemplate
     \M_FluteVoiceIV                                                            %! extern
+
 >>                                                                             %! extern
 
 
@@ -665,13 +707,17 @@ M_ClarinetVoiceI_a = {                                                         %
 
 
 M_ClarinetVoiceI = {                                                           %! extern
+
     \M_ClarinetVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 M_ClarinetStaffI = {                                                           %! extern
+
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \M_ClarinetVoiceI                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -728,13 +774,17 @@ M_BassClarinetVoiceI_a = {                                                     %
 
 
 M_BassClarinetVoiceI = {                                                       %! extern
+
     \M_BassClarinetVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 M_BassClarinetStaffI = {                                                       %! extern
+
     \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
     \M_BassClarinetVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -765,6 +815,7 @@ M_PianoVoiceI_a = {                                                            %
             Pf.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [M PianoVoiceI measure 83 / measure 2]                               %! _comment_measure_numbers
@@ -773,6 +824,7 @@ M_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -785,6 +837,7 @@ M_PianoVoiceI_a = {                                                            %
 
     % [M PianoVoiceI measure 86 / measure 5]                                   %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r8                                                                     %! harp_exchange_rhythm
@@ -795,6 +848,7 @@ M_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
@@ -806,17 +860,22 @@ M_PianoVoiceI_a = {                                                            %
 
 
 M_PianoVoiceI = {                                                              %! extern
+
     \M_PianoVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 M_PianoStaffI = {                                                              %! extern
+
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \M_PianoVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
 M_HarpVoiceI_a = {                                                             %! extern
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [M HarpVoiceI measure 82 / measure 1]                                %! _comment_measure_numbers
@@ -848,6 +907,7 @@ M_HarpVoiceI_a = {                                                             %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
@@ -860,6 +920,7 @@ M_HarpVoiceI_a = {                                                             %
 
     % [M HarpVoiceI measure 85 / measure 4]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         bf'!8                                                                  %! harp_exchange_rhythm
@@ -867,6 +928,7 @@ M_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [M HarpVoiceI measure 86 / measure 5]                                    %! _comment_measure_numbers
@@ -874,6 +936,7 @@ M_HarpVoiceI_a = {                                                             %
 
     % [M HarpVoiceI measure 87 / measure 6]                                    %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         bf'!8                                                                  %! harp_exchange_rhythm
@@ -881,6 +944,7 @@ M_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -889,13 +953,17 @@ M_HarpVoiceI_a = {                                                             %
 
 
 M_HarpVoiceI = {                                                               %! extern
+
     \M_HarpVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
 M_HarpStaffI = {                                                               %! extern
+
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \M_HarpVoiceI                                                              %! extern
+
 }                                                                              %! extern
 
 
@@ -966,13 +1034,17 @@ M_PercussionVoiceI_a = {                                                       %
 
 
 M_PercussionVoiceI = {                                                         %! extern
+
     \M_PercussionVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 M_PercussionStaffI = {                                                         %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \M_PercussionVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1043,17 +1115,22 @@ M_PercussionVoiceII_a = {                                                      %
 
 
 M_PercussionVoiceII = {                                                        %! extern
+
     \M_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 M_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \M_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
 M_PercussionVoiceIII_a = {                                                     %! extern
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [M PercussionVoiceIII measure 82 / measure 1]                        %! _comment_measure_numbers
@@ -1092,18 +1169,21 @@ M_PercussionVoiceIII_a = {                                                     %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
 
     % [M PercussionVoiceIII measure 83 / measure 2]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [M PercussionVoiceIII measure 84 / measure 3]                            %! _comment_measure_numbers
@@ -1114,6 +1194,7 @@ M_PercussionVoiceIII_a = {                                                     %
 
     % [M PercussionVoiceIII measure 86 / measure 5]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [M PercussionVoiceIII measure 87 / measure 6]                        %! _comment_measure_numbers
@@ -1121,6 +1202,7 @@ M_PercussionVoiceIII_a = {                                                     %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1129,13 +1211,17 @@ M_PercussionVoiceIII_a = {                                                     %
 
 
 M_PercussionVoiceIII = {                                                       %! extern
+
     \M_PercussionVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 M_PercussionStaffIII = {                                                       %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \M_PercussionVoiceIII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1209,7 +1295,9 @@ M_FirstViolinVoiceIII_a = {                                                    %
 
 
 M_FirstViolinVoiceIII = {                                                      %! extern
+
     \M_FirstViolinVoiceIII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -1278,15 +1366,20 @@ M_FirstViolinVoiceI_a = {                                                      %
 
 
 M_FirstViolinVoiceI = {                                                        %! extern
+
     \M_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 M_FirstViolinStaffI = <<                                                       %! extern
+
     \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
     \M_FirstViolinVoiceIII                                                     %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \M_FirstViolinVoiceI                                                       %! extern
+
 >>                                                                             %! extern
 
 
@@ -1354,13 +1447,17 @@ M_SecondViolinVoiceI_a = {                                                     %
 
 
 M_SecondViolinVoiceI = {                                                       %! extern
+
     \M_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 M_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \M_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1428,13 +1525,17 @@ M_ViolaVoiceI_a = {                                                            %
 
 
 M_ViolaVoiceI = {                                                              %! extern
+
     \M_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 M_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \M_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1502,13 +1603,17 @@ M_CelloVoiceI_a = {                                                            %
 
 
 M_CelloVoiceI = {                                                              %! extern
+
     \M_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 M_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \M_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1547,6 +1652,7 @@ M_ContrabassVoiceI_a = {                                                       %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         bf'!8                                                                  %! harp_exchange_rhythm
@@ -1554,12 +1660,14 @@ M_ContrabassVoiceI_a = {                                                       %
         ^ \markup { "as bell-like as possible (at sounding pitch)" }           %! baca_markup:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
 
     % [M ContrabassVoiceI measure 83 / measure 2]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [M ContrabassVoiceI measure 84 / measure 3]                          %! _comment_measure_numbers
@@ -1567,6 +1675,7 @@ M_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -1576,6 +1685,7 @@ M_ContrabassVoiceI_a = {                                                       %
 
     % [M ContrabassVoiceI measure 86 / measure 5]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [M ContrabassVoiceI measure 87 / measure 6]                          %! _comment_measure_numbers
@@ -1583,6 +1693,7 @@ M_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1591,13 +1702,17 @@ M_ContrabassVoiceI_a = {                                                       %
 
 
 M_ContrabassVoiceI = {                                                         %! extern
+
     \M_ContrabassVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 M_ContrabassStaffI = {                                                         %! extern
+
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \M_ContrabassVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1670,11 +1785,15 @@ M_ContrabassVoiceIII_a = {                                                     %
 
 
 M_ContrabassVoiceIII = {                                                       %! extern
+
     \M_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 M_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \M_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern

@@ -143,6 +143,7 @@ N_FluteVoiceI_a = {                                                            %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -157,6 +158,7 @@ N_FluteVoiceI_a = {                                                            %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     % [N FluteVoiceI measure 89 / measure 2]                                   %! _comment_measure_numbers
@@ -190,6 +192,7 @@ N_FluteVoiceI_a = {                                                            %
 
     bf''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         b''8                                                                   %! pennant_rhythm
@@ -199,7 +202,9 @@ N_FluteVoiceI_a = {                                                            %
 
         c'''8                                                                  %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         cs'''!8                                                                %! pennant_rhythm
@@ -209,6 +214,7 @@ N_FluteVoiceI_a = {                                                            %
 
         c'''8                                                                  %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     cs'''!16                                                                   %! pennant_rhythm
@@ -246,7 +252,9 @@ N_FluteVoiceI_a = {                                                            %
 
 
 N_FluteVoiceI = {                                                              %! extern
+
     \N_FluteVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
@@ -273,6 +281,7 @@ N_FluteVoiceIII_a = {                                                          %
 
     e''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
@@ -282,7 +291,9 @@ N_FluteVoiceIII_a = {                                                          %
 
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [N FluteVoiceIII measure 89 / measure 2]                             %! _comment_measure_numbers
@@ -293,6 +304,7 @@ N_FluteVoiceIII_a = {                                                          %
 
         af''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
@@ -325,6 +337,7 @@ N_FluteVoiceIII_a = {                                                          %
 
     b''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         c'''8                                                                  %! pennant_rhythm
@@ -334,7 +347,9 @@ N_FluteVoiceIII_a = {                                                          %
 
         bf''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         a''8                                                                   %! pennant_rhythm
@@ -347,6 +362,7 @@ N_FluteVoiceIII_a = {                                                          %
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! pennant_rhythm
         )                                                                      %! SpannerCommand
+
     }                                                                          %! pennant_rhythm
 
     % [N FluteVoiceIII measure 91 / measure 4]                                 %! _comment_measure_numbers
@@ -371,15 +387,20 @@ N_FluteVoiceIII_a = {                                                          %
 
 
 N_FluteVoiceIII = {                                                            %! extern
+
     \N_FluteVoiceIII_a                                                         %! extern
+
 }                                                                              %! extern
 
 
 N_FluteStaffI = <<                                                             %! extern
+
     \context Voice = "FluteVoiceI"                                             %! ScoreTemplate
     \N_FluteVoiceI                                                             %! extern
+
     \context Voice = "FluteVoiceIII"                                           %! ScoreTemplate
     \N_FluteVoiceIII                                                           %! extern
+
 >>                                                                             %! extern
 
 
@@ -418,6 +439,7 @@ N_FluteVoiceII_a = {                                                           %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -432,7 +454,9 @@ N_FluteVoiceII_a = {                                                           %
 
         ef''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         d''8                                                                   %! pennant_rhythm
@@ -442,6 +466,7 @@ N_FluteVoiceII_a = {                                                           %
 
         ef''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     d''16                                                                      %! pennant_rhythm
@@ -464,6 +489,7 @@ N_FluteVoiceII_a = {                                                           %
 
     f''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         fs''!8                                                                 %! pennant_rhythm
@@ -473,7 +499,9 @@ N_FluteVoiceII_a = {                                                           %
 
         fs''!8                                                                 %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [N FluteVoiceII measure 90 / measure 3]                              %! _comment_measure_numbers
@@ -484,6 +512,7 @@ N_FluteVoiceII_a = {                                                           %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
@@ -505,6 +534,7 @@ N_FluteVoiceII_a = {                                                           %
 
     af''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         a''8                                                                   %! pennant_rhythm
@@ -517,6 +547,7 @@ N_FluteVoiceII_a = {                                                           %
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2):+PARTS
         ]                                                                      %! pennant_rhythm
         )                                                                      %! SpannerCommand
+
     }                                                                          %! pennant_rhythm
 
     % [N FluteVoiceII measure 91 / measure 4]                                  %! _comment_measure_numbers
@@ -541,7 +572,9 @@ N_FluteVoiceII_a = {                                                           %
 
 
 N_FluteVoiceII = {                                                             %! extern
+
     \N_FluteVoiceII_a                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -574,6 +607,7 @@ N_FluteVoiceIV_a = {                                                           %
 
     d''16                                                                      %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
@@ -583,7 +617,9 @@ N_FluteVoiceIV_a = {                                                           %
 
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
@@ -593,6 +629,7 @@ N_FluteVoiceIV_a = {                                                           %
 
         e''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     % [N FluteVoiceIV measure 89 / measure 2]                                  %! _comment_measure_numbers
@@ -615,6 +652,7 @@ N_FluteVoiceIV_a = {                                                           %
 
     af''!16                                                                    %! pennant_rhythm
     ]                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [N FluteVoiceIV measure 90 / measure 3]                              %! _comment_measure_numbers
@@ -625,7 +663,9 @@ N_FluteVoiceIV_a = {                                                           %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
+
     \times 2/3 {                                                               %! pennant_rhythm
 
         fs''!8                                                                 %! pennant_rhythm
@@ -635,6 +675,7 @@ N_FluteVoiceIV_a = {                                                           %
 
         g''8                                                                   %! pennant_rhythm
         ]                                                                      %! pennant_rhythm
+
     }                                                                          %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
@@ -682,15 +723,20 @@ N_FluteVoiceIV_a = {                                                           %
 
 
 N_FluteVoiceIV = {                                                             %! extern
+
     \N_FluteVoiceIV_a                                                          %! extern
+
 }                                                                              %! extern
 
 
 N_FluteStaffII = <<                                                            %! extern
+
     \context Voice = "FluteVoiceII"                                            %! ScoreTemplate
     \N_FluteVoiceII                                                            %! extern
+
     \context Voice = "FluteVoiceIV"                                            %! ScoreTemplate
     \N_FluteVoiceIV                                                            %! extern
+
 >>                                                                             %! extern
 
 
@@ -767,13 +813,17 @@ N_BassClarinetVoiceI_a = {                                                     %
 
 
 N_BassClarinetVoiceI = {                                                       %! extern
+
     \N_BassClarinetVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 N_BassClarinetStaffI = {                                                       %! extern
+
     \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
     \N_BassClarinetVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -804,6 +854,7 @@ N_PianoVoiceI_a = {                                                            %
             Pf.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r8                                                                     %! harp_exchange_rhythm
@@ -814,6 +865,7 @@ N_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
@@ -826,6 +878,7 @@ N_PianoVoiceI_a = {                                                            %
 
     % [N PianoVoiceI measure 91 / measure 4]                                   %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r8                                                                     %! harp_exchange_rhythm
@@ -836,6 +889,7 @@ N_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
@@ -859,13 +913,17 @@ N_PianoVoiceI_a = {                                                            %
 
 
 N_PianoVoiceI = {                                                              %! extern
+
     \N_PianoVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 N_PianoStaffI = {                                                              %! extern
+
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \N_PianoVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -902,6 +960,7 @@ N_HarpVoiceI_a = {                                                             %
 
     % [N HarpVoiceI measure 90 / measure 3]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         bf'!8                                                                  %! harp_exchange_rhythm
@@ -909,6 +968,7 @@ N_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [N HarpVoiceI measure 91 / measure 4]                                    %! _comment_measure_numbers
@@ -919,6 +979,7 @@ N_HarpVoiceI_a = {                                                             %
 
     % [N HarpVoiceI measure 93 / measure 6]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         bf'!8                                                                  %! harp_exchange_rhythm
@@ -926,6 +987,7 @@ N_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [N HarpVoiceI measure 94 / measure 7]                                    %! _comment_measure_numbers
@@ -941,13 +1003,17 @@ N_HarpVoiceI_a = {                                                             %
 
 
 N_HarpVoiceI = {                                                               %! extern
+
     \N_HarpVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
 N_HarpStaffI = {                                                               %! extern
+
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \N_HarpVoiceI                                                              %! extern
+
 }                                                                              %! extern
 
 
@@ -1031,13 +1097,17 @@ N_PercussionVoiceI_a = {                                                       %
 
 
 N_PercussionVoiceI = {                                                         %! extern
+
     \N_PercussionVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 N_PercussionStaffI = {                                                         %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \N_PercussionVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1121,13 +1191,17 @@ N_PercussionVoiceII_a = {                                                      %
 
 
 N_PercussionVoiceII = {                                                        %! extern
+
     \N_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 N_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \N_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1172,18 +1246,21 @@ N_PercussionVoiceIII_a = {                                                     %
 
     % [N PercussionVoiceIII measure 90 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
 
     % [N PercussionVoiceIII measure 91 / measure 4]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [N PercussionVoiceIII measure 92 / measure 5]                        %! _comment_measure_numbers
@@ -1191,6 +1268,7 @@ N_PercussionVoiceIII_a = {                                                     %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1211,13 +1289,17 @@ N_PercussionVoiceIII_a = {                                                     %
 
 
 N_PercussionVoiceIII = {                                                       %! extern
+
     \N_PercussionVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 N_PercussionStaffIII = {                                                       %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \N_PercussionVoiceIII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1305,7 +1387,9 @@ N_FirstViolinVoiceII_a = {                                                     %
 
 
 N_FirstViolinVoiceII = {                                                       %! extern
+
     \N_FirstViolinVoiceII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -1385,15 +1469,20 @@ N_FirstViolinVoiceI_a = {                                                      %
 
 
 N_FirstViolinVoiceI = {                                                        %! extern
+
     \N_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 N_FirstViolinStaffI = <<                                                       %! extern
+
     \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
     \N_FirstViolinVoiceII                                                      %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \N_FirstViolinVoiceI                                                       %! extern
+
 >>                                                                             %! extern
 
 
@@ -1472,13 +1561,17 @@ N_SecondViolinVoiceI_a = {                                                     %
 
 
 N_SecondViolinVoiceI = {                                                       %! extern
+
     \N_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 N_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \N_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1557,13 +1650,17 @@ N_ViolaVoiceI_a = {                                                            %
 
 
 N_ViolaVoiceI = {                                                              %! extern
+
     \N_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 N_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \N_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1642,13 +1739,17 @@ N_CelloVoiceI_a = {                                                            %
 
 
 N_CelloVoiceI = {                                                              %! extern
+
     \N_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 N_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \N_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1693,6 +1794,7 @@ N_ContrabassVoiceI_a = {                                                       %
 
     % [N ContrabassVoiceI measure 90 / measure 3]                              %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r8                                                                     %! harp_exchange_rhythm
@@ -1702,12 +1804,14 @@ N_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
 
     % [N ContrabassVoiceI measure 91 / measure 4]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [N ContrabassVoiceI measure 92 / measure 5]                          %! _comment_measure_numbers
@@ -1715,6 +1819,7 @@ N_ContrabassVoiceI_a = {                                                       %
 
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1735,13 +1840,17 @@ N_ContrabassVoiceI_a = {                                                       %
 
 
 N_ContrabassVoiceI = {                                                         %! extern
+
     \N_ContrabassVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 N_ContrabassStaffI = {                                                         %! extern
+
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \N_ContrabassVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1825,11 +1934,15 @@ N_ContrabassVoiceIII_a = {                                                     %
 
 
 N_ContrabassVoiceIII = {                                                       %! extern
+
     \N_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 N_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \N_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern

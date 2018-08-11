@@ -181,13 +181,17 @@ L_ClarinetVoiceI_a = {                                                         %
 
 
 L_ClarinetVoiceI = {                                                           %! extern
+
     \L_ClarinetVoiceI_a                                                        %! extern
+
 }                                                                              %! extern
 
 
 L_ClarinetStaffI = {                                                           %! extern
+
     \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
     \L_ClarinetVoiceI                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -243,13 +247,17 @@ L_BassClarinetVoiceI_a = {                                                     %
 
 
 L_BassClarinetVoiceI = {                                                       %! extern
+
     \L_BassClarinetVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 L_BassClarinetStaffI = {                                                       %! extern
+
     \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
     \L_BassClarinetVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -286,6 +294,7 @@ L_PianoVoiceI_a = {                                                            %
 
     % [L PianoVoiceI measure 78 / measure 3]                                   %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         r8                                                                     %! harp_exchange_rhythm
@@ -296,12 +305,14 @@ L_PianoVoiceI_a = {                                                            %
         - \stopped                                                             %! IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
 
     % [L PianoVoiceI measure 79 / measure 4]                                   %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [L PianoVoiceI measure 80 / measure 5]                               %! _comment_measure_numbers
@@ -310,6 +321,7 @@ L_PianoVoiceI_a = {                                                            %
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
         - \stopped                                                             %! IndicatorCommand
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -321,13 +333,17 @@ L_PianoVoiceI_a = {                                                            %
 
 
 L_PianoVoiceI = {                                                              %! extern
+
     \L_PianoVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 L_PianoStaffI = {                                                              %! extern
+
     \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
     \L_PianoVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -364,6 +380,7 @@ L_HarpVoiceI_a = {                                                             %
 
     % [L HarpVoiceI measure 78 / measure 3]                                    %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -371,12 +388,14 @@ L_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2                                                                         %! harp_exchange_rhythm
 
     % [L HarpVoiceI measure 79 / measure 4]                                    %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
@@ -384,6 +403,7 @@ L_HarpVoiceI_a = {                                                             %
         - \stopped                                                             %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [L HarpVoiceI measure 80 / measure 5]                                    %! _comment_measure_numbers
@@ -396,13 +416,17 @@ L_HarpVoiceI_a = {                                                             %
 
 
 L_HarpVoiceI = {                                                               %! extern
+
     \L_HarpVoiceI_a                                                            %! extern
+
 }                                                                              %! extern
 
 
 L_HarpStaffI = {                                                               %! extern
+
     \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
     \L_HarpVoiceI                                                              %! extern
+
 }                                                                              %! extern
 
 
@@ -484,13 +508,17 @@ L_PercussionVoiceI_a = {                                                       %
 
 
 L_PercussionVoiceI = {                                                         %! extern
+
     \L_PercussionVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 L_PercussionStaffI = {                                                         %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \L_PercussionVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -568,13 +596,17 @@ L_PercussionVoiceII_a = {                                                      %
 
 
 L_PercussionVoiceII = {                                                        %! extern
+
     \L_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 L_PercussionStaffII = {                                                        %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \L_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -613,12 +645,14 @@ L_PercussionVoiceIII_a = {                                                     %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -628,12 +662,14 @@ L_PercussionVoiceIII_a = {                                                     %
 
     % [L PercussionVoiceIII measure 78 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r4                                                                         %! harp_exchange_rhythm
@@ -651,13 +687,17 @@ L_PercussionVoiceIII_a = {                                                     %
 
 
 L_PercussionVoiceIII = {                                                       %! extern
+
     \L_PercussionVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 L_PercussionStaffIII = {                                                       %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \L_PercussionVoiceIII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -770,13 +810,17 @@ L_FirstViolinVoiceI_a = {                                                      %
 
 
 L_FirstViolinVoiceI = {                                                        %! extern
+
     \L_FirstViolinVoiceI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 L_FirstViolinStaffI = {                                                        %! extern
+
     \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
     \L_FirstViolinVoiceI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -889,13 +933,17 @@ L_SecondViolinVoiceI_a = {                                                     %
 
 
 L_SecondViolinVoiceI = {                                                       %! extern
+
     \L_SecondViolinVoiceI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 L_SecondViolinStaffI = {                                                       %! extern
+
     \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
     \L_SecondViolinVoiceI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1008,13 +1056,17 @@ L_ViolaVoiceI_a = {                                                            %
 
 
 L_ViolaVoiceI = {                                                              %! extern
+
     \L_ViolaVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 L_ViolaStaffI = {                                                              %! extern
+
     \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
     \L_ViolaVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1127,13 +1179,17 @@ L_CelloVoiceI_a = {                                                            %
 
 
 L_CelloVoiceI = {                                                              %! extern
+
     \L_CelloVoiceI_a                                                           %! extern
+
 }                                                                              %! extern
 
 
 L_CelloStaffI = {                                                              %! extern
+
     \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
     \L_CelloVoiceI                                                             %! extern
+
 }                                                                              %! extern
 
 
@@ -1172,6 +1228,7 @@ L_ContrabassVoiceI_a = {                                                       %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -1179,6 +1236,7 @@ L_ContrabassVoiceI_a = {                                                       %
         - \laissezVibrer                                                       %! IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     % [L ContrabassVoiceI measure 77 / measure 2]                              %! _comment_measure_numbers
@@ -1186,6 +1244,7 @@ L_ContrabassVoiceI_a = {                                                       %
 
     % [L ContrabassVoiceI measure 78 / measure 3]                              %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
+
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         % [L ContrabassVoiceI measure 79 / measure 4]                          %! _comment_measure_numbers
@@ -1194,6 +1253,7 @@ L_ContrabassVoiceI_a = {                                                       %
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
         r4                                                                     %! harp_exchange_rhythm
+
     }                                                                          %! harp_exchange_rhythm
 
     r2.                                                                        %! harp_exchange_rhythm
@@ -1208,13 +1268,17 @@ L_ContrabassVoiceI_a = {                                                       %
 
 
 L_ContrabassVoiceI = {                                                         %! extern
+
     \L_ContrabassVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 L_ContrabassStaffI = {                                                         %! extern
+
     \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
     \L_ContrabassVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1334,11 +1398,15 @@ L_ContrabassVoiceIII_a = {                                                     %
 
 
 L_ContrabassVoiceIII = {                                                       %! extern
+
     \L_ContrabassVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 L_ContrabassStaffII = {                                                        %! extern
+
     \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
     \L_ContrabassVoiceIII                                                      %! extern
+
 }                                                                              %! extern
