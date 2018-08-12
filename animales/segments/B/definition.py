@@ -72,14 +72,14 @@ maker(
 # ... then pitch
 maker(
     (strings, (1, 3)),
-    baca.dynamic('f_sub_but_accents_continue_sffz', selector=baca.pleaf(0)),
+    baca.dynamic('f-sub-but-accents-continue-sffz', selector=baca.pleaf(0)),
     baca.pitch('E4'),
     baca.trill_spanner('F4'),
     )
 
 maker(
     (strings, (4, 5)),
-    baca.dynamic('p_sub_but_accents_continue_sffz', selector=baca.pleaf(0)),
+    baca.dynamic('p-sub-but-accents-continue-sffz', selector=baca.pleaf(0)),
     baca.pitch('Eb4'),
     baca.trill_spanner('E4', right_broken=True),
     )

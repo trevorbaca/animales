@@ -207,7 +207,7 @@ strings = [
 maker(
     (strings, (1, 2)),
     baca.accent(selector=baca.pheads()[1:]),
-    baca.dynamic('f_sub_but_accents_continue_sffz', selector=baca.pleaf(0)),
+    baca.dynamic('f-sub-but-accents-continue-sffz', selector=baca.pleaf(0)),
     baca.pitch('Db4'),
     baca.trill_spanner('Eb4'),
     )
@@ -237,7 +237,7 @@ maker(
 
 maker(
     (strings, (3, 6)),
-    baca.dynamic('p_sub'),
+    baca.dynamic('p-sub'),
     baca.make_repeat_tied_notes(),
     baca.only_parts(baca.markup('still (non vibrato)')),
     baca.pitch(0),

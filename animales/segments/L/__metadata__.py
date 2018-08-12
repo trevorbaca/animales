@@ -416,7 +416,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='FirstViolinVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='\\baca_f_but_accents_sffz',
+                                value='\\baca-f-but-accents-sffz',
                                 ),
                             ],
                         ),
@@ -804,7 +804,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='SecondViolinVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='\\baca_f_but_accents_sffz',
+                                value='\\baca-f-but-accents-sffz',
                                 ),
                             ],
                         ),
@@ -1003,7 +1003,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='TubaVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\baca_sffz',
+                                value='\\baca-sffz',
                                 ),
                             ],
                         ),
@@ -1065,7 +1065,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaVoiceIII',
                                 prototype='abjad.Dynamic',
-                                value='\\baca_f_but_accents_sffz',
+                                value='\\baca-f-but-accents-sffz',
                                 ),
                             ],
                         ),
