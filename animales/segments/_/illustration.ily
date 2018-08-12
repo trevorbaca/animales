@@ -310,7 +310,7 @@ i_FirstViolinVoiceI_a = {                                                      %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'1                                                                        %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vni. I (1-10)”]"                      %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -347,7 +347,7 @@ i_FirstViolinVoiceI_a = {                                                      %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!2.                                                                     %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
@@ -408,7 +408,7 @@ i_FirstViolinVoiceIII_a = {                                                    %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'4                                                                        %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vni. I (11-18)”]"                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -458,7 +458,7 @@ i_FirstViolinVoiceIII_a = {                                                    %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!4                                                                      %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
 
@@ -521,7 +521,7 @@ i_SecondViolinVoiceI_a = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'2                                                                        %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vni. II (1-10)”]"                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -563,7 +563,7 @@ i_SecondViolinVoiceI_a = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!2                                                                      %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
 
@@ -631,7 +631,7 @@ i_SecondViolinVoiceIII_a = {                                                   %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'2                                                                        %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vni. II (11-18)”]"                    %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -681,7 +681,7 @@ i_SecondViolinVoiceIII_a = {                                                   %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!2.                                                                     %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
 
@@ -752,7 +752,7 @@ i_ViolaVoiceI_a = {                                                            %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'2.                                                                       %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vle. (1-10)”]"                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -791,7 +791,7 @@ i_ViolaVoiceI_a = {                                                            %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!2.                                                                     %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
 
@@ -857,7 +857,7 @@ i_ViolaVoiceIII_a = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'1                                                                        %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vle. (11-18)”]"                       %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -890,7 +890,7 @@ i_ViolaVoiceIII_a = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!2.                                                                     %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
 
@@ -945,7 +945,7 @@ i_CelloVoiceI_a = {                                                            %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     a'1                                                                        %! sforzando_exchange_rhythm
-    \baca_f_but_accents_sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-default-indicator-markup "[“Vc.”]"                                 %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \startTrillSpan b'
@@ -988,7 +988,7 @@ i_CelloVoiceI_a = {                                                            %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! SpannerCommand
     af'!2.                                                                     %! sforzando_exchange_rhythm
-    \baca_p_sub_but_accents_continue_sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \stopTrillSpan                                                             %! SpannerCommand
     \startTrillSpan a'
 
