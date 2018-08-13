@@ -26,7 +26,7 @@ H_GlobalSkips = {                                                              %
     % [H GlobalSkips measure 50 / measure 1]                                   %! _comment_measure_numbers
 %%% \override TextSpanner.bound-details.left.padding = #-8                     %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
-    \mark #8                                                                   %! IndicatorCommand
+    \mark #8                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -279,8 +279,8 @@ H_PianoVoiceI_a = {                                                            %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
 
@@ -297,8 +297,8 @@ H_PianoVoiceI_a = {                                                            %
         r4                                                                     %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
     }                                                                          %! harp_exchange_rhythm
 
@@ -360,8 +360,8 @@ H_HarpVoiceI_a = {                                                             %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -376,8 +376,8 @@ H_HarpVoiceI_a = {                                                             %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -397,8 +397,8 @@ H_HarpVoiceI_a = {                                                             %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -536,7 +536,7 @@ H_PercussionVoiceIII_a = {                                                     %
 
         % [H PercussionVoiceIII measure 51 / measure 2]                        %! _comment_measure_numbers
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -556,7 +556,7 @@ H_PercussionVoiceIII_a = {                                                     %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -951,7 +951,7 @@ H_ContrabassVoiceI_a = {                                                       %
 
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
         cqf''!8                                                                %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         ^ \markup { "7th partial / D (sounds slightly flat)" }                 %! baca_markup:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
@@ -972,7 +972,7 @@ H_ContrabassVoiceI_a = {                                                       %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         cqf''!8                                                                %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
         r4                                                                     %! harp_exchange_rhythm

@@ -23,7 +23,7 @@ B_GlobalSkips = {                                                              %
     % [B GlobalSkips measure 13 / measure 1]                                   %! _comment_measure_numbers
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #2                                                                   %! IndicatorCommand
+    \mark #2                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -124,7 +124,7 @@ B_FirstViolinVoiceI_a = {                                                      %
 
     % [B FirstViolinVoiceI measure 15 / measure 3]                             %! _comment_measure_numbers
     e'1                                                                        %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B FirstViolinVoiceI measure 16 / measure 4]                             %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
@@ -135,7 +135,7 @@ B_FirstViolinVoiceI_a = {                                                      %
     \startTrillSpan e'
 
     ef'!2                                                                      %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B FirstViolinVoiceI measure 17 / measure 5]                             %! _comment_measure_numbers
     ef'!2                                                                      %! sforzando_exchange_rhythm
@@ -209,7 +209,7 @@ B_FirstViolinVoiceIII_a = {                                                    %
     \repeatTie
 
     e'2.                                                                       %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B FirstViolinVoiceIII measure 16 / measure 4]                           %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
@@ -226,7 +226,7 @@ B_FirstViolinVoiceIII_a = {                                                    %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef'!4                                                                  %! sforzando_exchange_rhythm
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
 
     }                                                                          %! sforzando_exchange_rhythm
 
@@ -297,7 +297,7 @@ B_SecondViolinVoiceI_a = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     e'8                                                                        %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     e'2                                                                        %! sforzando_exchange_rhythm
     \repeatTie
@@ -314,7 +314,7 @@ B_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
 
     e'4.                                                                       %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B SecondViolinVoiceI measure 16 / measure 4]                            %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
@@ -329,7 +329,7 @@ B_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
 
     ef'!4.                                                                     %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
@@ -397,7 +397,7 @@ B_SecondViolinVoiceIII_a = {                                                   %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e'4                                                                    %! sforzando_exchange_rhythm
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
 
     }                                                                          %! sforzando_exchange_rhythm
 
@@ -418,7 +418,7 @@ B_SecondViolinVoiceIII_a = {                                                   %
         \repeatTie
 
         e'8                                                                    %! sforzando_exchange_rhythm
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
 
     }                                                                          %! sforzando_exchange_rhythm
 
@@ -439,7 +439,7 @@ B_SecondViolinVoiceIII_a = {                                                   %
     \repeatTie
 
     ef'!4                                                                      %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
@@ -505,14 +505,14 @@ B_ViolaVoiceI_a = {                                                            %
     \repeatTie
 
     e'2..                                                                      %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B ViolaVoiceI measure 15 / measure 3]                                   %! _comment_measure_numbers
     e'2.                                                                       %! sforzando_exchange_rhythm
     \repeatTie
 
     e'4                                                                        %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B ViolaVoiceI measure 16 / measure 4]                                   %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
@@ -590,7 +590,7 @@ B_ViolaVoiceIII_a = {                                                          %
     \repeatTie
 
     e'2.                                                                       %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B ViolaVoiceIII measure 15 / measure 3]                                 %! _comment_measure_numbers
     e'1                                                                        %! sforzando_exchange_rhythm
@@ -601,7 +601,7 @@ B_ViolaVoiceIII_a = {                                                          %
     ef'!1                                                                      %! sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \startTrillSpan e'
 
@@ -665,7 +665,7 @@ B_CelloVoiceI_a = {                                                            %
     \repeatTie
 
     e'8                                                                        %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [B CelloVoiceI measure 15 / measure 3]                                   %! _comment_measure_numbers
     e'1                                                                        %! sforzando_exchange_rhythm
@@ -680,7 +680,7 @@ B_CelloVoiceI_a = {                                                            %
     \startTrillSpan e'
 
     ef'!8                                                                      %! sforzando_exchange_rhythm
-    - \accent                                                                  %! IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
 
     ef'!2                                                                      %! sforzando_exchange_rhythm
     \repeatTie

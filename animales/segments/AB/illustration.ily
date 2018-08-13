@@ -22,7 +22,7 @@ AB_GlobalSkips = {                                                             %
     % [AB GlobalSkips measure 161 / measure 1]                                 %! _comment_measure_numbers
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #28                                                                  %! IndicatorCommand
+    \mark #28                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -96,7 +96,7 @@ AB_PercussionVoiceI_a = {                                                      %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -117,19 +117,19 @@ AB_PercussionVoiceI_a = {                                                      %
 
     % [AB PercussionVoiceI measure 162 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [AB PercussionVoiceI measure 163 / measure 3]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [AB PercussionVoiceI measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -207,8 +207,8 @@ AB_FirstViolinVoiceI_a = {                                                     %
     r8.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceI measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -254,8 +254,8 @@ AB_FirstViolinVoiceII_a = {                                                    %
     r2.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceII measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -344,8 +344,8 @@ AB_FirstViolinVoiceIII_a = {                                                   %
     r2.
 
     % [AB FirstViolinVoiceIII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -397,8 +397,8 @@ AB_FirstViolinVoiceIV_a = {                                                    %
     r1
 
     % [AB FirstViolinVoiceIV measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -477,8 +477,8 @@ AB_FirstViolinVoiceV_a = {                                                     %
     d'16                                                                       %! clb_rhythm
 
     % [AB FirstViolinVoiceV measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -528,8 +528,8 @@ AB_FirstViolinVoiceVI_a = {                                                    %
     r4..                                                                       %! clb_rhythm
 
     % [AB FirstViolinVoiceVI measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -603,8 +603,8 @@ AB_FirstViolinVoiceVII_a = {                                                   %
     r2
 
     % [AB FirstViolinVoiceVII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -657,8 +657,8 @@ AB_FirstViolinVoiceVIII_a = {                                                  %
     r1
 
     % [AB FirstViolinVoiceVIII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -724,8 +724,8 @@ AB_FirstViolinVoiceIX_a = {                                                    %
     r1                                                                         %! clb_rhythm
 
     % [AB FirstViolinVoiceIX measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -780,8 +780,8 @@ AB_FirstViolinVoiceX_a = {                                                     %
     r8.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceX measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -857,8 +857,8 @@ AB_FirstViolinVoiceXI_a = {                                                    %
     r2                                                                         %! clb_rhythm
 
     % [AB FirstViolinVoiceXI measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -909,8 +909,8 @@ AB_FirstViolinVoiceXII_a = {                                                   %
     r2.
 
     % [AB FirstViolinVoiceXII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -992,8 +992,8 @@ AB_FirstViolinVoiceXIII_a = {                                                  %
     r1
 
     % [AB FirstViolinVoiceXIII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1040,8 +1040,8 @@ AB_FirstViolinVoiceXIV_a = {                                                   %
     b16                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceXIV measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1119,8 +1119,8 @@ AB_FirstViolinVoiceXV_a = {                                                    %
     r4..                                                                       %! clb_rhythm
 
     % [AB FirstViolinVoiceXV measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1179,8 +1179,8 @@ AB_FirstViolinVoiceXVI_a = {                                                   %
     r4
 
     % [AB FirstViolinVoiceXVI measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1252,8 +1252,8 @@ AB_FirstViolinVoiceXVII_a = {                                                  %
     r1
 
     % [AB FirstViolinVoiceXVII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1304,8 +1304,8 @@ AB_FirstViolinVoiceXVIII_a = {                                                 %
     r2.                                                                        %! clb_rhythm
 
     % [AB FirstViolinVoiceXVIII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1380,8 +1380,8 @@ AB_SecondViolinVoiceI_a = {                                                    %
     r4                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceI measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1435,8 +1435,8 @@ AB_SecondViolinVoiceII_a = {                                                   %
     r2                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceII measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1519,8 +1519,8 @@ AB_SecondViolinVoiceIII_a = {                                                  %
     r2.
 
     % [AB SecondViolinVoiceIII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1580,8 +1580,8 @@ AB_SecondViolinVoiceIV_a = {                                                   %
     }                                                                          %! clb_rhythm
 
     % [AB SecondViolinVoiceIV measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1655,8 +1655,8 @@ AB_SecondViolinVoiceV_a = {                                                    %
     r1                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceV measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1701,8 +1701,8 @@ AB_SecondViolinVoiceVI_a = {                                                   %
     r2                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceVI measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1792,8 +1792,8 @@ AB_SecondViolinVoiceVII_a = {                                                  %
     r4
 
     % [AB SecondViolinVoiceVII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1844,8 +1844,8 @@ AB_SecondViolinVoiceVIII_a = {                                                 %
     r1
 
     % [AB SecondViolinVoiceVIII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1915,8 +1915,8 @@ AB_SecondViolinVoiceIX_a = {                                                   %
     r2..                                                                       %! clb_rhythm
 
     % [AB SecondViolinVoiceIX measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1971,8 +1971,8 @@ AB_SecondViolinVoiceX_a = {                                                    %
     r8.                                                                        %! clb_rhythm
 
     % [AB SecondViolinVoiceX measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2040,8 +2040,8 @@ AB_SecondViolinVoiceXI_a = {                                                   %
     r2.                                                                        %! clb_rhythm
 
     % [AB SecondViolinVoiceXI measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2104,8 +2104,8 @@ AB_SecondViolinVoiceXII_a = {                                                  %
     r2.
 
     % [AB SecondViolinVoiceXII measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2179,8 +2179,8 @@ AB_SecondViolinVoiceXIII_a = {                                                 %
     r1
 
     % [AB SecondViolinVoiceXIII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2233,8 +2233,8 @@ AB_SecondViolinVoiceXIV_a = {                                                  %
     b16                                                                        %! clb_rhythm
 
     % [AB SecondViolinVoiceXIV measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2308,8 +2308,8 @@ AB_SecondViolinVoiceXV_a = {                                                   %
     r4..                                                                       %! clb_rhythm
 
     % [AB SecondViolinVoiceXV measure 164 / measure 4]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2360,8 +2360,8 @@ AB_SecondViolinVoiceXVI_a = {                                                  %
     r2
 
     % [AB SecondViolinVoiceXVI measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2437,8 +2437,8 @@ AB_SecondViolinVoiceXVII_a = {                                                 %
     r1
 
     % [AB SecondViolinVoiceXVII measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2481,8 +2481,8 @@ AB_SecondViolinVoiceXVIII_a = {                                                %
     r1                                                                         %! clb_rhythm
 
     % [AB SecondViolinVoiceXVIII measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2563,8 +2563,8 @@ AB_ViolaVoiceI_a = {                                                           %
     r8.                                                                        %! clb_rhythm
 
     % [AB ViolaVoiceI measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2618,8 +2618,8 @@ AB_ViolaVoiceII_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceII measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2696,8 +2696,8 @@ AB_ViolaVoiceIII_a = {                                                         %
     r2.
 
     % [AB ViolaVoiceIII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2757,8 +2757,8 @@ AB_ViolaVoiceIV_a = {                                                          %
     r1
 
     % [AB ViolaVoiceIV measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2828,8 +2828,8 @@ AB_ViolaVoiceV_a = {                                                           %
     d'16                                                                       %! clb_rhythm
 
     % [AB ViolaVoiceV measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2884,8 +2884,8 @@ AB_ViolaVoiceVI_a = {                                                          %
     r4..                                                                       %! clb_rhythm
 
     % [AB ViolaVoiceVI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2967,8 +2967,8 @@ AB_ViolaVoiceVII_a = {                                                         %
     r4
 
     % [AB ViolaVoiceVII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3017,8 +3017,8 @@ AB_ViolaVoiceVIII_a = {                                                        %
     r1
 
     % [AB ViolaVoiceVIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3092,8 +3092,8 @@ AB_ViolaVoiceIX_a = {                                                          %
     r2.                                                                        %! clb_rhythm
 
     % [AB ViolaVoiceIX measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3142,8 +3142,8 @@ AB_ViolaVoiceX_a = {                                                           %
     r4                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceX measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3219,8 +3219,8 @@ AB_ViolaVoiceXI_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceXI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3277,8 +3277,8 @@ AB_ViolaVoiceXII_a = {                                                         %
     r2.
 
     % [AB ViolaVoiceXII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3360,8 +3360,8 @@ AB_ViolaVoiceXIII_a = {                                                        %
     }                                                                          %! clb_rhythm
 
     % [AB ViolaVoiceXIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3412,8 +3412,8 @@ AB_ViolaVoiceXIV_a = {                                                         %
     r1                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceXIV measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3481,8 +3481,8 @@ AB_ViolaVoiceXV_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB ViolaVoiceXV measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3549,8 +3549,8 @@ AB_ViolaVoiceXVI_a = {                                                         %
     r4
 
     % [AB ViolaVoiceXVI measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3624,8 +3624,8 @@ AB_ViolaVoiceXVII_a = {                                                        %
     r1
 
     % [AB ViolaVoiceXVII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3672,8 +3672,8 @@ AB_ViolaVoiceXVIII_a = {                                                       %
     r2..                                                                       %! clb_rhythm
 
     % [AB ViolaVoiceXVIII measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3754,8 +3754,8 @@ AB_CelloVoiceI_a = {                                                           %
     r8.                                                                        %! clb_rhythm
 
     % [AB CelloVoiceI measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3801,8 +3801,8 @@ AB_CelloVoiceII_a = {                                                          %
     r2.                                                                        %! clb_rhythm
 
     % [AB CelloVoiceII measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3888,8 +3888,8 @@ AB_CelloVoiceIII_a = {                                                         %
     r2.
 
     % [AB CelloVoiceIII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3940,8 +3940,8 @@ AB_CelloVoiceIV_a = {                                                          %
     r1
 
     % [AB CelloVoiceIV measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4017,8 +4017,8 @@ AB_CelloVoiceV_a = {                                                           %
     d'16                                                                       %! clb_rhythm
 
     % [AB CelloVoiceV measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4069,8 +4069,8 @@ AB_CelloVoiceVI_a = {                                                          %
     r4..                                                                       %! clb_rhythm
 
     % [AB CelloVoiceVI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4144,8 +4144,8 @@ AB_CelloVoiceVII_a = {                                                         %
     r2
 
     % [AB CelloVoiceVII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4198,8 +4198,8 @@ AB_CelloVoiceVIII_a = {                                                        %
     r1
 
     % [AB CelloVoiceVIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4265,8 +4265,8 @@ AB_CelloVoiceIX_a = {                                                          %
     r1                                                                         %! clb_rhythm
 
     % [AB CelloVoiceIX measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4321,8 +4321,8 @@ AB_CelloVoiceX_a = {                                                           %
     r8.                                                                        %! clb_rhythm
 
     % [AB CelloVoiceX measure 164 / measure 4]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4398,8 +4398,8 @@ AB_CelloVoiceXI_a = {                                                          %
     r2                                                                         %! clb_rhythm
 
     % [AB CelloVoiceXI measure 164 / measure 4]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4450,8 +4450,8 @@ AB_CelloVoiceXII_a = {                                                         %
     r2.
 
     % [AB CelloVoiceXII measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4533,8 +4533,8 @@ AB_CelloVoiceXIII_a = {                                                        %
     r1
 
     % [AB CelloVoiceXIII measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -4581,8 +4581,8 @@ AB_CelloVoiceXIV_a = {                                                         %
     b16                                                                        %! clb_rhythm
 
     % [AB CelloVoiceXIV measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand

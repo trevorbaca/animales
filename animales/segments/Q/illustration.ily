@@ -48,7 +48,7 @@ Q_GlobalSkips = {                                                              %
     % [Q GlobalSkips measure 119 / measure 1]                                  %! _comment_measure_numbers
 %%% \once \override GlobalContext.RehearsalMark.Y-offset = #12                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #17                                                                  %! IndicatorCommand
+    \mark #17                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -217,8 +217,8 @@ Q_HornVoiceI_a = {                                                             %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceI measure 121 / measure 3]                                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -238,8 +238,8 @@ Q_HornVoiceI_a = {                                                             %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceI measure 126 / measure 8]                                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -285,8 +285,8 @@ Q_HornVoiceIII_a = {                                                           %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceIII measure 121 / measure 3]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -306,8 +306,8 @@ Q_HornVoiceIII_a = {                                                           %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceIII measure 126 / measure 8]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -392,8 +392,8 @@ Q_HornVoiceII_a = {                                                            %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceII measure 121 / measure 3]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -413,8 +413,8 @@ Q_HornVoiceII_a = {                                                            %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceII measure 126 / measure 8]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -460,8 +460,8 @@ Q_HornVoiceIV_a = {                                                            %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceIV measure 121 / measure 3]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -481,8 +481,8 @@ Q_HornVoiceIV_a = {                                                            %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q HornVoiceIV measure 126 / measure 8]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -567,8 +567,8 @@ Q_TrumpetVoiceI_a = {                                                          %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceI measure 121 / measure 3]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -588,8 +588,8 @@ Q_TrumpetVoiceI_a = {                                                          %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceI measure 126 / measure 8]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -635,8 +635,8 @@ Q_TrumpetVoiceIII_a = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceIII measure 121 / measure 3]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -656,8 +656,8 @@ Q_TrumpetVoiceIII_a = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceIII measure 126 / measure 8]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -742,8 +742,8 @@ Q_TrumpetVoiceII_a = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceII measure 121 / measure 3]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -763,8 +763,8 @@ Q_TrumpetVoiceII_a = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceII measure 126 / measure 8]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -810,8 +810,8 @@ Q_TrumpetVoiceIV_a = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceIV measure 121 / measure 3]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -831,8 +831,8 @@ Q_TrumpetVoiceIV_a = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TrumpetVoiceIV measure 126 / measure 8]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -917,8 +917,8 @@ Q_TromboneVoiceI_a = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceI measure 121 / measure 3]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -938,8 +938,8 @@ Q_TromboneVoiceI_a = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceI measure 126 / measure 8]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -985,8 +985,8 @@ Q_TromboneVoiceIII_a = {                                                       %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceIII measure 121 / measure 3]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1006,8 +1006,8 @@ Q_TromboneVoiceIII_a = {                                                       %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceIII measure 126 / measure 8]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1092,8 +1092,8 @@ Q_TromboneVoiceII_a = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceII measure 121 / measure 3]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1113,8 +1113,8 @@ Q_TromboneVoiceII_a = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceII measure 126 / measure 8]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1160,8 +1160,8 @@ Q_TromboneVoiceIV_a = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceIV measure 121 / measure 3]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1181,8 +1181,8 @@ Q_TromboneVoiceIV_a = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q TromboneVoiceIV measure 126 / measure 8]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1269,8 +1269,8 @@ Q_FirstViolinVoiceI_a = {                                                      %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q FirstViolinVoiceI measure 121 / measure 3]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1279,7 +1279,7 @@ Q_FirstViolinVoiceI_a = {                                                      %
 
     % [Q FirstViolinVoiceI measure 122 / measure 4]                            %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1291,12 +1291,12 @@ Q_FirstViolinVoiceI_a = {                                                      %
 
     % [Q FirstViolinVoiceI measure 123 / measure 5]                            %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceI measure 124 / measure 6]                            %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1319,8 +1319,8 @@ Q_FirstViolinVoiceI_a = {                                                      %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceI measure 126 / measure 8]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1329,7 +1329,7 @@ Q_FirstViolinVoiceI_a = {                                                      %
 
     % [Q FirstViolinVoiceI measure 127 / measure 9]                            %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1341,12 +1341,12 @@ Q_FirstViolinVoiceI_a = {                                                      %
 
     % [Q FirstViolinVoiceI measure 128 / measure 10]                           %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceI measure 129 / measure 11]                           %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1395,8 +1395,8 @@ Q_FirstViolinVoiceII_a = {                                                     %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q FirstViolinVoiceII measure 121 / measure 3]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1405,7 +1405,7 @@ Q_FirstViolinVoiceII_a = {                                                     %
 
     % [Q FirstViolinVoiceII measure 122 / measure 4]                           %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1417,12 +1417,12 @@ Q_FirstViolinVoiceII_a = {                                                     %
 
     % [Q FirstViolinVoiceII measure 123 / measure 5]                           %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceII measure 124 / measure 6]                           %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1445,8 +1445,8 @@ Q_FirstViolinVoiceII_a = {                                                     %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceII measure 126 / measure 8]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1455,7 +1455,7 @@ Q_FirstViolinVoiceII_a = {                                                     %
 
     % [Q FirstViolinVoiceII measure 127 / measure 9]                           %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1467,12 +1467,12 @@ Q_FirstViolinVoiceII_a = {                                                     %
 
     % [Q FirstViolinVoiceII measure 128 / measure 10]                          %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceII measure 129 / measure 11]                          %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1563,8 +1563,8 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q FirstViolinVoiceIII measure 121 / measure 3]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1573,7 +1573,7 @@ Q_FirstViolinVoiceIII_a = {                                                    %
 
     % [Q FirstViolinVoiceIII measure 122 / measure 4]                          %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1585,12 +1585,12 @@ Q_FirstViolinVoiceIII_a = {                                                    %
 
     % [Q FirstViolinVoiceIII measure 123 / measure 5]                          %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceIII measure 124 / measure 6]                          %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1613,8 +1613,8 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceIII measure 126 / measure 8]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1623,7 +1623,7 @@ Q_FirstViolinVoiceIII_a = {                                                    %
 
     % [Q FirstViolinVoiceIII measure 127 / measure 9]                          %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1635,12 +1635,12 @@ Q_FirstViolinVoiceIII_a = {                                                    %
 
     % [Q FirstViolinVoiceIII measure 128 / measure 10]                         %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceIII measure 129 / measure 11]                         %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1689,8 +1689,8 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q FirstViolinVoiceIV measure 121 / measure 3]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1699,7 +1699,7 @@ Q_FirstViolinVoiceIV_a = {                                                     %
 
     % [Q FirstViolinVoiceIV measure 122 / measure 4]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1711,12 +1711,12 @@ Q_FirstViolinVoiceIV_a = {                                                     %
 
     % [Q FirstViolinVoiceIV measure 123 / measure 5]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceIV measure 124 / measure 6]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1739,8 +1739,8 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceIV measure 126 / measure 8]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1749,7 +1749,7 @@ Q_FirstViolinVoiceIV_a = {                                                     %
 
     % [Q FirstViolinVoiceIV measure 127 / measure 9]                           %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1761,12 +1761,12 @@ Q_FirstViolinVoiceIV_a = {                                                     %
 
     % [Q FirstViolinVoiceIV measure 128 / measure 10]                          %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceIV measure 129 / measure 11]                          %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1829,7 +1829,7 @@ Q_FirstViolinVoiceV_a = {                                                      %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I 18”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1850,12 +1850,12 @@ Q_FirstViolinVoiceV_a = {                                                      %
 
     % [Q FirstViolinVoiceV measure 120 / measure 2]                            %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [Q FirstViolinVoiceV measure 121 / measure 3]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1864,26 +1864,26 @@ Q_FirstViolinVoiceV_a = {                                                      %
 
     % [Q FirstViolinVoiceV measure 122 / measure 4]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [Q FirstViolinVoiceV measure 123 / measure 5]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceV measure 124 / measure 6]                            %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceV measure 125 / measure 7]                            %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceV measure 126 / measure 8]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1892,21 +1892,21 @@ Q_FirstViolinVoiceV_a = {                                                      %
 
     % [Q FirstViolinVoiceV measure 127 / measure 9]                            %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [Q FirstViolinVoiceV measure 128 / measure 10]                           %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceV measure 129 / measure 11]                           %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q FirstViolinVoiceV measure 130 / measure 12]                           %! _comment_measure_numbers
     cs'!2                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
 }                                                                              %! extern
@@ -1974,8 +1974,8 @@ Q_SecondViolinVoiceI_a = {                                                     %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q SecondViolinVoiceI measure 121 / measure 3]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -1984,7 +1984,7 @@ Q_SecondViolinVoiceI_a = {                                                     %
 
     % [Q SecondViolinVoiceI measure 122 / measure 4]                           %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1996,13 +1996,13 @@ Q_SecondViolinVoiceI_a = {                                                     %
 
     % [Q SecondViolinVoiceI measure 123 / measure 5]                           %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q SecondViolinVoiceI measure 124 / measure 6]                           %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2026,8 +2026,8 @@ Q_SecondViolinVoiceI_a = {                                                     %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceI measure 126 / measure 8]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2036,7 +2036,7 @@ Q_SecondViolinVoiceI_a = {                                                     %
 
     % [Q SecondViolinVoiceI measure 127 / measure 9]                           %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2048,13 +2048,13 @@ Q_SecondViolinVoiceI_a = {                                                     %
 
     % [Q SecondViolinVoiceI measure 128 / measure 10]                          %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q SecondViolinVoiceI measure 129 / measure 11]                          %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2104,8 +2104,8 @@ Q_SecondViolinVoiceII_a = {                                                    %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q SecondViolinVoiceII measure 121 / measure 3]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2114,7 +2114,7 @@ Q_SecondViolinVoiceII_a = {                                                    %
 
     % [Q SecondViolinVoiceII measure 122 / measure 4]                          %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2126,12 +2126,12 @@ Q_SecondViolinVoiceII_a = {                                                    %
 
     % [Q SecondViolinVoiceII measure 123 / measure 5]                          %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q SecondViolinVoiceII measure 124 / measure 6]                          %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2154,8 +2154,8 @@ Q_SecondViolinVoiceII_a = {                                                    %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceII measure 126 / measure 8]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2164,7 +2164,7 @@ Q_SecondViolinVoiceII_a = {                                                    %
 
     % [Q SecondViolinVoiceII measure 127 / measure 9]                          %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2176,12 +2176,12 @@ Q_SecondViolinVoiceII_a = {                                                    %
 
     % [Q SecondViolinVoiceII measure 128 / measure 10]                         %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q SecondViolinVoiceII measure 129 / measure 11]                         %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2272,8 +2272,8 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q SecondViolinVoiceIII measure 121 / measure 3]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2282,7 +2282,7 @@ Q_SecondViolinVoiceIII_a = {                                                   %
 
     % [Q SecondViolinVoiceIII measure 122 / measure 4]                         %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2294,12 +2294,12 @@ Q_SecondViolinVoiceIII_a = {                                                   %
 
     % [Q SecondViolinVoiceIII measure 123 / measure 5]                         %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q SecondViolinVoiceIII measure 124 / measure 6]                         %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2322,8 +2322,8 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceIII measure 126 / measure 8]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2332,7 +2332,7 @@ Q_SecondViolinVoiceIII_a = {                                                   %
 
     % [Q SecondViolinVoiceIII measure 127 / measure 9]                         %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2344,12 +2344,12 @@ Q_SecondViolinVoiceIII_a = {                                                   %
 
     % [Q SecondViolinVoiceIII measure 128 / measure 10]                        %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q SecondViolinVoiceIII measure 129 / measure 11]                        %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2398,8 +2398,8 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q SecondViolinVoiceIV measure 121 / measure 3]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2408,7 +2408,7 @@ Q_SecondViolinVoiceIV_a = {                                                    %
 
     % [Q SecondViolinVoiceIV measure 122 / measure 4]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2420,12 +2420,12 @@ Q_SecondViolinVoiceIV_a = {                                                    %
 
     % [Q SecondViolinVoiceIV measure 123 / measure 5]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q SecondViolinVoiceIV measure 124 / measure 6]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2448,8 +2448,8 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceIV measure 126 / measure 8]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2458,7 +2458,7 @@ Q_SecondViolinVoiceIV_a = {                                                    %
 
     % [Q SecondViolinVoiceIV measure 127 / measure 9]                          %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2470,12 +2470,12 @@ Q_SecondViolinVoiceIV_a = {                                                    %
 
     % [Q SecondViolinVoiceIV measure 128 / measure 10]                         %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q SecondViolinVoiceIV measure 129 / measure 11]                         %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2566,8 +2566,8 @@ Q_ViolaVoiceI_a = {                                                            %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q ViolaVoiceI measure 121 / measure 3]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2576,7 +2576,7 @@ Q_ViolaVoiceI_a = {                                                            %
 
     % [Q ViolaVoiceI measure 122 / measure 4]                                  %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2588,12 +2588,12 @@ Q_ViolaVoiceI_a = {                                                            %
 
     % [Q ViolaVoiceI measure 123 / measure 5]                                  %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceI measure 124 / measure 6]                                  %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2616,8 +2616,8 @@ Q_ViolaVoiceI_a = {                                                            %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q ViolaVoiceI measure 126 / measure 8]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2626,7 +2626,7 @@ Q_ViolaVoiceI_a = {                                                            %
 
     % [Q ViolaVoiceI measure 127 / measure 9]                                  %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2638,12 +2638,12 @@ Q_ViolaVoiceI_a = {                                                            %
 
     % [Q ViolaVoiceI measure 128 / measure 10]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceI measure 129 / measure 11]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2692,8 +2692,8 @@ Q_ViolaVoiceII_a = {                                                           %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q ViolaVoiceII measure 121 / measure 3]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2702,7 +2702,7 @@ Q_ViolaVoiceII_a = {                                                           %
 
     % [Q ViolaVoiceII measure 122 / measure 4]                                 %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2714,12 +2714,12 @@ Q_ViolaVoiceII_a = {                                                           %
 
     % [Q ViolaVoiceII measure 123 / measure 5]                                 %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceII measure 124 / measure 6]                                 %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2742,8 +2742,8 @@ Q_ViolaVoiceII_a = {                                                           %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q ViolaVoiceII measure 126 / measure 8]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2752,7 +2752,7 @@ Q_ViolaVoiceII_a = {                                                           %
 
     % [Q ViolaVoiceII measure 127 / measure 9]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2764,12 +2764,12 @@ Q_ViolaVoiceII_a = {                                                           %
 
     % [Q ViolaVoiceII measure 128 / measure 10]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceII measure 129 / measure 11]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2860,8 +2860,8 @@ Q_ViolaVoiceIII_a = {                                                          %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q ViolaVoiceIII measure 121 / measure 3]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2870,7 +2870,7 @@ Q_ViolaVoiceIII_a = {                                                          %
 
     % [Q ViolaVoiceIII measure 122 / measure 4]                                %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2882,12 +2882,12 @@ Q_ViolaVoiceIII_a = {                                                          %
 
     % [Q ViolaVoiceIII measure 123 / measure 5]                                %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceIII measure 124 / measure 6]                                %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2910,8 +2910,8 @@ Q_ViolaVoiceIII_a = {                                                          %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q ViolaVoiceIII measure 126 / measure 8]                                %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2920,7 +2920,7 @@ Q_ViolaVoiceIII_a = {                                                          %
 
     % [Q ViolaVoiceIII measure 127 / measure 9]                                %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2932,12 +2932,12 @@ Q_ViolaVoiceIII_a = {                                                          %
 
     % [Q ViolaVoiceIII measure 128 / measure 10]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceIII measure 129 / measure 11]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2986,8 +2986,8 @@ Q_ViolaVoiceIV_a = {                                                           %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q ViolaVoiceIV measure 121 / measure 3]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -2996,7 +2996,7 @@ Q_ViolaVoiceIV_a = {                                                           %
 
     % [Q ViolaVoiceIV measure 122 / measure 4]                                 %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3008,12 +3008,12 @@ Q_ViolaVoiceIV_a = {                                                           %
 
     % [Q ViolaVoiceIV measure 123 / measure 5]                                 %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceIV measure 124 / measure 6]                                 %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3036,8 +3036,8 @@ Q_ViolaVoiceIV_a = {                                                           %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q ViolaVoiceIV measure 126 / measure 8]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3046,7 +3046,7 @@ Q_ViolaVoiceIV_a = {                                                           %
 
     % [Q ViolaVoiceIV measure 127 / measure 9]                                 %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3058,12 +3058,12 @@ Q_ViolaVoiceIV_a = {                                                           %
 
     % [Q ViolaVoiceIV measure 128 / measure 10]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ViolaVoiceIV measure 129 / measure 11]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3154,8 +3154,8 @@ Q_CelloVoiceI_a = {                                                            %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q CelloVoiceI measure 121 / measure 3]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3164,7 +3164,7 @@ Q_CelloVoiceI_a = {                                                            %
 
     % [Q CelloVoiceI measure 122 / measure 4]                                  %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3176,13 +3176,13 @@ Q_CelloVoiceI_a = {                                                            %
 
     % [Q CelloVoiceI measure 123 / measure 5]                                  %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q CelloVoiceI measure 124 / measure 6]                                  %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3206,8 +3206,8 @@ Q_CelloVoiceI_a = {                                                            %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q CelloVoiceI measure 126 / measure 8]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3216,7 +3216,7 @@ Q_CelloVoiceI_a = {                                                            %
 
     % [Q CelloVoiceI measure 127 / measure 9]                                  %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3228,13 +3228,13 @@ Q_CelloVoiceI_a = {                                                            %
 
     % [Q CelloVoiceI measure 128 / measure 10]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q CelloVoiceI measure 129 / measure 11]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3284,8 +3284,8 @@ Q_CelloVoiceII_a = {                                                           %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q CelloVoiceII measure 121 / measure 3]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3294,7 +3294,7 @@ Q_CelloVoiceII_a = {                                                           %
 
     % [Q CelloVoiceII measure 122 / measure 4]                                 %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3306,12 +3306,12 @@ Q_CelloVoiceII_a = {                                                           %
 
     % [Q CelloVoiceII measure 123 / measure 5]                                 %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q CelloVoiceII measure 124 / measure 6]                                 %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3334,8 +3334,8 @@ Q_CelloVoiceII_a = {                                                           %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q CelloVoiceII measure 126 / measure 8]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3344,7 +3344,7 @@ Q_CelloVoiceII_a = {                                                           %
 
     % [Q CelloVoiceII measure 127 / measure 9]                                 %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3356,12 +3356,12 @@ Q_CelloVoiceII_a = {                                                           %
 
     % [Q CelloVoiceII measure 128 / measure 10]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q CelloVoiceII measure 129 / measure 11]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3437,8 +3437,8 @@ Q_ContrabassVoiceIII_a = {                                                     %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [Q ContrabassVoiceIII measure 121 / measure 3]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3447,7 +3447,7 @@ Q_ContrabassVoiceIII_a = {                                                     %
 
     % [Q ContrabassVoiceIII measure 122 / measure 4]                           %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3459,12 +3459,12 @@ Q_ContrabassVoiceIII_a = {                                                     %
 
     % [Q ContrabassVoiceIII measure 123 / measure 5]                           %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ContrabassVoiceIII measure 124 / measure 6]                           %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3487,8 +3487,8 @@ Q_ContrabassVoiceIII_a = {                                                     %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [Q ContrabassVoiceIII measure 126 / measure 8]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! +PARTS:IndicatorCommand
+%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
+%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
 %%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
@@ -3497,7 +3497,7 @@ Q_ContrabassVoiceIII_a = {                                                     %
 
     % [Q ContrabassVoiceIII measure 127 / measure 9]                           %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3509,12 +3509,12 @@ Q_ContrabassVoiceIII_a = {                                                     %
 
     % [Q ContrabassVoiceIII measure 128 / measure 10]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q ContrabassVoiceIII measure 129 / measure 11]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
