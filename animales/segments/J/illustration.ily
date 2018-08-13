@@ -28,7 +28,7 @@ J_GlobalSkips = {                                                              %
 %%% \override TextSpanner.bound-details.left.padding = #2                      %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
 %%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
-    \mark #10                                                                  %! IndicatorCommand
+    \mark #10                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -119,16 +119,16 @@ J_GlobalSkips = {                                                              %
 J_ClarinetVoiceI_a = {                                                         %! extern
 
     % [J ClarinetVoiceI measure 62 / measure 1]                                %! _comment_measure_numbers
-    \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-    \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-        \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-            #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-            \center-column                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-                {                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-                    Cl.                                                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-                    2                                                          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-                }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
-        }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+        \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+            #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+            \center-column                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                {                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                    Cl.                                                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                    2                                                          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+        }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -143,16 +143,16 @@ J_ClarinetVoiceI_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                           %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-    \markup {                                                                  %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-        \hcenter-in                                                            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-            #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-            \center-column                                                     %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-                {                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-                    Cl.                                                        %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-                    2                                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-                }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
-        }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.shortInstrumentName =                                           %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \markup {                                                                  %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+        \hcenter-in                                                            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+            #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+            \center-column                                                     %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                {                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                    Cl.                                                        %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                    2                                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+                }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+        }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [J ClarinetVoiceI measure 63 / measure 2]                                %! _comment_measure_numbers
     c''1                                                                       %! baca_make_repeat_tied_notes
@@ -1562,8 +1562,8 @@ J_PianoVoiceI_a = {                                                            %
         c''8                                                                   %! harp_exchange_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         \mf                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "(“Piano”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "[“Pf.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1593,8 +1593,8 @@ J_PianoVoiceI_a = {                                                            %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r8                                                                     %! harp_exchange_rhythm
 
@@ -1612,8 +1612,8 @@ J_PianoVoiceI_a = {                                                            %
         r4                                                                     %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
     }                                                                          %! harp_exchange_rhythm
 
@@ -1674,8 +1674,8 @@ J_HarpVoiceI_a = {                                                             %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -1690,8 +1690,8 @@ J_HarpVoiceI_a = {                                                             %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
-        - \stopped                                                             %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
+        - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -1742,7 +1742,7 @@ J_PercussionVoiceII_a = {                                                      %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1765,13 +1765,13 @@ J_PercussionVoiceII_a = {                                                      %
 
     % [J PercussionVoiceII measure 63 / measure 2]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [J PercussionVoiceII measure 64 / measure 3]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \tweak direction #up
@@ -1779,18 +1779,18 @@ J_PercussionVoiceII_a = {                                                      %
 
     % [J PercussionVoiceII measure 65 / measure 4]                             %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [J PercussionVoiceII measure 66 / measure 5]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [J PercussionVoiceII measure 67 / measure 6]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
@@ -1854,7 +1854,7 @@ J_PercussionVoiceIII_a = {                                                     %
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -1869,7 +1869,7 @@ J_PercussionVoiceIII_a = {                                                     %
 
         % [J PercussionVoiceIII measure 65 / measure 4]                        %! _comment_measure_numbers
         c''8                                                                   %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -1916,10 +1916,10 @@ J_FirstViolinVoiceI_a = {                                                      %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     a4                                                                         %! baca_make_repeated_duration_notes
-%%% \stopTrillSpan                                                             %! -SEGMENT:IndicatorCommand
+%%% \stopTrillSpan                                                             %! baca_stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \trill                                                                   %! IndicatorCommand
+    - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2050,10 +2050,10 @@ J_SecondViolinVoiceI_a = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     a4                                                                         %! baca_make_repeated_duration_notes
-%%% \stopTrillSpan                                                             %! -SEGMENT:IndicatorCommand
+%%% \stopTrillSpan                                                             %! baca_stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \trill                                                                   %! IndicatorCommand
+    - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2184,10 +2184,10 @@ J_ViolaVoiceI_a = {                                                            %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     a4                                                                         %! baca_make_repeated_duration_notes
-%%% \stopTrillSpan                                                             %! -SEGMENT:IndicatorCommand
+%%% \stopTrillSpan                                                             %! baca_stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \trill                                                                   %! IndicatorCommand
+    - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle.”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2318,10 +2318,10 @@ J_CelloVoiceI_a = {                                                            %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     a4                                                                         %! baca_make_repeated_duration_notes
-%%% \stopTrillSpan                                                             %! -SEGMENT:IndicatorCommand
+%%% \stopTrillSpan                                                             %! baca_stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \trill                                                                   %! IndicatorCommand
+    - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2480,7 +2480,7 @@ J_ContrabassVoiceI_a = {                                                       %
 
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
         cqf''!8                                                                %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
         r4                                                                     %! harp_exchange_rhythm
 
@@ -2498,7 +2498,7 @@ J_ContrabassVoiceI_a = {                                                       %
 
         % [J ContrabassVoiceI measure 66 / measure 5]                          %! _comment_measure_numbers
         cqf''!8                                                                %! harp_exchange_rhythm
-        - \laissezVibrer                                                       %! IndicatorCommand
+        - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
         r4                                                                     %! harp_exchange_rhythm
