@@ -19,7 +19,7 @@ N_GlobalRests = {                                                              %
     R1 * 1                                                                     %! _make_global_rests
 
     % [N GlobalRests measure 94 / measure 7]                                   %! _comment_measure_numbers
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)             %! baca_mmrest_text_extra_offset:-PARTS:OverrideCommand(1)
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)             %! -PARTS:baca_mmrest_text_extra_offset:OverrideCommand(1)
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)

@@ -2254,11 +2254,11 @@ P_FirstViolinVoiceI_a = {                                                      %
                     (5-8)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2364,11 +2364,11 @@ P_FirstViolinVoiceI_a = {                                                      %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -2383,7 +2383,7 @@ P_FirstViolinVoiceI = {                                                        %
 P_FirstViolinVoiceII_a = {                                                     %! extern
 
     % [P FirstViolinVoiceII measure 109 / measure 1]                           %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #8                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -2463,7 +2463,7 @@ P_FirstViolinVoiceII_a = {                                                     %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -2500,11 +2500,11 @@ P_FirstViolinVoiceIII_a = {                                                    %
                     (13-17)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2604,11 +2604,11 @@ P_FirstViolinVoiceIII_a = {                                                    %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -2623,7 +2623,7 @@ P_FirstViolinVoiceIII = {                                                      %
 P_FirstViolinVoiceIV_a = {                                                     %! extern
 
     % [P FirstViolinVoiceIV measure 109 / measure 1]                           %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #8                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -2703,7 +2703,7 @@ P_FirstViolinVoiceIV_a = {                                                     %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -2841,11 +2841,11 @@ P_SecondViolinVoiceI_a = {                                                     %
                     (5-8)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2950,11 +2950,11 @@ P_SecondViolinVoiceI_a = {                                                     %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -2969,7 +2969,7 @@ P_SecondViolinVoiceI = {                                                       %
 P_SecondViolinVoiceII_a = {                                                    %! extern
 
     % [P SecondViolinVoiceII measure 109 / measure 1]                          %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3049,7 +3049,7 @@ P_SecondViolinVoiceII_a = {                                                    %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3086,11 +3086,11 @@ P_SecondViolinVoiceIII_a = {                                                   %
                     (13-18)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3190,11 +3190,11 @@ P_SecondViolinVoiceIII_a = {                                                   %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3209,7 +3209,7 @@ P_SecondViolinVoiceIII = {                                                     %
 P_SecondViolinVoiceIV_a = {                                                    %! extern
 
     % [P SecondViolinVoiceIV measure 109 / measure 1]                          %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3289,7 +3289,7 @@ P_SecondViolinVoiceIV_a = {                                                    %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3326,11 +3326,11 @@ P_ViolaVoiceI_a = {                                                            %
                     (5-8)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3430,11 +3430,11 @@ P_ViolaVoiceI_a = {                                                            %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3449,7 +3449,7 @@ P_ViolaVoiceI = {                                                              %
 P_ViolaVoiceII_a = {                                                           %! extern
 
     % [P ViolaVoiceII measure 109 / measure 1]                                 %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3529,7 +3529,7 @@ P_ViolaVoiceII_a = {                                                           %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3566,11 +3566,11 @@ P_ViolaVoiceIII_a = {                                                          %
                     (13-18)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3670,11 +3670,11 @@ P_ViolaVoiceIII_a = {                                                          %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3689,7 +3689,7 @@ P_ViolaVoiceIII = {                                                            %
 P_ViolaVoiceIV_a = {                                                           %! extern
 
     % [P ViolaVoiceIV measure 109 / measure 1]                                 %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -3769,7 +3769,7 @@ P_ViolaVoiceIV_a = {                                                           %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3806,11 +3806,11 @@ P_CelloVoiceI_a = {                                                            %
                     (9-14)                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-%%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca_text_script_extra_offset:+PARTS:OverrideCommand(1)
-%%% \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(1)
-    \override DynamicText.stencil = ##f                                        %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(1)
-    \override Hairpin.stencil = ##f                                            %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(1)
-    \override TextSpanner.stencil = ##f                                        %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(1)
+%%% \override TextScript.extra-offset = #'(1 . 3)                              %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
+%%% \override TextSpanner.staff-padding = #5                                   %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override DynamicText.stencil = ##f                                        %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
+    \override Hairpin.stencil = ##f                                            %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
+    \override TextSpanner.stencil = ##f                                        %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3915,11 +3915,11 @@ P_CelloVoiceI_a = {                                                            %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-%%% \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:+PARTS:OverrideCommand(2)
-%%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
-    \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
-    \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
-    \revert TextSpanner.stencil                                                %! baca_text_spanner_stencil_false:-PARTS:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert DynamicText.stencil                                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(2)
+    \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
+    \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -3934,7 +3934,7 @@ P_CelloVoiceI = {                                                              %
 P_CelloVoiceII_a = {                                                           %! extern
 
     % [P CelloVoiceII measure 109 / measure 1]                                 %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! -PARTS:IndicatorCommand
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
@@ -4014,7 +4014,7 @@ P_CelloVoiceII_a = {                                                           %
     :32                                                                        %! IndicatorCommand
     - \accent                                                                  %! IndicatorCommand
     \repeatTie
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
