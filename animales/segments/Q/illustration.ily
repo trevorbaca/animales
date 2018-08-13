@@ -1280,14 +1280,14 @@ Q_FirstViolinVoiceI_a = {                                                      %
     % [Q FirstViolinVoiceI measure 122 / measure 4]                            %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceI measure 123 / measure 5]                            %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
@@ -1297,26 +1297,26 @@ Q_FirstViolinVoiceI_a = {                                                      %
     % [Q FirstViolinVoiceI measure 124 / measure 6]                            %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceI measure 125 / measure 7]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceI measure 126 / measure 8]                            %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -1330,14 +1330,14 @@ Q_FirstViolinVoiceI_a = {                                                      %
     % [Q FirstViolinVoiceI measure 127 / measure 9]                            %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceI measure 128 / measure 10]                           %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
@@ -1347,26 +1347,26 @@ Q_FirstViolinVoiceI_a = {                                                      %
     % [Q FirstViolinVoiceI measure 129 / measure 11]                           %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceI measure 130 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -1406,14 +1406,14 @@ Q_FirstViolinVoiceII_a = {                                                     %
     % [Q FirstViolinVoiceII measure 122 / measure 4]                           %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceII measure 123 / measure 5]                           %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
@@ -1423,26 +1423,26 @@ Q_FirstViolinVoiceII_a = {                                                     %
     % [Q FirstViolinVoiceII measure 124 / measure 6]                           %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceII measure 125 / measure 7]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceII measure 126 / measure 8]                           %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -1456,14 +1456,14 @@ Q_FirstViolinVoiceII_a = {                                                     %
     % [Q FirstViolinVoiceII measure 127 / measure 9]                           %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceII measure 128 / measure 10]                          %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
@@ -1473,26 +1473,26 @@ Q_FirstViolinVoiceII_a = {                                                     %
     % [Q FirstViolinVoiceII measure 129 / measure 11]                          %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceII measure 130 / measure 12]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -1574,14 +1574,14 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     % [Q FirstViolinVoiceIII measure 122 / measure 4]                          %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIII measure 123 / measure 5]                          %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
@@ -1591,26 +1591,26 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     % [Q FirstViolinVoiceIII measure 124 / measure 6]                          %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIII measure 125 / measure 7]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceIII measure 126 / measure 8]                          %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -1624,14 +1624,14 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     % [Q FirstViolinVoiceIII measure 127 / measure 9]                          %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIII measure 128 / measure 10]                         %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
@@ -1641,26 +1641,26 @@ Q_FirstViolinVoiceIII_a = {                                                    %
     % [Q FirstViolinVoiceIII measure 129 / measure 11]                         %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIII measure 130 / measure 12]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -1700,14 +1700,14 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     % [Q FirstViolinVoiceIV measure 122 / measure 4]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIV measure 123 / measure 5]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
@@ -1717,26 +1717,26 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     % [Q FirstViolinVoiceIV measure 124 / measure 6]                           %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIV measure 125 / measure 7]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q FirstViolinVoiceIV measure 126 / measure 8]                           %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -1750,14 +1750,14 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     % [Q FirstViolinVoiceIV measure 127 / measure 9]                           %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIV measure 128 / measure 10]                          %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
@@ -1767,26 +1767,26 @@ Q_FirstViolinVoiceIV_a = {                                                     %
     % [Q FirstViolinVoiceIV measure 129 / measure 11]                          %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q FirstViolinVoiceIV measure 130 / measure 12]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -1985,14 +1985,14 @@ Q_SecondViolinVoiceI_a = {                                                     %
     % [Q SecondViolinVoiceI measure 122 / measure 4]                           %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceI measure 123 / measure 5]                           %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
@@ -2003,27 +2003,27 @@ Q_SecondViolinVoiceI_a = {                                                     %
     % [Q SecondViolinVoiceI measure 124 / measure 6]                           %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceI measure 125 / measure 7]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceI measure 126 / measure 8]                           %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2037,14 +2037,14 @@ Q_SecondViolinVoiceI_a = {                                                     %
     % [Q SecondViolinVoiceI measure 127 / measure 9]                           %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceI measure 128 / measure 10]                          %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
@@ -2055,27 +2055,27 @@ Q_SecondViolinVoiceI_a = {                                                     %
     % [Q SecondViolinVoiceI measure 129 / measure 11]                          %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceI measure 130 / measure 12]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -2115,14 +2115,14 @@ Q_SecondViolinVoiceII_a = {                                                    %
     % [Q SecondViolinVoiceII measure 122 / measure 4]                          %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceII measure 123 / measure 5]                          %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
@@ -2132,26 +2132,26 @@ Q_SecondViolinVoiceII_a = {                                                    %
     % [Q SecondViolinVoiceII measure 124 / measure 6]                          %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceII measure 125 / measure 7]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceII measure 126 / measure 8]                          %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2165,14 +2165,14 @@ Q_SecondViolinVoiceII_a = {                                                    %
     % [Q SecondViolinVoiceII measure 127 / measure 9]                          %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceII measure 128 / measure 10]                         %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
@@ -2182,26 +2182,26 @@ Q_SecondViolinVoiceII_a = {                                                    %
     % [Q SecondViolinVoiceII measure 129 / measure 11]                         %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceII measure 130 / measure 12]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -2283,14 +2283,14 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     % [Q SecondViolinVoiceIII measure 122 / measure 4]                         %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIII measure 123 / measure 5]                         %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
@@ -2300,26 +2300,26 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     % [Q SecondViolinVoiceIII measure 124 / measure 6]                         %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIII measure 125 / measure 7]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceIII measure 126 / measure 8]                         %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2333,14 +2333,14 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     % [Q SecondViolinVoiceIII measure 127 / measure 9]                         %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIII measure 128 / measure 10]                        %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
@@ -2350,26 +2350,26 @@ Q_SecondViolinVoiceIII_a = {                                                   %
     % [Q SecondViolinVoiceIII measure 129 / measure 11]                        %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIII measure 130 / measure 12]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -2409,14 +2409,14 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     % [Q SecondViolinVoiceIV measure 122 / measure 4]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIV measure 123 / measure 5]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
@@ -2426,26 +2426,26 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     % [Q SecondViolinVoiceIV measure 124 / measure 6]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIV measure 125 / measure 7]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q SecondViolinVoiceIV measure 126 / measure 8]                          %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2459,14 +2459,14 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     % [Q SecondViolinVoiceIV measure 127 / measure 9]                          %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIV measure 128 / measure 10]                         %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
@@ -2476,26 +2476,26 @@ Q_SecondViolinVoiceIV_a = {                                                    %
     % [Q SecondViolinVoiceIV measure 129 / measure 11]                         %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q SecondViolinVoiceIV measure 130 / measure 12]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -2577,14 +2577,14 @@ Q_ViolaVoiceI_a = {                                                            %
     % [Q ViolaVoiceI measure 122 / measure 4]                                  %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceI measure 123 / measure 5]                                  %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
@@ -2594,26 +2594,26 @@ Q_ViolaVoiceI_a = {                                                            %
     % [Q ViolaVoiceI measure 124 / measure 6]                                  %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceI measure 125 / measure 7]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q ViolaVoiceI measure 126 / measure 8]                                  %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2627,14 +2627,14 @@ Q_ViolaVoiceI_a = {                                                            %
     % [Q ViolaVoiceI measure 127 / measure 9]                                  %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceI measure 128 / measure 10]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
@@ -2644,26 +2644,26 @@ Q_ViolaVoiceI_a = {                                                            %
     % [Q ViolaVoiceI measure 129 / measure 11]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceI measure 130 / measure 12]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -2703,14 +2703,14 @@ Q_ViolaVoiceII_a = {                                                           %
     % [Q ViolaVoiceII measure 122 / measure 4]                                 %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceII measure 123 / measure 5]                                 %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
@@ -2720,26 +2720,26 @@ Q_ViolaVoiceII_a = {                                                           %
     % [Q ViolaVoiceII measure 124 / measure 6]                                 %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceII measure 125 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q ViolaVoiceII measure 126 / measure 8]                                 %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2753,14 +2753,14 @@ Q_ViolaVoiceII_a = {                                                           %
     % [Q ViolaVoiceII measure 127 / measure 9]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceII measure 128 / measure 10]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
@@ -2770,26 +2770,26 @@ Q_ViolaVoiceII_a = {                                                           %
     % [Q ViolaVoiceII measure 129 / measure 11]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceII measure 130 / measure 12]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -2871,14 +2871,14 @@ Q_ViolaVoiceIII_a = {                                                          %
     % [Q ViolaVoiceIII measure 122 / measure 4]                                %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIII measure 123 / measure 5]                                %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
@@ -2888,26 +2888,26 @@ Q_ViolaVoiceIII_a = {                                                          %
     % [Q ViolaVoiceIII measure 124 / measure 6]                                %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIII measure 125 / measure 7]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q ViolaVoiceIII measure 126 / measure 8]                                %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -2921,14 +2921,14 @@ Q_ViolaVoiceIII_a = {                                                          %
     % [Q ViolaVoiceIII measure 127 / measure 9]                                %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIII measure 128 / measure 10]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
@@ -2938,26 +2938,26 @@ Q_ViolaVoiceIII_a = {                                                          %
     % [Q ViolaVoiceIII measure 129 / measure 11]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIII measure 130 / measure 12]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -2997,14 +2997,14 @@ Q_ViolaVoiceIV_a = {                                                           %
     % [Q ViolaVoiceIV measure 122 / measure 4]                                 %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIV measure 123 / measure 5]                                 %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
@@ -3014,26 +3014,26 @@ Q_ViolaVoiceIV_a = {                                                           %
     % [Q ViolaVoiceIV measure 124 / measure 6]                                 %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIV measure 125 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q ViolaVoiceIV measure 126 / measure 8]                                 %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -3047,14 +3047,14 @@ Q_ViolaVoiceIV_a = {                                                           %
     % [Q ViolaVoiceIV measure 127 / measure 9]                                 %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIV measure 128 / measure 10]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
@@ -3064,26 +3064,26 @@ Q_ViolaVoiceIV_a = {                                                           %
     % [Q ViolaVoiceIV measure 129 / measure 11]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ViolaVoiceIV measure 130 / measure 12]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -3165,14 +3165,14 @@ Q_CelloVoiceI_a = {                                                            %
     % [Q CelloVoiceI measure 122 / measure 4]                                  %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceI measure 123 / measure 5]                                  %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
@@ -3183,27 +3183,27 @@ Q_CelloVoiceI_a = {                                                            %
     % [Q CelloVoiceI measure 124 / measure 6]                                  %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceI measure 125 / measure 7]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q CelloVoiceI measure 126 / measure 8]                                  %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -3217,14 +3217,14 @@ Q_CelloVoiceI_a = {                                                            %
     % [Q CelloVoiceI measure 127 / measure 9]                                  %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceI measure 128 / measure 10]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
@@ -3235,27 +3235,27 @@ Q_CelloVoiceI_a = {                                                            %
     % [Q CelloVoiceI measure 129 / measure 11]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     - \tweak direction #up
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceI measure 130 / measure 12]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:+PARTS:OverrideCommand(2)
     \revert DynamicText.stencil                                                %! baca_dynamic_text_stencil_false:-PARTS:OverrideCommand(2)
     \revert Hairpin.stencil                                                    %! baca_hairpin_stencil_false:-PARTS:OverrideCommand(2)
@@ -3295,14 +3295,14 @@ Q_CelloVoiceII_a = {                                                           %
     % [Q CelloVoiceII measure 122 / measure 4]                                 %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceII measure 123 / measure 5]                                 %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
@@ -3312,26 +3312,26 @@ Q_CelloVoiceII_a = {                                                           %
     % [Q CelloVoiceII measure 124 / measure 6]                                 %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceII measure 125 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q CelloVoiceII measure 126 / measure 8]                                 %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -3345,14 +3345,14 @@ Q_CelloVoiceII_a = {                                                           %
     % [Q CelloVoiceII measure 127 / measure 9]                                 %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceII measure 128 / measure 10]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
@@ -3362,26 +3362,26 @@ Q_CelloVoiceII_a = {                                                           %
     % [Q CelloVoiceII measure 129 / measure 11]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q CelloVoiceII measure 130 / measure 12]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:-PARTS:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -3448,14 +3448,14 @@ Q_ContrabassVoiceIII_a = {                                                     %
     % [Q ContrabassVoiceIII measure 122 / measure 4]                           %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ContrabassVoiceIII measure 123 / measure 5]                           %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
@@ -3465,26 +3465,26 @@ Q_ContrabassVoiceIII_a = {                                                     %
     % [Q ContrabassVoiceIII measure 124 / measure 6]                           %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ContrabassVoiceIII measure 125 / measure 7]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
     % [Q ContrabassVoiceIII measure 126 / measure 8]                           %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! +PARTS:IndicatorCommand
@@ -3498,14 +3498,14 @@ Q_ContrabassVoiceIII_a = {                                                     %
     % [Q ContrabassVoiceIII measure 127 / measure 9]                           %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "tasto"                                     %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ContrabassVoiceIII measure 128 / measure 10]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
@@ -3515,26 +3515,26 @@ Q_ContrabassVoiceIII_a = {                                                     %
     % [Q ContrabassVoiceIII measure 129 / measure 11]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ext. pont."                                %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     % [Q ContrabassVoiceIII measure 130 / measure 12]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
 }                                                                              %! extern
 

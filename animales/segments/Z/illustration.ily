@@ -4350,12 +4350,12 @@ Z_ContrabassVoiceIII_a = {                                                     %
     ^ \baca-reapplied-indicator-markup "[“Cb. (3-4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ord."                                      %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-right-text "ext. pont."                               %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ord."                                      %! PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "ext. pont."                               %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4376,7 +4376,7 @@ Z_ContrabassVoiceIII_a = {                                                     %
     % [Z ContrabassVoiceIII measure 157 / measure 3]                           %! _comment_measure_numbers
     cs!1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TieCorrectionCommand
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+    \stopTextSpan                                                              %! PiecewiseCommand(2)
 
 }                                                                              %! extern
 
