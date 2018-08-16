@@ -180,7 +180,6 @@ maker(
         ),
     baca.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
-    baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie_to(selector=baca.leaves()),
@@ -253,10 +252,12 @@ maker(
     animales.parts('FirstViolin', (2, 10)),
     baca.not_parts(
         baca.markup(
-            baca.markups.lines(['all other strings:', 'still (non vibrato)']).boxed(),
+            baca.markups.lines([
+                'all other strings:', 'still (non vibrato)']).boxed(),
             direction=abjad.Down,
             ),
         ),
+    baca.not_parts(baca.voice_two()),
     )
 
 maker(

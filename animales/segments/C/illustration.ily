@@ -1088,7 +1088,6 @@ C_FirstViolinVoiceII_a = {                                                     %
 
     % [C FirstViolinVoiceII measure 20 / measure 3]                            %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
-    \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     c''2                                                                       %! glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca_stop_trill:+PARTS:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1236,6 +1235,7 @@ C_FirstViolinVoiceI_a = {                                                      %
 C_FirstViolinVoiceI_b = {                                                      %! extern
 
     % [C FirstViolinVoiceI measure 20 / measure 3]                             %! _comment_measure_numbers
+    \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
