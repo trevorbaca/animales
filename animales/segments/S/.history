@@ -3472,3 +3472,28 @@ LilyPond runtime: 2 seconds
  Segment-maker runtime: 31 seconds
  Abjad format time: 0 seconds
  LilyPond runtime: 1 second
+
+# DEBUG: after split fix commit:
+2018-08-21 14:47:04
+ Segment-maker runtime: 34 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 2 seconds
+
+# DEBUG: performance with Abjad 35d9887 (restored duplicate literals):
+2018-08-21 14:50:39
+ Segment-maker runtime: 32 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 1 second
+
+# DEBUG: performance with Abjad 7777220f (remove measure):
+# CONCLUSION: problem entered with Abjad 35d9887 (restored duplicate literals)
+2018-08-21 14:53:52
+ Segment-maker runtime: 13 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 1 second
+
+# DEBUG: rerendred with current (leaf split) to restore illustration:
+2018-08-21 14:57:01
+ Segment-maker runtime: 33 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 2 seconds
