@@ -963,19 +963,19 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Bassoon_Voice_I',
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='Bassoon_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Bsn.',
                                 ),
                             abjad.Momento(
-                                context='Bassoon_Voice_II',
+                                context='Bassoon_Voice_I',
                                 manifest='instruments',
                                 value='Bassoon',
+                                ),
+                            abjad.Momento(
+                                context='Bassoon_Voice_I',
+                                prototype='abjad.Clef',
+                                value='bass',
                                 ),
                             ],
                         ),
@@ -1048,6 +1048,11 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (3-4)',
                                 ),
                             abjad.Momento(
+                                context='Cello_Voice_III',
+                                manifest='instruments',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
                                 context='Cello_Voice_IV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1058,11 +1063,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Cello_Voice_IV',
-                                manifest='instruments',
-                                value='Cello',
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_IV',
@@ -1086,6 +1086,11 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (5-6)',
                                 ),
                             abjad.Momento(
+                                context='Cello_Voice_V',
+                                manifest='instruments',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
                                 context='Cello_Voice_VI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1096,11 +1101,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Cello_Voice_VI',
-                                manifest='instruments',
-                                value='Cello',
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_VI',
@@ -1124,6 +1124,11 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (7-8)',
                                 ),
                             abjad.Momento(
+                                context='Cello_Voice_VII',
+                                manifest='instruments',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
                                 context='Cello_Voice_VIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1134,11 +1139,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Cello_Voice_VIII',
-                                manifest='instruments',
-                                value='Cello',
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_VIII',
@@ -1162,6 +1162,11 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (9-10)',
                                 ),
                             abjad.Momento(
+                                context='Cello_Voice_IX',
+                                manifest='instruments',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
                                 context='Cello_Voice_X',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1172,11 +1177,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Cello_Voice_X',
-                                manifest='instruments',
-                                value='Cello',
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_X',
@@ -1200,6 +1200,11 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (11-12)',
                                 ),
                             abjad.Momento(
+                                context='Cello_Voice_XI',
+                                manifest='instruments',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
                                 context='Cello_Voice_XII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1210,11 +1215,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Cello_Voice_XII',
-                                manifest='instruments',
-                                value='Cello',
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_XII',
@@ -1238,6 +1238,11 @@ metadata = abjad.OrderedDict(
                                 value='Vc. (13-14)',
                                 ),
                             abjad.Momento(
+                                context='Cello_Voice_XIII',
+                                manifest='instruments',
+                                value='Cello',
+                                ),
+                            abjad.Momento(
                                 context='Cello_Voice_XIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1248,11 +1253,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Cello_Voice_XIV',
-                                manifest='instruments',
-                                value='Cello',
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_XIV',
@@ -1403,6 +1403,11 @@ metadata = abjad.OrderedDict(
                                 value='Cb. (5-6)',
                                 ),
                             abjad.Momento(
+                                context='Contrabass_Voice_V',
+                                manifest='instruments',
+                                value='Contrabass',
+                                ),
+                            abjad.Momento(
                                 context='Contrabass_Voice_VI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1413,11 +1418,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Contrabass_Voice_VI',
-                                manifest='instruments',
-                                value='Contrabass',
                                 ),
                             abjad.Momento(
                                 context='Contrabass_Voice_VI',
@@ -1606,6 +1606,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (7-8)',
                                 ),
                             abjad.Momento(
+                                context='First_Violin_Voice_VII',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='First_Violin_Voice_VIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1616,11 +1621,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='First_Violin_Voice_VIII',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_VIII',
@@ -1644,6 +1644,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (17-18)',
                                 ),
                             abjad.Momento(
+                                context='First_Violin_Voice_XVII',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='First_Violin_Voice_XVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1654,11 +1659,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='First_Violin_Voice_XVIII',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XVIII',
@@ -1682,6 +1682,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (9-10)',
                                 ),
                             abjad.Momento(
+                                context='First_Violin_Voice_IX',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='First_Violin_Voice_X',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1692,11 +1697,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='First_Violin_Voice_X',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_X',
@@ -1720,6 +1720,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (11-12)',
                                 ),
                             abjad.Momento(
+                                context='First_Violin_Voice_XI',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='First_Violin_Voice_XII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1730,11 +1735,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='First_Violin_Voice_XII',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XII',
@@ -1758,6 +1758,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (13-14)',
                                 ),
                             abjad.Momento(
+                                context='First_Violin_Voice_XIII',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='First_Violin_Voice_XIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1768,11 +1773,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='First_Violin_Voice_XIV',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XIV',
@@ -1796,6 +1796,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. I (15-16)',
                                 ),
                             abjad.Momento(
+                                context='First_Violin_Voice_XV',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='First_Violin_Voice_XVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -1806,11 +1811,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='First_Violin_Voice_XVI',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XVI',
@@ -1885,13 +1885,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Flute_Voice_I',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='Flute_Voice_III',
                                 manifest='instruments',
                                 value='Flute',
+                                ),
+                            abjad.Momento(
+                                context='Flute_Voice_I',
+                                prototype='abjad.Clef',
+                                value='treble',
                                 ),
                             ],
                         ),
@@ -1906,13 +1906,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Flute_Voice_II',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='Flute_Voice_IV',
                                 manifest='instruments',
                                 value='Flute',
+                                ),
+                            abjad.Momento(
+                                context='Flute_Voice_II',
+                                prototype='abjad.Clef',
+                                value='treble',
                                 ),
                             ],
                         ),
@@ -2005,13 +2005,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Horn_Voice_I',
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='Horn_Voice_III',
                                 manifest='instruments',
                                 value='Horn',
+                                ),
+                            abjad.Momento(
+                                context='Horn_Voice_I',
+                                prototype='abjad.Clef',
+                                value='bass',
                                 ),
                             ],
                         ),
@@ -2026,13 +2026,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Horn_Voice_II',
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='Horn_Voice_IV',
                                 manifest='instruments',
                                 value='Horn',
+                                ),
+                            abjad.Momento(
+                                context='Horn_Voice_II',
+                                prototype='abjad.Clef',
+                                value='bass',
                                 ),
                             ],
                         ),
@@ -2399,6 +2399,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (5-6)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_V',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_VI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2409,11 +2414,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_VI',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_VI',
@@ -2437,6 +2437,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (7-8)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_VII',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_VIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2447,11 +2452,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_VIII',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_VIII',
@@ -2475,6 +2475,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (17-18)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_XVII',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_XVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2485,11 +2490,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_XVIII',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XVIII',
@@ -2513,6 +2513,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (9-10)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_IX',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_X',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2523,11 +2528,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_X',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_X',
@@ -2551,6 +2551,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (11-12)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_XI',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_XII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2561,11 +2566,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_XII',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XII',
@@ -2589,6 +2589,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (13-14)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_XIII',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_XIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2599,11 +2604,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_XIV',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XIV',
@@ -2627,6 +2627,11 @@ metadata = abjad.OrderedDict(
                                 value='Vni. II (15-16)',
                                 ),
                             abjad.Momento(
+                                context='Second_Violin_Voice_XV',
+                                manifest='instruments',
+                                value='Violin',
+                                ),
+                            abjad.Momento(
                                 context='Second_Violin_Voice_XVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2637,11 +2642,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Second_Violin_Voice_XVI',
-                                manifest='instruments',
-                                value='Violin',
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XVI',
@@ -2706,13 +2706,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Trombone_Voice_I',
-                                prototype='abjad.Clef',
-                                value='tenor',
-                                ),
-                            abjad.Momento(
-                                context='Trombone_Voice_III',
                                 manifest='instruments',
                                 value='Trombone',
+                                ),
+                            abjad.Momento(
+                                context='Trombone_Voice_I',
+                                prototype='abjad.Clef',
+                                value='tenor',
                                 ),
                             ],
                         ),
@@ -2727,13 +2727,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Trombone_Voice_II',
-                                prototype='abjad.Clef',
-                                value='tenor',
-                                ),
-                            abjad.Momento(
-                                context='Trombone_Voice_IV',
                                 manifest='instruments',
                                 value='Trombone',
+                                ),
+                            abjad.Momento(
+                                context='Trombone_Voice_II',
+                                prototype='abjad.Clef',
+                                value='tenor',
                                 ),
                             ],
                         ),
@@ -2790,13 +2790,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Trumpet_Voice_I',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='Trumpet_Voice_III',
                                 manifest='instruments',
                                 value='Trumpet',
+                                ),
+                            abjad.Momento(
+                                context='Trumpet_Voice_I',
+                                prototype='abjad.Clef',
+                                value='treble',
                                 ),
                             ],
                         ),
@@ -2811,13 +2811,13 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Trumpet_Voice_II',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='Trumpet_Voice_IV',
                                 manifest='instruments',
                                 value='Trumpet',
+                                ),
+                            abjad.Momento(
+                                context='Trumpet_Voice_II',
+                                prototype='abjad.Clef',
+                                value='treble',
                                 ),
                             ],
                         ),
@@ -2980,6 +2980,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (5-6)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_V',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_VI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -2990,11 +2995,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_VI',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_VI',
@@ -3018,6 +3018,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (7-8)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_VII',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_VIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -3028,11 +3033,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_VIII',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_VIII',
@@ -3056,6 +3056,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (17-18)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_XVII',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_XVIII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -3066,11 +3071,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_XVIII',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XVIII',
@@ -3094,6 +3094,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (9-10)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_IX',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_X',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -3104,11 +3109,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_X',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_X',
@@ -3132,6 +3132,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (11-12)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_XI',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_XII',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -3142,11 +3147,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_XII',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XII',
@@ -3170,6 +3170,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (13-14)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_XIII',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_XIV',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -3180,11 +3185,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_XIV',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XIV',
@@ -3208,6 +3208,11 @@ metadata = abjad.OrderedDict(
                                 value='Vle. (15-16)',
                                 ),
                             abjad.Momento(
+                                context='Viola_Voice_XV',
+                                manifest='instruments',
+                                value='Viola',
+                                ),
+                            abjad.Momento(
                                 context='Viola_Voice_XVI',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.PersistentOverride',
@@ -3218,11 +3223,6 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
-                                ),
-                            abjad.Momento(
-                                context='Viola_Voice_XVI',
-                                manifest='instruments',
-                                value='Viola',
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XVI',
