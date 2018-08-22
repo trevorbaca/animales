@@ -1,21 +1,21 @@
-Y_GlobalRests = {                                                              %! extern
+Y_Global_Rests = {                                                             %! extern
 
-    % [Y GlobalRests measure 152 / measure 1]                                  %! _comment_measure_numbers
+    % [Y Global_Rests measure 152 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Y GlobalRests measure 153 / measure 2]                                  %! _comment_measure_numbers
+    % [Y Global_Rests measure 153 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Y GlobalRests measure 154 / measure 3]                                  %! _comment_measure_numbers
+    % [Y Global_Rests measure 154 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
 }                                                                              %! extern
 
 
-Y_GlobalSkips = {                                                              %! extern
+Y_Global_Skips = {                                                             %! extern
 
-    % [Y GlobalSkips measure 152 / measure 1]                                  %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+    % [Y Global_Skips measure 152 / measure 1]                                 %! _comment_measure_numbers
+%%% \once \override Global_Context.RehearsalMark.Y-offset = #6                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #25                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -33,7 +33,7 @@ Y_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Y GlobalSkips measure 153 / measure 2]                                  %! _comment_measure_numbers
+    % [Y Global_Skips measure 153 / measure 2]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (153)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <1>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -41,7 +41,7 @@ Y_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Y.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'17'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Y GlobalSkips measure 154 / measure 3]                                  %! _comment_measure_numbers
+    % [Y Global_Skips measure 154 / measure 3]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (154)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)

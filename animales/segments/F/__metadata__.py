@@ -7,10 +7,10 @@ metadata = abjad.OrderedDict(
             'alive_during_segment',
             [
                 'Score',
-                'GlobalContext',
-                'GlobalRests',
-                'GlobalSkips',
-                'MusicContext',
+                'Global_Context',
+                'Global_Rests',
+                'Global_Skips',
+                'Music_Context',
                 'Wind_Staff_Group',
                 'Clarinet_Staff_I',
                 'Clarinet_Voice_I',
@@ -112,7 +112,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'F_GlobalRests_a',
+                        'F_Global_Rests_a',
                         (
                             abjad.PartAssignment('Clarinet', 2),
                             abjad.Timespan(
@@ -122,7 +122,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'F_GlobalRests_b',
+                        'F_Global_Rests_b',
                         (
                             abjad.PartAssignment('Clarinet', 1),
                             abjad.Timespan(
@@ -731,12 +731,12 @@ metadata = abjad.OrderedDict(
                         'Score',
                         [
                             abjad.Momento(
-                                context='GlobalSkips',
+                                context='Global_Skips',
                                 manifest='metronome_marks',
                                 value='76',
                                 ),
                             abjad.Momento(
-                                context='GlobalSkips',
+                                context='Global_Skips',
                                 prototype='abjad.TimeSignature',
                                 value='4/4',
                                 ),

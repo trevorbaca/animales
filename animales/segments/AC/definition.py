@@ -30,7 +30,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.rehearsal_mark('AC'),
     baca.tag(
         '+TABLOID_SCORE',
@@ -39,7 +39,7 @@ maker(
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(10 - 1)),
     )
 

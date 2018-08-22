@@ -63,7 +63,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('76'),
     baca.rehearsal_mark('K'),
     baca.tag(
@@ -91,12 +91,12 @@ maker(
     )
 
 maker(
-    ('GlobalRests', (5, -1)),
+    ('Global_Rests', (5, -1)),
     animales.parts('Clarinet', 1),
     )
 
 maker(
-    ('GlobalRests', (1, 4)),
+    ('Global_Rests', (1, 4)),
     animales.parts('Clarinet', 2),
     )
 

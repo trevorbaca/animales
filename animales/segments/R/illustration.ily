@@ -1,21 +1,21 @@
-R_GlobalRests = {                                                              %! extern
+R_Global_Rests = {                                                             %! extern
 
-    % [R GlobalRests measure 131 / measure 1]                                  %! _comment_measure_numbers
+    % [R Global_Rests measure 131 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [R GlobalRests measure 132 / measure 2]                                  %! _comment_measure_numbers
+    % [R Global_Rests measure 132 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [R GlobalRests measure 133 / measure 3]                                  %! _comment_measure_numbers
+    % [R Global_Rests measure 133 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
 }                                                                              %! extern
 
 
-R_GlobalSkips = {                                                              %! extern
+R_Global_Skips = {                                                             %! extern
 
-    % [R GlobalSkips measure 131 / measure 1]                                  %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+    % [R Global_Skips measure 131 / measure 1]                                 %! _comment_measure_numbers
+%%% \once \override Global_Context.RehearsalMark.Y-offset = #6                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #18                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -33,7 +33,7 @@ R_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [R GlobalSkips measure 132 / measure 2]                                  %! _comment_measure_numbers
+    % [R Global_Skips measure 132 / measure 2]                                 %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -43,7 +43,7 @@ R_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [R.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'22'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [R GlobalSkips measure 133 / measure 3]                                  %! _comment_measure_numbers
+    % [R Global_Skips measure 133 / measure 3]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)

@@ -48,7 +48,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark('E'),
     baca.tag(

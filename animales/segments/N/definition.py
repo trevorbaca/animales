@@ -58,13 +58,13 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.rehearsal_mark('N'),
     baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.new(
         baca.global_fermata('fermata'),
         baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
