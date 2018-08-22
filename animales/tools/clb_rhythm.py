@@ -8,7 +8,7 @@ def clb_rhythm(section, member, counts, wrap):
     Makes clb rhythm.
     """
 
-    if section in ('FirstViolin', 'SecondViolin', 'Viola'):
+    if section in ('First_Violin', 'Second_Violin', 'Viola'):
         assert member in range(1, 18 + 1), repr(member)
     elif section == 'Cello':
         assert member in range(1, 14 + 1), repr(member)
@@ -18,8 +18,8 @@ def clb_rhythm(section, member, counts, wrap):
         assert ValueError(section)
 
     section_to_offset = {
-        'FirstViolin': 0,
-        'SecondViolin': 18,
+        'First_Violin': 0,
+        'Second_Violin': 18,
         'Viola': 36,
         'Cello': 54,
         'Contrabass': 68,

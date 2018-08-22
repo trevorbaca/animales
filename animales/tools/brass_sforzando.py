@@ -10,19 +10,19 @@ def brass_sforzando(maker, range_=(1, -1)):
     """
     
     voice_to_pitch = {
-        'HornVoiceI': 'C4',
-        'HornVoiceII': 'Gb3',
-        'HornVoiceIII': 'F3',
-        'HornVoiceIV': 'E3',
-        'TrumpetVoiceI': 'D5',
-        'TrumpetVoiceII': 'Ab4',
-        'TrumpetVoiceIII': 'G4',
-        'TrumpetVoiceIV': 'F4',
-        'TromboneVoiceI': 'G4',
-        'TromboneVoiceII': 'Db4',
-        'TromboneVoiceIII': 'C4',
-        'TromboneVoiceIV': 'B3',
-        'TubaVoiceI': 'C2',
+        'Horn_Voice_I': 'C4',
+        'Horn_Voice_II': 'Gb3',
+        'Horn_Voice_III': 'F3',
+        'Horn_Voice_IV': 'E3',
+        'Trumpet_Voice_I': 'D5',
+        'Trumpet_Voice_II': 'Ab4',
+        'Trumpet_Voice_III': 'G4',
+        'Trumpet_Voice_IV': 'F4',
+        'Trombone_Voice_I': 'G4',
+        'Trombone_Voice_II': 'Db4',
+        'Trombone_Voice_III': 'C4',
+        'Trombone_Voice_IV': 'B3',
+        'Tuba_Voice_I': 'C2',
         }
 
     for voice, pitch in voice_to_pitch.items():

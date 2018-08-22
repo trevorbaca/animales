@@ -169,7 +169,7 @@ maker(
 maker(
     ('1vn2', (3, 6)),
     animales.glissando_rhythm(),
-    animales.parts('FirstViolin', 1),
+    animales.parts('First_Violin', 1),
     baca.hairpin(
         'p < f',
         selector=baca.mleaves(1).rleak(),
@@ -244,12 +244,12 @@ maker(
 
 maker(
     ('1vn1', (1, 2)),
-    animales.parts('FirstViolin', (1, 10)),
+    animales.parts('First_Violin', (1, 10)),
     )
 
 maker(
     ('1vn1', (3, 6)),
-    animales.parts('FirstViolin', (2, 10)),
+    animales.parts('First_Violin', (2, 10)),
     baca.not_parts(
         baca.markup(
             baca.markups.lines([
@@ -262,17 +262,17 @@ maker(
 
 maker(
     '1vn3',
-    animales.parts('FirstViolin', (11, 18)),
+    animales.parts('First_Violin', (11, 18)),
     )
 
 maker(
     '2vn1',
-    animales.parts('SecondViolin', (1, 10)),
+    animales.parts('Second_Violin', (1, 10)),
     )
 
 maker(
     '2vn3',
-    animales.parts('SecondViolin', (11, 18)),
+    animales.parts('Second_Violin', (11, 18)),
     )
 
 maker(

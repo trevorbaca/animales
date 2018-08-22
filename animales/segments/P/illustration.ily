@@ -140,9 +140,9 @@ P_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-P_OboeVoiceI_a = {                                                             %! extern
+P_Oboe_Voice_I_a = {                                                           %! extern
 
-    % [P OboeVoiceI measure 109 / measure 1]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 109 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -171,11 +171,11 @@ P_OboeVoiceI_a = {                                                             %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P OboeVoiceI measure 110 / measure 2]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 110 / measure 2]                                 %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P OboeVoiceI measure 111 / measure 3]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 111 / measure 3]                                 %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -185,52 +185,52 @@ P_OboeVoiceI_a = {                                                             %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [P OboeVoiceI measure 112 / measure 4]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 112 / measure 4]                                 %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P OboeVoiceI measure 113 / measure 5]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 113 / measure 5]                                 %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P OboeVoiceI measure 114 / measure 6]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 114 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [P OboeVoiceI measure 115 / measure 7]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 115 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [P OboeVoiceI measure 116 / measure 8]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 116 / measure 8]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P OboeVoiceI measure 117 / measure 9]                                   %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 117 / measure 9]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P OboeVoiceI measure 118 / measure 10]                                  %! _comment_measure_numbers
+    % [P Oboe_Voice_I measure 118 / measure 10]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-P_OboeVoiceI = {                                                               %! extern
+P_Oboe_Voice_I = {                                                             %! extern
 
-    \P_OboeVoiceI_a                                                            %! extern
-
-}                                                                              %! extern
-
-
-P_OboeStaffI = {                                                               %! extern
-
-    \context Voice = "OboeVoiceI"                                              %! ScoreTemplate
-    \P_OboeVoiceI                                                              %! extern
+    \P_Oboe_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-P_EnglishHornVoiceI_a = {                                                      %! extern
+P_Oboe_Staff_I = {                                                             %! extern
 
-    % [P EnglishHornVoiceI measure 109 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Oboe_Voice_I"                                            %! ScoreTemplate
+    \P_Oboe_Voice_I                                                            %! extern
+
+}                                                                              %! extern
+
+
+P_English_Horn_Voice_I_a = {                                                   %! extern
+
+    % [P English_Horn_Voice_I measure 109 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -259,11 +259,11 @@ P_EnglishHornVoiceI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P EnglishHornVoiceI measure 110 / measure 2]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 110 / measure 2]                         %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P EnglishHornVoiceI measure 111 / measure 3]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 111 / measure 3]                         %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -273,52 +273,52 @@ P_EnglishHornVoiceI_a = {                                                      %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [P EnglishHornVoiceI measure 112 / measure 4]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 112 / measure 4]                         %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P EnglishHornVoiceI measure 113 / measure 5]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 113 / measure 5]                         %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P EnglishHornVoiceI measure 114 / measure 6]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 114 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [P EnglishHornVoiceI measure 115 / measure 7]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 115 / measure 7]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [P EnglishHornVoiceI measure 116 / measure 8]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 116 / measure 8]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P EnglishHornVoiceI measure 117 / measure 9]                            %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 117 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P EnglishHornVoiceI measure 118 / measure 10]                           %! _comment_measure_numbers
+    % [P English_Horn_Voice_I measure 118 / measure 10]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-P_EnglishHornVoiceI = {                                                        %! extern
+P_English_Horn_Voice_I = {                                                     %! extern
 
-    \P_EnglishHornVoiceI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-P_EnglishHornStaffI = {                                                        %! extern
-
-    \context Voice = "EnglishHornVoiceI"                                       %! ScoreTemplate
-    \P_EnglishHornVoiceI                                                       %! extern
+    \P_English_Horn_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-P_BassoonVoiceI_a = {                                                          %! extern
+P_English_Horn_Staff_I = {                                                     %! extern
 
-    % [P BassoonVoiceI measure 109 / measure 1]                                %! _comment_measure_numbers
+    \context Voice = "English_Horn_Voice_I"                                    %! ScoreTemplate
+    \P_English_Horn_Voice_I                                                    %! extern
+
+}                                                                              %! extern
+
+
+P_Bassoon_Voice_I_a = {                                                        %! extern
+
+    % [P Bassoon_Voice_I measure 109 / measure 1]                              %! _comment_measure_numbers
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -332,11 +332,11 @@ P_BassoonVoiceI_a = {                                                          %
 %%% \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P BassoonVoiceI measure 110 / measure 2]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 110 / measure 2]                              %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P BassoonVoiceI measure 111 / measure 3]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 111 / measure 3]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
@@ -346,44 +346,44 @@ P_BassoonVoiceI_a = {                                                          %
 %%% \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     \repeatTie
 
-    % [P BassoonVoiceI measure 112 / measure 4]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 112 / measure 4]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P BassoonVoiceI measure 113 / measure 5]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 113 / measure 5]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P BassoonVoiceI measure 114 / measure 6]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 114 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
 
-    % [P BassoonVoiceI measure 115 / measure 7]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 115 / measure 7]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [P BassoonVoiceI measure 116 / measure 8]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 116 / measure 8]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P BassoonVoiceI measure 117 / measure 9]                                %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 117 / measure 9]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P BassoonVoiceI measure 118 / measure 10]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_I measure 118 / measure 10]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-P_BassoonVoiceI = {                                                            %! extern
+P_Bassoon_Voice_I = {                                                          %! extern
 
-    \P_BassoonVoiceI_a                                                         %! extern
+    \P_Bassoon_Voice_I_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-P_BassoonVoiceII_a = {                                                         %! extern
+P_Bassoon_Voice_II_a = {                                                       %! extern
 
-    % [P BassoonVoiceII measure 109 / measure 1]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 109 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -408,11 +408,11 @@ P_BassoonVoiceII_a = {                                                         %
             Bsn.                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [P BassoonVoiceII measure 110 / measure 2]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 110 / measure 2]                             %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P BassoonVoiceII measure 111 / measure 3]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 111 / measure 3]                             %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -422,55 +422,55 @@ P_BassoonVoiceII_a = {                                                         %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [P BassoonVoiceII measure 112 / measure 4]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 112 / measure 4]                             %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P BassoonVoiceII measure 113 / measure 5]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 113 / measure 5]                             %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [P BassoonVoiceII measure 114 / measure 6]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 114 / measure 6]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [P BassoonVoiceII measure 115 / measure 7]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 115 / measure 7]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [P BassoonVoiceII measure 116 / measure 8]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 116 / measure 8]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P BassoonVoiceII measure 117 / measure 9]                               %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 117 / measure 9]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [P BassoonVoiceII measure 118 / measure 10]                              %! _comment_measure_numbers
+    % [P Bassoon_Voice_II measure 118 / measure 10]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-P_BassoonVoiceII = {                                                           %! extern
+P_Bassoon_Voice_II = {                                                         %! extern
 
-    \P_BassoonVoiceII_a                                                        %! extern
+    \P_Bassoon_Voice_II_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-P_BassoonStaffI = <<                                                           %! extern
+P_Bassoon_Staff_I = <<                                                         %! extern
 
-    \context Voice = "BassoonVoiceI"                                           %! ScoreTemplate
-    \P_BassoonVoiceI                                                           %! extern
+    \context Voice = "Bassoon_Voice_I"                                         %! ScoreTemplate
+    \P_Bassoon_Voice_I                                                         %! extern
 
-    \context Voice = "BassoonVoiceII"                                          %! ScoreTemplate
-    \P_BassoonVoiceII                                                          %! extern
+    \context Voice = "Bassoon_Voice_II"                                        %! ScoreTemplate
+    \P_Bassoon_Voice_II                                                        %! extern
 
 >>                                                                             %! extern
 
 
-P_HornVoiceI_a = {                                                             %! extern
+P_Horn_Voice_I_a = {                                                           %! extern
 
-    % [P HornVoiceI measure 109 / measure 1]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 109 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -505,7 +505,7 @@ P_HornVoiceI_a = {                                                             %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P HornVoiceI measure 110 / measure 2]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 110 / measure 2]                                 %! _comment_measure_numbers
     r4
 
     d'2                                                                        %! brass_manifest_rhythm
@@ -515,7 +515,7 @@ P_HornVoiceI_a = {                                                             %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceI measure 111 / measure 3]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 111 / measure 3]                                 %! _comment_measure_numbers
     d'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -531,7 +531,7 @@ P_HornVoiceI_a = {                                                             %
     e'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceI measure 112 / measure 4]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 112 / measure 4]                                 %! _comment_measure_numbers
     e'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -552,7 +552,7 @@ P_HornVoiceI_a = {                                                             %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceI measure 113 / measure 5]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 113 / measure 5]                                 %! _comment_measure_numbers
     d'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -568,7 +568,7 @@ P_HornVoiceI_a = {                                                             %
     e'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceI measure 114 / measure 6]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 114 / measure 6]                                 %! _comment_measure_numbers
     e'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -589,7 +589,7 @@ P_HornVoiceI_a = {                                                             %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceI measure 115 / measure 7]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 115 / measure 7]                                 %! _comment_measure_numbers
     d'2                                                                        %! brass_manifest_rhythm
     ~
 
@@ -602,7 +602,7 @@ P_HornVoiceI_a = {                                                             %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceI measure 116 / measure 8]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 116 / measure 8]                                 %! _comment_measure_numbers
     e'2.                                                                       %! brass_manifest_rhythm
     ~
 
@@ -616,7 +616,7 @@ P_HornVoiceI_a = {                                                             %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceI measure 117 / measure 9]                                   %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 117 / measure 9]                                 %! _comment_measure_numbers
     d'2.                                                                       %! brass_manifest_rhythm
     ~
 
@@ -629,22 +629,22 @@ P_HornVoiceI_a = {                                                             %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceI measure 118 / measure 10]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_I measure 118 / measure 10]                                %! _comment_measure_numbers
     e'2                                                                        %! brass_manifest_rhythm
 
 }                                                                              %! extern
 
 
-P_HornVoiceI = {                                                               %! extern
+P_Horn_Voice_I = {                                                             %! extern
 
-    \P_HornVoiceI_a                                                            %! extern
+    \P_Horn_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-P_HornVoiceIII_a = {                                                           %! extern
+P_Horn_Voice_III_a = {                                                         %! extern
 
-    % [P HornVoiceIII measure 109 / measure 1]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 109 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     df'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -654,7 +654,7 @@ P_HornVoiceIII_a = {                                                           %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceIII measure 110 / measure 2]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 110 / measure 2]                               %! _comment_measure_numbers
     df'!8                                                                      %! brass_manifest_rhythm
     [                                                                          %! brass_manifest_rhythm
 
@@ -665,7 +665,7 @@ P_HornVoiceIII_a = {                                                           %
     ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIII measure 111 / measure 3]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 111 / measure 3]                               %! _comment_measure_numbers
     ef'!4                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -679,7 +679,7 @@ P_HornVoiceIII_a = {                                                           %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceIII measure 112 / measure 4]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 112 / measure 4]                               %! _comment_measure_numbers
     df'!4.                                                                     %! brass_manifest_rhythm
 
     ef'!8                                                                      %! brass_manifest_rhythm
@@ -688,7 +688,7 @@ P_HornVoiceIII_a = {                                                           %
     ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIII measure 113 / measure 5]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 113 / measure 5]                               %! _comment_measure_numbers
     ef'!4                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -702,57 +702,57 @@ P_HornVoiceIII_a = {                                                           %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceIII measure 114 / measure 6]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 114 / measure 6]                               %! _comment_measure_numbers
     df'!4.                                                                     %! brass_manifest_rhythm
 
     ef'!4.                                                                     %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIII measure 115 / measure 7]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 115 / measure 7]                               %! _comment_measure_numbers
     ef'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4
 
-    % [P HornVoiceIII measure 116 / measure 8]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 116 / measure 8]                               %! _comment_measure_numbers
     df'!2..                                                                    %! brass_manifest_rhythm
 
     ef'!8                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIII measure 117 / measure 9]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 117 / measure 9]                               %! _comment_measure_numbers
     ef'!2.                                                                     %! brass_manifest_rhythm
 
     r4
 
-    % [P HornVoiceIII measure 118 / measure 10]                                %! _comment_measure_numbers
+    % [P Horn_Voice_III measure 118 / measure 10]                              %! _comment_measure_numbers
     df'!2                                                                      %! brass_manifest_rhythm
 
 }                                                                              %! extern
 
 
-P_HornVoiceIII = {                                                             %! extern
+P_Horn_Voice_III = {                                                           %! extern
 
-    \P_HornVoiceIII_a                                                          %! extern
+    \P_Horn_Voice_III_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-P_HornStaffI = <<                                                              %! extern
+P_Horn_Staff_I = <<                                                            %! extern
 
-    \context Voice = "HornVoiceI"                                              %! ScoreTemplate
-    \P_HornVoiceI                                                              %! extern
+    \context Voice = "Horn_Voice_I"                                            %! ScoreTemplate
+    \P_Horn_Voice_I                                                            %! extern
 
-    \context Voice = "HornVoiceIII"                                            %! ScoreTemplate
-    \P_HornVoiceIII                                                            %! extern
+    \context Voice = "Horn_Voice_III"                                          %! ScoreTemplate
+    \P_Horn_Voice_III                                                          %! extern
 
 >>                                                                             %! extern
 
 
-P_HornVoiceII_a = {                                                            %! extern
+P_Horn_Voice_II_a = {                                                          %! extern
 
-    % [P HornVoiceII measure 109 / measure 1]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 109 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -787,7 +787,7 @@ P_HornVoiceII_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P HornVoiceII measure 110 / measure 2]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 110 / measure 2]                                %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
@@ -803,7 +803,7 @@ P_HornVoiceII_a = {                                                            %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceII measure 111 / measure 3]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 111 / measure 3]                                %! _comment_measure_numbers
     d'2.                                                                       %! brass_manifest_rhythm
     ~
 
@@ -816,7 +816,7 @@ P_HornVoiceII_a = {                                                            %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceII measure 112 / measure 4]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 112 / measure 4]                                %! _comment_measure_numbers
     e'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -834,7 +834,7 @@ P_HornVoiceII_a = {                                                            %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceII measure 113 / measure 5]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 113 / measure 5]                                %! _comment_measure_numbers
     d'2.                                                                       %! brass_manifest_rhythm
     ~
 
@@ -847,14 +847,14 @@ P_HornVoiceII_a = {                                                            %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P HornVoiceII measure 114 / measure 6]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 114 / measure 6]                                %! _comment_measure_numbers
     e'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P HornVoiceII measure 115 / measure 7]                              %! _comment_measure_numbers
+        % [P Horn_Voice_II measure 115 / measure 7]                            %! _comment_measure_numbers
         r4                                                                     %! brass_manifest_rhythm
 
         d'8                                                                    %! brass_manifest_rhythm
@@ -869,7 +869,7 @@ P_HornVoiceII_a = {                                                            %
     d'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceII measure 116 / measure 8]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 116 / measure 8]                                %! _comment_measure_numbers
     d'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -885,7 +885,7 @@ P_HornVoiceII_a = {                                                            %
     e'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceII measure 117 / measure 9]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 117 / measure 9]                                %! _comment_measure_numbers
     e'4                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -902,7 +902,7 @@ P_HornVoiceII_a = {                                                            %
     d'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceII measure 118 / measure 10]                                 %! _comment_measure_numbers
+    % [P Horn_Voice_II measure 118 / measure 10]                               %! _comment_measure_numbers
     d'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -917,16 +917,16 @@ P_HornVoiceII_a = {                                                            %
 }                                                                              %! extern
 
 
-P_HornVoiceII = {                                                              %! extern
+P_Horn_Voice_II = {                                                            %! extern
 
-    \P_HornVoiceII_a                                                           %! extern
+    \P_Horn_Voice_II_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-P_HornVoiceIV_a = {                                                            %! extern
+P_Horn_Voice_IV_a = {                                                          %! extern
 
-    % [P HornVoiceIV measure 109 / measure 1]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 109 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     r4.
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -940,13 +940,13 @@ P_HornVoiceIV_a = {                                                            %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceIV measure 110 / measure 2]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 110 / measure 2]                                %! _comment_measure_numbers
     df'!2                                                                      %! brass_manifest_rhythm
 
     ef'!4                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIV measure 111 / measure 3]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 111 / measure 3]                                %! _comment_measure_numbers
     ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
@@ -969,13 +969,13 @@ P_HornVoiceIV_a = {                                                            %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceIV measure 112 / measure 4]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 112 / measure 4]                                %! _comment_measure_numbers
     df'!2.                                                                     %! brass_manifest_rhythm
 
     ef'!4                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIV measure 113 / measure 5]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 113 / measure 5]                                %! _comment_measure_numbers
     ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
@@ -998,16 +998,16 @@ P_HornVoiceIV_a = {                                                            %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P HornVoiceIV measure 114 / measure 6]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 114 / measure 6]                                %! _comment_measure_numbers
     df'!2.                                                                     %! brass_manifest_rhythm
 
-    % [P HornVoiceIV measure 115 / measure 7]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 115 / measure 7]                                %! _comment_measure_numbers
     ef'!2.                                                                     %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P HornVoiceIV measure 116 / measure 8]                              %! _comment_measure_numbers
+        % [P Horn_Voice_IV measure 116 / measure 8]                            %! _comment_measure_numbers
         ef'!4                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1024,7 +1024,7 @@ P_HornVoiceIV_a = {                                                            %
     df'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P HornVoiceIV measure 117 / measure 9]                                  %! _comment_measure_numbers
+    % [P Horn_Voice_IV measure 117 / measure 9]                                %! _comment_measure_numbers
     df'!4                                                                      %! brass_manifest_rhythm
 
     ef'!2.                                                                     %! brass_manifest_rhythm
@@ -1032,7 +1032,7 @@ P_HornVoiceIV_a = {                                                            %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P HornVoiceIV measure 118 / measure 10]                             %! _comment_measure_numbers
+        % [P Horn_Voice_IV measure 118 / measure 10]                           %! _comment_measure_numbers
         ef'!4                                                                  %! brass_manifest_rhythm
 
         r8                                                                     %! brass_manifest_rhythm
@@ -1046,27 +1046,27 @@ P_HornVoiceIV_a = {                                                            %
 }                                                                              %! extern
 
 
-P_HornVoiceIV = {                                                              %! extern
+P_Horn_Voice_IV = {                                                            %! extern
 
-    \P_HornVoiceIV_a                                                           %! extern
+    \P_Horn_Voice_IV_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-P_HornStaffII = <<                                                             %! extern
+P_Horn_Staff_II = <<                                                           %! extern
 
-    \context Voice = "HornVoiceII"                                             %! ScoreTemplate
-    \P_HornVoiceII                                                             %! extern
+    \context Voice = "Horn_Voice_II"                                           %! ScoreTemplate
+    \P_Horn_Voice_II                                                           %! extern
 
-    \context Voice = "HornVoiceIV"                                             %! ScoreTemplate
-    \P_HornVoiceIV                                                             %! extern
+    \context Voice = "Horn_Voice_IV"                                           %! ScoreTemplate
+    \P_Horn_Voice_IV                                                           %! extern
 
 >>                                                                             %! extern
 
 
-P_TrumpetVoiceI_a = {                                                          %! extern
+P_Trumpet_Voice_I_a = {                                                        %! extern
 
-    % [P TrumpetVoiceI measure 109 / measure 1]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 109 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1101,21 +1101,21 @@ P_TrumpetVoiceI_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P TrumpetVoiceI measure 110 / measure 2]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 110 / measure 2]                              %! _comment_measure_numbers
     gf'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [P TrumpetVoiceI measure 111 / measure 3]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 111 / measure 3]                              %! _comment_measure_numbers
     af'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4
 
-    % [P TrumpetVoiceI measure 112 / measure 4]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 112 / measure 4]                              %! _comment_measure_numbers
     gf'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1125,7 +1125,7 @@ P_TrumpetVoiceI_a = {                                                          %
     af'!4                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceI measure 113 / measure 5]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 113 / measure 5]                              %! _comment_measure_numbers
     af'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1139,13 +1139,13 @@ P_TrumpetVoiceI_a = {                                                          %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TrumpetVoiceI measure 114 / measure 6]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 114 / measure 6]                              %! _comment_measure_numbers
     gf'!2                                                                      %! brass_manifest_rhythm
 
     af'!4                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceI measure 115 / measure 7]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 115 / measure 7]                              %! _comment_measure_numbers
     af'!2                                                                      %! brass_manifest_rhythm
     ~
 
@@ -1159,7 +1159,7 @@ P_TrumpetVoiceI_a = {                                                          %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceI measure 116 / measure 8]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 116 / measure 8]                              %! _comment_measure_numbers
     gf'!2.                                                                     %! brass_manifest_rhythm
     ~
 
@@ -1172,7 +1172,7 @@ P_TrumpetVoiceI_a = {                                                          %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceI measure 117 / measure 9]                                %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 117 / measure 9]                              %! _comment_measure_numbers
     af'!2                                                                      %! brass_manifest_rhythm
     ~
 
@@ -1189,22 +1189,22 @@ P_TrumpetVoiceI_a = {                                                          %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceI measure 118 / measure 10]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_I measure 118 / measure 10]                             %! _comment_measure_numbers
     gf'!2                                                                      %! brass_manifest_rhythm
 
 }                                                                              %! extern
 
 
-P_TrumpetVoiceI = {                                                            %! extern
+P_Trumpet_Voice_I = {                                                          %! extern
 
-    \P_TrumpetVoiceI_a                                                         %! extern
+    \P_Trumpet_Voice_I_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-P_TrumpetVoiceIII_a = {                                                        %! extern
+P_Trumpet_Voice_III_a = {                                                      %! extern
 
-    % [P TrumpetVoiceIII measure 109 / measure 1]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 109 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     f'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1213,13 +1213,13 @@ P_TrumpetVoiceIII_a = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [P TrumpetVoiceIII measure 110 / measure 2]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 110 / measure 2]                            %! _comment_measure_numbers
     g'2.                                                                       %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TrumpetVoiceIII measure 111 / measure 3]                          %! _comment_measure_numbers
+        % [P Trumpet_Voice_III measure 111 / measure 3]                        %! _comment_measure_numbers
         g'8                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1237,7 +1237,7 @@ P_TrumpetVoiceIII_a = {                                                        %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TrumpetVoiceIII measure 112 / measure 4]                          %! _comment_measure_numbers
+        % [P Trumpet_Voice_III measure 112 / measure 4]                        %! _comment_measure_numbers
         f'8                                                                    %! brass_manifest_rhythm
 
         g'4                                                                    %! brass_manifest_rhythm
@@ -1256,7 +1256,7 @@ P_TrumpetVoiceIII_a = {                                                        %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TrumpetVoiceIII measure 113 / measure 5]                          %! _comment_measure_numbers
+        % [P Trumpet_Voice_III measure 113 / measure 5]                        %! _comment_measure_numbers
         r8                                                                     %! brass_manifest_rhythm
 
         f'4                                                                    %! brass_manifest_rhythm
@@ -1278,7 +1278,7 @@ P_TrumpetVoiceIII_a = {                                                        %
     ~
     ]                                                                          %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceIII measure 114 / measure 6]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 114 / measure 6]                            %! _comment_measure_numbers
     g'2                                                                        %! brass_manifest_rhythm
     ~
 
@@ -1288,7 +1288,7 @@ P_TrumpetVoiceIII_a = {                                                        %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceIII measure 115 / measure 7]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 115 / measure 7]                            %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     f'8                                                                        %! brass_manifest_rhythm
@@ -1297,7 +1297,7 @@ P_TrumpetVoiceIII_a = {                                                        %
     f'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIII measure 116 / measure 8]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 116 / measure 8]                            %! _comment_measure_numbers
     f'8                                                                        %! brass_manifest_rhythm
     [                                                                          %! brass_manifest_rhythm
 
@@ -1312,7 +1312,7 @@ P_TrumpetVoiceIII_a = {                                                        %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceIII measure 117 / measure 9]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 117 / measure 9]                            %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     f'8                                                                        %! brass_manifest_rhythm
@@ -1328,33 +1328,33 @@ P_TrumpetVoiceIII_a = {                                                        %
     ~
     ]                                                                          %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceIII measure 118 / measure 10]                             %! _comment_measure_numbers
+    % [P Trumpet_Voice_III measure 118 / measure 10]                           %! _comment_measure_numbers
     g'2                                                                        %! brass_manifest_rhythm
 
 }                                                                              %! extern
 
 
-P_TrumpetVoiceIII = {                                                          %! extern
+P_Trumpet_Voice_III = {                                                        %! extern
 
-    \P_TrumpetVoiceIII_a                                                       %! extern
+    \P_Trumpet_Voice_III_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-P_TrumpetStaffI = <<                                                           %! extern
+P_Trumpet_Staff_I = <<                                                         %! extern
 
-    \context Voice = "TrumpetVoiceI"                                           %! ScoreTemplate
-    \P_TrumpetVoiceI                                                           %! extern
+    \context Voice = "Trumpet_Voice_I"                                         %! ScoreTemplate
+    \P_Trumpet_Voice_I                                                         %! extern
 
-    \context Voice = "TrumpetVoiceIII"                                         %! ScoreTemplate
-    \P_TrumpetVoiceIII                                                         %! extern
+    \context Voice = "Trumpet_Voice_III"                                       %! ScoreTemplate
+    \P_Trumpet_Voice_III                                                       %! extern
 
 >>                                                                             %! extern
 
 
-P_TrumpetVoiceII_a = {                                                         %! extern
+P_Trumpet_Voice_II_a = {                                                       %! extern
 
-    % [P TrumpetVoiceII measure 109 / measure 1]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 109 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1389,7 +1389,7 @@ P_TrumpetVoiceII_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P TrumpetVoiceII measure 110 / measure 2]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 110 / measure 2]                             %! _comment_measure_numbers
     r4.
 
     gf'!4.                                                                     %! brass_manifest_rhythm
@@ -1399,7 +1399,7 @@ P_TrumpetVoiceII_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TrumpetVoiceII measure 111 / measure 3]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 111 / measure 3]                             %! _comment_measure_numbers
     gf'!4.                                                                     %! brass_manifest_rhythm
 
     af'!8                                                                      %! brass_manifest_rhythm
@@ -1408,7 +1408,7 @@ P_TrumpetVoiceII_a = {                                                         %
     af'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceII measure 112 / measure 4]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 112 / measure 4]                             %! _comment_measure_numbers
     af'!8                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1427,7 +1427,7 @@ P_TrumpetVoiceII_a = {                                                         %
     gf'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceII measure 113 / measure 5]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 113 / measure 5]                             %! _comment_measure_numbers
     gf'!8                                                                      %! brass_manifest_rhythm
     [                                                                          %! brass_manifest_rhythm
 
@@ -1448,7 +1448,7 @@ P_TrumpetVoiceII_a = {                                                         %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceII measure 114 / measure 6]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 114 / measure 6]                             %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     gf'!8                                                                      %! brass_manifest_rhythm
@@ -1463,7 +1463,7 @@ P_TrumpetVoiceII_a = {                                                         %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TrumpetVoiceII measure 115 / measure 7]                           %! _comment_measure_numbers
+        % [P Trumpet_Voice_II measure 115 / measure 7]                         %! _comment_measure_numbers
         gf'!4                                                                  %! brass_manifest_rhythm
 
         af'!8                                                                  %! brass_manifest_rhythm
@@ -1474,7 +1474,7 @@ P_TrumpetVoiceII_a = {                                                         %
     af'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceII measure 116 / measure 8]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 116 / measure 8]                             %! _comment_measure_numbers
     af'!4                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1491,12 +1491,12 @@ P_TrumpetVoiceII_a = {                                                         %
     gf'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceII measure 117 / measure 9]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 117 / measure 9]                             %! _comment_measure_numbers
     gf'!4                                                                      %! brass_manifest_rhythm
 
     af'!2.                                                                     %! brass_manifest_rhythm
 
-    % [P TrumpetVoiceII measure 118 / measure 10]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_II measure 118 / measure 10]                            %! _comment_measure_numbers
     r4
 
     gf'!4                                                                      %! brass_manifest_rhythm
@@ -1504,16 +1504,16 @@ P_TrumpetVoiceII_a = {                                                         %
 }                                                                              %! extern
 
 
-P_TrumpetVoiceII = {                                                           %! extern
+P_Trumpet_Voice_II = {                                                         %! extern
 
-    \P_TrumpetVoiceII_a                                                        %! extern
+    \P_Trumpet_Voice_II_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-P_TrumpetVoiceIV_a = {                                                         %! extern
+P_Trumpet_Voice_IV_a = {                                                       %! extern
 
-    % [P TrumpetVoiceIV measure 109 / measure 1]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 109 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     r4.
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1527,7 +1527,7 @@ P_TrumpetVoiceIV_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TrumpetVoiceIV measure 110 / measure 2]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 110 / measure 2]                             %! _comment_measure_numbers
     f'4                                                                        %! brass_manifest_rhythm
     ~
 
@@ -1543,7 +1543,7 @@ P_TrumpetVoiceIV_a = {                                                         %
     g'4                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 111 / measure 3]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 111 / measure 3]                             %! _comment_measure_numbers
     g'2                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1564,13 +1564,13 @@ P_TrumpetVoiceIV_a = {                                                         %
     f'4                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 112 / measure 4]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 112 / measure 4]                             %! _comment_measure_numbers
     f'2                                                                        %! brass_manifest_rhythm
 
     g'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 113 / measure 5]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 113 / measure 5]                             %! _comment_measure_numbers
     g'4                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1584,13 +1584,13 @@ P_TrumpetVoiceIV_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TrumpetVoiceIV measure 114 / measure 6]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 114 / measure 6]                             %! _comment_measure_numbers
     f'4                                                                        %! brass_manifest_rhythm
 
     g'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 115 / measure 7]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 115 / measure 7]                             %! _comment_measure_numbers
     g'4                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1600,13 +1600,13 @@ P_TrumpetVoiceIV_a = {                                                         %
     f'4                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 116 / measure 8]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 116 / measure 8]                             %! _comment_measure_numbers
     f'2                                                                        %! brass_manifest_rhythm
 
     g'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 117 / measure 9]                               %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 117 / measure 9]                             %! _comment_measure_numbers
     g'4                                                                        %! brass_manifest_rhythm
 
     r4
@@ -1614,7 +1614,7 @@ P_TrumpetVoiceIV_a = {                                                         %
     f'2                                                                        %! brass_manifest_rhythm
     ~
 
-    % [P TrumpetVoiceIV measure 118 / measure 10]                              %! _comment_measure_numbers
+    % [P Trumpet_Voice_IV measure 118 / measure 10]                            %! _comment_measure_numbers
     f'4                                                                        %! brass_manifest_rhythm
 
     g'4                                                                        %! brass_manifest_rhythm
@@ -1622,27 +1622,27 @@ P_TrumpetVoiceIV_a = {                                                         %
 }                                                                              %! extern
 
 
-P_TrumpetVoiceIV = {                                                           %! extern
+P_Trumpet_Voice_IV = {                                                         %! extern
 
-    \P_TrumpetVoiceIV_a                                                        %! extern
+    \P_Trumpet_Voice_IV_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-P_TrumpetStaffII = <<                                                          %! extern
+P_Trumpet_Staff_II = <<                                                        %! extern
 
-    \context Voice = "TrumpetVoiceII"                                          %! ScoreTemplate
-    \P_TrumpetVoiceII                                                          %! extern
+    \context Voice = "Trumpet_Voice_II"                                        %! ScoreTemplate
+    \P_Trumpet_Voice_II                                                        %! extern
 
-    \context Voice = "TrumpetVoiceIV"                                          %! ScoreTemplate
-    \P_TrumpetVoiceIV                                                          %! extern
+    \context Voice = "Trumpet_Voice_IV"                                        %! ScoreTemplate
+    \P_Trumpet_Voice_IV                                                        %! extern
 
 >>                                                                             %! extern
 
 
-P_TromboneVoiceI_a = {                                                         %! extern
+P_Trombone_Voice_I_a = {                                                       %! extern
 
-    % [P TromboneVoiceI measure 109 / measure 1]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 109 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1677,7 +1677,7 @@ P_TromboneVoiceI_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P TromboneVoiceI measure 110 / measure 2]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 110 / measure 2]                             %! _comment_measure_numbers
     r4
 
     gf!2                                                                       %! brass_manifest_rhythm
@@ -1687,7 +1687,7 @@ P_TromboneVoiceI_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceI measure 111 / measure 3]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 111 / measure 3]                             %! _comment_measure_numbers
     gf!4                                                                       %! brass_manifest_rhythm
 
     af!2                                                                       %! brass_manifest_rhythm
@@ -1700,7 +1700,7 @@ P_TromboneVoiceI_a = {                                                         %
     ~
     ]                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceI measure 112 / measure 4]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 112 / measure 4]                             %! _comment_measure_numbers
     gf!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1714,7 +1714,7 @@ P_TromboneVoiceI_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceI measure 113 / measure 5]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 113 / measure 5]                             %! _comment_measure_numbers
     af!4                                                                       %! brass_manifest_rhythm
     ~
 
@@ -1730,7 +1730,7 @@ P_TromboneVoiceI_a = {                                                         %
     gf!2                                                                       %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceI measure 114 / measure 6]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 114 / measure 6]                             %! _comment_measure_numbers
     gf!8                                                                       %! brass_manifest_rhythm
     [                                                                          %! brass_manifest_rhythm
 
@@ -1742,7 +1742,7 @@ P_TromboneVoiceI_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    % [P TromboneVoiceI measure 115 / measure 7]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 115 / measure 7]                             %! _comment_measure_numbers
     r4
 
     gf!2                                                                       %! brass_manifest_rhythm
@@ -1752,7 +1752,7 @@ P_TromboneVoiceI_a = {                                                         %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceI measure 116 / measure 8]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 116 / measure 8]                             %! _comment_measure_numbers
     gf!8                                                                       %! brass_manifest_rhythm
     [                                                                          %! brass_manifest_rhythm
 
@@ -1772,7 +1772,7 @@ P_TromboneVoiceI_a = {                                                         %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceI measure 117 / measure 9]                               %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 117 / measure 9]                             %! _comment_measure_numbers
     gf!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1782,7 +1782,7 @@ P_TromboneVoiceI_a = {                                                         %
     af!4                                                                       %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceI measure 118 / measure 10]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_I measure 118 / measure 10]                            %! _comment_measure_numbers
     af!4.                                                                      %! brass_manifest_rhythm
 
     gf!8                                                                       %! brass_manifest_rhythm
@@ -1790,16 +1790,16 @@ P_TromboneVoiceI_a = {                                                         %
 }                                                                              %! extern
 
 
-P_TromboneVoiceI = {                                                           %! extern
+P_Trombone_Voice_I = {                                                         %! extern
 
-    \P_TromboneVoiceI_a                                                        %! extern
+    \P_Trombone_Voice_I_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-P_TromboneVoiceIII_a = {                                                       %! extern
+P_Trombone_Voice_III_a = {                                                     %! extern
 
-    % [P TromboneVoiceIII measure 109 / measure 1]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 109 / measure 1]                           %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     f2                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1818,7 +1818,7 @@ P_TromboneVoiceIII_a = {                                                       %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceIII measure 110 / measure 2]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 110 / measure 2]                           %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm
     ~
 
@@ -1829,7 +1829,7 @@ P_TromboneVoiceIII_a = {                                                       %
     ~
     ]                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceIII measure 111 / measure 3]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 111 / measure 3]                           %! _comment_measure_numbers
     f2                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1843,7 +1843,7 @@ P_TromboneVoiceIII_a = {                                                       %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceIII measure 112 / measure 4]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 112 / measure 4]                           %! _comment_measure_numbers
     g4.                                                                        %! brass_manifest_rhythm
 
     f8                                                                         %! brass_manifest_rhythm
@@ -1854,7 +1854,7 @@ P_TromboneVoiceIII_a = {                                                       %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TromboneVoiceIII measure 113 / measure 5]                         %! _comment_measure_numbers
+        % [P Trombone_Voice_III measure 113 / measure 5]                       %! _comment_measure_numbers
         f8                                                                     %! brass_manifest_rhythm
 
         g4                                                                     %! brass_manifest_rhythm
@@ -1868,7 +1868,7 @@ P_TromboneVoiceIII_a = {                                                       %
 
     r4
 
-    % [P TromboneVoiceIII measure 114 / measure 6]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 114 / measure 6]                           %! _comment_measure_numbers
     f2                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1883,13 +1883,13 @@ P_TromboneVoiceIII_a = {                                                       %
     ~
     ]                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceIII measure 115 / measure 7]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 115 / measure 7]                           %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm
 
     f4                                                                         %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceIII measure 116 / measure 8]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 116 / measure 8]                           %! _comment_measure_numbers
     f2                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1906,7 +1906,7 @@ P_TromboneVoiceIII_a = {                                                       %
     g4                                                                         %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceIII measure 117 / measure 9]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 117 / measure 9]                           %! _comment_measure_numbers
     g4.                                                                        %! brass_manifest_rhythm
 
     f8                                                                         %! brass_manifest_rhythm
@@ -1914,33 +1914,33 @@ P_TromboneVoiceIII_a = {                                                       %
 
     f2                                                                         %! brass_manifest_rhythm
 
-    % [P TromboneVoiceIII measure 118 / measure 10]                            %! _comment_measure_numbers
+    % [P Trombone_Voice_III measure 118 / measure 10]                          %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm
 
 }                                                                              %! extern
 
 
-P_TromboneVoiceIII = {                                                         %! extern
+P_Trombone_Voice_III = {                                                       %! extern
 
-    \P_TromboneVoiceIII_a                                                      %! extern
+    \P_Trombone_Voice_III_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-P_TromboneStaffI = <<                                                          %! extern
+P_Trombone_Staff_I = <<                                                        %! extern
 
-    \context Voice = "TromboneVoiceI"                                          %! ScoreTemplate
-    \P_TromboneVoiceI                                                          %! extern
+    \context Voice = "Trombone_Voice_I"                                        %! ScoreTemplate
+    \P_Trombone_Voice_I                                                        %! extern
 
-    \context Voice = "TromboneVoiceIII"                                        %! ScoreTemplate
-    \P_TromboneVoiceIII                                                        %! extern
+    \context Voice = "Trombone_Voice_III"                                      %! ScoreTemplate
+    \P_Trombone_Voice_III                                                      %! extern
 
 >>                                                                             %! extern
 
 
-P_TromboneVoiceII_a = {                                                        %! extern
+P_Trombone_Voice_II_a = {                                                      %! extern
 
-    % [P TromboneVoiceII measure 109 / measure 1]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 109 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1975,7 +1975,7 @@ P_TromboneVoiceII_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P TromboneVoiceII measure 110 / measure 2]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 110 / measure 2]                            %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
@@ -1991,7 +1991,7 @@ P_TromboneVoiceII_a = {                                                        %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceII measure 111 / measure 3]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 111 / measure 3]                            %! _comment_measure_numbers
     gf!2                                                                       %! brass_manifest_rhythm
     ~
 
@@ -2000,7 +2000,7 @@ P_TromboneVoiceII_a = {                                                        %
     af!4.                                                                      %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceII measure 112 / measure 4]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 112 / measure 4]                            %! _comment_measure_numbers
     af!4                                                                       %! brass_manifest_rhythm
 
     gf!2                                                                       %! brass_manifest_rhythm
@@ -2016,7 +2016,7 @@ P_TromboneVoiceII_a = {                                                        %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceII measure 113 / measure 5]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 113 / measure 5]                            %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     af!8                                                                       %! brass_manifest_rhythm
@@ -2038,13 +2038,13 @@ P_TromboneVoiceII_a = {                                                        %
 
     }                                                                          %! brass_manifest_rhythm
 
-    % [P TromboneVoiceII measure 114 / measure 6]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 114 / measure 6]                            %! _comment_measure_numbers
     gf!2                                                                       %! brass_manifest_rhythm
 
     af!4                                                                       %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceII measure 115 / measure 7]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 115 / measure 7]                            %! _comment_measure_numbers
     af!4.                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2060,13 +2060,13 @@ P_TromboneVoiceII_a = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceII measure 116 / measure 8]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 116 / measure 8]                            %! _comment_measure_numbers
     gf!2                                                                       %! brass_manifest_rhythm
 
     af!2                                                                       %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceII measure 117 / measure 9]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 117 / measure 9]                            %! _comment_measure_numbers
     af!4                                                                       %! brass_manifest_rhythm
 
     gf!2                                                                       %! brass_manifest_rhythm
@@ -2078,7 +2078,7 @@ P_TromboneVoiceII_a = {                                                        %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    % [P TromboneVoiceII measure 118 / measure 10]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_II measure 118 / measure 10]                           %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     af!4.                                                                      %! brass_manifest_rhythm
@@ -2086,16 +2086,16 @@ P_TromboneVoiceII_a = {                                                        %
 }                                                                              %! extern
 
 
-P_TromboneVoiceII = {                                                          %! extern
+P_Trombone_Voice_II = {                                                        %! extern
 
-    \P_TromboneVoiceII_a                                                       %! extern
+    \P_Trombone_Voice_II_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-P_TromboneVoiceIV_a = {                                                        %! extern
+P_Trombone_Voice_IV_a = {                                                      %! extern
 
-    % [P TromboneVoiceIV measure 109 / measure 1]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 109 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     r4.
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2109,7 +2109,7 @@ P_TromboneVoiceIV_a = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceIV measure 110 / measure 2]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 110 / measure 2]                            %! _comment_measure_numbers
     f4                                                                         %! brass_manifest_rhythm
     ~
 
@@ -2125,7 +2125,7 @@ P_TromboneVoiceIV_a = {                                                        %
     g4                                                                         %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceIV measure 111 / measure 3]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 111 / measure 3]                            %! _comment_measure_numbers
     g4                                                                         %! brass_manifest_rhythm
 
     f2                                                                         %! brass_manifest_rhythm
@@ -2137,7 +2137,7 @@ P_TromboneVoiceIV_a = {                                                        %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    % [P TromboneVoiceIV measure 112 / measure 4]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 112 / measure 4]                            %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     g8                                                                         %! brass_manifest_rhythm
@@ -2152,13 +2152,13 @@ P_TromboneVoiceIV_a = {                                                        %
     f4                                                                         %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceIV measure 113 / measure 5]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 113 / measure 5]                            %! _comment_measure_numbers
     f2                                                                         %! brass_manifest_rhythm
 
     g2                                                                         %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceIV measure 114 / measure 6]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 114 / measure 6]                            %! _comment_measure_numbers
     g8                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2174,7 +2174,7 @@ P_TromboneVoiceIV_a = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    % [P TromboneVoiceIV measure 115 / measure 7]                              %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 115 / measure 7]                            %! _comment_measure_numbers
     f4                                                                         %! brass_manifest_rhythm
 
     g2                                                                         %! brass_manifest_rhythm
@@ -2182,7 +2182,7 @@ P_TromboneVoiceIV_a = {                                                        %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TromboneVoiceIV measure 116 / measure 8]                          %! _comment_measure_numbers
+        % [P Trombone_Voice_IV measure 116 / measure 8]                        %! _comment_measure_numbers
         g4                                                                     %! brass_manifest_rhythm
 
         f8                                                                     %! brass_manifest_rhythm
@@ -2201,7 +2201,7 @@ P_TromboneVoiceIV_a = {                                                        %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        % [P TromboneVoiceIV measure 117 / measure 9]                          %! _comment_measure_numbers
+        % [P Trombone_Voice_IV measure 117 / measure 9]                        %! _comment_measure_numbers
         r8                                                                     %! brass_manifest_rhythm
 
         g4                                                                     %! brass_manifest_rhythm
@@ -2214,7 +2214,7 @@ P_TromboneVoiceIV_a = {                                                        %
     f4                                                                         %! brass_manifest_rhythm
     ~
 
-    % [P TromboneVoiceIV measure 118 / measure 10]                             %! _comment_measure_numbers
+    % [P Trombone_Voice_IV measure 118 / measure 10]                           %! _comment_measure_numbers
     f4.                                                                        %! brass_manifest_rhythm
 
     g8                                                                         %! brass_manifest_rhythm
@@ -2222,27 +2222,27 @@ P_TromboneVoiceIV_a = {                                                        %
 }                                                                              %! extern
 
 
-P_TromboneVoiceIV = {                                                          %! extern
+P_Trombone_Voice_IV = {                                                        %! extern
 
-    \P_TromboneVoiceIV_a                                                       %! extern
+    \P_Trombone_Voice_IV_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-P_TromboneStaffII = <<                                                         %! extern
+P_Trombone_Staff_II = <<                                                       %! extern
 
-    \context Voice = "TromboneVoiceII"                                         %! ScoreTemplate
-    \P_TromboneVoiceII                                                         %! extern
+    \context Voice = "Trombone_Voice_II"                                       %! ScoreTemplate
+    \P_Trombone_Voice_II                                                       %! extern
 
-    \context Voice = "TromboneVoiceIV"                                         %! ScoreTemplate
-    \P_TromboneVoiceIV                                                         %! extern
+    \context Voice = "Trombone_Voice_IV"                                       %! ScoreTemplate
+    \P_Trombone_Voice_IV                                                       %! extern
 
 >>                                                                             %! extern
 
 
-P_FirstViolinVoiceI_a = {                                                      %! extern
+P_First_Violin_Voice_I_a = {                                                   %! extern
 
-    % [P FirstViolinVoiceI measure 109 / measure 1]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 109 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2298,13 +2298,13 @@ P_FirstViolinVoiceI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P FirstViolinVoiceI measure 110 / measure 2]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 110 / measure 2]                         %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceI measure 111 / measure 3]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 111 / measure 3]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2320,31 +2320,31 @@ P_FirstViolinVoiceI_a = {                                                      %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P FirstViolinVoiceI measure 112 / measure 4]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 112 / measure 4]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceI measure 113 / measure 5]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 113 / measure 5]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceI measure 114 / measure 6]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 114 / measure 6]                         %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceI measure 115 / measure 7]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 115 / measure 7]                         %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceI measure 116 / measure 8]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 116 / measure 8]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2353,13 +2353,13 @@ P_FirstViolinVoiceI_a = {                                                      %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P FirstViolinVoiceI measure 117 / measure 9]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 117 / measure 9]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceI measure 118 / measure 10]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_I measure 118 / measure 10]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2373,16 +2373,16 @@ P_FirstViolinVoiceI_a = {                                                      %
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceI = {                                                        %! extern
+P_First_Violin_Voice_I = {                                                     %! extern
 
-    \P_FirstViolinVoiceI_a                                                     %! extern
+    \P_First_Violin_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceII_a = {                                                     %! extern
+P_First_Violin_Voice_II_a = {                                                  %! extern
 
-    % [P FirstViolinVoiceII measure 109 / measure 1]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 109 / measure 1]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     f''2.                                                                      %! baca_make_repeat_tied_notes
@@ -2397,13 +2397,13 @@ P_FirstViolinVoiceII_a = {                                                     %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P FirstViolinVoiceII measure 110 / measure 2]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 110 / measure 2]                        %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceII measure 111 / measure 3]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 111 / measure 3]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2419,31 +2419,31 @@ P_FirstViolinVoiceII_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P FirstViolinVoiceII measure 112 / measure 4]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 112 / measure 4]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceII measure 113 / measure 5]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 113 / measure 5]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceII measure 114 / measure 6]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 114 / measure 6]                        %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceII measure 115 / measure 7]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 115 / measure 7]                        %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceII measure 116 / measure 8]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 116 / measure 8]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2452,13 +2452,13 @@ P_FirstViolinVoiceII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P FirstViolinVoiceII measure 117 / measure 9]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 117 / measure 9]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceII measure 118 / measure 10]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_II measure 118 / measure 10]                       %! _comment_measure_numbers
     f''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2468,27 +2468,27 @@ P_FirstViolinVoiceII_a = {                                                     %
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceII = {                                                       %! extern
+P_First_Violin_Voice_II = {                                                    %! extern
 
-    \P_FirstViolinVoiceII_a                                                    %! extern
+    \P_First_Violin_Voice_II_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-P_FirstViolinStaffI = <<                                                       %! extern
+P_First_Violin_Staff_I = <<                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \P_FirstViolinVoiceI                                                       %! extern
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \P_First_Violin_Voice_I                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
-    \P_FirstViolinVoiceII                                                      %! extern
+    \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
+    \P_First_Violin_Voice_II                                                   %! extern
 
 >>                                                                             %! extern
 
 
-P_FirstViolinVoiceIII_a = {                                                    %! extern
+P_First_Violin_Voice_III_a = {                                                 %! extern
 
-    % [P FirstViolinVoiceIII measure 109 / measure 1]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 109 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2538,13 +2538,13 @@ P_FirstViolinVoiceIII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P FirstViolinVoiceIII measure 110 / measure 2]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 110 / measure 2]                       %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIII measure 111 / measure 3]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 111 / measure 3]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2560,31 +2560,31 @@ P_FirstViolinVoiceIII_a = {                                                    %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P FirstViolinVoiceIII measure 112 / measure 4]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 112 / measure 4]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIII measure 113 / measure 5]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 113 / measure 5]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIII measure 114 / measure 6]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 114 / measure 6]                       %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIII measure 115 / measure 7]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 115 / measure 7]                       %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIII measure 116 / measure 8]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 116 / measure 8]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2593,13 +2593,13 @@ P_FirstViolinVoiceIII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P FirstViolinVoiceIII measure 117 / measure 9]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 117 / measure 9]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIII measure 118 / measure 10]                         %! _comment_measure_numbers
+    % [P First_Violin_Voice_III measure 118 / measure 10]                      %! _comment_measure_numbers
     g''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2613,16 +2613,16 @@ P_FirstViolinVoiceIII_a = {                                                    %
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceIII = {                                                      %! extern
+P_First_Violin_Voice_III = {                                                   %! extern
 
-    \P_FirstViolinVoiceIII_a                                                   %! extern
+    \P_First_Violin_Voice_III_a                                                %! extern
 
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceIV_a = {                                                     %! extern
+P_First_Violin_Voice_IV_a = {                                                  %! extern
 
-    % [P FirstViolinVoiceIV measure 109 / measure 1]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 109 / measure 1]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     d''2.                                                                      %! baca_make_repeat_tied_notes
@@ -2637,13 +2637,13 @@ P_FirstViolinVoiceIV_a = {                                                     %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P FirstViolinVoiceIV measure 110 / measure 2]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 110 / measure 2]                        %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIV measure 111 / measure 3]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 111 / measure 3]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2659,31 +2659,31 @@ P_FirstViolinVoiceIV_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P FirstViolinVoiceIV measure 112 / measure 4]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 112 / measure 4]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIV measure 113 / measure 5]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 113 / measure 5]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIV measure 114 / measure 6]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 114 / measure 6]                        %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIV measure 115 / measure 7]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 115 / measure 7]                        %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIV measure 116 / measure 8]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 116 / measure 8]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2692,13 +2692,13 @@ P_FirstViolinVoiceIV_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P FirstViolinVoiceIV measure 117 / measure 9]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 117 / measure 9]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P FirstViolinVoiceIV measure 118 / measure 10]                          %! _comment_measure_numbers
+    % [P First_Violin_Voice_IV measure 118 / measure 10]                       %! _comment_measure_numbers
     d''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2708,27 +2708,27 @@ P_FirstViolinVoiceIV_a = {                                                     %
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceIV = {                                                       %! extern
+P_First_Violin_Voice_IV = {                                                    %! extern
 
-    \P_FirstViolinVoiceIV_a                                                    %! extern
+    \P_First_Violin_Voice_IV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-P_FirstViolinStaffII = <<                                                      %! extern
+P_First_Violin_Staff_II = <<                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
-    \P_FirstViolinVoiceIII                                                     %! extern
+    \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
+    \P_First_Violin_Voice_III                                                  %! extern
 
-    \context Voice = "FirstViolinVoiceIV"                                      %! ScoreTemplate
-    \P_FirstViolinVoiceIV                                                      %! extern
+    \context Voice = "First_Violin_Voice_IV"                                   %! ScoreTemplate
+    \P_First_Violin_Voice_IV                                                   %! extern
 
 >>                                                                             %! extern
 
 
-P_FirstViolinVoiceV_a = {                                                      %! extern
+P_First_Violin_Voice_V_a = {                                                   %! extern
 
-    % [P FirstViolinVoiceV measure 109 / measure 1]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 109 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2764,47 +2764,47 @@ P_FirstViolinVoiceV_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P FirstViolinVoiceV measure 110 / measure 2]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 110 / measure 2]                         %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 111 / measure 3]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 111 / measure 3]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 112 / measure 4]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 112 / measure 4]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 113 / measure 5]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 113 / measure 5]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 114 / measure 6]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 114 / measure 6]                         %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 115 / measure 7]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 115 / measure 7]                         %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 116 / measure 8]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 116 / measure 8]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 117 / measure 9]                            %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 117 / measure 9]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [P FirstViolinVoiceV measure 118 / measure 10]                           %! _comment_measure_numbers
+    % [P First_Violin_Voice_V measure 118 / measure 10]                        %! _comment_measure_numbers
     cs'!2                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
@@ -2812,24 +2812,24 @@ P_FirstViolinVoiceV_a = {                                                      %
 }                                                                              %! extern
 
 
-P_FirstViolinVoiceV = {                                                        %! extern
+P_First_Violin_Voice_V = {                                                     %! extern
 
-    \P_FirstViolinVoiceV_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-P_FirstViolinStaffIII = {                                                      %! extern
-
-    \context Voice = "FirstViolinVoiceV"                                       %! ScoreTemplate
-    \P_FirstViolinVoiceV                                                       %! extern
+    \P_First_Violin_Voice_V_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceI_a = {                                                     %! extern
+P_First_Violin_Staff_III = {                                                   %! extern
 
-    % [P SecondViolinVoiceI measure 109 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "First_Violin_Voice_V"                                    %! ScoreTemplate
+    \P_First_Violin_Voice_V                                                    %! extern
+
+}                                                                              %! extern
+
+
+P_Second_Violin_Voice_I_a = {                                                  %! extern
+
+    % [P Second_Violin_Voice_I measure 109 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2879,13 +2879,13 @@ P_SecondViolinVoiceI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P SecondViolinVoiceI measure 110 / measure 2]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 110 / measure 2]                        %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceI measure 111 / measure 3]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 111 / measure 3]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2902,33 +2902,33 @@ P_SecondViolinVoiceI_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P SecondViolinVoiceI measure 112 / measure 4]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 112 / measure 4]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [P SecondViolinVoiceI measure 113 / measure 5]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 113 / measure 5]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [P SecondViolinVoiceI measure 114 / measure 6]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 114 / measure 6]                        %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceI measure 115 / measure 7]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 115 / measure 7]                        %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceI measure 116 / measure 8]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 116 / measure 8]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2938,14 +2938,14 @@ P_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P SecondViolinVoiceI measure 117 / measure 9]                           %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 117 / measure 9]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [P SecondViolinVoiceI measure 118 / measure 10]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_I measure 118 / measure 10]                       %! _comment_measure_numbers
     b'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2959,16 +2959,16 @@ P_SecondViolinVoiceI_a = {                                                     %
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceI = {                                                       %! extern
+P_Second_Violin_Voice_I = {                                                    %! extern
 
-    \P_SecondViolinVoiceI_a                                                    %! extern
+    \P_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceII_a = {                                                    %! extern
+P_Second_Violin_Voice_II_a = {                                                 %! extern
 
-    % [P SecondViolinVoiceII measure 109 / measure 1]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 109 / measure 1]                       %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g'2.                                                                       %! baca_make_repeat_tied_notes
@@ -2983,13 +2983,13 @@ P_SecondViolinVoiceII_a = {                                                    %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P SecondViolinVoiceII measure 110 / measure 2]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 110 / measure 2]                       %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceII measure 111 / measure 3]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 111 / measure 3]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3005,31 +3005,31 @@ P_SecondViolinVoiceII_a = {                                                    %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P SecondViolinVoiceII measure 112 / measure 4]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 112 / measure 4]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceII measure 113 / measure 5]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 113 / measure 5]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceII measure 114 / measure 6]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 114 / measure 6]                       %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceII measure 115 / measure 7]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 115 / measure 7]                       %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceII measure 116 / measure 8]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 116 / measure 8]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3038,13 +3038,13 @@ P_SecondViolinVoiceII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P SecondViolinVoiceII measure 117 / measure 9]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 117 / measure 9]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceII measure 118 / measure 10]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_II measure 118 / measure 10]                      %! _comment_measure_numbers
     g'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3054,27 +3054,27 @@ P_SecondViolinVoiceII_a = {                                                    %
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceII = {                                                      %! extern
+P_Second_Violin_Voice_II = {                                                   %! extern
 
-    \P_SecondViolinVoiceII_a                                                   %! extern
+    \P_Second_Violin_Voice_II_a                                                %! extern
 
 }                                                                              %! extern
 
 
-P_SecondViolinStaffI = <<                                                      %! extern
+P_Second_Violin_Staff_I = <<                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \P_SecondViolinVoiceI                                                      %! extern
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \P_Second_Violin_Voice_I                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceII"                                     %! ScoreTemplate
-    \P_SecondViolinVoiceII                                                     %! extern
+    \context Voice = "Second_Violin_Voice_II"                                  %! ScoreTemplate
+    \P_Second_Violin_Voice_II                                                  %! extern
 
 >>                                                                             %! extern
 
 
-P_SecondViolinVoiceIII_a = {                                                   %! extern
+P_Second_Violin_Voice_III_a = {                                                %! extern
 
-    % [P SecondViolinVoiceIII measure 109 / measure 1]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 109 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3124,13 +3124,13 @@ P_SecondViolinVoiceIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P SecondViolinVoiceIII measure 110 / measure 2]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 110 / measure 2]                      %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIII measure 111 / measure 3]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 111 / measure 3]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3146,31 +3146,31 @@ P_SecondViolinVoiceIII_a = {                                                   %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P SecondViolinVoiceIII measure 112 / measure 4]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 112 / measure 4]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIII measure 113 / measure 5]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 113 / measure 5]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIII measure 114 / measure 6]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 114 / measure 6]                      %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIII measure 115 / measure 7]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 115 / measure 7]                      %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIII measure 116 / measure 8]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 116 / measure 8]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3179,13 +3179,13 @@ P_SecondViolinVoiceIII_a = {                                                   %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P SecondViolinVoiceIII measure 117 / measure 9]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 117 / measure 9]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIII measure 118 / measure 10]                        %! _comment_measure_numbers
+    % [P Second_Violin_Voice_III measure 118 / measure 10]                     %! _comment_measure_numbers
     a'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3199,16 +3199,16 @@ P_SecondViolinVoiceIII_a = {                                                   %
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceIII = {                                                     %! extern
+P_Second_Violin_Voice_III = {                                                  %! extern
 
-    \P_SecondViolinVoiceIII_a                                                  %! extern
+    \P_Second_Violin_Voice_III_a                                               %! extern
 
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceIV_a = {                                                    %! extern
+P_Second_Violin_Voice_IV_a = {                                                 %! extern
 
-    % [P SecondViolinVoiceIV measure 109 / measure 1]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 109 / measure 1]                       %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     f'2.                                                                       %! baca_make_repeat_tied_notes
@@ -3223,13 +3223,13 @@ P_SecondViolinVoiceIV_a = {                                                    %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P SecondViolinVoiceIV measure 110 / measure 2]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 110 / measure 2]                       %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIV measure 111 / measure 3]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 111 / measure 3]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3245,31 +3245,31 @@ P_SecondViolinVoiceIV_a = {                                                    %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P SecondViolinVoiceIV measure 112 / measure 4]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 112 / measure 4]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIV measure 113 / measure 5]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 113 / measure 5]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIV measure 114 / measure 6]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 114 / measure 6]                       %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIV measure 115 / measure 7]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 115 / measure 7]                       %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIV measure 116 / measure 8]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 116 / measure 8]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3278,13 +3278,13 @@ P_SecondViolinVoiceIV_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P SecondViolinVoiceIV measure 117 / measure 9]                          %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 117 / measure 9]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P SecondViolinVoiceIV measure 118 / measure 10]                         %! _comment_measure_numbers
+    % [P Second_Violin_Voice_IV measure 118 / measure 10]                      %! _comment_measure_numbers
     f'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3294,27 +3294,27 @@ P_SecondViolinVoiceIV_a = {                                                    %
 }                                                                              %! extern
 
 
-P_SecondViolinVoiceIV = {                                                      %! extern
+P_Second_Violin_Voice_IV = {                                                   %! extern
 
-    \P_SecondViolinVoiceIV_a                                                   %! extern
+    \P_Second_Violin_Voice_IV_a                                                %! extern
 
 }                                                                              %! extern
 
 
-P_SecondViolinStaffII = <<                                                     %! extern
+P_Second_Violin_Staff_II = <<                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
-    \P_SecondViolinVoiceIII                                                    %! extern
+    \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
+    \P_Second_Violin_Voice_III                                                 %! extern
 
-    \context Voice = "SecondViolinVoiceIV"                                     %! ScoreTemplate
-    \P_SecondViolinVoiceIV                                                     %! extern
+    \context Voice = "Second_Violin_Voice_IV"                                  %! ScoreTemplate
+    \P_Second_Violin_Voice_IV                                                  %! extern
 
 >>                                                                             %! extern
 
 
-P_ViolaVoiceI_a = {                                                            %! extern
+P_Viola_Voice_I_a = {                                                          %! extern
 
-    % [P ViolaVoiceI measure 109 / measure 1]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 109 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3364,13 +3364,13 @@ P_ViolaVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P ViolaVoiceI measure 110 / measure 2]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 110 / measure 2]                                %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceI measure 111 / measure 3]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 111 / measure 3]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3386,31 +3386,31 @@ P_ViolaVoiceI_a = {                                                            %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P ViolaVoiceI measure 112 / measure 4]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 112 / measure 4]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceI measure 113 / measure 5]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 113 / measure 5]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceI measure 114 / measure 6]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 114 / measure 6]                                %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceI measure 115 / measure 7]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 115 / measure 7]                                %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceI measure 116 / measure 8]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 116 / measure 8]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3419,13 +3419,13 @@ P_ViolaVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P ViolaVoiceI measure 117 / measure 9]                                  %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 117 / measure 9]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceI measure 118 / measure 10]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_I measure 118 / measure 10]                               %! _comment_measure_numbers
     d'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3439,16 +3439,16 @@ P_ViolaVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-P_ViolaVoiceI = {                                                              %! extern
+P_Viola_Voice_I = {                                                            %! extern
 
-    \P_ViolaVoiceI_a                                                           %! extern
+    \P_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-P_ViolaVoiceII_a = {                                                           %! extern
+P_Viola_Voice_II_a = {                                                         %! extern
 
-    % [P ViolaVoiceII measure 109 / measure 1]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 109 / measure 1]                               %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     a2.                                                                        %! baca_make_repeat_tied_notes
@@ -3463,13 +3463,13 @@ P_ViolaVoiceII_a = {                                                           %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P ViolaVoiceII measure 110 / measure 2]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 110 / measure 2]                               %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceII measure 111 / measure 3]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 111 / measure 3]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3485,31 +3485,31 @@ P_ViolaVoiceII_a = {                                                           %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P ViolaVoiceII measure 112 / measure 4]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 112 / measure 4]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceII measure 113 / measure 5]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 113 / measure 5]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceII measure 114 / measure 6]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 114 / measure 6]                               %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceII measure 115 / measure 7]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 115 / measure 7]                               %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceII measure 116 / measure 8]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 116 / measure 8]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3518,13 +3518,13 @@ P_ViolaVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P ViolaVoiceII measure 117 / measure 9]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 117 / measure 9]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceII measure 118 / measure 10]                                %! _comment_measure_numbers
+    % [P Viola_Voice_II measure 118 / measure 10]                              %! _comment_measure_numbers
     a2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3534,27 +3534,27 @@ P_ViolaVoiceII_a = {                                                           %
 }                                                                              %! extern
 
 
-P_ViolaVoiceII = {                                                             %! extern
+P_Viola_Voice_II = {                                                           %! extern
 
-    \P_ViolaVoiceII_a                                                          %! extern
+    \P_Viola_Voice_II_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-P_ViolaStaffI = <<                                                             %! extern
+P_Viola_Staff_I = <<                                                           %! extern
 
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \P_ViolaVoiceI                                                             %! extern
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \P_Viola_Voice_I                                                           %! extern
 
-    \context Voice = "ViolaVoiceII"                                            %! ScoreTemplate
-    \P_ViolaVoiceII                                                            %! extern
+    \context Voice = "Viola_Voice_II"                                          %! ScoreTemplate
+    \P_Viola_Voice_II                                                          %! extern
 
 >>                                                                             %! extern
 
 
-P_ViolaVoiceIII_a = {                                                          %! extern
+P_Viola_Voice_III_a = {                                                        %! extern
 
-    % [P ViolaVoiceIII measure 109 / measure 1]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 109 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3604,13 +3604,13 @@ P_ViolaVoiceIII_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P ViolaVoiceIII measure 110 / measure 2]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 110 / measure 2]                              %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIII measure 111 / measure 3]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 111 / measure 3]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3626,31 +3626,31 @@ P_ViolaVoiceIII_a = {                                                          %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P ViolaVoiceIII measure 112 / measure 4]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 112 / measure 4]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIII measure 113 / measure 5]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 113 / measure 5]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIII measure 114 / measure 6]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 114 / measure 6]                              %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIII measure 115 / measure 7]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 115 / measure 7]                              %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIII measure 116 / measure 8]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 116 / measure 8]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3659,13 +3659,13 @@ P_ViolaVoiceIII_a = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P ViolaVoiceIII measure 117 / measure 9]                                %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 117 / measure 9]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIII measure 118 / measure 10]                               %! _comment_measure_numbers
+    % [P Viola_Voice_III measure 118 / measure 10]                             %! _comment_measure_numbers
     b2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3679,16 +3679,16 @@ P_ViolaVoiceIII_a = {                                                          %
 }                                                                              %! extern
 
 
-P_ViolaVoiceIII = {                                                            %! extern
+P_Viola_Voice_III = {                                                          %! extern
 
-    \P_ViolaVoiceIII_a                                                         %! extern
+    \P_Viola_Voice_III_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-P_ViolaVoiceIV_a = {                                                           %! extern
+P_Viola_Voice_IV_a = {                                                         %! extern
 
-    % [P ViolaVoiceIV measure 109 / measure 1]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 109 / measure 1]                               %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g2.                                                                        %! baca_make_repeat_tied_notes
@@ -3703,13 +3703,13 @@ P_ViolaVoiceIV_a = {                                                           %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P ViolaVoiceIV measure 110 / measure 2]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 110 / measure 2]                               %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIV measure 111 / measure 3]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 111 / measure 3]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3725,31 +3725,31 @@ P_ViolaVoiceIV_a = {                                                           %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P ViolaVoiceIV measure 112 / measure 4]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 112 / measure 4]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIV measure 113 / measure 5]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 113 / measure 5]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIV measure 114 / measure 6]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 114 / measure 6]                               %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIV measure 115 / measure 7]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 115 / measure 7]                               %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIV measure 116 / measure 8]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 116 / measure 8]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3758,13 +3758,13 @@ P_ViolaVoiceIV_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P ViolaVoiceIV measure 117 / measure 9]                                 %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 117 / measure 9]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ViolaVoiceIV measure 118 / measure 10]                                %! _comment_measure_numbers
+    % [P Viola_Voice_IV measure 118 / measure 10]                              %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3774,27 +3774,27 @@ P_ViolaVoiceIV_a = {                                                           %
 }                                                                              %! extern
 
 
-P_ViolaVoiceIV = {                                                             %! extern
+P_Viola_Voice_IV = {                                                           %! extern
 
-    \P_ViolaVoiceIV_a                                                          %! extern
+    \P_Viola_Voice_IV_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-P_ViolaStaffII = <<                                                            %! extern
+P_Viola_Staff_II = <<                                                          %! extern
 
-    \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
-    \P_ViolaVoiceIII                                                           %! extern
+    \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
+    \P_Viola_Voice_III                                                         %! extern
 
-    \context Voice = "ViolaVoiceIV"                                            %! ScoreTemplate
-    \P_ViolaVoiceIV                                                            %! extern
+    \context Voice = "Viola_Voice_IV"                                          %! ScoreTemplate
+    \P_Viola_Voice_IV                                                          %! extern
 
 >>                                                                             %! extern
 
 
-P_CelloVoiceI_a = {                                                            %! extern
+P_Cello_Voice_I_a = {                                                          %! extern
 
-    % [P CelloVoiceI measure 109 / measure 1]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 109 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3844,13 +3844,13 @@ P_CelloVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [P CelloVoiceI measure 110 / measure 2]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 110 / measure 2]                                %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceI measure 111 / measure 3]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 111 / measure 3]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3867,33 +3867,33 @@ P_CelloVoiceI_a = {                                                            %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P CelloVoiceI measure 112 / measure 4]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 112 / measure 4]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [P CelloVoiceI measure 113 / measure 5]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 113 / measure 5]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [P CelloVoiceI measure 114 / measure 6]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 114 / measure 6]                                %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceI measure 115 / measure 7]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 115 / measure 7]                                %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceI measure 116 / measure 8]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 116 / measure 8]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3903,14 +3903,14 @@ P_CelloVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P CelloVoiceI measure 117 / measure 9]                                  %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 117 / measure 9]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [P CelloVoiceI measure 118 / measure 10]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_I measure 118 / measure 10]                               %! _comment_measure_numbers
     d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3924,16 +3924,16 @@ P_CelloVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-P_CelloVoiceI = {                                                              %! extern
+P_Cello_Voice_I = {                                                            %! extern
 
-    \P_CelloVoiceI_a                                                           %! extern
+    \P_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-P_CelloVoiceII_a = {                                                           %! extern
+P_Cello_Voice_II_a = {                                                         %! extern
 
-    % [P CelloVoiceII measure 109 / measure 1]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 109 / measure 1]                               %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g,2.                                                                       %! baca_make_repeat_tied_notes
@@ -3948,13 +3948,13 @@ P_CelloVoiceII_a = {                                                           %
 %%%             "ext. ponticello: like acide"                                  %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [P CelloVoiceII measure 110 / measure 2]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 110 / measure 2]                               %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceII measure 111 / measure 3]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 111 / measure 3]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3970,31 +3970,31 @@ P_CelloVoiceII_a = {                                                           %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P CelloVoiceII measure 112 / measure 4]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 112 / measure 4]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceII measure 113 / measure 5]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 113 / measure 5]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceII measure 114 / measure 6]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 114 / measure 6]                               %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceII measure 115 / measure 7]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 115 / measure 7]                               %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceII measure 116 / measure 8]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 116 / measure 8]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4003,13 +4003,13 @@ P_CelloVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P CelloVoiceII measure 117 / measure 9]                                 %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 117 / measure 9]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P CelloVoiceII measure 118 / measure 10]                                %! _comment_measure_numbers
+    % [P Cello_Voice_II measure 118 / measure 10]                              %! _comment_measure_numbers
     g,2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -4019,27 +4019,27 @@ P_CelloVoiceII_a = {                                                           %
 }                                                                              %! extern
 
 
-P_CelloVoiceII = {                                                             %! extern
+P_Cello_Voice_II = {                                                           %! extern
 
-    \P_CelloVoiceII_a                                                          %! extern
+    \P_Cello_Voice_II_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-P_CelloStaffI = <<                                                             %! extern
+P_Cello_Staff_I = <<                                                           %! extern
 
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \P_CelloVoiceI                                                             %! extern
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \P_Cello_Voice_I                                                           %! extern
 
-    \context Voice = "CelloVoiceII"                                            %! ScoreTemplate
-    \P_CelloVoiceII                                                            %! extern
+    \context Voice = "Cello_Voice_II"                                          %! ScoreTemplate
+    \P_Cello_Voice_II                                                          %! extern
 
 >>                                                                             %! extern
 
 
-P_ContrabassVoiceIII_a = {                                                     %! extern
+P_Contrabass_Voice_III_a = {                                                   %! extern
 
-    % [P ContrabassVoiceIII measure 109 / measure 1]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 109 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4073,13 +4073,13 @@ P_ContrabassVoiceIII_a = {                                                     %
             Cb.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [P ContrabassVoiceIII measure 110 / measure 2]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 110 / measure 2]                         %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ContrabassVoiceIII measure 111 / measure 3]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 111 / measure 3]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4095,31 +4095,31 @@ P_ContrabassVoiceIII_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [P ContrabassVoiceIII measure 112 / measure 4]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 112 / measure 4]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ContrabassVoiceIII measure 113 / measure 5]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 113 / measure 5]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ContrabassVoiceIII measure 114 / measure 6]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 114 / measure 6]                         %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ContrabassVoiceIII measure 115 / measure 7]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 115 / measure 7]                         %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ContrabassVoiceIII measure 116 / measure 8]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 116 / measure 8]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4128,13 +4128,13 @@ P_ContrabassVoiceIII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [P ContrabassVoiceIII measure 117 / measure 9]                           %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 117 / measure 9]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [P ContrabassVoiceIII measure 118 / measure 10]                          %! _comment_measure_numbers
+    % [P Contrabass_Voice_III measure 118 / measure 10]                        %! _comment_measure_numbers
     g,2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -4143,16 +4143,16 @@ P_ContrabassVoiceIII_a = {                                                     %
 }                                                                              %! extern
 
 
-P_ContrabassVoiceIII = {                                                       %! extern
+P_Contrabass_Voice_III = {                                                     %! extern
 
-    \P_ContrabassVoiceIII_a                                                    %! extern
+    \P_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-P_ContrabassStaffII = {                                                        %! extern
+P_Contrabass_Staff_II = {                                                      %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \P_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \P_Contrabass_Voice_III                                                    %! extern
 
 }                                                                              %! extern

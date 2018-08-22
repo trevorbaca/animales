@@ -94,7 +94,7 @@ maker(
 
 maker(
     'bcl1',
-    animales.parts('BassClarinet'),
+    animales.parts('Bass_Clarinet'),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
@@ -160,12 +160,12 @@ maker(
 
 maker(
     '1vn1',
-    animales.parts('FirstViolin'),
+    animales.parts('First_Violin'),
     )
 
 maker(
     '2vn1',
-    animales.parts('SecondViolin'),
+    animales.parts('Second_Violin'),
     )
 
 maker(

@@ -175,7 +175,7 @@ maker(
 
 maker(
     'bcl1',
-    animales.parts('BassClarinet'),
+    animales.parts('Bass_Clarinet'),
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab2'),
@@ -265,7 +265,7 @@ maker(
 
 maker(
     '1vn3',
-    animales.parts('FirstViolin', 1),
+    animales.parts('First_Violin', 1),
     )
 
 maker(
@@ -308,13 +308,13 @@ maker(
 
 maker(
     '1vn1',
-    animales.parts('FirstViolin', (2, 18)),
+    animales.parts('First_Violin', (2, 18)),
     baca.not_parts(baca.voice_two()),
     )
 
 maker(
     '2vn1',
-    animales.parts('SecondViolin'),
+    animales.parts('Second_Violin'),
     )
 
 maker(

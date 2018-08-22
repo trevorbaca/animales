@@ -23,7 +23,7 @@ def downbeat_attack(count=1, denominator=8):
         ...     )
 
         >>> maker(
-        ...     ('HornVoiceI', 1),
+        ...     ('Horn_Voice_I', 1),
         ...     animales.parts('Horn'),
         ...     animales.downbeat_attack(),
         ...     baca.pitches('A3'),
@@ -86,18 +86,18 @@ def downbeat_attack(count=1, denominator=8):
                 \context MusicContext = "MusicContext"                                               %! make_music_context
                 <<                                                                                   %! make_music_context
             <BLANKLINE>
-                    \context StaffGroup = "BrassStaffGroup"                                          %! make_staff_group
+                    \context StaffGroup = "Brass_Staff_Group"                                        %! make_staff_group
                     <<                                                                               %! make_staff_group
             <BLANKLINE>
-                        \context Staff = "HornStaffI"                                                %! ScoreTemplate
+                        \context Staff = "Horn_Staff_I"                                              %! ScoreTemplate
                         {                                                                            %! ScoreTemplate
             <BLANKLINE>
-                            \context Voice = "HornVoiceI"                                            %! ScoreTemplate
+                            \context Voice = "Horn_Voice_I"                                          %! ScoreTemplate
                             {                                                                        %! ScoreTemplate
             <BLANKLINE>
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
-                                    % [HornVoiceI measure 1]                                         %! _comment_measure_numbers
+                                    % [Horn_Voice_I measure 1]                                       %! _comment_measure_numbers
                                     \set Staff.shortInstrumentName =                                 %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
                                     \markup {                                                        %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
                                         \hcenter-in                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -125,10 +125,10 @@ def downbeat_attack(count=1, denominator=8):
             <BLANKLINE>
                                 }   %*% PartAssignment('Horn')
             <BLANKLINE>
-                                % [HornVoiceI measure 2]                                             %! _comment_measure_numbers
+                                % [Horn_Voice_I measure 2]                                           %! _comment_measure_numbers
                                 R1 * 3/4                                                             %! _make_measure_silences
             <BLANKLINE>
-                                % [HornVoiceI measure 3]                                             %! _comment_measure_numbers
+                                % [Horn_Voice_I measure 3]                                           %! _comment_measure_numbers
                                 R1 * 1/2                                                             %! _make_measure_silences
             <BLANKLINE>
                             }                                                                        %! ScoreTemplate

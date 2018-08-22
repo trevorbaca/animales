@@ -31,19 +31,19 @@
             \context MusicContext = "MusicContext"                             %! make_music_context
             <<                                                                 %! make_music_context
 
-                \context StaffGroup = "PianoPianoStaff"
+                \context StaffGroup = "Piano_Piano_Staff"
                 <<
 
-                    \context Staff = "PianoStaffI"                             %! ScoreTemplate
-                    \AC_PianoStaffI                                            %! extern
+                    \context Staff = "Piano_Staff_I"                           %! ScoreTemplate
+                    \AC_Piano_Staff_I                                          %! extern
 
                 >>
 
-                \context StaffGroup = "PercussionStaffGroup"                   %! make_staff_group
+                \context StaffGroup = "Percussion_Staff_Group"                 %! make_staff_group
                 <<                                                             %! make_staff_group
 
-                    \context Staff = "PercussionStaffIV"                       %! ScoreTemplate
-                    \AC_PercussionStaffIV                                      %! extern
+                    \context Staff = "Percussion_Staff_IV"                     %! ScoreTemplate
+                    \AC_Percussion_Staff_IV                                    %! extern
 
                 >>                                                             %! make_staff_group
 

@@ -55,9 +55,9 @@ S_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceI_a = {                                                      %! extern
+S_First_Violin_Voice_I_a = {                                                   %! extern
 
-    % [S FirstViolinVoiceI measure 134 / measure 1]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_I measure 134 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -89,25 +89,25 @@ S_FirstViolinVoiceI_a = {                                                      %
 
     r2...                                                                      %! clb_rhythm
 
-    % [S FirstViolinVoiceI measure 135 / measure 2]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_I measure 135 / measure 2]                         %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceI measure 136 / measure 3]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_I measure 136 / measure 3]                         %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceI = {                                                        %! extern
+S_First_Violin_Voice_I = {                                                     %! extern
 
-    \S_FirstViolinVoiceI_a                                                     %! extern
+    \S_First_Violin_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceII_a = {                                                     %! extern
+S_First_Violin_Voice_II_a = {                                                  %! extern
 
-    % [S FirstViolinVoiceII measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_II measure 134 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -127,7 +127,7 @@ S_FirstViolinVoiceII_a = {                                                     %
 
     r4..                                                                       %! clb_rhythm
 
-    % [S FirstViolinVoiceII measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_II measure 135 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! clb_rhythm
 
     r8                                                                         %! clb_rhythm
@@ -138,33 +138,33 @@ S_FirstViolinVoiceII_a = {                                                     %
 
     r4                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceII measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_II measure 136 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceII = {                                                       %! extern
+S_First_Violin_Voice_II = {                                                    %! extern
 
-    \S_FirstViolinVoiceII_a                                                    %! extern
+    \S_First_Violin_Voice_II_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffI = <<                                                       %! extern
+S_First_Violin_Staff_I = <<                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \S_FirstViolinVoiceI                                                       %! extern
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \S_First_Violin_Voice_I                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
-    \S_FirstViolinVoiceII                                                      %! extern
+    \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
+    \S_First_Violin_Voice_II                                                   %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceIII_a = {                                                    %! extern
+S_First_Violin_Voice_III_a = {                                                 %! extern
 
-    % [S FirstViolinVoiceIII measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_III measure 134 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -196,7 +196,7 @@ S_FirstViolinVoiceIII_a = {                                                    %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S FirstViolinVoiceIII measure 135 / measure 2]                      %! _comment_measure_numbers
+        % [S First_Violin_Voice_III measure 135 / measure 2]                   %! _comment_measure_numbers
         r8                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -207,7 +207,7 @@ S_FirstViolinVoiceIII_a = {                                                    %
 
     r2.
 
-    % [S FirstViolinVoiceIII measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_III measure 136 / measure 3]                       %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -225,16 +225,16 @@ S_FirstViolinVoiceIII_a = {                                                    %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceIII = {                                                      %! extern
+S_First_Violin_Voice_III = {                                                   %! extern
 
-    \S_FirstViolinVoiceIII_a                                                   %! extern
+    \S_First_Violin_Voice_III_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceIV_a = {                                                     %! extern
+S_First_Violin_Voice_IV_a = {                                                  %! extern
 
-    % [S FirstViolinVoiceIV measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_IV measure 134 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -250,36 +250,36 @@ S_FirstViolinVoiceIV_a = {                                                     %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S FirstViolinVoiceIV measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_IV measure 135 / measure 2]                        %! _comment_measure_numbers
     r1
 
-    % [S FirstViolinVoiceIV measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_IV measure 136 / measure 3]                        %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceIV = {                                                       %! extern
+S_First_Violin_Voice_IV = {                                                    %! extern
 
-    \S_FirstViolinVoiceIV_a                                                    %! extern
+    \S_First_Violin_Voice_IV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffII = <<                                                      %! extern
+S_First_Violin_Staff_II = <<                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
-    \S_FirstViolinVoiceIII                                                     %! extern
+    \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
+    \S_First_Violin_Voice_III                                                  %! extern
 
-    \context Voice = "FirstViolinVoiceIV"                                      %! ScoreTemplate
-    \S_FirstViolinVoiceIV                                                      %! extern
+    \context Voice = "First_Violin_Voice_IV"                                   %! ScoreTemplate
+    \S_First_Violin_Voice_IV                                                   %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceV_a = {                                                      %! extern
+S_First_Violin_Voice_V_a = {                                                   %! extern
 
-    % [S FirstViolinVoiceV measure 134 / measure 1]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_V measure 134 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -317,25 +317,25 @@ S_FirstViolinVoiceV_a = {                                                      %
 
     r4                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceV measure 135 / measure 2]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_V measure 135 / measure 2]                         %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceV measure 136 / measure 3]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_V measure 136 / measure 3]                         %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceV = {                                                        %! extern
+S_First_Violin_Voice_V = {                                                     %! extern
 
-    \S_FirstViolinVoiceV_a                                                     %! extern
+    \S_First_Violin_Voice_V_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceVI_a = {                                                     %! extern
+S_First_Violin_Voice_VI_a = {                                                  %! extern
 
-    % [S FirstViolinVoiceVI measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_VI measure 134 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -349,7 +349,7 @@ S_FirstViolinVoiceVI_a = {                                                     %
     r1                                                                         %! clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S FirstViolinVoiceVI measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_VI measure 135 / measure 2]                        %! _comment_measure_numbers
     r8                                                                         %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
@@ -358,33 +358,33 @@ S_FirstViolinVoiceVI_a = {                                                     %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S FirstViolinVoiceVI measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_VI measure 136 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceVI = {                                                       %! extern
+S_First_Violin_Voice_VI = {                                                    %! extern
 
-    \S_FirstViolinVoiceVI_a                                                    %! extern
+    \S_First_Violin_Voice_VI_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffIII = <<                                                     %! extern
+S_First_Violin_Staff_III = <<                                                  %! extern
 
-    \context Voice = "FirstViolinVoiceV"                                       %! ScoreTemplate
-    \S_FirstViolinVoiceV                                                       %! extern
+    \context Voice = "First_Violin_Voice_V"                                    %! ScoreTemplate
+    \S_First_Violin_Voice_V                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceVI"                                      %! ScoreTemplate
-    \S_FirstViolinVoiceVI                                                      %! extern
+    \context Voice = "First_Violin_Voice_VI"                                   %! ScoreTemplate
+    \S_First_Violin_Voice_VI                                                   %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceVII_a = {                                                    %! extern
+S_First_Violin_Voice_VII_a = {                                                 %! extern
 
-    % [S FirstViolinVoiceVII measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_VII measure 134 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -411,25 +411,25 @@ S_FirstViolinVoiceVII_a = {                                                    %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S FirstViolinVoiceVII measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_VII measure 135 / measure 2]                       %! _comment_measure_numbers
     r1
 
-    % [S FirstViolinVoiceVII measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_VII measure 136 / measure 3]                       %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceVII = {                                                      %! extern
+S_First_Violin_Voice_VII = {                                                   %! extern
 
-    \S_FirstViolinVoiceVII_a                                                   %! extern
+    \S_First_Violin_Voice_VII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceVIII_a = {                                                   %! extern
+S_First_Violin_Voice_VIII_a = {                                                %! extern
 
-    % [S FirstViolinVoiceVIII measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_VIII measure 134 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -446,7 +446,7 @@ S_FirstViolinVoiceVIII_a = {                                                   %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S FirstViolinVoiceVIII measure 135 / measure 2]                     %! _comment_measure_numbers
+        % [S First_Violin_Voice_VIII measure 135 / measure 2]                  %! _comment_measure_numbers
         r8                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -457,7 +457,7 @@ S_FirstViolinVoiceVIII_a = {                                                   %
 
     r2.
 
-    % [S FirstViolinVoiceVIII measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_VIII measure 136 / measure 3]                      %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -477,27 +477,27 @@ S_FirstViolinVoiceVIII_a = {                                                   %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceVIII = {                                                     %! extern
+S_First_Violin_Voice_VIII = {                                                  %! extern
 
-    \S_FirstViolinVoiceVIII_a                                                  %! extern
+    \S_First_Violin_Voice_VIII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffIV = <<                                                      %! extern
+S_First_Violin_Staff_IV = <<                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceVII"                                     %! ScoreTemplate
-    \S_FirstViolinVoiceVII                                                     %! extern
+    \context Voice = "First_Violin_Voice_VII"                                  %! ScoreTemplate
+    \S_First_Violin_Voice_VII                                                  %! extern
 
-    \context Voice = "FirstViolinVoiceVIII"                                    %! ScoreTemplate
-    \S_FirstViolinVoiceVIII                                                    %! extern
+    \context Voice = "First_Violin_Voice_VIII"                                 %! ScoreTemplate
+    \S_First_Violin_Voice_VIII                                                 %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceIX_a = {                                                     %! extern
+S_First_Violin_Voice_IX_a = {                                                  %! extern
 
-    % [S FirstViolinVoiceIX measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_IX measure 134 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -530,7 +530,7 @@ S_FirstViolinVoiceIX_a = {                                                     %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S FirstViolinVoiceIX measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_IX measure 135 / measure 2]                        %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -539,22 +539,22 @@ S_FirstViolinVoiceIX_a = {                                                     %
 
     r2                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceIX measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_IX measure 136 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceIX = {                                                       %! extern
+S_First_Violin_Voice_IX = {                                                    %! extern
 
-    \S_FirstViolinVoiceIX_a                                                    %! extern
+    \S_First_Violin_Voice_IX_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceX_a = {                                                      %! extern
+S_First_Violin_Voice_X_a = {                                                   %! extern
 
-    % [S FirstViolinVoiceX measure 134 / measure 1]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_X measure 134 / measure 1]                         %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -569,10 +569,10 @@ S_FirstViolinVoiceX_a = {                                                      %
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S FirstViolinVoiceX measure 135 / measure 2]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_X measure 135 / measure 2]                         %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceX measure 136 / measure 3]                            %! _comment_measure_numbers
+    % [S First_Violin_Voice_X measure 136 / measure 3]                         %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -584,27 +584,27 @@ S_FirstViolinVoiceX_a = {                                                      %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceX = {                                                        %! extern
+S_First_Violin_Voice_X = {                                                     %! extern
 
-    \S_FirstViolinVoiceX_a                                                     %! extern
+    \S_First_Violin_Voice_X_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffV = <<                                                       %! extern
+S_First_Violin_Staff_V = <<                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceIX"                                      %! ScoreTemplate
-    \S_FirstViolinVoiceIX                                                      %! extern
+    \context Voice = "First_Violin_Voice_IX"                                   %! ScoreTemplate
+    \S_First_Violin_Voice_IX                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceX"                                       %! ScoreTemplate
-    \S_FirstViolinVoiceX                                                       %! extern
+    \context Voice = "First_Violin_Voice_X"                                    %! ScoreTemplate
+    \S_First_Violin_Voice_X                                                    %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceXI_a = {                                                     %! extern
+S_First_Violin_Voice_XI_a = {                                                  %! extern
 
-    % [S FirstViolinVoiceXI measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_XI measure 134 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -631,25 +631,25 @@ S_FirstViolinVoiceXI_a = {                                                     %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S FirstViolinVoiceXI measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_XI measure 135 / measure 2]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceXI measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_XI measure 136 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXI = {                                                       %! extern
+S_First_Violin_Voice_XI = {                                                    %! extern
 
-    \S_FirstViolinVoiceXI_a                                                    %! extern
+    \S_First_Violin_Voice_XI_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXII_a = {                                                    %! extern
+S_First_Violin_Voice_XII_a = {                                                 %! extern
 
-    % [S FirstViolinVoiceXII measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XII measure 134 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -674,7 +674,7 @@ S_FirstViolinVoiceXII_a = {                                                    %
 
     r2
 
-    % [S FirstViolinVoiceXII measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XII measure 135 / measure 2]                       %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -687,7 +687,7 @@ S_FirstViolinVoiceXII_a = {                                                    %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S FirstViolinVoiceXII measure 136 / measure 3]                      %! _comment_measure_numbers
+        % [S First_Violin_Voice_XII measure 136 / measure 3]                   %! _comment_measure_numbers
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
@@ -699,27 +699,27 @@ S_FirstViolinVoiceXII_a = {                                                    %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXII = {                                                      %! extern
+S_First_Violin_Voice_XII = {                                                   %! extern
 
-    \S_FirstViolinVoiceXII_a                                                   %! extern
+    \S_First_Violin_Voice_XII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffVI = <<                                                      %! extern
+S_First_Violin_Staff_VI = <<                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceXI"                                      %! ScoreTemplate
-    \S_FirstViolinVoiceXI                                                      %! extern
+    \context Voice = "First_Violin_Voice_XI"                                   %! ScoreTemplate
+    \S_First_Violin_Voice_XI                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceXII"                                     %! ScoreTemplate
-    \S_FirstViolinVoiceXII                                                     %! extern
+    \context Voice = "First_Violin_Voice_XII"                                  %! ScoreTemplate
+    \S_First_Violin_Voice_XII                                                  %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceXIII_a = {                                                   %! extern
+S_First_Violin_Voice_XIII_a = {                                                %! extern
 
-    % [S FirstViolinVoiceXIII measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_XIII measure 134 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -746,10 +746,10 @@ S_FirstViolinVoiceXIII_a = {                                                   %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S FirstViolinVoiceXIII measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_XIII measure 135 / measure 2]                      %! _comment_measure_numbers
     r1
 
-    % [S FirstViolinVoiceXIII measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_XIII measure 136 / measure 3]                      %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -765,16 +765,16 @@ S_FirstViolinVoiceXIII_a = {                                                   %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXIII = {                                                     %! extern
+S_First_Violin_Voice_XIII = {                                                  %! extern
 
-    \S_FirstViolinVoiceXIII_a                                                  %! extern
+    \S_First_Violin_Voice_XIII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXIV_a = {                                                    %! extern
+S_First_Violin_Voice_XIV_a = {                                                 %! extern
 
-    % [S FirstViolinVoiceXIV measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XIV measure 134 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -795,10 +795,10 @@ S_FirstViolinVoiceXIV_a = {                                                    %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S FirstViolinVoiceXIV measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XIV measure 135 / measure 2]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceXIV measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XIV measure 136 / measure 3]                       %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -812,27 +812,27 @@ S_FirstViolinVoiceXIV_a = {                                                    %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXIV = {                                                      %! extern
+S_First_Violin_Voice_XIV = {                                                   %! extern
 
-    \S_FirstViolinVoiceXIV_a                                                   %! extern
+    \S_First_Violin_Voice_XIV_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffVII = <<                                                     %! extern
+S_First_Violin_Staff_VII = <<                                                  %! extern
 
-    \context Voice = "FirstViolinVoiceXIII"                                    %! ScoreTemplate
-    \S_FirstViolinVoiceXIII                                                    %! extern
+    \context Voice = "First_Violin_Voice_XIII"                                 %! ScoreTemplate
+    \S_First_Violin_Voice_XIII                                                 %! extern
 
-    \context Voice = "FirstViolinVoiceXIV"                                     %! ScoreTemplate
-    \S_FirstViolinVoiceXIV                                                     %! extern
+    \context Voice = "First_Violin_Voice_XIV"                                  %! ScoreTemplate
+    \S_First_Violin_Voice_XIV                                                  %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceXV_a = {                                                     %! extern
+S_First_Violin_Voice_XV_a = {                                                  %! extern
 
-    % [S FirstViolinVoiceXV measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_XV measure 134 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -863,25 +863,25 @@ S_FirstViolinVoiceXV_a = {                                                     %
 
     r2                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceXV measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_XV measure 135 / measure 2]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceXV measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S First_Violin_Voice_XV measure 136 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXV = {                                                       %! extern
+S_First_Violin_Voice_XV = {                                                    %! extern
 
-    \S_FirstViolinVoiceXV_a                                                    %! extern
+    \S_First_Violin_Voice_XV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXVI_a = {                                                    %! extern
+S_First_Violin_Voice_XVI_a = {                                                 %! extern
 
-    % [S FirstViolinVoiceXVI measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVI measure 134 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -896,7 +896,7 @@ S_FirstViolinVoiceXVI_a = {                                                    %
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S FirstViolinVoiceXVI measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVI measure 135 / measure 2]                       %! _comment_measure_numbers
     r4
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -913,7 +913,7 @@ S_FirstViolinVoiceXVI_a = {                                                    %
 
     r2
 
-    % [S FirstViolinVoiceXVI measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVI measure 136 / measure 3]                       %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -929,27 +929,27 @@ S_FirstViolinVoiceXVI_a = {                                                    %
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXVI = {                                                      %! extern
+S_First_Violin_Voice_XVI = {                                                   %! extern
 
-    \S_FirstViolinVoiceXVI_a                                                   %! extern
+    \S_First_Violin_Voice_XVI_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffVIII = <<                                                    %! extern
+S_First_Violin_Staff_VIII = <<                                                 %! extern
 
-    \context Voice = "FirstViolinVoiceXV"                                      %! ScoreTemplate
-    \S_FirstViolinVoiceXV                                                      %! extern
+    \context Voice = "First_Violin_Voice_XV"                                   %! ScoreTemplate
+    \S_First_Violin_Voice_XV                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceXVI"                                     %! ScoreTemplate
-    \S_FirstViolinVoiceXVI                                                     %! extern
+    \context Voice = "First_Violin_Voice_XVI"                                  %! ScoreTemplate
+    \S_First_Violin_Voice_XVI                                                  %! extern
 
 >>                                                                             %! extern
 
 
-S_FirstViolinVoiceXVII_a = {                                                   %! extern
+S_First_Violin_Voice_XVII_a = {                                                %! extern
 
-    % [S FirstViolinVoiceXVII measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVII measure 134 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -976,25 +976,25 @@ S_FirstViolinVoiceXVII_a = {                                                   %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S FirstViolinVoiceXVII measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVII measure 135 / measure 2]                      %! _comment_measure_numbers
     r1
 
-    % [S FirstViolinVoiceXVII measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVII measure 136 / measure 3]                      %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXVII = {                                                     %! extern
+S_First_Violin_Voice_XVII = {                                                  %! extern
 
-    \S_FirstViolinVoiceXVII_a                                                  %! extern
+    \S_First_Violin_Voice_XVII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXVIII_a = {                                                  %! extern
+S_First_Violin_Voice_XVIII_a = {                                               %! extern
 
-    % [S FirstViolinVoiceXVIII measure 134 / measure 1]                        %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVIII measure 134 / measure 1]                     %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1009,36 +1009,36 @@ S_FirstViolinVoiceXVIII_a = {                                                  %
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S FirstViolinVoiceXVIII measure 135 / measure 2]                        %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVIII measure 135 / measure 2]                     %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S FirstViolinVoiceXVIII measure 136 / measure 3]                        %! _comment_measure_numbers
+    % [S First_Violin_Voice_XVIII measure 136 / measure 3]                     %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_FirstViolinVoiceXVIII = {                                                    %! extern
+S_First_Violin_Voice_XVIII = {                                                 %! extern
 
-    \S_FirstViolinVoiceXVIII_a                                                 %! extern
+    \S_First_Violin_Voice_XVIII_a                                              %! extern
 
 }                                                                              %! extern
 
 
-S_FirstViolinStaffIX = <<                                                      %! extern
+S_First_Violin_Staff_IX = <<                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceXVII"                                    %! ScoreTemplate
-    \S_FirstViolinVoiceXVII                                                    %! extern
+    \context Voice = "First_Violin_Voice_XVII"                                 %! ScoreTemplate
+    \S_First_Violin_Voice_XVII                                                 %! extern
 
-    \context Voice = "FirstViolinVoiceXVIII"                                   %! ScoreTemplate
-    \S_FirstViolinVoiceXVIII                                                   %! extern
+    \context Voice = "First_Violin_Voice_XVIII"                                %! ScoreTemplate
+    \S_First_Violin_Voice_XVIII                                                %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceI_a = {                                                     %! extern
+S_Second_Violin_Voice_I_a = {                                                  %! extern
 
-    % [S SecondViolinVoiceI measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_I measure 134 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1068,14 +1068,14 @@ S_SecondViolinVoiceI_a = {                                                     %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S SecondViolinVoiceI measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_I measure 135 / measure 2]                        %! _comment_measure_numbers
     r8.                                                                        %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
 
     r2.                                                                        %! clb_rhythm
 
-    % [S SecondViolinVoiceI measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_I measure 136 / measure 3]                        %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -1089,16 +1089,16 @@ S_SecondViolinVoiceI_a = {                                                     %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceI = {                                                       %! extern
+S_Second_Violin_Voice_I = {                                                    %! extern
 
-    \S_SecondViolinVoiceI_a                                                    %! extern
+    \S_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceII_a = {                                                    %! extern
+S_Second_Violin_Voice_II_a = {                                                 %! extern
 
-    % [S SecondViolinVoiceII measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_II measure 134 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1120,7 +1120,7 @@ S_SecondViolinVoiceII_a = {                                                    %
 
     r4..                                                                       %! clb_rhythm
 
-    % [S SecondViolinVoiceII measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_II measure 135 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! clb_rhythm
 
     r8                                                                         %! clb_rhythm
@@ -1131,7 +1131,7 @@ S_SecondViolinVoiceII_a = {                                                    %
 
     r4                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceII measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_II measure 136 / measure 3]                       %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
@@ -1141,27 +1141,27 @@ S_SecondViolinVoiceII_a = {                                                    %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceII = {                                                      %! extern
+S_Second_Violin_Voice_II = {                                                   %! extern
 
-    \S_SecondViolinVoiceII_a                                                   %! extern
+    \S_Second_Violin_Voice_II_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffI = <<                                                      %! extern
+S_Second_Violin_Staff_I = <<                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \S_SecondViolinVoiceI                                                      %! extern
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \S_Second_Violin_Voice_I                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceII"                                     %! ScoreTemplate
-    \S_SecondViolinVoiceII                                                     %! extern
+    \context Voice = "Second_Violin_Voice_II"                                  %! ScoreTemplate
+    \S_Second_Violin_Voice_II                                                  %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceIII_a = {                                                   %! extern
+S_Second_Violin_Voice_III_a = {                                                %! extern
 
-    % [S SecondViolinVoiceIII measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_III measure 134 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1191,25 +1191,25 @@ S_SecondViolinVoiceIII_a = {                                                   %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S SecondViolinVoiceIII measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_III measure 135 / measure 2]                      %! _comment_measure_numbers
     r1
 
-    % [S SecondViolinVoiceIII measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_III measure 136 / measure 3]                      %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceIII = {                                                     %! extern
+S_Second_Violin_Voice_III = {                                                  %! extern
 
-    \S_SecondViolinVoiceIII_a                                                  %! extern
+    \S_Second_Violin_Voice_III_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceIV_a = {                                                    %! extern
+S_Second_Violin_Voice_IV_a = {                                                 %! extern
 
-    % [S SecondViolinVoiceIV measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_IV measure 134 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1225,7 +1225,7 @@ S_SecondViolinVoiceIV_a = {                                                    %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S SecondViolinVoiceIV measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_IV measure 135 / measure 2]                       %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -1236,33 +1236,33 @@ S_SecondViolinVoiceIV_a = {                                                    %
 
     }                                                                          %! clb_rhythm
 
-    % [S SecondViolinVoiceIV measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_IV measure 136 / measure 3]                       %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceIV = {                                                      %! extern
+S_Second_Violin_Voice_IV = {                                                   %! extern
 
-    \S_SecondViolinVoiceIV_a                                                   %! extern
+    \S_Second_Violin_Voice_IV_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffII = <<                                                     %! extern
+S_Second_Violin_Staff_II = <<                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
-    \S_SecondViolinVoiceIII                                                    %! extern
+    \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
+    \S_Second_Violin_Voice_III                                                 %! extern
 
-    \context Voice = "SecondViolinVoiceIV"                                     %! ScoreTemplate
-    \S_SecondViolinVoiceIV                                                     %! extern
+    \context Voice = "Second_Violin_Voice_IV"                                  %! ScoreTemplate
+    \S_Second_Violin_Voice_IV                                                  %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceV_a = {                                                     %! extern
+S_Second_Violin_Voice_V_a = {                                                  %! extern
 
-    % [S SecondViolinVoiceV measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_V measure 134 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1289,7 +1289,7 @@ S_SecondViolinVoiceV_a = {                                                     %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S SecondViolinVoiceV measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_V measure 135 / measure 2]                        %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -1298,7 +1298,7 @@ S_SecondViolinVoiceV_a = {                                                     %
 
     r8                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceV measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_V measure 136 / measure 3]                        %! _comment_measure_numbers
     r2...                                                                      %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -1306,16 +1306,16 @@ S_SecondViolinVoiceV_a = {                                                     %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceV = {                                                       %! extern
+S_Second_Violin_Voice_V = {                                                    %! extern
 
-    \S_SecondViolinVoiceV_a                                                    %! extern
+    \S_Second_Violin_Voice_V_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceVI_a = {                                                    %! extern
+S_Second_Violin_Voice_VI_a = {                                                 %! extern
 
-    % [S SecondViolinVoiceVI measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VI measure 134 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1332,36 +1332,36 @@ S_SecondViolinVoiceVI_a = {                                                    %
 
     r2...                                                                      %! clb_rhythm
 
-    % [S SecondViolinVoiceVI measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VI measure 135 / measure 2]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceVI measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VI measure 136 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceVI = {                                                      %! extern
+S_Second_Violin_Voice_VI = {                                                   %! extern
 
-    \S_SecondViolinVoiceVI_a                                                   %! extern
+    \S_Second_Violin_Voice_VI_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffIII = <<                                                    %! extern
+S_Second_Violin_Staff_III = <<                                                 %! extern
 
-    \context Voice = "SecondViolinVoiceV"                                      %! ScoreTemplate
-    \S_SecondViolinVoiceV                                                      %! extern
+    \context Voice = "Second_Violin_Voice_V"                                   %! ScoreTemplate
+    \S_Second_Violin_Voice_V                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceVI"                                     %! ScoreTemplate
-    \S_SecondViolinVoiceVI                                                     %! extern
+    \context Voice = "Second_Violin_Voice_VI"                                  %! ScoreTemplate
+    \S_Second_Violin_Voice_VI                                                  %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceVII_a = {                                                   %! extern
+S_Second_Violin_Voice_VII_a = {                                                %! extern
 
-    % [S SecondViolinVoiceVII measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VII measure 134 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1398,12 +1398,12 @@ S_SecondViolinVoiceVII_a = {                                                   %
 
     r4
 
-    % [S SecondViolinVoiceVII measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VII measure 135 / measure 2]                      %! _comment_measure_numbers
     r1
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S SecondViolinVoiceVII measure 136 / measure 3]                     %! _comment_measure_numbers
+        % [S Second_Violin_Voice_VII measure 136 / measure 3]                  %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -1415,16 +1415,16 @@ S_SecondViolinVoiceVII_a = {                                                   %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceVII = {                                                     %! extern
+S_Second_Violin_Voice_VII = {                                                  %! extern
 
-    \S_SecondViolinVoiceVII_a                                                  %! extern
+    \S_Second_Violin_Voice_VII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceVIII_a = {                                                  %! extern
+S_Second_Violin_Voice_VIII_a = {                                               %! extern
 
-    % [S SecondViolinVoiceVIII measure 134 / measure 1]                        %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VIII measure 134 / measure 1]                     %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1441,7 +1441,7 @@ S_SecondViolinVoiceVIII_a = {                                                  %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S SecondViolinVoiceVIII measure 135 / measure 2]                    %! _comment_measure_numbers
+        % [S Second_Violin_Voice_VIII measure 135 / measure 2]                 %! _comment_measure_numbers
         r8                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -1452,7 +1452,7 @@ S_SecondViolinVoiceVIII_a = {                                                  %
 
     r2.
 
-    % [S SecondViolinVoiceVIII measure 136 / measure 3]                        %! _comment_measure_numbers
+    % [S Second_Violin_Voice_VIII measure 136 / measure 3]                     %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -1470,27 +1470,27 @@ S_SecondViolinVoiceVIII_a = {                                                  %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceVIII = {                                                    %! extern
+S_Second_Violin_Voice_VIII = {                                                 %! extern
 
-    \S_SecondViolinVoiceVIII_a                                                 %! extern
+    \S_Second_Violin_Voice_VIII_a                                              %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffIV = <<                                                     %! extern
+S_Second_Violin_Staff_IV = <<                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceVII"                                    %! ScoreTemplate
-    \S_SecondViolinVoiceVII                                                    %! extern
+    \context Voice = "Second_Violin_Voice_VII"                                 %! ScoreTemplate
+    \S_Second_Violin_Voice_VII                                                 %! extern
 
-    \context Voice = "SecondViolinVoiceVIII"                                   %! ScoreTemplate
-    \S_SecondViolinVoiceVIII                                                   %! extern
+    \context Voice = "Second_Violin_Voice_VIII"                                %! ScoreTemplate
+    \S_Second_Violin_Voice_VIII                                                %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceIX_a = {                                                    %! extern
+S_Second_Violin_Voice_IX_a = {                                                 %! extern
 
-    % [S SecondViolinVoiceIX measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_IX measure 134 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1517,10 +1517,10 @@ S_SecondViolinVoiceIX_a = {                                                    %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S SecondViolinVoiceIX measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_IX measure 135 / measure 2]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceIX measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_IX measure 136 / measure 3]                       %! _comment_measure_numbers
     r4..                                                                       %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -1532,16 +1532,16 @@ S_SecondViolinVoiceIX_a = {                                                    %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceIX = {                                                      %! extern
+S_Second_Violin_Voice_IX = {                                                   %! extern
 
-    \S_SecondViolinVoiceIX_a                                                   %! extern
+    \S_Second_Violin_Voice_IX_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceX_a = {                                                     %! extern
+S_Second_Violin_Voice_X_a = {                                                  %! extern
 
-    % [S SecondViolinVoiceX measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_X measure 134 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1564,36 +1564,36 @@ S_SecondViolinVoiceX_a = {                                                     %
 
     r4                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceX measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_X measure 135 / measure 2]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceX measure 136 / measure 3]                           %! _comment_measure_numbers
+    % [S Second_Violin_Voice_X measure 136 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceX = {                                                       %! extern
+S_Second_Violin_Voice_X = {                                                    %! extern
 
-    \S_SecondViolinVoiceX_a                                                    %! extern
+    \S_Second_Violin_Voice_X_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffV = <<                                                      %! extern
+S_Second_Violin_Staff_V = <<                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceIX"                                     %! ScoreTemplate
-    \S_SecondViolinVoiceIX                                                     %! extern
+    \context Voice = "Second_Violin_Voice_IX"                                  %! ScoreTemplate
+    \S_Second_Violin_Voice_IX                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceX"                                      %! ScoreTemplate
-    \S_SecondViolinVoiceX                                                      %! extern
+    \context Voice = "Second_Violin_Voice_X"                                   %! ScoreTemplate
+    \S_Second_Violin_Voice_X                                                   %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceXI_a = {                                                    %! extern
+S_Second_Violin_Voice_XI_a = {                                                 %! extern
 
-    % [S SecondViolinVoiceXI measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XI measure 134 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1620,7 +1620,7 @@ S_SecondViolinVoiceXI_a = {                                                    %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S SecondViolinVoiceXI measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XI measure 135 / measure 2]                       %! _comment_measure_numbers
     r8                                                                         %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -1629,22 +1629,22 @@ S_SecondViolinVoiceXI_a = {                                                    %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S SecondViolinVoiceXI measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XI measure 136 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXI = {                                                      %! extern
+S_Second_Violin_Voice_XI = {                                                   %! extern
 
-    \S_SecondViolinVoiceXI_a                                                   %! extern
+    \S_Second_Violin_Voice_XI_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXII_a = {                                                   %! extern
+S_Second_Violin_Voice_XII_a = {                                                %! extern
 
-    % [S SecondViolinVoiceXII measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XII measure 134 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1659,36 +1659,36 @@ S_SecondViolinVoiceXII_a = {                                                   %
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S SecondViolinVoiceXII measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XII measure 135 / measure 2]                      %! _comment_measure_numbers
     r1
 
-    % [S SecondViolinVoiceXII measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XII measure 136 / measure 3]                      %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXII = {                                                     %! extern
+S_Second_Violin_Voice_XII = {                                                  %! extern
 
-    \S_SecondViolinVoiceXII_a                                                  %! extern
+    \S_Second_Violin_Voice_XII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffVI = <<                                                     %! extern
+S_Second_Violin_Staff_VI = <<                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceXI"                                     %! ScoreTemplate
-    \S_SecondViolinVoiceXI                                                     %! extern
+    \context Voice = "Second_Violin_Voice_XI"                                  %! ScoreTemplate
+    \S_Second_Violin_Voice_XI                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceXII"                                    %! ScoreTemplate
-    \S_SecondViolinVoiceXII                                                    %! extern
+    \context Voice = "Second_Violin_Voice_XII"                                 %! ScoreTemplate
+    \S_Second_Violin_Voice_XII                                                 %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceXIII_a = {                                                  %! extern
+S_Second_Violin_Voice_XIII_a = {                                               %! extern
 
-    % [S SecondViolinVoiceXIII measure 134 / measure 1]                        %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XIII measure 134 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1717,7 +1717,7 @@ S_SecondViolinVoiceXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S SecondViolinVoiceXIII measure 135 / measure 2]                    %! _comment_measure_numbers
+        % [S Second_Violin_Voice_XIII measure 135 / measure 2]                 %! _comment_measure_numbers
         r8                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -1728,7 +1728,7 @@ S_SecondViolinVoiceXIII_a = {                                                  %
 
     r2.
 
-    % [S SecondViolinVoiceXIII measure 136 / measure 3]                        %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XIII measure 136 / measure 3]                     %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -1748,16 +1748,16 @@ S_SecondViolinVoiceXIII_a = {                                                  %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXIII = {                                                    %! extern
+S_Second_Violin_Voice_XIII = {                                                 %! extern
 
-    \S_SecondViolinVoiceXIII_a                                                 %! extern
+    \S_Second_Violin_Voice_XIII_a                                              %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXIV_a = {                                                   %! extern
+S_Second_Violin_Voice_XIV_a = {                                                %! extern
 
-    % [S SecondViolinVoiceXIV measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XIV measure 134 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1778,7 +1778,7 @@ S_SecondViolinVoiceXIV_a = {                                                   %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S SecondViolinVoiceXIV measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XIV measure 135 / measure 2]                      %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
@@ -1787,33 +1787,33 @@ S_SecondViolinVoiceXIV_a = {                                                   %
 
     r2                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceXIV measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XIV measure 136 / measure 3]                      %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXIV = {                                                     %! extern
+S_Second_Violin_Voice_XIV = {                                                  %! extern
 
-    \S_SecondViolinVoiceXIV_a                                                  %! extern
+    \S_Second_Violin_Voice_XIV_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffVII = <<                                                    %! extern
+S_Second_Violin_Staff_VII = <<                                                 %! extern
 
-    \context Voice = "SecondViolinVoiceXIII"                                   %! ScoreTemplate
-    \S_SecondViolinVoiceXIII                                                   %! extern
+    \context Voice = "Second_Violin_Voice_XIII"                                %! ScoreTemplate
+    \S_Second_Violin_Voice_XIII                                                %! extern
 
-    \context Voice = "SecondViolinVoiceXIV"                                    %! ScoreTemplate
-    \S_SecondViolinVoiceXIV                                                    %! extern
+    \context Voice = "Second_Violin_Voice_XIV"                                 %! ScoreTemplate
+    \S_Second_Violin_Voice_XIV                                                 %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceXV_a = {                                                    %! extern
+S_Second_Violin_Voice_XV_a = {                                                 %! extern
 
-    % [S SecondViolinVoiceXV measure 134 / measure 1]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XV measure 134 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1840,10 +1840,10 @@ S_SecondViolinVoiceXV_a = {                                                    %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S SecondViolinVoiceXV measure 135 / measure 2]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XV measure 135 / measure 2]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceXV measure 136 / measure 3]                          %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XV measure 136 / measure 3]                       %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -1855,16 +1855,16 @@ S_SecondViolinVoiceXV_a = {                                                    %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXV = {                                                      %! extern
+S_Second_Violin_Voice_XV = {                                                   %! extern
 
-    \S_SecondViolinVoiceXV_a                                                   %! extern
+    \S_Second_Violin_Voice_XV_a                                                %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXVI_a = {                                                   %! extern
+S_Second_Violin_Voice_XVI_a = {                                                %! extern
 
-    % [S SecondViolinVoiceXVI measure 134 / measure 1]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVI measure 134 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1879,36 +1879,36 @@ S_SecondViolinVoiceXVI_a = {                                                   %
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S SecondViolinVoiceXVI measure 135 / measure 2]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVI measure 135 / measure 2]                      %! _comment_measure_numbers
     r1
 
-    % [S SecondViolinVoiceXVI measure 136 / measure 3]                         %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVI measure 136 / measure 3]                      %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXVI = {                                                     %! extern
+S_Second_Violin_Voice_XVI = {                                                  %! extern
 
-    \S_SecondViolinVoiceXVI_a                                                  %! extern
+    \S_Second_Violin_Voice_XVI_a                                               %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffVIII = <<                                                   %! extern
+S_Second_Violin_Staff_VIII = <<                                                %! extern
 
-    \context Voice = "SecondViolinVoiceXV"                                     %! ScoreTemplate
-    \S_SecondViolinVoiceXV                                                     %! extern
+    \context Voice = "Second_Violin_Voice_XV"                                  %! ScoreTemplate
+    \S_Second_Violin_Voice_XV                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceXVI"                                    %! ScoreTemplate
-    \S_SecondViolinVoiceXVI                                                    %! extern
+    \context Voice = "Second_Violin_Voice_XVI"                                 %! ScoreTemplate
+    \S_Second_Violin_Voice_XVI                                                 %! extern
 
 >>                                                                             %! extern
 
 
-S_SecondViolinVoiceXVII_a = {                                                  %! extern
+S_Second_Violin_Voice_XVII_a = {                                               %! extern
 
-    % [S SecondViolinVoiceXVII measure 134 / measure 1]                        %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVII measure 134 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1945,7 +1945,7 @@ S_SecondViolinVoiceXVII_a = {                                                  %
 
     r2
 
-    % [S SecondViolinVoiceXVII measure 135 / measure 2]                        %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVII measure 135 / measure 2]                     %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -1958,7 +1958,7 @@ S_SecondViolinVoiceXVII_a = {                                                  %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S SecondViolinVoiceXVII measure 136 / measure 3]                    %! _comment_measure_numbers
+        % [S Second_Violin_Voice_XVII measure 136 / measure 3]                 %! _comment_measure_numbers
         d'8                                                                    %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
@@ -1970,16 +1970,16 @@ S_SecondViolinVoiceXVII_a = {                                                  %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXVII = {                                                    %! extern
+S_Second_Violin_Voice_XVII = {                                                 %! extern
 
-    \S_SecondViolinVoiceXVII_a                                                 %! extern
+    \S_Second_Violin_Voice_XVII_a                                              %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXVIII_a = {                                                 %! extern
+S_Second_Violin_Voice_XVIII_a = {                                              %! extern
 
-    % [S SecondViolinVoiceXVIII measure 134 / measure 1]                       %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVIII measure 134 / measure 1]                    %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1994,10 +1994,10 @@ S_SecondViolinVoiceXVIII_a = {                                                 %
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S SecondViolinVoiceXVIII measure 135 / measure 2]                       %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVIII measure 135 / measure 2]                    %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S SecondViolinVoiceXVIII measure 136 / measure 3]                       %! _comment_measure_numbers
+    % [S Second_Violin_Voice_XVIII measure 136 / measure 3]                    %! _comment_measure_numbers
     b16                                                                        %! clb_rhythm
 
     r2...                                                                      %! clb_rhythm
@@ -2005,27 +2005,27 @@ S_SecondViolinVoiceXVIII_a = {                                                 %
 }                                                                              %! extern
 
 
-S_SecondViolinVoiceXVIII = {                                                   %! extern
+S_Second_Violin_Voice_XVIII = {                                                %! extern
 
-    \S_SecondViolinVoiceXVIII_a                                                %! extern
+    \S_Second_Violin_Voice_XVIII_a                                             %! extern
 
 }                                                                              %! extern
 
 
-S_SecondViolinStaffIX = <<                                                     %! extern
+S_Second_Violin_Staff_IX = <<                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceXVII"                                   %! ScoreTemplate
-    \S_SecondViolinVoiceXVII                                                   %! extern
+    \context Voice = "Second_Violin_Voice_XVII"                                %! ScoreTemplate
+    \S_Second_Violin_Voice_XVII                                                %! extern
 
-    \context Voice = "SecondViolinVoiceXVIII"                                  %! ScoreTemplate
-    \S_SecondViolinVoiceXVIII                                                  %! extern
+    \context Voice = "Second_Violin_Voice_XVIII"                               %! ScoreTemplate
+    \S_Second_Violin_Voice_XVIII                                               %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceI_a = {                                                            %! extern
+S_Viola_Voice_I_a = {                                                          %! extern
 
-    % [S ViolaVoiceI measure 134 / measure 1]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_I measure 134 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2061,10 +2061,10 @@ S_ViolaVoiceI_a = {                                                            %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S ViolaVoiceI measure 135 / measure 2]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_I measure 135 / measure 2]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceI measure 136 / measure 3]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_I measure 136 / measure 3]                                %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -2078,16 +2078,16 @@ S_ViolaVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-S_ViolaVoiceI = {                                                              %! extern
+S_Viola_Voice_I = {                                                            %! extern
 
-    \S_ViolaVoiceI_a                                                           %! extern
+    \S_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceII_a = {                                                           %! extern
+S_Viola_Voice_II_a = {                                                         %! extern
 
-    % [S ViolaVoiceII measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_II measure 134 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2107,36 +2107,36 @@ S_ViolaVoiceII_a = {                                                           %
 
     r2                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceII measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_II measure 135 / measure 2]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceII measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_II measure 136 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceII = {                                                             %! extern
+S_Viola_Voice_II = {                                                           %! extern
 
-    \S_ViolaVoiceII_a                                                          %! extern
+    \S_Viola_Voice_II_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffI = <<                                                             %! extern
+S_Viola_Staff_I = <<                                                           %! extern
 
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \S_ViolaVoiceI                                                             %! extern
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \S_Viola_Voice_I                                                           %! extern
 
-    \context Voice = "ViolaVoiceII"                                            %! ScoreTemplate
-    \S_ViolaVoiceII                                                            %! extern
+    \context Voice = "Viola_Voice_II"                                          %! ScoreTemplate
+    \S_Viola_Voice_II                                                          %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceIII_a = {                                                          %! extern
+S_Viola_Voice_III_a = {                                                        %! extern
 
-    % [S ViolaVoiceIII measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Viola_Voice_III measure 134 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2166,7 +2166,7 @@ S_ViolaVoiceIII_a = {                                                          %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S ViolaVoiceIII measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Viola_Voice_III measure 135 / measure 2]                              %! _comment_measure_numbers
     r4
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -2183,7 +2183,7 @@ S_ViolaVoiceIII_a = {                                                          %
 
     r2
 
-    % [S ViolaVoiceIII measure 136 / measure 3]                                %! _comment_measure_numbers
+    % [S Viola_Voice_III measure 136 / measure 3]                              %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -2199,16 +2199,16 @@ S_ViolaVoiceIII_a = {                                                          %
 }                                                                              %! extern
 
 
-S_ViolaVoiceIII = {                                                            %! extern
+S_Viola_Voice_III = {                                                          %! extern
 
-    \S_ViolaVoiceIII_a                                                         %! extern
+    \S_Viola_Voice_III_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceIV_a = {                                                           %! extern
+S_Viola_Voice_IV_a = {                                                         %! extern
 
-    % [S ViolaVoiceIV measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_IV measure 134 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2224,36 +2224,36 @@ S_ViolaVoiceIV_a = {                                                           %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S ViolaVoiceIV measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_IV measure 135 / measure 2]                               %! _comment_measure_numbers
     r1
 
-    % [S ViolaVoiceIV measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_IV measure 136 / measure 3]                               %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceIV = {                                                             %! extern
+S_Viola_Voice_IV = {                                                           %! extern
 
-    \S_ViolaVoiceIV_a                                                          %! extern
+    \S_Viola_Voice_IV_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffII = <<                                                            %! extern
+S_Viola_Staff_II = <<                                                          %! extern
 
-    \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
-    \S_ViolaVoiceIII                                                           %! extern
+    \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
+    \S_Viola_Voice_III                                                         %! extern
 
-    \context Voice = "ViolaVoiceIV"                                            %! ScoreTemplate
-    \S_ViolaVoiceIV                                                            %! extern
+    \context Voice = "Viola_Voice_IV"                                          %! ScoreTemplate
+    \S_Viola_Voice_IV                                                          %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceV_a = {                                                            %! extern
+S_Viola_Voice_V_a = {                                                          %! extern
 
-    % [S ViolaVoiceV measure 134 / measure 1]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_V measure 134 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2280,25 +2280,25 @@ S_ViolaVoiceV_a = {                                                            %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S ViolaVoiceV measure 135 / measure 2]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_V measure 135 / measure 2]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceV measure 136 / measure 3]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_V measure 136 / measure 3]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceV = {                                                              %! extern
+S_Viola_Voice_V = {                                                            %! extern
 
-    \S_ViolaVoiceV_a                                                           %! extern
+    \S_Viola_Voice_V_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceVI_a = {                                                           %! extern
+S_Viola_Voice_VI_a = {                                                         %! extern
 
-    % [S ViolaVoiceVI measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_VI measure 134 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2313,14 +2313,14 @@ S_ViolaVoiceVI_a = {                                                           %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S ViolaVoiceVI measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_VI measure 135 / measure 2]                               %! _comment_measure_numbers
     r8.                                                                        %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
 
     r2.                                                                        %! clb_rhythm
 
-    % [S ViolaVoiceVI measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_VI measure 136 / measure 3]                               %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -2334,27 +2334,27 @@ S_ViolaVoiceVI_a = {                                                           %
 }                                                                              %! extern
 
 
-S_ViolaVoiceVI = {                                                             %! extern
+S_Viola_Voice_VI = {                                                           %! extern
 
-    \S_ViolaVoiceVI_a                                                          %! extern
+    \S_Viola_Voice_VI_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffIII = <<                                                           %! extern
+S_Viola_Staff_III = <<                                                         %! extern
 
-    \context Voice = "ViolaVoiceV"                                             %! ScoreTemplate
-    \S_ViolaVoiceV                                                             %! extern
+    \context Voice = "Viola_Voice_V"                                           %! ScoreTemplate
+    \S_Viola_Voice_V                                                           %! extern
 
-    \context Voice = "ViolaVoiceVI"                                            %! ScoreTemplate
-    \S_ViolaVoiceVI                                                            %! extern
+    \context Voice = "Viola_Voice_VI"                                          %! ScoreTemplate
+    \S_Viola_Voice_VI                                                          %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceVII_a = {                                                          %! extern
+S_Viola_Voice_VII_a = {                                                        %! extern
 
-    % [S ViolaVoiceVII measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Viola_Voice_VII measure 134 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2395,12 +2395,12 @@ S_ViolaVoiceVII_a = {                                                          %
 
     r4
 
-    % [S ViolaVoiceVII measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Viola_Voice_VII measure 135 / measure 2]                              %! _comment_measure_numbers
     r1
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S ViolaVoiceVII measure 136 / measure 3]                            %! _comment_measure_numbers
+        % [S Viola_Voice_VII measure 136 / measure 3]                          %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -2412,16 +2412,16 @@ S_ViolaVoiceVII_a = {                                                          %
 }                                                                              %! extern
 
 
-S_ViolaVoiceVII = {                                                            %! extern
+S_Viola_Voice_VII = {                                                          %! extern
 
-    \S_ViolaVoiceVII_a                                                         %! extern
+    \S_Viola_Voice_VII_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceVIII_a = {                                                         %! extern
+S_Viola_Voice_VIII_a = {                                                       %! extern
 
-    % [S ViolaVoiceVIII measure 134 / measure 1]                               %! _comment_measure_numbers
+    % [S Viola_Voice_VIII measure 134 / measure 1]                             %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2436,36 +2436,36 @@ S_ViolaVoiceVIII_a = {                                                         %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S ViolaVoiceVIII measure 135 / measure 2]                               %! _comment_measure_numbers
+    % [S Viola_Voice_VIII measure 135 / measure 2]                             %! _comment_measure_numbers
     r1
 
-    % [S ViolaVoiceVIII measure 136 / measure 3]                               %! _comment_measure_numbers
+    % [S Viola_Voice_VIII measure 136 / measure 3]                             %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceVIII = {                                                           %! extern
+S_Viola_Voice_VIII = {                                                         %! extern
 
-    \S_ViolaVoiceVIII_a                                                        %! extern
+    \S_Viola_Voice_VIII_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffIV = <<                                                            %! extern
+S_Viola_Staff_IV = <<                                                          %! extern
 
-    \context Voice = "ViolaVoiceVII"                                           %! ScoreTemplate
-    \S_ViolaVoiceVII                                                           %! extern
+    \context Voice = "Viola_Voice_VII"                                         %! ScoreTemplate
+    \S_Viola_Voice_VII                                                         %! extern
 
-    \context Voice = "ViolaVoiceVIII"                                          %! ScoreTemplate
-    \S_ViolaVoiceVIII                                                          %! extern
+    \context Voice = "Viola_Voice_VIII"                                        %! ScoreTemplate
+    \S_Viola_Voice_VIII                                                        %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceIX_a = {                                                           %! extern
+S_Viola_Voice_IX_a = {                                                         %! extern
 
-    % [S ViolaVoiceIX measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_IX measure 134 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2492,7 +2492,7 @@ S_ViolaVoiceIX_a = {                                                           %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S ViolaVoiceIX measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_IX measure 135 / measure 2]                               %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -2503,22 +2503,22 @@ S_ViolaVoiceIX_a = {                                                           %
 
     r2                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceIX measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_IX measure 136 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceIX = {                                                             %! extern
+S_Viola_Voice_IX = {                                                           %! extern
 
-    \S_ViolaVoiceIX_a                                                          %! extern
+    \S_Viola_Voice_IX_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceX_a = {                                                            %! extern
+S_Viola_Voice_X_a = {                                                          %! extern
 
-    % [S ViolaVoiceX measure 134 / measure 1]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_X measure 134 / measure 1]                                %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2533,7 +2533,7 @@ S_ViolaVoiceX_a = {                                                            %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S ViolaVoiceX measure 135 / measure 2]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_X measure 135 / measure 2]                                %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -2542,7 +2542,7 @@ S_ViolaVoiceX_a = {                                                            %
 
     r8                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceX measure 136 / measure 3]                                  %! _comment_measure_numbers
+    % [S Viola_Voice_X measure 136 / measure 3]                                %! _comment_measure_numbers
     r2...                                                                      %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
@@ -2550,27 +2550,27 @@ S_ViolaVoiceX_a = {                                                            %
 }                                                                              %! extern
 
 
-S_ViolaVoiceX = {                                                              %! extern
+S_Viola_Voice_X = {                                                            %! extern
 
-    \S_ViolaVoiceX_a                                                           %! extern
+    \S_Viola_Voice_X_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffV = <<                                                             %! extern
+S_Viola_Staff_V = <<                                                           %! extern
 
-    \context Voice = "ViolaVoiceIX"                                            %! ScoreTemplate
-    \S_ViolaVoiceIX                                                            %! extern
+    \context Voice = "Viola_Voice_IX"                                          %! ScoreTemplate
+    \S_Viola_Voice_IX                                                          %! extern
 
-    \context Voice = "ViolaVoiceX"                                             %! ScoreTemplate
-    \S_ViolaVoiceX                                                             %! extern
+    \context Voice = "Viola_Voice_X"                                           %! ScoreTemplate
+    \S_Viola_Voice_X                                                           %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceXI_a = {                                                           %! extern
+S_Viola_Voice_XI_a = {                                                         %! extern
 
-    % [S ViolaVoiceXI measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_XI measure 134 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2599,25 +2599,25 @@ S_ViolaVoiceXI_a = {                                                           %
 
     r2...                                                                      %! clb_rhythm
 
-    % [S ViolaVoiceXI measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_XI measure 135 / measure 2]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceXI measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_XI measure 136 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXI = {                                                             %! extern
+S_Viola_Voice_XI = {                                                           %! extern
 
-    \S_ViolaVoiceXI_a                                                          %! extern
+    \S_Viola_Voice_XI_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXII_a = {                                                          %! extern
+S_Viola_Voice_XII_a = {                                                        %! extern
 
-    % [S ViolaVoiceXII measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XII measure 134 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2642,12 +2642,12 @@ S_ViolaVoiceXII_a = {                                                          %
 
     r4
 
-    % [S ViolaVoiceXII measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XII measure 135 / measure 2]                              %! _comment_measure_numbers
     r1
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S ViolaVoiceXII measure 136 / measure 3]                            %! _comment_measure_numbers
+        % [S Viola_Voice_XII measure 136 / measure 3]                          %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -2659,27 +2659,27 @@ S_ViolaVoiceXII_a = {                                                          %
 }                                                                              %! extern
 
 
-S_ViolaVoiceXII = {                                                            %! extern
+S_Viola_Voice_XII = {                                                          %! extern
 
-    \S_ViolaVoiceXII_a                                                         %! extern
+    \S_Viola_Voice_XII_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffVI = <<                                                            %! extern
+S_Viola_Staff_VI = <<                                                          %! extern
 
-    \context Voice = "ViolaVoiceXI"                                            %! ScoreTemplate
-    \S_ViolaVoiceXI                                                            %! extern
+    \context Voice = "Viola_Voice_XI"                                          %! ScoreTemplate
+    \S_Viola_Voice_XI                                                          %! extern
 
-    \context Voice = "ViolaVoiceXII"                                           %! ScoreTemplate
-    \S_ViolaVoiceXII                                                           %! extern
+    \context Voice = "Viola_Voice_XII"                                         %! ScoreTemplate
+    \S_Viola_Voice_XII                                                         %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceXIII_a = {                                                         %! extern
+S_Viola_Voice_XIII_a = {                                                       %! extern
 
-    % [S ViolaVoiceXIII measure 134 / measure 1]                               %! _comment_measure_numbers
+    % [S Viola_Voice_XIII measure 134 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2708,7 +2708,7 @@ S_ViolaVoiceXIII_a = {                                                         %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S ViolaVoiceXIII measure 135 / measure 2]                           %! _comment_measure_numbers
+        % [S Viola_Voice_XIII measure 135 / measure 2]                         %! _comment_measure_numbers
         r8                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -2719,7 +2719,7 @@ S_ViolaVoiceXIII_a = {                                                         %
 
     r2.
 
-    % [S ViolaVoiceXIII measure 136 / measure 3]                               %! _comment_measure_numbers
+    % [S Viola_Voice_XIII measure 136 / measure 3]                             %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -2737,16 +2737,16 @@ S_ViolaVoiceXIII_a = {                                                         %
 }                                                                              %! extern
 
 
-S_ViolaVoiceXIII = {                                                           %! extern
+S_Viola_Voice_XIII = {                                                         %! extern
 
-    \S_ViolaVoiceXIII_a                                                        %! extern
+    \S_Viola_Voice_XIII_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXIV_a = {                                                          %! extern
+S_Viola_Voice_XIV_a = {                                                        %! extern
 
-    % [S ViolaVoiceXIV measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XIV measure 134 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2761,10 +2761,10 @@ S_ViolaVoiceXIV_a = {                                                          %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S ViolaVoiceXIV measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XIV measure 135 / measure 2]                              %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceXIV measure 136 / measure 3]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XIV measure 136 / measure 3]                              %! _comment_measure_numbers
     r4..                                                                       %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
@@ -2776,27 +2776,27 @@ S_ViolaVoiceXIV_a = {                                                          %
 }                                                                              %! extern
 
 
-S_ViolaVoiceXIV = {                                                            %! extern
+S_Viola_Voice_XIV = {                                                          %! extern
 
-    \S_ViolaVoiceXIV_a                                                         %! extern
+    \S_Viola_Voice_XIV_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffVII = <<                                                           %! extern
+S_Viola_Staff_VII = <<                                                         %! extern
 
-    \context Voice = "ViolaVoiceXIII"                                          %! ScoreTemplate
-    \S_ViolaVoiceXIII                                                          %! extern
+    \context Voice = "Viola_Voice_XIII"                                        %! ScoreTemplate
+    \S_Viola_Voice_XIII                                                        %! extern
 
-    \context Voice = "ViolaVoiceXIV"                                           %! ScoreTemplate
-    \S_ViolaVoiceXIV                                                           %! extern
+    \context Voice = "Viola_Voice_XIV"                                         %! ScoreTemplate
+    \S_Viola_Voice_XIV                                                         %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceXV_a = {                                                           %! extern
+S_Viola_Voice_XV_a = {                                                         %! extern
 
-    % [S ViolaVoiceXV measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_XV measure 134 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2831,25 +2831,25 @@ S_ViolaVoiceXV_a = {                                                           %
 
     r4                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceXV measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_XV measure 135 / measure 2]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceXV measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Viola_Voice_XV measure 136 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXV = {                                                             %! extern
+S_Viola_Voice_XV = {                                                           %! extern
 
-    \S_ViolaVoiceXV_a                                                          %! extern
+    \S_Viola_Voice_XV_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXVI_a = {                                                          %! extern
+S_Viola_Voice_XVI_a = {                                                        %! extern
 
-    % [S ViolaVoiceXVI measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XVI measure 134 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2864,7 +2864,7 @@ S_ViolaVoiceXVI_a = {                                                          %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S ViolaVoiceXVI measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XVI measure 135 / measure 2]                              %! _comment_measure_numbers
     r2
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -2877,33 +2877,33 @@ S_ViolaVoiceXVI_a = {                                                          %
 
     r4
 
-    % [S ViolaVoiceXVI measure 136 / measure 3]                                %! _comment_measure_numbers
+    % [S Viola_Voice_XVI measure 136 / measure 3]                              %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXVI = {                                                            %! extern
+S_Viola_Voice_XVI = {                                                          %! extern
 
-    \S_ViolaVoiceXVI_a                                                         %! extern
+    \S_Viola_Voice_XVI_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffVIII = <<                                                          %! extern
+S_Viola_Staff_VIII = <<                                                        %! extern
 
-    \context Voice = "ViolaVoiceXV"                                            %! ScoreTemplate
-    \S_ViolaVoiceXV                                                            %! extern
+    \context Voice = "Viola_Voice_XV"                                          %! ScoreTemplate
+    \S_Viola_Voice_XV                                                          %! extern
 
-    \context Voice = "ViolaVoiceXVI"                                           %! ScoreTemplate
-    \S_ViolaVoiceXVI                                                           %! extern
+    \context Voice = "Viola_Voice_XVI"                                         %! ScoreTemplate
+    \S_Viola_Voice_XVI                                                         %! extern
 
 >>                                                                             %! extern
 
 
-S_ViolaVoiceXVII_a = {                                                         %! extern
+S_Viola_Voice_XVII_a = {                                                       %! extern
 
-    % [S ViolaVoiceXVII measure 134 / measure 1]                               %! _comment_measure_numbers
+    % [S Viola_Voice_XVII measure 134 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2930,25 +2930,25 @@ S_ViolaVoiceXVII_a = {                                                         %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S ViolaVoiceXVII measure 135 / measure 2]                               %! _comment_measure_numbers
+    % [S Viola_Voice_XVII measure 135 / measure 2]                             %! _comment_measure_numbers
     r1
 
-    % [S ViolaVoiceXVII measure 136 / measure 3]                               %! _comment_measure_numbers
+    % [S Viola_Voice_XVII measure 136 / measure 3]                             %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXVII = {                                                           %! extern
+S_Viola_Voice_XVII = {                                                         %! extern
 
-    \S_ViolaVoiceXVII_a                                                        %! extern
+    \S_Viola_Voice_XVII_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaVoiceXVIII_a = {                                                        %! extern
+S_Viola_Voice_XVIII_a = {                                                      %! extern
 
-    % [S ViolaVoiceXVIII measure 134 / measure 1]                              %! _comment_measure_numbers
+    % [S Viola_Voice_XVIII measure 134 / measure 1]                            %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2969,12 +2969,12 @@ S_ViolaVoiceXVIII_a = {                                                        %
 
     r8                                                                         %! clb_rhythm
 
-    % [S ViolaVoiceXVIII measure 135 / measure 2]                              %! _comment_measure_numbers
+    % [S Viola_Voice_XVIII measure 135 / measure 2]                            %! _comment_measure_numbers
     r2...                                                                      %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
 
-    % [S ViolaVoiceXVIII measure 136 / measure 3]                              %! _comment_measure_numbers
+    % [S Viola_Voice_XVIII measure 136 / measure 3]                            %! _comment_measure_numbers
     b16                                                                        %! clb_rhythm
 
     r2...                                                                      %! clb_rhythm
@@ -2982,27 +2982,27 @@ S_ViolaVoiceXVIII_a = {                                                        %
 }                                                                              %! extern
 
 
-S_ViolaVoiceXVIII = {                                                          %! extern
+S_Viola_Voice_XVIII = {                                                        %! extern
 
-    \S_ViolaVoiceXVIII_a                                                       %! extern
+    \S_Viola_Voice_XVIII_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-S_ViolaStaffIX = <<                                                            %! extern
+S_Viola_Staff_IX = <<                                                          %! extern
 
-    \context Voice = "ViolaVoiceXVII"                                          %! ScoreTemplate
-    \S_ViolaVoiceXVII                                                          %! extern
+    \context Voice = "Viola_Voice_XVII"                                        %! ScoreTemplate
+    \S_Viola_Voice_XVII                                                        %! extern
 
-    \context Voice = "ViolaVoiceXVIII"                                         %! ScoreTemplate
-    \S_ViolaVoiceXVIII                                                         %! extern
+    \context Voice = "Viola_Voice_XVIII"                                       %! ScoreTemplate
+    \S_Viola_Voice_XVIII                                                       %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceI_a = {                                                            %! extern
+S_Cello_Voice_I_a = {                                                          %! extern
 
-    % [S CelloVoiceI measure 134 / measure 1]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_I measure 134 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3038,7 +3038,7 @@ S_CelloVoiceI_a = {                                                            %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S CelloVoiceI measure 135 / measure 2]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_I measure 135 / measure 2]                                %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -3047,22 +3047,22 @@ S_CelloVoiceI_a = {                                                            %
 
     r2                                                                         %! clb_rhythm
 
-    % [S CelloVoiceI measure 136 / measure 3]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_I measure 136 / measure 3]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_CelloVoiceI = {                                                              %! extern
+S_Cello_Voice_I = {                                                            %! extern
 
-    \S_CelloVoiceI_a                                                           %! extern
+    \S_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceII_a = {                                                           %! extern
+S_Cello_Voice_II_a = {                                                         %! extern
 
-    % [S CelloVoiceII measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_II measure 134 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3078,10 +3078,10 @@ S_CelloVoiceII_a = {                                                           %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S CelloVoiceII measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_II measure 135 / measure 2]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S CelloVoiceII measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_II measure 136 / measure 3]                               %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -3093,27 +3093,27 @@ S_CelloVoiceII_a = {                                                           %
 }                                                                              %! extern
 
 
-S_CelloVoiceII = {                                                             %! extern
+S_Cello_Voice_II = {                                                           %! extern
 
-    \S_CelloVoiceII_a                                                          %! extern
+    \S_Cello_Voice_II_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffI = <<                                                             %! extern
+S_Cello_Staff_I = <<                                                           %! extern
 
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \S_CelloVoiceI                                                             %! extern
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \S_Cello_Voice_I                                                           %! extern
 
-    \context Voice = "CelloVoiceII"                                            %! ScoreTemplate
-    \S_CelloVoiceII                                                            %! extern
+    \context Voice = "Cello_Voice_II"                                          %! ScoreTemplate
+    \S_Cello_Voice_II                                                          %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceIII_a = {                                                          %! extern
+S_Cello_Voice_III_a = {                                                        %! extern
 
-    % [S CelloVoiceIII measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Cello_Voice_III measure 134 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3140,25 +3140,25 @@ S_CelloVoiceIII_a = {                                                          %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S CelloVoiceIII measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Cello_Voice_III measure 135 / measure 2]                              %! _comment_measure_numbers
     r1
 
-    % [S CelloVoiceIII measure 136 / measure 3]                                %! _comment_measure_numbers
+    % [S Cello_Voice_III measure 136 / measure 3]                              %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_CelloVoiceIII = {                                                            %! extern
+S_Cello_Voice_III = {                                                          %! extern
 
-    \S_CelloVoiceIII_a                                                         %! extern
+    \S_Cello_Voice_III_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceIV_a = {                                                           %! extern
+S_Cello_Voice_IV_a = {                                                         %! extern
 
-    % [S CelloVoiceIV measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_IV measure 134 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3183,7 +3183,7 @@ S_CelloVoiceIV_a = {                                                           %
 
     r2
 
-    % [S CelloVoiceIV measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_IV measure 135 / measure 2]                               %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -3196,7 +3196,7 @@ S_CelloVoiceIV_a = {                                                           %
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S CelloVoiceIV measure 136 / measure 3]                             %! _comment_measure_numbers
+        % [S Cello_Voice_IV measure 136 / measure 3]                           %! _comment_measure_numbers
         b8                                                                     %! clb_rhythm
 
         r4                                                                     %! clb_rhythm
@@ -3208,27 +3208,27 @@ S_CelloVoiceIV_a = {                                                           %
 }                                                                              %! extern
 
 
-S_CelloVoiceIV = {                                                             %! extern
+S_Cello_Voice_IV = {                                                           %! extern
 
-    \S_CelloVoiceIV_a                                                          %! extern
+    \S_Cello_Voice_IV_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffII = <<                                                            %! extern
+S_Cello_Staff_II = <<                                                          %! extern
 
-    \context Voice = "CelloVoiceIII"                                           %! ScoreTemplate
-    \S_CelloVoiceIII                                                           %! extern
+    \context Voice = "Cello_Voice_III"                                         %! ScoreTemplate
+    \S_Cello_Voice_III                                                         %! extern
 
-    \context Voice = "CelloVoiceIV"                                            %! ScoreTemplate
-    \S_CelloVoiceIV                                                            %! extern
+    \context Voice = "Cello_Voice_IV"                                          %! ScoreTemplate
+    \S_Cello_Voice_IV                                                          %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceV_a = {                                                            %! extern
+S_Cello_Voice_V_a = {                                                          %! extern
 
-    % [S CelloVoiceV measure 134 / measure 1]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_V measure 134 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3255,10 +3255,10 @@ S_CelloVoiceV_a = {                                                            %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S CelloVoiceV measure 135 / measure 2]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_V measure 135 / measure 2]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S CelloVoiceV measure 136 / measure 3]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_V measure 136 / measure 3]                                %! _comment_measure_numbers
     d'16                                                                       %! clb_rhythm
 
     r2...                                                                      %! clb_rhythm
@@ -3266,16 +3266,16 @@ S_CelloVoiceV_a = {                                                            %
 }                                                                              %! extern
 
 
-S_CelloVoiceV = {                                                              %! extern
+S_Cello_Voice_V = {                                                            %! extern
 
-    \S_CelloVoiceV_a                                                           %! extern
+    \S_Cello_Voice_V_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceVI_a = {                                                           %! extern
+S_Cello_Voice_VI_a = {                                                         %! extern
 
-    % [S CelloVoiceVI measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_VI measure 134 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3296,10 +3296,10 @@ S_CelloVoiceVI_a = {                                                           %
 
     r2.                                                                        %! clb_rhythm
 
-    % [S CelloVoiceVI measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_VI measure 135 / measure 2]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S CelloVoiceVI measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_VI measure 136 / measure 3]                               %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -3313,27 +3313,27 @@ S_CelloVoiceVI_a = {                                                           %
 }                                                                              %! extern
 
 
-S_CelloVoiceVI = {                                                             %! extern
+S_Cello_Voice_VI = {                                                           %! extern
 
-    \S_CelloVoiceVI_a                                                          %! extern
+    \S_Cello_Voice_VI_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffIII = <<                                                           %! extern
+S_Cello_Staff_III = <<                                                         %! extern
 
-    \context Voice = "CelloVoiceV"                                             %! ScoreTemplate
-    \S_CelloVoiceV                                                             %! extern
+    \context Voice = "Cello_Voice_V"                                           %! ScoreTemplate
+    \S_Cello_Voice_V                                                           %! extern
 
-    \context Voice = "CelloVoiceVI"                                            %! ScoreTemplate
-    \S_CelloVoiceVI                                                            %! extern
+    \context Voice = "Cello_Voice_VI"                                          %! ScoreTemplate
+    \S_Cello_Voice_VI                                                          %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceVII_a = {                                                          %! extern
+S_Cello_Voice_VII_a = {                                                        %! extern
 
-    % [S CelloVoiceVII measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Cello_Voice_VII measure 134 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3372,25 +3372,25 @@ S_CelloVoiceVII_a = {                                                          %
 
     r4
 
-    % [S CelloVoiceVII measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Cello_Voice_VII measure 135 / measure 2]                              %! _comment_measure_numbers
     r1
 
-    % [S CelloVoiceVII measure 136 / measure 3]                                %! _comment_measure_numbers
+    % [S Cello_Voice_VII measure 136 / measure 3]                              %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_CelloVoiceVII = {                                                            %! extern
+S_Cello_Voice_VII = {                                                          %! extern
 
-    \S_CelloVoiceVII_a                                                         %! extern
+    \S_Cello_Voice_VII_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceVIII_a = {                                                         %! extern
+S_Cello_Voice_VIII_a = {                                                       %! extern
 
-    % [S CelloVoiceVIII measure 134 / measure 1]                               %! _comment_measure_numbers
+    % [S Cello_Voice_VIII measure 134 / measure 1]                             %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3405,7 +3405,7 @@ S_CelloVoiceVIII_a = {                                                         %
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S CelloVoiceVIII measure 135 / measure 2]                               %! _comment_measure_numbers
+    % [S Cello_Voice_VIII measure 135 / measure 2]                             %! _comment_measure_numbers
     r4
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -3422,7 +3422,7 @@ S_CelloVoiceVIII_a = {                                                         %
 
     r2
 
-    % [S CelloVoiceVIII measure 136 / measure 3]                               %! _comment_measure_numbers
+    % [S Cello_Voice_VIII measure 136 / measure 3]                             %! _comment_measure_numbers
     r2.
 
     \times 2/3 {                                                               %! clb_rhythm
@@ -3438,27 +3438,27 @@ S_CelloVoiceVIII_a = {                                                         %
 }                                                                              %! extern
 
 
-S_CelloVoiceVIII = {                                                           %! extern
+S_Cello_Voice_VIII = {                                                         %! extern
 
-    \S_CelloVoiceVIII_a                                                        %! extern
+    \S_Cello_Voice_VIII_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffIV = <<                                                            %! extern
+S_Cello_Staff_IV = <<                                                          %! extern
 
-    \context Voice = "CelloVoiceVII"                                           %! ScoreTemplate
-    \S_CelloVoiceVII                                                           %! extern
+    \context Voice = "Cello_Voice_VII"                                         %! ScoreTemplate
+    \S_Cello_Voice_VII                                                         %! extern
 
-    \context Voice = "CelloVoiceVIII"                                          %! ScoreTemplate
-    \S_CelloVoiceVIII                                                          %! extern
+    \context Voice = "Cello_Voice_VIII"                                        %! ScoreTemplate
+    \S_Cello_Voice_VIII                                                        %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceIX_a = {                                                           %! extern
+S_Cello_Voice_IX_a = {                                                         %! extern
 
-    % [S CelloVoiceIX measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_IX measure 134 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3485,10 +3485,10 @@ S_CelloVoiceIX_a = {                                                           %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S CelloVoiceIX measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_IX measure 135 / measure 2]                               %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S CelloVoiceIX measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_IX measure 136 / measure 3]                               %! _comment_measure_numbers
     r2                                                                         %! clb_rhythm
 
     r8                                                                         %! clb_rhythm
@@ -3502,16 +3502,16 @@ S_CelloVoiceIX_a = {                                                           %
 }                                                                              %! extern
 
 
-S_CelloVoiceIX = {                                                             %! extern
+S_Cello_Voice_IX = {                                                           %! extern
 
-    \S_CelloVoiceIX_a                                                          %! extern
+    \S_Cello_Voice_IX_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceX_a = {                                                            %! extern
+S_Cello_Voice_X_a = {                                                          %! extern
 
-    % [S CelloVoiceX measure 134 / measure 1]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_X measure 134 / measure 1]                                %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3526,36 +3526,36 @@ S_CelloVoiceX_a = {                                                            %
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S CelloVoiceX measure 135 / measure 2]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_X measure 135 / measure 2]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S CelloVoiceX measure 136 / measure 3]                                  %! _comment_measure_numbers
+    % [S Cello_Voice_X measure 136 / measure 3]                                %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_CelloVoiceX = {                                                              %! extern
+S_Cello_Voice_X = {                                                            %! extern
 
-    \S_CelloVoiceX_a                                                           %! extern
+    \S_Cello_Voice_X_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffV = <<                                                             %! extern
+S_Cello_Staff_V = <<                                                           %! extern
 
-    \context Voice = "CelloVoiceIX"                                            %! ScoreTemplate
-    \S_CelloVoiceIX                                                            %! extern
+    \context Voice = "Cello_Voice_IX"                                          %! ScoreTemplate
+    \S_Cello_Voice_IX                                                          %! extern
 
-    \context Voice = "CelloVoiceX"                                             %! ScoreTemplate
-    \S_CelloVoiceX                                                             %! extern
+    \context Voice = "Cello_Voice_X"                                           %! ScoreTemplate
+    \S_Cello_Voice_X                                                           %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceXI_a = {                                                           %! extern
+S_Cello_Voice_XI_a = {                                                         %! extern
 
-    % [S CelloVoiceXI measure 134 / measure 1]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_XI measure 134 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3582,14 +3582,14 @@ S_CelloVoiceXI_a = {                                                           %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S CelloVoiceXI measure 135 / measure 2]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_XI measure 135 / measure 2]                               %! _comment_measure_numbers
     r8.                                                                        %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
 
     r2.                                                                        %! clb_rhythm
 
-    % [S CelloVoiceXI measure 136 / measure 3]                                 %! _comment_measure_numbers
+    % [S Cello_Voice_XI measure 136 / measure 3]                               %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -3603,16 +3603,16 @@ S_CelloVoiceXI_a = {                                                           %
 }                                                                              %! extern
 
 
-S_CelloVoiceXI = {                                                             %! extern
+S_Cello_Voice_XI = {                                                           %! extern
 
-    \S_CelloVoiceXI_a                                                          %! extern
+    \S_Cello_Voice_XI_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceXII_a = {                                                          %! extern
+S_Cello_Voice_XII_a = {                                                        %! extern
 
-    % [S CelloVoiceXII measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Cello_Voice_XII measure 134 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3641,12 +3641,12 @@ S_CelloVoiceXII_a = {                                                          %
 
     r4
 
-    % [S CelloVoiceXII measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Cello_Voice_XII measure 135 / measure 2]                              %! _comment_measure_numbers
     r1
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S CelloVoiceXII measure 136 / measure 3]                            %! _comment_measure_numbers
+        % [S Cello_Voice_XII measure 136 / measure 3]                          %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         b8                                                                     %! clb_rhythm
@@ -3658,27 +3658,27 @@ S_CelloVoiceXII_a = {                                                          %
 }                                                                              %! extern
 
 
-S_CelloVoiceXII = {                                                            %! extern
+S_Cello_Voice_XII = {                                                          %! extern
 
-    \S_CelloVoiceXII_a                                                         %! extern
+    \S_Cello_Voice_XII_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffVI = <<                                                            %! extern
+S_Cello_Staff_VI = <<                                                          %! extern
 
-    \context Voice = "CelloVoiceXI"                                            %! ScoreTemplate
-    \S_CelloVoiceXI                                                            %! extern
+    \context Voice = "Cello_Voice_XI"                                          %! ScoreTemplate
+    \S_Cello_Voice_XI                                                          %! extern
 
-    \context Voice = "CelloVoiceXII"                                           %! ScoreTemplate
-    \S_CelloVoiceXII                                                           %! extern
+    \context Voice = "Cello_Voice_XII"                                         %! ScoreTemplate
+    \S_Cello_Voice_XII                                                         %! extern
 
 >>                                                                             %! extern
 
 
-S_CelloVoiceXIII_a = {                                                         %! extern
+S_Cello_Voice_XIII_a = {                                                       %! extern
 
-    % [S CelloVoiceXIII measure 134 / measure 1]                               %! _comment_measure_numbers
+    % [S Cello_Voice_XIII measure 134 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3705,25 +3705,25 @@ S_CelloVoiceXIII_a = {                                                         %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S CelloVoiceXIII measure 135 / measure 2]                               %! _comment_measure_numbers
+    % [S Cello_Voice_XIII measure 135 / measure 2]                             %! _comment_measure_numbers
     r1
 
-    % [S CelloVoiceXIII measure 136 / measure 3]                               %! _comment_measure_numbers
+    % [S Cello_Voice_XIII measure 136 / measure 3]                             %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_CelloVoiceXIII = {                                                           %! extern
+S_Cello_Voice_XIII = {                                                         %! extern
 
-    \S_CelloVoiceXIII_a                                                        %! extern
+    \S_Cello_Voice_XIII_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-S_CelloVoiceXIV_a = {                                                          %! extern
+S_Cello_Voice_XIV_a = {                                                        %! extern
 
-    % [S CelloVoiceXIV measure 134 / measure 1]                                %! _comment_measure_numbers
+    % [S Cello_Voice_XIV measure 134 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3738,7 +3738,7 @@ S_CelloVoiceXIV_a = {                                                          %
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [S CelloVoiceXIV measure 135 / measure 2]                                %! _comment_measure_numbers
+    % [S Cello_Voice_XIV measure 135 / measure 2]                              %! _comment_measure_numbers
     r4                                                                         %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -3749,33 +3749,33 @@ S_CelloVoiceXIV_a = {                                                          %
 
     r2                                                                         %! clb_rhythm
 
-    % [S CelloVoiceXIV measure 136 / measure 3]                                %! _comment_measure_numbers
+    % [S Cello_Voice_XIV measure 136 / measure 3]                              %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_CelloVoiceXIV = {                                                            %! extern
+S_Cello_Voice_XIV = {                                                          %! extern
 
-    \S_CelloVoiceXIV_a                                                         %! extern
+    \S_Cello_Voice_XIV_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-S_CelloStaffVII = <<                                                           %! extern
+S_Cello_Staff_VII = <<                                                         %! extern
 
-    \context Voice = "CelloVoiceXIII"                                          %! ScoreTemplate
-    \S_CelloVoiceXIII                                                          %! extern
+    \context Voice = "Cello_Voice_XIII"                                        %! ScoreTemplate
+    \S_Cello_Voice_XIII                                                        %! extern
 
-    \context Voice = "CelloVoiceXIV"                                           %! ScoreTemplate
-    \S_CelloVoiceXIV                                                           %! extern
+    \context Voice = "Cello_Voice_XIV"                                         %! ScoreTemplate
+    \S_Cello_Voice_XIV                                                         %! extern
 
 >>                                                                             %! extern
 
 
-S_ContrabassVoiceI_a = {                                                       %! extern
+S_Contrabass_Voice_I_a = {                                                     %! extern
 
-    % [S ContrabassVoiceI measure 134 / measure 1]                             %! _comment_measure_numbers
+    % [S Contrabass_Voice_I measure 134 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3805,7 +3805,7 @@ S_ContrabassVoiceI_a = {                                                       %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S ContrabassVoiceI measure 135 / measure 2]                             %! _comment_measure_numbers
+    % [S Contrabass_Voice_I measure 135 / measure 2]                           %! _comment_measure_numbers
     r2.                                                                        %! clb_rhythm
 
     r16                                                                        %! clb_rhythm
@@ -3814,7 +3814,7 @@ S_ContrabassVoiceI_a = {                                                       %
 
     r8                                                                         %! clb_rhythm
 
-    % [S ContrabassVoiceI measure 136 / measure 3]                             %! _comment_measure_numbers
+    % [S Contrabass_Voice_I measure 136 / measure 3]                           %! _comment_measure_numbers
     r2...                                                                      %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -3822,18 +3822,18 @@ S_ContrabassVoiceI_a = {                                                       %
 }                                                                              %! extern
 
 
-S_ContrabassVoiceI = {                                                         %! extern
+S_Contrabass_Voice_I = {                                                       %! extern
 
-    \S_ContrabassVoiceI_a                                                      %! extern
+    \S_Contrabass_Voice_I_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-S_ContrabassVoiceII_a = {                                                      %! extern
+S_Contrabass_Voice_II_a = {                                                    %! extern
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S ContrabassVoiceII measure 134 / measure 1]                        %! _comment_measure_numbers
+        % [S Contrabass_Voice_II measure 134 / measure 1]                      %! _comment_measure_numbers
     %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
         \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.line-count = 1                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3853,36 +3853,36 @@ S_ContrabassVoiceII_a = {                                                      %
 
     r2.
 
-    % [S ContrabassVoiceII measure 135 / measure 2]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_II measure 135 / measure 2]                          %! _comment_measure_numbers
     r1
 
-    % [S ContrabassVoiceII measure 136 / measure 3]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_II measure 136 / measure 3]                          %! _comment_measure_numbers
     r1
 
 }                                                                              %! extern
 
 
-S_ContrabassVoiceII = {                                                        %! extern
+S_Contrabass_Voice_II = {                                                      %! extern
 
-    \S_ContrabassVoiceII_a                                                     %! extern
+    \S_Contrabass_Voice_II_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-S_ContrabassStaffI = <<                                                        %! extern
+S_Contrabass_Staff_I = <<                                                      %! extern
 
-    \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
-    \S_ContrabassVoiceI                                                        %! extern
+    \context Voice = "Contrabass_Voice_I"                                      %! ScoreTemplate
+    \S_Contrabass_Voice_I                                                      %! extern
 
-    \context Voice = "ContrabassVoiceII"                                       %! ScoreTemplate
-    \S_ContrabassVoiceII                                                       %! extern
+    \context Voice = "Contrabass_Voice_II"                                     %! ScoreTemplate
+    \S_Contrabass_Voice_II                                                     %! extern
 
 >>                                                                             %! extern
 
 
-S_ContrabassVoiceIII_a = {                                                     %! extern
+S_Contrabass_Voice_III_a = {                                                   %! extern
 
-    % [S ContrabassVoiceIII measure 134 / measure 1]                           %! _comment_measure_numbers
+    % [S Contrabass_Voice_III measure 134 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3922,12 +3922,12 @@ S_ContrabassVoiceIII_a = {                                                     %
 
     r4
 
-    % [S ContrabassVoiceIII measure 135 / measure 2]                           %! _comment_measure_numbers
+    % [S Contrabass_Voice_III measure 135 / measure 2]                         %! _comment_measure_numbers
     r1
 
     \times 2/3 {                                                               %! clb_rhythm
 
-        % [S ContrabassVoiceIII measure 136 / measure 3]                       %! _comment_measure_numbers
+        % [S Contrabass_Voice_III measure 136 / measure 3]                     %! _comment_measure_numbers
         r4                                                                     %! clb_rhythm
 
         d'8                                                                    %! clb_rhythm
@@ -3939,16 +3939,16 @@ S_ContrabassVoiceIII_a = {                                                     %
 }                                                                              %! extern
 
 
-S_ContrabassVoiceIII = {                                                       %! extern
+S_Contrabass_Voice_III = {                                                     %! extern
 
-    \S_ContrabassVoiceIII_a                                                    %! extern
+    \S_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-S_ContrabassVoiceIV_a = {                                                      %! extern
+S_Contrabass_Voice_IV_a = {                                                    %! extern
 
-    % [S ContrabassVoiceIV measure 134 / measure 1]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_IV measure 134 / measure 1]                          %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3968,38 +3968,38 @@ S_ContrabassVoiceIV_a = {                                                      %
 
     r8                                                                         %! clb_rhythm
 
-    % [S ContrabassVoiceIV measure 135 / measure 2]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_IV measure 135 / measure 2]                          %! _comment_measure_numbers
     r2...                                                                      %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
 
-    % [S ContrabassVoiceIV measure 136 / measure 3]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_IV measure 136 / measure 3]                          %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ContrabassVoiceIV = {                                                        %! extern
+S_Contrabass_Voice_IV = {                                                      %! extern
 
-    \S_ContrabassVoiceIV_a                                                     %! extern
+    \S_Contrabass_Voice_IV_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-S_ContrabassStaffII = <<                                                       %! extern
+S_Contrabass_Staff_II = <<                                                     %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \S_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \S_Contrabass_Voice_III                                                    %! extern
 
-    \context Voice = "ContrabassVoiceIV"                                       %! ScoreTemplate
-    \S_ContrabassVoiceIV                                                       %! extern
+    \context Voice = "Contrabass_Voice_IV"                                     %! ScoreTemplate
+    \S_Contrabass_Voice_IV                                                     %! extern
 
 >>                                                                             %! extern
 
 
-S_ContrabassVoiceV_a = {                                                       %! extern
+S_Contrabass_Voice_V_a = {                                                     %! extern
 
-    % [S ContrabassVoiceV measure 134 / measure 1]                             %! _comment_measure_numbers
+    % [S Contrabass_Voice_V measure 134 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4026,10 +4026,10 @@ S_ContrabassVoiceV_a = {                                                       %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    % [S ContrabassVoiceV measure 135 / measure 2]                             %! _comment_measure_numbers
+    % [S Contrabass_Voice_V measure 135 / measure 2]                           %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ContrabassVoiceV measure 136 / measure 3]                             %! _comment_measure_numbers
+    % [S Contrabass_Voice_V measure 136 / measure 3]                           %! _comment_measure_numbers
     r4..                                                                       %! clb_rhythm
 
     d'16                                                                       %! clb_rhythm
@@ -4041,16 +4041,16 @@ S_ContrabassVoiceV_a = {                                                       %
 }                                                                              %! extern
 
 
-S_ContrabassVoiceV = {                                                         %! extern
+S_Contrabass_Voice_V = {                                                       %! extern
 
-    \S_ContrabassVoiceV_a                                                      %! extern
+    \S_Contrabass_Voice_V_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-S_ContrabassVoiceVI_a = {                                                      %! extern
+S_Contrabass_Voice_VI_a = {                                                    %! extern
 
-    % [S ContrabassVoiceVI measure 134 / measure 1]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_VI measure 134 / measure 1]                          %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -4073,28 +4073,28 @@ S_ContrabassVoiceVI_a = {                                                      %
 
     r4                                                                         %! clb_rhythm
 
-    % [S ContrabassVoiceVI measure 135 / measure 2]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_VI measure 135 / measure 2]                          %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [S ContrabassVoiceVI measure 136 / measure 3]                            %! _comment_measure_numbers
+    % [S Contrabass_Voice_VI measure 136 / measure 3]                          %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
 }                                                                              %! extern
 
 
-S_ContrabassVoiceVI = {                                                        %! extern
+S_Contrabass_Voice_VI = {                                                      %! extern
 
-    \S_ContrabassVoiceVI_a                                                     %! extern
+    \S_Contrabass_Voice_VI_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-S_ContrabassStaffIII = <<                                                      %! extern
+S_Contrabass_Staff_III = <<                                                    %! extern
 
-    \context Voice = "ContrabassVoiceV"                                        %! ScoreTemplate
-    \S_ContrabassVoiceV                                                        %! extern
+    \context Voice = "Contrabass_Voice_V"                                      %! ScoreTemplate
+    \S_Contrabass_Voice_V                                                      %! extern
 
-    \context Voice = "ContrabassVoiceVI"                                       %! ScoreTemplate
-    \S_ContrabassVoiceVI                                                       %! extern
+    \context Voice = "Contrabass_Voice_VI"                                     %! ScoreTemplate
+    \S_Contrabass_Voice_VI                                                     %! extern
 
 >>                                                                             %! extern

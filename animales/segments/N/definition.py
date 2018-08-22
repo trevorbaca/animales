@@ -152,7 +152,7 @@ maker(
 
 maker(
     'bcl1',
-    animales.parts('BassClarinet'),
+    animales.parts('Bass_Clarinet'),
     baca.hairpin(
         'p >o niente',
         selector=baca.leaves()[:2],
@@ -261,7 +261,7 @@ maker(
 
 maker(
     '1vn2',
-    animales.parts('FirstViolin', 1),
+    animales.parts('First_Violin', 1),
     )
 
 maker(
@@ -290,13 +290,13 @@ maker(
 
 maker(
     '1vn1',
-    animales.parts('FirstViolin', (2, 18)),
+    animales.parts('First_Violin', (2, 18)),
     baca.not_parts(baca.voice_two()),
     )
 
 maker(
     '2vn1',
-    animales.parts('SecondViolin'),
+    animales.parts('Second_Violin'),
     )
 
 maker(

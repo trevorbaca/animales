@@ -31,152 +31,152 @@
             \context MusicContext = "MusicContext"                             %! make_music_context
             <<                                                                 %! make_music_context
 
-                \context StaffGroup = "PercussionStaffGroup"                   %! make_staff_group
+                \context StaffGroup = "Percussion_Staff_Group"                 %! make_staff_group
                 <<                                                             %! make_staff_group
 
-                    \context Staff = "PercussionStaffI"                        %! ScoreTemplate
-                    \AB_PercussionStaffI                                       %! extern
+                    \context Staff = "Percussion_Staff_I"                      %! ScoreTemplate
+                    \AB_Percussion_Staff_I                                     %! extern
 
                 >>                                                             %! make_staff_group
 
-                \context StaffGroup = "StringStaffGroup"                       %! make_staff_group
+                \context StaffGroup = "String_Staff_Group"                     %! make_staff_group
                 <<                                                             %! make_staff_group
 
-                    \context StaffGroup = "FirstViolinSquareStaffGroup"        %! make_square_staff_group
+                    \context StaffGroup = "FirstViolin_Square_Staff_Group"     %! make_square_staff_group
                     \with                                                      %! make_square_staff_group
                     {                                                          %! make_square_staff_group
                         systemStartDelimiter = #'SystemStartSquare             %! make_square_staff_group
                     }                                                          %! make_square_staff_group
                     <<                                                         %! make_square_staff_group
 
-                        \context Staff = "FirstViolinStaffI"                   %! ScoreTemplate
-                        \AB_FirstViolinStaffI                                  %! extern
+                        \context Staff = "First_Violin_Staff_I"                %! ScoreTemplate
+                        \AB_First_Violin_Staff_I                               %! extern
 
-                        \context Staff = "FirstViolinStaffII"                  %! ScoreTemplate
-                        \AB_FirstViolinStaffII                                 %! extern
+                        \context Staff = "First_Violin_Staff_II"               %! ScoreTemplate
+                        \AB_First_Violin_Staff_II                              %! extern
 
-                        \context Staff = "FirstViolinStaffIII"                 %! ScoreTemplate
-                        \AB_FirstViolinStaffIII                                %! extern
+                        \context Staff = "First_Violin_Staff_III"              %! ScoreTemplate
+                        \AB_First_Violin_Staff_III                             %! extern
 
-                        \context Staff = "FirstViolinStaffIV"                  %! ScoreTemplate
-                        \AB_FirstViolinStaffIV                                 %! extern
+                        \context Staff = "First_Violin_Staff_IV"               %! ScoreTemplate
+                        \AB_First_Violin_Staff_IV                              %! extern
 
-                        \context Staff = "FirstViolinStaffV"                   %! ScoreTemplate
-                        \AB_FirstViolinStaffV                                  %! extern
+                        \context Staff = "First_Violin_Staff_V"                %! ScoreTemplate
+                        \AB_First_Violin_Staff_V                               %! extern
 
-                        \context Staff = "FirstViolinStaffVI"                  %! ScoreTemplate
-                        \AB_FirstViolinStaffVI                                 %! extern
+                        \context Staff = "First_Violin_Staff_VI"               %! ScoreTemplate
+                        \AB_First_Violin_Staff_VI                              %! extern
 
-                        \context Staff = "FirstViolinStaffVII"                 %! ScoreTemplate
-                        \AB_FirstViolinStaffVII                                %! extern
+                        \context Staff = "First_Violin_Staff_VII"              %! ScoreTemplate
+                        \AB_First_Violin_Staff_VII                             %! extern
 
-                        \context Staff = "FirstViolinStaffVIII"                %! ScoreTemplate
-                        \AB_FirstViolinStaffVIII                               %! extern
+                        \context Staff = "First_Violin_Staff_VIII"             %! ScoreTemplate
+                        \AB_First_Violin_Staff_VIII                            %! extern
 
-                        \context Staff = "FirstViolinStaffIX"                  %! ScoreTemplate
-                        \AB_FirstViolinStaffIX                                 %! extern
+                        \context Staff = "First_Violin_Staff_IX"               %! ScoreTemplate
+                        \AB_First_Violin_Staff_IX                              %! extern
 
                     >>                                                         %! make_square_staff_group
 
-                    \context StaffGroup = "SecondViolinSquareStaffGroup"       %! make_square_staff_group
+                    \context StaffGroup = "SecondViolin_Square_Staff_Group"    %! make_square_staff_group
                     \with                                                      %! make_square_staff_group
                     {                                                          %! make_square_staff_group
                         systemStartDelimiter = #'SystemStartSquare             %! make_square_staff_group
                     }                                                          %! make_square_staff_group
                     <<                                                         %! make_square_staff_group
 
-                        \context Staff = "SecondViolinStaffI"                  %! ScoreTemplate
-                        \AB_SecondViolinStaffI                                 %! extern
+                        \context Staff = "Second_Violin_Staff_I"               %! ScoreTemplate
+                        \AB_Second_Violin_Staff_I                              %! extern
 
-                        \context Staff = "SecondViolinStaffII"                 %! ScoreTemplate
-                        \AB_SecondViolinStaffII                                %! extern
+                        \context Staff = "Second_Violin_Staff_II"              %! ScoreTemplate
+                        \AB_Second_Violin_Staff_II                             %! extern
 
-                        \context Staff = "SecondViolinStaffIII"                %! ScoreTemplate
-                        \AB_SecondViolinStaffIII                               %! extern
+                        \context Staff = "Second_Violin_Staff_III"             %! ScoreTemplate
+                        \AB_Second_Violin_Staff_III                            %! extern
 
-                        \context Staff = "SecondViolinStaffIV"                 %! ScoreTemplate
-                        \AB_SecondViolinStaffIV                                %! extern
+                        \context Staff = "Second_Violin_Staff_IV"              %! ScoreTemplate
+                        \AB_Second_Violin_Staff_IV                             %! extern
 
-                        \context Staff = "SecondViolinStaffV"                  %! ScoreTemplate
-                        \AB_SecondViolinStaffV                                 %! extern
+                        \context Staff = "Second_Violin_Staff_V"               %! ScoreTemplate
+                        \AB_Second_Violin_Staff_V                              %! extern
 
-                        \context Staff = "SecondViolinStaffVI"                 %! ScoreTemplate
-                        \AB_SecondViolinStaffVI                                %! extern
+                        \context Staff = "Second_Violin_Staff_VI"              %! ScoreTemplate
+                        \AB_Second_Violin_Staff_VI                             %! extern
 
-                        \context Staff = "SecondViolinStaffVII"                %! ScoreTemplate
-                        \AB_SecondViolinStaffVII                               %! extern
+                        \context Staff = "Second_Violin_Staff_VII"             %! ScoreTemplate
+                        \AB_Second_Violin_Staff_VII                            %! extern
 
-                        \context Staff = "SecondViolinStaffVIII"               %! ScoreTemplate
-                        \AB_SecondViolinStaffVIII                              %! extern
+                        \context Staff = "Second_Violin_Staff_VIII"            %! ScoreTemplate
+                        \AB_Second_Violin_Staff_VIII                           %! extern
 
-                        \context Staff = "SecondViolinStaffIX"                 %! ScoreTemplate
-                        \AB_SecondViolinStaffIX                                %! extern
+                        \context Staff = "Second_Violin_Staff_IX"              %! ScoreTemplate
+                        \AB_Second_Violin_Staff_IX                             %! extern
 
                     >>                                                         %! make_square_staff_group
 
-                    \context StaffGroup = "ViolaSquareStaffGroup"              %! make_square_staff_group
+                    \context StaffGroup = "Viola_Square_Staff_Group"           %! make_square_staff_group
                     \with                                                      %! make_square_staff_group
                     {                                                          %! make_square_staff_group
                         systemStartDelimiter = #'SystemStartSquare             %! make_square_staff_group
                     }                                                          %! make_square_staff_group
                     <<                                                         %! make_square_staff_group
 
-                        \context Staff = "ViolaStaffI"                         %! ScoreTemplate
-                        \AB_ViolaStaffI                                        %! extern
+                        \context Staff = "Viola_Staff_I"                       %! ScoreTemplate
+                        \AB_Viola_Staff_I                                      %! extern
 
-                        \context Staff = "ViolaStaffII"                        %! ScoreTemplate
-                        \AB_ViolaStaffII                                       %! extern
+                        \context Staff = "Viola_Staff_II"                      %! ScoreTemplate
+                        \AB_Viola_Staff_II                                     %! extern
 
-                        \context Staff = "ViolaStaffIII"                       %! ScoreTemplate
-                        \AB_ViolaStaffIII                                      %! extern
+                        \context Staff = "Viola_Staff_III"                     %! ScoreTemplate
+                        \AB_Viola_Staff_III                                    %! extern
 
-                        \context Staff = "ViolaStaffIV"                        %! ScoreTemplate
-                        \AB_ViolaStaffIV                                       %! extern
+                        \context Staff = "Viola_Staff_IV"                      %! ScoreTemplate
+                        \AB_Viola_Staff_IV                                     %! extern
 
-                        \context Staff = "ViolaStaffV"                         %! ScoreTemplate
-                        \AB_ViolaStaffV                                        %! extern
+                        \context Staff = "Viola_Staff_V"                       %! ScoreTemplate
+                        \AB_Viola_Staff_V                                      %! extern
 
-                        \context Staff = "ViolaStaffVI"                        %! ScoreTemplate
-                        \AB_ViolaStaffVI                                       %! extern
+                        \context Staff = "Viola_Staff_VI"                      %! ScoreTemplate
+                        \AB_Viola_Staff_VI                                     %! extern
 
-                        \context Staff = "ViolaStaffVII"                       %! ScoreTemplate
-                        \AB_ViolaStaffVII                                      %! extern
+                        \context Staff = "Viola_Staff_VII"                     %! ScoreTemplate
+                        \AB_Viola_Staff_VII                                    %! extern
 
-                        \context Staff = "ViolaStaffVIII"                      %! ScoreTemplate
-                        \AB_ViolaStaffVIII                                     %! extern
+                        \context Staff = "Viola_Staff_VIII"                    %! ScoreTemplate
+                        \AB_Viola_Staff_VIII                                   %! extern
 
-                        \context Staff = "ViolaStaffIX"                        %! ScoreTemplate
-                        \AB_ViolaStaffIX                                       %! extern
+                        \context Staff = "Viola_Staff_IX"                      %! ScoreTemplate
+                        \AB_Viola_Staff_IX                                     %! extern
 
                     >>                                                         %! make_square_staff_group
 
-                    \context StaffGroup = "CelloSquareStaffGroup"              %! make_square_staff_group
+                    \context StaffGroup = "Cello_Square_Staff_Group"           %! make_square_staff_group
                     \with                                                      %! make_square_staff_group
                     {                                                          %! make_square_staff_group
                         systemStartDelimiter = #'SystemStartSquare             %! make_square_staff_group
                     }                                                          %! make_square_staff_group
                     <<                                                         %! make_square_staff_group
 
-                        \context Staff = "CelloStaffI"                         %! ScoreTemplate
-                        \AB_CelloStaffI                                        %! extern
+                        \context Staff = "Cello_Staff_I"                       %! ScoreTemplate
+                        \AB_Cello_Staff_I                                      %! extern
 
-                        \context Staff = "CelloStaffII"                        %! ScoreTemplate
-                        \AB_CelloStaffII                                       %! extern
+                        \context Staff = "Cello_Staff_II"                      %! ScoreTemplate
+                        \AB_Cello_Staff_II                                     %! extern
 
-                        \context Staff = "CelloStaffIII"                       %! ScoreTemplate
-                        \AB_CelloStaffIII                                      %! extern
+                        \context Staff = "Cello_Staff_III"                     %! ScoreTemplate
+                        \AB_Cello_Staff_III                                    %! extern
 
-                        \context Staff = "CelloStaffIV"                        %! ScoreTemplate
-                        \AB_CelloStaffIV                                       %! extern
+                        \context Staff = "Cello_Staff_IV"                      %! ScoreTemplate
+                        \AB_Cello_Staff_IV                                     %! extern
 
-                        \context Staff = "CelloStaffV"                         %! ScoreTemplate
-                        \AB_CelloStaffV                                        %! extern
+                        \context Staff = "Cello_Staff_V"                       %! ScoreTemplate
+                        \AB_Cello_Staff_V                                      %! extern
 
-                        \context Staff = "CelloStaffVI"                        %! ScoreTemplate
-                        \AB_CelloStaffVI                                       %! extern
+                        \context Staff = "Cello_Staff_VI"                      %! ScoreTemplate
+                        \AB_Cello_Staff_VI                                     %! extern
 
-                        \context Staff = "CelloStaffVII"                       %! ScoreTemplate
-                        \AB_CelloStaffVII                                      %! extern
+                        \context Staff = "Cello_Staff_VII"                     %! ScoreTemplate
+                        \AB_Cello_Staff_VII                                    %! extern
 
                     >>                                                         %! make_square_staff_group
 

@@ -132,9 +132,9 @@ K_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-K_ClarinetVoiceI_a = {                                                         %! extern
+K_Clarinet_Voice_I_a = {                                                       %! extern
 
-    % [K ClarinetVoiceI measure 68 / measure 1]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 68 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -170,15 +170,15 @@ K_ClarinetVoiceI_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [K ClarinetVoiceI measure 69 / measure 2]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 69 / measure 2]                              %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ClarinetVoiceI measure 70 / measure 3]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 70 / measure 3]                              %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ClarinetVoiceI measure 71 / measure 4]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 71 / measure 4]                              %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -187,9 +187,9 @@ K_ClarinetVoiceI_a = {                                                         %
 }                                                                              %! extern
 
 
-K_ClarinetVoiceI_b = {                                                         %! extern
+K_Clarinet_Voice_I_b = {                                                       %! extern
 
-    % [K ClarinetVoiceI measure 72 / measure 5]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 72 / measure 5]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -219,15 +219,15 @@ K_ClarinetVoiceI_b = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [K ClarinetVoiceI measure 73 / measure 6]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 73 / measure 6]                              %! _comment_measure_numbers
     df''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ClarinetVoiceI measure 74 / measure 7]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 74 / measure 7]                              %! _comment_measure_numbers
     df''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ClarinetVoiceI measure 75 / measure 8]                                %! _comment_measure_numbers
+    % [K Clarinet_Voice_I measure 75 / measure 8]                              %! _comment_measure_numbers
     df''!1                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -236,26 +236,26 @@ K_ClarinetVoiceI_b = {                                                         %
 }                                                                              %! extern
 
 
-K_ClarinetVoiceI = {                                                           %! extern
+K_Clarinet_Voice_I = {                                                         %! extern
 
-    \K_ClarinetVoiceI_a                                                        %! extern
+    \K_Clarinet_Voice_I_a                                                      %! extern
 
-    \K_ClarinetVoiceI_b                                                        %! extern
-
-}                                                                              %! extern
-
-
-K_ClarinetStaffI = {                                                           %! extern
-
-    \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
-    \K_ClarinetVoiceI                                                          %! extern
+    \K_Clarinet_Voice_I_b                                                      %! extern
 
 }                                                                              %! extern
 
 
-K_HornVoiceI_a = {                                                             %! extern
+K_Clarinet_Staff_I = {                                                         %! extern
 
-    % [K HornVoiceI measure 68 / measure 1]                                    %! _comment_measure_numbers
+    \context Voice = "Clarinet_Voice_I"                                        %! ScoreTemplate
+    \K_Clarinet_Voice_I                                                        %! extern
+
+}                                                                              %! extern
+
+
+K_Horn_Voice_I_a = {                                                           %! extern
+
+    % [K Horn_Voice_I measure 68 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -295,40 +295,40 @@ K_HornVoiceI_a = {                                                             %
 
     r2..
 
-    % [K HornVoiceI measure 69 / measure 2]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 69 / measure 2]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceI measure 70 / measure 3]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 70 / measure 3]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceI measure 71 / measure 4]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 71 / measure 4]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceI measure 72 / measure 5]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 72 / measure 5]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceI measure 73 / measure 6]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 73 / measure 6]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceI measure 74 / measure 7]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 74 / measure 7]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceI measure 75 / measure 8]                                    %! _comment_measure_numbers
+    % [K Horn_Voice_I measure 75 / measure 8]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_HornVoiceI = {                                                               %! extern
+K_Horn_Voice_I = {                                                             %! extern
 
-    \K_HornVoiceI_a                                                            %! extern
+    \K_Horn_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-K_HornVoiceIII_a = {                                                           %! extern
+K_Horn_Voice_III_a = {                                                         %! extern
 
-    % [K HornVoiceIII measure 68 / measure 1]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 68 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     ef'!8                                                                      %! downbeat_attack
@@ -338,51 +338,51 @@ K_HornVoiceIII_a = {                                                           %
 
     r2..
 
-    % [K HornVoiceIII measure 69 / measure 2]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 69 / measure 2]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIII measure 70 / measure 3]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 70 / measure 3]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIII measure 71 / measure 4]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 71 / measure 4]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceIII measure 72 / measure 5]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 72 / measure 5]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceIII measure 73 / measure 6]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 73 / measure 6]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIII measure 74 / measure 7]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 74 / measure 7]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIII measure 75 / measure 8]                                  %! _comment_measure_numbers
+    % [K Horn_Voice_III measure 75 / measure 8]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_HornVoiceIII = {                                                             %! extern
+K_Horn_Voice_III = {                                                           %! extern
 
-    \K_HornVoiceIII_a                                                          %! extern
+    \K_Horn_Voice_III_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-K_HornStaffI = <<                                                              %! extern
+K_Horn_Staff_I = <<                                                            %! extern
 
-    \context Voice = "HornVoiceI"                                              %! ScoreTemplate
-    \K_HornVoiceI                                                              %! extern
+    \context Voice = "Horn_Voice_I"                                            %! ScoreTemplate
+    \K_Horn_Voice_I                                                            %! extern
 
-    \context Voice = "HornVoiceIII"                                            %! ScoreTemplate
-    \K_HornVoiceIII                                                            %! extern
+    \context Voice = "Horn_Voice_III"                                          %! ScoreTemplate
+    \K_Horn_Voice_III                                                          %! extern
 
 >>                                                                             %! extern
 
 
-K_HornVoiceII_a = {                                                            %! extern
+K_Horn_Voice_II_a = {                                                          %! extern
 
-    % [K HornVoiceII measure 68 / measure 1]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 68 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -420,40 +420,40 @@ K_HornVoiceII_a = {                                                            %
 
     r2..
 
-    % [K HornVoiceII measure 69 / measure 2]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 69 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceII measure 70 / measure 3]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 70 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceII measure 71 / measure 4]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 71 / measure 4]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceII measure 72 / measure 5]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 72 / measure 5]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceII measure 73 / measure 6]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 73 / measure 6]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceII measure 74 / measure 7]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 74 / measure 7]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceII measure 75 / measure 8]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_II measure 75 / measure 8]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_HornVoiceII = {                                                              %! extern
+K_Horn_Voice_II = {                                                            %! extern
 
-    \K_HornVoiceII_a                                                           %! extern
+    \K_Horn_Voice_II_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-K_HornVoiceIV_a = {                                                            %! extern
+K_Horn_Voice_IV_a = {                                                          %! extern
 
-    % [K HornVoiceIV measure 68 / measure 1]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 68 / measure 1]                                 %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     ef'!8                                                                      %! downbeat_attack
@@ -463,51 +463,51 @@ K_HornVoiceIV_a = {                                                            %
 
     r2..
 
-    % [K HornVoiceIV measure 69 / measure 2]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 69 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIV measure 70 / measure 3]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 70 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIV measure 71 / measure 4]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 71 / measure 4]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceIV measure 72 / measure 5]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 72 / measure 5]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K HornVoiceIV measure 73 / measure 6]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 73 / measure 6]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIV measure 74 / measure 7]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 74 / measure 7]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K HornVoiceIV measure 75 / measure 8]                                   %! _comment_measure_numbers
+    % [K Horn_Voice_IV measure 75 / measure 8]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_HornVoiceIV = {                                                              %! extern
+K_Horn_Voice_IV = {                                                            %! extern
 
-    \K_HornVoiceIV_a                                                           %! extern
+    \K_Horn_Voice_IV_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-K_HornStaffII = <<                                                             %! extern
+K_Horn_Staff_II = <<                                                           %! extern
 
-    \context Voice = "HornVoiceII"                                             %! ScoreTemplate
-    \K_HornVoiceII                                                             %! extern
+    \context Voice = "Horn_Voice_II"                                           %! ScoreTemplate
+    \K_Horn_Voice_II                                                           %! extern
 
-    \context Voice = "HornVoiceIV"                                             %! ScoreTemplate
-    \K_HornVoiceIV                                                             %! extern
+    \context Voice = "Horn_Voice_IV"                                           %! ScoreTemplate
+    \K_Horn_Voice_IV                                                           %! extern
 
 >>                                                                             %! extern
 
 
-K_TrumpetVoiceI_a = {                                                          %! extern
+K_Trumpet_Voice_I_a = {                                                        %! extern
 
-    % [K TrumpetVoiceI measure 68 / measure 1]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 68 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -545,40 +545,40 @@ K_TrumpetVoiceI_a = {                                                          %
 
     r2..
 
-    % [K TrumpetVoiceI measure 69 / measure 2]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 69 / measure 2]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceI measure 70 / measure 3]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 70 / measure 3]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceI measure 71 / measure 4]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 71 / measure 4]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceI measure 72 / measure 5]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 72 / measure 5]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceI measure 73 / measure 6]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 73 / measure 6]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceI measure 74 / measure 7]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 74 / measure 7]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceI measure 75 / measure 8]                                 %! _comment_measure_numbers
+    % [K Trumpet_Voice_I measure 75 / measure 8]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TrumpetVoiceI = {                                                            %! extern
+K_Trumpet_Voice_I = {                                                          %! extern
 
-    \K_TrumpetVoiceI_a                                                         %! extern
+    \K_Trumpet_Voice_I_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-K_TrumpetVoiceIII_a = {                                                        %! extern
+K_Trumpet_Voice_III_a = {                                                      %! extern
 
-    % [K TrumpetVoiceIII measure 68 / measure 1]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 68 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g'8                                                                        %! downbeat_attack
@@ -588,51 +588,51 @@ K_TrumpetVoiceIII_a = {                                                        %
 
     r2..
 
-    % [K TrumpetVoiceIII measure 69 / measure 2]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 69 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIII measure 70 / measure 3]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 70 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIII measure 71 / measure 4]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 71 / measure 4]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceIII measure 72 / measure 5]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 72 / measure 5]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceIII measure 73 / measure 6]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 73 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIII measure 74 / measure 7]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 74 / measure 7]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIII measure 75 / measure 8]                               %! _comment_measure_numbers
+    % [K Trumpet_Voice_III measure 75 / measure 8]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TrumpetVoiceIII = {                                                          %! extern
+K_Trumpet_Voice_III = {                                                        %! extern
 
-    \K_TrumpetVoiceIII_a                                                       %! extern
+    \K_Trumpet_Voice_III_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-K_TrumpetStaffI = <<                                                           %! extern
+K_Trumpet_Staff_I = <<                                                         %! extern
 
-    \context Voice = "TrumpetVoiceI"                                           %! ScoreTemplate
-    \K_TrumpetVoiceI                                                           %! extern
+    \context Voice = "Trumpet_Voice_I"                                         %! ScoreTemplate
+    \K_Trumpet_Voice_I                                                         %! extern
 
-    \context Voice = "TrumpetVoiceIII"                                         %! ScoreTemplate
-    \K_TrumpetVoiceIII                                                         %! extern
+    \context Voice = "Trumpet_Voice_III"                                       %! ScoreTemplate
+    \K_Trumpet_Voice_III                                                       %! extern
 
 >>                                                                             %! extern
 
 
-K_TrumpetVoiceII_a = {                                                         %! extern
+K_Trumpet_Voice_II_a = {                                                       %! extern
 
-    % [K TrumpetVoiceII measure 68 / measure 1]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 68 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -670,40 +670,40 @@ K_TrumpetVoiceII_a = {                                                         %
 
     r2..
 
-    % [K TrumpetVoiceII measure 69 / measure 2]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 69 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceII measure 70 / measure 3]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 70 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceII measure 71 / measure 4]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 71 / measure 4]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceII measure 72 / measure 5]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 72 / measure 5]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceII measure 73 / measure 6]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 73 / measure 6]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceII measure 74 / measure 7]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 74 / measure 7]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceII measure 75 / measure 8]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_II measure 75 / measure 8]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TrumpetVoiceII = {                                                           %! extern
+K_Trumpet_Voice_II = {                                                         %! extern
 
-    \K_TrumpetVoiceII_a                                                        %! extern
+    \K_Trumpet_Voice_II_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-K_TrumpetVoiceIV_a = {                                                         %! extern
+K_Trumpet_Voice_IV_a = {                                                       %! extern
 
-    % [K TrumpetVoiceIV measure 68 / measure 1]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 68 / measure 1]                              %! _comment_measure_numbers
     \once \override NoteColumn.force-hshift = #1.0                             %! -PARTS:baca_note_colun_shift:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -715,51 +715,51 @@ K_TrumpetVoiceIV_a = {                                                         %
 
     r2..
 
-    % [K TrumpetVoiceIV measure 69 / measure 2]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 69 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIV measure 70 / measure 3]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 70 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIV measure 71 / measure 4]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 71 / measure 4]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceIV measure 72 / measure 5]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 72 / measure 5]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TrumpetVoiceIV measure 73 / measure 6]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 73 / measure 6]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIV measure 74 / measure 7]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 74 / measure 7]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TrumpetVoiceIV measure 75 / measure 8]                                %! _comment_measure_numbers
+    % [K Trumpet_Voice_IV measure 75 / measure 8]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TrumpetVoiceIV = {                                                           %! extern
+K_Trumpet_Voice_IV = {                                                         %! extern
 
-    \K_TrumpetVoiceIV_a                                                        %! extern
+    \K_Trumpet_Voice_IV_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-K_TrumpetStaffII = <<                                                          %! extern
+K_Trumpet_Staff_II = <<                                                        %! extern
 
-    \context Voice = "TrumpetVoiceII"                                          %! ScoreTemplate
-    \K_TrumpetVoiceII                                                          %! extern
+    \context Voice = "Trumpet_Voice_II"                                        %! ScoreTemplate
+    \K_Trumpet_Voice_II                                                        %! extern
 
-    \context Voice = "TrumpetVoiceIV"                                          %! ScoreTemplate
-    \K_TrumpetVoiceIV                                                          %! extern
+    \context Voice = "Trumpet_Voice_IV"                                        %! ScoreTemplate
+    \K_Trumpet_Voice_IV                                                        %! extern
 
 >>                                                                             %! extern
 
 
-K_TromboneVoiceI_a = {                                                         %! extern
+K_Trombone_Voice_I_a = {                                                       %! extern
 
-    % [K TromboneVoiceI measure 68 / measure 1]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 68 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -797,40 +797,40 @@ K_TromboneVoiceI_a = {                                                         %
 
     r2..
 
-    % [K TromboneVoiceI measure 69 / measure 2]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 69 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceI measure 70 / measure 3]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 70 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceI measure 71 / measure 4]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 71 / measure 4]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceI measure 72 / measure 5]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 72 / measure 5]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceI measure 73 / measure 6]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 73 / measure 6]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceI measure 74 / measure 7]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 74 / measure 7]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceI measure 75 / measure 8]                                %! _comment_measure_numbers
+    % [K Trombone_Voice_I measure 75 / measure 8]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TromboneVoiceI = {                                                           %! extern
+K_Trombone_Voice_I = {                                                         %! extern
 
-    \K_TromboneVoiceI_a                                                        %! extern
+    \K_Trombone_Voice_I_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-K_TromboneVoiceIII_a = {                                                       %! extern
+K_Trombone_Voice_III_a = {                                                     %! extern
 
-    % [K TromboneVoiceIII measure 68 / measure 1]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 68 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g8                                                                         %! downbeat_attack
@@ -840,51 +840,51 @@ K_TromboneVoiceIII_a = {                                                       %
 
     r2..
 
-    % [K TromboneVoiceIII measure 69 / measure 2]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 69 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIII measure 70 / measure 3]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 70 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIII measure 71 / measure 4]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 71 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceIII measure 72 / measure 5]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 72 / measure 5]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceIII measure 73 / measure 6]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 73 / measure 6]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIII measure 74 / measure 7]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 74 / measure 7]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIII measure 75 / measure 8]                              %! _comment_measure_numbers
+    % [K Trombone_Voice_III measure 75 / measure 8]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TromboneVoiceIII = {                                                         %! extern
+K_Trombone_Voice_III = {                                                       %! extern
 
-    \K_TromboneVoiceIII_a                                                      %! extern
+    \K_Trombone_Voice_III_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-K_TromboneStaffI = <<                                                          %! extern
+K_Trombone_Staff_I = <<                                                        %! extern
 
-    \context Voice = "TromboneVoiceI"                                          %! ScoreTemplate
-    \K_TromboneVoiceI                                                          %! extern
+    \context Voice = "Trombone_Voice_I"                                        %! ScoreTemplate
+    \K_Trombone_Voice_I                                                        %! extern
 
-    \context Voice = "TromboneVoiceIII"                                        %! ScoreTemplate
-    \K_TromboneVoiceIII                                                        %! extern
+    \context Voice = "Trombone_Voice_III"                                      %! ScoreTemplate
+    \K_Trombone_Voice_III                                                      %! extern
 
 >>                                                                             %! extern
 
 
-K_TromboneVoiceII_a = {                                                        %! extern
+K_Trombone_Voice_II_a = {                                                      %! extern
 
-    % [K TromboneVoiceII measure 68 / measure 1]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 68 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -922,40 +922,40 @@ K_TromboneVoiceII_a = {                                                        %
 
     r2..
 
-    % [K TromboneVoiceII measure 69 / measure 2]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 69 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceII measure 70 / measure 3]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 70 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceII measure 71 / measure 4]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 71 / measure 4]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceII measure 72 / measure 5]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 72 / measure 5]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceII measure 73 / measure 6]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 73 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceII measure 74 / measure 7]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 74 / measure 7]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceII measure 75 / measure 8]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_II measure 75 / measure 8]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TromboneVoiceII = {                                                          %! extern
+K_Trombone_Voice_II = {                                                        %! extern
 
-    \K_TromboneVoiceII_a                                                       %! extern
+    \K_Trombone_Voice_II_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-K_TromboneVoiceIV_a = {                                                        %! extern
+K_Trombone_Voice_IV_a = {                                                      %! extern
 
-    % [K TromboneVoiceIV measure 68 / measure 1]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 68 / measure 1]                             %! _comment_measure_numbers
     \once \override NoteColumn.force-hshift = #1.0                             %! -PARTS:baca_note_colun_shift:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -967,51 +967,51 @@ K_TromboneVoiceIV_a = {                                                        %
 
     r2..
 
-    % [K TromboneVoiceIV measure 69 / measure 2]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 69 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIV measure 70 / measure 3]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 70 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIV measure 71 / measure 4]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 71 / measure 4]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceIV measure 72 / measure 5]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 72 / measure 5]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [K TromboneVoiceIV measure 73 / measure 6]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 73 / measure 6]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIV measure 74 / measure 7]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 74 / measure 7]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [K TromboneVoiceIV measure 75 / measure 8]                               %! _comment_measure_numbers
+    % [K Trombone_Voice_IV measure 75 / measure 8]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-K_TromboneVoiceIV = {                                                          %! extern
+K_Trombone_Voice_IV = {                                                        %! extern
 
-    \K_TromboneVoiceIV_a                                                       %! extern
+    \K_Trombone_Voice_IV_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-K_TromboneStaffII = <<                                                         %! extern
+K_Trombone_Staff_II = <<                                                       %! extern
 
-    \context Voice = "TromboneVoiceII"                                         %! ScoreTemplate
-    \K_TromboneVoiceII                                                         %! extern
+    \context Voice = "Trombone_Voice_II"                                       %! ScoreTemplate
+    \K_Trombone_Voice_II                                                       %! extern
 
-    \context Voice = "TromboneVoiceIV"                                         %! ScoreTemplate
-    \K_TromboneVoiceIV                                                         %! extern
+    \context Voice = "Trombone_Voice_IV"                                       %! ScoreTemplate
+    \K_Trombone_Voice_IV                                                       %! extern
 
 >>                                                                             %! extern
 
 
-K_PianoVoiceI_a = {                                                            %! extern
+K_Piano_Voice_I_a = {                                                          %! extern
 
-    % [K PianoVoiceI measure 68 / measure 1]                                   %! _comment_measure_numbers
+    % [K Piano_Voice_I measure 68 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1037,12 +1037,12 @@ K_PianoVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PianoVoiceI measure 69 / measure 2]                                   %! _comment_measure_numbers
+    % [K Piano_Voice_I measure 69 / measure 2]                                 %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
-        % [K PianoVoiceI measure 70 / measure 3]                               %! _comment_measure_numbers
+        % [K Piano_Voice_I measure 70 / measure 3]                             %! _comment_measure_numbers
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
@@ -1053,10 +1053,10 @@ K_PianoVoiceI_a = {                                                            %
 
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [K PianoVoiceI measure 71 / measure 4]                                   %! _comment_measure_numbers
+    % [K Piano_Voice_I measure 71 / measure 4]                                 %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [K PianoVoiceI measure 72 / measure 5]                                   %! _comment_measure_numbers
+    % [K Piano_Voice_I measure 72 / measure 5]                                 %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1071,15 +1071,15 @@ K_PianoVoiceI_a = {                                                            %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [K PianoVoiceI measure 73 / measure 6]                                   %! _comment_measure_numbers
+    % [K Piano_Voice_I measure 73 / measure 6]                                 %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K PianoVoiceI measure 74 / measure 7]                                   %! _comment_measure_numbers
+    % [K Piano_Voice_I measure 74 / measure 7]                                 %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
-        % [K PianoVoiceI measure 75 / measure 8]                               %! _comment_measure_numbers
+        % [K Piano_Voice_I measure 75 / measure 8]                             %! _comment_measure_numbers
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
@@ -1093,24 +1093,24 @@ K_PianoVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-K_PianoVoiceI = {                                                              %! extern
+K_Piano_Voice_I = {                                                            %! extern
 
-    \K_PianoVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-K_PianoStaffI = {                                                              %! extern
-
-    \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
-    \K_PianoVoiceI                                                             %! extern
+    \K_Piano_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-K_HarpVoiceI_a = {                                                             %! extern
+K_Piano_Staff_I = {                                                            %! extern
 
-    % [K HarpVoiceI measure 68 / measure 1]                                    %! _comment_measure_numbers
+    \context Voice = "Piano_Voice_I"                                           %! ScoreTemplate
+    \K_Piano_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+K_Harp_Voice_I_a = {                                                           %! extern
+
+    % [K Harp_Voice_I measure 68 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1136,7 +1136,7 @@ K_HarpVoiceI_a = {                                                             %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K HarpVoiceI measure 69 / measure 2]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 69 / measure 2]                                  %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1149,10 +1149,10 @@ K_HarpVoiceI_a = {                                                             %
 
     }                                                                          %! harp_exchange_rhythm
 
-    % [K HarpVoiceI measure 70 / measure 3]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 70 / measure 3]                                  %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K HarpVoiceI measure 71 / measure 4]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 71 / measure 4]                                  %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1165,13 +1165,13 @@ K_HarpVoiceI_a = {                                                             %
 
     }                                                                          %! harp_exchange_rhythm
 
-    % [K HarpVoiceI measure 72 / measure 5]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 72 / measure 5]                                  %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [K HarpVoiceI measure 73 / measure 6]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 73 / measure 6]                                  %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K HarpVoiceI measure 74 / measure 7]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 74 / measure 7]                                  %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1184,30 +1184,30 @@ K_HarpVoiceI_a = {                                                             %
 
     }                                                                          %! harp_exchange_rhythm
 
-    % [K HarpVoiceI measure 75 / measure 8]                                    %! _comment_measure_numbers
+    % [K Harp_Voice_I measure 75 / measure 8]                                  %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
 }                                                                              %! extern
 
 
-K_HarpVoiceI = {                                                               %! extern
+K_Harp_Voice_I = {                                                             %! extern
 
-    \K_HarpVoiceI_a                                                            %! extern
-
-}                                                                              %! extern
-
-
-K_HarpStaffI = {                                                               %! extern
-
-    \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
-    \K_HarpVoiceI                                                              %! extern
+    \K_Harp_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceII_a = {                                                      %! extern
+K_Harp_Staff_I = {                                                             %! extern
 
-    % [K PercussionVoiceII measure 68 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Harp_Voice_I"                                            %! ScoreTemplate
+    \K_Harp_Voice_I                                                            %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_II_a = {                                                    %! extern
+
+    % [K Percussion_Voice_II measure 68 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1247,41 +1247,41 @@ K_PercussionVoiceII_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceII measure 69 / measure 2]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 69 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [K PercussionVoiceII measure 70 / measure 3]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 70 / measure 3]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [K PercussionVoiceII measure 71 / measure 4]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 71 / measure 4]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [K PercussionVoiceII measure 72 / measure 5]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 72 / measure 5]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [K PercussionVoiceII measure 73 / measure 6]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 73 / measure 6]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [K PercussionVoiceII measure 74 / measure 7]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 74 / measure 7]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [K PercussionVoiceII measure 75 / measure 8]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 75 / measure 8]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
@@ -1290,24 +1290,24 @@ K_PercussionVoiceII_a = {                                                      %
 }                                                                              %! extern
 
 
-K_PercussionVoiceII = {                                                        %! extern
+K_Percussion_Voice_II = {                                                      %! extern
 
-    \K_PercussionVoiceII_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_PercussionStaffII = {                                                        %! extern
-
-    \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
-    \K_PercussionVoiceII                                                       %! extern
+    \K_Percussion_Voice_II_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIII_a = {                                                     %! extern
+K_Percussion_Staff_II = {                                                      %! extern
 
-    % [K PercussionVoiceIII measure 68 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \K_Percussion_Voice_II                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_III_a = {                                                   %! extern
+
+    % [K Percussion_Voice_III measure 68 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1352,13 +1352,13 @@ K_PercussionVoiceIII_a = {                                                     %
 
     r2                                                                         %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 69 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 69 / measure 2]                          %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 70 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 70 / measure 3]                          %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 71 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 71 / measure 4]                          %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1372,10 +1372,10 @@ K_PercussionVoiceIII_a = {                                                     %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 72 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 72 / measure 5]                          %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 73 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 73 / measure 6]                          %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1389,33 +1389,33 @@ K_PercussionVoiceIII_a = {                                                     %
 
     r2                                                                         %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 74 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 74 / measure 7]                          %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K PercussionVoiceIII measure 75 / measure 8]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 75 / measure 8]                          %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIII = {                                                       %! extern
+K_Percussion_Voice_III = {                                                     %! extern
 
-    \K_PercussionVoiceIII_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_PercussionStaffIII = {                                                       %! extern
-
-    \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
-    \K_PercussionVoiceIII                                                      %! extern
+    \K_Percussion_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_FirstViolinVoiceI_a = {                                                      %! extern
+K_Percussion_Staff_III = {                                                     %! extern
 
-    % [K FirstViolinVoiceI measure 68 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
+    \K_Percussion_Voice_III                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_First_Violin_Voice_I_a = {                                                   %! extern
+
+    % [K First_Violin_Voice_I measure 68 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1441,55 +1441,55 @@ K_FirstViolinVoiceI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K FirstViolinVoiceI measure 69 / measure 2]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 69 / measure 2]                          %! _comment_measure_numbers
     af'''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K FirstViolinVoiceI measure 70 / measure 3]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 70 / measure 3]                          %! _comment_measure_numbers
     af'''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K FirstViolinVoiceI measure 71 / measure 4]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 71 / measure 4]                          %! _comment_measure_numbers
     af'''!2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K FirstViolinVoiceI measure 72 / measure 5]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 72 / measure 5]                          %! _comment_measure_numbers
     af'''!2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K FirstViolinVoiceI measure 73 / measure 6]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 73 / measure 6]                          %! _comment_measure_numbers
     af'''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K FirstViolinVoiceI measure 74 / measure 7]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 74 / measure 7]                          %! _comment_measure_numbers
     af'''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K FirstViolinVoiceI measure 75 / measure 8]                             %! _comment_measure_numbers
+    % [K First_Violin_Voice_I measure 75 / measure 8]                          %! _comment_measure_numbers
     af'''!1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-K_FirstViolinVoiceI = {                                                        %! extern
+K_First_Violin_Voice_I = {                                                     %! extern
 
-    \K_FirstViolinVoiceI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_FirstViolinStaffI = {                                                        %! extern
-
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \K_FirstViolinVoiceI                                                       %! extern
+    \K_First_Violin_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_SecondViolinVoiceI_a = {                                                     %! extern
+K_First_Violin_Staff_I = {                                                     %! extern
 
-    % [K SecondViolinVoiceI measure 68 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \K_First_Violin_Voice_I                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Second_Violin_Voice_I_a = {                                                  %! extern
+
+    % [K Second_Violin_Voice_I measure 68 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1515,55 +1515,55 @@ K_SecondViolinVoiceI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K SecondViolinVoiceI measure 69 / measure 2]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 69 / measure 2]                         %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K SecondViolinVoiceI measure 70 / measure 3]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 70 / measure 3]                         %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K SecondViolinVoiceI measure 71 / measure 4]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 71 / measure 4]                         %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K SecondViolinVoiceI measure 72 / measure 5]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 72 / measure 5]                         %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K SecondViolinVoiceI measure 73 / measure 6]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 73 / measure 6]                         %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K SecondViolinVoiceI measure 74 / measure 7]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 74 / measure 7]                         %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K SecondViolinVoiceI measure 75 / measure 8]                            %! _comment_measure_numbers
+    % [K Second_Violin_Voice_I measure 75 / measure 8]                         %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-K_SecondViolinVoiceI = {                                                       %! extern
+K_Second_Violin_Voice_I = {                                                    %! extern
 
-    \K_SecondViolinVoiceI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_SecondViolinStaffI = {                                                       %! extern
-
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \K_SecondViolinVoiceI                                                      %! extern
+    \K_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_ViolaVoiceI_a = {                                                            %! extern
+K_Second_Violin_Staff_I = {                                                    %! extern
 
-    % [K ViolaVoiceI measure 68 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \K_Second_Violin_Voice_I                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Viola_Voice_I_a = {                                                          %! extern
+
+    % [K Viola_Voice_I measure 68 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1589,55 +1589,55 @@ K_ViolaVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K ViolaVoiceI measure 69 / measure 2]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 69 / measure 2]                                 %! _comment_measure_numbers
     af'!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ViolaVoiceI measure 70 / measure 3]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 70 / measure 3]                                 %! _comment_measure_numbers
     af'!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ViolaVoiceI measure 71 / measure 4]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 71 / measure 4]                                 %! _comment_measure_numbers
     af'!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ViolaVoiceI measure 72 / measure 5]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 72 / measure 5]                                 %! _comment_measure_numbers
     af'!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ViolaVoiceI measure 73 / measure 6]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 73 / measure 6]                                 %! _comment_measure_numbers
     af'!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ViolaVoiceI measure 74 / measure 7]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 74 / measure 7]                                 %! _comment_measure_numbers
     af'!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ViolaVoiceI measure 75 / measure 8]                                   %! _comment_measure_numbers
+    % [K Viola_Voice_I measure 75 / measure 8]                                 %! _comment_measure_numbers
     af'!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-K_ViolaVoiceI = {                                                              %! extern
+K_Viola_Voice_I = {                                                            %! extern
 
-    \K_ViolaVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-K_ViolaStaffI = {                                                              %! extern
-
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \K_ViolaVoiceI                                                             %! extern
+    \K_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-K_CelloVoiceI_a = {                                                            %! extern
+K_Viola_Staff_I = {                                                            %! extern
 
-    % [K CelloVoiceI measure 68 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \K_Viola_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+K_Cello_Voice_I_a = {                                                          %! extern
+
+    % [K Cello_Voice_I measure 68 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1663,55 +1663,55 @@ K_CelloVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K CelloVoiceI measure 69 / measure 2]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 69 / measure 2]                                 %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K CelloVoiceI measure 70 / measure 3]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 70 / measure 3]                                 %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K CelloVoiceI measure 71 / measure 4]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 71 / measure 4]                                 %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K CelloVoiceI measure 72 / measure 5]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 72 / measure 5]                                 %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K CelloVoiceI measure 73 / measure 6]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 73 / measure 6]                                 %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K CelloVoiceI measure 74 / measure 7]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 74 / measure 7]                                 %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K CelloVoiceI measure 75 / measure 8]                                   %! _comment_measure_numbers
+    % [K Cello_Voice_I measure 75 / measure 8]                                 %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-K_CelloVoiceI = {                                                              %! extern
+K_Cello_Voice_I = {                                                            %! extern
 
-    \K_CelloVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-K_CelloStaffI = {                                                              %! extern
-
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \K_CelloVoiceI                                                             %! extern
+    \K_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-K_ContrabassVoiceI_a = {                                                       %! extern
+K_Cello_Staff_I = {                                                            %! extern
 
-    % [K ContrabassVoiceI measure 68 / measure 1]                              %! _comment_measure_numbers
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \K_Cello_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+K_Contrabass_Voice_I_a = {                                                     %! extern
+
+    % [K Contrabass_Voice_I measure 68 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1757,13 +1757,13 @@ K_ContrabassVoiceI_a = {                                                       %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 69 / measure 2]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 69 / measure 2]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 70 / measure 3]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 70 / measure 3]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 71 / measure 4]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 71 / measure 4]                            %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1780,10 +1780,10 @@ K_ContrabassVoiceI_a = {                                                       %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 72 / measure 5]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 72 / measure 5]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 73 / measure 6]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 73 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1798,33 +1798,33 @@ K_ContrabassVoiceI_a = {                                                       %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 74 / measure 7]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 74 / measure 7]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [K ContrabassVoiceI measure 75 / measure 8]                              %! _comment_measure_numbers
+    % [K Contrabass_Voice_I measure 75 / measure 8]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
 }                                                                              %! extern
 
 
-K_ContrabassVoiceI = {                                                         %! extern
+K_Contrabass_Voice_I = {                                                       %! extern
 
-    \K_ContrabassVoiceI_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-K_ContrabassStaffI = {                                                         %! extern
-
-    \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
-    \K_ContrabassVoiceI                                                        %! extern
+    \K_Contrabass_Voice_I_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-K_ContrabassVoiceIII_a = {                                                     %! extern
+K_Contrabass_Staff_I = {                                                       %! extern
 
-    % [K ContrabassVoiceIII measure 68 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Contrabass_Voice_I"                                      %! ScoreTemplate
+    \K_Contrabass_Voice_I                                                      %! extern
+
+}                                                                              %! extern
+
+
+K_Contrabass_Voice_III_a = {                                                   %! extern
+
+    % [K Contrabass_Voice_III measure 68 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1858,47 +1858,47 @@ K_ContrabassVoiceIII_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K ContrabassVoiceIII measure 69 / measure 2]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 69 / measure 2]                          %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ContrabassVoiceIII measure 70 / measure 3]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 70 / measure 3]                          %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ContrabassVoiceIII measure 71 / measure 4]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 71 / measure 4]                          %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ContrabassVoiceIII measure 72 / measure 5]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 72 / measure 5]                          %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ContrabassVoiceIII measure 73 / measure 6]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 73 / measure 6]                          %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ContrabassVoiceIII measure 74 / measure 7]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 74 / measure 7]                          %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [K ContrabassVoiceIII measure 75 / measure 8]                            %! _comment_measure_numbers
+    % [K Contrabass_Voice_III measure 75 / measure 8]                          %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-K_ContrabassVoiceIII = {                                                       %! extern
+K_Contrabass_Voice_III = {                                                     %! extern
 
-    \K_ContrabassVoiceIII_a                                                    %! extern
+    \K_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_ContrabassStaffII = {                                                        %! extern
+K_Contrabass_Staff_II = {                                                      %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \K_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \K_Contrabass_Voice_III                                                    %! extern
 
 }                                                                              %! extern

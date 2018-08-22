@@ -142,9 +142,9 @@ AC_GlobalSkips = {                                                             %
 }                                                                              %! extern
 
 
-AC_PianoVoiceI_a = {                                                           %! extern
+AC_Piano_Voice_I_a = {                                                         %! extern
 
-    % [AC PianoVoiceI measure 165 / measure 1]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 165 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -180,41 +180,41 @@ AC_PianoVoiceI_a = {                                                           %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [AC PianoVoiceI measure 166 / measure 2]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 166 / measure 2]                               %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 167 / measure 3]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 167 / measure 3]                               %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 168 / measure 4]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 168 / measure 4]                               %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 169 / measure 5]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 169 / measure 5]                               %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 170 / measure 6]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 170 / measure 6]                               %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 171 / measure 7]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 171 / measure 7]                               %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 172 / measure 8]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 172 / measure 8]                               %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
 
-    % [AC PianoVoiceI measure 173 / measure 9]                                 %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 173 / measure 9]                               %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_notes
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 %%% \revert TextScript.X-offset                                                %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
 
-    % [AC PianoVoiceI measure 174 / measure 10]                                %! _comment_measure_numbers
+    % [AC Piano_Voice_I measure 174 / measure 10]                              %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -226,24 +226,24 @@ AC_PianoVoiceI_a = {                                                           %
 }                                                                              %! extern
 
 
-AC_PianoVoiceI = {                                                             %! extern
+AC_Piano_Voice_I = {                                                           %! extern
 
-    \AC_PianoVoiceI_a                                                          %! extern
-
-}                                                                              %! extern
-
-
-AC_PianoStaffI = {                                                             %! extern
-
-    \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
-    \AC_PianoVoiceI                                                            %! extern
+    \AC_Piano_Voice_I_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-AC_PercussionVoiceIV_a = {                                                     %! extern
+AC_Piano_Staff_I = {                                                           %! extern
 
-    % [AC PercussionVoiceIV measure 165 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Piano_Voice_I"                                           %! ScoreTemplate
+    \AC_Piano_Voice_I                                                          %! extern
+
+}                                                                              %! extern
+
+
+AC_Percussion_Voice_IV_a = {                                                   %! extern
+
+    % [AC Percussion_Voice_IV measure 165 / measure 1]                         %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -299,7 +299,7 @@ AC_PercussionVoiceIV_a = {                                                     %
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
-    % [AC PercussionVoiceIV measure 166 / measure 2]                           %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 166 / measure 2]                         %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
@@ -309,20 +309,7 @@ AC_PercussionVoiceIV_a = {                                                     %
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
-    % [AC PercussionVoiceIV measure 167 / measure 3]                           %! _comment_measure_numbers
-    c'4                                                                        %! baca_make_tied_reepated_durations
-    \repeatTie
-
-    c'4                                                                        %! baca_make_tied_reepated_durations
-    \repeatTie
-
-    c'4                                                                        %! baca_make_tied_reepated_durations
-    \repeatTie
-
-    c'4                                                                        %! baca_make_tied_reepated_durations
-    \repeatTie
-
-    % [AC PercussionVoiceIV measure 168 / measure 4]                           %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 167 / measure 3]                         %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
@@ -335,7 +322,7 @@ AC_PercussionVoiceIV_a = {                                                     %
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
-    % [AC PercussionVoiceIV measure 169 / measure 5]                           %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 168 / measure 4]                         %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
@@ -348,7 +335,7 @@ AC_PercussionVoiceIV_a = {                                                     %
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
-    % [AC PercussionVoiceIV measure 170 / measure 6]                           %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 169 / measure 5]                         %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
@@ -358,7 +345,10 @@ AC_PercussionVoiceIV_a = {                                                     %
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
-    % [AC PercussionVoiceIV measure 171 / measure 7]                           %! _comment_measure_numbers
+    c'4                                                                        %! baca_make_tied_reepated_durations
+    \repeatTie
+
+    % [AC Percussion_Voice_IV measure 170 / measure 6]                         %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
@@ -368,7 +358,17 @@ AC_PercussionVoiceIV_a = {                                                     %
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
-    % [AC PercussionVoiceIV measure 172 / measure 8]                           %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 171 / measure 7]                         %! _comment_measure_numbers
+    c'4                                                                        %! baca_make_tied_reepated_durations
+    \repeatTie
+
+    c'4                                                                        %! baca_make_tied_reepated_durations
+    \repeatTie
+
+    c'4                                                                        %! baca_make_tied_reepated_durations
+    \repeatTie
+
+    % [AC Percussion_Voice_IV measure 172 / measure 8]                         %! _comment_measure_numbers
     c'4                                                                        %! baca_make_tied_reepated_durations
     \repeatTie
 
@@ -382,10 +382,10 @@ AC_PercussionVoiceIV_a = {                                                     %
     \repeatTie
 %%% \revert TextScript.X-offset                                                %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
 
-    % [AC PercussionVoiceIV measure 173 / measure 9]                           %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 173 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [AC PercussionVoiceIV measure 174 / measure 10]                          %! _comment_measure_numbers
+    % [AC Percussion_Voice_IV measure 174 / measure 10]                        %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -397,16 +397,16 @@ AC_PercussionVoiceIV_a = {                                                     %
 }                                                                              %! extern
 
 
-AC_PercussionVoiceIV = {                                                       %! extern
+AC_Percussion_Voice_IV = {                                                     %! extern
 
-    \AC_PercussionVoiceIV_a                                                    %! extern
+    \AC_Percussion_Voice_IV_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-AC_PercussionStaffIV = {                                                       %! extern
+AC_Percussion_Staff_IV = {                                                     %! extern
 
-    \context Voice = "PercussionVoiceIV"                                       %! ScoreTemplate
-    \AC_PercussionVoiceIV                                                      %! extern
+    \context Voice = "Percussion_Voice_IV"                                     %! ScoreTemplate
+    \AC_Percussion_Voice_IV                                                    %! extern
 
 }                                                                              %! extern
