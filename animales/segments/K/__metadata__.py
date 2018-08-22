@@ -11,56 +11,56 @@ metadata = abjad.OrderedDict(
                 'GlobalRests',
                 'GlobalSkips',
                 'MusicContext',
-                'WindStaffGroup',
-                'ClarinetStaffI',
-                'ClarinetVoiceI',
-                'BrassStaffGroup',
-                'HornSquareStaffGroup',
-                'HornStaffI',
-                'HornVoiceI',
-                'HornVoiceIII',
-                'HornStaffII',
-                'HornVoiceII',
-                'HornVoiceIV',
-                'TrumpetSquareStaffGroup',
-                'TrumpetStaffI',
-                'TrumpetVoiceI',
-                'TrumpetVoiceIII',
-                'TrumpetStaffII',
-                'TrumpetVoiceII',
-                'TrumpetVoiceIV',
-                'TromboneSquareStaffGroup',
-                'TromboneStaffI',
-                'TromboneVoiceI',
-                'TromboneVoiceIII',
-                'TromboneStaffII',
-                'TromboneVoiceII',
-                'TromboneVoiceIV',
-                'PianoPianoStaff',
-                'PianoStaffI',
-                'PianoVoiceI',
-                'HarpPianoStaff',
-                'HarpStaffI',
-                'HarpVoiceI',
-                'PercussionStaffGroup',
-                'PercussionStaffII',
-                'PercussionVoiceII',
-                'PercussionStaffIII',
-                'PercussionVoiceIII',
-                'StringStaffGroup',
-                'FirstViolinStaffI',
-                'FirstViolinVoiceI',
-                'SecondViolinStaffI',
-                'SecondViolinVoiceI',
-                'ViolaStaffI',
-                'ViolaVoiceI',
-                'CelloStaffI',
-                'CelloVoiceI',
-                'ContrabassSquareStaffGroup',
-                'ContrabassStaffI',
-                'ContrabassVoiceI',
-                'ContrabassStaffII',
-                'ContrabassVoiceIII',
+                'Wind_Staff_Group',
+                'Clarinet_Staff_I',
+                'Clarinet_Voice_I',
+                'Brass_Staff_Group',
+                'Horn_Square_Staff_Group',
+                'Horn_Staff_I',
+                'Horn_Voice_I',
+                'Horn_Voice_III',
+                'Horn_Staff_II',
+                'Horn_Voice_II',
+                'Horn_Voice_IV',
+                'Trumpet_Square_Staff_Group',
+                'Trumpet_Staff_I',
+                'Trumpet_Voice_I',
+                'Trumpet_Voice_III',
+                'Trumpet_Staff_II',
+                'Trumpet_Voice_II',
+                'Trumpet_Voice_IV',
+                'Trombone_Square_Staff_Group',
+                'Trombone_Staff_I',
+                'Trombone_Voice_I',
+                'Trombone_Voice_III',
+                'Trombone_Staff_II',
+                'Trombone_Voice_II',
+                'Trombone_Voice_IV',
+                'Piano_Piano_Staff',
+                'Piano_Staff_I',
+                'Piano_Voice_I',
+                'Harp_Piano_Staff',
+                'Harp_Staff_I',
+                'Harp_Voice_I',
+                'Percussion_Staff_Group',
+                'Percussion_Staff_II',
+                'Percussion_Voice_II',
+                'Percussion_Staff_III',
+                'Percussion_Voice_III',
+                'String_Staff_Group',
+                'First_Violin_Staff_I',
+                'First_Violin_Voice_I',
+                'Second_Violin_Staff_I',
+                'Second_Violin_Voice_I',
+                'Viola_Staff_I',
+                'Viola_Voice_I',
+                'Cello_Staff_I',
+                'Cello_Voice_I',
+                'Contrabass_Square_Staff_Group',
+                'Contrabass_Staff_I',
+                'Contrabass_Voice_I',
+                'Contrabass_Staff_II',
+                'Contrabass_Voice_III',
                 ],
             ),
         (
@@ -72,7 +72,7 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'K_CelloVoiceI_a',
+                        'K_Cello_Voice_I_a',
                         (
                             abjad.PartAssignment('Cello'),
                             abjad.Timespan(
@@ -82,7 +82,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_ClarinetVoiceI_a',
+                        'K_Clarinet_Voice_I_a',
                         (
                             abjad.PartAssignment('Clarinet', 1),
                             abjad.Timespan(
@@ -92,7 +92,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_ClarinetVoiceI_b',
+                        'K_Clarinet_Voice_I_b',
                         (
                             abjad.PartAssignment('Clarinet', 2),
                             abjad.Timespan(
@@ -102,7 +102,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_ContrabassVoiceIII_a',
+                        'K_Contrabass_Voice_III_a',
                         (
                             abjad.PartAssignment('Contrabass', (2, 6)),
                             abjad.Timespan(
@@ -112,7 +112,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_ContrabassVoiceI_a',
+                        'K_Contrabass_Voice_I_a',
                         (
                             abjad.PartAssignment('Contrabass', 1),
                             abjad.Timespan(
@@ -122,9 +122,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_FirstViolinVoiceI_a',
+                        'K_First_Violin_Voice_I_a',
                         (
-                            abjad.PartAssignment('FirstViolin'),
+                            abjad.PartAssignment('First_Violin'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(15, 2),
@@ -152,7 +152,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_HarpVoiceI_a',
+                        'K_Harp_Voice_I_a',
                         (
                             abjad.PartAssignment('Harp'),
                             abjad.Timespan(
@@ -162,7 +162,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_HornVoiceIII_a',
+                        'K_Horn_Voice_III_a',
                         (
                             abjad.PartAssignment('Horn', 3),
                             abjad.Timespan(
@@ -172,7 +172,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_HornVoiceII_a',
+                        'K_Horn_Voice_II_a',
                         (
                             abjad.PartAssignment('Horn', 2),
                             abjad.Timespan(
@@ -182,7 +182,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_HornVoiceIV_a',
+                        'K_Horn_Voice_IV_a',
                         (
                             abjad.PartAssignment('Horn', 4),
                             abjad.Timespan(
@@ -192,7 +192,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_HornVoiceI_a',
+                        'K_Horn_Voice_I_a',
                         (
                             abjad.PartAssignment('Horn', 1),
                             abjad.Timespan(
@@ -202,7 +202,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_PercussionVoiceIII_a',
+                        'K_Percussion_Voice_III_a',
                         (
                             abjad.PartAssignment('Percussion', 3),
                             abjad.Timespan(
@@ -212,7 +212,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_PercussionVoiceII_a',
+                        'K_Percussion_Voice_II_a',
                         (
                             abjad.PartAssignment('Percussion', 2),
                             abjad.Timespan(
@@ -222,7 +222,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_PianoVoiceI_a',
+                        'K_Piano_Voice_I_a',
                         (
                             abjad.PartAssignment('Piano'),
                             abjad.Timespan(
@@ -232,9 +232,9 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_SecondViolinVoiceI_a',
+                        'K_Second_Violin_Voice_I_a',
                         (
-                            abjad.PartAssignment('SecondViolin'),
+                            abjad.PartAssignment('Second_Violin'),
                             abjad.Timespan(
                                 start_offset=abjad.Offset(0, 1),
                                 stop_offset=abjad.Offset(15, 2),
@@ -242,7 +242,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TromboneVoiceIII_a',
+                        'K_Trombone_Voice_III_a',
                         (
                             abjad.PartAssignment('Trombone', 3),
                             abjad.Timespan(
@@ -252,7 +252,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TromboneVoiceII_a',
+                        'K_Trombone_Voice_II_a',
                         (
                             abjad.PartAssignment('Trombone', 2),
                             abjad.Timespan(
@@ -262,7 +262,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TromboneVoiceIV_a',
+                        'K_Trombone_Voice_IV_a',
                         (
                             abjad.PartAssignment('Trombone', 4),
                             abjad.Timespan(
@@ -272,7 +272,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TromboneVoiceI_a',
+                        'K_Trombone_Voice_I_a',
                         (
                             abjad.PartAssignment('Trombone', 1),
                             abjad.Timespan(
@@ -282,7 +282,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TrumpetVoiceIII_a',
+                        'K_Trumpet_Voice_III_a',
                         (
                             abjad.PartAssignment('Trumpet', 3),
                             abjad.Timespan(
@@ -292,7 +292,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TrumpetVoiceII_a',
+                        'K_Trumpet_Voice_II_a',
                         (
                             abjad.PartAssignment('Trumpet', 2),
                             abjad.Timespan(
@@ -302,7 +302,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TrumpetVoiceIV_a',
+                        'K_Trumpet_Voice_IV_a',
                         (
                             abjad.PartAssignment('Trumpet', 4),
                             abjad.Timespan(
@@ -312,7 +312,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_TrumpetVoiceI_a',
+                        'K_Trumpet_Voice_I_a',
                         (
                             abjad.PartAssignment('Trumpet', 1),
                             abjad.Timespan(
@@ -322,7 +322,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'K_ViolaVoiceI_a',
+                        'K_Viola_Voice_I_a',
                         (
                             abjad.PartAssignment('Viola'),
                             abjad.Timespan(
@@ -342,315 +342,315 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'BassClarinetStaffI',
+                        'Bass_Clarinet_Staff_I',
                         [
                             abjad.Momento(
-                                context='BassClarinetVoiceI',
+                                context='Bass_Clarinet_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='B. cl.',
                                 ),
                             abjad.Momento(
-                                context='BassClarinetVoiceI',
+                                context='Bass_Clarinet_Voice_I',
                                 manifest='instruments',
                                 value='BassClarinet',
                                 ),
                             abjad.Momento(
-                                context='BassClarinetVoiceI',
+                                context='Bass_Clarinet_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'BassClarinetVoiceI',
+                        'Bass_Clarinet_Voice_I',
                         [
                             abjad.Momento(
-                                context='BassClarinetVoiceI',
+                                context='Bass_Clarinet_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='niente',
                                 ),
                             ],
                         ),
                     (
-                        'CelloStaffI',
+                        'Cello_Staff_I',
                         [
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='Cello_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vc.',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='Cello_Voice_I',
                                 manifest='instruments',
                                 value='Cello',
                                 ),
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='Cello_Voice_I',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             ],
                         ),
                     (
-                        'CelloVoiceI',
+                        'Cello_Voice_I',
                         [
                             abjad.Momento(
-                                context='CelloVoiceI',
+                                context='Cello_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='pp',
                                 ),
                             ],
                         ),
                     (
-                        'ClarinetStaffI',
+                        'Clarinet_Staff_I',
                         [
                             abjad.Momento(
-                                context='ClarinetVoiceI',
+                                context='Clarinet_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Cl. 2',
                                 ),
                             abjad.Momento(
-                                context='ClarinetVoiceI',
+                                context='Clarinet_Voice_I',
                                 manifest='instruments',
                                 value='Clarinet',
                                 ),
                             abjad.Momento(
-                                context='ClarinetVoiceI',
+                                context='Clarinet_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'ClarinetVoiceI',
+                        'Clarinet_Voice_I',
                         [
                             abjad.Momento(
-                                context='ClarinetVoiceI',
+                                context='Clarinet_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='mf',
                                 ),
                             ],
                         ),
                     (
-                        'ContrabassStaffI',
+                        'Contrabass_Staff_I',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='Contrabass_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Cb. 1',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='Contrabass_Voice_I',
                                 manifest='instruments',
                                 value='Contrabass',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='Contrabass_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'ContrabassStaffII',
+                        'Contrabass_Staff_II',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceIII',
+                                context='Contrabass_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Cb. (2-6)',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceIII',
+                                context='Contrabass_Voice_III',
                                 manifest='instruments',
                                 value='Contrabass',
                                 ),
                             abjad.Momento(
-                                context='ContrabassVoiceIII',
+                                context='Contrabass_Voice_III',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             ],
                         ),
                     (
-                        'ContrabassVoiceI',
+                        'Contrabass_Voice_I',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceI',
+                                context='Contrabass_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='mf',
                                 ),
                             ],
                         ),
                     (
-                        'ContrabassVoiceIII',
+                        'Contrabass_Voice_III',
                         [
                             abjad.Momento(
-                                context='ContrabassVoiceIII',
+                                context='Contrabass_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='p',
                                 ),
                             ],
                         ),
                     (
-                        'FirstViolinStaffI',
+                        'First_Violin_Staff_I',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='First_Violin_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vni. I',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='First_Violin_Voice_I',
                                 manifest='instruments',
                                 value='Violin',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='First_Violin_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'FirstViolinStaffII',
+                        'First_Violin_Staff_II',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='First_Violin_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vni. I (11-18)',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='First_Violin_Voice_III',
                                 manifest='instruments',
                                 value='Violin',
                                 ),
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='First_Violin_Voice_III',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'FirstViolinVoiceI',
+                        'First_Violin_Voice_I',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceI',
+                                context='First_Violin_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='pp',
                                 ),
                             ],
                         ),
                     (
-                        'FirstViolinVoiceII',
+                        'First_Violin_Voice_II',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceII',
+                                context='First_Violin_Voice_II',
                                 prototype='abjad.Dynamic',
                                 value='p',
                                 ),
                             ],
                         ),
                     (
-                        'FirstViolinVoiceIII',
+                        'First_Violin_Voice_III',
                         [
                             abjad.Momento(
-                                context='FirstViolinVoiceIII',
+                                context='First_Violin_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='\\baca-f-but-accents-sffz',
                                 ),
                             ],
                         ),
                     (
-                        'HarpPianoStaff',
+                        'Harp_Piano_Staff',
                         [
                             abjad.Momento(
-                                context='HarpVoiceI',
+                                context='Harp_Voice_I',
                                 manifest='instruments',
                                 value='Harp',
                                 ),
                             ],
                         ),
                     (
-                        'HarpStaffI',
+                        'Harp_Staff_I',
                         [
                             abjad.Momento(
-                                context='HarpVoiceI',
+                                context='Harp_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Hp.',
                                 ),
                             abjad.Momento(
-                                context='HarpVoiceI',
+                                context='Harp_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'HarpVoiceI',
+                        'Harp_Voice_I',
                         [
                             abjad.Momento(
-                                context='HarpVoiceI',
+                                context='Harp_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='mf',
                                 ),
                             ],
                         ),
                     (
-                        'HornStaffI',
+                        'Horn_Staff_I',
                         [
                             abjad.Momento(
-                                context='HornVoiceI',
+                                context='Horn_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Hn. (1+3)',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceI',
+                                context='Horn_Voice_I',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceIII',
+                                context='Horn_Voice_III',
                                 manifest='instruments',
                                 value='Horn',
                                 ),
                             ],
                         ),
                     (
-                        'HornStaffII',
+                        'Horn_Staff_II',
                         [
                             abjad.Momento(
-                                context='HornVoiceII',
+                                context='Horn_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Hn. (2+4)',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceII',
+                                context='Horn_Voice_II',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             abjad.Momento(
-                                context='HornVoiceIV',
+                                context='Horn_Voice_IV',
                                 manifest='instruments',
                                 value='Horn',
                                 ),
                             ],
                         ),
                     (
-                        'HornVoiceI',
+                        'Horn_Voice_I',
                         [
                             abjad.Momento(
-                                context='HornVoiceI',
+                                context='Horn_Voice_I',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
                                 value='sfz',
@@ -658,10 +658,10 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'HornVoiceII',
+                        'Horn_Voice_II',
                         [
                             abjad.Momento(
-                                context='HornVoiceII',
+                                context='Horn_Voice_II',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
                                 value='sfz',
@@ -669,36 +669,36 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'HornVoiceIII',
+                        'Horn_Voice_III',
                         [
                             abjad.Momento(
-                                context='HornVoiceIII',
+                                context='Horn_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='sfz',
                                 ),
                             ],
                         ),
                     (
-                        'HornVoiceIV',
+                        'Horn_Voice_IV',
                         [
                             abjad.Momento(
-                                context='HornVoiceIV',
+                                context='Horn_Voice_IV',
                                 prototype='abjad.Dynamic',
                                 value='sfz',
                                 ),
                             ],
                         ),
                     (
-                        'PercussionStaffI',
+                        'Percussion_Staff_I',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc. 1 (tri.)',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -710,33 +710,33 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
                             ],
                         ),
                     (
-                        'PercussionStaffII',
+                        'Percussion_Staff_II',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc. 2 (cym.)',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
@@ -748,130 +748,130 @@ metadata = abjad.OrderedDict(
                                     ),
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
                             ],
                         ),
                     (
-                        'PercussionStaffIII',
+                        'Percussion_Staff_III',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc. 3 (vib.)',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 manifest='instruments',
                                 value='Vibraphone',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'PercussionStaffIV',
+                        'Percussion_Staff_IV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc.',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
                             ],
                         ),
                     (
-                        'PercussionVoiceI',
+                        'Percussion_Voice_I',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='niente',
                                 ),
                             ],
                         ),
                     (
-                        'PercussionVoiceII',
+                        'Percussion_Voice_II',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 prototype='abjad.Dynamic',
                                 value='p',
                                 ),
                             ],
                         ),
                     (
-                        'PercussionVoiceIII',
+                        'Percussion_Voice_III',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='mp',
                                 ),
                             ],
                         ),
                     (
-                        'PianoPianoStaff',
+                        'Piano_Piano_Staff',
                         [
                             abjad.Momento(
-                                context='PianoVoiceI',
+                                context='Piano_Voice_I',
                                 manifest='instruments',
                                 value='Piano',
                                 ),
                             ],
                         ),
                     (
-                        'PianoStaffI',
+                        'Piano_Staff_I',
                         [
                             abjad.Momento(
-                                context='PianoVoiceI',
+                                context='Piano_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Pf.',
                                 ),
                             abjad.Momento(
-                                context='PianoVoiceI',
+                                context='Piano_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'PianoVoiceI',
+                        'Piano_Voice_I',
                         [
                             abjad.Momento(
-                                context='PianoVoiceI',
+                                context='Piano_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='mf',
                                 ),
@@ -893,114 +893,114 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'SecondViolinStaffI',
+                        'Second_Violin_Staff_I',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='Second_Violin_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vni. II',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='Second_Violin_Voice_I',
                                 manifest='instruments',
                                 value='Violin',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='Second_Violin_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'SecondViolinStaffII',
+                        'Second_Violin_Staff_II',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='Second_Violin_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vni. II (11-18)',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='Second_Violin_Voice_III',
                                 manifest='instruments',
                                 value='Violin',
                                 ),
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='Second_Violin_Voice_III',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             ],
                         ),
                     (
-                        'SecondViolinVoiceI',
+                        'Second_Violin_Voice_I',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceI',
+                                context='Second_Violin_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='pp',
                                 ),
                             ],
                         ),
                     (
-                        'SecondViolinVoiceIII',
+                        'Second_Violin_Voice_III',
                         [
                             abjad.Momento(
-                                context='SecondViolinVoiceIII',
+                                context='Second_Violin_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='\\baca-f-but-accents-sffz',
                                 ),
                             ],
                         ),
                     (
-                        'TromboneStaffI',
+                        'Trombone_Staff_I',
                         [
                             abjad.Momento(
-                                context='TromboneVoiceI',
+                                context='Trombone_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Trb. (1+3)',
                                 ),
                             abjad.Momento(
-                                context='TromboneVoiceI',
+                                context='Trombone_Voice_I',
                                 prototype='abjad.Clef',
                                 value='tenor',
                                 ),
                             abjad.Momento(
-                                context='TromboneVoiceIII',
+                                context='Trombone_Voice_III',
                                 manifest='instruments',
                                 value='Trombone',
                                 ),
                             ],
                         ),
                     (
-                        'TromboneStaffII',
+                        'Trombone_Staff_II',
                         [
                             abjad.Momento(
-                                context='TromboneVoiceII',
+                                context='Trombone_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Trb. (2+4)',
                                 ),
                             abjad.Momento(
-                                context='TromboneVoiceII',
+                                context='Trombone_Voice_II',
                                 prototype='abjad.Clef',
                                 value='tenor',
                                 ),
                             abjad.Momento(
-                                context='TromboneVoiceIV',
+                                context='Trombone_Voice_IV',
                                 manifest='instruments',
                                 value='Trombone',
                                 ),
                             ],
                         ),
                     (
-                        'TromboneVoiceI',
+                        'Trombone_Voice_I',
                         [
                             abjad.Momento(
-                                context='TromboneVoiceI',
+                                context='Trombone_Voice_I',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
                                 value='sfz',
@@ -1008,10 +1008,10 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'TromboneVoiceII',
+                        'Trombone_Voice_II',
                         [
                             abjad.Momento(
-                                context='TromboneVoiceII',
+                                context='Trombone_Voice_II',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
                                 value='sfz',
@@ -1019,72 +1019,72 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'TromboneVoiceIII',
+                        'Trombone_Voice_III',
                         [
                             abjad.Momento(
-                                context='TromboneVoiceIII',
+                                context='Trombone_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='sfz',
                                 ),
                             ],
                         ),
                     (
-                        'TromboneVoiceIV',
+                        'Trombone_Voice_IV',
                         [
                             abjad.Momento(
-                                context='TromboneVoiceIV',
+                                context='Trombone_Voice_IV',
                                 prototype='abjad.Dynamic',
                                 value='sfz',
                                 ),
                             ],
                         ),
                     (
-                        'TrumpetStaffI',
+                        'Trumpet_Staff_I',
                         [
                             abjad.Momento(
-                                context='TrumpetVoiceI',
+                                context='Trumpet_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Tp. (1+3)',
                                 ),
                             abjad.Momento(
-                                context='TrumpetVoiceI',
+                                context='Trumpet_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='TrumpetVoiceIII',
+                                context='Trumpet_Voice_III',
                                 manifest='instruments',
                                 value='Trumpet',
                                 ),
                             ],
                         ),
                     (
-                        'TrumpetStaffII',
+                        'Trumpet_Staff_II',
                         [
                             abjad.Momento(
-                                context='TrumpetVoiceII',
+                                context='Trumpet_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Tp. (2+4)',
                                 ),
                             abjad.Momento(
-                                context='TrumpetVoiceII',
+                                context='Trumpet_Voice_II',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='TrumpetVoiceIV',
+                                context='Trumpet_Voice_IV',
                                 manifest='instruments',
                                 value='Trumpet',
                                 ),
                             ],
                         ),
                     (
-                        'TrumpetVoiceI',
+                        'Trumpet_Voice_I',
                         [
                             abjad.Momento(
-                                context='TrumpetVoiceI',
+                                context='Trumpet_Voice_I',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
                                 value='sfz',
@@ -1092,10 +1092,10 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'TrumpetVoiceII',
+                        'Trumpet_Voice_II',
                         [
                             abjad.Momento(
-                                context='TrumpetVoiceII',
+                                context='Trumpet_Voice_II',
                                 edition=abjad.Tag('+PARTS'),
                                 prototype='abjad.Dynamic',
                                 value='sfz',
@@ -1103,113 +1103,113 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'TrumpetVoiceIII',
+                        'Trumpet_Voice_III',
                         [
                             abjad.Momento(
-                                context='TrumpetVoiceIII',
+                                context='Trumpet_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='sfz',
                                 ),
                             ],
                         ),
                     (
-                        'TrumpetVoiceIV',
+                        'Trumpet_Voice_IV',
                         [
                             abjad.Momento(
-                                context='TrumpetVoiceIV',
+                                context='Trumpet_Voice_IV',
                                 prototype='abjad.Dynamic',
                                 value='sfz',
                                 ),
                             ],
                         ),
                     (
-                        'TubaStaffI',
+                        'Tuba_Staff_I',
                         [
                             abjad.Momento(
-                                context='TubaVoiceI',
+                                context='Tuba_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Tub.',
                                 ),
                             abjad.Momento(
-                                context='TubaVoiceI',
+                                context='Tuba_Voice_I',
                                 manifest='instruments',
                                 value='Tuba',
                                 ),
                             abjad.Momento(
-                                context='TubaVoiceI',
+                                context='Tuba_Voice_I',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             ],
                         ),
                     (
-                        'TubaVoiceI',
+                        'Tuba_Voice_I',
                         [
                             abjad.Momento(
-                                context='TubaVoiceI',
+                                context='Tuba_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='\\baca-sffz',
                                 ),
                             ],
                         ),
                     (
-                        'ViolaStaffI',
+                        'Viola_Staff_I',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='Viola_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vle.',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='Viola_Voice_I',
                                 manifest='instruments',
                                 value='Viola',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='Viola_Voice_I',
                                 prototype='abjad.Clef',
                                 value='alto',
                                 ),
                             ],
                         ),
                     (
-                        'ViolaStaffII',
+                        'Viola_Staff_II',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='Viola_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Vle. (11-18)',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='Viola_Voice_III',
                                 manifest='instruments',
                                 value='Viola',
                                 ),
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='Viola_Voice_III',
                                 prototype='abjad.Clef',
                                 value='alto',
                                 ),
                             ],
                         ),
                     (
-                        'ViolaVoiceI',
+                        'Viola_Voice_I',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceI',
+                                context='Viola_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='pp',
                                 ),
                             ],
                         ),
                     (
-                        'ViolaVoiceIII',
+                        'Viola_Voice_III',
                         [
                             abjad.Momento(
-                                context='ViolaVoiceIII',
+                                context='Viola_Voice_III',
                                 prototype='abjad.Dynamic',
                                 value='\\baca-f-but-accents-sffz',
                                 ),
@@ -1224,29 +1224,29 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('CelloVoiceI', True),
-                    ('ClarinetVoiceI', True),
-                    ('ContrabassVoiceI', True),
-                    ('ContrabassVoiceIII', True),
-                    ('FirstViolinVoiceI', True),
-                    ('HarpVoiceI', True),
-                    ('HornVoiceI', True),
-                    ('HornVoiceII', True),
-                    ('HornVoiceIII', True),
-                    ('HornVoiceIV', True),
-                    ('PercussionVoiceII', True),
-                    ('PercussionVoiceIII', True),
-                    ('PianoVoiceI', True),
-                    ('SecondViolinVoiceI', True),
-                    ('TromboneVoiceI', True),
-                    ('TromboneVoiceII', True),
-                    ('TromboneVoiceIII', True),
-                    ('TromboneVoiceIV', True),
-                    ('TrumpetVoiceI', True),
-                    ('TrumpetVoiceII', True),
-                    ('TrumpetVoiceIII', True),
-                    ('TrumpetVoiceIV', True),
-                    ('ViolaVoiceI', True),
+                    ('Cello_Voice_I', True),
+                    ('Clarinet_Voice_I', True),
+                    ('Contrabass_Voice_I', True),
+                    ('Contrabass_Voice_III', True),
+                    ('First_Violin_Voice_I', True),
+                    ('Harp_Voice_I', True),
+                    ('Horn_Voice_I', True),
+                    ('Horn_Voice_II', True),
+                    ('Horn_Voice_III', True),
+                    ('Horn_Voice_IV', True),
+                    ('Percussion_Voice_II', True),
+                    ('Percussion_Voice_III', True),
+                    ('Piano_Voice_I', True),
+                    ('Second_Violin_Voice_I', True),
+                    ('Trombone_Voice_I', True),
+                    ('Trombone_Voice_II', True),
+                    ('Trombone_Voice_III', True),
+                    ('Trombone_Voice_IV', True),
+                    ('Trumpet_Voice_I', True),
+                    ('Trumpet_Voice_II', True),
+                    ('Trumpet_Voice_III', True),
+                    ('Trumpet_Voice_IV', True),
+                    ('Viola_Voice_I', True),
                     ]
                 ),
             ),
@@ -1270,7 +1270,7 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'ContrabassVoiceI',
+                        'Contrabass_Voice_I',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1288,7 +1288,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'HarpVoiceI',
+                        'Harp_Voice_I',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1306,7 +1306,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'HornVoiceI',
+                        'Horn_Voice_I',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1322,7 +1322,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'HornVoiceII',
+                        'Horn_Voice_II',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1338,7 +1338,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'HornVoiceIII',
+                        'Horn_Voice_III',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1354,7 +1354,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'HornVoiceIV',
+                        'Horn_Voice_IV',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1370,7 +1370,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'PercussionVoiceIII',
+                        'Percussion_Voice_III',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1388,7 +1388,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'PianoVoiceI',
+                        'Piano_Voice_I',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1406,7 +1406,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TromboneVoiceI',
+                        'Trombone_Voice_I',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1422,7 +1422,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TromboneVoiceII',
+                        'Trombone_Voice_II',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1438,7 +1438,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TromboneVoiceIII',
+                        'Trombone_Voice_III',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1454,7 +1454,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TromboneVoiceIV',
+                        'Trombone_Voice_IV',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1470,7 +1470,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TrumpetVoiceI',
+                        'Trumpet_Voice_I',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1486,7 +1486,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TrumpetVoiceII',
+                        'Trumpet_Voice_II',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1502,7 +1502,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TrumpetVoiceIII',
+                        'Trumpet_Voice_III',
                         abjad.OrderedDict(
                             [
                                 (
@@ -1518,7 +1518,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'TrumpetVoiceIV',
+                        'Trumpet_Voice_IV',
                         abjad.OrderedDict(
                             [
                                 (

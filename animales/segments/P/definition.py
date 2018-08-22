@@ -100,7 +100,7 @@ maker(
 
 maker(
     'eh1',
-    animales.parts('EnglishHorn'),
+    animales.parts('English_Horn'),
     )
 
 maker(
@@ -316,7 +316,7 @@ def lower_voice_suite(n=5):
 
 maker(
     '1vn5',
-    animales.parts('FirstViolin', 18),
+    animales.parts('First_Violin', 18),
     baca.make_repeat_tied_notes(),
     baca.pitch('C#4'),
     baca.repeat_tie_to(),
@@ -327,7 +327,7 @@ maker(
 
 maker(
     '1vn1',
-    animales.parts('FirstViolin', (1, 4)),
+    animales.parts('First_Violin', (1, 4)),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup('tutti: sim.', boxed=True),
@@ -339,7 +339,7 @@ maker(
 
 maker(
     '1vn2',
-    animales.parts('FirstViolin', (5, 8)),
+    animales.parts('First_Violin', (5, 8)),
     baca.make_repeat_tied_notes(),
     baca.pitch('F5'),
     lower_voice_suite(8),
@@ -348,7 +348,7 @@ maker(
 
 maker(
     '1vn3',
-    animales.parts('FirstViolin', (9, 12)),
+    animales.parts('First_Violin', (9, 12)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G5'),
     tremolo_suite(),
@@ -357,7 +357,7 @@ maker(
 
 maker(
     '1vn4',
-    animales.parts('FirstViolin', (13, 17)),
+    animales.parts('First_Violin', (13, 17)),
     baca.make_repeat_tied_notes(),
     baca.pitch('D5'),
     lower_voice_suite(8),
@@ -368,7 +368,7 @@ maker(
 
 maker(
     '2vn1',
-    animales.parts('SecondViolin', (1, 4)),
+    animales.parts('Second_Violin', (1, 4)),
     baca.make_repeat_tied_notes(),
     baca.pitch('B4'),
     tremolo_suite(),
@@ -377,7 +377,7 @@ maker(
 
 maker(
     '2vn2',
-    animales.parts('SecondViolin', (5, 8)),
+    animales.parts('Second_Violin', (5, 8)),
     baca.make_repeat_tied_notes(),
     baca.pitch('G4'),
     lower_voice_suite(),
@@ -386,7 +386,7 @@ maker(
 
 maker(
     '2vn3',
-    animales.parts('SecondViolin', (9, 12)),
+    animales.parts('Second_Violin', (9, 12)),
     baca.make_repeat_tied_notes(),
     baca.pitch('A4'),
     tremolo_suite(),
@@ -395,7 +395,7 @@ maker(
 
 maker(
     '2vn4',
-    animales.parts('SecondViolin', (13, 18)),
+    animales.parts('Second_Violin', (13, 18)),
     baca.make_repeat_tied_notes(),
     baca.pitch('F4'),
     lower_voice_suite(),

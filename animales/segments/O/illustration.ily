@@ -190,9 +190,9 @@ O_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-O_OboeVoiceI_a = {                                                             %! extern
+O_Oboe_Voice_I_a = {                                                           %! extern
 
-    % [O OboeVoiceI measure 95 / measure 1]                                    %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 95 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         \hcenter-in                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -221,11 +221,11 @@ O_OboeVoiceI_a = {                                                             %
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O OboeVoiceI measure 96 / measure 2]                                    %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 96 / measure 2]                                  %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O OboeVoiceI measure 97 / measure 3]                                    %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 97 / measure 3]                                  %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -235,64 +235,64 @@ O_OboeVoiceI_a = {                                                             %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [O OboeVoiceI measure 98 / measure 4]                                    %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 98 / measure 4]                                  %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O OboeVoiceI measure 99 / measure 5]                                    %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 99 / measure 5]                                  %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O OboeVoiceI measure 100 / measure 6]                                   %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 100 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [O OboeVoiceI measure 101 / measure 7]                                   %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 101 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O OboeVoiceI measure 102 / measure 8]                                   %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 102 / measure 8]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O OboeVoiceI measure 103 / measure 9]                                   %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 103 / measure 9]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O OboeVoiceI measure 104 / measure 10]                                  %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 104 / measure 10]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [O OboeVoiceI measure 105 / measure 11]                                  %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 105 / measure 11]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O OboeVoiceI measure 106 / measure 12]                                  %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 106 / measure 12]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O OboeVoiceI measure 107 / measure 13]                                  %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 107 / measure 13]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O OboeVoiceI measure 108 / measure 14]                                  %! _comment_measure_numbers
+    % [O Oboe_Voice_I measure 108 / measure 14]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_OboeVoiceI = {                                                               %! extern
+O_Oboe_Voice_I = {                                                             %! extern
 
-    \O_OboeVoiceI_a                                                            %! extern
-
-}                                                                              %! extern
-
-
-O_OboeStaffI = {                                                               %! extern
-
-    \context Voice = "OboeVoiceI"                                              %! ScoreTemplate
-    \O_OboeVoiceI                                                              %! extern
+    \O_Oboe_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-O_EnglishHornVoiceI_a = {                                                      %! extern
+O_Oboe_Staff_I = {                                                             %! extern
 
-    % [O EnglishHornVoiceI measure 95 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Oboe_Voice_I"                                            %! ScoreTemplate
+    \O_Oboe_Voice_I                                                            %! extern
+
+}                                                                              %! extern
+
+
+O_English_Horn_Voice_I_a = {                                                   %! extern
+
+    % [O English_Horn_Voice_I measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         \hcenter-in                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -321,11 +321,11 @@ O_EnglishHornVoiceI_a = {                                                      %
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O EnglishHornVoiceI measure 96 / measure 2]                             %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 96 / measure 2]                          %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O EnglishHornVoiceI measure 97 / measure 3]                             %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 97 / measure 3]                          %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -335,64 +335,64 @@ O_EnglishHornVoiceI_a = {                                                      %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [O EnglishHornVoiceI measure 98 / measure 4]                             %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 98 / measure 4]                          %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O EnglishHornVoiceI measure 99 / measure 5]                             %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 99 / measure 5]                          %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O EnglishHornVoiceI measure 100 / measure 6]                            %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 100 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [O EnglishHornVoiceI measure 101 / measure 7]                            %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 101 / measure 7]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 102 / measure 8]                            %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 102 / measure 8]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 103 / measure 9]                            %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 103 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 104 / measure 10]                           %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 104 / measure 10]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 105 / measure 11]                           %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 105 / measure 11]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 106 / measure 12]                           %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 106 / measure 12]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 107 / measure 13]                           %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 107 / measure 13]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O EnglishHornVoiceI measure 108 / measure 14]                           %! _comment_measure_numbers
+    % [O English_Horn_Voice_I measure 108 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_EnglishHornVoiceI = {                                                        %! extern
+O_English_Horn_Voice_I = {                                                     %! extern
 
-    \O_EnglishHornVoiceI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-O_EnglishHornStaffI = {                                                        %! extern
-
-    \context Voice = "EnglishHornVoiceI"                                       %! ScoreTemplate
-    \O_EnglishHornVoiceI                                                       %! extern
+    \O_English_Horn_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-O_BassoonVoiceI_a = {                                                          %! extern
+O_English_Horn_Staff_I = {                                                     %! extern
 
-    % [O BassoonVoiceI measure 95 / measure 1]                                 %! _comment_measure_numbers
+    \context Voice = "English_Horn_Voice_I"                                    %! ScoreTemplate
+    \O_English_Horn_Voice_I                                                    %! extern
+
+}                                                                              %! extern
+
+
+O_Bassoon_Voice_I_a = {                                                        %! extern
+
+    % [O Bassoon_Voice_I measure 95 / measure 1]                               %! _comment_measure_numbers
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -406,11 +406,11 @@ O_BassoonVoiceI_a = {                                                          %
 %%% \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O BassoonVoiceI measure 96 / measure 2]                                 %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 96 / measure 2]                               %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O BassoonVoiceI measure 97 / measure 3]                                 %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 97 / measure 3]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
@@ -420,56 +420,56 @@ O_BassoonVoiceI_a = {                                                          %
 %%% \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     \repeatTie
 
-    % [O BassoonVoiceI measure 98 / measure 4]                                 %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 98 / measure 4]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O BassoonVoiceI measure 99 / measure 5]                                 %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 99 / measure 5]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O BassoonVoiceI measure 100 / measure 6]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 100 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
 
-    % [O BassoonVoiceI measure 101 / measure 7]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 101 / measure 7]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 102 / measure 8]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 102 / measure 8]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 103 / measure 9]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 103 / measure 9]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 104 / measure 10]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 104 / measure 10]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 105 / measure 11]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 105 / measure 11]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 106 / measure 12]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 106 / measure 12]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 107 / measure 13]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 107 / measure 13]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O BassoonVoiceI measure 108 / measure 14]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_I measure 108 / measure 14]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_BassoonVoiceI = {                                                            %! extern
+O_Bassoon_Voice_I = {                                                          %! extern
 
-    \O_BassoonVoiceI_a                                                         %! extern
+    \O_Bassoon_Voice_I_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-O_BassoonVoiceII_a = {                                                         %! extern
+O_Bassoon_Voice_II_a = {                                                       %! extern
 
-    % [O BassoonVoiceII measure 95 / measure 1]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 95 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         \hcenter-in                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -494,11 +494,11 @@ O_BassoonVoiceII_a = {                                                         %
             Bsn.                                                               %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
 
-    % [O BassoonVoiceII measure 96 / measure 2]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 96 / measure 2]                              %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O BassoonVoiceII measure 97 / measure 3]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 97 / measure 3]                              %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -508,67 +508,67 @@ O_BassoonVoiceII_a = {                                                         %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [O BassoonVoiceII measure 98 / measure 4]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 98 / measure 4]                              %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O BassoonVoiceII measure 99 / measure 5]                                %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 99 / measure 5]                              %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [O BassoonVoiceII measure 100 / measure 6]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 100 / measure 6]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [O BassoonVoiceII measure 101 / measure 7]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 101 / measure 7]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 102 / measure 8]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 102 / measure 8]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 103 / measure 9]                               %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 103 / measure 9]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 104 / measure 10]                              %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 104 / measure 10]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 105 / measure 11]                              %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 105 / measure 11]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 106 / measure 12]                              %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 106 / measure 12]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 107 / measure 13]                              %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 107 / measure 13]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O BassoonVoiceII measure 108 / measure 14]                              %! _comment_measure_numbers
+    % [O Bassoon_Voice_II measure 108 / measure 14]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_BassoonVoiceII = {                                                           %! extern
+O_Bassoon_Voice_II = {                                                         %! extern
 
-    \O_BassoonVoiceII_a                                                        %! extern
+    \O_Bassoon_Voice_II_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-O_BassoonStaffI = <<                                                           %! extern
+O_Bassoon_Staff_I = <<                                                         %! extern
 
-    \context Voice = "BassoonVoiceI"                                           %! ScoreTemplate
-    \O_BassoonVoiceI                                                           %! extern
+    \context Voice = "Bassoon_Voice_I"                                         %! ScoreTemplate
+    \O_Bassoon_Voice_I                                                         %! extern
 
-    \context Voice = "BassoonVoiceII"                                          %! ScoreTemplate
-    \O_BassoonVoiceII                                                          %! extern
+    \context Voice = "Bassoon_Voice_II"                                        %! ScoreTemplate
+    \O_Bassoon_Voice_II                                                        %! extern
 
 >>                                                                             %! extern
 
 
-O_FirstViolinVoiceI_a = {                                                      %! extern
+O_First_Violin_Voice_I_a = {                                                   %! extern
 
-    % [O FirstViolinVoiceI measure 95 / measure 1]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -625,13 +625,13 @@ O_FirstViolinVoiceI_a = {                                                      %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O FirstViolinVoiceI measure 96 / measure 2]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 96 / measure 2]                          %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceI measure 97 / measure 3]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 97 / measure 3]                          %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -647,31 +647,31 @@ O_FirstViolinVoiceI_a = {                                                      %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O FirstViolinVoiceI measure 98 / measure 4]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 98 / measure 4]                          %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceI measure 99 / measure 5]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 99 / measure 5]                          %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceI measure 100 / measure 6]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 100 / measure 6]                         %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceI measure 101 / measure 7]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 101 / measure 7]                         %! _comment_measure_numbers
     a''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceI measure 102 / measure 8]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 102 / measure 8]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -680,13 +680,13 @@ O_FirstViolinVoiceI_a = {                                                      %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O FirstViolinVoiceI measure 103 / measure 9]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 103 / measure 9]                         %! _comment_measure_numbers
     a''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceI measure 104 / measure 10]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 104 / measure 10]                        %! _comment_measure_numbers
     a''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -697,31 +697,31 @@ O_FirstViolinVoiceI_a = {                                                      %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O FirstViolinVoiceI measure 105 / measure 11]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 105 / measure 11]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceI measure 106 / measure 12]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 106 / measure 12]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceI measure 107 / measure 13]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 107 / measure 13]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O FirstViolinVoiceI measure 108 / measure 14]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_I measure 108 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceI = {                                                        %! extern
+O_First_Violin_Voice_I = {                                                     %! extern
 
-    \O_FirstViolinVoiceI_a                                                     %! extern
+    \O_First_Violin_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceII_a = {                                                     %! extern
+O_First_Violin_Voice_II_a = {                                                  %! extern
 
-    % [O FirstViolinVoiceII measure 95 / measure 1]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 95 / measure 1]                         %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     f''2.                                                                      %! baca_make_repeat_tied_notes
@@ -736,13 +736,13 @@ O_FirstViolinVoiceII_a = {                                                     %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O FirstViolinVoiceII measure 96 / measure 2]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 96 / measure 2]                         %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceII measure 97 / measure 3]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 97 / measure 3]                         %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -758,31 +758,31 @@ O_FirstViolinVoiceII_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O FirstViolinVoiceII measure 98 / measure 4]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 98 / measure 4]                         %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceII measure 99 / measure 5]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 99 / measure 5]                         %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceII measure 100 / measure 6]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 100 / measure 6]                        %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceII measure 101 / measure 7]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 101 / measure 7]                        %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceII measure 102 / measure 8]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 102 / measure 8]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -791,55 +791,55 @@ O_FirstViolinVoiceII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O FirstViolinVoiceII measure 103 / measure 9]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 103 / measure 9]                        %! _comment_measure_numbers
     f''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceII measure 104 / measure 10]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 104 / measure 10]                       %! _comment_measure_numbers
     f''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O FirstViolinVoiceII measure 105 / measure 11]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 105 / measure 11]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceII measure 106 / measure 12]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 106 / measure 12]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceII measure 107 / measure 13]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 107 / measure 13]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O FirstViolinVoiceII measure 108 / measure 14]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_II measure 108 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceII = {                                                       %! extern
+O_First_Violin_Voice_II = {                                                    %! extern
 
-    \O_FirstViolinVoiceII_a                                                    %! extern
+    \O_First_Violin_Voice_II_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-O_FirstViolinStaffI = <<                                                       %! extern
+O_First_Violin_Staff_I = <<                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \O_FirstViolinVoiceI                                                       %! extern
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \O_First_Violin_Voice_I                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
-    \O_FirstViolinVoiceII                                                      %! extern
+    \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
+    \O_First_Violin_Voice_II                                                   %! extern
 
 >>                                                                             %! extern
 
 
-O_FirstViolinVoiceIII_a = {                                                    %! extern
+O_First_Violin_Voice_III_a = {                                                 %! extern
 
-    % [O FirstViolinVoiceIII measure 95 / measure 1]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 95 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -890,13 +890,13 @@ O_FirstViolinVoiceIII_a = {                                                    %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O FirstViolinVoiceIII measure 96 / measure 2]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 96 / measure 2]                        %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIII measure 97 / measure 3]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 97 / measure 3]                        %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -912,31 +912,31 @@ O_FirstViolinVoiceIII_a = {                                                    %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O FirstViolinVoiceIII measure 98 / measure 4]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 98 / measure 4]                        %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIII measure 99 / measure 5]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 99 / measure 5]                        %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIII measure 100 / measure 6]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 100 / measure 6]                       %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIII measure 101 / measure 7]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 101 / measure 7]                       %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIII measure 102 / measure 8]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 102 / measure 8]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -945,13 +945,13 @@ O_FirstViolinVoiceIII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O FirstViolinVoiceIII measure 103 / measure 9]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 103 / measure 9]                       %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIII measure 104 / measure 10]                         %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 104 / measure 10]                      %! _comment_measure_numbers
     g''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -962,31 +962,31 @@ O_FirstViolinVoiceIII_a = {                                                    %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O FirstViolinVoiceIII measure 105 / measure 11]                         %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 105 / measure 11]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceIII measure 106 / measure 12]                         %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 106 / measure 12]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceIII measure 107 / measure 13]                         %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 107 / measure 13]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O FirstViolinVoiceIII measure 108 / measure 14]                         %! _comment_measure_numbers
+    % [O First_Violin_Voice_III measure 108 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceIII = {                                                      %! extern
+O_First_Violin_Voice_III = {                                                   %! extern
 
-    \O_FirstViolinVoiceIII_a                                                   %! extern
+    \O_First_Violin_Voice_III_a                                                %! extern
 
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceIV_a = {                                                     %! extern
+O_First_Violin_Voice_IV_a = {                                                  %! extern
 
-    % [O FirstViolinVoiceIV measure 95 / measure 1]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 95 / measure 1]                         %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     d''2.                                                                      %! baca_make_repeat_tied_notes
@@ -1001,13 +1001,13 @@ O_FirstViolinVoiceIV_a = {                                                     %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O FirstViolinVoiceIV measure 96 / measure 2]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 96 / measure 2]                         %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIV measure 97 / measure 3]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 97 / measure 3]                         %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1023,31 +1023,31 @@ O_FirstViolinVoiceIV_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O FirstViolinVoiceIV measure 98 / measure 4]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 98 / measure 4]                         %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIV measure 99 / measure 5]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 99 / measure 5]                         %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIV measure 100 / measure 6]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 100 / measure 6]                        %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIV measure 101 / measure 7]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 101 / measure 7]                        %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIV measure 102 / measure 8]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 102 / measure 8]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1056,55 +1056,55 @@ O_FirstViolinVoiceIV_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O FirstViolinVoiceIV measure 103 / measure 9]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 103 / measure 9]                        %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceIV measure 104 / measure 10]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 104 / measure 10]                       %! _comment_measure_numbers
     d''2                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O FirstViolinVoiceIV measure 105 / measure 11]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 105 / measure 11]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceIV measure 106 / measure 12]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 106 / measure 12]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O FirstViolinVoiceIV measure 107 / measure 13]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 107 / measure 13]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O FirstViolinVoiceIV measure 108 / measure 14]                          %! _comment_measure_numbers
+    % [O First_Violin_Voice_IV measure 108 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceIV = {                                                       %! extern
+O_First_Violin_Voice_IV = {                                                    %! extern
 
-    \O_FirstViolinVoiceIV_a                                                    %! extern
+    \O_First_Violin_Voice_IV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-O_FirstViolinStaffII = <<                                                      %! extern
+O_First_Violin_Staff_II = <<                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
-    \O_FirstViolinVoiceIII                                                     %! extern
+    \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
+    \O_First_Violin_Voice_III                                                  %! extern
 
-    \context Voice = "FirstViolinVoiceIV"                                      %! ScoreTemplate
-    \O_FirstViolinVoiceIV                                                      %! extern
+    \context Voice = "First_Violin_Voice_IV"                                   %! ScoreTemplate
+    \O_First_Violin_Voice_IV                                                   %! extern
 
 >>                                                                             %! extern
 
 
-O_FirstViolinVoiceV_a = {                                                      %! extern
+O_First_Violin_Voice_V_a = {                                                   %! extern
 
-    % [O FirstViolinVoiceV measure 95 / measure 1]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1149,67 +1149,67 @@ O_FirstViolinVoiceV_a = {                                                      %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O FirstViolinVoiceV measure 96 / measure 2]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 96 / measure 2]                          %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 97 / measure 3]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 97 / measure 3]                          %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 98 / measure 4]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 98 / measure 4]                          %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 99 / measure 5]                             %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 99 / measure 5]                          %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 100 / measure 6]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 100 / measure 6]                         %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 101 / measure 7]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 101 / measure 7]                         %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 102 / measure 8]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 102 / measure 8]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 103 / measure 9]                            %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 103 / measure 9]                         %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 104 / measure 10]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 104 / measure 10]                        %! _comment_measure_numbers
     cs'!2                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 105 / measure 11]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 105 / measure 11]                        %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 106 / measure 12]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 106 / measure 12]                        %! _comment_measure_numbers
     cs'!2.                                                                     %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 107 / measure 13]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 107 / measure 13]                        %! _comment_measure_numbers
     cs'!1                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-    % [O FirstViolinVoiceV measure 108 / measure 14]                           %! _comment_measure_numbers
+    % [O First_Violin_Voice_V measure 108 / measure 14]                        %! _comment_measure_numbers
     cs'!2                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -1217,24 +1217,24 @@ O_FirstViolinVoiceV_a = {                                                      %
 }                                                                              %! extern
 
 
-O_FirstViolinVoiceV = {                                                        %! extern
+O_First_Violin_Voice_V = {                                                     %! extern
 
-    \O_FirstViolinVoiceV_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-O_FirstViolinStaffIII = {                                                      %! extern
-
-    \context Voice = "FirstViolinVoiceV"                                       %! ScoreTemplate
-    \O_FirstViolinVoiceV                                                       %! extern
+    \O_First_Violin_Voice_V_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceI_a = {                                                     %! extern
+O_First_Violin_Staff_III = {                                                   %! extern
 
-    % [O SecondViolinVoiceI measure 95 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "First_Violin_Voice_V"                                    %! ScoreTemplate
+    \O_First_Violin_Voice_V                                                    %! extern
+
+}                                                                              %! extern
+
+
+O_Second_Violin_Voice_I_a = {                                                  %! extern
+
+    % [O Second_Violin_Voice_I measure 95 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1285,13 +1285,13 @@ O_SecondViolinVoiceI_a = {                                                     %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O SecondViolinVoiceI measure 96 / measure 2]                            %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 96 / measure 2]                         %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceI measure 97 / measure 3]                            %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 97 / measure 3]                         %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1308,33 +1308,33 @@ O_SecondViolinVoiceI_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O SecondViolinVoiceI measure 98 / measure 4]                            %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 98 / measure 4]                         %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [O SecondViolinVoiceI measure 99 / measure 5]                            %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 99 / measure 5]                         %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [O SecondViolinVoiceI measure 100 / measure 6]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 100 / measure 6]                        %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceI measure 101 / measure 7]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 101 / measure 7]                        %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceI measure 102 / measure 8]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 102 / measure 8]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1344,14 +1344,14 @@ O_SecondViolinVoiceI_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O SecondViolinVoiceI measure 103 / measure 9]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 103 / measure 9]                        %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [O SecondViolinVoiceI measure 104 / measure 10]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 104 / measure 10]                       %! _comment_measure_numbers
     b'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -1362,31 +1362,31 @@ O_SecondViolinVoiceI_a = {                                                     %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O SecondViolinVoiceI measure 105 / measure 11]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 105 / measure 11]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceI measure 106 / measure 12]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 106 / measure 12]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceI measure 107 / measure 13]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 107 / measure 13]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O SecondViolinVoiceI measure 108 / measure 14]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_I measure 108 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceI = {                                                       %! extern
+O_Second_Violin_Voice_I = {                                                    %! extern
 
-    \O_SecondViolinVoiceI_a                                                    %! extern
+    \O_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceII_a = {                                                    %! extern
+O_Second_Violin_Voice_II_a = {                                                 %! extern
 
-    % [O SecondViolinVoiceII measure 95 / measure 1]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 95 / measure 1]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g'2.                                                                       %! baca_make_repeat_tied_notes
@@ -1401,13 +1401,13 @@ O_SecondViolinVoiceII_a = {                                                    %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O SecondViolinVoiceII measure 96 / measure 2]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 96 / measure 2]                        %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceII measure 97 / measure 3]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 97 / measure 3]                        %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1423,31 +1423,31 @@ O_SecondViolinVoiceII_a = {                                                    %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O SecondViolinVoiceII measure 98 / measure 4]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 98 / measure 4]                        %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceII measure 99 / measure 5]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 99 / measure 5]                        %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceII measure 100 / measure 6]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 100 / measure 6]                       %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceII measure 101 / measure 7]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 101 / measure 7]                       %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceII measure 102 / measure 8]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 102 / measure 8]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1456,55 +1456,55 @@ O_SecondViolinVoiceII_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O SecondViolinVoiceII measure 103 / measure 9]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 103 / measure 9]                       %! _comment_measure_numbers
     g'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceII measure 104 / measure 10]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 104 / measure 10]                      %! _comment_measure_numbers
     g'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O SecondViolinVoiceII measure 105 / measure 11]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 105 / measure 11]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceII measure 106 / measure 12]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 106 / measure 12]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceII measure 107 / measure 13]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 107 / measure 13]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O SecondViolinVoiceII measure 108 / measure 14]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_II measure 108 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceII = {                                                      %! extern
+O_Second_Violin_Voice_II = {                                                   %! extern
 
-    \O_SecondViolinVoiceII_a                                                   %! extern
+    \O_Second_Violin_Voice_II_a                                                %! extern
 
 }                                                                              %! extern
 
 
-O_SecondViolinStaffI = <<                                                      %! extern
+O_Second_Violin_Staff_I = <<                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \O_SecondViolinVoiceI                                                      %! extern
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \O_Second_Violin_Voice_I                                                   %! extern
 
-    \context Voice = "SecondViolinVoiceII"                                     %! ScoreTemplate
-    \O_SecondViolinVoiceII                                                     %! extern
+    \context Voice = "Second_Violin_Voice_II"                                  %! ScoreTemplate
+    \O_Second_Violin_Voice_II                                                  %! extern
 
 >>                                                                             %! extern
 
 
-O_SecondViolinVoiceIII_a = {                                                   %! extern
+O_Second_Violin_Voice_III_a = {                                                %! extern
 
-    % [O SecondViolinVoiceIII measure 95 / measure 1]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 95 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1555,13 +1555,13 @@ O_SecondViolinVoiceIII_a = {                                                   %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O SecondViolinVoiceIII measure 96 / measure 2]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 96 / measure 2]                       %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIII measure 97 / measure 3]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 97 / measure 3]                       %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1577,31 +1577,31 @@ O_SecondViolinVoiceIII_a = {                                                   %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O SecondViolinVoiceIII measure 98 / measure 4]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 98 / measure 4]                       %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIII measure 99 / measure 5]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 99 / measure 5]                       %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIII measure 100 / measure 6]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 100 / measure 6]                      %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIII measure 101 / measure 7]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 101 / measure 7]                      %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIII measure 102 / measure 8]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 102 / measure 8]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1610,13 +1610,13 @@ O_SecondViolinVoiceIII_a = {                                                   %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O SecondViolinVoiceIII measure 103 / measure 9]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 103 / measure 9]                      %! _comment_measure_numbers
     a'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIII measure 104 / measure 10]                        %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 104 / measure 10]                     %! _comment_measure_numbers
     a'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -1627,31 +1627,31 @@ O_SecondViolinVoiceIII_a = {                                                   %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O SecondViolinVoiceIII measure 105 / measure 11]                        %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 105 / measure 11]                     %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceIII measure 106 / measure 12]                        %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 106 / measure 12]                     %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceIII measure 107 / measure 13]                        %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 107 / measure 13]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O SecondViolinVoiceIII measure 108 / measure 14]                        %! _comment_measure_numbers
+    % [O Second_Violin_Voice_III measure 108 / measure 14]                     %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceIII = {                                                     %! extern
+O_Second_Violin_Voice_III = {                                                  %! extern
 
-    \O_SecondViolinVoiceIII_a                                                  %! extern
+    \O_Second_Violin_Voice_III_a                                               %! extern
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceIV_a = {                                                    %! extern
+O_Second_Violin_Voice_IV_a = {                                                 %! extern
 
-    % [O SecondViolinVoiceIV measure 95 / measure 1]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 95 / measure 1]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     f'2.                                                                       %! baca_make_repeat_tied_notes
@@ -1666,13 +1666,13 @@ O_SecondViolinVoiceIV_a = {                                                    %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O SecondViolinVoiceIV measure 96 / measure 2]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 96 / measure 2]                        %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIV measure 97 / measure 3]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 97 / measure 3]                        %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1688,31 +1688,31 @@ O_SecondViolinVoiceIV_a = {                                                    %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O SecondViolinVoiceIV measure 98 / measure 4]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 98 / measure 4]                        %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIV measure 99 / measure 5]                           %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 99 / measure 5]                        %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIV measure 100 / measure 6]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 100 / measure 6]                       %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIV measure 101 / measure 7]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 101 / measure 7]                       %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIV measure 102 / measure 8]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 102 / measure 8]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1721,55 +1721,55 @@ O_SecondViolinVoiceIV_a = {                                                    %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O SecondViolinVoiceIV measure 103 / measure 9]                          %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 103 / measure 9]                       %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O SecondViolinVoiceIV measure 104 / measure 10]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 104 / measure 10]                      %! _comment_measure_numbers
     f'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O SecondViolinVoiceIV measure 105 / measure 11]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 105 / measure 11]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceIV measure 106 / measure 12]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 106 / measure 12]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O SecondViolinVoiceIV measure 107 / measure 13]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 107 / measure 13]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O SecondViolinVoiceIV measure 108 / measure 14]                         %! _comment_measure_numbers
+    % [O Second_Violin_Voice_IV measure 108 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_SecondViolinVoiceIV = {                                                      %! extern
+O_Second_Violin_Voice_IV = {                                                   %! extern
 
-    \O_SecondViolinVoiceIV_a                                                   %! extern
+    \O_Second_Violin_Voice_IV_a                                                %! extern
 
 }                                                                              %! extern
 
 
-O_SecondViolinStaffII = <<                                                     %! extern
+O_Second_Violin_Staff_II = <<                                                  %! extern
 
-    \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
-    \O_SecondViolinVoiceIII                                                    %! extern
+    \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
+    \O_Second_Violin_Voice_III                                                 %! extern
 
-    \context Voice = "SecondViolinVoiceIV"                                     %! ScoreTemplate
-    \O_SecondViolinVoiceIV                                                     %! extern
+    \context Voice = "Second_Violin_Voice_IV"                                  %! ScoreTemplate
+    \O_Second_Violin_Voice_IV                                                  %! extern
 
 >>                                                                             %! extern
 
 
-O_ViolaVoiceI_a = {                                                            %! extern
+O_Viola_Voice_I_a = {                                                          %! extern
 
-    % [O ViolaVoiceI measure 95 / measure 1]                                   %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 95 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1820,13 +1820,13 @@ O_ViolaVoiceI_a = {                                                            %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O ViolaVoiceI measure 96 / measure 2]                                   %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 96 / measure 2]                                 %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceI measure 97 / measure 3]                                   %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 97 / measure 3]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1842,31 +1842,31 @@ O_ViolaVoiceI_a = {                                                            %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O ViolaVoiceI measure 98 / measure 4]                                   %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 98 / measure 4]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceI measure 99 / measure 5]                                   %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 99 / measure 5]                                 %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceI measure 100 / measure 6]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 100 / measure 6]                                %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceI measure 101 / measure 7]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 101 / measure 7]                                %! _comment_measure_numbers
     d'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceI measure 102 / measure 8]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 102 / measure 8]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1875,13 +1875,13 @@ O_ViolaVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O ViolaVoiceI measure 103 / measure 9]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 103 / measure 9]                                %! _comment_measure_numbers
     d'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceI measure 104 / measure 10]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 104 / measure 10]                               %! _comment_measure_numbers
     d'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -1892,31 +1892,31 @@ O_ViolaVoiceI_a = {                                                            %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O ViolaVoiceI measure 105 / measure 11]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 105 / measure 11]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceI measure 106 / measure 12]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 106 / measure 12]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceI measure 107 / measure 13]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 107 / measure 13]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O ViolaVoiceI measure 108 / measure 14]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_I measure 108 / measure 14]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_ViolaVoiceI = {                                                              %! extern
+O_Viola_Voice_I = {                                                            %! extern
 
-    \O_ViolaVoiceI_a                                                           %! extern
+    \O_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-O_ViolaVoiceII_a = {                                                           %! extern
+O_Viola_Voice_II_a = {                                                         %! extern
 
-    % [O ViolaVoiceII measure 95 / measure 1]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 95 / measure 1]                                %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     a2.                                                                        %! baca_make_repeat_tied_notes
@@ -1931,13 +1931,13 @@ O_ViolaVoiceII_a = {                                                           %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O ViolaVoiceII measure 96 / measure 2]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 96 / measure 2]                                %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceII measure 97 / measure 3]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 97 / measure 3]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1953,31 +1953,31 @@ O_ViolaVoiceII_a = {                                                           %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O ViolaVoiceII measure 98 / measure 4]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 98 / measure 4]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceII measure 99 / measure 5]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 99 / measure 5]                                %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceII measure 100 / measure 6]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 100 / measure 6]                               %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceII measure 101 / measure 7]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 101 / measure 7]                               %! _comment_measure_numbers
     a2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceII measure 102 / measure 8]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 102 / measure 8]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1986,55 +1986,55 @@ O_ViolaVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O ViolaVoiceII measure 103 / measure 9]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 103 / measure 9]                               %! _comment_measure_numbers
     a1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceII measure 104 / measure 10]                                %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 104 / measure 10]                              %! _comment_measure_numbers
     a2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O ViolaVoiceII measure 105 / measure 11]                                %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 105 / measure 11]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceII measure 106 / measure 12]                                %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 106 / measure 12]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceII measure 107 / measure 13]                                %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 107 / measure 13]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O ViolaVoiceII measure 108 / measure 14]                                %! _comment_measure_numbers
+    % [O Viola_Voice_II measure 108 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_ViolaVoiceII = {                                                             %! extern
+O_Viola_Voice_II = {                                                           %! extern
 
-    \O_ViolaVoiceII_a                                                          %! extern
+    \O_Viola_Voice_II_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-O_ViolaStaffI = <<                                                             %! extern
+O_Viola_Staff_I = <<                                                           %! extern
 
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \O_ViolaVoiceI                                                             %! extern
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \O_Viola_Voice_I                                                           %! extern
 
-    \context Voice = "ViolaVoiceII"                                            %! ScoreTemplate
-    \O_ViolaVoiceII                                                            %! extern
+    \context Voice = "Viola_Voice_II"                                          %! ScoreTemplate
+    \O_Viola_Voice_II                                                          %! extern
 
 >>                                                                             %! extern
 
 
-O_ViolaVoiceIII_a = {                                                          %! extern
+O_Viola_Voice_III_a = {                                                        %! extern
 
-    % [O ViolaVoiceIII measure 95 / measure 1]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 95 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -2085,13 +2085,13 @@ O_ViolaVoiceIII_a = {                                                          %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O ViolaVoiceIII measure 96 / measure 2]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 96 / measure 2]                               %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIII measure 97 / measure 3]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 97 / measure 3]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2107,31 +2107,31 @@ O_ViolaVoiceIII_a = {                                                          %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O ViolaVoiceIII measure 98 / measure 4]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 98 / measure 4]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIII measure 99 / measure 5]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 99 / measure 5]                               %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIII measure 100 / measure 6]                                %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 100 / measure 6]                              %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIII measure 101 / measure 7]                                %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 101 / measure 7]                              %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIII measure 102 / measure 8]                                %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 102 / measure 8]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2140,13 +2140,13 @@ O_ViolaVoiceIII_a = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O ViolaVoiceIII measure 103 / measure 9]                                %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 103 / measure 9]                              %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIII measure 104 / measure 10]                               %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 104 / measure 10]                             %! _comment_measure_numbers
     b2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2157,31 +2157,31 @@ O_ViolaVoiceIII_a = {                                                          %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O ViolaVoiceIII measure 105 / measure 11]                               %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 105 / measure 11]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceIII measure 106 / measure 12]                               %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 106 / measure 12]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceIII measure 107 / measure 13]                               %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 107 / measure 13]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O ViolaVoiceIII measure 108 / measure 14]                               %! _comment_measure_numbers
+    % [O Viola_Voice_III measure 108 / measure 14]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_ViolaVoiceIII = {                                                            %! extern
+O_Viola_Voice_III = {                                                          %! extern
 
-    \O_ViolaVoiceIII_a                                                         %! extern
+    \O_Viola_Voice_III_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-O_ViolaVoiceIV_a = {                                                           %! extern
+O_Viola_Voice_IV_a = {                                                         %! extern
 
-    % [O ViolaVoiceIV measure 95 / measure 1]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 95 / measure 1]                                %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g2.                                                                        %! baca_make_repeat_tied_notes
@@ -2196,13 +2196,13 @@ O_ViolaVoiceIV_a = {                                                           %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O ViolaVoiceIV measure 96 / measure 2]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 96 / measure 2]                                %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIV measure 97 / measure 3]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 97 / measure 3]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2218,31 +2218,31 @@ O_ViolaVoiceIV_a = {                                                           %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O ViolaVoiceIV measure 98 / measure 4]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 98 / measure 4]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIV measure 99 / measure 5]                                  %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 99 / measure 5]                                %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIV measure 100 / measure 6]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 100 / measure 6]                               %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIV measure 101 / measure 7]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 101 / measure 7]                               %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIV measure 102 / measure 8]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 102 / measure 8]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2251,55 +2251,55 @@ O_ViolaVoiceIV_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O ViolaVoiceIV measure 103 / measure 9]                                 %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 103 / measure 9]                               %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ViolaVoiceIV measure 104 / measure 10]                                %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 104 / measure 10]                              %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O ViolaVoiceIV measure 105 / measure 11]                                %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 105 / measure 11]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceIV measure 106 / measure 12]                                %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 106 / measure 12]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ViolaVoiceIV measure 107 / measure 13]                                %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 107 / measure 13]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O ViolaVoiceIV measure 108 / measure 14]                                %! _comment_measure_numbers
+    % [O Viola_Voice_IV measure 108 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_ViolaVoiceIV = {                                                             %! extern
+O_Viola_Voice_IV = {                                                           %! extern
 
-    \O_ViolaVoiceIV_a                                                          %! extern
+    \O_Viola_Voice_IV_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-O_ViolaStaffII = <<                                                            %! extern
+O_Viola_Staff_II = <<                                                          %! extern
 
-    \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
-    \O_ViolaVoiceIII                                                           %! extern
+    \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
+    \O_Viola_Voice_III                                                         %! extern
 
-    \context Voice = "ViolaVoiceIV"                                            %! ScoreTemplate
-    \O_ViolaVoiceIV                                                            %! extern
+    \context Voice = "Viola_Voice_IV"                                          %! ScoreTemplate
+    \O_Viola_Voice_IV                                                          %! extern
 
 >>                                                                             %! extern
 
 
-O_CelloVoiceI_a = {                                                            %! extern
+O_Cello_Voice_I_a = {                                                          %! extern
 
-    % [O CelloVoiceI measure 95 / measure 1]                                   %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 95 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -2350,13 +2350,13 @@ O_CelloVoiceI_a = {                                                            %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O CelloVoiceI measure 96 / measure 2]                                   %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 96 / measure 2]                                 %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceI measure 97 / measure 3]                                   %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 97 / measure 3]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2373,33 +2373,33 @@ O_CelloVoiceI_a = {                                                            %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O CelloVoiceI measure 98 / measure 4]                                   %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 98 / measure 4]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [O CelloVoiceI measure 99 / measure 5]                                   %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 99 / measure 5]                                 %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [O CelloVoiceI measure 100 / measure 6]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 100 / measure 6]                                %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceI measure 101 / measure 7]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 101 / measure 7]                                %! _comment_measure_numbers
     d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceI measure 102 / measure 8]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 102 / measure 8]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2409,14 +2409,14 @@ O_CelloVoiceI_a = {                                                            %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O CelloVoiceI measure 103 / measure 9]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 103 / measure 9]                                %! _comment_measure_numbers
     d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [O CelloVoiceI measure 104 / measure 10]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 104 / measure 10]                               %! _comment_measure_numbers
     d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2427,31 +2427,31 @@ O_CelloVoiceI_a = {                                                            %
     \revert Hairpin.stencil                                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(2)
     \revert TextSpanner.stencil                                                %! -PARTS:baca_text_spanner_stencil_false:OverrideCommand(2)
 
-    % [O CelloVoiceI measure 105 / measure 11]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 105 / measure 11]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O CelloVoiceI measure 106 / measure 12]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 106 / measure 12]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O CelloVoiceI measure 107 / measure 13]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 107 / measure 13]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O CelloVoiceI measure 108 / measure 14]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_I measure 108 / measure 14]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_CelloVoiceI = {                                                              %! extern
+O_Cello_Voice_I = {                                                            %! extern
 
-    \O_CelloVoiceI_a                                                           %! extern
+    \O_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-O_CelloVoiceII_a = {                                                           %! extern
+O_Cello_Voice_II_a = {                                                         %! extern
 
-    % [O CelloVoiceII measure 95 / measure 1]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 95 / measure 1]                                %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     g,2.                                                                       %! baca_make_repeat_tied_notes
@@ -2466,13 +2466,13 @@ O_CelloVoiceII_a = {                                                           %
 %%%             "ext. ponticello: like acid"                                   %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-    % [O CelloVoiceII measure 96 / measure 2]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 96 / measure 2]                                %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceII measure 97 / measure 3]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 97 / measure 3]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2488,31 +2488,31 @@ O_CelloVoiceII_a = {                                                           %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O CelloVoiceII measure 98 / measure 4]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 98 / measure 4]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceII measure 99 / measure 5]                                  %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 99 / measure 5]                                %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceII measure 100 / measure 6]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 100 / measure 6]                               %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceII measure 101 / measure 7]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 101 / measure 7]                               %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceII measure 102 / measure 8]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 102 / measure 8]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2521,55 +2521,55 @@ O_CelloVoiceII_a = {                                                           %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O CelloVoiceII measure 103 / measure 9]                                 %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 103 / measure 9]                               %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O CelloVoiceII measure 104 / measure 10]                                %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 104 / measure 10]                              %! _comment_measure_numbers
     g,2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
 
-    % [O CelloVoiceII measure 105 / measure 11]                                %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 105 / measure 11]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O CelloVoiceII measure 106 / measure 12]                                %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 106 / measure 12]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O CelloVoiceII measure 107 / measure 13]                                %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 107 / measure 13]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O CelloVoiceII measure 108 / measure 14]                                %! _comment_measure_numbers
+    % [O Cello_Voice_II measure 108 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_CelloVoiceII = {                                                             %! extern
+O_Cello_Voice_II = {                                                           %! extern
 
-    \O_CelloVoiceII_a                                                          %! extern
+    \O_Cello_Voice_II_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-O_CelloStaffI = <<                                                             %! extern
+O_Cello_Staff_I = <<                                                           %! extern
 
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \O_CelloVoiceI                                                             %! extern
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \O_Cello_Voice_I                                                           %! extern
 
-    \context Voice = "CelloVoiceII"                                            %! ScoreTemplate
-    \O_CelloVoiceII                                                            %! extern
+    \context Voice = "Cello_Voice_II"                                          %! ScoreTemplate
+    \O_Cello_Voice_II                                                          %! extern
 
 >>                                                                             %! extern
 
 
-O_ContrabassVoiceIII_a = {                                                     %! extern
+O_Contrabass_Voice_III_a = {                                                   %! extern
 
-    % [O ContrabassVoiceIII measure 95 / measure 1]                            %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -2605,13 +2605,13 @@ O_ContrabassVoiceIII_a = {                                                     %
             Cb.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [O ContrabassVoiceIII measure 96 / measure 2]                            %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 96 / measure 2]                          %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 97 / measure 3]                            %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 97 / measure 3]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2627,31 +2627,31 @@ O_ContrabassVoiceIII_a = {                                                     %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [O ContrabassVoiceIII measure 98 / measure 4]                            %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 98 / measure 4]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 99 / measure 5]                            %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 99 / measure 5]                          %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 100 / measure 6]                           %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 100 / measure 6]                         %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 101 / measure 7]                           %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 101 / measure 7]                         %! _comment_measure_numbers
     g,2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 102 / measure 8]                           %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 102 / measure 8]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2660,43 +2660,43 @@ O_ContrabassVoiceIII_a = {                                                     %
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    % [O ContrabassVoiceIII measure 103 / measure 9]                           %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 103 / measure 9]                         %! _comment_measure_numbers
     g,1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 104 / measure 10]                          %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 104 / measure 10]                        %! _comment_measure_numbers
     g,2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \repeatTie
 
-    % [O ContrabassVoiceIII measure 105 / measure 11]                          %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 105 / measure 11]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ContrabassVoiceIII measure 106 / measure 12]                          %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 106 / measure 12]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [O ContrabassVoiceIII measure 107 / measure 13]                          %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 107 / measure 13]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [O ContrabassVoiceIII measure 108 / measure 14]                          %! _comment_measure_numbers
+    % [O Contrabass_Voice_III measure 108 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-O_ContrabassVoiceIII = {                                                       %! extern
+O_Contrabass_Voice_III = {                                                     %! extern
 
-    \O_ContrabassVoiceIII_a                                                    %! extern
+    \O_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-O_ContrabassStaffII = {                                                        %! extern
+O_Contrabass_Staff_II = {                                                      %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \O_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \O_Contrabass_Voice_III                                                    %! extern
 
 }                                                                              %! extern

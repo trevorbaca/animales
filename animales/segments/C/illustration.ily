@@ -90,9 +90,9 @@ C_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-C_ClarinetVoiceI_a = {                                                         %! extern
+C_Clarinet_Voice_I_a = {                                                       %! extern
 
-    % [C ClarinetVoiceI measure 18 / measure 1]                                %! _comment_measure_numbers
+    % [C Clarinet_Voice_I measure 18 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -124,10 +124,10 @@ C_ClarinetVoiceI_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C ClarinetVoiceI measure 19 / measure 2]                                %! _comment_measure_numbers
+    % [C Clarinet_Voice_I measure 19 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C ClarinetVoiceI measure 20 / measure 3]                                %! _comment_measure_numbers
+    % [C Clarinet_Voice_I measure 20 / measure 3]                              %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -136,15 +136,15 @@ C_ClarinetVoiceI_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [C ClarinetVoiceI measure 21 / measure 4]                                %! _comment_measure_numbers
+    % [C Clarinet_Voice_I measure 21 / measure 4]                              %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C ClarinetVoiceI measure 22 / measure 5]                                %! _comment_measure_numbers
+    % [C Clarinet_Voice_I measure 22 / measure 5]                              %! _comment_measure_numbers
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C ClarinetVoiceI measure 23 / measure 6]                                %! _comment_measure_numbers
+    % [C Clarinet_Voice_I measure 23 / measure 6]                              %! _comment_measure_numbers
     d''2.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -153,24 +153,24 @@ C_ClarinetVoiceI_a = {                                                         %
 }                                                                              %! extern
 
 
-C_ClarinetVoiceI = {                                                           %! extern
+C_Clarinet_Voice_I = {                                                         %! extern
 
-    \C_ClarinetVoiceI_a                                                        %! extern
-
-}                                                                              %! extern
-
-
-C_ClarinetStaffI = {                                                           %! extern
-
-    \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
-    \C_ClarinetVoiceI                                                          %! extern
+    \C_Clarinet_Voice_I_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-C_HornVoiceI_a = {                                                             %! extern
+C_Clarinet_Staff_I = {                                                         %! extern
 
-    % [C HornVoiceI measure 18 / measure 1]                                    %! _comment_measure_numbers
+    \context Voice = "Clarinet_Voice_I"                                        %! ScoreTemplate
+    \C_Clarinet_Voice_I                                                        %! extern
+
+}                                                                              %! extern
+
+
+C_Horn_Voice_I_a = {                                                           %! extern
+
+    % [C Horn_Voice_I measure 18 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -202,10 +202,10 @@ C_HornVoiceI_a = {                                                             %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C HornVoiceI measure 19 / measure 2]                                    %! _comment_measure_numbers
+    % [C Horn_Voice_I measure 19 / measure 2]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceI measure 20 / measure 3]                                    %! _comment_measure_numbers
+    % [C Horn_Voice_I measure 20 / measure 3]                                  %! _comment_measure_numbers
     g'8                                                                        %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -213,36 +213,36 @@ C_HornVoiceI_a = {                                                             %
 
     r2..
 
-    % [C HornVoiceI measure 21 / measure 4]                                    %! _comment_measure_numbers
+    % [C Horn_Voice_I measure 21 / measure 4]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceI measure 22 / measure 5]                                    %! _comment_measure_numbers
+    % [C Horn_Voice_I measure 22 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceI measure 23 / measure 6]                                    %! _comment_measure_numbers
+    % [C Horn_Voice_I measure 23 / measure 6]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_HornVoiceI = {                                                               %! extern
+C_Horn_Voice_I = {                                                             %! extern
 
-    \C_HornVoiceI_a                                                            %! extern
+    \C_Horn_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-C_HornVoiceIII_a = {                                                           %! extern
+C_Horn_Voice_III_a = {                                                         %! extern
 
-    % [C HornVoiceIII measure 18 / measure 1]                                  %! _comment_measure_numbers
+    % [C Horn_Voice_III measure 18 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Horn”)"                                %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [C HornVoiceIII measure 19 / measure 2]                                  %! _comment_measure_numbers
+    % [C Horn_Voice_III measure 19 / measure 2]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceIII measure 20 / measure 3]                                  %! _comment_measure_numbers
+    % [C Horn_Voice_III measure 20 / measure 3]                                %! _comment_measure_numbers
     c'8                                                                        %! downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
@@ -250,39 +250,39 @@ C_HornVoiceIII_a = {                                                           %
 
     r2..
 
-    % [C HornVoiceIII measure 21 / measure 4]                                  %! _comment_measure_numbers
+    % [C Horn_Voice_III measure 21 / measure 4]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceIII measure 22 / measure 5]                                  %! _comment_measure_numbers
+    % [C Horn_Voice_III measure 22 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceIII measure 23 / measure 6]                                  %! _comment_measure_numbers
+    % [C Horn_Voice_III measure 23 / measure 6]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_HornVoiceIII = {                                                             %! extern
+C_Horn_Voice_III = {                                                           %! extern
 
-    \C_HornVoiceIII_a                                                          %! extern
+    \C_Horn_Voice_III_a                                                        %! extern
 
 }                                                                              %! extern
 
 
-C_HornStaffI = <<                                                              %! extern
+C_Horn_Staff_I = <<                                                            %! extern
 
-    \context Voice = "HornVoiceI"                                              %! ScoreTemplate
-    \C_HornVoiceI                                                              %! extern
+    \context Voice = "Horn_Voice_I"                                            %! ScoreTemplate
+    \C_Horn_Voice_I                                                            %! extern
 
-    \context Voice = "HornVoiceIII"                                            %! ScoreTemplate
-    \C_HornVoiceIII                                                            %! extern
+    \context Voice = "Horn_Voice_III"                                          %! ScoreTemplate
+    \C_Horn_Voice_III                                                          %! extern
 
 >>                                                                             %! extern
 
 
-C_HornVoiceII_a = {                                                            %! extern
+C_Horn_Voice_II_a = {                                                          %! extern
 
-    % [C HornVoiceII measure 18 / measure 1]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_II measure 18 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -314,10 +314,10 @@ C_HornVoiceII_a = {                                                            %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C HornVoiceII measure 19 / measure 2]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_II measure 19 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceII measure 20 / measure 3]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_II measure 20 / measure 3]                                 %! _comment_measure_numbers
     df'!8                                                                      %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -325,36 +325,36 @@ C_HornVoiceII_a = {                                                            %
 
     r2..
 
-    % [C HornVoiceII measure 21 / measure 4]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_II measure 21 / measure 4]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceII measure 22 / measure 5]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_II measure 22 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceII measure 23 / measure 6]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_II measure 23 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_HornVoiceII = {                                                              %! extern
+C_Horn_Voice_II = {                                                            %! extern
 
-    \C_HornVoiceII_a                                                           %! extern
+    \C_Horn_Voice_II_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-C_HornVoiceIV_a = {                                                            %! extern
+C_Horn_Voice_IV_a = {                                                          %! extern
 
-    % [C HornVoiceIV measure 18 / measure 1]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_IV measure 18 / measure 1]                                 %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Horn”)"                                %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [C HornVoiceIV measure 19 / measure 2]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_IV measure 19 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceIV measure 20 / measure 3]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_IV measure 20 / measure 3]                                 %! _comment_measure_numbers
     b8                                                                         %! downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
@@ -362,39 +362,39 @@ C_HornVoiceIV_a = {                                                            %
 
     r2..
 
-    % [C HornVoiceIV measure 21 / measure 4]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_IV measure 21 / measure 4]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceIV measure 22 / measure 5]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_IV measure 22 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C HornVoiceIV measure 23 / measure 6]                                   %! _comment_measure_numbers
+    % [C Horn_Voice_IV measure 23 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_HornVoiceIV = {                                                              %! extern
+C_Horn_Voice_IV = {                                                            %! extern
 
-    \C_HornVoiceIV_a                                                           %! extern
+    \C_Horn_Voice_IV_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-C_HornStaffII = <<                                                             %! extern
+C_Horn_Staff_II = <<                                                           %! extern
 
-    \context Voice = "HornVoiceII"                                             %! ScoreTemplate
-    \C_HornVoiceII                                                             %! extern
+    \context Voice = "Horn_Voice_II"                                           %! ScoreTemplate
+    \C_Horn_Voice_II                                                           %! extern
 
-    \context Voice = "HornVoiceIV"                                             %! ScoreTemplate
-    \C_HornVoiceIV                                                             %! extern
+    \context Voice = "Horn_Voice_IV"                                           %! ScoreTemplate
+    \C_Horn_Voice_IV                                                           %! extern
 
 >>                                                                             %! extern
 
 
-C_TrumpetVoiceI_a = {                                                          %! extern
+C_Trumpet_Voice_I_a = {                                                        %! extern
 
-    % [C TrumpetVoiceI measure 18 / measure 1]                                 %! _comment_measure_numbers
+    % [C Trumpet_Voice_I measure 18 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -426,10 +426,10 @@ C_TrumpetVoiceI_a = {                                                          %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C TrumpetVoiceI measure 19 / measure 2]                                 %! _comment_measure_numbers
+    % [C Trumpet_Voice_I measure 19 / measure 2]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceI measure 20 / measure 3]                                 %! _comment_measure_numbers
+    % [C Trumpet_Voice_I measure 20 / measure 3]                               %! _comment_measure_numbers
     d''8                                                                       %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -437,36 +437,36 @@ C_TrumpetVoiceI_a = {                                                          %
 
     r2..
 
-    % [C TrumpetVoiceI measure 21 / measure 4]                                 %! _comment_measure_numbers
+    % [C Trumpet_Voice_I measure 21 / measure 4]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceI measure 22 / measure 5]                                 %! _comment_measure_numbers
+    % [C Trumpet_Voice_I measure 22 / measure 5]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceI measure 23 / measure 6]                                 %! _comment_measure_numbers
+    % [C Trumpet_Voice_I measure 23 / measure 6]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TrumpetVoiceI = {                                                            %! extern
+C_Trumpet_Voice_I = {                                                          %! extern
 
-    \C_TrumpetVoiceI_a                                                         %! extern
+    \C_Trumpet_Voice_I_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-C_TrumpetVoiceIII_a = {                                                        %! extern
+C_Trumpet_Voice_III_a = {                                                      %! extern
 
-    % [C TrumpetVoiceIII measure 18 / measure 1]                               %! _comment_measure_numbers
+    % [C Trumpet_Voice_III measure 18 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trumpet”)"                             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [C TrumpetVoiceIII measure 19 / measure 2]                               %! _comment_measure_numbers
+    % [C Trumpet_Voice_III measure 19 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceIII measure 20 / measure 3]                               %! _comment_measure_numbers
+    % [C Trumpet_Voice_III measure 20 / measure 3]                             %! _comment_measure_numbers
     g'8                                                                        %! downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
@@ -474,39 +474,39 @@ C_TrumpetVoiceIII_a = {                                                        %
 
     r2..
 
-    % [C TrumpetVoiceIII measure 21 / measure 4]                               %! _comment_measure_numbers
+    % [C Trumpet_Voice_III measure 21 / measure 4]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceIII measure 22 / measure 5]                               %! _comment_measure_numbers
+    % [C Trumpet_Voice_III measure 22 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceIII measure 23 / measure 6]                               %! _comment_measure_numbers
+    % [C Trumpet_Voice_III measure 23 / measure 6]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TrumpetVoiceIII = {                                                          %! extern
+C_Trumpet_Voice_III = {                                                        %! extern
 
-    \C_TrumpetVoiceIII_a                                                       %! extern
+    \C_Trumpet_Voice_III_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-C_TrumpetStaffI = <<                                                           %! extern
+C_Trumpet_Staff_I = <<                                                         %! extern
 
-    \context Voice = "TrumpetVoiceI"                                           %! ScoreTemplate
-    \C_TrumpetVoiceI                                                           %! extern
+    \context Voice = "Trumpet_Voice_I"                                         %! ScoreTemplate
+    \C_Trumpet_Voice_I                                                         %! extern
 
-    \context Voice = "TrumpetVoiceIII"                                         %! ScoreTemplate
-    \C_TrumpetVoiceIII                                                         %! extern
+    \context Voice = "Trumpet_Voice_III"                                       %! ScoreTemplate
+    \C_Trumpet_Voice_III                                                       %! extern
 
 >>                                                                             %! extern
 
 
-C_TrumpetVoiceII_a = {                                                         %! extern
+C_Trumpet_Voice_II_a = {                                                       %! extern
 
-    % [C TrumpetVoiceII measure 18 / measure 1]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_II measure 18 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -538,10 +538,10 @@ C_TrumpetVoiceII_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C TrumpetVoiceII measure 19 / measure 2]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_II measure 19 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceII measure 20 / measure 3]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_II measure 20 / measure 3]                              %! _comment_measure_numbers
     af'!8                                                                      %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -549,36 +549,36 @@ C_TrumpetVoiceII_a = {                                                         %
 
     r2..
 
-    % [C TrumpetVoiceII measure 21 / measure 4]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_II measure 21 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceII measure 22 / measure 5]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_II measure 22 / measure 5]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceII measure 23 / measure 6]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_II measure 23 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TrumpetVoiceII = {                                                           %! extern
+C_Trumpet_Voice_II = {                                                         %! extern
 
-    \C_TrumpetVoiceII_a                                                        %! extern
+    \C_Trumpet_Voice_II_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-C_TrumpetVoiceIV_a = {                                                         %! extern
+C_Trumpet_Voice_IV_a = {                                                       %! extern
 
-    % [C TrumpetVoiceIV measure 18 / measure 1]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_IV measure 18 / measure 1]                              %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trumpet”)"                             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [C TrumpetVoiceIV measure 19 / measure 2]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_IV measure 19 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceIV measure 20 / measure 3]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_IV measure 20 / measure 3]                              %! _comment_measure_numbers
     f'8                                                                        %! downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
@@ -586,39 +586,39 @@ C_TrumpetVoiceIV_a = {                                                         %
 
     r2..
 
-    % [C TrumpetVoiceIV measure 21 / measure 4]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_IV measure 21 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceIV measure 22 / measure 5]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_IV measure 22 / measure 5]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TrumpetVoiceIV measure 23 / measure 6]                                %! _comment_measure_numbers
+    % [C Trumpet_Voice_IV measure 23 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TrumpetVoiceIV = {                                                           %! extern
+C_Trumpet_Voice_IV = {                                                         %! extern
 
-    \C_TrumpetVoiceIV_a                                                        %! extern
+    \C_Trumpet_Voice_IV_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-C_TrumpetStaffII = <<                                                          %! extern
+C_Trumpet_Staff_II = <<                                                        %! extern
 
-    \context Voice = "TrumpetVoiceII"                                          %! ScoreTemplate
-    \C_TrumpetVoiceII                                                          %! extern
+    \context Voice = "Trumpet_Voice_II"                                        %! ScoreTemplate
+    \C_Trumpet_Voice_II                                                        %! extern
 
-    \context Voice = "TrumpetVoiceIV"                                          %! ScoreTemplate
-    \C_TrumpetVoiceIV                                                          %! extern
+    \context Voice = "Trumpet_Voice_IV"                                        %! ScoreTemplate
+    \C_Trumpet_Voice_IV                                                        %! extern
 
 >>                                                                             %! extern
 
 
-C_TromboneVoiceI_a = {                                                         %! extern
+C_Trombone_Voice_I_a = {                                                       %! extern
 
-    % [C TromboneVoiceI measure 18 / measure 1]                                %! _comment_measure_numbers
+    % [C Trombone_Voice_I measure 18 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -650,10 +650,10 @@ C_TromboneVoiceI_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C TromboneVoiceI measure 19 / measure 2]                                %! _comment_measure_numbers
+    % [C Trombone_Voice_I measure 19 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceI measure 20 / measure 3]                                %! _comment_measure_numbers
+    % [C Trombone_Voice_I measure 20 / measure 3]                              %! _comment_measure_numbers
     g'8                                                                        %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -661,36 +661,36 @@ C_TromboneVoiceI_a = {                                                         %
 
     r2..
 
-    % [C TromboneVoiceI measure 21 / measure 4]                                %! _comment_measure_numbers
+    % [C Trombone_Voice_I measure 21 / measure 4]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceI measure 22 / measure 5]                                %! _comment_measure_numbers
+    % [C Trombone_Voice_I measure 22 / measure 5]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceI measure 23 / measure 6]                                %! _comment_measure_numbers
+    % [C Trombone_Voice_I measure 23 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TromboneVoiceI = {                                                           %! extern
+C_Trombone_Voice_I = {                                                         %! extern
 
-    \C_TromboneVoiceI_a                                                        %! extern
+    \C_Trombone_Voice_I_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-C_TromboneVoiceIII_a = {                                                       %! extern
+C_Trombone_Voice_III_a = {                                                     %! extern
 
-    % [C TromboneVoiceIII measure 18 / measure 1]                              %! _comment_measure_numbers
+    % [C Trombone_Voice_III measure 18 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trombone”)"                            %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [C TromboneVoiceIII measure 19 / measure 2]                              %! _comment_measure_numbers
+    % [C Trombone_Voice_III measure 19 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceIII measure 20 / measure 3]                              %! _comment_measure_numbers
+    % [C Trombone_Voice_III measure 20 / measure 3]                            %! _comment_measure_numbers
     c'8                                                                        %! downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
@@ -698,39 +698,39 @@ C_TromboneVoiceIII_a = {                                                       %
 
     r2..
 
-    % [C TromboneVoiceIII measure 21 / measure 4]                              %! _comment_measure_numbers
+    % [C Trombone_Voice_III measure 21 / measure 4]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceIII measure 22 / measure 5]                              %! _comment_measure_numbers
+    % [C Trombone_Voice_III measure 22 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceIII measure 23 / measure 6]                              %! _comment_measure_numbers
+    % [C Trombone_Voice_III measure 23 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TromboneVoiceIII = {                                                         %! extern
+C_Trombone_Voice_III = {                                                       %! extern
 
-    \C_TromboneVoiceIII_a                                                      %! extern
+    \C_Trombone_Voice_III_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-C_TromboneStaffI = <<                                                          %! extern
+C_Trombone_Staff_I = <<                                                        %! extern
 
-    \context Voice = "TromboneVoiceI"                                          %! ScoreTemplate
-    \C_TromboneVoiceI                                                          %! extern
+    \context Voice = "Trombone_Voice_I"                                        %! ScoreTemplate
+    \C_Trombone_Voice_I                                                        %! extern
 
-    \context Voice = "TromboneVoiceIII"                                        %! ScoreTemplate
-    \C_TromboneVoiceIII                                                        %! extern
+    \context Voice = "Trombone_Voice_III"                                      %! ScoreTemplate
+    \C_Trombone_Voice_III                                                      %! extern
 
 >>                                                                             %! extern
 
 
-C_TromboneVoiceII_a = {                                                        %! extern
+C_Trombone_Voice_II_a = {                                                      %! extern
 
-    % [C TromboneVoiceII measure 18 / measure 1]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_II measure 18 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -762,10 +762,10 @@ C_TromboneVoiceII_a = {                                                        %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C TromboneVoiceII measure 19 / measure 2]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_II measure 19 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceII measure 20 / measure 3]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_II measure 20 / measure 3]                             %! _comment_measure_numbers
     df'!8                                                                      %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -773,36 +773,36 @@ C_TromboneVoiceII_a = {                                                        %
 
     r2..
 
-    % [C TromboneVoiceII measure 21 / measure 4]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_II measure 21 / measure 4]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceII measure 22 / measure 5]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_II measure 22 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceII measure 23 / measure 6]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_II measure 23 / measure 6]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TromboneVoiceII = {                                                          %! extern
+C_Trombone_Voice_II = {                                                        %! extern
 
-    \C_TromboneVoiceII_a                                                       %! extern
+    \C_Trombone_Voice_II_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-C_TromboneVoiceIV_a = {                                                        %! extern
+C_Trombone_Voice_IV_a = {                                                      %! extern
 
-    % [C TromboneVoiceIV measure 18 / measure 1]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_IV measure 18 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Trombone”)"                            %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [C TromboneVoiceIV measure 19 / measure 2]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_IV measure 19 / measure 2]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceIV measure 20 / measure 3]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_IV measure 20 / measure 3]                             %! _comment_measure_numbers
     b8                                                                         %! downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
@@ -810,39 +810,39 @@ C_TromboneVoiceIV_a = {                                                        %
 
     r2..
 
-    % [C TromboneVoiceIV measure 21 / measure 4]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_IV measure 21 / measure 4]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceIV measure 22 / measure 5]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_IV measure 22 / measure 5]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TromboneVoiceIV measure 23 / measure 6]                               %! _comment_measure_numbers
+    % [C Trombone_Voice_IV measure 23 / measure 6]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TromboneVoiceIV = {                                                          %! extern
+C_Trombone_Voice_IV = {                                                        %! extern
 
-    \C_TromboneVoiceIV_a                                                       %! extern
+    \C_Trombone_Voice_IV_a                                                     %! extern
 
 }                                                                              %! extern
 
 
-C_TromboneStaffII = <<                                                         %! extern
+C_Trombone_Staff_II = <<                                                       %! extern
 
-    \context Voice = "TromboneVoiceII"                                         %! ScoreTemplate
-    \C_TromboneVoiceII                                                         %! extern
+    \context Voice = "Trombone_Voice_II"                                       %! ScoreTemplate
+    \C_Trombone_Voice_II                                                       %! extern
 
-    \context Voice = "TromboneVoiceIV"                                         %! ScoreTemplate
-    \C_TromboneVoiceIV                                                         %! extern
+    \context Voice = "Trombone_Voice_IV"                                       %! ScoreTemplate
+    \C_Trombone_Voice_IV                                                       %! extern
 
 >>                                                                             %! extern
 
 
-C_TubaVoiceI_a = {                                                             %! extern
+C_Tuba_Voice_I_a = {                                                           %! extern
 
-    % [C TubaVoiceI measure 18 / measure 1]                                    %! _comment_measure_numbers
+    % [C Tuba_Voice_I measure 18 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         \hcenter-in                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -866,10 +866,10 @@ C_TubaVoiceI_a = {                                                             %
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C TubaVoiceI measure 19 / measure 2]                                    %! _comment_measure_numbers
+    % [C Tuba_Voice_I measure 19 / measure 2]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TubaVoiceI measure 20 / measure 3]                                    %! _comment_measure_numbers
+    % [C Tuba_Voice_I measure 20 / measure 3]                                  %! _comment_measure_numbers
     c,8                                                                        %! downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -877,36 +877,36 @@ C_TubaVoiceI_a = {                                                             %
 
     r2..
 
-    % [C TubaVoiceI measure 21 / measure 4]                                    %! _comment_measure_numbers
+    % [C Tuba_Voice_I measure 21 / measure 4]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TubaVoiceI measure 22 / measure 5]                                    %! _comment_measure_numbers
+    % [C Tuba_Voice_I measure 22 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C TubaVoiceI measure 23 / measure 6]                                    %! _comment_measure_numbers
+    % [C Tuba_Voice_I measure 23 / measure 6]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_TubaVoiceI = {                                                               %! extern
+C_Tuba_Voice_I = {                                                             %! extern
 
-    \C_TubaVoiceI_a                                                            %! extern
-
-}                                                                              %! extern
-
-
-C_TubaStaffI = {                                                               %! extern
-
-    \context Voice = "TubaVoiceI"                                              %! ScoreTemplate
-    \C_TubaVoiceI                                                              %! extern
+    \C_Tuba_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-C_PercussionVoiceI_a = {                                                       %! extern
+C_Tuba_Staff_I = {                                                             %! extern
 
-    % [C PercussionVoiceI measure 18 / measure 1]                              %! _comment_measure_numbers
+    \context Voice = "Tuba_Voice_I"                                            %! ScoreTemplate
+    \C_Tuba_Voice_I                                                            %! extern
+
+}                                                                              %! extern
+
+
+C_Percussion_Voice_I_a = {                                                     %! extern
+
+    % [C Percussion_Voice_I measure 18 / measure 1]                            %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -942,10 +942,10 @@ C_PercussionVoiceI_a = {                                                       %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C PercussionVoiceI measure 19 / measure 2]                              %! _comment_measure_numbers
+    % [C Percussion_Voice_I measure 19 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C PercussionVoiceI measure 20 / measure 3]                              %! _comment_measure_numbers
+    % [C Percussion_Voice_I measure 20 / measure 3]                            %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca_literal:+PARTS:TEMPORARY:IndicatorCommand
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -959,19 +959,19 @@ C_PercussionVoiceI_a = {                                                       %
                 "triangle (small beater)"                                      %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
 
-    % [C PercussionVoiceI measure 21 / measure 4]                              %! _comment_measure_numbers
+    % [C Percussion_Voice_I measure 21 / measure 4]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [C PercussionVoiceI measure 22 / measure 5]                              %! _comment_measure_numbers
+    % [C Percussion_Voice_I measure 22 / measure 5]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [C PercussionVoiceI measure 23 / measure 6]                              %! _comment_measure_numbers
+    % [C Percussion_Voice_I measure 23 / measure 6]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -979,24 +979,24 @@ C_PercussionVoiceI_a = {                                                       %
 }                                                                              %! extern
 
 
-C_PercussionVoiceI = {                                                         %! extern
+C_Percussion_Voice_I = {                                                       %! extern
 
-    \C_PercussionVoiceI_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-C_PercussionStaffI = {                                                         %! extern
-
-    \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
-    \C_PercussionVoiceI                                                        %! extern
+    \C_Percussion_Voice_I_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-C_PercussionVoiceII_a = {                                                      %! extern
+C_Percussion_Staff_I = {                                                       %! extern
 
-    % [C PercussionVoiceII measure 18 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_I"                                      %! ScoreTemplate
+    \C_Percussion_Voice_I                                                      %! extern
+
+}                                                                              %! extern
+
+
+C_Percussion_Voice_II_a = {                                                    %! extern
+
+    % [C Percussion_Voice_II measure 18 / measure 1]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1032,10 +1032,10 @@ C_PercussionVoiceII_a = {                                                      %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [C PercussionVoiceII measure 19 / measure 2]                             %! _comment_measure_numbers
+    % [C Percussion_Voice_II measure 19 / measure 2]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C PercussionVoiceII measure 20 / measure 3]                             %! _comment_measure_numbers
+    % [C Percussion_Voice_II measure 20 / measure 3]                           %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca_literal:+PARTS:TEMPORARY:IndicatorCommand
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1049,19 +1049,19 @@ C_PercussionVoiceII_a = {                                                      %
                 "suspended cymbal (soft yarn mallets: attackless sound)"       %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
 
-    % [C PercussionVoiceII measure 21 / measure 4]                             %! _comment_measure_numbers
+    % [C Percussion_Voice_II measure 21 / measure 4]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [C PercussionVoiceII measure 22 / measure 5]                             %! _comment_measure_numbers
+    % [C Percussion_Voice_II measure 22 / measure 5]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
-    % [C PercussionVoiceII measure 23 / measure 6]                             %! _comment_measure_numbers
+    % [C Percussion_Voice_II measure 23 / measure 6]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -1069,24 +1069,24 @@ C_PercussionVoiceII_a = {                                                      %
 }                                                                              %! extern
 
 
-C_PercussionVoiceII = {                                                        %! extern
+C_Percussion_Voice_II = {                                                      %! extern
 
-    \C_PercussionVoiceII_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-C_PercussionStaffII = {                                                        %! extern
-
-    \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
-    \C_PercussionVoiceII                                                       %! extern
+    \C_Percussion_Voice_II_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-C_FirstViolinVoiceII_a = {                                                     %! extern
+C_Percussion_Staff_II = {                                                      %! extern
 
-    % [C FirstViolinVoiceII measure 20 / measure 3]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \C_Percussion_Voice_II                                                     %! extern
+
+}                                                                              %! extern
+
+
+C_First_Violin_Voice_II_a = {                                                  %! extern
+
+    % [C First_Violin_Voice_II measure 20 / measure 3]                         %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     c''2                                                                       %! glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca_stop_trill:+PARTS:IndicatorCommand
@@ -1109,7 +1109,7 @@ C_FirstViolinVoiceII_a = {                                                     %
     a'4                                                                        %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C FirstViolinVoiceII measure 21 / measure 4]                            %! _comment_measure_numbers
+    % [C First_Violin_Voice_II measure 21 / measure 4]                         %! _comment_measure_numbers
     d'''8                                                                      %! glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1131,7 +1131,7 @@ C_FirstViolinVoiceII_a = {                                                     %
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C FirstViolinVoiceII measure 22 / measure 5]                            %! _comment_measure_numbers
+    % [C First_Violin_Voice_II measure 22 / measure 5]                         %! _comment_measure_numbers
     c'''8                                                                      %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
@@ -1155,7 +1155,7 @@ C_FirstViolinVoiceII_a = {                                                     %
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C FirstViolinVoiceII measure 23 / measure 6]                            %! _comment_measure_numbers
+    % [C First_Violin_Voice_II measure 23 / measure 6]                         %! _comment_measure_numbers
     a'''4                                                                      %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1170,22 +1170,22 @@ C_FirstViolinVoiceII_a = {                                                     %
 }                                                                              %! extern
 
 
-C_FirstViolinVoiceII = {                                                       %! extern
+C_First_Violin_Voice_II = {                                                    %! extern
 
-    % [C FirstViolinVoiceII measure 18 / measure 1]                            %! _comment_measure_numbers
+    % [C First_Violin_Voice_II measure 18 / measure 1]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C FirstViolinVoiceII measure 19 / measure 2]                            %! _comment_measure_numbers
+    % [C First_Violin_Voice_II measure 19 / measure 2]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \C_FirstViolinVoiceII_a                                                    %! extern
+    \C_First_Violin_Voice_II_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-C_FirstViolinVoiceI_a = {                                                      %! extern
+C_First_Violin_Voice_I_a = {                                                   %! extern
 
-    % [C FirstViolinVoiceI measure 18 / measure 1]                             %! _comment_measure_numbers
+    % [C First_Violin_Voice_I measure 18 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1222,7 +1222,7 @@ C_FirstViolinVoiceI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C FirstViolinVoiceI measure 19 / measure 2]                             %! _comment_measure_numbers
+    % [C First_Violin_Voice_I measure 19 / measure 2]                          %! _comment_measure_numbers
     df'!4                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -1232,9 +1232,9 @@ C_FirstViolinVoiceI_a = {                                                      %
 }                                                                              %! extern
 
 
-C_FirstViolinVoiceI_b = {                                                      %! extern
+C_First_Violin_Voice_I_b = {                                                   %! extern
 
-    % [C FirstViolinVoiceI measure 20 / measure 3]                             %! _comment_measure_numbers
+    % [C First_Violin_Voice_I measure 20 / measure 3]                          %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1253,44 +1253,44 @@ C_FirstViolinVoiceI_b = {                                                      %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C FirstViolinVoiceI measure 21 / measure 4]                             %! _comment_measure_numbers
+    % [C First_Violin_Voice_I measure 21 / measure 4]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C FirstViolinVoiceI measure 22 / measure 5]                             %! _comment_measure_numbers
+    % [C First_Violin_Voice_I measure 22 / measure 5]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C FirstViolinVoiceI measure 23 / measure 6]                             %! _comment_measure_numbers
+    % [C First_Violin_Voice_I measure 23 / measure 6]                          %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_FirstViolinVoiceI = {                                                        %! extern
+C_First_Violin_Voice_I = {                                                     %! extern
 
-    \C_FirstViolinVoiceI_a                                                     %! extern
+    \C_First_Violin_Voice_I_a                                                  %! extern
 
-    \C_FirstViolinVoiceI_b                                                     %! extern
+    \C_First_Violin_Voice_I_b                                                  %! extern
 
 }                                                                              %! extern
 
 
-C_FirstViolinStaffI = <<                                                       %! extern
+C_First_Violin_Staff_I = <<                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
-    \C_FirstViolinVoiceII                                                      %! extern
+    \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
+    \C_First_Violin_Voice_II                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \C_FirstViolinVoiceI                                                       %! extern
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \C_First_Violin_Voice_I                                                    %! extern
 
 >>                                                                             %! extern
 
 
-C_FirstViolinVoiceIII_a = {                                                    %! extern
+C_First_Violin_Voice_III_a = {                                                 %! extern
 
-    % [C FirstViolinVoiceIII measure 18 / measure 1]                           %! _comment_measure_numbers
+    % [C First_Violin_Voice_III measure 18 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1327,14 +1327,14 @@ C_FirstViolinVoiceIII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C FirstViolinVoiceIII measure 19 / measure 2]                           %! _comment_measure_numbers
+    % [C First_Violin_Voice_III measure 19 / measure 2]                        %! _comment_measure_numbers
     df'!2                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
     df'!2                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [C FirstViolinVoiceIII measure 20 / measure 3]                           %! _comment_measure_numbers
+    % [C First_Violin_Voice_III measure 20 / measure 3]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1342,39 +1342,39 @@ C_FirstViolinVoiceIII_a = {                                                    %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C FirstViolinVoiceIII measure 21 / measure 4]                           %! _comment_measure_numbers
+    % [C First_Violin_Voice_III measure 21 / measure 4]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C FirstViolinVoiceIII measure 22 / measure 5]                           %! _comment_measure_numbers
+    % [C First_Violin_Voice_III measure 22 / measure 5]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C FirstViolinVoiceIII measure 23 / measure 6]                           %! _comment_measure_numbers
+    % [C First_Violin_Voice_III measure 23 / measure 6]                        %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_FirstViolinVoiceIII = {                                                      %! extern
+C_First_Violin_Voice_III = {                                                   %! extern
 
-    \C_FirstViolinVoiceIII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-C_FirstViolinStaffII = {                                                       %! extern
-
-    \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
-    \C_FirstViolinVoiceIII                                                     %! extern
+    \C_First_Violin_Voice_III_a                                                %! extern
 
 }                                                                              %! extern
 
 
-C_SecondViolinVoiceI_a = {                                                     %! extern
+C_First_Violin_Staff_II = {                                                    %! extern
 
-    % [C SecondViolinVoiceI measure 18 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
+    \C_First_Violin_Voice_III                                                  %! extern
+
+}                                                                              %! extern
+
+
+C_Second_Violin_Voice_I_a = {                                                  %! extern
+
+    % [C Second_Violin_Voice_I measure 18 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1411,14 +1411,14 @@ C_SecondViolinVoiceI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C SecondViolinVoiceI measure 19 / measure 2]                            %! _comment_measure_numbers
+    % [C Second_Violin_Voice_I measure 19 / measure 2]                         %! _comment_measure_numbers
     df'!2..                                                                    %! sforzando_exchange_rhythm
     \repeatTie
 
     df'!8                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [C SecondViolinVoiceI measure 20 / measure 3]                            %! _comment_measure_numbers
+    % [C Second_Violin_Voice_I measure 20 / measure 3]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1426,39 +1426,39 @@ C_SecondViolinVoiceI_a = {                                                     %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C SecondViolinVoiceI measure 21 / measure 4]                            %! _comment_measure_numbers
+    % [C Second_Violin_Voice_I measure 21 / measure 4]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C SecondViolinVoiceI measure 22 / measure 5]                            %! _comment_measure_numbers
+    % [C Second_Violin_Voice_I measure 22 / measure 5]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C SecondViolinVoiceI measure 23 / measure 6]                            %! _comment_measure_numbers
+    % [C Second_Violin_Voice_I measure 23 / measure 6]                         %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_SecondViolinVoiceI = {                                                       %! extern
+C_Second_Violin_Voice_I = {                                                    %! extern
 
-    \C_SecondViolinVoiceI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-C_SecondViolinStaffI = {                                                       %! extern
-
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \C_SecondViolinVoiceI                                                      %! extern
+    \C_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-C_SecondViolinVoiceIII_a = {                                                   %! extern
+C_Second_Violin_Staff_I = {                                                    %! extern
 
-    % [C SecondViolinVoiceIII measure 18 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \C_Second_Violin_Voice_I                                                   %! extern
+
+}                                                                              %! extern
+
+
+C_Second_Violin_Voice_III_a = {                                                %! extern
+
+    % [C Second_Violin_Voice_III measure 18 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1495,11 +1495,11 @@ C_SecondViolinVoiceIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C SecondViolinVoiceIII measure 19 / measure 2]                          %! _comment_measure_numbers
+    % [C Second_Violin_Voice_III measure 19 / measure 2]                       %! _comment_measure_numbers
     df'!1                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [C SecondViolinVoiceIII measure 20 / measure 3]                          %! _comment_measure_numbers
+    % [C Second_Violin_Voice_III measure 20 / measure 3]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1507,39 +1507,39 @@ C_SecondViolinVoiceIII_a = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C SecondViolinVoiceIII measure 21 / measure 4]                          %! _comment_measure_numbers
+    % [C Second_Violin_Voice_III measure 21 / measure 4]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C SecondViolinVoiceIII measure 22 / measure 5]                          %! _comment_measure_numbers
+    % [C Second_Violin_Voice_III measure 22 / measure 5]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C SecondViolinVoiceIII measure 23 / measure 6]                          %! _comment_measure_numbers
+    % [C Second_Violin_Voice_III measure 23 / measure 6]                       %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_SecondViolinVoiceIII = {                                                     %! extern
+C_Second_Violin_Voice_III = {                                                  %! extern
 
-    \C_SecondViolinVoiceIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-C_SecondViolinStaffII = {                                                      %! extern
-
-    \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
-    \C_SecondViolinVoiceIII                                                    %! extern
+    \C_Second_Violin_Voice_III_a                                               %! extern
 
 }                                                                              %! extern
 
 
-C_ViolaVoiceI_a = {                                                            %! extern
+C_Second_Violin_Staff_II = {                                                   %! extern
 
-    % [C ViolaVoiceI measure 18 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
+    \C_Second_Violin_Voice_III                                                 %! extern
+
+}                                                                              %! extern
+
+
+C_Viola_Voice_I_a = {                                                          %! extern
+
+    % [C Viola_Voice_I measure 18 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1582,11 +1582,11 @@ C_ViolaVoiceI_a = {                                                            %
     df'!2                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [C ViolaVoiceI measure 19 / measure 2]                                   %! _comment_measure_numbers
+    % [C Viola_Voice_I measure 19 / measure 2]                                 %! _comment_measure_numbers
     df'!1                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [C ViolaVoiceI measure 20 / measure 3]                                   %! _comment_measure_numbers
+    % [C Viola_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1594,41 +1594,41 @@ C_ViolaVoiceI_a = {                                                            %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C ViolaVoiceI measure 21 / measure 4]                                   %! _comment_measure_numbers
+    % [C Viola_Voice_I measure 21 / measure 4]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [C ViolaVoiceI measure 22 / measure 5]                                   %! _comment_measure_numbers
+    % [C Viola_Voice_I measure 22 / measure 5]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [C ViolaVoiceI measure 23 / measure 6]                                   %! _comment_measure_numbers
+    % [C Viola_Voice_I measure 23 / measure 6]                                 %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_ViolaVoiceI = {                                                              %! extern
+C_Viola_Voice_I = {                                                            %! extern
 
-    \C_ViolaVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-C_ViolaStaffI = {                                                              %! extern
-
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \C_ViolaVoiceI                                                             %! extern
+    \C_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-C_ViolaVoiceIII_a = {                                                          %! extern
+C_Viola_Staff_I = {                                                            %! extern
 
-    % [C ViolaVoiceIII measure 18 / measure 1]                                 %! _comment_measure_numbers
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \C_Viola_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+C_Viola_Voice_III_a = {                                                        %! extern
+
+    % [C Viola_Voice_III measure 18 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1668,11 +1668,11 @@ C_ViolaVoiceIII_a = {                                                          %
     df'!2                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [C ViolaVoiceIII measure 19 / measure 2]                                 %! _comment_measure_numbers
+    % [C Viola_Voice_III measure 19 / measure 2]                               %! _comment_measure_numbers
     df'!1                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [C ViolaVoiceIII measure 20 / measure 3]                                 %! _comment_measure_numbers
+    % [C Viola_Voice_III measure 20 / measure 3]                               %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1680,41 +1680,41 @@ C_ViolaVoiceIII_a = {                                                          %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C ViolaVoiceIII measure 21 / measure 4]                                 %! _comment_measure_numbers
+    % [C Viola_Voice_III measure 21 / measure 4]                               %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [C ViolaVoiceIII measure 22 / measure 5]                                 %! _comment_measure_numbers
+    % [C Viola_Voice_III measure 22 / measure 5]                               %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [C ViolaVoiceIII measure 23 / measure 6]                                 %! _comment_measure_numbers
+    % [C Viola_Voice_III measure 23 / measure 6]                               %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_ViolaVoiceIII = {                                                            %! extern
+C_Viola_Voice_III = {                                                          %! extern
 
-    \C_ViolaVoiceIII_a                                                         %! extern
-
-}                                                                              %! extern
-
-
-C_ViolaStaffII = {                                                             %! extern
-
-    \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
-    \C_ViolaVoiceIII                                                           %! extern
+    \C_Viola_Voice_III_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-C_CelloVoiceI_a = {                                                            %! extern
+C_Viola_Staff_II = {                                                           %! extern
 
-    % [C CelloVoiceI measure 18 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
+    \C_Viola_Voice_III                                                         %! extern
+
+}                                                                              %! extern
+
+
+C_Cello_Voice_I_a = {                                                          %! extern
+
+    % [C Cello_Voice_I measure 18 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1743,14 +1743,14 @@ C_CelloVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C CelloVoiceI measure 19 / measure 2]                                   %! _comment_measure_numbers
+    % [C Cello_Voice_I measure 19 / measure 2]                                 %! _comment_measure_numbers
     df'!8                                                                      %! sforzando_exchange_rhythm
     \repeatTie
 
     df'!2..                                                                    %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [C CelloVoiceI measure 20 / measure 3]                                   %! _comment_measure_numbers
+    % [C Cello_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1758,39 +1758,39 @@ C_CelloVoiceI_a = {                                                            %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
-    % [C CelloVoiceI measure 21 / measure 4]                                   %! _comment_measure_numbers
+    % [C Cello_Voice_I measure 21 / measure 4]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C CelloVoiceI measure 22 / measure 5]                                   %! _comment_measure_numbers
+    % [C Cello_Voice_I measure 22 / measure 5]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C CelloVoiceI measure 23 / measure 6]                                   %! _comment_measure_numbers
+    % [C Cello_Voice_I measure 23 / measure 6]                                 %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-C_CelloVoiceI = {                                                              %! extern
+C_Cello_Voice_I = {                                                            %! extern
 
-    \C_CelloVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-C_CelloStaffI = {                                                              %! extern
-
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \C_CelloVoiceI                                                             %! extern
+    \C_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-C_ContrabassVoiceIII_a = {                                                     %! extern
+C_Cello_Staff_I = {                                                            %! extern
 
-    % [C ContrabassVoiceIII measure 18 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \C_Cello_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+C_Contrabass_Voice_III_a = {                                                   %! extern
+
+    % [C Contrabass_Voice_III measure 18 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         \hcenter-in                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -1814,25 +1814,25 @@ C_ContrabassVoiceIII_a = {                                                     %
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [C ContrabassVoiceIII measure 19 / measure 2]                            %! _comment_measure_numbers
+    % [C Contrabass_Voice_III measure 19 / measure 2]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [C ContrabassVoiceIII measure 20 / measure 3]                            %! _comment_measure_numbers
+    % [C Contrabass_Voice_III measure 20 / measure 3]                          %! _comment_measure_numbers
     c1                                                                         %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
 
-    % [C ContrabassVoiceIII measure 21 / measure 4]                            %! _comment_measure_numbers
+    % [C Contrabass_Voice_III measure 21 / measure 4]                          %! _comment_measure_numbers
     c1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C ContrabassVoiceIII measure 22 / measure 5]                            %! _comment_measure_numbers
+    % [C Contrabass_Voice_III measure 22 / measure 5]                          %! _comment_measure_numbers
     c1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [C ContrabassVoiceIII measure 23 / measure 6]                            %! _comment_measure_numbers
+    % [C Contrabass_Voice_III measure 23 / measure 6]                          %! _comment_measure_numbers
     c2.                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1840,16 +1840,16 @@ C_ContrabassVoiceIII_a = {                                                     %
 }                                                                              %! extern
 
 
-C_ContrabassVoiceIII = {                                                       %! extern
+C_Contrabass_Voice_III = {                                                     %! extern
 
-    \C_ContrabassVoiceIII_a                                                    %! extern
+    \C_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-C_ContrabassStaffII = {                                                        %! extern
+C_Contrabass_Staff_II = {                                                      %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \C_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \C_Contrabass_Voice_III                                                    %! extern
 
 }                                                                              %! extern

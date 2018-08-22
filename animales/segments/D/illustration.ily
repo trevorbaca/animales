@@ -92,9 +92,9 @@ D_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-D_ClarinetVoiceI_a = {                                                         %! extern
+D_Clarinet_Voice_I_a = {                                                       %! extern
 
-    % [D ClarinetVoiceI measure 24 / measure 1]                                %! _comment_measure_numbers
+    % [D Clarinet_Voice_I measure 24 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -132,23 +132,23 @@ D_ClarinetVoiceI_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [D ClarinetVoiceI measure 25 / measure 2]                                %! _comment_measure_numbers
+    % [D Clarinet_Voice_I measure 25 / measure 2]                              %! _comment_measure_numbers
     ds''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ClarinetVoiceI measure 26 / measure 3]                                %! _comment_measure_numbers
+    % [D Clarinet_Voice_I measure 26 / measure 3]                              %! _comment_measure_numbers
     ds''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ClarinetVoiceI measure 27 / measure 4]                                %! _comment_measure_numbers
+    % [D Clarinet_Voice_I measure 27 / measure 4]                              %! _comment_measure_numbers
     ds''!1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ClarinetVoiceI measure 28 / measure 5]                                %! _comment_measure_numbers
+    % [D Clarinet_Voice_I measure 28 / measure 5]                              %! _comment_measure_numbers
     ds''!2.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ClarinetVoiceI measure 29 / measure 6]                                %! _comment_measure_numbers
+    % [D Clarinet_Voice_I measure 29 / measure 6]                              %! _comment_measure_numbers
     ds''!2.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -157,24 +157,24 @@ D_ClarinetVoiceI_a = {                                                         %
 }                                                                              %! extern
 
 
-D_ClarinetVoiceI = {                                                           %! extern
+D_Clarinet_Voice_I = {                                                         %! extern
 
-    \D_ClarinetVoiceI_a                                                        %! extern
-
-}                                                                              %! extern
-
-
-D_ClarinetStaffI = {                                                           %! extern
-
-    \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
-    \D_ClarinetVoiceI                                                          %! extern
+    \D_Clarinet_Voice_I_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-D_PercussionVoiceI_a = {                                                       %! extern
+D_Clarinet_Staff_I = {                                                         %! extern
 
-    % [D PercussionVoiceI measure 24 / measure 1]                              %! _comment_measure_numbers
+    \context Voice = "Clarinet_Voice_I"                                        %! ScoreTemplate
+    \D_Clarinet_Voice_I                                                        %! extern
+
+}                                                                              %! extern
+
+
+D_Percussion_Voice_I_a = {                                                     %! extern
+
+    % [D Percussion_Voice_I measure 24 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -215,30 +215,30 @@ D_PercussionVoiceI_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D PercussionVoiceI measure 25 / measure 2]                              %! _comment_measure_numbers
+    % [D Percussion_Voice_I measure 25 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceI measure 26 / measure 3]                              %! _comment_measure_numbers
+    % [D Percussion_Voice_I measure 26 / measure 3]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceI measure 27 / measure 4]                              %! _comment_measure_numbers
+    % [D Percussion_Voice_I measure 27 / measure 4]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceI measure 28 / measure 5]                              %! _comment_measure_numbers
+    % [D Percussion_Voice_I measure 28 / measure 5]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceI measure 29 / measure 6]                              %! _comment_measure_numbers
+    % [D Percussion_Voice_I measure 29 / measure 6]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
@@ -246,24 +246,24 @@ D_PercussionVoiceI_a = {                                                       %
 }                                                                              %! extern
 
 
-D_PercussionVoiceI = {                                                         %! extern
+D_Percussion_Voice_I = {                                                       %! extern
 
-    \D_PercussionVoiceI_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-D_PercussionStaffI = {                                                         %! extern
-
-    \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
-    \D_PercussionVoiceI                                                        %! extern
+    \D_Percussion_Voice_I_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-D_PercussionVoiceII_a = {                                                      %! extern
+D_Percussion_Staff_I = {                                                       %! extern
 
-    % [D PercussionVoiceII measure 24 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_I"                                      %! ScoreTemplate
+    \D_Percussion_Voice_I                                                      %! extern
+
+}                                                                              %! extern
+
+
+D_Percussion_Voice_II_a = {                                                    %! extern
+
+    % [D Percussion_Voice_II measure 24 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -304,30 +304,30 @@ D_PercussionVoiceII_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D PercussionVoiceII measure 25 / measure 2]                             %! _comment_measure_numbers
+    % [D Percussion_Voice_II measure 25 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceII measure 26 / measure 3]                             %! _comment_measure_numbers
+    % [D Percussion_Voice_II measure 26 / measure 3]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceII measure 27 / measure 4]                             %! _comment_measure_numbers
+    % [D Percussion_Voice_II measure 27 / measure 4]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceII measure 28 / measure 5]                             %! _comment_measure_numbers
+    % [D Percussion_Voice_II measure 28 / measure 5]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [D PercussionVoiceII measure 29 / measure 6]                             %! _comment_measure_numbers
+    % [D Percussion_Voice_II measure 29 / measure 6]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
@@ -335,24 +335,24 @@ D_PercussionVoiceII_a = {                                                      %
 }                                                                              %! extern
 
 
-D_PercussionVoiceII = {                                                        %! extern
+D_Percussion_Voice_II = {                                                      %! extern
 
-    \D_PercussionVoiceII_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-D_PercussionStaffII = {                                                        %! extern
-
-    \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
-    \D_PercussionVoiceII                                                       %! extern
+    \D_Percussion_Voice_II_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-D_FirstViolinVoiceII_a = {                                                     %! extern
+D_Percussion_Staff_II = {                                                      %! extern
 
-    % [D FirstViolinVoiceII measure 24 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \D_Percussion_Voice_II                                                     %! extern
+
+}                                                                              %! extern
+
+
+D_First_Violin_Voice_II_a = {                                                  %! extern
+
+    % [D First_Violin_Voice_II measure 24 / measure 1]                         %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     b'2                                                                        %! glissando_rhythm
@@ -371,7 +371,7 @@ D_FirstViolinVoiceII_a = {                                                     %
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [D FirstViolinVoiceII measure 25 / measure 2]                            %! _comment_measure_numbers
+    % [D First_Violin_Voice_II measure 25 / measure 2]                         %! _comment_measure_numbers
     a'''4                                                                      %! glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -388,7 +388,7 @@ D_FirstViolinVoiceII_a = {                                                     %
     b''2
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [D FirstViolinVoiceII measure 26 / measure 3]                            %! _comment_measure_numbers
+    % [D First_Violin_Voice_II measure 26 / measure 3]                         %! _comment_measure_numbers
     f'''8                                                                      %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
@@ -406,7 +406,7 @@ D_FirstViolinVoiceII_a = {                                                     %
     c'''2                                                                      %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [D FirstViolinVoiceII measure 27 / measure 4]                            %! _comment_measure_numbers
+    % [D First_Violin_Voice_II measure 27 / measure 4]                         %! _comment_measure_numbers
     g'8                                                                        %! glissando_rhythm
     [                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
@@ -424,7 +424,7 @@ D_FirstViolinVoiceII_a = {                                                     %
     b''4.                                                                      %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [D FirstViolinVoiceII measure 28 / measure 5]                            %! _comment_measure_numbers
+    % [D First_Violin_Voice_II measure 28 / measure 5]                         %! _comment_measure_numbers
     g'''4                                                                      %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -446,7 +446,7 @@ D_FirstViolinVoiceII_a = {                                                     %
     ]                                                                          %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [D FirstViolinVoiceII measure 29 / measure 6]                            %! _comment_measure_numbers
+    % [D First_Violin_Voice_II measure 29 / measure 6]                         %! _comment_measure_numbers
     b''2                                                                       %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -463,16 +463,16 @@ D_FirstViolinVoiceII_a = {                                                     %
 }                                                                              %! extern
 
 
-D_FirstViolinVoiceII = {                                                       %! extern
+D_First_Violin_Voice_II = {                                                    %! extern
 
-    \D_FirstViolinVoiceII_a                                                    %! extern
+    \D_First_Violin_Voice_II_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-D_FirstViolinVoiceI_a = {                                                      %! extern
+D_First_Violin_Voice_I_a = {                                                   %! extern
 
-    % [D FirstViolinVoiceI measure 24 / measure 1]                             %! _comment_measure_numbers
+    % [D First_Violin_Voice_I measure 24 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -509,29 +509,29 @@ D_FirstViolinVoiceI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D FirstViolinVoiceI measure 25 / measure 2]                             %! _comment_measure_numbers
+    % [D First_Violin_Voice_I measure 25 / measure 2]                          %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
     b4                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D FirstViolinVoiceI measure 26 / measure 3]                             %! _comment_measure_numbers
+    % [D First_Violin_Voice_I measure 26 / measure 3]                          %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D FirstViolinVoiceI measure 27 / measure 4]                             %! _comment_measure_numbers
+    % [D First_Violin_Voice_I measure 27 / measure 4]                          %! _comment_measure_numbers
     b4                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
     b2.                                                                        %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D FirstViolinVoiceI measure 28 / measure 5]                             %! _comment_measure_numbers
+    % [D First_Violin_Voice_I measure 28 / measure 5]                          %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D FirstViolinVoiceI measure 29 / measure 6]                             %! _comment_measure_numbers
+    % [D First_Violin_Voice_I measure 29 / measure 6]                          %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
@@ -539,27 +539,27 @@ D_FirstViolinVoiceI_a = {                                                      %
 }                                                                              %! extern
 
 
-D_FirstViolinVoiceI = {                                                        %! extern
+D_First_Violin_Voice_I = {                                                     %! extern
 
-    \D_FirstViolinVoiceI_a                                                     %! extern
+    \D_First_Violin_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-D_FirstViolinStaffI = <<                                                       %! extern
+D_First_Violin_Staff_I = <<                                                    %! extern
 
-    \context Voice = "FirstViolinVoiceII"                                      %! ScoreTemplate
-    \D_FirstViolinVoiceII                                                      %! extern
+    \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
+    \D_First_Violin_Voice_II                                                   %! extern
 
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \D_FirstViolinVoiceI                                                       %! extern
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \D_First_Violin_Voice_I                                                    %! extern
 
 >>                                                                             %! extern
 
 
-D_FirstViolinVoiceIII_a = {                                                    %! extern
+D_First_Violin_Voice_III_a = {                                                 %! extern
 
-    % [D FirstViolinVoiceIII measure 24 / measure 1]                           %! _comment_measure_numbers
+    % [D First_Violin_Voice_III measure 24 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -595,15 +595,15 @@ D_FirstViolinVoiceIII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D FirstViolinVoiceIII measure 25 / measure 2]                           %! _comment_measure_numbers
+    % [D First_Violin_Voice_III measure 25 / measure 2]                        %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D FirstViolinVoiceIII measure 26 / measure 3]                           %! _comment_measure_numbers
+    % [D First_Violin_Voice_III measure 26 / measure 3]                        %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D FirstViolinVoiceIII measure 27 / measure 4]                           %! _comment_measure_numbers
+    % [D First_Violin_Voice_III measure 27 / measure 4]                        %! _comment_measure_numbers
     b4                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -621,11 +621,11 @@ D_FirstViolinVoiceIII_a = {                                                    %
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D FirstViolinVoiceIII measure 28 / measure 5]                           %! _comment_measure_numbers
+    % [D First_Violin_Voice_III measure 28 / measure 5]                        %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D FirstViolinVoiceIII measure 29 / measure 6]                           %! _comment_measure_numbers
+    % [D First_Violin_Voice_III measure 29 / measure 6]                        %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
@@ -633,24 +633,24 @@ D_FirstViolinVoiceIII_a = {                                                    %
 }                                                                              %! extern
 
 
-D_FirstViolinVoiceIII = {                                                      %! extern
+D_First_Violin_Voice_III = {                                                   %! extern
 
-    \D_FirstViolinVoiceIII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-D_FirstViolinStaffII = {                                                       %! extern
-
-    \context Voice = "FirstViolinVoiceIII"                                     %! ScoreTemplate
-    \D_FirstViolinVoiceIII                                                     %! extern
+    \D_First_Violin_Voice_III_a                                                %! extern
 
 }                                                                              %! extern
 
 
-D_SecondViolinVoiceI_a = {                                                     %! extern
+D_First_Violin_Staff_II = {                                                    %! extern
 
-    % [D SecondViolinVoiceI measure 24 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
+    \D_First_Violin_Voice_III                                                  %! extern
+
+}                                                                              %! extern
+
+
+D_Second_Violin_Voice_I_a = {                                                  %! extern
+
+    % [D Second_Violin_Voice_I measure 24 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -686,11 +686,11 @@ D_SecondViolinVoiceI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D SecondViolinVoiceI measure 25 / measure 2]                            %! _comment_measure_numbers
+    % [D Second_Violin_Voice_I measure 25 / measure 2]                         %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceI measure 26 / measure 3]                            %! _comment_measure_numbers
+    % [D Second_Violin_Voice_I measure 26 / measure 3]                         %! _comment_measure_numbers
     b4.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -700,18 +700,18 @@ D_SecondViolinVoiceI_a = {                                                     %
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceI measure 27 / measure 4]                            %! _comment_measure_numbers
+    % [D Second_Violin_Voice_I measure 27 / measure 4]                         %! _comment_measure_numbers
     b2..                                                                       %! sforzando_exchange_rhythm
     \repeatTie
 
     b8                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D SecondViolinVoiceI measure 28 / measure 5]                            %! _comment_measure_numbers
+    % [D Second_Violin_Voice_I measure 28 / measure 5]                         %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceI measure 29 / measure 6]                            %! _comment_measure_numbers
+    % [D Second_Violin_Voice_I measure 29 / measure 6]                         %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
@@ -719,26 +719,26 @@ D_SecondViolinVoiceI_a = {                                                     %
 }                                                                              %! extern
 
 
-D_SecondViolinVoiceI = {                                                       %! extern
+D_Second_Violin_Voice_I = {                                                    %! extern
 
-    \D_SecondViolinVoiceI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-D_SecondViolinStaffI = {                                                       %! extern
-
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \D_SecondViolinVoiceI                                                      %! extern
+    \D_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-D_SecondViolinVoiceIII_a = {                                                   %! extern
+D_Second_Violin_Staff_I = {                                                    %! extern
+
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \D_Second_Violin_Voice_I                                                   %! extern
+
+}                                                                              %! extern
+
+
+D_Second_Violin_Voice_III_a = {                                                %! extern
 
     \times 2/3 {                                                               %! sforzando_exchange_rhythm
 
-        % [D SecondViolinVoiceIII measure 24 / measure 1]                      %! _comment_measure_numbers
+        % [D Second_Violin_Voice_III measure 24 / measure 1]                   %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \hcenter-in                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -783,11 +783,11 @@ D_SecondViolinVoiceIII_a = {                                                   %
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceIII measure 25 / measure 2]                          %! _comment_measure_numbers
+    % [D Second_Violin_Voice_III measure 25 / measure 2]                       %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceIII measure 26 / measure 3]                          %! _comment_measure_numbers
+    % [D Second_Violin_Voice_III measure 26 / measure 3]                       %! _comment_measure_numbers
     b4                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -805,15 +805,15 @@ D_SecondViolinVoiceIII_a = {                                                   %
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceIII measure 27 / measure 4]                          %! _comment_measure_numbers
+    % [D Second_Violin_Voice_III measure 27 / measure 4]                       %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D SecondViolinVoiceIII measure 28 / measure 5]                          %! _comment_measure_numbers
+    % [D Second_Violin_Voice_III measure 28 / measure 5]                       %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D SecondViolinVoiceIII measure 29 / measure 6]                          %! _comment_measure_numbers
+    % [D Second_Violin_Voice_III measure 29 / measure 6]                       %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
@@ -821,24 +821,24 @@ D_SecondViolinVoiceIII_a = {                                                   %
 }                                                                              %! extern
 
 
-D_SecondViolinVoiceIII = {                                                     %! extern
+D_Second_Violin_Voice_III = {                                                  %! extern
 
-    \D_SecondViolinVoiceIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-D_SecondViolinStaffII = {                                                      %! extern
-
-    \context Voice = "SecondViolinVoiceIII"                                    %! ScoreTemplate
-    \D_SecondViolinVoiceIII                                                    %! extern
+    \D_Second_Violin_Voice_III_a                                               %! extern
 
 }                                                                              %! extern
 
 
-D_ViolaVoiceI_a = {                                                            %! extern
+D_Second_Violin_Staff_II = {                                                   %! extern
 
-    % [D ViolaVoiceI measure 24 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
+    \D_Second_Violin_Voice_III                                                 %! extern
+
+}                                                                              %! extern
+
+
+D_Viola_Voice_I_a = {                                                          %! extern
+
+    % [D Viola_Voice_I measure 24 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -882,22 +882,22 @@ D_ViolaVoiceI_a = {                                                            %
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]                                                                          %! sforzando_exchange_rhythm
 
-    % [D ViolaVoiceI measure 25 / measure 2]                                   %! _comment_measure_numbers
+    % [D Viola_Voice_I measure 25 / measure 2]                                 %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D ViolaVoiceI measure 26 / measure 3]                                   %! _comment_measure_numbers
+    % [D Viola_Voice_I measure 26 / measure 3]                                 %! _comment_measure_numbers
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
     b2                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D ViolaVoiceI measure 27 / measure 4]                                   %! _comment_measure_numbers
+    % [D Viola_Voice_I measure 27 / measure 4]                                 %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D ViolaVoiceI measure 28 / measure 5]                                   %! _comment_measure_numbers
+    % [D Viola_Voice_I measure 28 / measure 5]                                 %! _comment_measure_numbers
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -909,7 +909,7 @@ D_ViolaVoiceI_a = {                                                            %
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]                                                                          %! sforzando_exchange_rhythm
 
-    % [D ViolaVoiceI measure 29 / measure 6]                                   %! _comment_measure_numbers
+    % [D Viola_Voice_I measure 29 / measure 6]                                 %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
@@ -917,24 +917,24 @@ D_ViolaVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-D_ViolaVoiceI = {                                                              %! extern
+D_Viola_Voice_I = {                                                            %! extern
 
-    \D_ViolaVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-D_ViolaStaffI = {                                                              %! extern
-
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \D_ViolaVoiceI                                                             %! extern
+    \D_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-D_ViolaVoiceIII_a = {                                                          %! extern
+D_Viola_Staff_I = {                                                            %! extern
 
-    % [D ViolaVoiceIII measure 24 / measure 1]                                 %! _comment_measure_numbers
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \D_Viola_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+D_Viola_Voice_III_a = {                                                        %! extern
+
+    % [D Viola_Voice_III measure 24 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -970,26 +970,26 @@ D_ViolaVoiceIII_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D ViolaVoiceIII measure 25 / measure 2]                                 %! _comment_measure_numbers
+    % [D Viola_Voice_III measure 25 / measure 2]                               %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D ViolaVoiceIII measure 26 / measure 3]                                 %! _comment_measure_numbers
+    % [D Viola_Voice_III measure 26 / measure 3]                               %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
     b4                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D ViolaVoiceIII measure 27 / measure 4]                                 %! _comment_measure_numbers
+    % [D Viola_Voice_III measure 27 / measure 4]                               %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D ViolaVoiceIII measure 28 / measure 5]                                 %! _comment_measure_numbers
+    % [D Viola_Voice_III measure 28 / measure 5]                               %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D ViolaVoiceIII measure 29 / measure 6]                                 %! _comment_measure_numbers
+    % [D Viola_Voice_III measure 29 / measure 6]                               %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
@@ -997,24 +997,24 @@ D_ViolaVoiceIII_a = {                                                          %
 }                                                                              %! extern
 
 
-D_ViolaVoiceIII = {                                                            %! extern
+D_Viola_Voice_III = {                                                          %! extern
 
-    \D_ViolaVoiceIII_a                                                         %! extern
-
-}                                                                              %! extern
-
-
-D_ViolaStaffII = {                                                             %! extern
-
-    \context Voice = "ViolaVoiceIII"                                           %! ScoreTemplate
-    \D_ViolaVoiceIII                                                           %! extern
+    \D_Viola_Voice_III_a                                                       %! extern
 
 }                                                                              %! extern
 
 
-D_CelloVoiceI_a = {                                                            %! extern
+D_Viola_Staff_II = {                                                           %! extern
 
-    % [D CelloVoiceI measure 24 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
+    \D_Viola_Voice_III                                                         %! extern
+
+}                                                                              %! extern
+
+
+D_Cello_Voice_I_a = {                                                          %! extern
+
+    % [D Cello_Voice_I measure 24 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1042,7 +1042,7 @@ D_CelloVoiceI_a = {                                                            %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D CelloVoiceI measure 25 / measure 2]                                   %! _comment_measure_numbers
+    % [D Cello_Voice_I measure 25 / measure 2]                                 %! _comment_measure_numbers
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -1052,22 +1052,22 @@ D_CelloVoiceI_a = {                                                            %
     b4.                                                                        %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D CelloVoiceI measure 26 / measure 3]                                   %! _comment_measure_numbers
+    % [D Cello_Voice_I measure 26 / measure 3]                                 %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D CelloVoiceI measure 27 / measure 4]                                   %! _comment_measure_numbers
+    % [D Cello_Voice_I measure 27 / measure 4]                                 %! _comment_measure_numbers
     b8                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
     b2..                                                                       %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    % [D CelloVoiceI measure 28 / measure 5]                                   %! _comment_measure_numbers
+    % [D Cello_Voice_I measure 28 / measure 5]                                 %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
-    % [D CelloVoiceI measure 29 / measure 6]                                   %! _comment_measure_numbers
+    % [D Cello_Voice_I measure 29 / measure 6]                                 %! _comment_measure_numbers
     b2                                                                         %! sforzando_exchange_rhythm
     \repeatTie
 
@@ -1083,24 +1083,24 @@ D_CelloVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-D_CelloVoiceI = {                                                              %! extern
+D_Cello_Voice_I = {                                                            %! extern
 
-    \D_CelloVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-D_CelloStaffI = {                                                              %! extern
-
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \D_CelloVoiceI                                                             %! extern
+    \D_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-D_ContrabassVoiceIII_a = {                                                     %! extern
+D_Cello_Staff_I = {                                                            %! extern
 
-    % [D ContrabassVoiceIII measure 24 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \D_Cello_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+D_Contrabass_Voice_III_a = {                                                   %! extern
+
+    % [D Contrabass_Voice_III measure 24 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1126,41 +1126,41 @@ D_ContrabassVoiceIII_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [D ContrabassVoiceIII measure 25 / measure 2]                            %! _comment_measure_numbers
+    % [D Contrabass_Voice_III measure 25 / measure 2]                          %! _comment_measure_numbers
     b,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ContrabassVoiceIII measure 26 / measure 3]                            %! _comment_measure_numbers
+    % [D Contrabass_Voice_III measure 26 / measure 3]                          %! _comment_measure_numbers
     b,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ContrabassVoiceIII measure 27 / measure 4]                            %! _comment_measure_numbers
+    % [D Contrabass_Voice_III measure 27 / measure 4]                          %! _comment_measure_numbers
     b,1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [D ContrabassVoiceIII measure 28 / measure 5]                            %! _comment_measure_numbers
+    % [D Contrabass_Voice_III measure 28 / measure 5]                          %! _comment_measure_numbers
     b,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [D ContrabassVoiceIII measure 29 / measure 6]                            %! _comment_measure_numbers
+    % [D Contrabass_Voice_III measure 29 / measure 6]                          %! _comment_measure_numbers
     b,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! extern
 
 
-D_ContrabassVoiceIII = {                                                       %! extern
+D_Contrabass_Voice_III = {                                                     %! extern
 
-    \D_ContrabassVoiceIII_a                                                    %! extern
+    \D_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-D_ContrabassStaffII = {                                                        %! extern
+D_Contrabass_Staff_II = {                                                      %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \D_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \D_Contrabass_Voice_III                                                    %! extern
 
 }                                                                              %! extern

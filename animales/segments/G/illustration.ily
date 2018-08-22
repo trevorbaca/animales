@@ -113,9 +113,9 @@ G_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-G_ClarinetVoiceI_a = {                                                         %! extern
+G_Clarinet_Voice_I_a = {                                                       %! extern
 
-    % [G ClarinetVoiceI measure 44 / measure 1]                                %! _comment_measure_numbers
+    % [G Clarinet_Voice_I measure 44 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \hcenter-in                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -153,23 +153,23 @@ G_ClarinetVoiceI_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    % [G ClarinetVoiceI measure 45 / measure 2]                                %! _comment_measure_numbers
+    % [G Clarinet_Voice_I measure 45 / measure 2]                              %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G ClarinetVoiceI measure 46 / measure 3]                                %! _comment_measure_numbers
+    % [G Clarinet_Voice_I measure 46 / measure 3]                              %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G ClarinetVoiceI measure 47 / measure 4]                                %! _comment_measure_numbers
+    % [G Clarinet_Voice_I measure 47 / measure 4]                              %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G ClarinetVoiceI measure 48 / measure 5]                                %! _comment_measure_numbers
+    % [G Clarinet_Voice_I measure 48 / measure 5]                              %! _comment_measure_numbers
     g''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [G ClarinetVoiceI measure 49 / measure 6]                                %! _comment_measure_numbers
+    % [G Clarinet_Voice_I measure 49 / measure 6]                              %! _comment_measure_numbers
     g''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -177,24 +177,24 @@ G_ClarinetVoiceI_a = {                                                         %
 }                                                                              %! extern
 
 
-G_ClarinetVoiceI = {                                                           %! extern
+G_Clarinet_Voice_I = {                                                         %! extern
 
-    \G_ClarinetVoiceI_a                                                        %! extern
-
-}                                                                              %! extern
-
-
-G_ClarinetStaffI = {                                                           %! extern
-
-    \context Voice = "ClarinetVoiceI"                                          %! ScoreTemplate
-    \G_ClarinetVoiceI                                                          %! extern
+    \G_Clarinet_Voice_I_a                                                      %! extern
 
 }                                                                              %! extern
 
 
-G_BassClarinetVoiceI_a = {                                                     %! extern
+G_Clarinet_Staff_I = {                                                         %! extern
 
-    % [G BassClarinetVoiceI measure 44 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Clarinet_Voice_I"                                        %! ScoreTemplate
+    \G_Clarinet_Voice_I                                                        %! extern
+
+}                                                                              %! extern
+
+
+G_Bass_Clarinet_Voice_I_a = {                                                  %! extern
+
+    % [G Bass_Clarinet_Voice_I measure 44 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
     \markup {                                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         \hcenter-in                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
@@ -218,22 +218,22 @@ G_BassClarinetVoiceI_a = {                                                     %
         }                                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [G BassClarinetVoiceI measure 45 / measure 2]                            %! _comment_measure_numbers
+    % [G Bass_Clarinet_Voice_I measure 45 / measure 2]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [G BassClarinetVoiceI measure 46 / measure 3]                            %! _comment_measure_numbers
+    % [G Bass_Clarinet_Voice_I measure 46 / measure 3]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [G BassClarinetVoiceI measure 47 / measure 4]                            %! _comment_measure_numbers
+    % [G Bass_Clarinet_Voice_I measure 47 / measure 4]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [G BassClarinetVoiceI measure 48 / measure 5]                            %! _comment_measure_numbers
+    % [G Bass_Clarinet_Voice_I measure 48 / measure 5]                         %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
 
-    % [G BassClarinetVoiceI measure 49 / measure 6]                            %! _comment_measure_numbers
+    % [G Bass_Clarinet_Voice_I measure 49 / measure 6]                         %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -241,24 +241,24 @@ G_BassClarinetVoiceI_a = {                                                     %
 }                                                                              %! extern
 
 
-G_BassClarinetVoiceI = {                                                       %! extern
+G_Bass_Clarinet_Voice_I = {                                                    %! extern
 
-    \G_BassClarinetVoiceI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-G_BassClarinetStaffI = {                                                       %! extern
-
-    \context Voice = "BassClarinetVoiceI"                                      %! ScoreTemplate
-    \G_BassClarinetVoiceI                                                      %! extern
+    \G_Bass_Clarinet_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-G_PianoVoiceI_a = {                                                            %! extern
+G_Bass_Clarinet_Staff_I = {                                                    %! extern
 
-    % [G PianoVoiceI measure 44 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Bass_Clarinet_Voice_I"                                   %! ScoreTemplate
+    \G_Bass_Clarinet_Voice_I                                                   %! extern
+
+}                                                                              %! extern
+
+
+G_Piano_Voice_I_a = {                                                          %! extern
+
+    % [G Piano_Voice_I measure 44 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -286,7 +286,7 @@ G_PianoVoiceI_a = {                                                            %
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
-        % [G PianoVoiceI measure 45 / measure 2]                               %! _comment_measure_numbers
+        % [G Piano_Voice_I measure 45 / measure 2]                             %! _comment_measure_numbers
         d''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
@@ -297,10 +297,10 @@ G_PianoVoiceI_a = {                                                            %
 
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G PianoVoiceI measure 46 / measure 3]                                   %! _comment_measure_numbers
+    % [G Piano_Voice_I measure 46 / measure 3]                                 %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [G PianoVoiceI measure 47 / measure 4]                                   %! _comment_measure_numbers
+    % [G Piano_Voice_I measure 47 / measure 4]                                 %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -313,33 +313,33 @@ G_PianoVoiceI_a = {                                                            %
 
     }                                                                          %! harp_exchange_rhythm
 
-    % [G PianoVoiceI measure 48 / measure 5]                                   %! _comment_measure_numbers
+    % [G Piano_Voice_I measure 48 / measure 5]                                 %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G PianoVoiceI measure 49 / measure 6]                                   %! _comment_measure_numbers
+    % [G Piano_Voice_I measure 49 / measure 6]                                 %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
 }                                                                              %! extern
 
 
-G_PianoVoiceI = {                                                              %! extern
+G_Piano_Voice_I = {                                                            %! extern
 
-    \G_PianoVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-G_PianoStaffI = {                                                              %! extern
-
-    \context Voice = "PianoVoiceI"                                             %! ScoreTemplate
-    \G_PianoVoiceI                                                             %! extern
+    \G_Piano_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-G_HarpVoiceI_a = {                                                             %! extern
+G_Piano_Staff_I = {                                                            %! extern
 
-    % [G HarpVoiceI measure 44 / measure 1]                                    %! _comment_measure_numbers
+    \context Voice = "Piano_Voice_I"                                           %! ScoreTemplate
+    \G_Piano_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+G_Harp_Voice_I_a = {                                                           %! extern
+
+    % [G Harp_Voice_I measure 44 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -377,13 +377,13 @@ G_HarpVoiceI_a = {                                                             %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [G HarpVoiceI measure 45 / measure 2]                                    %! _comment_measure_numbers
+    % [G Harp_Voice_I measure 45 / measure 2]                                  %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [G HarpVoiceI measure 46 / measure 3]                                    %! _comment_measure_numbers
+    % [G Harp_Voice_I measure 46 / measure 3]                                  %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [G HarpVoiceI measure 47 / measure 4]                                    %! _comment_measure_numbers
+    % [G Harp_Voice_I measure 47 / measure 4]                                  %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -398,33 +398,33 @@ G_HarpVoiceI_a = {                                                             %
 
     r4                                                                         %! harp_exchange_rhythm
 
-    % [G HarpVoiceI measure 48 / measure 5]                                    %! _comment_measure_numbers
+    % [G Harp_Voice_I measure 48 / measure 5]                                  %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G HarpVoiceI measure 49 / measure 6]                                    %! _comment_measure_numbers
+    % [G Harp_Voice_I measure 49 / measure 6]                                  %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
 }                                                                              %! extern
 
 
-G_HarpVoiceI = {                                                               %! extern
+G_Harp_Voice_I = {                                                             %! extern
 
-    \G_HarpVoiceI_a                                                            %! extern
-
-}                                                                              %! extern
-
-
-G_HarpStaffI = {                                                               %! extern
-
-    \context Voice = "HarpVoiceI"                                              %! ScoreTemplate
-    \G_HarpVoiceI                                                              %! extern
+    \G_Harp_Voice_I_a                                                          %! extern
 
 }                                                                              %! extern
 
 
-G_PercussionVoiceII_a = {                                                      %! extern
+G_Harp_Staff_I = {                                                             %! extern
 
-    % [G PercussionVoiceII measure 44 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Harp_Voice_I"                                            %! ScoreTemplate
+    \G_Harp_Voice_I                                                            %! extern
+
+}                                                                              %! extern
+
+
+G_Percussion_Voice_II_a = {                                                    %! extern
+
+    % [G Percussion_Voice_II measure 44 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -470,29 +470,29 @@ G_PercussionVoiceII_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [G PercussionVoiceII measure 45 / measure 2]                             %! _comment_measure_numbers
+    % [G Percussion_Voice_II measure 45 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [G PercussionVoiceII measure 46 / measure 3]                             %! _comment_measure_numbers
+    % [G Percussion_Voice_II measure 46 / measure 3]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [G PercussionVoiceII measure 47 / measure 4]                             %! _comment_measure_numbers
+    % [G Percussion_Voice_II measure 47 / measure 4]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [G PercussionVoiceII measure 48 / measure 5]                             %! _comment_measure_numbers
+    % [G Percussion_Voice_II measure 48 / measure 5]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [G PercussionVoiceII measure 49 / measure 6]                             %! _comment_measure_numbers
+    % [G Percussion_Voice_II measure 49 / measure 6]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
@@ -502,24 +502,24 @@ G_PercussionVoiceII_a = {                                                      %
 }                                                                              %! extern
 
 
-G_PercussionVoiceII = {                                                        %! extern
+G_Percussion_Voice_II = {                                                      %! extern
 
-    \G_PercussionVoiceII_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-G_PercussionStaffII = {                                                        %! extern
-
-    \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
-    \G_PercussionVoiceII                                                       %! extern
+    \G_Percussion_Voice_II_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-G_PercussionVoiceIII_a = {                                                     %! extern
+G_Percussion_Staff_II = {                                                      %! extern
 
-    % [G PercussionVoiceIII measure 44 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \G_Percussion_Voice_II                                                     %! extern
+
+}                                                                              %! extern
+
+
+G_Percussion_Voice_III_a = {                                                   %! extern
+
+    % [G Percussion_Voice_III measure 44 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -564,7 +564,7 @@ G_PercussionVoiceIII_a = {                                                     %
 
     r2                                                                         %! harp_exchange_rhythm
 
-    % [G PercussionVoiceIII measure 45 / measure 2]                            %! _comment_measure_numbers
+    % [G Percussion_Voice_III measure 45 / measure 2]                          %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -576,16 +576,16 @@ G_PercussionVoiceIII_a = {                                                     %
 
     }                                                                          %! harp_exchange_rhythm
 
-    % [G PercussionVoiceIII measure 46 / measure 3]                            %! _comment_measure_numbers
+    % [G Percussion_Voice_III measure 46 / measure 3]                          %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [G PercussionVoiceIII measure 47 / measure 4]                            %! _comment_measure_numbers
+    % [G Percussion_Voice_III measure 47 / measure 4]                          %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G PercussionVoiceIII measure 48 / measure 5]                            %! _comment_measure_numbers
+    % [G Percussion_Voice_III measure 48 / measure 5]                          %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G PercussionVoiceIII measure 49 / measure 6]                            %! _comment_measure_numbers
+    % [G Percussion_Voice_III measure 49 / measure 6]                          %! _comment_measure_numbers
     r4                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -602,24 +602,24 @@ G_PercussionVoiceIII_a = {                                                     %
 }                                                                              %! extern
 
 
-G_PercussionVoiceIII = {                                                       %! extern
+G_Percussion_Voice_III = {                                                     %! extern
 
-    \G_PercussionVoiceIII_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-G_PercussionStaffIII = {                                                       %! extern
-
-    \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
-    \G_PercussionVoiceIII                                                      %! extern
+    \G_Percussion_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-G_FirstViolinVoiceI_a = {                                                      %! extern
+G_Percussion_Staff_III = {                                                     %! extern
 
-    % [G FirstViolinVoiceI measure 44 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
+    \G_Percussion_Voice_III                                                    %! extern
+
+}                                                                              %! extern
+
+
+G_First_Violin_Voice_I_a = {                                                   %! extern
+
+    % [G First_Violin_Voice_I measure 44 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -663,7 +663,7 @@ G_FirstViolinVoiceI_a = {                                                      %
     f'''4                                                                      %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G FirstViolinVoiceI measure 45 / measure 2]                             %! _comment_measure_numbers
+    % [G First_Violin_Voice_I measure 45 / measure 2]                          %! _comment_measure_numbers
     e'''4                                                                      %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -676,7 +676,7 @@ G_FirstViolinVoiceI_a = {                                                      %
     b''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G FirstViolinVoiceI measure 46 / measure 3]                             %! _comment_measure_numbers
+    % [G First_Violin_Voice_I measure 46 / measure 3]                          %! _comment_measure_numbers
     a''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -689,7 +689,7 @@ G_FirstViolinVoiceI_a = {                                                      %
     e''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G FirstViolinVoiceI measure 47 / measure 4]                             %! _comment_measure_numbers
+    % [G First_Violin_Voice_I measure 47 / measure 4]                          %! _comment_measure_numbers
     d''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -699,7 +699,7 @@ G_FirstViolinVoiceI_a = {                                                      %
     b'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G FirstViolinVoiceI measure 48 / measure 5]                             %! _comment_measure_numbers
+    % [G First_Violin_Voice_I measure 48 / measure 5]                          %! _comment_measure_numbers
     a'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -709,7 +709,7 @@ G_FirstViolinVoiceI_a = {                                                      %
     f'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G FirstViolinVoiceI measure 49 / measure 6]                             %! _comment_measure_numbers
+    % [G First_Violin_Voice_I measure 49 / measure 6]                          %! _comment_measure_numbers
     e'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -734,24 +734,24 @@ G_FirstViolinVoiceI_a = {                                                      %
 }                                                                              %! extern
 
 
-G_FirstViolinVoiceI = {                                                        %! extern
+G_First_Violin_Voice_I = {                                                     %! extern
 
-    \G_FirstViolinVoiceI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-G_FirstViolinStaffI = {                                                        %! extern
-
-    \context Voice = "FirstViolinVoiceI"                                       %! ScoreTemplate
-    \G_FirstViolinVoiceI                                                       %! extern
+    \G_First_Violin_Voice_I_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-G_SecondViolinVoiceI_a = {                                                     %! extern
+G_First_Violin_Staff_I = {                                                     %! extern
 
-    % [G SecondViolinVoiceI measure 44 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \G_First_Violin_Voice_I                                                    %! extern
+
+}                                                                              %! extern
+
+
+G_Second_Violin_Voice_I_a = {                                                  %! extern
+
+    % [G Second_Violin_Voice_I measure 44 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -795,7 +795,7 @@ G_SecondViolinVoiceI_a = {                                                     %
     g''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G SecondViolinVoiceI measure 45 / measure 2]                            %! _comment_measure_numbers
+    % [G Second_Violin_Voice_I measure 45 / measure 2]                         %! _comment_measure_numbers
     f''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -808,7 +808,7 @@ G_SecondViolinVoiceI_a = {                                                     %
     d''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G SecondViolinVoiceI measure 46 / measure 3]                            %! _comment_measure_numbers
+    % [G Second_Violin_Voice_I measure 46 / measure 3]                         %! _comment_measure_numbers
     d''4                                                                       %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -821,7 +821,7 @@ G_SecondViolinVoiceI_a = {                                                     %
     b'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G SecondViolinVoiceI measure 47 / measure 4]                            %! _comment_measure_numbers
+    % [G Second_Violin_Voice_I measure 47 / measure 4]                         %! _comment_measure_numbers
     a'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -831,7 +831,7 @@ G_SecondViolinVoiceI_a = {                                                     %
     g'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G SecondViolinVoiceI measure 48 / measure 5]                            %! _comment_measure_numbers
+    % [G Second_Violin_Voice_I measure 48 / measure 5]                         %! _comment_measure_numbers
     f'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -841,7 +841,7 @@ G_SecondViolinVoiceI_a = {                                                     %
     e'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G SecondViolinVoiceI measure 49 / measure 6]                            %! _comment_measure_numbers
+    % [G Second_Violin_Voice_I measure 49 / measure 6]                         %! _comment_measure_numbers
     d'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -866,24 +866,24 @@ G_SecondViolinVoiceI_a = {                                                     %
 }                                                                              %! extern
 
 
-G_SecondViolinVoiceI = {                                                       %! extern
+G_Second_Violin_Voice_I = {                                                    %! extern
 
-    \G_SecondViolinVoiceI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-G_SecondViolinStaffI = {                                                       %! extern
-
-    \context Voice = "SecondViolinVoiceI"                                      %! ScoreTemplate
-    \G_SecondViolinVoiceI                                                      %! extern
+    \G_Second_Violin_Voice_I_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-G_ViolaVoiceI_a = {                                                            %! extern
+G_Second_Violin_Staff_I = {                                                    %! extern
 
-    % [G ViolaVoiceI measure 44 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \G_Second_Violin_Voice_I                                                   %! extern
+
+}                                                                              %! extern
+
+
+G_Viola_Voice_I_a = {                                                          %! extern
+
+    % [G Viola_Voice_I measure 44 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -927,7 +927,7 @@ G_ViolaVoiceI_a = {                                                            %
     a'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ViolaVoiceI measure 45 / measure 2]                                   %! _comment_measure_numbers
+    % [G Viola_Voice_I measure 45 / measure 2]                                 %! _comment_measure_numbers
     a'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -940,7 +940,7 @@ G_ViolaVoiceI_a = {                                                            %
     g'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ViolaVoiceI measure 46 / measure 3]                                   %! _comment_measure_numbers
+    % [G Viola_Voice_I measure 46 / measure 3]                                 %! _comment_measure_numbers
     f'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -953,7 +953,7 @@ G_ViolaVoiceI_a = {                                                            %
     e'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ViolaVoiceI measure 47 / measure 4]                                   %! _comment_measure_numbers
+    % [G Viola_Voice_I measure 47 / measure 4]                                 %! _comment_measure_numbers
     e'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -963,7 +963,7 @@ G_ViolaVoiceI_a = {                                                            %
     d'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ViolaVoiceI measure 48 / measure 5]                                   %! _comment_measure_numbers
+    % [G Viola_Voice_I measure 48 / measure 5]                                 %! _comment_measure_numbers
     d'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -973,7 +973,7 @@ G_ViolaVoiceI_a = {                                                            %
     c'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ViolaVoiceI measure 49 / measure 6]                                   %! _comment_measure_numbers
+    % [G Viola_Voice_I measure 49 / measure 6]                                 %! _comment_measure_numbers
     c'4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -998,24 +998,24 @@ G_ViolaVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-G_ViolaVoiceI = {                                                              %! extern
+G_Viola_Voice_I = {                                                            %! extern
 
-    \G_ViolaVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-G_ViolaStaffI = {                                                              %! extern
-
-    \context Voice = "ViolaVoiceI"                                             %! ScoreTemplate
-    \G_ViolaVoiceI                                                             %! extern
+    \G_Viola_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-G_CelloVoiceI_a = {                                                            %! extern
+G_Viola_Staff_I = {                                                            %! extern
 
-    % [G CelloVoiceI measure 44 / measure 1]                                   %! _comment_measure_numbers
+    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \G_Viola_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+G_Cello_Voice_I_a = {                                                          %! extern
+
+    % [G Cello_Voice_I measure 44 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1059,7 +1059,7 @@ G_CelloVoiceI_a = {                                                            %
     c4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G CelloVoiceI measure 45 / measure 2]                                   %! _comment_measure_numbers
+    % [G Cello_Voice_I measure 45 / measure 2]                                 %! _comment_measure_numbers
     c4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1072,7 +1072,7 @@ G_CelloVoiceI_a = {                                                            %
     d4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G CelloVoiceI measure 46 / measure 3]                                   %! _comment_measure_numbers
+    % [G Cello_Voice_I measure 46 / measure 3]                                 %! _comment_measure_numbers
     e4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1085,7 +1085,7 @@ G_CelloVoiceI_a = {                                                            %
     f4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G CelloVoiceI measure 47 / measure 4]                                   %! _comment_measure_numbers
+    % [G Cello_Voice_I measure 47 / measure 4]                                 %! _comment_measure_numbers
     f4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1095,7 +1095,7 @@ G_CelloVoiceI_a = {                                                            %
     g4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G CelloVoiceI measure 48 / measure 5]                                   %! _comment_measure_numbers
+    % [G Cello_Voice_I measure 48 / measure 5]                                 %! _comment_measure_numbers
     g4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1105,7 +1105,7 @@ G_CelloVoiceI_a = {                                                            %
     a4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G CelloVoiceI measure 49 / measure 6]                                   %! _comment_measure_numbers
+    % [G Cello_Voice_I measure 49 / measure 6]                                 %! _comment_measure_numbers
     a4                                                                         %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1130,24 +1130,24 @@ G_CelloVoiceI_a = {                                                            %
 }                                                                              %! extern
 
 
-G_CelloVoiceI = {                                                              %! extern
+G_Cello_Voice_I = {                                                            %! extern
 
-    \G_CelloVoiceI_a                                                           %! extern
-
-}                                                                              %! extern
-
-
-G_CelloStaffI = {                                                              %! extern
-
-    \context Voice = "CelloVoiceI"                                             %! ScoreTemplate
-    \G_CelloVoiceI                                                             %! extern
+    \G_Cello_Voice_I_a                                                         %! extern
 
 }                                                                              %! extern
 
 
-G_ContrabassVoiceI_a = {                                                       %! extern
+G_Cello_Staff_I = {                                                            %! extern
 
-    % [G ContrabassVoiceI measure 44 / measure 1]                              %! _comment_measure_numbers
+    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \G_Cello_Voice_I                                                           %! extern
+
+}                                                                              %! extern
+
+
+G_Contrabass_Voice_I_a = {                                                     %! extern
+
+    % [G Contrabass_Voice_I measure 44 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1196,12 +1196,12 @@ G_ContrabassVoiceI_a = {                                                       %
 
     r2                                                                         %! harp_exchange_rhythm
 
-    % [G ContrabassVoiceI measure 45 / measure 2]                              %! _comment_measure_numbers
+    % [G Contrabass_Voice_I measure 45 / measure 2]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
 
-        % [G ContrabassVoiceI measure 46 / measure 3]                          %! _comment_measure_numbers
+        % [G Contrabass_Voice_I measure 46 / measure 3]                        %! _comment_measure_numbers
         r4                                                                     %! harp_exchange_rhythm
 
         d''8                                                                   %! harp_exchange_rhythm
@@ -1211,13 +1211,13 @@ G_ContrabassVoiceI_a = {                                                       %
 
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G ContrabassVoiceI measure 47 / measure 4]                              %! _comment_measure_numbers
+    % [G Contrabass_Voice_I measure 47 / measure 4]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G ContrabassVoiceI measure 48 / measure 5]                              %! _comment_measure_numbers
+    % [G Contrabass_Voice_I measure 48 / measure 5]                            %! _comment_measure_numbers
     r2.                                                                        %! harp_exchange_rhythm
 
-    % [G ContrabassVoiceI measure 49 / measure 6]                              %! _comment_measure_numbers
+    % [G Contrabass_Voice_I measure 49 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! harp_exchange_rhythm
 
     \times 2/3 {                                                               %! harp_exchange_rhythm
@@ -1235,24 +1235,24 @@ G_ContrabassVoiceI_a = {                                                       %
 }                                                                              %! extern
 
 
-G_ContrabassVoiceI = {                                                         %! extern
+G_Contrabass_Voice_I = {                                                       %! extern
 
-    \G_ContrabassVoiceI_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-G_ContrabassStaffI = {                                                         %! extern
-
-    \context Voice = "ContrabassVoiceI"                                        %! ScoreTemplate
-    \G_ContrabassVoiceI                                                        %! extern
+    \G_Contrabass_Voice_I_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-G_ContrabassVoiceIII_a = {                                                     %! extern
+G_Contrabass_Staff_I = {                                                       %! extern
 
-    % [G ContrabassVoiceIII measure 44 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Contrabass_Voice_I"                                      %! ScoreTemplate
+    \G_Contrabass_Voice_I                                                      %! extern
+
+}                                                                              %! extern
+
+
+G_Contrabass_Voice_III_a = {                                                   %! extern
+
+    % [G Contrabass_Voice_III measure 44 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1303,7 +1303,7 @@ G_ContrabassVoiceIII_a = {                                                     %
     b,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ContrabassVoiceIII measure 45 / measure 2]                            %! _comment_measure_numbers
+    % [G Contrabass_Voice_III measure 45 / measure 2]                          %! _comment_measure_numbers
     b,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1316,7 +1316,7 @@ G_ContrabassVoiceIII_a = {                                                     %
     b,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ContrabassVoiceIII measure 46 / measure 3]                            %! _comment_measure_numbers
+    % [G Contrabass_Voice_III measure 46 / measure 3]                          %! _comment_measure_numbers
     b,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1329,7 +1329,7 @@ G_ContrabassVoiceIII_a = {                                                     %
     a,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ContrabassVoiceIII measure 47 / measure 4]                            %! _comment_measure_numbers
+    % [G Contrabass_Voice_III measure 47 / measure 4]                          %! _comment_measure_numbers
     a,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1339,7 +1339,7 @@ G_ContrabassVoiceIII_a = {                                                     %
     a,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ContrabassVoiceIII measure 48 / measure 5]                            %! _comment_measure_numbers
+    % [G Contrabass_Voice_III measure 48 / measure 5]                          %! _comment_measure_numbers
     a,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1349,7 +1349,7 @@ G_ContrabassVoiceIII_a = {                                                     %
     a,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [G ContrabassVoiceIII measure 49 / measure 6]                            %! _comment_measure_numbers
+    % [G Contrabass_Voice_III measure 49 / measure 6]                          %! _comment_measure_numbers
     a,4                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -1374,16 +1374,16 @@ G_ContrabassVoiceIII_a = {                                                     %
 }                                                                              %! extern
 
 
-G_ContrabassVoiceIII = {                                                       %! extern
+G_Contrabass_Voice_III = {                                                     %! extern
 
-    \G_ContrabassVoiceIII_a                                                    %! extern
+    \G_Contrabass_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-G_ContrabassStaffII = {                                                        %! extern
+G_Contrabass_Staff_II = {                                                      %! extern
 
-    \context Voice = "ContrabassVoiceIII"                                      %! ScoreTemplate
-    \G_ContrabassVoiceIII                                                      %! extern
+    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \G_Contrabass_Voice_III                                                    %! extern
 
 }                                                                              %! extern

@@ -16,16 +16,16 @@ def constellations(
     """
 
     section_to_members = {
-        'FirstViolin': 18,
-        'SecondViolin': 18,
+        'First_Violin': 18,
+        'Second_Violin': 18,
         'Viola': 18,
         'Cello': 14,
         'Contrabass': 6,
         }
 
     section_to_abbreviation = {
-        'FirstViolin': 'Vni. I',
-        'SecondViolin': 'Vni. II',
+        'First_Violin': 'Vni. I',
+        'Second_Violin': 'Vni. II',
         'Viola': 'Vle.',
         'Cello': 'Vc.',
         'Contrabass': 'Cb.',
@@ -52,7 +52,7 @@ def constellations(
             commands = []
             numeral = roman.toRoman(member)
             numeral = str(numeral).upper()
-            voice = f'{section}Voice{numeral}'
+            voice = f'{section}_Voice_{numeral}'
             maker(
                 voice,
                 animales.parts(section, member),
