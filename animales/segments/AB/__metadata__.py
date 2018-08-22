@@ -7,10 +7,10 @@ metadata = abjad.OrderedDict(
             'alive_during_segment',
             [
                 'Score',
-                'GlobalContext',
-                'GlobalRests',
-                'GlobalSkips',
-                'MusicContext',
+                'Global_Context',
+                'Global_Rests',
+                'Global_Skips',
+                'Music_Context',
                 'Percussion_Staff_Group',
                 'Percussion_Staff_I',
                 'Percussion_Voice_I',
@@ -2248,12 +2248,12 @@ metadata = abjad.OrderedDict(
                         'Score',
                         [
                             abjad.Momento(
-                                context='GlobalSkips',
+                                context='Global_Skips',
                                 manifest='metronome_marks',
                                 value='76',
                                 ),
                             abjad.Momento(
-                                context='GlobalSkips',
+                                context='Global_Skips',
                                 prototype='abjad.TimeSignature',
                                 value='1/4',
                                 ),

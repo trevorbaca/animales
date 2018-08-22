@@ -39,39 +39,39 @@ def downbeat_attack(count=1, denominator=8):
             \context Score = "Score"                                                                 %! ScoreTemplate
             <<                                                                                       %! ScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "GlobalContext"                                             %! _make_global_context
+                \context GlobalContext = "Global_Context"                                            %! _make_global_context
                 <<                                                                                   %! _make_global_context
             <BLANKLINE>
-                    \context GlobalRests = "GlobalRests"                                             %! _make_global_context
+                    \context GlobalRests = "Global_Rests"                                            %! _make_global_context
                     {                                                                                %! _make_global_context
             <BLANKLINE>
-                        % [GlobalRests measure 1]                                                    %! _comment_measure_numbers
+                        % [Global_Rests measure 1]                                                   %! _comment_measure_numbers
                         R1 * 1                                                                       %! _make_global_rests
             <BLANKLINE>
-                        % [GlobalRests measure 2]                                                    %! _comment_measure_numbers
+                        % [Global_Rests measure 2]                                                   %! _comment_measure_numbers
                         R1 * 3/4                                                                     %! _make_global_rests
             <BLANKLINE>
-                        % [GlobalRests measure 3]                                                    %! _comment_measure_numbers
+                        % [Global_Rests measure 3]                                                   %! _comment_measure_numbers
                         R1 * 1/2                                                                     %! _make_global_rests
             <BLANKLINE>
                     }                                                                                %! _make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "GlobalSkips"                                             %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                            %! _make_global_context
                     {                                                                                %! _make_global_context
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                                    %! _comment_measure_numbers
+                        % [Global_Skips measure 1]                                                   %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #8                                              %! HorizontalSpacingSpecifier(1):SPACING
                         \time 4/4                                                                    %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                            %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1                                                                       %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                                    %! _comment_measure_numbers
+                        % [Global_Skips measure 2]                                                   %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #8                                              %! HorizontalSpacingSpecifier(1):SPACING
                         \time 3/4                                                                    %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                            %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/4                                                                     %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                                    %! _comment_measure_numbers
+                        % [Global_Skips measure 3]                                                   %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #8                                              %! HorizontalSpacingSpecifier(1):SPACING
                         \time 2/4                                                                    %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                            %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -83,7 +83,7 @@ def downbeat_attack(count=1, denominator=8):
             <BLANKLINE>
                 >>                                                                                   %! _make_global_context
             <BLANKLINE>
-                \context MusicContext = "MusicContext"                                               %! make_music_context
+                \context MusicContext = "Music_Context"                                              %! make_music_context
                 <<                                                                                   %! make_music_context
             <BLANKLINE>
                     \context StaffGroup = "Brass_Staff_Group"                                        %! make_staff_group

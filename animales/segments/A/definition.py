@@ -37,7 +37,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.rehearsal_mark('A'),
     baca.only_score(baca.rehearsal_mark_y_offset(-2)),
     )

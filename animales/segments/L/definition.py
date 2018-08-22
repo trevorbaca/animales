@@ -56,7 +56,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark(baca.Accelerando()),
     baca.rehearsal_mark('L'),
     baca.tag(

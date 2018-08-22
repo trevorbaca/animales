@@ -1,30 +1,30 @@
-L_GlobalRests = {                                                              %! extern
+L_Global_Rests = {                                                             %! extern
 
-    % [L GlobalRests measure 76 / measure 1]                                   %! _comment_measure_numbers
+    % [L Global_Rests measure 76 / measure 1]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [L GlobalRests measure 77 / measure 2]                                   %! _comment_measure_numbers
+    % [L Global_Rests measure 77 / measure 2]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [L GlobalRests measure 78 / measure 3]                                   %! _comment_measure_numbers
+    % [L Global_Rests measure 78 / measure 3]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [L GlobalRests measure 79 / measure 4]                                   %! _comment_measure_numbers
+    % [L Global_Rests measure 79 / measure 4]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [L GlobalRests measure 80 / measure 5]                                   %! _comment_measure_numbers
+    % [L Global_Rests measure 80 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [L GlobalRests measure 81 / measure 6]                                   %! _comment_measure_numbers
+    % [L Global_Rests measure 81 / measure 6]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
 }                                                                              %! extern
 
 
-L_GlobalSkips = {                                                              %! extern
+L_Global_Skips = {                                                             %! extern
 
-    % [L GlobalSkips measure 76 / measure 1]                                   %! _comment_measure_numbers
-%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+    % [L Global_Skips measure 76 / measure 1]                                  %! _comment_measure_numbers
+%%% \once \override Global_Context.RehearsalMark.Y-offset = #6                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
 %%% \override TextSpanner.bound-details.left.padding = #3                      %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
 %%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(1)
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -64,7 +64,7 @@ L_GlobalSkips = {                                                              %
         }                                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [L GlobalSkips measure 77 / measure 2]                                   %! _comment_measure_numbers
+    % [L Global_Skips measure 77 / measure 2]                                  %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (77)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <1>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -72,7 +72,7 @@ L_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [L.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[2'36'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [L GlobalSkips measure 78 / measure 3]                                   %! _comment_measure_numbers
+    % [L Global_Skips measure 78 / measure 3]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -82,7 +82,7 @@ L_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [L.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[2'38'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [L GlobalSkips measure 79 / measure 4]                                   %! _comment_measure_numbers
+    % [L Global_Skips measure 79 / measure 4]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (79)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <3>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -90,7 +90,7 @@ L_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [L.4]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[2'41'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [L GlobalSkips measure 80 / measure 5]                                   %! _comment_measure_numbers
+    % [L Global_Skips measure 80 / measure 5]                                  %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -100,7 +100,7 @@ L_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [L.5]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[2'43'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [L GlobalSkips measure 81 / measure 6]                                   %! _comment_measure_numbers
+    % [L Global_Skips measure 81 / measure 6]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)

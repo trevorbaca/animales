@@ -58,7 +58,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('76'),
     baca.rehearsal_mark('Q'),
     baca.tag(
@@ -68,7 +68,7 @@ maker(
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(2)),
     baca.global_fermata('fermata', selector=baca.leaf(7)),
     )
