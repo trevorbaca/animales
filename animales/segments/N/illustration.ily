@@ -30,7 +30,7 @@ N_Global_Rests = {                                                             %
 N_Global_Skips = {                                                             %! extern
 
     % [N Global_Skips measure 88 / measure 1]                                  %! _comment_measure_numbers
-%%% \once \override Global_Context.RehearsalMark.Y-offset = #-2                %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                 %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #14                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -231,8 +231,26 @@ N_Flute_Voice_I_a = {                                                          %
     ]                                                                          %! pennant_rhythm
     )                                                                          %! baca_slur:SpannerCommand
 
-    % [N Flute_Voice_I measure 91 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Voice_I measure 91 / measure 4]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Rest_Voice_I measure 91 / measure 4]                    %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Flute_Voice_I measure 92 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -365,8 +383,26 @@ N_Flute_Voice_III_a = {                                                        %
 
     }                                                                          %! pennant_rhythm
 
-    % [N Flute_Voice_III measure 91 / measure 4]                               %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Voice_III"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Voice_III measure 91 / measure 4]                       %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Rest_Voice_III"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Rest_Voice_III measure 91 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Flute_Voice_III measure 92 / measure 5]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -551,8 +587,26 @@ N_Flute_Voice_II_a = {                                                         %
 
     }                                                                          %! pennant_rhythm
 
-    % [N Flute_Voice_II measure 91 / measure 4]                                %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Voice_II"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Voice_II measure 91 / measure 4]                        %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Rest_Voice_II"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Rest_Voice_II measure 91 / measure 4]                   %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Flute_Voice_II measure 92 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -701,8 +755,26 @@ N_Flute_Voice_IV_a = {                                                         %
     ]                                                                          %! pennant_rhythm
     )                                                                          %! baca_slur:SpannerCommand
 
-    % [N Flute_Voice_IV measure 91 / measure 4]                                %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Voice_IV"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Voice_IV measure 91 / measure 4]                        %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Rest_Voice_IV"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Flute_Rest_Voice_IV measure 91 / measure 4]                   %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Flute_Voice_IV measure 92 / measure 5]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -773,10 +845,28 @@ N_Bass_Clarinet_Voice_I_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N Bass_Clarinet_Voice_I measure 89 / measure 2]                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Bass_Clarinet_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Bass_Clarinet_Voice_I measure 89 / measure 2]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            bf!1 * 1/2                                                         %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Bass_Clarinet_Rest_Voice_I"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Bass_Clarinet_Rest_Voice_I measure 89 / measure 2]            %! _comment_measure_numbers
+            R1 * 1/2                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Bass_Clarinet_Voice_I measure 90 / measure 3]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
@@ -800,14 +890,32 @@ N_Bass_Clarinet_Voice_I_a = {                                                  %
     bf!1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [N Bass_Clarinet_Voice_I measure 94 / measure 7]                         %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Bass_Clarinet_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Bass_Clarinet_Voice_I measure 94 / measure 7]                 %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            bf!1 * 1/4                                                         %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Bass_Clarinet_Rest_Voice_I"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Bass_Clarinet_Rest_Voice_I measure 94 / measure 7]            %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -900,14 +1008,32 @@ N_Piano_Voice_I_a = {                                                          %
     % [N Piano_Voice_I measure 93 / measure 6]                                 %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [N Piano_Voice_I measure 94 / measure 7]                                 %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Piano_Voice_I measure 94 / measure 7]                         %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Piano_Rest_Voice_I measure 94 / measure 7]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -990,14 +1116,32 @@ N_Harp_Voice_I_a = {                                                           %
 
     }                                                                          %! harp_exchange_rhythm
 
-    % [N Harp_Voice_I measure 94 / measure 7]                                  %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Harp_Voice_I"                                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Harp_Voice_I measure 94 / measure 7]                          %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Harp_Rest_Voice_I"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Harp_Rest_Voice_I measure 94 / measure 7]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1075,8 +1219,26 @@ N_Percussion_Voice_I_a = {                                                     %
     - \tweak direction #up
     \repeatTie
 
-    % [N Percussion_Voice_I measure 91 / measure 4]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Percussion_Voice_I measure 91 / measure 4]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice_I"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Percussion_Rest_Voice_I measure 91 / measure 4]               %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Percussion_Voice_I measure 92 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1169,8 +1331,26 @@ N_Percussion_Voice_II_a = {                                                    %
     - \tweak direction #up
     \repeatTie
 
-    % [N Percussion_Voice_II measure 91 / measure 4]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Voice_II"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Percussion_Voice_II measure 91 / measure 4]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice_II"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Percussion_Rest_Voice_II measure 91 / measure 4]              %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Percussion_Voice_II measure 92 / measure 5]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1276,14 +1456,32 @@ N_Percussion_Voice_III_a = {                                                   %
     % [N Percussion_Voice_III measure 93 / measure 6]                          %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [N Percussion_Voice_III measure 94 / measure 7]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Voice_III"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Percussion_Voice_III measure 94 / measure 7]                  %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice_III"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Percussion_Rest_Voice_III measure 94 / measure 7]             %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1365,8 +1563,26 @@ N_First_Violin_Voice_II_a = {                                                  %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca_dls_up:OverrideCommand(2)
 
-    % [N First_Violin_Voice_II measure 91 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_II"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N First_Violin_Voice_II measure 91 / measure 4]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_II"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N First_Violin_Rest_Voice_II measure 91 / measure 4]            %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N First_Violin_Voice_II measure 92 / measure 5]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1436,19 +1652,37 @@ N_First_Violin_Voice_I_a = {                                                   %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [N First_Violin_Voice_I measure 91 / measure 4]                          %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "suddenly ripped off;"                                 %! baca_markup:IndicatorCommand
-                        "las. vib. possibile"                                  %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_I"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N First_Violin_Voice_I measure 91 / measure 4]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_I"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N First_Violin_Rest_Voice_I measure 91 / measure 4]             %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+            ^ \markup {                                                        %! baca_markup:IndicatorCommand
+                \override                                                      %! baca_markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
+                    \box                                                       %! baca_markup:IndicatorCommand
+                        \column                                                %! baca_markup:IndicatorCommand
+                            {                                                  %! baca_markup:IndicatorCommand
+                                "suddenly ripped off;"                         %! baca_markup:IndicatorCommand
+                                "las. vib. possibile"                          %! baca_markup:IndicatorCommand
+                            }                                                  %! baca_markup:IndicatorCommand
+                }                                                              %! baca_markup:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N First_Violin_Voice_I measure 92 / measure 5]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1528,19 +1762,37 @@ N_Second_Violin_Voice_I_a = {                                                  %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [N Second_Violin_Voice_I measure 91 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Second_Violin_Voice_I measure 91 / measure 4]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_I"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Second_Violin_Rest_Voice_I measure 91 / measure 4]            %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. possibile"                          %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Second_Violin_Voice_I measure 92 / measure 5]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1617,19 +1869,37 @@ N_Viola_Voice_I_a = {                                                          %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [N Viola_Voice_I measure 91 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Viola_Voice_I measure 91 / measure 4]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Viola_Rest_Voice_I measure 91 / measure 4]                    %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. possibile"                          %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Viola_Voice_I measure 92 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1706,19 +1976,37 @@ N_Cello_Voice_I_a = {                                                          %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [N Cello_Voice_I measure 91 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Cello_Voice_I measure 91 / measure 4]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Cello_Rest_Voice_I measure 91 / measure 4]                    %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. possibile"                          %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Cello_Voice_I measure 92 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1827,14 +2115,32 @@ N_Contrabass_Voice_I_a = {                                                     %
     % [N Contrabass_Voice_I measure 93 / measure 6]                            %! _comment_measure_numbers
     r1                                                                         %! harp_exchange_rhythm
 
-    % [N Contrabass_Voice_I measure 94 / measure 7]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Contrabass_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Contrabass_Voice_I measure 94 / measure 7]                    %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 1/4                                                         %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Contrabass_Rest_Voice_I"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Contrabass_Rest_Voice_I measure 94 / measure 7]               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1902,18 +2208,36 @@ N_Contrabass_Voice_III_a = {                                                   %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [N Contrabass_Voice_III measure 91 / measure 4]                          %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. possibile"                                  %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Contrabass_Voice_III"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Contrabass_Voice_III measure 91 / measure 4]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 1                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Contrabass_Rest_Voice_III"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Contrabass_Rest_Voice_III measure 91 / measure 4]             %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. possibile"                          %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Contrabass_Voice_III measure 92 / measure 5]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences

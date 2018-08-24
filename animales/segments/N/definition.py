@@ -323,18 +323,18 @@ maker(
     )
 
 most_strings = [
-    '2vn1',
-    'va1',
-    'vc1',
-    'cb3',
+    'Second_Violin_Rest_Voice_I',
+    'Viola_Rest_Voice_I',
+    'Cello_Rest_Voice_I',
+    'Contrabass_Rest_Voice_III',
     ]
 
-strings = ['suddenly ripped off;', 'las. vib. possibile']
+lines = ['suddenly ripped off;', 'las. vib. possibile']
 
 maker(
-    ('1vn1', 4),
+    ('First_Violin_Rest_Voice_I', 4),
     baca.markup(
-        baca.markups.lines(strings).boxed(),
+        baca.markups.lines(lines).boxed(),
         selector=baca.leaf(0),
         ),
     )
@@ -343,7 +343,7 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            baca.markups.lines(strings).boxed(),
+            baca.markups.lines(lines).boxed(),
             selector=baca.leaf(0),
             ),
         ),

@@ -125,8 +125,26 @@ def downbeat_attack(count=1, denominator=8):
             <BLANKLINE>
                                 }   %*% PartAssignment('Horn')
             <BLANKLINE>
-                                % [Horn_Voice_I measure 2]                                           %! _comment_measure_numbers
-                                R1 * 3/4                                                             %! _make_measure_silences
+                                <<                                                                   %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                    \context Voice = "Horn_Voice_I"                                  %! _make_multimeasure_rest_container
+                                    {                                                                %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                        % [Horn_Voice_I measure 2]                                   %! _comment_measure_numbers
+                                        \baca-invisible-music                                        %! _make_multimeasure_rest_container
+                                        c'1 * 3/4                                                    %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                    }                                                                %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                    \context Voice = "Horn_Rest_Voice_I"                             %! _make_multimeasure_rest_container
+                                    {                                                                %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                        % [Horn_Rest_Voice_I measure 2]                              %! _comment_measure_numbers
+                                        R1 * 3/4                                                     %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                    }                                                                %! _make_multimeasure_rest_container
+            <BLANKLINE>
+                                >>                                                                   %! _make_multimeasure_rest_container
             <BLANKLINE>
                                 % [Horn_Voice_I measure 3]                                           %! _comment_measure_numbers
                                 R1 * 1/2                                                             %! _make_measure_silences

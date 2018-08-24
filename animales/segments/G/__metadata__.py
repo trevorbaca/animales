@@ -16,6 +16,7 @@ metadata = abjad.OrderedDict(
                 'Clarinet_Voice_I',
                 'Bass_Clarinet_Staff_I',
                 'Bass_Clarinet_Voice_I',
+                'Bass_Clarinet_Rest_Voice_I',
                 'Piano_Piano_Staff',
                 'Piano_Staff_I',
                 'Piano_Voice_I',
@@ -1074,6 +1075,7 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
+                    ('Bass_Clarinet_Rest_Voice_I', False),
                     ('Bass_Clarinet_Voice_I', True),
                     ('Cello_Voice_I', True),
                     ('Clarinet_Voice_I', True),
