@@ -24,7 +24,7 @@ D_Global_Rests = {                                                             %
 D_Global_Skips = {                                                             %! extern
 
     % [D Global_Skips measure 24 / measure 1]                                  %! _comment_measure_numbers
-%%% \once \override Global_Context.RehearsalMark.Y-offset = #-2                %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #-2                 %! +SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \mark #4                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR

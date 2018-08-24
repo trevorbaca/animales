@@ -20,7 +20,7 @@ AB_Global_Rests = {                                                            %
 AB_Global_Skips = {                                                            %! extern
 
     % [AB Global_Skips measure 161 / measure 1]                                %! _comment_measure_numbers
-%%% \once \override Global_Context.RehearsalMark.Y-offset = #6                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #28                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -127,14 +127,32 @@ AB_Percussion_Voice_I_a = {                                                    %
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    % [AB Percussion_Voice_I measure 164 / measure 4]                          %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Percussion_Voice_I measure 164 / measure 4]                  %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice_I"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Percussion_Rest_Voice_I measure 164 / measure 4]             %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -206,14 +224,32 @@ AB_First_Violin_Voice_I_a = {                                                  %
 
     r8.                                                                        %! clb_rhythm
 
-    % [AB First_Violin_Voice_I measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_I"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_I measure 164 / measure 4]                %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_I"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_I measure 164 / measure 4]           %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -253,14 +289,32 @@ AB_First_Violin_Voice_II_a = {                                                 %
 
     r2.                                                                        %! clb_rhythm
 
-    % [AB First_Violin_Voice_II measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_II"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_II measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_II"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_II measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -343,14 +397,32 @@ AB_First_Violin_Voice_III_a = {                                                %
 
     r2.
 
-    % [AB First_Violin_Voice_III measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_III"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_III measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_III"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_III measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -396,14 +468,32 @@ AB_First_Violin_Voice_IV_a = {                                                 %
     % [AB First_Violin_Voice_IV measure 163 / measure 3]                       %! _comment_measure_numbers
     r1
 
-    % [AB First_Violin_Voice_IV measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_IV"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_IV measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_IV"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_IV measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -476,14 +566,32 @@ AB_First_Violin_Voice_V_a = {                                                  %
 
     d'16                                                                       %! clb_rhythm
 
-    % [AB First_Violin_Voice_V measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_V"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_V measure 164 / measure 4]                %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_V"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_V measure 164 / measure 4]           %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -527,14 +635,32 @@ AB_First_Violin_Voice_VI_a = {                                                 %
 
     r4..                                                                       %! clb_rhythm
 
-    % [AB First_Violin_Voice_VI measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_VI"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_VI measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_VI"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_VI measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -603,14 +729,32 @@ AB_First_Violin_Voice_VII_a = {                                                %
 
     r2
 
-    % [AB First_Violin_Voice_VII measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_VII"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_VII measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_VII"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_VII measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -656,14 +800,32 @@ AB_First_Violin_Voice_VIII_a = {                                               %
     % [AB First_Violin_Voice_VIII measure 163 / measure 3]                     %! _comment_measure_numbers
     r1
 
-    % [AB First_Violin_Voice_VIII measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_VIII"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_VIII measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_VIII"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_VIII measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -724,14 +886,32 @@ AB_First_Violin_Voice_IX_a = {                                                 %
     % [AB First_Violin_Voice_IX measure 163 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [AB First_Violin_Voice_IX measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_IX"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_IX measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_IX"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_IX measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -779,14 +959,32 @@ AB_First_Violin_Voice_X_a = {                                                  %
 
     r8.                                                                        %! clb_rhythm
 
-    % [AB First_Violin_Voice_X measure 164 / measure 4]                        %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_X"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_X measure 164 / measure 4]                %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_X"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_X measure 164 / measure 4]           %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -857,14 +1055,32 @@ AB_First_Violin_Voice_XI_a = {                                                 %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB First_Violin_Voice_XI measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XI"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XI measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XI"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XI measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -908,14 +1124,32 @@ AB_First_Violin_Voice_XII_a = {                                                %
 
     r2.
 
-    % [AB First_Violin_Voice_XII measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XII"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XII measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XII"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XII measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -992,14 +1226,32 @@ AB_First_Violin_Voice_XIII_a = {                                               %
     % [AB First_Violin_Voice_XIII measure 163 / measure 3]                     %! _comment_measure_numbers
     r1
 
-    % [AB First_Violin_Voice_XIII measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XIII"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XIII measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XIII"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XIII measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1039,14 +1291,32 @@ AB_First_Violin_Voice_XIV_a = {                                                %
 
     b16                                                                        %! clb_rhythm
 
-    % [AB First_Violin_Voice_XIV measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XIV"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XIV measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XIV"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XIV measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1119,14 +1389,32 @@ AB_First_Violin_Voice_XV_a = {                                                 %
 
     r4..                                                                       %! clb_rhythm
 
-    % [AB First_Violin_Voice_XV measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XV"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XV measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XV"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XV measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1178,14 +1466,32 @@ AB_First_Violin_Voice_XVI_a = {                                                %
 
     r4
 
-    % [AB First_Violin_Voice_XVI measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XVI"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XVI measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XVI"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XVI measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1252,14 +1558,32 @@ AB_First_Violin_Voice_XVII_a = {                                               %
     % [AB First_Violin_Voice_XVII measure 163 / measure 3]                     %! _comment_measure_numbers
     r1
 
-    % [AB First_Violin_Voice_XVII measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XVII"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XVII measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XVII"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XVII measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1303,14 +1627,32 @@ AB_First_Violin_Voice_XVIII_a = {                                              %
 
     r2.                                                                        %! clb_rhythm
 
-    % [AB First_Violin_Voice_XVIII measure 164 / measure 4]                    %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_XVIII"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Voice_XVIII measure 164 / measure 4]            %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_XVIII"                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB First_Violin_Rest_Voice_XVIII measure 164 / measure 4]       %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1379,14 +1721,32 @@ AB_Second_Violin_Voice_I_a = {                                                 %
 
     r4                                                                         %! clb_rhythm
 
-    % [AB Second_Violin_Voice_I measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_I measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_I"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_I measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1434,14 +1794,32 @@ AB_Second_Violin_Voice_II_a = {                                                %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB Second_Violin_Voice_II measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_II"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_II measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_II"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_II measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1518,14 +1896,32 @@ AB_Second_Violin_Voice_III_a = {                                               %
 
     r2.
 
-    % [AB Second_Violin_Voice_III measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_III"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_III measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_III"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_III measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1579,14 +1975,32 @@ AB_Second_Violin_Voice_IV_a = {                                                %
 
     }                                                                          %! clb_rhythm
 
-    % [AB Second_Violin_Voice_IV measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_IV"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_IV measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_IV"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_IV measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1655,14 +2069,32 @@ AB_Second_Violin_Voice_V_a = {                                                 %
     % [AB Second_Violin_Voice_V measure 163 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [AB Second_Violin_Voice_V measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_V"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_V measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_V"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_V measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1700,14 +2132,32 @@ AB_Second_Violin_Voice_VI_a = {                                                %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB Second_Violin_Voice_VI measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_VI"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_VI measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_VI"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_VI measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1792,14 +2242,32 @@ AB_Second_Violin_Voice_VII_a = {                                               %
 
     r4
 
-    % [AB Second_Violin_Voice_VII measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_VII"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_VII measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_VII"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_VII measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1843,14 +2311,32 @@ AB_Second_Violin_Voice_VIII_a = {                                              %
     % [AB Second_Violin_Voice_VIII measure 163 / measure 3]                    %! _comment_measure_numbers
     r1
 
-    % [AB Second_Violin_Voice_VIII measure 164 / measure 4]                    %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_VIII"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_VIII measure 164 / measure 4]            %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_VIII"                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_VIII measure 164 / measure 4]       %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1915,14 +2401,32 @@ AB_Second_Violin_Voice_IX_a = {                                                %
 
     r2..                                                                       %! clb_rhythm
 
-    % [AB Second_Violin_Voice_IX measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_IX"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_IX measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_IX"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_IX measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -1970,14 +2474,32 @@ AB_Second_Violin_Voice_X_a = {                                                 %
 
     r8.                                                                        %! clb_rhythm
 
-    % [AB Second_Violin_Voice_X measure 164 / measure 4]                       %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_X"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_X measure 164 / measure 4]               %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_X"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_X measure 164 / measure 4]          %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2040,14 +2562,32 @@ AB_Second_Violin_Voice_XI_a = {                                                %
 
     r2.                                                                        %! clb_rhythm
 
-    % [AB Second_Violin_Voice_XI measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XI"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XI measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XI"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XI measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2103,14 +2643,32 @@ AB_Second_Violin_Voice_XII_a = {                                               %
 
     r2.
 
-    % [AB Second_Violin_Voice_XII measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XII"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XII measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XII"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XII measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2179,14 +2737,32 @@ AB_Second_Violin_Voice_XIII_a = {                                              %
     % [AB Second_Violin_Voice_XIII measure 163 / measure 3]                    %! _comment_measure_numbers
     r1
 
-    % [AB Second_Violin_Voice_XIII measure 164 / measure 4]                    %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XIII"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XIII measure 164 / measure 4]            %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XIII"                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XIII measure 164 / measure 4]       %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2232,14 +2808,32 @@ AB_Second_Violin_Voice_XIV_a = {                                               %
 
     b16                                                                        %! clb_rhythm
 
-    % [AB Second_Violin_Voice_XIV measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XIV"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XIV measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XIV"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XIV measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2308,14 +2902,32 @@ AB_Second_Violin_Voice_XV_a = {                                                %
 
     r4..                                                                       %! clb_rhythm
 
-    % [AB Second_Violin_Voice_XV measure 164 / measure 4]                      %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XV"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XV measure 164 / measure 4]              %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XV"                         %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XV measure 164 / measure 4]         %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2359,14 +2971,32 @@ AB_Second_Violin_Voice_XVI_a = {                                               %
 
     r2
 
-    % [AB Second_Violin_Voice_XVI measure 164 / measure 4]                     %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XVI"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XVI measure 164 / measure 4]             %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XVI"                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XVI measure 164 / measure 4]        %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2437,14 +3067,32 @@ AB_Second_Violin_Voice_XVII_a = {                                              %
     % [AB Second_Violin_Voice_XVII measure 163 / measure 3]                    %! _comment_measure_numbers
     r1
 
-    % [AB Second_Violin_Voice_XVII measure 164 / measure 4]                    %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XVII"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XVII measure 164 / measure 4]            %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XVII"                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XVII measure 164 / measure 4]       %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2480,14 +3128,32 @@ AB_Second_Violin_Voice_XVIII_a = {                                             %
     % [AB Second_Violin_Voice_XVIII measure 163 / measure 3]                   %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [AB Second_Violin_Voice_XVIII measure 164 / measure 4]                   %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_XVIII"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Voice_XVIII measure 164 / measure 4]           %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_XVIII"                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Second_Violin_Rest_Voice_XVIII measure 164 / measure 4]      %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2562,14 +3228,32 @@ AB_Viola_Voice_I_a = {                                                         %
 
     r8.                                                                        %! clb_rhythm
 
-    % [AB Viola_Voice_I measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_I measure 164 / measure 4]                       %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_I measure 164 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2617,14 +3301,32 @@ AB_Viola_Voice_II_a = {                                                        %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB Viola_Voice_II measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_II"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_II measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_II"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_II measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2695,14 +3397,32 @@ AB_Viola_Voice_III_a = {                                                       %
 
     r2.
 
-    % [AB Viola_Voice_III measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_III"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_III measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_III"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_III measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2756,14 +3476,32 @@ AB_Viola_Voice_IV_a = {                                                        %
     % [AB Viola_Voice_IV measure 163 / measure 3]                              %! _comment_measure_numbers
     r1
 
-    % [AB Viola_Voice_IV measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_IV"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_IV measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_IV"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_IV measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2828,14 +3566,32 @@ AB_Viola_Voice_V_a = {                                                         %
 
     d'16                                                                       %! clb_rhythm
 
-    % [AB Viola_Voice_V measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_V"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_V measure 164 / measure 4]                       %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_V"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_V measure 164 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2883,14 +3639,32 @@ AB_Viola_Voice_VI_a = {                                                        %
 
     r4..                                                                       %! clb_rhythm
 
-    % [AB Viola_Voice_VI measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_VI"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_VI measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_VI"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_VI measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -2967,14 +3741,32 @@ AB_Viola_Voice_VII_a = {                                                       %
 
     r4
 
-    % [AB Viola_Voice_VII measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_VII"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_VII measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_VII"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_VII measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3016,14 +3808,32 @@ AB_Viola_Voice_VIII_a = {                                                      %
     % [AB Viola_Voice_VIII measure 163 / measure 3]                            %! _comment_measure_numbers
     r1
 
-    % [AB Viola_Voice_VIII measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_VIII"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_VIII measure 164 / measure 4]                    %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_VIII"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_VIII measure 164 / measure 4]               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3092,14 +3902,32 @@ AB_Viola_Voice_IX_a = {                                                        %
 
     r2.                                                                        %! clb_rhythm
 
-    % [AB Viola_Voice_IX measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_IX"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_IX measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_IX"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_IX measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3141,14 +3969,32 @@ AB_Viola_Voice_X_a = {                                                         %
 
     r4                                                                         %! clb_rhythm
 
-    % [AB Viola_Voice_X measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_X"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_X measure 164 / measure 4]                       %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_X"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_X measure 164 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3219,14 +4065,32 @@ AB_Viola_Voice_XI_a = {                                                        %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB Viola_Voice_XI measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XI"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XI measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XI"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XI measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3276,14 +4140,32 @@ AB_Viola_Voice_XII_a = {                                                       %
 
     r2.
 
-    % [AB Viola_Voice_XII measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XII"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XII measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XII"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XII measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3360,14 +4242,32 @@ AB_Viola_Voice_XIII_a = {                                                      %
 
     }                                                                          %! clb_rhythm
 
-    % [AB Viola_Voice_XIII measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XIII"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XIII measure 164 / measure 4]                    %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XIII"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XIII measure 164 / measure 4]               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3411,14 +4311,32 @@ AB_Viola_Voice_XIV_a = {                                                       %
     % [AB Viola_Voice_XIV measure 163 / measure 3]                             %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [AB Viola_Voice_XIV measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XIV"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XIV measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XIV"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XIV measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3481,14 +4399,32 @@ AB_Viola_Voice_XV_a = {                                                        %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB Viola_Voice_XV measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XV"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XV measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XV"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XV measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3548,14 +4484,32 @@ AB_Viola_Voice_XVI_a = {                                                       %
 
     r4
 
-    % [AB Viola_Voice_XVI measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XVI"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XVI measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XVI"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XVI measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3624,14 +4578,32 @@ AB_Viola_Voice_XVII_a = {                                                      %
     % [AB Viola_Voice_XVII measure 163 / measure 3]                            %! _comment_measure_numbers
     r1
 
-    % [AB Viola_Voice_XVII measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XVII"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XVII measure 164 / measure 4]                    %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XVII"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XVII measure 164 / measure 4]               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3671,14 +4643,32 @@ AB_Viola_Voice_XVIII_a = {                                                     %
 
     r2..                                                                       %! clb_rhythm
 
-    % [AB Viola_Voice_XVIII measure 164 / measure 4]                           %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_XVIII"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Voice_XVIII measure 164 / measure 4]                   %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_XVIII"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Viola_Rest_Voice_XVIII measure 164 / measure 4]              %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3753,14 +4743,32 @@ AB_Cello_Voice_I_a = {                                                         %
 
     r8.                                                                        %! clb_rhythm
 
-    % [AB Cello_Voice_I measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_I measure 164 / measure 4]                       %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_I measure 164 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3800,14 +4808,32 @@ AB_Cello_Voice_II_a = {                                                        %
 
     r2.                                                                        %! clb_rhythm
 
-    % [AB Cello_Voice_II measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_II"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_II measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_II"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_II measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3888,14 +4914,32 @@ AB_Cello_Voice_III_a = {                                                       %
 
     r2.
 
-    % [AB Cello_Voice_III measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_III"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_III measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_III"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_III measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -3939,14 +4983,32 @@ AB_Cello_Voice_IV_a = {                                                        %
     % [AB Cello_Voice_IV measure 163 / measure 3]                              %! _comment_measure_numbers
     r1
 
-    % [AB Cello_Voice_IV measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_IV"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_IV measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_IV"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_IV measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4017,14 +5079,32 @@ AB_Cello_Voice_V_a = {                                                         %
 
     d'16                                                                       %! clb_rhythm
 
-    % [AB Cello_Voice_V measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_V"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_V measure 164 / measure 4]                       %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_V"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_V measure 164 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4068,14 +5148,32 @@ AB_Cello_Voice_VI_a = {                                                        %
 
     r4..                                                                       %! clb_rhythm
 
-    % [AB Cello_Voice_VI measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_VI"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_VI measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_VI"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_VI measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4144,14 +5242,32 @@ AB_Cello_Voice_VII_a = {                                                       %
 
     r2
 
-    % [AB Cello_Voice_VII measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_VII"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_VII measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_VII"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_VII measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4197,14 +5313,32 @@ AB_Cello_Voice_VIII_a = {                                                      %
     % [AB Cello_Voice_VIII measure 163 / measure 3]                            %! _comment_measure_numbers
     r1
 
-    % [AB Cello_Voice_VIII measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_VIII"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_VIII measure 164 / measure 4]                    %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_VIII"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_VIII measure 164 / measure 4]               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4265,14 +5399,32 @@ AB_Cello_Voice_IX_a = {                                                        %
     % [AB Cello_Voice_IX measure 163 / measure 3]                              %! _comment_measure_numbers
     r1                                                                         %! clb_rhythm
 
-    % [AB Cello_Voice_IX measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_IX"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_IX measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_IX"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_IX measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4320,14 +5472,32 @@ AB_Cello_Voice_X_a = {                                                         %
 
     r8.                                                                        %! clb_rhythm
 
-    % [AB Cello_Voice_X measure 164 / measure 4]                               %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_X"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_X measure 164 / measure 4]                       %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_X"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_X measure 164 / measure 4]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4398,14 +5568,32 @@ AB_Cello_Voice_XI_a = {                                                        %
 
     r2                                                                         %! clb_rhythm
 
-    % [AB Cello_Voice_XI measure 164 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_XI"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_XI measure 164 / measure 4]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_XI"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_XI measure 164 / measure 4]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4449,14 +5637,32 @@ AB_Cello_Voice_XII_a = {                                                       %
 
     r2.
 
-    % [AB Cello_Voice_XII measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_XII"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_XII measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_XII"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_XII measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4533,14 +5739,32 @@ AB_Cello_Voice_XIII_a = {                                                      %
     % [AB Cello_Voice_XIII measure 163 / measure 3]                            %! _comment_measure_numbers
     r1
 
-    % [AB Cello_Voice_XIII measure 164 / measure 4]                            %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_XIII"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_XIII measure 164 / measure 4]                    %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_XIII"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_XIII measure 164 / measure 4]               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -4580,14 +5804,32 @@ AB_Cello_Voice_XIV_a = {                                                       %
 
     b16                                                                        %! clb_rhythm
 
-    % [AB Cello_Voice_XIV measure 164 / measure 4]                             %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_XIV"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Voice_XIV measure 164 / measure 4]                     %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_XIV"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AB Cello_Rest_Voice_XIV measure 164 / measure 4]                %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 

@@ -44,7 +44,7 @@ K_Global_Rests = {                                                             %
 K_Global_Skips = {                                                             %! extern
 
     % [K Global_Skips measure 68 / measure 1]                                  %! _comment_measure_numbers
-%%% \once \override Global_Context.RehearsalMark.Y-offset = #6                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
 %%% \override TextSpanner.bound-details.left.padding = #-8                     %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
 %%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca_text_spanner_y_offset:OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
@@ -296,8 +296,26 @@ K_Horn_Voice_I_a = {                                                           %
 
     r2..
 
-    % [K Horn_Voice_I measure 69 / measure 2]                                  %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Voice_I"                                        %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Voice_I measure 69 / measure 2]                          %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            g'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Rest_Voice_I"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Rest_Voice_I measure 69 / measure 2]                     %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Horn_Voice_I measure 70 / measure 3]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -338,8 +356,26 @@ K_Horn_Voice_III_a = {                                                         %
 
     r2..
 
-    % [K Horn_Voice_III measure 69 / measure 2]                                %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Voice_III"                                      %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Voice_III measure 69 / measure 2]                        %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            g'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Rest_Voice_III"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Rest_Voice_III measure 69 / measure 2]                   %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Horn_Voice_III measure 70 / measure 3]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -421,8 +457,26 @@ K_Horn_Voice_II_a = {                                                          %
 
     r2..
 
-    % [K Horn_Voice_II measure 69 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Voice_II"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Voice_II measure 69 / measure 2]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            g'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Rest_Voice_II"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Rest_Voice_II measure 69 / measure 2]                    %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Horn_Voice_II measure 70 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -463,8 +517,26 @@ K_Horn_Voice_IV_a = {                                                          %
 
     r2..
 
-    % [K Horn_Voice_IV measure 69 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Voice_IV"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Voice_IV measure 69 / measure 2]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            g'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Horn_Rest_Voice_IV"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Horn_Rest_Voice_IV measure 69 / measure 2]                    %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Horn_Voice_IV measure 70 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -546,8 +618,26 @@ K_Trumpet_Voice_I_a = {                                                        %
 
     r2..
 
-    % [K Trumpet_Voice_I measure 69 / measure 2]                               %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Voice_I"                                     %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Voice_I measure 69 / measure 2]                       %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Rest_Voice_I"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Rest_Voice_I measure 69 / measure 2]                  %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trumpet_Voice_I measure 70 / measure 3]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -588,8 +678,26 @@ K_Trumpet_Voice_III_a = {                                                      %
 
     r2..
 
-    % [K Trumpet_Voice_III measure 69 / measure 2]                             %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Voice_III"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Voice_III measure 69 / measure 2]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Rest_Voice_III"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Rest_Voice_III measure 69 / measure 2]                %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trumpet_Voice_III measure 70 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -671,8 +779,26 @@ K_Trumpet_Voice_II_a = {                                                       %
 
     r2..
 
-    % [K Trumpet_Voice_II measure 69 / measure 2]                              %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Voice_II"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Voice_II measure 69 / measure 2]                      %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Rest_Voice_II"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Rest_Voice_II measure 69 / measure 2]                 %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trumpet_Voice_II measure 70 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -715,8 +841,26 @@ K_Trumpet_Voice_IV_a = {                                                       %
 
     r2..
 
-    % [K Trumpet_Voice_IV measure 69 / measure 2]                              %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Voice_IV"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Voice_IV measure 69 / measure 2]                      %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trumpet_Rest_Voice_IV"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trumpet_Rest_Voice_IV measure 69 / measure 2]                 %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trumpet_Voice_IV measure 70 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -798,8 +942,26 @@ K_Trombone_Voice_I_a = {                                                       %
 
     r2..
 
-    % [K Trombone_Voice_I measure 69 / measure 2]                              %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Voice_I"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Voice_I measure 69 / measure 2]                      %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Rest_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Rest_Voice_I measure 69 / measure 2]                 %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trombone_Voice_I measure 70 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -840,8 +1002,26 @@ K_Trombone_Voice_III_a = {                                                     %
 
     r2..
 
-    % [K Trombone_Voice_III measure 69 / measure 2]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Voice_III"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Voice_III measure 69 / measure 2]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Rest_Voice_III"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Rest_Voice_III measure 69 / measure 2]               %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trombone_Voice_III measure 70 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -923,8 +1103,26 @@ K_Trombone_Voice_II_a = {                                                      %
 
     r2..
 
-    % [K Trombone_Voice_II measure 69 / measure 2]                             %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Voice_II"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Voice_II measure 69 / measure 2]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Rest_Voice_II"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Rest_Voice_II measure 69 / measure 2]                %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trombone_Voice_II measure 70 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -967,8 +1165,26 @@ K_Trombone_Voice_IV_a = {                                                      %
 
     r2..
 
-    % [K Trombone_Voice_IV measure 69 / measure 2]                             %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Voice_IV"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Voice_IV measure 69 / measure 2]                     %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Trombone_Rest_Voice_IV"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Trombone_Rest_Voice_IV measure 69 / measure 2]                %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Trombone_Voice_IV measure 70 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences

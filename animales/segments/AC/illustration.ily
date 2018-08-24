@@ -38,7 +38,7 @@ AC_Global_Rests = {                                                            %
 AC_Global_Skips = {                                                            %! extern
 
     % [AC Global_Skips measure 165 / measure 1]                                %! _comment_measure_numbers
-%%% \once \override Global_Context.RehearsalMark.Y-offset = #6                 %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
+%%% \once \override GlobalContext.RehearsalMark.Y-offset = #6                  %! +TABLOID_SCORE:baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #29                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -214,14 +214,32 @@ AC_Piano_Voice_I_a = {                                                         %
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 %%% \revert TextScript.X-offset                                                %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
 
-    % [AC Piano_Voice_I measure 174 / measure 10]                              %! _comment_measure_numbers
-%%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand
-%%% \once \override Score.TimeSignature.stencil = ##f                          %! baca_literal:+PARTS:IndicatorCommand
-    R1 * 1/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \musicglyph                                                            %! baca_markup:+PARTS:IndicatorCommand
-%%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AC Piano_Voice_I measure 174 / measure 10]                      %! _comment_measure_numbers
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AC Piano_Rest_Voice_I measure 174 / measure 10]                 %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -382,8 +400,26 @@ AC_Percussion_Voice_IV_a = {                                                   %
     \repeatTie
 %%% \revert TextScript.X-offset                                                %! +PARTS:baca_text_script_x_offset:OverrideCommand(2)
 
-    % [AC Percussion_Voice_IV measure 173 / measure 9]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Voice_IV"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AC Percussion_Voice_IV measure 173 / measure 9]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice_IV"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [AC Percussion_Rest_Voice_IV measure 173 / measure 9]            %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [AC Percussion_Voice_IV measure 174 / measure 10]                        %! _comment_measure_numbers
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca_literal:+PARTS:IndicatorCommand

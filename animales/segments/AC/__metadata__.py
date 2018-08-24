@@ -14,9 +14,11 @@ metadata = abjad.OrderedDict(
                 'Piano_Piano_Staff',
                 'Piano_Staff_I',
                 'Piano_Voice_I',
+                'Piano_Rest_Voice_I',
                 'Percussion_Staff_Group',
                 'Percussion_Staff_IV',
                 'Percussion_Voice_IV',
+                'Percussion_Rest_Voice_IV',
                 ],
             ),
         (
@@ -2457,7 +2459,9 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
+                    ('Percussion_Rest_Voice_IV', False),
                     ('Percussion_Voice_IV', True),
+                    ('Piano_Rest_Voice_I', False),
                     ('Piano_Voice_I', True),
                     ]
                 ),

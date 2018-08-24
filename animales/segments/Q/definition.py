@@ -219,7 +219,9 @@ def tremolo(peak='f'):
             'tasto => ext. pont. => tasto',
             piece_selector=baca.cmgroups([2]),
             ),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(
+            selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+            ),
         )
 
 def upper_voice():
@@ -248,7 +250,12 @@ for voice, items in string_parts.items():
         commands.append(upper_voice())
     elif items[1] is False:
         commands.append(lower_voice())
-    commands.append(baca.pitch(items[2]))
+    commands.append(
+        baca.pitch(
+            items[2],
+            selector=baca.plts(exclude=baca.enums.HIDDEN),
+            ),
+        )
     maker(
         voice,
         *commands,
@@ -276,7 +283,9 @@ for voice, items in string_parts.items():
 maker(
     '1vn5',
     baca.repeat_tie_to(selector=baca.leaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(
+        selector=baca.pleaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(

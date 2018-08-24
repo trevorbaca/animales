@@ -139,20 +139,38 @@ H_Clarinet_Voice_I_a = {                                                       %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    % [H Clarinet_Voice_I measure 53 / measure 4]                              %! _comment_measure_numbers
-%%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)             %! +SCORE:baca_mmrest_text_extra_offset:OverrideCommand(1)
-    R1 * 3/4                                                                   %! _make_measure_silences
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "choke sound suddenly:"                                %! baca_markup:IndicatorCommand
-                        "touch tongue to reed"                                 %! baca_markup:IndicatorCommand
-                        "exactly on downbeat"                                  %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Clarinet_Voice_I"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Clarinet_Voice_I measure 53 / measure 4]                      %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            d'1 * 3/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Clarinet_Rest_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Clarinet_Rest_Voice_I measure 53 / measure 4]                 %! _comment_measure_numbers
+        %%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)     %! +SCORE:baca_mmrest_text_extra_offset:OverrideCommand(1)
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+            ^ \markup {                                                        %! baca_markup:IndicatorCommand
+                \override                                                      %! baca_markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
+                    \box                                                       %! baca_markup:IndicatorCommand
+                        \column                                                %! baca_markup:IndicatorCommand
+                            {                                                  %! baca_markup:IndicatorCommand
+                                "choke sound suddenly:"                        %! baca_markup:IndicatorCommand
+                                "touch tongue to reed"                         %! baca_markup:IndicatorCommand
+                                "exactly on downbeat"                          %! baca_markup:IndicatorCommand
+                            }                                                  %! baca_markup:IndicatorCommand
+                }                                                              %! baca_markup:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Clarinet_Voice_I measure 54 / measure 5]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -625,30 +643,48 @@ H_First_Violin_Voice_I_a = {                                                   %
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [H First_Violin_Voice_I measure 53 / measure 4]                          %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. poss."                                      %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:-PARTS:IndicatorCommand
-        \override                                                              %! baca_markup:-PARTS:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:-PARTS:IndicatorCommand
-            \box                                                               %! baca_markup:-PARTS:IndicatorCommand
-                \column                                                        %! baca_markup:-PARTS:IndicatorCommand
-                    {                                                          %! baca_markup:-PARTS:IndicatorCommand
-                        strings:                                               %! baca_markup:-PARTS:IndicatorCommand
-                        "suddenly ripped off;"                                 %! baca_markup:-PARTS:IndicatorCommand
-                        "las. vib. poss."                                      %! baca_markup:-PARTS:IndicatorCommand
-                    }                                                          %! baca_markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca_markup:-PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Voice_I"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H First_Violin_Voice_I measure 53 / measure 4]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "First_Violin_Rest_Voice_I"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H First_Violin_Rest_Voice_I measure 53 / measure 4]             %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. poss."                              %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+            ^ \markup {                                                        %! baca_markup:-PARTS:IndicatorCommand
+                \override                                                      %! baca_markup:-PARTS:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca_markup:-PARTS:IndicatorCommand
+                    \box                                                       %! baca_markup:-PARTS:IndicatorCommand
+                        \column                                                %! baca_markup:-PARTS:IndicatorCommand
+                            {                                                  %! baca_markup:-PARTS:IndicatorCommand
+                                strings:                                       %! baca_markup:-PARTS:IndicatorCommand
+                                "suddenly ripped off;"                         %! baca_markup:-PARTS:IndicatorCommand
+                                "las. vib. poss."                              %! baca_markup:-PARTS:IndicatorCommand
+                            }                                                  %! baca_markup:-PARTS:IndicatorCommand
+                }                                                              %! baca_markup:-PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H First_Violin_Voice_I measure 54 / measure 5]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -714,19 +750,37 @@ H_Second_Violin_Voice_I_a = {                                                  %
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [H Second_Violin_Voice_I measure 53 / measure 4]                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. poss."                                      %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Voice_I"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Second_Violin_Voice_I measure 53 / measure 4]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Second_Violin_Rest_Voice_I"                          %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Second_Violin_Rest_Voice_I measure 53 / measure 4]            %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. poss."                              %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Second_Violin_Voice_I measure 54 / measure 5]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -792,19 +846,37 @@ H_Viola_Voice_I_a = {                                                          %
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [H Viola_Voice_I measure 53 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. poss."                                      %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Viola_Voice_I measure 53 / measure 4]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Viola_Rest_Voice_I measure 53 / measure 4]                    %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. poss."                              %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Viola_Voice_I measure 54 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -870,19 +942,37 @@ H_Cello_Voice_I_a = {                                                          %
     af!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [H Cello_Voice_I measure 53 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. poss."                                      %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Voice_I"                                       %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Cello_Voice_I measure 53 / measure 4]                         %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice_I"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Cello_Rest_Voice_I measure 53 / measure 4]                    %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. poss."                              %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Cello_Voice_I measure 54 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1048,18 +1138,36 @@ H_Contrabass_Voice_III_a = {                                                   %
     af,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [H Contrabass_Voice_III measure 53 / measure 4]                          %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-%%% ^ \markup {                                                                %! baca_markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca_markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca_markup:+PARTS:IndicatorCommand
-%%%             \column                                                        %! baca_markup:+PARTS:IndicatorCommand
-%%%                 {                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "suddenly ripped off;"                                 %! baca_markup:+PARTS:IndicatorCommand
-%%%                     "las. vib. poss."                                      %! baca_markup:+PARTS:IndicatorCommand
-%%%                 }                                                          %! baca_markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Contrabass_Voice_III"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Contrabass_Voice_III measure 53 / measure 4]                  %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 3/4                                                         %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Contrabass_Rest_Voice_III"                           %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Contrabass_Rest_Voice_III measure 53 / measure 4]             %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+        %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
+        %%%     \override                                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         #'(box-padding . 0.5)                                      %! baca_markup:+PARTS:IndicatorCommand
+        %%%         \box                                                       %! baca_markup:+PARTS:IndicatorCommand
+        %%%             \column                                                %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 {                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "suddenly ripped off;"                         %! baca_markup:+PARTS:IndicatorCommand
+        %%%                     "las. vib. poss."                              %! baca_markup:+PARTS:IndicatorCommand
+        %%%                 }                                                  %! baca_markup:+PARTS:IndicatorCommand
+        %%%     }                                                              %! baca_markup:+PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Contrabass_Voice_III measure 54 / measure 5]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences

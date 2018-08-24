@@ -180,6 +180,7 @@ maker(
         ),
     baca.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
+    baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie_to(selector=baca.leaves()),
@@ -245,6 +246,7 @@ maker(
 maker(
     ('1vn1', (1, 2)),
     animales.parts('First_Violin', (1, 10)),
+    baca.not_parts(baca.voice_two()),
     )
 
 maker(
