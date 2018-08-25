@@ -19,37 +19,37 @@
             \baca-lbsd #60 #'(20 20)                                                     %! BREAK:IndicatorCommand
             \pageBreak                                                                   %! BREAK:IndicatorCommand
             s1 * 1                                                                       %! _make_global_skips(1)
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
+        %@% ^ \baca-spacing-markup "[1/20]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
             % [Page_Layout measure 2]                                                    %! _comment_measure_numbers
             \baca-new-spacing-section #1 #20                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1                                                                       %! _make_global_skips(1)
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
+        %@% ^ \baca-spacing-markup "[1/20]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
             % [Page_Layout measure 3]                                                    %! _comment_measure_numbers
             \baca-new-spacing-section #1 #20                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1                                                                       %! _make_global_skips(1)
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
+        %@% ^ \baca-spacing-markup "[1/20]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
             % [Page_Layout measure 4]                                                    %! _comment_measure_numbers
             \baca-new-spacing-section #1 #20                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 3/4                                                                     %! _make_global_skips(1)
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
+        %@% ^ \baca-spacing-markup "[1/20]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
             % [Page_Layout measure 5]                                                    %! _comment_measure_numbers
             \baca-new-spacing-section #1 #20                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 3/4                                                                     %! _make_global_skips(1)
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                             %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
+        %@% ^ \baca-spacing-markup "[1/20]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
             % [Page_Layout measure 6]                                                    %! _comment_measure_numbers
             \baca-new-spacing-section #35 #480                                           %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1                                                                       %! _make_global_skips(1)
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                   %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
+        %@% ^ \baca-spacing-markup "[[1/20 * 35/24]]"                                    %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
         }   %*% Page_Layout                                                              %! _make_global_context
 
