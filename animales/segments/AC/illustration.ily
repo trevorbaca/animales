@@ -28,7 +28,7 @@ AC_Global_Rests = {                                                            %
     R1 * 1                                                                     %! _make_global_rests
 
     % [AC Global_Rests measure 174 / measure 10]                               %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
