@@ -51,7 +51,6 @@ K_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.1]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'12'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     - \baca-rehearsal-mark-markup "K"                                          %! baca_rehearsal_mark:IndicatorCommand
 %@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
@@ -69,7 +68,6 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 69 / measure 2]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.2]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'15'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -83,7 +81,6 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 70 / measure 3]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.3]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'18'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -99,7 +96,6 @@ K_Global_Skips = {                                                             %
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.4]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'21'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -113,7 +109,6 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 72 / measure 5]                                  %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.5]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'23'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -129,7 +124,6 @@ K_Global_Skips = {                                                             %
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.6]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'26'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -143,7 +137,6 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 74 / measure 7]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.7]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'29'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -157,7 +150,6 @@ K_Global_Skips = {                                                             %
 
     % [K Global_Skips measure 75 / measure 8]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[K.8]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[2'32'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP

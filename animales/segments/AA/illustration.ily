@@ -20,7 +20,6 @@ AA_Global_Skips = {                                                            %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[AA.1]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'30'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     - \baca-rehearsal-mark-markup "AA"                                         %! baca_rehearsal_mark:IndicatorCommand
 %@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
@@ -38,7 +37,6 @@ AA_Global_Skips = {                                                            %
 
     % [AA Global_Skips measure 159 / measure 2]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[AA.2]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'33'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -52,7 +50,6 @@ AA_Global_Skips = {                                                            %
 
     % [AA Global_Skips measure 160 / measure 3]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-stage-number-markup "[AA.3]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'36'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
