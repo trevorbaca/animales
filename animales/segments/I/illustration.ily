@@ -1699,13 +1699,13 @@ I_Percussion_Voice_II = {                                                      %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Voice_II measure 59 / measure 4]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Voice_II measure 60 / measure 5]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Voice_II measure 61 / measure 6]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
