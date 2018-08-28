@@ -568,25 +568,25 @@ F_Percussion_Voice_I_a = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F Percussion_Voice_I measure 37 / measure 2]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [F Percussion_Voice_I measure 38 / measure 3]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [F Percussion_Voice_I measure 39 / measure 4]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [F Percussion_Voice_I measure 40 / measure 5]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [F Percussion_Voice_I measure 41 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [F Percussion_Voice_I measure 42 / measure 7]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [F Percussion_Voice_I measure 43 / measure 8]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
