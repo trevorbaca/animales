@@ -1580,7 +1580,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Contrabass_Voice_III',
-                                prototype='abjad.DynamicTrend',
+                                prototype='abjad.HairpinIndicator',
                                 value='<',
                                 ),
                             ],
