@@ -189,8 +189,8 @@ N_Flute_Voice_I_a = {                                                          %
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
+        (                                                                      %! baca_slur:SpannerIndicatorCommand(1)
         [                                                                      %! pennant_rhythm
-        (                                                                      %! baca_slur:SpannerCommand
 
         af''!8                                                                 %! pennant_rhythm
 
@@ -265,8 +265,8 @@ N_Flute_Voice_I_a = {                                                          %
     c'''16                                                                     %! pennant_rhythm
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(2)
+    )                                                                          %! baca_slur:SpannerIndicatorCommand(2)
     ]                                                                          %! pennant_rhythm
-    )                                                                          %! baca_slur:SpannerCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -327,8 +327,8 @@ N_Flute_Voice_III_a = {                                                        %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    (                                                                          %! baca_slur:SpannerIndicatorCommand(1)
     [                                                                          %! pennant_rhythm
-    (                                                                          %! baca_slur:SpannerCommand
 
     fs''!16                                                                    %! pennant_rhythm
 
@@ -415,8 +415,8 @@ N_Flute_Voice_III_a = {                                                        %
         bf''!8                                                                 %! pennant_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        )                                                                      %! baca_slur:SpannerIndicatorCommand(2)
         ]                                                                      %! pennant_rhythm
-        )                                                                      %! baca_slur:SpannerCommand
 
     }                                                                          %! pennant_rhythm
 
@@ -521,8 +521,8 @@ N_Flute_Voice_II_a = {                                                         %
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
+        (                                                                      %! baca_slur:SpannerIndicatorCommand(1)
         [                                                                      %! pennant_rhythm
-        (                                                                      %! baca_slur:SpannerCommand
 
         e''8                                                                   %! pennant_rhythm
 
@@ -619,8 +619,8 @@ N_Flute_Voice_II_a = {                                                         %
         c'''8                                                                  %! pennant_rhythm
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(2)
+        )                                                                      %! baca_slur:SpannerIndicatorCommand(2)
         ]                                                                      %! pennant_rhythm
-        )                                                                      %! baca_slur:SpannerCommand
 
     }                                                                          %! pennant_rhythm
 
@@ -679,8 +679,8 @@ N_Flute_Voice_IV_a = {                                                         %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    (                                                                          %! baca_slur:SpannerIndicatorCommand(1)
     [                                                                          %! pennant_rhythm
-    (                                                                          %! baca_slur:SpannerCommand
 
     ef''!16                                                                    %! pennant_rhythm
 
@@ -789,8 +789,8 @@ N_Flute_Voice_IV_a = {                                                         %
     b''16                                                                      %! pennant_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    )                                                                          %! baca_slur:SpannerIndicatorCommand(2)
     ]                                                                          %! pennant_rhythm
-    )                                                                          %! baca_slur:SpannerCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
