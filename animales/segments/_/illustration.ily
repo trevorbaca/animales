@@ -599,11 +599,11 @@ i_Second_Violin_Voice_I_a = {                                                  %
 
     af'!8                                                                      %! sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! sforzando_exchange_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     af'!8                                                                      %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]                                                                          %! sforzando_exchange_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [_ Second_Violin_Voice_I measure 6]                                      %! _comment_measure_numbers
     af'!1                                                                      %! sforzando_exchange_rhythm
@@ -1008,11 +1008,11 @@ i_Cello_Voice_I_a = {                                                          %
 
     a'8                                                                        %! sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! sforzando_exchange_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'8                                                                        %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]                                                                          %! sforzando_exchange_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [_ Cello_Voice_I measure 5]                                              %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand

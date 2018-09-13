@@ -394,11 +394,11 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'''8                                                                      %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D First_Violin_Voice_II measure 25 / measure 2]                         %! _comment_measure_numbers
@@ -408,11 +408,11 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f''8                                                                       %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e'''8
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b''2
@@ -420,17 +420,19 @@ D_First_Violin_Voice_II_a = {                                                  %
 
     % [D First_Violin_Voice_II measure 26 / measure 3]                         %! _comment_measure_numbers
     f'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c''8
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b''8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     d''8                                                                       %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'''2                                                                      %! glissando_rhythm
@@ -438,11 +440,11 @@ D_First_Violin_Voice_II_a = {                                                  %
 
     % [D First_Violin_Voice_II measure 27 / measure 4]                         %! _comment_measure_numbers
     g'8                                                                        %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f''8                                                                       %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a'4                                                                        %! glissando_rhythm
@@ -459,13 +461,15 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a'''8
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f''8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e'''8                                                                      %! glissando_rhythm
@@ -473,7 +477,7 @@ D_First_Violin_Voice_II_a = {                                                  %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D First_Violin_Voice_II measure 29 / measure 6]                         %! _comment_measure_numbers
@@ -481,13 +485,13 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b8                                                                         %! glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca_dls_up:OverrideCommand(2)
 
 }                                                                              %! extern
@@ -906,11 +910,11 @@ D_Viola_Voice_I_a = {                                                          %
 
     b8                                                                         %! sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! sforzando_exchange_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     b8                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]                                                                          %! sforzando_exchange_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [D Viola_Voice_I measure 25 / measure 2]                                 %! _comment_measure_numbers
     b1                                                                         %! sforzando_exchange_rhythm
@@ -933,11 +937,11 @@ D_Viola_Voice_I_a = {                                                          %
 
     b8                                                                         %! sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! sforzando_exchange_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     b8                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]                                                                          %! sforzando_exchange_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [D Viola_Voice_I measure 29 / measure 6]                                 %! _comment_measure_numbers
     b2.                                                                        %! sforzando_exchange_rhythm
@@ -1103,12 +1107,12 @@ D_Cello_Voice_I_a = {                                                          %
 
     b8                                                                         %! sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! sforzando_exchange_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     b8                                                                         %! sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]                                                                          %! sforzando_exchange_rhythm
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerCommand
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
 }                                                                              %! extern
 

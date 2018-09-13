@@ -862,11 +862,11 @@ I_Trumpet_Voice_III_a = {                                                      %
     ~
 
     g'8                                                                        %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'8                                                                        %! brass_manifest_rhythm
 %@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -945,11 +945,11 @@ I_Trumpet_Voice_II_a = {                                                       %
     ~
 
     af'!8                                                                      %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf'!8                                                                      %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [I Trumpet_Voice_II measure 59 / measure 4]                              %! _comment_measure_numbers
     bf'!2                                                                      %! brass_manifest_rhythm
@@ -976,11 +976,11 @@ I_Trumpet_Voice_II_a = {                                                       %
 
     % [I Trumpet_Voice_II measure 61 / measure 6]                              %! _comment_measure_numbers
     af'!8                                                                      %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf'!8                                                                      %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf'!2                                                                      %! brass_manifest_rhythm
     ~
@@ -1218,11 +1218,11 @@ I_Trombone_Voice_III_a = {                                                     %
 
     % [I Trombone_Voice_III measure 58 / measure 3]                            %! _comment_measure_numbers
     a8                                                                         %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g8                                                                         %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     g2                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1239,11 +1239,11 @@ I_Trombone_Voice_III_a = {                                                     %
     ~
 
     a8                                                                         %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g8                                                                         %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [I Trombone_Voice_III measure 60 / measure 5]                            %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm
@@ -1345,11 +1345,11 @@ I_Trombone_Voice_II_a = {                                                      %
 
     % [I Trombone_Voice_II measure 59 / measure 4]                             %! _comment_measure_numbers
     af!8                                                                       %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf!8                                                                       %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf!2                                                                       %! brass_manifest_rhythm
 

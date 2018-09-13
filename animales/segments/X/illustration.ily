@@ -3063,10 +3063,10 @@ X_Viola_Voice_VI_a = {                                                         %
     r8                                                                         %! clb_rhythm
 
     b16                                                                        %! clb_rhythm
-    [                                                                          %! clb_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     b16                                                                        %! clb_rhythm
-    ]                                                                          %! clb_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r4                                                                         %! clb_rhythm
 

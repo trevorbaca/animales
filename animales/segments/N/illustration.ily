@@ -189,74 +189,74 @@ N_Flute_Voice_I_a = {                                                          %
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
+        [                                                                      %! Duration_Specifier__rewrite_meter_
         (                                                                      %! baca_slur:SpannerIndicatorCommand(1)
-        [                                                                      %! pennant_rhythm
 
         af''!8                                                                 %! pennant_rhythm
 
         g''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     % [N Flute_Voice_I measure 89 / measure 2]                                 %! _comment_measure_numbers
     fs''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     f''16                                                                      %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
 
     fs''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     g''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     af''!16                                                                    %! pennant_rhythm
 
     bf''!16                                                                    %! pennant_rhythm
 
     a''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [N Flute_Voice_I measure 90 / measure 3]                                 %! _comment_measure_numbers
     af''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g''16                                                                      %! pennant_rhythm
 
     a''16                                                                      %! pennant_rhythm
 
     bf''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         b''8                                                                   %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         bf''!8                                                                 %! pennant_rhythm
 
         c'''8                                                                  %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         cs'''!8                                                                %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         b''8                                                                   %! pennant_rhythm
 
         c'''8                                                                  %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     cs'''!16                                                                   %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     d'''16                                                                     %! pennant_rhythm
 
@@ -266,7 +266,7 @@ N_Flute_Voice_I_a = {                                                          %
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(2)
     )                                                                          %! baca_slur:SpannerIndicatorCommand(2)
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -327,25 +327,25 @@ N_Flute_Voice_III_a = {                                                        %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     (                                                                          %! baca_slur:SpannerIndicatorCommand(1)
-    [                                                                          %! pennant_rhythm
 
     fs''!16                                                                    %! pennant_rhythm
 
     f''16                                                                      %! pennant_rhythm
 
     e''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f''8                                                                   %! pennant_rhythm
 
         e''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
@@ -353,62 +353,62 @@ N_Flute_Voice_III_a = {                                                        %
 
         % [N Flute_Voice_III measure 89 / measure 2]                           %! _comment_measure_numbers
         f''8                                                                   %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         fs''!8                                                                 %! pennant_rhythm
 
         af''!8                                                                 %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     fs''!16                                                                    %! pennant_rhythm
 
     f''16                                                                      %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [N Flute_Voice_III measure 90 / measure 3]                               %! _comment_measure_numbers
     af''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a''16                                                                      %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
 
     bf''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     b''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a''16                                                                      %! pennant_rhythm
 
     bf''!16                                                                    %! pennant_rhythm
 
     b''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         c'''8                                                                  %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         b''8                                                                   %! pennant_rhythm
 
         bf''!8                                                                 %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         a''8                                                                   %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         b''8                                                                   %! pennant_rhythm
 
@@ -416,7 +416,7 @@ N_Flute_Voice_III_a = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         )                                                                      %! baca_slur:SpannerIndicatorCommand(2)
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
@@ -521,58 +521,58 @@ N_Flute_Voice_II_a = {                                                         %
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
+        [                                                                      %! Duration_Specifier__rewrite_meter_
         (                                                                      %! baca_slur:SpannerIndicatorCommand(1)
-        [                                                                      %! pennant_rhythm
 
         e''8                                                                   %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         d''8                                                                   %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         cs''!8                                                                 %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     d''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     ef''!16                                                                    %! pennant_rhythm
 
     e''16                                                                      %! pennant_rhythm
 
     fs''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [N Flute_Voice_II measure 89 / measure 2]                                %! _comment_measure_numbers
     f''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e''16                                                                      %! pennant_rhythm
 
     ef''!16                                                                    %! pennant_rhythm
 
     f''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         fs''!8                                                                 %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g''8                                                                   %! pennant_rhythm
 
         fs''!8                                                                 %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
@@ -580,39 +580,39 @@ N_Flute_Voice_II_a = {                                                         %
 
         % [N Flute_Voice_II measure 90 / measure 3]                            %! _comment_measure_numbers
         af''!8                                                                 %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         a''8                                                                   %! pennant_rhythm
 
         g''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a''16                                                                      %! pennant_rhythm
 
     bf''!16                                                                    %! pennant_rhythm
 
     a''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     af''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g''16                                                                      %! pennant_rhythm
 
     a''16                                                                      %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         a''8                                                                   %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         bf''!8                                                                 %! pennant_rhythm
 
@@ -620,7 +620,7 @@ N_Flute_Voice_II_a = {                                                         %
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(2)
         )                                                                      %! baca_slur:SpannerIndicatorCommand(2)
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
@@ -679,108 +679,108 @@ N_Flute_Voice_IV_a = {                                                         %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     (                                                                          %! baca_slur:SpannerIndicatorCommand(1)
-    [                                                                          %! pennant_rhythm
 
     ef''!16                                                                    %! pennant_rhythm
 
     d''16                                                                      %! pennant_rhythm
 
     cs''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     c''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     d''16                                                                      %! pennant_rhythm
 
     cs''!16                                                                    %! pennant_rhythm
 
     d''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f''8                                                                   %! pennant_rhythm
 
         e''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         ef''!8                                                                 %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         d''8                                                                   %! pennant_rhythm
 
         e''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     % [N Flute_Voice_IV measure 89 / measure 2]                                %! _comment_measure_numbers
     f''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     fs''!16                                                                    %! pennant_rhythm
 
     f''16                                                                      %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     af''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     fs''!16                                                                    %! pennant_rhythm
 
     g''16                                                                      %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         % [N Flute_Voice_IV measure 90 / measure 3]                            %! _comment_measure_numbers
         a''8                                                                   %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af''!8                                                                 %! pennant_rhythm
 
         g''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     \times 2/3 {                                                               %! pennant_rhythm
 
         fs''!8                                                                 %! pennant_rhythm
-        [                                                                      %! pennant_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         af''!8                                                                 %! pennant_rhythm
 
         g''8                                                                   %! pennant_rhythm
-        ]                                                                      %! pennant_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! pennant_rhythm
 
     af''!16                                                                    %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a''16                                                                      %! pennant_rhythm
 
     b''16                                                                      %! pennant_rhythm
 
     bf''!16                                                                    %! pennant_rhythm
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     a''16                                                                      %! pennant_rhythm
-    [                                                                          %! pennant_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     af''!16                                                                    %! pennant_rhythm
 
@@ -790,7 +790,7 @@ N_Flute_Voice_IV_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     )                                                                          %! baca_slur:SpannerIndicatorCommand(2)
-    ]                                                                          %! pennant_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1552,11 +1552,11 @@ N_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a''8
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f'''2
@@ -1566,13 +1566,15 @@ N_First_Violin_Voice_II_a = {                                                  %
     d''8                                                                       %! glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'''8
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g''8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     d'''8                                                                      %! glissando_rhythm
@@ -1580,7 +1582,7 @@ N_First_Violin_Voice_II_a = {                                                  %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [N First_Violin_Voice_II measure 90 / measure 3]                         %! _comment_measure_numbers
@@ -1588,11 +1590,11 @@ N_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g''8                                                                       %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b'8                                                                        %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g'4                                                                        %! glissando_rhythm
