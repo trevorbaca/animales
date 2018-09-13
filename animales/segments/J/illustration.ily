@@ -1142,7 +1142,7 @@ J_Trombone_Voice_I_a = {                                                       %
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1158,7 +1158,7 @@ J_Trombone_Voice_I_a = {                                                       %
 
     bf!8                                                                       %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1278,11 +1278,11 @@ J_Trombone_Voice_III_a = {                                                     %
     ~
 
     a8                                                                         %! brass_manifest_rhythm
-    [                                                                          %! brass_manifest_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g8                                                                         %! brass_manifest_rhythm
     ~
-    ]                                                                          %! brass_manifest_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [J Trombone_Voice_III measure 65 / measure 4]                            %! _comment_measure_numbers
     g2                                                                         %! brass_manifest_rhythm

@@ -1652,11 +1652,11 @@ C_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b'8                                                                        %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g''8                                                                       %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a'4                                                                        %! glissando_rhythm
@@ -1666,38 +1666,38 @@ C_First_Violin_Voice_II_a = {                                                  %
     d'''8                                                                      %! glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e''8
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'''2
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     d''8                                                                       %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g'''8                                                                      %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [C First_Violin_Voice_II measure 22 / measure 5]                         %! _comment_measure_numbers
     c'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f'''8                                                                      %! glissando_rhythm
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g''2                                                                       %! glissando_rhythm
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b'''8                                                                      %! glissando_rhythm
-    [                                                                          %! glissando_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     d'''8                                                                      %! glissando_rhythm
@@ -1705,7 +1705,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! glissando_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [C First_Violin_Voice_II measure 23 / measure 6]                         %! _comment_measure_numbers
