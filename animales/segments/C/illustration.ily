@@ -1713,7 +1713,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando
 
     c'''8                                                                      %! glissando_rhythm
-    ~                                                                          %! baca_tie_repeat_pitches:SpannerCommand
+    ~                                                                          %! baca_tie_repeat_pitches
 
     c'''4.                                                                     %! glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

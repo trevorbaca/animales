@@ -184,14 +184,14 @@ Z_Percussion_Voice_II_a = {                                                    %
     % [Z Percussion_Voice_II measure 156 / measure 2]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [Z Percussion_Voice_II measure 157 / measure 3]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -256,14 +256,14 @@ Z_Percussion_Voice_III_a = {                                                   %
     % [Z Percussion_Voice_III measure 156 / measure 2]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [Z Percussion_Voice_III measure 157 / measure 3]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -328,14 +328,14 @@ Z_Percussion_Voice_IV_a = {                                                    %
     % [Z Percussion_Voice_IV measure 156 / measure 2]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [Z Percussion_Voice_IV measure 157 / measure 3]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -4380,11 +4380,11 @@ Z_Contrabass_Voice_III_a = {                                                   %
 
     % [Z Contrabass_Voice_III measure 156 / measure 2]                         %! _comment_measure_numbers
     cs!1                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [Z Contrabass_Voice_III measure 157 / measure 3]                         %! _comment_measure_numbers
     cs!1                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
 }                                                                              %! extern

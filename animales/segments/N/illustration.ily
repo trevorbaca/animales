@@ -1004,7 +1004,6 @@ N_Piano_Voice_I_a = {                                                          %
 
         r8                                                                     %! harp_exchange_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
@@ -1028,7 +1027,6 @@ N_Piano_Voice_I_a = {                                                          %
 
         r8                                                                     %! harp_exchange_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
@@ -2126,7 +2124,6 @@ N_Contrabass_Voice_I_a = {                                                     %
 
         r8                                                                     %! harp_exchange_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 

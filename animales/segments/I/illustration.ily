@@ -241,11 +241,11 @@ I_Bass_Clarinet_Voice_I_a = {                                                  %
 
     % [I Bass_Clarinet_Voice_I measure 57 / measure 2]                         %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [I Bass_Clarinet_Voice_I measure 58 / measure 3]                         %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -386,7 +386,7 @@ I_Horn_Voice_I_a = {                                                           %
         e'4                                                                    %! brass_manifest_rhythm
 
         fs'!8                                                                  %! brass_manifest_rhythm
-        ~                                                                      %! TieCorrectionCommand
+        ~
 
     }                                                                          %! brass_manifest_rhythm
 
@@ -865,8 +865,8 @@ I_Trumpet_Voice_III_a = {                                                      %
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'8                                                                        %! brass_manifest_rhythm
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     ]                                                                          %! Duration_Specifier__rewrite_meter_
+%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -1174,7 +1174,7 @@ I_Trombone_Voice_I_a = {                                                       %
         bf!4                                                                   %! brass_manifest_rhythm
 
         af!8                                                                   %! brass_manifest_rhythm
-        ~                                                                      %! TieCorrectionCommand
+        ~
 
     }                                                                          %! brass_manifest_rhythm
 
@@ -2138,7 +2138,6 @@ I_Contrabass_Voice_I_a = {                                                     %
         r8                                                                     %! harp_exchange_rhythm
 
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         cqf''!8                                                                %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 

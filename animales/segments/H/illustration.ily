@@ -257,23 +257,23 @@ H_Bass_Clarinet_Voice_I_a = {                                                  %
 
     % [H Bass_Clarinet_Voice_I measure 51 / measure 2]                         %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Bass_Clarinet_Voice_I measure 52 / measure 3]                         %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Bass_Clarinet_Voice_I measure 53 / measure 4]                         %! _comment_measure_numbers
     b2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Bass_Clarinet_Voice_I measure 54 / measure 5]                         %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Bass_Clarinet_Voice_I measure 55 / measure 6]                         %! _comment_measure_numbers
     b1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -325,7 +325,6 @@ H_Piano_Voice_I_a = {                                                          %
 
         r8                                                                     %! harp_exchange_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         c''8                                                                   %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand

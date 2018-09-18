@@ -279,29 +279,29 @@ E_Percussion_Voice_I_a = {                                                     %
     % [E Percussion_Voice_I measure 31 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [E Percussion_Voice_I measure 32 / measure 3]                            %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [E Percussion_Voice_I measure 33 / measure 4]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [E Percussion_Voice_I measure 34 / measure 5]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [E Percussion_Voice_I measure 35 / measure 6]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -369,29 +369,29 @@ E_Percussion_Voice_II_a = {                                                    %
     % [E Percussion_Voice_II measure 31 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [E Percussion_Voice_II measure 32 / measure 3]                           %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [E Percussion_Voice_II measure 33 / measure 4]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [E Percussion_Voice_II measure 34 / measure 5]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [E Percussion_Voice_II measure 35 / measure 6]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -433,9 +433,9 @@ E_First_Violin_Voice_I_a = {                                                   %
     - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vni. I”]"                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \glissando                                                                 %! baca_glissando
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -623,9 +623,9 @@ E_Second_Violin_Voice_I_a = {                                                  %
     - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vni. II”]"                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \glissando                                                                 %! baca_glissando
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -813,9 +813,9 @@ E_Viola_Voice_I_a = {                                                          %
     - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vle.”]"                               %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \glissando                                                                 %! baca_glissando
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1003,9 +1003,9 @@ E_Cello_Voice_I_a = {                                                          %
     - \trill                                                                   %! baca_articulation:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)

@@ -872,23 +872,23 @@ M_Bass_Clarinet_Voice_I_a = {                                                  %
 
     % [M Bass_Clarinet_Voice_I measure 83 / measure 2]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [M Bass_Clarinet_Voice_I measure 84 / measure 3]                         %! _comment_measure_numbers
     bf!2                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [M Bass_Clarinet_Voice_I measure 85 / measure 4]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [M Bass_Clarinet_Voice_I measure 86 / measure 5]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [M Bass_Clarinet_Voice_I measure 87 / measure 6]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -962,7 +962,6 @@ M_Piano_Voice_I_a = {                                                          %
 
         r8                                                                     %! harp_exchange_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         bf'!8                                                                  %! harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
@@ -1133,13 +1132,13 @@ M_Percussion_Voice_I_a = {                                                     %
     % [M Percussion_Voice_I measure 83 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [M Percussion_Voice_I measure 84 / measure 3]                            %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1232,13 +1231,13 @@ M_Percussion_Voice_II_a = {                                                    %
     % [M Percussion_Voice_II measure 83 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [M Percussion_Voice_II measure 84 / measure 3]                           %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
 

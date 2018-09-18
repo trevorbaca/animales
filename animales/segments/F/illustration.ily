@@ -336,7 +336,6 @@ F_Piano_Voice_I_a = {                                                          %
 
         r8
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         d''8                                                                   %! harp_exchange_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -652,43 +651,43 @@ F_Percussion_Voice_II_a = {                                                    %
     % [F Percussion_Voice_II measure 37 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [F Percussion_Voice_II measure 38 / measure 3]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [F Percussion_Voice_II measure 39 / measure 4]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [F Percussion_Voice_II measure 40 / measure 5]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [F Percussion_Voice_II measure 41 / measure 6]                           %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [F Percussion_Voice_II measure 42 / measure 7]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [F Percussion_Voice_II measure 43 / measure 8]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -1341,27 +1340,27 @@ F_Contrabass_Voice_III_a = {                                                   %
 
     % [F Contrabass_Voice_III measure 38 / measure 3]                          %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [F Contrabass_Voice_III measure 39 / measure 4]                          %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [F Contrabass_Voice_III measure 40 / measure 5]                          %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [F Contrabass_Voice_III measure 41 / measure 6]                          %! _comment_measure_numbers
     bf,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [F Contrabass_Voice_III measure 42 / measure 7]                          %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [F Contrabass_Voice_III measure 43 / measure 8]                          %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
 }                                                                              %! extern
 

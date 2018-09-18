@@ -111,14 +111,14 @@ AA_Percussion_Voice_I_a = {                                                    %
     % [AA Percussion_Voice_I measure 159 / measure 2]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [AA Percussion_Voice_I measure 160 / measure 3]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -185,14 +185,14 @@ AA_Percussion_Voice_II_a = {                                                   %
     % [AA Percussion_Voice_II measure 159 / measure 2]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [AA Percussion_Voice_II measure 160 / measure 3]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -258,14 +258,14 @@ AA_Percussion_Voice_III_a = {                                                  %
     % [AA Percussion_Voice_III measure 159 / measure 2]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [AA Percussion_Voice_III measure 160 / measure 3]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
@@ -331,14 +331,14 @@ AA_Percussion_Voice_IV_a = {                                                   %
     % [AA Percussion_Voice_IV measure 159 / measure 2]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
     % [AA Percussion_Voice_IV measure 160 / measure 3]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up                                                     %! TieCorrectionCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    - \tweak direction #up
+    \repeatTie
 
 }                                                                              %! extern
 
