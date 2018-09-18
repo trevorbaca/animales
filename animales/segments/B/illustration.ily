@@ -247,7 +247,6 @@ B_First_Violin_Voice_III_a = {                                                 %
         ef'!8                                                                  %! sforzando_exchange_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         ef'!4                                                                  %! sforzando_exchange_rhythm
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -418,7 +417,6 @@ B_Second_Violin_Voice_III_a = {                                                %
         e'8                                                                    %! sforzando_exchange_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e'4                                                                    %! sforzando_exchange_rhythm
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -445,7 +443,6 @@ B_Second_Violin_Voice_III_a = {                                                %
 
     }                                                                          %! sforzando_exchange_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e'4                                                                        %! sforzando_exchange_rhythm
     \repeatTie
 
