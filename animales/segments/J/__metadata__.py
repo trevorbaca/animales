@@ -368,7 +368,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Cello_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='>',
                                 ),
                             ],
@@ -461,7 +461,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Contrabass_Voice_III',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='>',
                                 ),
                             ],
@@ -513,7 +513,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='First_Violin_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='>',
                                 ),
                             ],
@@ -909,7 +909,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Second_Violin_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='>',
                                 ),
                             ],
@@ -1166,7 +1166,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Viola_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='>',
                                 ),
                             ],

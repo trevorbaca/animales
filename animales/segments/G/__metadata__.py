@@ -216,7 +216,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Bass_Clarinet_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='o<',
                                 ),
                             ],
@@ -247,7 +247,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Cello_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='<',
                                 ),
                             ],
@@ -278,7 +278,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Clarinet_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='<',
                                 ),
                             ],
@@ -340,7 +340,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Contrabass_Voice_III',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='<',
                                 ),
                             ],
@@ -392,7 +392,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='First_Violin_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='<',
                                 ),
                             ],
@@ -675,7 +675,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Percussion_Voice_II',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='>o',
                                 ),
                             ],
@@ -790,7 +790,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Second_Violin_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='<',
                                 ),
                             ],
@@ -1051,7 +1051,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Viola_Voice_I',
-                                prototype='abjad.HairpinIndicator',
+                                prototype='abjad.StartHairpin',
                                 value='<',
                                 ),
                             ],
