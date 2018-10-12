@@ -213,11 +213,11 @@ def tremolo(peak='f'):
     return baca.suite(
         baca.hairpin(
             f'niente o< {peak} >o niente',
-            piece_selector=baca.mgroups([2, 2]),
+            pieces=baca.mgroups([2, 2]),
             ),
         baca.text_spanner(
             'tasto => ext. pont. => tasto',
-            piece_selector=baca.cmgroups([2]),
+            pieces=baca.cmgroups([2]),
             ),
         baca.stem_tremolo(
             selector=baca.pleaves(exclude=baca.enums.HIDDEN),
