@@ -1,22 +1,22 @@
 A_Global_Rests = {                                                             %! extern
 
     % [A Global_Rests measure 7 / measure 1]                                   %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [A Global_Rests measure 8 / measure 2]                                   %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [A Global_Rests measure 9 / measure 3]                                   %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [A Global_Rests measure 10 / measure 4]                                  %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [A Global_Rests measure 11 / measure 5]                                  %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [A Global_Rests measure 12 / measure 6]                                  %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests
+    R1 * 1/2                                                                   %! _make_global_rests(1)
 
 }                                                                              %! extern
 
