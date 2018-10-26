@@ -46,13 +46,13 @@ def downbeat_attack(count=1, denominator=8):
                     {                                                                                %! _make_global_context
             <BLANKLINE>
                         % [Global_Rests measure 1]                                                   %! _comment_measure_numbers
-                        R1 * 1                                                                       %! _make_global_rests
+                        R1 * 1                                                                       %! _make_global_rests(1)
             <BLANKLINE>
                         % [Global_Rests measure 2]                                                   %! _comment_measure_numbers
-                        R1 * 3/4                                                                     %! _make_global_rests
+                        R1 * 3/4                                                                     %! _make_global_rests(1)
             <BLANKLINE>
                         % [Global_Rests measure 3]                                                   %! _comment_measure_numbers
-                        R1 * 1/2                                                                     %! _make_global_rests
+                        R1 * 1/2                                                                     %! _make_global_rests(1)
             <BLANKLINE>
                     }                                                                                %! _make_global_context
             <BLANKLINE>
