@@ -434,20 +434,6 @@ metadata = abjad.OrderedDict(
             ),
         ('segment_name', 'A'),
         ('segment_number', 2),
-        (
-            'sounds_during_segment',
-            abjad.OrderedDict(
-                [
-                    ('Cello_Voice_I', True),
-                    ('First_Violin_Voice_I', True),
-                    ('First_Violin_Voice_III', True),
-                    ('Second_Violin_Voice_I', True),
-                    ('Second_Violin_Voice_III', True),
-                    ('Viola_Voice_I', True),
-                    ('Viola_Voice_III', True),
-                    ]
-                ),
-            ),
         ('start_clock_time', "0'11''"),
         ('stop_clock_time', "0'20''"),
         (
