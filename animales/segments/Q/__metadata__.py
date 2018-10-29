@@ -400,7 +400,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('first_measure_number', 119),
-        ('last_measure_is_fermata', True),
         ('last_measure_number', 130),
         (
             'persistent_indicators',

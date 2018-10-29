@@ -410,10 +410,6 @@ metadata = abjad.OrderedDict(
             ),
         ('duration', "0'17''"),
         (
-            'fermata_measure_numbers',
-            [94],
-            ),
-        (
             'first_appearance_margin_markup',
             abjad.OrderedDict(
                 [
@@ -425,7 +421,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('first_measure_number', 109),
-        ('last_measure_is_fermata', True),
         ('last_measure_number', 118),
         (
             'persistent_indicators',
