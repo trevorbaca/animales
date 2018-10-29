@@ -9,7 +9,7 @@ import os
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = metadata.get('last_measure_number')
+start = metadata.get('final_measure_number')
 assert start == 29
 
 maker = baca.SegmentMaker(

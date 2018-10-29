@@ -347,8 +347,8 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('duration', "0'23''"),
+        ('final_measure_number', 75),
         ('first_measure_number', 68),
-        ('last_measure_number', 75),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -1338,7 +1338,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 11),
+                                            ('pitches_consumed', 12),
                                             ]
                                         ),
                                     ),
@@ -1354,7 +1354,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 10),
+                                            ('pitches_consumed', 11),
                                             ]
                                         ),
                                     ),
@@ -1370,7 +1370,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 11),
+                                            ('pitches_consumed', 12),
                                             ]
                                         ),
                                     ),
@@ -1386,7 +1386,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 11),
+                                            ('pitches_consumed', 12),
                                             ]
                                         ),
                                     ),
@@ -1438,7 +1438,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 14),
+                                            ('pitches_consumed', 15),
                                             ]
                                         ),
                                     ),
@@ -1454,7 +1454,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 13),
+                                            ('pitches_consumed', 14),
                                             ]
                                         ),
                                     ),
@@ -1486,7 +1486,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 14),
+                                            ('pitches_consumed', 15),
                                             ]
                                         ),
                                     ),
@@ -1502,7 +1502,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 12),
+                                            ('pitches_consumed', 13),
                                             ]
                                         ),
                                     ),
@@ -1534,7 +1534,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 13),
+                                            ('pitches_consumed', 14),
                                             ]
                                         ),
                                     ),
@@ -1550,7 +1550,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'seconds'),
-                                            ('pitches_consumed', 12),
+                                            ('pitches_consumed', 13),
                                             ]
                                         ),
                                     ),

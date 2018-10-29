@@ -9,7 +9,7 @@ import os
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-assert metadata.get('last_measure_number') == 108
+assert metadata.get('final_measure_number') == 108
 start = 94
 
 

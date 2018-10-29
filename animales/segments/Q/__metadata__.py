@@ -388,6 +388,7 @@ metadata = abjad.OrderedDict(
             'fermata_measure_numbers',
             [121, 126],
             ),
+        ('final_measure_number', 130),
         (
             'first_appearance_margin_markup',
             abjad.OrderedDict(
@@ -400,7 +401,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('first_measure_number', 119),
-        ('last_measure_number', 130),
         (
             'persistent_indicators',
             abjad.OrderedDict(

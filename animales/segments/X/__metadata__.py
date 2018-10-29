@@ -1086,6 +1086,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('duration', "0'07''"),
+        ('final_measure_number', 151),
         (
             'first_appearance_margin_markup',
             abjad.OrderedDict(
@@ -1095,7 +1096,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('first_measure_number', 149),
-        ('last_measure_number', 151),
         (
             'persistent_indicators',
             abjad.OrderedDict(

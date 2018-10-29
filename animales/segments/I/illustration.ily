@@ -391,7 +391,6 @@ I_Horn_Voice_I_a = {                                                           %
     }                                                                          %! brass_manifest_rhythm
 
     fs'!2                                                                      %! brass_manifest_rhythm
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -452,7 +451,6 @@ I_Horn_Voice_III_a = {                                                         %
     ef'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -577,7 +575,6 @@ I_Horn_Voice_II_a = {                                                          %
         e'8                                                                    %! brass_manifest_rhythm
 
         fs'!4                                                                  %! brass_manifest_rhythm
-    %@% ~                                                                      %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
         \!                                                                     %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
     }                                                                          %! brass_manifest_rhythm
@@ -662,7 +659,6 @@ I_Horn_Voice_IV_a = {                                                          %
     ef'!8                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -770,7 +766,6 @@ I_Trumpet_Voice_I_a = {                                                        %
     af'!4                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -866,7 +861,6 @@ I_Trumpet_Voice_III_a = {                                                      %
 
     a'8                                                                        %! brass_manifest_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -1067,7 +1061,6 @@ I_Trumpet_Voice_IV_a = {                                                       %
     g'2                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1):right_broken
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -1179,7 +1172,6 @@ I_Trombone_Voice_I_a = {                                                       %
     }                                                                          %! brass_manifest_rhythm
 
     af!2                                                                       %! brass_manifest_rhythm
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -1388,7 +1380,6 @@ I_Trombone_Voice_II_a = {                                                      %
         bf!8                                                                   %! brass_manifest_rhythm
 
         af!4                                                                   %! brass_manifest_rhythm
-    %@% ~                                                                      %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
         \!                                                                     %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
     }                                                                          %! brass_manifest_rhythm
@@ -1463,7 +1454,6 @@ I_Trombone_Voice_IV_a = {                                                      %
     g2                                                                         %! brass_manifest_rhythm
 
     a2                                                                         %! brass_manifest_rhythm
-%@% ~                                                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern

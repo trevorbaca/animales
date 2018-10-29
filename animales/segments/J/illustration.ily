@@ -244,7 +244,7 @@ J_Horn_Voice_I_a = {                                                           %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    fs'!4                                                                      %! brass_manifest_rhythm
+    e'4                                                                        %! brass_manifest_rhythm
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Horn”)"                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -265,7 +265,7 @@ J_Horn_Voice_I_a = {                                                           %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        fs'!8                                                                  %! brass_manifest_rhythm
+        e'8                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -273,7 +273,7 @@ J_Horn_Voice_I_a = {                                                           %
 
     }                                                                          %! brass_manifest_rhythm
 
-    e'2                                                                        %! brass_manifest_rhythm
+    fs'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -281,28 +281,28 @@ J_Horn_Voice_I_a = {                                                           %
     ~
 
     % [J Horn_Voice_I measure 63 / measure 2]                                  %! _comment_measure_numbers
-    e'4                                                                        %! brass_manifest_rhythm
-    ~
-
-    \times 2/3 {                                                               %! brass_manifest_rhythm
-
-        e'4                                                                    %! brass_manifest_rhythm
-
-        fs'!8                                                                  %! brass_manifest_rhythm
-        ~
-
-    }                                                                          %! brass_manifest_rhythm
-
-    fs'!2                                                                      %! brass_manifest_rhythm
-    ~
-
-    % [J Horn_Voice_I measure 64 / measure 3]                                  %! _comment_measure_numbers
     fs'!4                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        fs'!8                                                                  %! brass_manifest_rhythm
+        fs'!4                                                                  %! brass_manifest_rhythm
+
+        e'8                                                                    %! brass_manifest_rhythm
+        ~
+
+    }                                                                          %! brass_manifest_rhythm
+
+    e'2                                                                        %! brass_manifest_rhythm
+    ~
+
+    % [J Horn_Voice_I measure 64 / measure 3]                                  %! _comment_measure_numbers
+    e'4                                                                        %! brass_manifest_rhythm
+    ~
+
+    \times 2/3 {                                                               %! brass_manifest_rhythm
+
+        e'8                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -310,7 +310,7 @@ J_Horn_Voice_I_a = {                                                           %
 
     }                                                                          %! brass_manifest_rhythm
 
-    e'2                                                                        %! brass_manifest_rhythm
+    fs'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -318,25 +318,25 @@ J_Horn_Voice_I_a = {                                                           %
     ~
 
     % [J Horn_Voice_I measure 65 / measure 4]                                  %! _comment_measure_numbers
-    e'4                                                                        %! brass_manifest_rhythm
+    fs'!4                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        e'4                                                                    %! brass_manifest_rhythm
+        fs'!4                                                                  %! brass_manifest_rhythm
 
-        fs'!8                                                                  %! brass_manifest_rhythm
+        e'8                                                                    %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
     % [J Horn_Voice_I measure 66 / measure 5]                                  %! _comment_measure_numbers
-    fs'!2.                                                                     %! brass_manifest_rhythm
+    e'2.                                                                       %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        fs'!8                                                                  %! brass_manifest_rhythm
+        e'8                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -345,7 +345,7 @@ J_Horn_Voice_I_a = {                                                           %
     }                                                                          %! brass_manifest_rhythm
 
     % [J Horn_Voice_I measure 67 / measure 6]                                  %! _comment_measure_numbers
-    e'2.                                                                       %! brass_manifest_rhythm
+    fs'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -354,9 +354,9 @@ J_Horn_Voice_I_a = {                                                           %
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        e'4                                                                    %! brass_manifest_rhythm
+        fs'!4                                                                  %! brass_manifest_rhythm
 
-        fs'!8                                                                  %! brass_manifest_rhythm
+        e'8                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -376,24 +376,24 @@ J_Horn_Voice_III_a = {                                                         %
 
     % [J Horn_Voice_III measure 62 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    ef'!4.                                                                     %! brass_manifest_rhythm
+    f'4.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    f'8                                                                        %! brass_manifest_rhythm
+    ef'!8                                                                      %! brass_manifest_rhythm
     ~
 
-    f'2                                                                        %! brass_manifest_rhythm
+    ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_III measure 63 / measure 2]                                %! _comment_measure_numbers
-    f'4                                                                        %! brass_manifest_rhythm
+    ef'!4                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4
 
-    ef'!2                                                                      %! brass_manifest_rhythm
+    f'2                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -401,33 +401,33 @@ J_Horn_Voice_III_a = {                                                         %
     ~
 
     % [J Horn_Voice_III measure 64 / measure 3]                                %! _comment_measure_numbers
-    ef'!4.                                                                     %! brass_manifest_rhythm
+    f'4.                                                                       %! brass_manifest_rhythm
 
-    f'8                                                                        %! brass_manifest_rhythm
+    ef'!8                                                                      %! brass_manifest_rhythm
     ~
 
-    f'2                                                                        %! brass_manifest_rhythm
+    ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_III measure 65 / measure 4]                                %! _comment_measure_numbers
-    f'4                                                                        %! brass_manifest_rhythm
+    ef'!4                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4
 
     % [J Horn_Voice_III measure 66 / measure 5]                                %! _comment_measure_numbers
-    ef'!2..                                                                    %! brass_manifest_rhythm
+    f'2..                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    f'8                                                                        %! brass_manifest_rhythm
+    ef'!8                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_III measure 67 / measure 6]                                %! _comment_measure_numbers
-    f'2.                                                                       %! brass_manifest_rhythm
+    ef'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -474,7 +474,7 @@ J_Horn_Voice_II_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    fs'!2.                                                                     %! brass_manifest_rhythm
+    e'2.                                                                       %! brass_manifest_rhythm
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Horn”)"                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -496,7 +496,7 @@ J_Horn_Voice_II_a = {                                                          %
 
         r4                                                                     %! brass_manifest_rhythm
 
-        e'8                                                                    %! brass_manifest_rhythm
+        fs'!8                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -506,20 +506,20 @@ J_Horn_Voice_II_a = {                                                          %
     }                                                                          %! brass_manifest_rhythm
 
     % [J Horn_Voice_II measure 63 / measure 2]                                 %! _comment_measure_numbers
-    e'2.                                                                       %! brass_manifest_rhythm
+    fs'!2.                                                                     %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        e'8                                                                    %! brass_manifest_rhythm
+        fs'!8                                                                  %! brass_manifest_rhythm
 
-        fs'!4                                                                  %! brass_manifest_rhythm
+        e'4                                                                    %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
     % [J Horn_Voice_II measure 64 / measure 3]                                 %! _comment_measure_numbers
-    fs'!2.                                                                     %! brass_manifest_rhythm
+    e'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -527,7 +527,7 @@ J_Horn_Voice_II_a = {                                                          %
 
         r4                                                                     %! brass_manifest_rhythm
 
-        e'8                                                                    %! brass_manifest_rhythm
+        fs'!8                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -537,27 +537,27 @@ J_Horn_Voice_II_a = {                                                          %
     }                                                                          %! brass_manifest_rhythm
 
     % [J Horn_Voice_II measure 65 / measure 4]                                 %! _comment_measure_numbers
-    e'2                                                                        %! brass_manifest_rhythm
+    fs'!2                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_II measure 66 / measure 5]                                 %! _comment_measure_numbers
-    e'4                                                                        %! brass_manifest_rhythm
+    fs'!4                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        e'8                                                                    %! brass_manifest_rhythm
+        fs'!8                                                                  %! brass_manifest_rhythm
 
-        fs'!4                                                                  %! brass_manifest_rhythm
+        e'4                                                                    %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
-    fs'!2                                                                      %! brass_manifest_rhythm
+    e'2                                                                        %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_II measure 67 / measure 6]                                 %! _comment_measure_numbers
-    fs'!4                                                                      %! brass_manifest_rhythm
+    e'4                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -565,7 +565,7 @@ J_Horn_Voice_II_a = {                                                          %
 
         r4                                                                     %! brass_manifest_rhythm
 
-        e'8                                                                    %! brass_manifest_rhythm
+        fs'!8                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -574,7 +574,7 @@ J_Horn_Voice_II_a = {                                                          %
 
     }                                                                          %! brass_manifest_rhythm
 
-    e'2                                                                        %! brass_manifest_rhythm
+    fs'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -592,20 +592,20 @@ J_Horn_Voice_IV_a = {                                                          %
 
     % [J Horn_Voice_IV measure 62 / measure 1]                                 %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    ef'!2.                                                                     %! brass_manifest_rhythm
+    f'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    f'4                                                                        %! brass_manifest_rhythm
+    ef'!4                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_IV measure 63 / measure 2]                                 %! _comment_measure_numbers
-    f'2                                                                        %! brass_manifest_rhythm
+    ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        f'4                                                                    %! brass_manifest_rhythm
+        ef'!4                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -615,7 +615,7 @@ J_Horn_Voice_IV_a = {                                                          %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    ef'!8                                                                      %! brass_manifest_rhythm
+    f'8                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -623,19 +623,19 @@ J_Horn_Voice_IV_a = {                                                          %
     ~
 
     % [J Horn_Voice_IV measure 64 / measure 3]                                 %! _comment_measure_numbers
-    ef'!2.                                                                     %! brass_manifest_rhythm
+    f'2.                                                                       %! brass_manifest_rhythm
 
-    f'4                                                                        %! brass_manifest_rhythm
+    ef'!4                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_IV measure 65 / measure 4]                                 %! _comment_measure_numbers
-    f'2                                                                        %! brass_manifest_rhythm
+    ef'!2                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [J Horn_Voice_IV measure 66 / measure 5]                             %! _comment_measure_numbers
-        f'4                                                                    %! brass_manifest_rhythm
+        ef'!4                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -645,20 +645,20 @@ J_Horn_Voice_IV_a = {                                                          %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    ef'!8                                                                      %! brass_manifest_rhythm
+    f'8                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    ef'!2                                                                      %! brass_manifest_rhythm
+    f'2                                                                        %! brass_manifest_rhythm
     ~
 
     % [J Horn_Voice_IV measure 67 / measure 6]                                 %! _comment_measure_numbers
-    ef'!4                                                                      %! brass_manifest_rhythm
+    f'4                                                                        %! brass_manifest_rhythm
 
-    f'2.                                                                       %! brass_manifest_rhythm
+    ef'!2.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -703,7 +703,7 @@ J_Trumpet_Voice_I_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af'!2                                                                      %! brass_manifest_rhythm
+    bf'!2                                                                      %! brass_manifest_rhythm
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -721,16 +721,16 @@ J_Trumpet_Voice_I_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    bf'!2                                                                      %! brass_manifest_rhythm
+    af'!2                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Trumpet_Voice_I measure 63 / measure 2]                               %! _comment_measure_numbers
-    bf'!4                                                                      %! brass_manifest_rhythm
+    af'!4                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        bf'!8                                                                  %! brass_manifest_rhythm
+        af'!8                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -738,7 +738,7 @@ J_Trumpet_Voice_I_a = {                                                        %
 
     }                                                                          %! brass_manifest_rhythm
 
-    af'!2                                                                      %! brass_manifest_rhythm
+    bf'!2                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -746,23 +746,23 @@ J_Trumpet_Voice_I_a = {                                                        %
     ~
 
     % [J Trumpet_Voice_I measure 64 / measure 3]                               %! _comment_measure_numbers
-    af'!4                                                                      %! brass_manifest_rhythm
+    bf'!4                                                                      %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        af'!8                                                                  %! brass_manifest_rhythm
+        bf'!8                                                                  %! brass_manifest_rhythm
 
-        bf'!4                                                                  %! brass_manifest_rhythm
+        af'!4                                                                  %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
-    bf'!2                                                                      %! brass_manifest_rhythm
+    af'!2                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Trumpet_Voice_I measure 65 / measure 4]                               %! _comment_measure_numbers
-    bf'!8                                                                      %! brass_manifest_rhythm
+    af'!8                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -772,7 +772,7 @@ J_Trumpet_Voice_I_a = {                                                        %
 
         r8                                                                     %! brass_manifest_rhythm
 
-        af'!4                                                                  %! brass_manifest_rhythm
+        bf'!4                                                                  %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -782,16 +782,16 @@ J_Trumpet_Voice_I_a = {                                                        %
     }                                                                          %! brass_manifest_rhythm
 
     % [J Trumpet_Voice_I measure 66 / measure 5]                               %! _comment_measure_numbers
-    af'!2                                                                      %! brass_manifest_rhythm
+    bf'!2                                                                      %! brass_manifest_rhythm
     ~
 
-    af'!8                                                                      %! brass_manifest_rhythm
+    bf'!8                                                                      %! brass_manifest_rhythm
 
-    bf'!4.                                                                     %! brass_manifest_rhythm
+    af'!4.                                                                     %! brass_manifest_rhythm
     ~
 
     % [J Trumpet_Voice_I measure 67 / measure 6]                               %! _comment_measure_numbers
-    bf'!4.                                                                     %! brass_manifest_rhythm
+    af'!4.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -799,7 +799,7 @@ J_Trumpet_Voice_I_a = {                                                        %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    af'!4.                                                                     %! brass_manifest_rhythm
+    bf'!4.                                                                     %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -817,12 +817,12 @@ J_Trumpet_Voice_III_a = {                                                      %
 
     % [J Trumpet_Voice_III measure 62 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    a'2                                                                        %! brass_manifest_rhythm
+    g'2                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    a'8                                                                        %! brass_manifest_rhythm
+    g'8                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -830,7 +830,7 @@ J_Trumpet_Voice_III_a = {                                                      %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    g'8                                                                        %! brass_manifest_rhythm
+    a'8                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -838,16 +838,16 @@ J_Trumpet_Voice_III_a = {                                                      %
     ~
 
     % [J Trumpet_Voice_III measure 63 / measure 2]                             %! _comment_measure_numbers
-    g'2                                                                        %! brass_manifest_rhythm
+    a'2                                                                        %! brass_manifest_rhythm
     ~
 
-    g'8                                                                        %! brass_manifest_rhythm
+    a'8                                                                        %! brass_manifest_rhythm
 
-    a'4.                                                                       %! brass_manifest_rhythm
+    g'4.                                                                       %! brass_manifest_rhythm
     ~
 
     % [J Trumpet_Voice_III measure 64 / measure 3]                             %! _comment_measure_numbers
-    a'4.                                                                       %! brass_manifest_rhythm
+    g'4.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -855,7 +855,7 @@ J_Trumpet_Voice_III_a = {                                                      %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    g'4.                                                                       %! brass_manifest_rhythm
+    a'4.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -863,18 +863,18 @@ J_Trumpet_Voice_III_a = {                                                      %
     ~
 
     % [J Trumpet_Voice_III measure 65 / measure 4]                             %! _comment_measure_numbers
-    g'4.                                                                       %! brass_manifest_rhythm
+    a'4.                                                                       %! brass_manifest_rhythm
 
-    a'8                                                                        %! brass_manifest_rhythm
+    g'8                                                                        %! brass_manifest_rhythm
     ~
 
     % [J Trumpet_Voice_III measure 66 / measure 5]                             %! _comment_measure_numbers
-    a'2                                                                        %! brass_manifest_rhythm
+    g'2                                                                        %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        a'4                                                                    %! brass_manifest_rhythm
+        g'4                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -884,7 +884,7 @@ J_Trumpet_Voice_III_a = {                                                      %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    g'8                                                                        %! brass_manifest_rhythm
+    a'8                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -892,19 +892,19 @@ J_Trumpet_Voice_III_a = {                                                      %
     ~
 
     % [J Trumpet_Voice_III measure 67 / measure 6]                             %! _comment_measure_numbers
-    g'2                                                                        %! brass_manifest_rhythm
+    a'2                                                                        %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        g'4                                                                    %! brass_manifest_rhythm
+        a'4                                                                    %! brass_manifest_rhythm
 
-        a'8                                                                    %! brass_manifest_rhythm
+        g'8                                                                    %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
-    a'4                                                                        %! brass_manifest_rhythm
+    g'4                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1043,32 +1043,32 @@ J_Trumpet_Voice_IV_a = {                                                       %
 
     % [J Trumpet_Voice_IV measure 62 / measure 1]                              %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    g'4                                                                        %! brass_manifest_rhythm
+    a'4                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    a'2.                                                                       %! brass_manifest_rhythm
+    g'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [J Trumpet_Voice_IV measure 63 / measure 2]                              %! _comment_measure_numbers
     r4
 
-    g'2.                                                                       %! brass_manifest_rhythm
+    a'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [J Trumpet_Voice_IV measure 64 / measure 3]                              %! _comment_measure_numbers
-    a'2.                                                                       %! brass_manifest_rhythm
+    g'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4
 
     % [J Trumpet_Voice_IV measure 65 / measure 4]                              %! _comment_measure_numbers
-    g'2                                                                        %! brass_manifest_rhythm
+    a'2                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1076,15 +1076,15 @@ J_Trumpet_Voice_IV_a = {                                                       %
     ~
 
     % [J Trumpet_Voice_IV measure 66 / measure 5]                              %! _comment_measure_numbers
-    g'4                                                                        %! brass_manifest_rhythm
+    a'4                                                                        %! brass_manifest_rhythm
 
-    a'2.                                                                       %! brass_manifest_rhythm
+    g'2.                                                                       %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [J Trumpet_Voice_IV measure 67 / measure 6]                          %! _comment_measure_numbers
-        a'8                                                                    %! brass_manifest_rhythm
+        g'8                                                                    %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1092,7 +1092,7 @@ J_Trumpet_Voice_IV_a = {                                                       %
 
     }                                                                          %! brass_manifest_rhythm
 
-    g'2.                                                                       %! brass_manifest_rhythm
+    a'2.                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -1137,7 +1137,7 @@ J_Trombone_Voice_I_a = {                                                       %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af!8                                                                       %! brass_manifest_rhythm
+    bf!8                                                                       %! brass_manifest_rhythm
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1156,50 +1156,50 @@ J_Trombone_Voice_I_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    bf!8                                                                       %! brass_manifest_rhythm
+    af!8                                                                       %! brass_manifest_rhythm
     ~
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    bf!2                                                                       %! brass_manifest_rhythm
+    af!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4
 
     % [J Trombone_Voice_I measure 63 / measure 2]                              %! _comment_measure_numbers
-    af!2                                                                       %! brass_manifest_rhythm
+    bf!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    af!8                                                                       %! brass_manifest_rhythm
+    bf!8                                                                       %! brass_manifest_rhythm
 
-    bf!4.                                                                      %! brass_manifest_rhythm
+    af!4.                                                                      %! brass_manifest_rhythm
     ~
 
     % [J Trombone_Voice_I measure 64 / measure 3]                              %! _comment_measure_numbers
-    bf!4                                                                       %! brass_manifest_rhythm
+    af!4                                                                       %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        bf!8                                                                   %! brass_manifest_rhythm
+        af!8                                                                   %! brass_manifest_rhythm
 
-        af!4                                                                   %! brass_manifest_rhythm
+        bf!4                                                                   %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
-    af!2                                                                       %! brass_manifest_rhythm
+    bf!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [J Trombone_Voice_I measure 65 / measure 4]                              %! _comment_measure_numbers
     r4
 
-    bf!4                                                                       %! brass_manifest_rhythm
+    af!4                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1207,15 +1207,15 @@ J_Trombone_Voice_I_a = {                                                       %
     ~
 
     % [J Trombone_Voice_I measure 66 / measure 5]                              %! _comment_measure_numbers
-    bf!4.                                                                      %! brass_manifest_rhythm
+    af!4.                                                                      %! brass_manifest_rhythm
 
-    af!8                                                                       %! brass_manifest_rhythm
+    bf!8                                                                       %! brass_manifest_rhythm
     ~
 
-    af!2                                                                       %! brass_manifest_rhythm
+    bf!2                                                                       %! brass_manifest_rhythm
 
     % [J Trombone_Voice_I measure 67 / measure 6]                              %! _comment_measure_numbers
-    bf!2.                                                                      %! brass_manifest_rhythm
+    af!2.                                                                      %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1223,7 +1223,7 @@ J_Trombone_Voice_I_a = {                                                       %
 
         r4                                                                     %! brass_manifest_rhythm
 
-        af!8                                                                   %! brass_manifest_rhythm
+        bf!8                                                                   %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -1368,7 +1368,7 @@ J_Trombone_Voice_II_a = {                                                      %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af!2                                                                       %! brass_manifest_rhythm
+    bf!2                                                                       %! brass_manifest_rhythm
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1386,16 +1386,41 @@ J_Trombone_Voice_II_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    bf!2                                                                       %! brass_manifest_rhythm
+    af!2                                                                       %! brass_manifest_rhythm
     ~
 
     % [J Trombone_Voice_II measure 63 / measure 2]                             %! _comment_measure_numbers
-    bf!8                                                                       %! brass_manifest_rhythm
+    af!8                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r8                                                                         %! brass_manifest_rhythm
 
+    r8                                                                         %! brass_manifest_rhythm
+
+    bf!8                                                                       %! brass_manifest_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~
+
+    bf!2                                                                       %! brass_manifest_rhythm
+
+    % [J Trombone_Voice_II measure 64 / measure 3]                             %! _comment_measure_numbers
+    af!2.                                                                      %! brass_manifest_rhythm
+
+    bf!4                                                                       %! brass_manifest_rhythm
+    ~
+
+    % [J Trombone_Voice_II measure 65 / measure 4]                             %! _comment_measure_numbers
+    bf!4.                                                                      %! brass_manifest_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+
+    r8                                                                         %! brass_manifest_rhythm
+
+    % [J Trombone_Voice_II measure 66 / measure 5]                             %! _comment_measure_numbers
     r8                                                                         %! brass_manifest_rhythm
 
     af!8                                                                       %! brass_manifest_rhythm
@@ -1407,48 +1432,23 @@ J_Trombone_Voice_II_a = {                                                      %
 
     af!2                                                                       %! brass_manifest_rhythm
 
-    % [J Trombone_Voice_II measure 64 / measure 3]                             %! _comment_measure_numbers
-    bf!2.                                                                      %! brass_manifest_rhythm
-
-    af!4                                                                       %! brass_manifest_rhythm
-    ~
-
-    % [J Trombone_Voice_II measure 65 / measure 4]                             %! _comment_measure_numbers
-    af!4.                                                                      %! brass_manifest_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-
-    r8                                                                         %! brass_manifest_rhythm
-
-    % [J Trombone_Voice_II measure 66 / measure 5]                             %! _comment_measure_numbers
-    r8                                                                         %! brass_manifest_rhythm
-
-    bf!8                                                                       %! brass_manifest_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ~
-
-    bf!2                                                                       %! brass_manifest_rhythm
-
-    af!4                                                                       %! brass_manifest_rhythm
+    bf!4                                                                       %! brass_manifest_rhythm
     ~
 
     % [J Trombone_Voice_II measure 67 / measure 6]                             %! _comment_measure_numbers
-    af!4                                                                       %! brass_manifest_rhythm
+    bf!4                                                                       %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        af!4                                                                   %! brass_manifest_rhythm
+        bf!4                                                                   %! brass_manifest_rhythm
 
-        bf!8                                                                   %! brass_manifest_rhythm
+        af!8                                                                   %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
-    bf!2                                                                       %! brass_manifest_rhythm
+    af!2                                                                       %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1466,7 +1466,7 @@ J_Trombone_Voice_IV_a = {                                                      %
 
     % [J Trombone_Voice_IV measure 62 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    a8                                                                         %! brass_manifest_rhythm
+    g8                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -1474,33 +1474,33 @@ J_Trombone_Voice_IV_a = {                                                      %
 
     r8                                                                         %! brass_manifest_rhythm
 
-    g8                                                                         %! brass_manifest_rhythm
+    a8                                                                         %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ~
 
-    g2                                                                         %! brass_manifest_rhythm
+    a2                                                                         %! brass_manifest_rhythm
 
     % [J Trombone_Voice_IV measure 63 / measure 2]                             %! _comment_measure_numbers
-    a2                                                                         %! brass_manifest_rhythm
+    g2                                                                         %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
-        a4                                                                     %! brass_manifest_rhythm
+        g4                                                                     %! brass_manifest_rhythm
 
-        g8                                                                     %! brass_manifest_rhythm
+        a8                                                                     %! brass_manifest_rhythm
         ~
 
     }                                                                          %! brass_manifest_rhythm
 
-    g4                                                                         %! brass_manifest_rhythm
+    a4                                                                         %! brass_manifest_rhythm
     ~
 
     % [J Trombone_Voice_IV measure 64 / measure 3]                             %! _comment_measure_numbers
-    g4.                                                                        %! brass_manifest_rhythm
+    a4.                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1510,7 +1510,7 @@ J_Trombone_Voice_IV_a = {                                                      %
 
         r8                                                                     %! brass_manifest_rhythm
 
-        a4                                                                     %! brass_manifest_rhythm
+        g4                                                                     %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1519,28 +1519,28 @@ J_Trombone_Voice_IV_a = {                                                      %
 
     }                                                                          %! brass_manifest_rhythm
 
-    a4                                                                         %! brass_manifest_rhythm
-    ~
-
-    % [J Trombone_Voice_IV measure 65 / measure 4]                             %! _comment_measure_numbers
-    a4                                                                         %! brass_manifest_rhythm
-
     g4                                                                         %! brass_manifest_rhythm
     ~
 
-    % [J Trombone_Voice_IV measure 66 / measure 5]                             %! _comment_measure_numbers
-    g4.                                                                        %! brass_manifest_rhythm
+    % [J Trombone_Voice_IV measure 65 / measure 4]                             %! _comment_measure_numbers
+    g4                                                                         %! brass_manifest_rhythm
 
-    a8                                                                         %! brass_manifest_rhythm
+    a4                                                                         %! brass_manifest_rhythm
     ~
 
-    a2                                                                         %! brass_manifest_rhythm
+    % [J Trombone_Voice_IV measure 66 / measure 5]                             %! _comment_measure_numbers
+    a4.                                                                        %! brass_manifest_rhythm
+
+    g8                                                                         %! brass_manifest_rhythm
+    ~
+
+    g2                                                                         %! brass_manifest_rhythm
     ~
 
     \times 2/3 {                                                               %! brass_manifest_rhythm
 
         % [J Trombone_Voice_IV measure 67 / measure 6]                         %! _comment_measure_numbers
-        a8                                                                     %! brass_manifest_rhythm
+        g8                                                                     %! brass_manifest_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -1548,7 +1548,7 @@ J_Trombone_Voice_IV_a = {                                                      %
 
     }                                                                          %! brass_manifest_rhythm
 
-    g2.                                                                        %! brass_manifest_rhythm
+    a2.                                                                        %! brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
