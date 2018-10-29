@@ -2455,17 +2455,6 @@ metadata = abjad.OrderedDict(
             ),
         ('segment_name', 'AC'),
         ('segment_number', 30),
-        (
-            'sounds_during_segment',
-            abjad.OrderedDict(
-                [
-                    ('Percussion_Rest_Voice_IV', False),
-                    ('Percussion_Voice_IV', True),
-                    ('Piano_Rest_Voice_I', False),
-                    ('Piano_Voice_I', True),
-                    ]
-                ),
-            ),
         ('start_clock_time', "5'47''"),
         ('stop_clock_time', "6'13''"),
         (
