@@ -10,7 +10,7 @@ from abjadext import rmakers
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = metadata.get('last_measure_number')
+start = metadata.get('final_measure_number')
 assert start == 35
 
 maker = baca.SegmentMaker(
