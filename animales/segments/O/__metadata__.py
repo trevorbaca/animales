@@ -283,10 +283,6 @@ metadata = abjad.OrderedDict(
             ),
         ('duration', "0'24''"),
         (
-            'fermata_measure_numbers',
-            [94],
-            ),
-        (
             'first_appearance_margin_markup',
             abjad.OrderedDict(
                 [
@@ -298,7 +294,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('first_measure_number', 95),
-        ('last_measure_is_fermata', True),
         ('last_measure_number', 108),
         (
             'persistent_indicators',
@@ -1529,85 +1524,6 @@ metadata = abjad.OrderedDict(
                 '4/4',
                 '2/4',
                 ],
-            ),
-        (
-            'voice_metadata',
-            abjad.OrderedDict(
-                [
-                    (
-                        'ContrabassVoiceII',
-                        abjad.OrderedDict(
-                            [
-                                (
-                                    'RHYTHM',
-                                    abjad.OrderedDict(
-                                        [
-                                            ('divisions_consumed', 204),
-                                            ('logical_ties_produced', 229),
-                                            ('name', 'harp_exchange_rhythm'),
-                                            ('talea_weight_consumed', 1224),
-                                            ]
-                                        ),
-                                    ),
-                                ]
-                            ),
-                        ),
-                    (
-                        'HarpVoiceI',
-                        abjad.OrderedDict(
-                            [
-                                (
-                                    'RHYTHM',
-                                    abjad.OrderedDict(
-                                        [
-                                            ('divisions_consumed', 204),
-                                            ('logical_ties_produced', 222),
-                                            ('name', 'harp_exchange_rhythm'),
-                                            ('talea_weight_consumed', 1224),
-                                            ]
-                                        ),
-                                    ),
-                                ]
-                            ),
-                        ),
-                    (
-                        'PercussionVoiceIII',
-                        abjad.OrderedDict(
-                            [
-                                (
-                                    'RHYTHM',
-                                    abjad.OrderedDict(
-                                        [
-                                            ('divisions_consumed', 204),
-                                            ('logical_ties_produced', 226),
-                                            ('name', 'harp_exchange_rhythm'),
-                                            ('talea_weight_consumed', 1224),
-                                            ]
-                                        ),
-                                    ),
-                                ]
-                            ),
-                        ),
-                    (
-                        'PianoVoiceI',
-                        abjad.OrderedDict(
-                            [
-                                (
-                                    'RHYTHM',
-                                    abjad.OrderedDict(
-                                        [
-                                            ('divisions_consumed', 204),
-                                            ('logical_ties_produced', 227),
-                                            ('name', 'harp_exchange_rhythm'),
-                                            ('talea_weight_consumed', 1224),
-                                            ]
-                                        ),
-                                    ),
-                                ]
-                            ),
-                        ),
-                    ]
-                ),
             ),
         ]
     )
