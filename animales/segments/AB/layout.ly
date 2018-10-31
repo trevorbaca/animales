@@ -1,3 +1,5 @@
+% first_page_number = 29
+% page_count = 1
 % measure_count = 4
 % time_signatures = [
 % '2/4', '4/4', '4/4', '1/4'
