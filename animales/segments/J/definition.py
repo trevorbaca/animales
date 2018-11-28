@@ -315,8 +315,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('f >', right_broken=True),
@@ -328,8 +328,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('f >', right_broken=True),
@@ -341,8 +341,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('f >', right_broken=True),
@@ -354,8 +354,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('f >', right_broken=True),
@@ -365,7 +365,11 @@ maker(
 maker(
     'cb3',
     animales.parts('Contrabass', (2, 6)),
-    baca.glissando(allow_repeats=True, right_broken=True, stems=True),
+    baca.glissando(
+        allow_repeats=True,
+        hide_middle_note_heads=True,
+        right_broken=True,
+        ),
     baca.hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('A1', 'G1'),
     baca.make_repeated_duration_notes([(1, 4)]),

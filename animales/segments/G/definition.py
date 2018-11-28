@@ -142,8 +142,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('pp <', right_broken=True),
@@ -157,8 +157,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('pp <', right_broken=True),
@@ -172,8 +172,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('pp <', right_broken=True),
@@ -187,8 +187,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         style='trill',
         ),
     baca.hairpin('pp <', right_broken=True),
@@ -202,8 +202,8 @@ maker(
     baca.articulation('trill'),
     baca.glissando(
         allow_repeats=True,
+        hide_middle_note_heads=True,
         right_broken=True,
-        stems=True,
         ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb1', 'A1'),
