@@ -702,76 +702,55 @@ G_First_Violin_Voice_I_a = {                                                   %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     a'''4                                                                      %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'''4                                                                      %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f'''4                                                                      %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G First_Violin_Voice_I measure 45 / measure 2]                          %! _comment_measure_numbers
     e'''4                                                                      %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d'''4                                                                      %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c'''4                                                                      %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G First_Violin_Voice_I measure 46 / measure 3]                          %! _comment_measure_numbers
     a''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G First_Violin_Voice_I measure 47 / measure 4]                          %! _comment_measure_numbers
     d''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G First_Violin_Voice_I measure 48 / measure 5]                          %! _comment_measure_numbers
     a'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G First_Violin_Voice_I measure 49 / measure 6]                          %! _comment_measure_numbers
     e'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     b4                                                                         %! baca_make_repeated_duration_notes
-%@% \glissando                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -829,76 +808,55 @@ G_Second_Violin_Voice_I_a = {                                                  %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     a''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Second_Violin_Voice_I measure 45 / measure 2]                         %! _comment_measure_numbers
     f''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Second_Violin_Voice_I measure 46 / measure 3]                         %! _comment_measure_numbers
     d''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c''4                                                                       %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Second_Violin_Voice_I measure 47 / measure 4]                         %! _comment_measure_numbers
     a'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Second_Violin_Voice_I measure 48 / measure 5]                         %! _comment_measure_numbers
     f'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Second_Violin_Voice_I measure 49 / measure 6]                         %! _comment_measure_numbers
     d'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     b4                                                                         %! baca_make_repeated_duration_notes
-%@% \glissando                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -956,76 +914,55 @@ G_Viola_Voice_I_a = {                                                          %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     b'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Voice_I measure 45 / measure 2]                                 %! _comment_measure_numbers
     a'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Voice_I measure 46 / measure 3]                                 %! _comment_measure_numbers
     f'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Voice_I measure 47 / measure 4]                                 %! _comment_measure_numbers
     e'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Voice_I measure 48 / measure 5]                                 %! _comment_measure_numbers
     d'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Viola_Voice_I measure 49 / measure 6]                                 %! _comment_measure_numbers
     c'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     b4                                                                         %! baca_make_repeated_duration_notes
-%@% \glissando                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -1083,76 +1020,55 @@ G_Cello_Voice_I_a = {                                                          %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Voice_I measure 45 / measure 2]                                 %! _comment_measure_numbers
     c4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Voice_I measure 46 / measure 3]                                 %! _comment_measure_numbers
     e4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Voice_I measure 47 / measure 4]                                 %! _comment_measure_numbers
     f4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Voice_I measure 48 / measure 5]                                 %! _comment_measure_numbers
     g4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Cello_Voice_I measure 49 / measure 6]                                 %! _comment_measure_numbers
     a4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b4                                                                         %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     b4                                                                         %! baca_make_repeated_duration_notes
-%@% \glissando                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
@@ -1322,76 +1238,55 @@ G_Contrabass_Voice_III_a = {                                                   %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Contrabass_Voice_III measure 45 / measure 2]                          %! _comment_measure_numbers
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Contrabass_Voice_III measure 46 / measure 3]                          %! _comment_measure_numbers
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     b,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Contrabass_Voice_III measure 47 / measure 4]                          %! _comment_measure_numbers
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Contrabass_Voice_III measure 48 / measure 5]                          %! _comment_measure_numbers
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [G Contrabass_Voice_III measure 49 / measure 6]                          %! _comment_measure_numbers
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     a,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     a,4                                                                        %! baca_make_repeated_duration_notes
-%@% \glissando                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! extern
