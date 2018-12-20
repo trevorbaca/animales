@@ -273,7 +273,7 @@ C_Horn_Voice_I_a = {                                                           %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Horn_Voice_I measure 20 / measure 3]                                  %! _comment_measure_numbers
-    g'8                                                                        %! downbeat_attack
+    g'8                                                                        %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -345,7 +345,7 @@ C_Horn_Voice_III_a = {                                                         %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Horn_Voice_III measure 20 / measure 3]                                %! _comment_measure_numbers
-    c'8                                                                        %! downbeat_attack
+    c'8                                                                        %! animales_downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -457,7 +457,7 @@ C_Horn_Voice_II_a = {                                                          %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Horn_Voice_II measure 20 / measure 3]                                 %! _comment_measure_numbers
-    df'!8                                                                      %! downbeat_attack
+    df'!8                                                                      %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -529,7 +529,7 @@ C_Horn_Voice_IV_a = {                                                          %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Horn_Voice_IV measure 20 / measure 3]                                 %! _comment_measure_numbers
-    b8                                                                         %! downbeat_attack
+    b8                                                                         %! animales_downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -641,7 +641,7 @@ C_Trumpet_Voice_I_a = {                                                        %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trumpet_Voice_I measure 20 / measure 3]                               %! _comment_measure_numbers
-    d''8                                                                       %! downbeat_attack
+    d''8                                                                       %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -713,7 +713,7 @@ C_Trumpet_Voice_III_a = {                                                      %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trumpet_Voice_III measure 20 / measure 3]                             %! _comment_measure_numbers
-    g'8                                                                        %! downbeat_attack
+    g'8                                                                        %! animales_downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -825,7 +825,7 @@ C_Trumpet_Voice_II_a = {                                                       %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trumpet_Voice_II measure 20 / measure 3]                              %! _comment_measure_numbers
-    af'!8                                                                      %! downbeat_attack
+    af'!8                                                                      %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -897,7 +897,7 @@ C_Trumpet_Voice_IV_a = {                                                       %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trumpet_Voice_IV measure 20 / measure 3]                              %! _comment_measure_numbers
-    f'8                                                                        %! downbeat_attack
+    f'8                                                                        %! animales_downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1009,7 +1009,7 @@ C_Trombone_Voice_I_a = {                                                       %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trombone_Voice_I measure 20 / measure 3]                              %! _comment_measure_numbers
-    g'8                                                                        %! downbeat_attack
+    g'8                                                                        %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1081,7 +1081,7 @@ C_Trombone_Voice_III_a = {                                                     %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trombone_Voice_III measure 20 / measure 3]                            %! _comment_measure_numbers
-    c'8                                                                        %! downbeat_attack
+    c'8                                                                        %! animales_downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1193,7 +1193,7 @@ C_Trombone_Voice_II_a = {                                                      %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trombone_Voice_II measure 20 / measure 3]                             %! _comment_measure_numbers
-    df'!8                                                                      %! downbeat_attack
+    df'!8                                                                      %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1265,7 +1265,7 @@ C_Trombone_Voice_IV_a = {                                                      %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Trombone_Voice_IV measure 20 / measure 3]                             %! _comment_measure_numbers
-    b8                                                                         %! downbeat_attack
+    b8                                                                         %! animales_downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1368,7 +1368,7 @@ C_Tuba_Voice_I_a = {                                                           %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Tuba_Voice_I measure 20 / measure 3]                                  %! _comment_measure_numbers
-    c,8                                                                        %! downbeat_attack
+    c,8                                                                        %! animales_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1641,7 +1641,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     % [C First_Violin_Voice_II measure 20 / measure 3]                         %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    c''2                                                                       %! glissando_rhythm
+    c''2                                                                       %! animales_glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca_stop_trill:+PARTS:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1651,19 +1651,19 @@ C_First_Violin_Voice_II_a = {                                                  %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
 
-    b'8                                                                        %! glissando_rhythm
+    b'8                                                                        %! animales_glissando_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    g''8                                                                       %! glissando_rhythm
+    g''8                                                                       %! animales_glissando_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    a'4                                                                        %! glissando_rhythm
+    a'4                                                                        %! animales_glissando_rhythm
     \glissando                                                                 %! baca_glissando
 
     % [C First_Violin_Voice_II measure 21 / measure 4]                         %! _comment_measure_numbers
-    d'''8                                                                      %! glissando_rhythm
+    d'''8                                                                      %! animales_glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     [                                                                          %! Duration_Specifier__rewrite_meter_
@@ -1676,31 +1676,31 @@ C_First_Violin_Voice_II_a = {                                                  %
     c'''2
     \glissando                                                                 %! baca_glissando
 
-    d''8                                                                       %! glissando_rhythm
+    d''8                                                                       %! animales_glissando_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    g'''8                                                                      %! glissando_rhythm
+    g'''8                                                                      %! animales_glissando_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
     % [C First_Violin_Voice_II measure 22 / measure 5]                         %! _comment_measure_numbers
-    c'''8                                                                      %! glissando_rhythm
+    c'''8                                                                      %! animales_glissando_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    f'''8                                                                      %! glissando_rhythm
+    f'''8                                                                      %! animales_glissando_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    g''2                                                                       %! glissando_rhythm
+    g''2                                                                       %! animales_glissando_rhythm
     \glissando                                                                 %! baca_glissando
 
-    b'''8                                                                      %! glissando_rhythm
+    b'''8                                                                      %! animales_glissando_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    d'''8                                                                      %! glissando_rhythm
+    d'''8                                                                      %! animales_glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1709,13 +1709,13 @@ C_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca_glissando
 
     % [C First_Violin_Voice_II measure 23 / measure 6]                         %! _comment_measure_numbers
-    a'''4                                                                      %! glissando_rhythm
+    a'''4                                                                      %! animales_glissando_rhythm
     \glissando                                                                 %! baca_glissando
 
-    c'''8                                                                      %! glissando_rhythm
+    c'''8                                                                      %! animales_glissando_rhythm
     ~                                                                          %! baca_tie_repeat_pitches
 
-    c'''4.                                                                     %! glissando_rhythm
+    c'''4.                                                                     %! animales_glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca_dls_up:OverrideCommand(2)
@@ -1775,7 +1775,7 @@ C_First_Violin_Voice_I_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-10)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1795,10 +1795,10 @@ C_First_Violin_Voice_I_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [C First_Violin_Voice_I measure 19 / measure 2]                          %! _comment_measure_numbers
-    df'!4                                                                      %! sforzando_exchange_rhythm
+    df'!4                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    df'!2.                                                                     %! sforzando_exchange_rhythm
+    df'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
 }                                                                              %! extern
@@ -1880,7 +1880,7 @@ C_First_Violin_Voice_III_a = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I (11-18)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1900,10 +1900,10 @@ C_First_Violin_Voice_III_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [C First_Violin_Voice_III measure 19 / measure 2]                        %! _comment_measure_numbers
-    df'!2                                                                      %! sforzando_exchange_rhythm
+    df'!2                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    df'!2                                                                      %! sforzando_exchange_rhythm
+    df'!2                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [C First_Violin_Voice_III measure 20 / measure 3]                        %! _comment_measure_numbers
@@ -1964,7 +1964,7 @@ C_Second_Violin_Voice_I_a = {                                                  %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-10)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1984,10 +1984,10 @@ C_Second_Violin_Voice_I_a = {                                                  %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [C Second_Violin_Voice_I measure 19 / measure 2]                         %! _comment_measure_numbers
-    df'!2..                                                                    %! sforzando_exchange_rhythm
+    df'!2..                                                                    %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    df'!8                                                                      %! sforzando_exchange_rhythm
+    df'!8                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [C Second_Violin_Voice_I measure 20 / measure 3]                         %! _comment_measure_numbers
@@ -2048,7 +2048,7 @@ C_Second_Violin_Voice_III_a = {                                                %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II (11-18)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2068,7 +2068,7 @@ C_Second_Violin_Voice_III_a = {                                                %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [C Second_Violin_Voice_III measure 19 / measure 2]                       %! _comment_measure_numbers
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [C Second_Violin_Voice_III measure 20 / measure 3]                       %! _comment_measure_numbers
@@ -2129,7 +2129,7 @@ C_Viola_Voice_I_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!4.                                                                     %! sforzando_exchange_rhythm
+    df'!4.                                                                     %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-10)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2148,14 +2148,14 @@ C_Viola_Voice_I_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    df'!8                                                                      %! sforzando_exchange_rhythm
+    df'!8                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    df'!2                                                                      %! sforzando_exchange_rhythm
+    df'!2                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [C Viola_Voice_I measure 19 / measure 2]                                 %! _comment_measure_numbers
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [C Viola_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
@@ -2218,7 +2218,7 @@ C_Viola_Voice_III_a = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!2                                                                      %! sforzando_exchange_rhythm
+    df'!2                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle. (11-18)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2237,11 +2237,11 @@ C_Viola_Voice_III_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    df'!2                                                                      %! sforzando_exchange_rhythm
+    df'!2                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [C Viola_Voice_III measure 19 / measure 2]                               %! _comment_measure_numbers
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [C Viola_Voice_III measure 20 / measure 3]                               %! _comment_measure_numbers
@@ -2300,7 +2300,7 @@ C_Cello_Voice_I_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    df'!1                                                                      %! sforzando_exchange_rhythm
+    df'!1                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2316,10 +2316,10 @@ C_Cello_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [C Cello_Voice_I measure 19 / measure 2]                                 %! _comment_measure_numbers
-    df'!8                                                                      %! sforzando_exchange_rhythm
+    df'!8                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    df'!2..                                                                    %! sforzando_exchange_rhythm
+    df'!2..                                                                    %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [C Cello_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
