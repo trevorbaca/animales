@@ -17,7 +17,7 @@ def pennant_rhythm(extra_counts=None, silences=None):
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=extra_counts,
-        tag='pennant_rhythm',
+        tag='animales_pennant_rhythm',
         talea=rmakers.Talea(
             counts=[1],
             denominator=16,

@@ -145,7 +145,7 @@ M_Flute_Voice_I_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    r2.                                                                        %! pennant_rhythm
+    r2.                                                                        %! animales_pennant_rhythm
     ^ \baca-default-indicator-markup "(“Flute”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Fl. (1+3)”]"                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -161,10 +161,10 @@ M_Flute_Voice_I_a = {                                                          %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
         % [M Flute_Voice_I measure 83 / measure 2]                             %! _comment_measure_numbers
-        g''8                                                                   %! pennant_rhythm
+        g''8                                                                   %! animales_pennant_rhythm
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
@@ -172,70 +172,70 @@ M_Flute_Voice_I_a = {                                                          %
         [                                                                      %! Duration_Specifier__rewrite_meter_
         (                                                                      %! baca_slur:SpannerIndicatorCommand(1)
 
-        af''!8                                                                 %! pennant_rhythm
+        af''!8                                                                 %! animales_pennant_rhythm
 
-        g''8                                                                   %! pennant_rhythm
+        g''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
 
-    bf''!16                                                                    %! pennant_rhythm
+    bf''!16                                                                    %! animales_pennant_rhythm
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
 
-    bf''!16                                                                    %! pennant_rhythm
+    bf''!16                                                                    %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
         % [M Flute_Voice_I measure 84 / measure 3]                             %! _comment_measure_numbers
-        b''8                                                                   %! pennant_rhythm
+        b''8                                                                   %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        bf''!8                                                                 %! pennant_rhythm
+        bf''!8                                                                 %! animales_pennant_rhythm
 
-        c'''8                                                                  %! pennant_rhythm
+        c'''8                                                                  %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        cs'''!8                                                                %! pennant_rhythm
+        cs'''!8                                                                %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b''8                                                                   %! pennant_rhythm
+        b''8                                                                   %! animales_pennant_rhythm
 
-        c'''8                                                                  %! pennant_rhythm
+        c'''8                                                                  %! animales_pennant_rhythm
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(2)
         )                                                                      %! baca_slur:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -278,9 +278,9 @@ M_Flute_Voice_III_a = {                                                        %
 
     % [M Flute_Voice_III measure 82 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r2                                                                         %! pennant_rhythm
+    r2                                                                         %! animales_pennant_rhythm
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -288,83 +288,83 @@ M_Flute_Voice_III_a = {                                                        %
     [                                                                          %! Duration_Specifier__rewrite_meter_
     (                                                                          %! baca_slur:SpannerIndicatorCommand(1)
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
 
-    e''16                                                                      %! pennant_rhythm
+    e''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
         % [M Flute_Voice_III measure 83 / measure 2]                           %! _comment_measure_numbers
-        ef''!8                                                                 %! pennant_rhythm
+        ef''!8                                                                 %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        f''8                                                                   %! pennant_rhythm
+        f''8                                                                   %! animales_pennant_rhythm
 
-        e''8                                                                   %! pennant_rhythm
+        e''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        f''8                                                                   %! pennant_rhythm
+        f''8                                                                   %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        fs''!8                                                                 %! pennant_rhythm
+        fs''!8                                                                 %! animales_pennant_rhythm
 
-        af''!8                                                                 %! pennant_rhythm
+        af''!8                                                                 %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
 
-    bf''!16                                                                    %! pennant_rhythm
+    bf''!16                                                                    %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [M Flute_Voice_III measure 84 / measure 3]                               %! _comment_measure_numbers
-    b''16                                                                      %! pennant_rhythm
+    b''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
 
-    bf''!16                                                                    %! pennant_rhythm
+    bf''!16                                                                    %! animales_pennant_rhythm
 
-    b''16                                                                      %! pennant_rhythm
+    b''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        c'''8                                                                  %! pennant_rhythm
+        c'''8                                                                  %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b''8                                                                   %! pennant_rhythm
+        b''8                                                                   %! animales_pennant_rhythm
 
-        bf''!8                                                                 %! pennant_rhythm
+        bf''!8                                                                 %! animales_pennant_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         )                                                                      %! baca_slur:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -433,7 +433,7 @@ M_Flute_Voice_II_a = {                                                         %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    r4                                                                         %! pennant_rhythm
+    r4                                                                         %! animales_pennant_rhythm
     ^ \baca-default-indicator-markup "(“Flute”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Fl. (2+4)”]"                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -449,9 +449,9 @@ M_Flute_Voice_II_a = {                                                         %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        ef''!8                                                                 %! pennant_rhythm
+        ef''!8                                                                 %! animales_pennant_rhythm
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
@@ -459,89 +459,89 @@ M_Flute_Voice_II_a = {                                                         %
         [                                                                      %! Duration_Specifier__rewrite_meter_
         (                                                                      %! baca_slur:SpannerIndicatorCommand(1)
 
-        e''8                                                                   %! pennant_rhythm
+        e''8                                                                   %! animales_pennant_rhythm
 
-        ef''!8                                                                 %! pennant_rhythm
+        ef''!8                                                                 %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        d''8                                                                   %! pennant_rhythm
+        d''8                                                                   %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        cs''!8                                                                 %! pennant_rhythm
+        cs''!8                                                                 %! animales_pennant_rhythm
 
-        ef''!8                                                                 %! pennant_rhythm
+        ef''!8                                                                 %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
     % [M Flute_Voice_II measure 83 / measure 2]                                %! _comment_measure_numbers
-    d''16                                                                      %! pennant_rhythm
+    d''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    ef''!16                                                                    %! pennant_rhythm
+    ef''!16                                                                    %! animales_pennant_rhythm
 
-    e''16                                                                      %! pennant_rhythm
+    e''16                                                                      %! animales_pennant_rhythm
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e''16                                                                      %! pennant_rhythm
+    e''16                                                                      %! animales_pennant_rhythm
 
-    ef''!16                                                                    %! pennant_rhythm
+    ef''!16                                                                    %! animales_pennant_rhythm
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        fs''!8                                                                 %! pennant_rhythm
+        fs''!8                                                                 %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        g''8                                                                   %! pennant_rhythm
+        g''8                                                                   %! animales_pennant_rhythm
 
-        fs''!8                                                                 %! pennant_rhythm
+        fs''!8                                                                 %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        af''!8                                                                 %! pennant_rhythm
+        af''!8                                                                 %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        a''8                                                                   %! pennant_rhythm
+        a''8                                                                   %! animales_pennant_rhythm
 
-        g''8                                                                   %! pennant_rhythm
+        g''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
     % [M Flute_Voice_II measure 84 / measure 3]                                %! _comment_measure_numbers
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
 
-    bf''!16                                                                    %! pennant_rhythm
+    bf''!16                                                                    %! animales_pennant_rhythm
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:+PARTS:PiecewiseCommand(2)
     )                                                                          %! baca_slur:SpannerIndicatorCommand(2)
@@ -588,7 +588,7 @@ M_Flute_Voice_IV_a = {                                                         %
 
     % [M Flute_Voice_IV measure 82 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    d''16                                                                      %! pennant_rhythm
+    d''16                                                                      %! animales_pennant_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -596,101 +596,101 @@ M_Flute_Voice_IV_a = {                                                         %
     [                                                                          %! Duration_Specifier__rewrite_meter_
     (                                                                          %! baca_slur:SpannerIndicatorCommand(1)
 
-    ef''!16                                                                    %! pennant_rhythm
+    ef''!16                                                                    %! animales_pennant_rhythm
 
-    d''16                                                                      %! pennant_rhythm
+    d''16                                                                      %! animales_pennant_rhythm
 
-    cs''!16                                                                    %! pennant_rhythm
+    cs''!16                                                                    %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    c''16                                                                      %! pennant_rhythm
+    c''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    d''16                                                                      %! pennant_rhythm
+    d''16                                                                      %! animales_pennant_rhythm
 
-    cs''!16                                                                    %! pennant_rhythm
+    cs''!16                                                                    %! animales_pennant_rhythm
 
-    d''16                                                                      %! pennant_rhythm
+    d''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        ef''!8                                                                 %! pennant_rhythm
+        ef''!8                                                                 %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        f''8                                                                   %! pennant_rhythm
+        f''8                                                                   %! animales_pennant_rhythm
 
-        e''8                                                                   %! pennant_rhythm
+        e''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
         % [M Flute_Voice_IV measure 83 / measure 2]                            %! _comment_measure_numbers
-        ef''!8                                                                 %! pennant_rhythm
+        ef''!8                                                                 %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d''8                                                                   %! pennant_rhythm
+        d''8                                                                   %! animales_pennant_rhythm
 
-        e''8                                                                   %! pennant_rhythm
+        e''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
 
-    f''16                                                                      %! pennant_rhythm
+    f''16                                                                      %! animales_pennant_rhythm
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    fs''!16                                                                    %! pennant_rhythm
+    fs''!16                                                                    %! animales_pennant_rhythm
 
-    g''16                                                                      %! pennant_rhythm
+    g''16                                                                      %! animales_pennant_rhythm
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
-        a''8                                                                   %! pennant_rhythm
+        a''8                                                                   %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        af''!8                                                                 %! pennant_rhythm
+        af''!8                                                                 %! animales_pennant_rhythm
 
-        g''8                                                                   %! pennant_rhythm
+        g''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    \times 2/3 {                                                               %! pennant_rhythm
+    \times 2/3 {                                                               %! animales_pennant_rhythm
 
         % [M Flute_Voice_IV measure 84 / measure 3]                            %! _comment_measure_numbers
-        fs''!8                                                                 %! pennant_rhythm
+        fs''!8                                                                 %! animales_pennant_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        af''!8                                                                 %! pennant_rhythm
+        af''!8                                                                 %! animales_pennant_rhythm
 
-        g''8                                                                   %! pennant_rhythm
+        g''8                                                                   %! animales_pennant_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! pennant_rhythm
+    }                                                                          %! animales_pennant_rhythm
 
-    af''!16                                                                    %! pennant_rhythm
+    af''!16                                                                    %! animales_pennant_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a''16                                                                      %! pennant_rhythm
+    a''16                                                                      %! animales_pennant_rhythm
 
-    b''16                                                                      %! pennant_rhythm
+    b''16                                                                      %! animales_pennant_rhythm
 
-    bf''!16                                                                    %! pennant_rhythm
+    bf''!16                                                                    %! animales_pennant_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     )                                                                          %! baca_slur:SpannerIndicatorCommand(2)
@@ -922,7 +922,7 @@ M_Piano_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    r2.                                                                        %! harp_exchange_rhythm
+    r2.                                                                        %! animales_harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -936,44 +936,44 @@ M_Piano_Voice_I_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
         % [M Piano_Voice_I measure 83 / measure 2]                             %! _comment_measure_numbers
-        c''8                                                                   %! harp_exchange_rhythm
+        c''8                                                                   %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r2.                                                                        %! harp_exchange_rhythm
+    r2.                                                                        %! animales_harp_exchange_rhythm
 
     % [M Piano_Voice_I measure 84 / measure 3]                                 %! _comment_measure_numbers
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
     % [M Piano_Voice_I measure 85 / measure 4]                                 %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
     % [M Piano_Voice_I measure 86 / measure 5]                                 %! _comment_measure_numbers
-    r4                                                                         %! harp_exchange_rhythm
+    r4                                                                         %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
-        r8                                                                     %! harp_exchange_rhythm
+        r8                                                                     %! animales_harp_exchange_rhythm
 
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r8                                                                     %! harp_exchange_rhythm
+        r8                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
     % [M Piano_Voice_I measure 87 / measure 6]                                 %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
 }                                                                              %! extern
 
@@ -995,7 +995,7 @@ M_Piano_Staff_I = {                                                            %
 
 M_Harp_Voice_I_a = {                                                           %! extern
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
         % [M Harp_Voice_I measure 82 / measure 1]                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1009,7 +1009,7 @@ M_Harp_Voice_I_a = {                                                           %
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        c''8                                                                   %! harp_exchange_rhythm
+        c''8                                                                   %! animales_harp_exchange_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
@@ -1025,48 +1025,48 @@ M_Harp_Voice_I_a = {                                                           %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
     % [M Harp_Voice_I measure 83 / measure 2]                                  %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
     % [M Harp_Voice_I measure 84 / measure 3]                                  %! _comment_measure_numbers
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
     % [M Harp_Voice_I measure 85 / measure 4]                                  %! _comment_measure_numbers
-    r2.                                                                        %! harp_exchange_rhythm
+    r2.                                                                        %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
     % [M Harp_Voice_I measure 86 / measure 5]                                  %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
     % [M Harp_Voice_I measure 87 / measure 6]                                  %! _comment_measure_numbers
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r4                                                                         %! harp_exchange_rhythm
+    r4                                                                         %! animales_harp_exchange_rhythm
 
 }                                                                              %! extern
 
@@ -1286,7 +1286,7 @@ M_Percussion_Staff_II = {                                                      %
 
 M_Percussion_Voice_III_a = {                                                   %! extern
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
         % [M Percussion_Voice_III measure 82 / measure 1]                      %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1304,7 +1304,7 @@ M_Percussion_Voice_III_a = {                                                   %
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        c''8                                                                   %! harp_exchange_rhythm
+        c''8                                                                   %! animales_harp_exchange_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
@@ -1323,44 +1323,44 @@ M_Percussion_Voice_III_a = {                                                   %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
     % [M Percussion_Voice_III measure 83 / measure 2]                          %! _comment_measure_numbers
-    r2.                                                                        %! harp_exchange_rhythm
+    r2.                                                                        %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
-        c''8                                                                   %! harp_exchange_rhythm
+        c''8                                                                   %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
     % [M Percussion_Voice_III measure 84 / measure 3]                          %! _comment_measure_numbers
-    r2                                                                         %! harp_exchange_rhythm
+    r2                                                                         %! animales_harp_exchange_rhythm
 
     % [M Percussion_Voice_III measure 85 / measure 4]                          %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
     % [M Percussion_Voice_III measure 86 / measure 5]                          %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
         % [M Percussion_Voice_III measure 87 / measure 6]                      %! _comment_measure_numbers
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r2.                                                                        %! harp_exchange_rhythm
+    r2.                                                                        %! animales_harp_exchange_rhythm
 
 }                                                                              %! extern
 
@@ -1385,7 +1385,7 @@ M_First_Violin_Voice_III_a = {                                                 %
     % [M First_Violin_Voice_III measure 82 / measure 1]                        %! _comment_measure_numbers
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca_dls_up:OverrideCommand(1)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    g'4                                                                        %! glissando_rhythm
+    g'4                                                                        %! animales_glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca_stop_trill:+PARTS:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1395,19 +1395,19 @@ M_First_Violin_Voice_III_a = {                                                 %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
 
-    e'''8                                                                      %! glissando_rhythm
+    e'''8                                                                      %! animales_glissando_rhythm
     \glissando                                                                 %! baca_glissando
 
-    a''4.                                                                      %! glissando_rhythm
+    a''4.                                                                      %! animales_glissando_rhythm
     \glissando                                                                 %! baca_glissando
 
     % [M First_Violin_Voice_III measure 83 / measure 2]                        %! _comment_measure_numbers
-    f'''4                                                                      %! glissando_rhythm
+    f'''4                                                                      %! animales_glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    d''8                                                                       %! glissando_rhythm
+    d''8                                                                       %! animales_glissando_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
@@ -1419,11 +1419,11 @@ M_First_Violin_Voice_III_a = {                                                 %
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    d'''8                                                                      %! glissando_rhythm
+    d'''8                                                                      %! animales_glissando_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
     \glissando                                                                 %! baca_glissando
 
-    a'4                                                                        %! glissando_rhythm
+    a'4                                                                        %! animales_glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1431,10 +1431,10 @@ M_First_Violin_Voice_III_a = {                                                 %
     \glissando                                                                 %! baca_glissando
 
     % [M First_Violin_Voice_III measure 84 / measure 3]                        %! _comment_measure_numbers
-    g''4.                                                                      %! glissando_rhythm
+    g''4.                                                                      %! animales_glissando_rhythm
     \glissando                                                                 %! baca_glissando
 
-    g'8                                                                        %! glissando_rhythm
+    g'8                                                                        %! animales_glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca_dls_up:OverrideCommand(2)
@@ -1882,7 +1882,7 @@ M_Contrabass_Voice_I_a = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    r4                                                                         %! harp_exchange_rhythm
+    r4                                                                         %! animales_harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Cb. 1”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1900,50 +1900,50 @@ M_Contrabass_Voice_I_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         ^ \markup { "as bell-like as possible (at sounding pitch)" }           %! baca_markup:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r4                                                                         %! harp_exchange_rhythm
+    r4                                                                         %! animales_harp_exchange_rhythm
 
     % [M Contrabass_Voice_I measure 83 / measure 2]                            %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
         % [M Contrabass_Voice_I measure 84 / measure 3]                        %! _comment_measure_numbers
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r4                                                                         %! harp_exchange_rhythm
+    r4                                                                         %! animales_harp_exchange_rhythm
 
     % [M Contrabass_Voice_I measure 85 / measure 4]                            %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
     % [M Contrabass_Voice_I measure 86 / measure 5]                            %! _comment_measure_numbers
-    r1                                                                         %! harp_exchange_rhythm
+    r1                                                                         %! animales_harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
 
         % [M Contrabass_Voice_I measure 87 / measure 6]                        %! _comment_measure_numbers
-        bf'!8                                                                  %! harp_exchange_rhythm
+        bf'!8                                                                  %! animales_harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! harp_exchange_rhythm
+        r4                                                                     %! animales_harp_exchange_rhythm
 
-    }                                                                          %! harp_exchange_rhythm
+    }                                                                          %! animales_harp_exchange_rhythm
 
-    r2.                                                                        %! harp_exchange_rhythm
+    r2.                                                                        %! animales_harp_exchange_rhythm
 
 }                                                                              %! extern
 

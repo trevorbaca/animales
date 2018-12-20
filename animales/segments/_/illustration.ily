@@ -338,7 +338,7 @@ i_First_Violin_Voice_I_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -359,23 +359,23 @@ i_First_Violin_Voice_I_a = {                                                   %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [_ First_Violin_Voice_I measure 2]                                       %! _comment_measure_numbers
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ First_Violin_Voice_I measure 3]                                       %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ First_Violin_Voice_I measure 4]                                       %! _comment_measure_numbers
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ First_Violin_Voice_I measure 5]                                       %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -383,7 +383,7 @@ i_First_Violin_Voice_I_a = {                                                   %
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ First_Violin_Voice_I measure 6]                                       %! _comment_measure_numbers
-    af'!1                                                                      %! sforzando_exchange_rhythm
+    af'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
@@ -436,7 +436,7 @@ i_First_Violin_Voice_III_a = {                                                 %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'4                                                                        %! sforzando_exchange_rhythm
+    a'4                                                                        %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -455,47 +455,47 @@ i_First_Violin_Voice_III_a = {                                                 %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ First_Violin_Voice_III measure 2]                                     %! _comment_measure_numbers
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    \times 2/3 {                                                               %! sforzando_exchange_rhythm
+    \times 2/3 {                                                               %! animales_sforzando_exchange_rhythm
 
-        a'8                                                                    %! sforzando_exchange_rhythm
+        a'8                                                                    %! animales_sforzando_exchange_rhythm
         \repeatTie
 
-        a'4                                                                    %! sforzando_exchange_rhythm
+        a'4                                                                    %! animales_sforzando_exchange_rhythm
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-    }                                                                          %! sforzando_exchange_rhythm
+    }                                                                          %! animales_sforzando_exchange_rhythm
 
-    a'4                                                                        %! sforzando_exchange_rhythm
+    a'4                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ First_Violin_Voice_III measure 3]                                     %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ First_Violin_Voice_III measure 4]                                     %! _comment_measure_numbers
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ First_Violin_Voice_III measure 5]                                     %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!4                                                                      %! sforzando_exchange_rhythm
+    af'!4                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    af'!2                                                                      %! sforzando_exchange_rhythm
+    af'!2                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ First_Violin_Voice_III measure 6]                                     %! _comment_measure_numbers
-    af'!1                                                                      %! sforzando_exchange_rhythm
+    af'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
@@ -548,7 +548,7 @@ i_Second_Violin_Voice_I_a = {                                                  %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -567,45 +567,45 @@ i_Second_Violin_Voice_I_a = {                                                  %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    a'8                                                                        %! sforzando_exchange_rhythm
+    a'8                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'4.                                                                       %! sforzando_exchange_rhythm
+    a'4.                                                                       %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Second_Violin_Voice_I measure 2]                                      %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Second_Violin_Voice_I measure 3]                                      %! _comment_measure_numbers
-    a'8                                                                        %! sforzando_exchange_rhythm
+    a'8                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'2..                                                                      %! sforzando_exchange_rhythm
+    a'2..                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Second_Violin_Voice_I measure 4]                                      %! _comment_measure_numbers
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Second_Violin_Voice_I measure 5]                                      %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!2                                                                      %! sforzando_exchange_rhythm
+    af'!2                                                                      %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    af'!8                                                                      %! sforzando_exchange_rhythm
+    af'!8                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af'!8                                                                      %! sforzando_exchange_rhythm
+    af'!8                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [_ Second_Violin_Voice_I measure 6]                                      %! _comment_measure_numbers
-    af'!1                                                                      %! sforzando_exchange_rhythm
+    af'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
@@ -658,7 +658,7 @@ i_Second_Violin_Voice_III_a = {                                                %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -677,54 +677,54 @@ i_Second_Violin_Voice_III_a = {                                                %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    \times 2/3 {                                                               %! sforzando_exchange_rhythm
+    \times 2/3 {                                                               %! animales_sforzando_exchange_rhythm
 
-        a'4                                                                    %! sforzando_exchange_rhythm
+        a'4                                                                    %! animales_sforzando_exchange_rhythm
         \repeatTie
 
-        a'8                                                                    %! sforzando_exchange_rhythm
+        a'8                                                                    %! animales_sforzando_exchange_rhythm
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-    }                                                                          %! sforzando_exchange_rhythm
+    }                                                                          %! animales_sforzando_exchange_rhythm
 
-    a'4                                                                        %! sforzando_exchange_rhythm
+    a'4                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Second_Violin_Voice_III measure 2]                                    %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Second_Violin_Voice_III measure 3]                                    %! _comment_measure_numbers
-    a'4                                                                        %! sforzando_exchange_rhythm
+    a'4                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Second_Violin_Voice_III measure 4]                                    %! _comment_measure_numbers
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Second_Violin_Voice_III measure 5]                                    %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    \times 2/3 {                                                               %! sforzando_exchange_rhythm
+    \times 2/3 {                                                               %! animales_sforzando_exchange_rhythm
 
         % [_ Second_Violin_Voice_III measure 6]                                %! _comment_measure_numbers
-        af'!8                                                                  %! sforzando_exchange_rhythm
+        af'!8                                                                  %! animales_sforzando_exchange_rhythm
         \repeatTie
 
-        af'!4                                                                  %! sforzando_exchange_rhythm
+        af'!4                                                                  %! animales_sforzando_exchange_rhythm
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-    }                                                                          %! sforzando_exchange_rhythm
+    }                                                                          %! animales_sforzando_exchange_rhythm
 
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
@@ -777,7 +777,7 @@ i_Viola_Voice_I_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -796,40 +796,40 @@ i_Viola_Voice_I_a = {                                                          %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    a'4                                                                        %! sforzando_exchange_rhythm
+    a'4                                                                        %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Viola_Voice_I measure 2]                                              %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Viola_Voice_I measure 3]                                              %! _comment_measure_numbers
-    a'2..                                                                      %! sforzando_exchange_rhythm
+    a'2..                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'8                                                                        %! sforzando_exchange_rhythm
+    a'8                                                                        %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Viola_Voice_I measure 4]                                              %! _comment_measure_numbers
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Viola_Voice_I measure 5]                                              %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Viola_Voice_I measure 6]                                              %! _comment_measure_numbers
-    af'!2                                                                      %! sforzando_exchange_rhythm
+    af'!2                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    af'!8                                                                      %! sforzando_exchange_rhythm
+    af'!8                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    af'!4.                                                                     %! sforzando_exchange_rhythm
+    af'!4.                                                                     %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
@@ -882,7 +882,7 @@ i_Viola_Voice_III_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -902,30 +902,30 @@ i_Viola_Voice_III_a = {                                                        %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [_ Viola_Voice_III measure 2]                                            %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Viola_Voice_III measure 3]                                            %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Viola_Voice_III measure 4]                                            %! _comment_measure_numbers
-    a'2.                                                                       %! sforzando_exchange_rhythm
+    a'2.                                                                       %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [_ Viola_Voice_III measure 5]                                            %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Viola_Voice_III measure 6]                                            %! _comment_measure_numbers
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    af'!4                                                                      %! sforzando_exchange_rhythm
+    af'!4                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
@@ -970,7 +970,7 @@ i_Cello_Voice_I_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -986,41 +986,41 @@ i_Cello_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [_ Cello_Voice_I measure 2]                                              %! _comment_measure_numbers
-    a'4.                                                                       %! sforzando_exchange_rhythm
+    a'4.                                                                       %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'8                                                                        %! sforzando_exchange_rhythm
+    a'8                                                                        %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Cello_Voice_I measure 3]                                              %! _comment_measure_numbers
-    a'1                                                                        %! sforzando_exchange_rhythm
+    a'1                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
     % [_ Cello_Voice_I measure 4]                                              %! _comment_measure_numbers
-    a'2                                                                        %! sforzando_exchange_rhythm
+    a'2                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
 
-    a'8                                                                        %! sforzando_exchange_rhythm
+    a'8                                                                        %! animales_sforzando_exchange_rhythm
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a'8                                                                        %! sforzando_exchange_rhythm
+    a'8                                                                        %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [_ Cello_Voice_I measure 5]                                              %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    af'!2.                                                                     %! sforzando_exchange_rhythm
+    af'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \startTrillSpan a'                                                         %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Cello_Voice_I measure 6]                                              %! _comment_measure_numbers
-    af'!1                                                                      %! sforzando_exchange_rhythm
+    af'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
     \stopTrillSpan                                                             %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
