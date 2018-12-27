@@ -889,7 +889,7 @@ N_Bass_Clarinet_Voice_I_a = {                                                  %
 
             % [N Bass_Clarinet_Voice_I measure 89 / measure 2]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            bf!1 * 1/2                                                         %! _make_multimeasure_rest_container
+            d''1 * 1/2                                                         %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -936,7 +936,7 @@ N_Bass_Clarinet_Voice_I_a = {                                                  %
         %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca_literal:+PARTS:IndicatorCommand
         %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca_literal:+PARTS:IndicatorCommand
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            bf!1 * 1/4                                                         %! _make_multimeasure_rest_container
+            d''1 * 1/4                                                         %! _make_multimeasure_rest_container
         %%% ^ \markup {                                                        %! baca_markup:+PARTS:IndicatorCommand
         %%%     \musicglyph                                                    %! baca_markup:+PARTS:IndicatorCommand
         %%%         #"scripts.ufermata"                                        %! baca_markup:+PARTS:IndicatorCommand
