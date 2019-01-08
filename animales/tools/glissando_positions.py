@@ -33,7 +33,7 @@ def glissando_positions(reverse=False, rotate=0, transpose=0):
                     6,
                     ]
                 ),
-            selector=baca.plts(),
+            selector=baca.plts(exclude='HIDDEN'),
             )
 
     """

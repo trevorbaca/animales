@@ -59,8 +59,13 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.rehearsal_mark('N'),
-    baca.only_score(baca.rehearsal_mark_y_offset(-2)),
+    baca.rehearsal_mark(
+        'N',
+        abjad.tweak(
+            (0, -2),
+            tag='+TABLOID_SCORE',
+            ).extra_offset,
+        ),
     )
 
 maker(
