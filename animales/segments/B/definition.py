@@ -38,8 +38,13 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.rehearsal_mark('B'),
-    baca.only_score(baca.rehearsal_mark_y_offset(6)),
+    baca.rehearsal_mark(
+        'B',
+        abjad.tweak(
+            (0, 6),
+            tag=baca.enums.ONLY_SCORE,
+            ).extra_offset,
+        ),
     )
 
 # strings

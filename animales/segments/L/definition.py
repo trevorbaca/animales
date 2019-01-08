@@ -58,10 +58,12 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.metronome_mark(baca.Accelerando()),
-    baca.rehearsal_mark('L'),
-    baca.tag(
-        '+TABLOID_SCORE',
-        baca.rehearsal_mark_y_offset(6),
+    baca.rehearsal_mark(
+        'L',
+        abjad.tweak(
+            (0, 6),
+            tag='+TABLOID_SCORE',
+            ).extra_offset,
         ),
     baca.tag(
         '+TABLOID_SCORE',

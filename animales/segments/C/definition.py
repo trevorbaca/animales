@@ -63,8 +63,13 @@ maker = baca.SegmentMaker(
 
 maker(
     ('Global_Skips', 3),
-    baca.rehearsal_mark('C'),
-    baca.only_score(baca.rehearsal_mark_y_offset(-2)),
+    baca.rehearsal_mark(
+        'C',
+        abjad.tweak(
+            (0, -2),
+            tag=baca.enums.ONLY_SCORE,
+            ).extra_offset,
+        ),
     )
 
 # clarinet
