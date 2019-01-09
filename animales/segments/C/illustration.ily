@@ -1800,6 +1800,7 @@ C_First_Violin_Voice_I_a = {                                                   %
 
     df'!2.                                                                     %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
 }                                                                              %! extern
 
@@ -1823,7 +1824,6 @@ C_First_Violin_Voice_I_b = {                                                   %
                     }                                                          %! baca_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca_markup:-PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C First_Violin_Voice_I measure 21 / measure 4]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1905,6 +1905,7 @@ C_First_Violin_Voice_III_a = {                                                 %
 
     df'!2                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C First_Violin_Voice_III measure 20 / measure 3]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1912,7 +1913,6 @@ C_First_Violin_Voice_III_a = {                                                 %
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C First_Violin_Voice_III measure 21 / measure 4]                        %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1989,6 +1989,7 @@ C_Second_Violin_Voice_I_a = {                                                  %
 
     df'!8                                                                      %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Second_Violin_Voice_I measure 20 / measure 3]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -1996,7 +1997,6 @@ C_Second_Violin_Voice_I_a = {                                                  %
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Second_Violin_Voice_I measure 21 / measure 4]                         %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2070,6 +2070,7 @@ C_Second_Violin_Voice_III_a = {                                                %
     % [C Second_Violin_Voice_III measure 19 / measure 2]                       %! _comment_measure_numbers
     df'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Second_Violin_Voice_III measure 20 / measure 3]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2077,7 +2078,6 @@ C_Second_Violin_Voice_III_a = {                                                %
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Second_Violin_Voice_III measure 21 / measure 4]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2157,6 +2157,7 @@ C_Viola_Voice_I_a = {                                                          %
     % [C Viola_Voice_I measure 19 / measure 2]                                 %! _comment_measure_numbers
     df'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Viola_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2164,7 +2165,6 @@ C_Viola_Voice_I_a = {                                                          %
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Viola_Voice_I measure 21 / measure 4]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2243,6 +2243,7 @@ C_Viola_Voice_III_a = {                                                        %
     % [C Viola_Voice_III measure 19 / measure 2]                               %! _comment_measure_numbers
     df'!1                                                                      %! animales_sforzando_exchange_rhythm
     \repeatTie
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Viola_Voice_III measure 20 / measure 3]                               %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2250,7 +2251,6 @@ C_Viola_Voice_III_a = {                                                        %
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Viola_Voice_III measure 21 / measure 4]                               %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2321,6 +2321,7 @@ C_Cello_Voice_I_a = {                                                          %
 
     df'!2..                                                                    %! animales_sforzando_exchange_rhythm
     - \accent                                                                  %! baca_accent:IndicatorCommand
+    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Cello_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
@@ -2328,7 +2329,6 @@ C_Cello_Voice_I_a = {                                                          %
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca_markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \revert TrillSpanner.staff-padding                                         %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Cello_Voice_I measure 21 / measure 4]                                 %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
