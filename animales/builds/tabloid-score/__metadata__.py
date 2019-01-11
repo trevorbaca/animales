@@ -31,6 +31,6 @@ metadata = abjad.OrderedDict(
             ),
         ('catalog_number_suffix', 'TAB'),
         ('paper_size', 'tabloid'),
-        ('price', '$120'),
+        ('price', '$120 / \\euro 120'),
         ]
     )
