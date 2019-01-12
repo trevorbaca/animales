@@ -257,6 +257,16 @@ Q_Horn_Voice_I_a = {                                                           %
                     (1+3)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Hn.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1+3)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -470,6 +480,16 @@ Q_Horn_Voice_II_a = {                                                          %
                     (2+4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Hn.                                                        %! _clone_segment_initial_short_instrument_name
+                    (2+4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -683,6 +703,16 @@ Q_Trumpet_Voice_I_a = {                                                        %
                     (1+3)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Tp.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1+3)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -896,6 +926,16 @@ Q_Trumpet_Voice_II_a = {                                                       %
                     (2+4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Tp.                                                        %! _clone_segment_initial_short_instrument_name
+                    (2+4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1109,6 +1149,16 @@ Q_Trombone_Voice_I_a = {                                                       %
                     (1+3)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Trb.                                                       %! _clone_segment_initial_short_instrument_name
+                    (1+3)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "tenor"                                                              %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1322,6 +1372,16 @@ Q_Trombone_Voice_II_a = {                                                      %
                     (2+4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Trb.                                                       %! _clone_segment_initial_short_instrument_name
+                    (2+4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "tenor"                                                              %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1541,6 +1601,17 @@ Q_First_Violin_Voice_I_a = {                                                   %
                             (5-8)                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            "Vni. I"                                           %! _clone_segment_initial_short_instrument_name
+                            (1-4)                                              %! _clone_segment_initial_short_instrument_name
+                            (5-8)                                              %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -1943,6 +2014,17 @@ Q_First_Violin_Voice_III_a = {                                                 %
                             (13-17)                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            "Vni. I"                                           %! _clone_segment_initial_short_instrument_name
+                            (9-12)                                             %! _clone_segment_initial_short_instrument_name
+                            (13-17)                                            %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -2339,6 +2421,16 @@ Q_First_Violin_Voice_V_a = {                                                   %
                     18                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    18                                                         %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2498,6 +2590,17 @@ Q_Second_Violin_Voice_I_a = {                                                  %
                             (5-8)                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            "Vni. II"                                          %! _clone_segment_initial_short_instrument_name
+                            (1-4)                                              %! _clone_segment_initial_short_instrument_name
+                            (5-8)                                              %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -2904,6 +3007,17 @@ Q_Second_Violin_Voice_III_a = {                                                %
                             (13-18)                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            "Vni. II"                                          %! _clone_segment_initial_short_instrument_name
+                            (9-12)                                             %! _clone_segment_initial_short_instrument_name
+                            (13-18)                                            %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -3306,6 +3420,17 @@ Q_Viola_Voice_I_a = {                                                          %
                             (5-8)                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            Vle.                                               %! _clone_segment_initial_short_instrument_name
+                            (1-4)                                              %! _clone_segment_initial_short_instrument_name
+                            (5-8)                                              %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -3708,6 +3833,17 @@ Q_Viola_Voice_III_a = {                                                        %
                             (13-18)                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            Vle.                                               %! _clone_segment_initial_short_instrument_name
+                            (9-12)                                             %! _clone_segment_initial_short_instrument_name
+                            (13-18)                                            %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -4110,6 +4246,17 @@ Q_Cello_Voice_I_a = {                                                          %
                             (9-14)                                             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                         }                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    \center-column                                             %! _clone_segment_initial_short_instrument_name
+                        {                                                      %! _clone_segment_initial_short_instrument_name
+                            Vc.                                                %! _clone_segment_initial_short_instrument_name
+                            (1-8)                                              %! _clone_segment_initial_short_instrument_name
+                            (9-14)                                             %! _clone_segment_initial_short_instrument_name
+                        }                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca_dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca_hairpin_stencil_false:OverrideCommand(1)
@@ -4511,6 +4658,12 @@ Q_Contrabass_Voice_III_a = {                                                   %
                     #16                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     Cb.                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \set Staff.instrumentName =                                        %! _clone_segment_initial_short_instrument_name
+            \markup {                                                          %! _clone_segment_initial_short_instrument_name
+                \hcenter-in                                                    %! _clone_segment_initial_short_instrument_name
+                    #16                                                        %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
         %%% \clef "bass"                                                       %! REAPPLIED_CLEF:_set_status_tag:+LETTER_PARTS_CB-1:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
