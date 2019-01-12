@@ -191,6 +191,16 @@ F_Clarinet_Voice_I_a = {                                                       %
                     1                                                          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cl.                                                        %! _clone_segment_initial_short_instrument_name
+                    1                                                          %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -312,6 +322,12 @@ F_Piano_Voice_I_a = {                                                          %
             #16                                                                %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
             Pf.                                                                %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         }                                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Pf.                                                                %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)      %! DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -419,6 +435,12 @@ F_Harp_Voice_I_a = {                                                           %
             #16                                                                %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
             Hp.                                                                %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
         }                                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Hp.                                                                %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)      %! DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -542,6 +564,16 @@ F_Percussion_Voice_I_a = {                                                     %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Perc. 1"                                                  %! _clone_segment_initial_short_instrument_name
+                    (tri.)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -622,6 +654,16 @@ F_Percussion_Voice_II_a = {                                                    %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Perc. 2"                                                  %! _clone_segment_initial_short_instrument_name
+                    (cym.)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -722,6 +764,16 @@ F_Percussion_Voice_III_a = {                                                   %
                         (vib.)                                                 %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                     }                                                          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
             }                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        "Perc. 3"                                              %! _clone_segment_initial_short_instrument_name
+                        (vib.)                                                 %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
     %%% \override TextScript.extra-offset = #'(1.5 . 1.5)                      %! +PARTS:baca_text_script_extra_offset:OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -826,6 +878,12 @@ F_First_Violin_Voice_I_a = {                                                   %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             "Vni. I"                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            "Vni. I"                                                           %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -907,6 +965,12 @@ F_Second_Violin_Voice_I_a = {                                                  %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             "Vni. II"                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            "Vni. II"                                                          %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -982,6 +1046,12 @@ F_Viola_Voice_I_a = {                                                          %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vle.                                                               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Vle.                                                               %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1057,6 +1127,12 @@ F_Cello_Voice_I_a = {                                                          %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Vc.                                                                %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1136,6 +1212,16 @@ F_Contrabass_Voice_I_a = {                                                     %
                     1                                                          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    1                                                          %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1253,6 +1339,16 @@ F_Contrabass_Voice_III_a = {                                                   %
                     (2-6)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (2-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)

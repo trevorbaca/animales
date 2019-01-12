@@ -77,6 +77,16 @@ U_First_Violin_Voice_I_a = {                                                   %
                     (1-2)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     d'16                                                                       %! animales_clb_rhythm
@@ -256,6 +266,16 @@ U_First_Violin_Voice_III_a = {                                                 %
                         (3-4)                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        "Vni. I"                                               %! _clone_segment_initial_short_instrument_name
+                        (3-4)                                                  %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         r4                                                                     %! animales_clb_rhythm
@@ -459,6 +479,16 @@ U_First_Violin_Voice_V_a = {                                                   %
                     (5-6)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4.                                                                        %! animales_clb_rhythm
@@ -646,6 +676,16 @@ U_First_Violin_Voice_VII_a = {                                                 %
                         (7-8)                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        "Vni. I"                                               %! _clone_segment_initial_short_instrument_name
+                        (7-8)                                                  %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         r4                                                                     %! animales_clb_rhythm
@@ -851,6 +891,16 @@ U_First_Violin_Voice_IX_a = {                                                  %
                     (9-10)                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     d'16                                                                       %! animales_clb_rhythm
@@ -1028,6 +1078,16 @@ U_First_Violin_Voice_XI_a = {                                                  %
                     (11-12)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r16                                                                        %! animales_clb_rhythm
@@ -1233,6 +1293,16 @@ U_First_Violin_Voice_XIII_a = {                                                %
                     (13-14)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (13-14)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4
@@ -1398,6 +1468,16 @@ U_First_Violin_Voice_XV_a = {                                                  %
                     (15-16)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (15-16)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r8.                                                                        %! animales_clb_rhythm
@@ -1583,6 +1663,16 @@ U_First_Violin_Voice_XVII_a = {                                                %
                     (17-18)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (17-18)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r1
@@ -1756,6 +1846,16 @@ U_Second_Violin_Voice_I_a = {                                                  %
                     (1-2)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r8                                                                         %! animales_clb_rhythm
@@ -1935,6 +2035,16 @@ U_Second_Violin_Voice_III_a = {                                                %
                     (3-4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4
@@ -2158,6 +2268,16 @@ U_Second_Violin_Voice_V_a = {                                                  %
                     (5-6)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r16                                                                        %! animales_clb_rhythm
@@ -2339,6 +2459,16 @@ U_Second_Violin_Voice_VII_a = {                                                %
                     (7-8)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r1
@@ -2534,6 +2664,16 @@ U_Second_Violin_Voice_IX_a = {                                                 %
                     (9-10)                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r16                                                                        %! animales_clb_rhythm
@@ -2709,6 +2849,16 @@ U_Second_Violin_Voice_XI_a = {                                                 %
                     (11-12)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4.                                                                        %! animales_clb_rhythm
@@ -2900,6 +3050,16 @@ U_Second_Violin_Voice_XIII_a = {                                               %
                         (13-14)                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        "Vni. II"                                              %! _clone_segment_initial_short_instrument_name
+                        (13-14)                                                %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         d'8                                                                    %! animales_clb_rhythm
@@ -3101,6 +3261,16 @@ U_Second_Violin_Voice_XV_a = {                                                 %
                     (15-16)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (15-16)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4                                                                         %! animales_clb_rhythm
@@ -3294,6 +3464,16 @@ U_Second_Violin_Voice_XVII_a = {                                               %
                         (17-18)                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        "Vni. II"                                              %! _clone_segment_initial_short_instrument_name
+                        (17-18)                                                %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         d'8                                                                    %! animales_clb_rhythm
@@ -3495,6 +3675,16 @@ U_Viola_Voice_I_a = {                                                          %
                     (1-2)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4                                                                         %! animales_clb_rhythm
@@ -3678,6 +3868,16 @@ U_Viola_Voice_III_a = {                                                        %
                     (3-4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r2
@@ -3853,6 +4053,16 @@ U_Viola_Voice_V_a = {                                                          %
                     (5-6)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r8.                                                                        %! animales_clb_rhythm
@@ -4036,6 +4246,16 @@ U_Viola_Voice_VII_a = {                                                        %
                     (7-8)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r2
@@ -4239,6 +4459,16 @@ U_Viola_Voice_IX_a = {                                                         %
                     (9-10)                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r8.                                                                        %! animales_clb_rhythm
@@ -4412,6 +4642,16 @@ U_Viola_Voice_XI_a = {                                                         %
                     (11-12)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     d'16                                                                       %! animales_clb_rhythm
@@ -4599,6 +4839,16 @@ U_Viola_Voice_XIII_a = {                                                       %
                         (13-14)                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        Vle.                                                   %! _clone_segment_initial_short_instrument_name
+                        (13-14)                                                %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         r4                                                                     %! animales_clb_rhythm
@@ -4780,6 +5030,16 @@ U_Viola_Voice_XV_a = {                                                         %
                     (15-16)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (15-16)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4.                                                                        %! animales_clb_rhythm
@@ -4971,6 +5231,16 @@ U_Viola_Voice_XVII_a = {                                                       %
                         (17-18)                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        Vle.                                                   %! _clone_segment_initial_short_instrument_name
+                        (17-18)                                                %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         r4                                                                     %! animales_clb_rhythm
@@ -5158,6 +5428,16 @@ U_Cello_Voice_I_a = {                                                          %
                     (1-2)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     d'16                                                                       %! animales_clb_rhythm
@@ -5341,6 +5621,16 @@ U_Cello_Voice_III_a = {                                                        %
                         (3-4)                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                     }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName =                                            %! _clone_segment_initial_short_instrument_name
+        \markup {                                                              %! _clone_segment_initial_short_instrument_name
+            \hcenter-in                                                        %! _clone_segment_initial_short_instrument_name
+                #16                                                            %! _clone_segment_initial_short_instrument_name
+                \center-column                                                 %! _clone_segment_initial_short_instrument_name
+                    {                                                          %! _clone_segment_initial_short_instrument_name
+                        Vc.                                                    %! _clone_segment_initial_short_instrument_name
+                        (3-4)                                                  %! _clone_segment_initial_short_instrument_name
+                    }                                                          %! _clone_segment_initial_short_instrument_name
+            }                                                                  %! _clone_segment_initial_short_instrument_name
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \voiceOne                                                              %! baca_voice_one:-PARTS:IndicatorCommand
         r8                                                                     %! animales_clb_rhythm
@@ -5560,6 +5850,16 @@ U_Cello_Voice_V_a = {                                                          %
                     (5-6)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4                                                                         %! animales_clb_rhythm
@@ -5733,6 +6033,16 @@ U_Cello_Voice_VII_a = {                                                        %
                     (7-8)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4
@@ -5936,6 +6246,16 @@ U_Cello_Voice_IX_a = {                                                         %
                     (9-10)                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r2.                                                                        %! animales_clb_rhythm
@@ -6107,6 +6427,16 @@ U_Cello_Voice_XI_a = {                                                         %
                     (11-12)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r8                                                                         %! animales_clb_rhythm
@@ -6292,6 +6622,16 @@ U_Cello_Voice_XIII_a = {                                                       %
                     (13-14)                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (13-14)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r4
@@ -6485,6 +6825,16 @@ U_Contrabass_Voice_I_a = {                                                     %
                     (1-2)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r16                                                                        %! animales_clb_rhythm
@@ -6674,6 +7024,16 @@ U_Contrabass_Voice_III_a = {                                                   %
                     (3-4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r1
@@ -6859,6 +7219,16 @@ U_Contrabass_Voice_V_a = {                                                     %
                     (5-6)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     r16                                                                        %! animales_clb_rhythm

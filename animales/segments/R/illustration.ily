@@ -81,6 +81,16 @@ R_Horn_Voice_I = {                                                             %
                     (1+3)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Hn.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1+3)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -154,6 +164,16 @@ R_Horn_Voice_II = {                                                            %
                     (2+4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Hn.                                                        %! _clone_segment_initial_short_instrument_name
+                    (2+4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -227,6 +247,16 @@ R_Trumpet_Voice_I = {                                                          %
                     (1+3)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Tp.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1+3)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -300,6 +330,16 @@ R_Trumpet_Voice_II = {                                                         %
                     (2+4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Tp.                                                        %! _clone_segment_initial_short_instrument_name
+                    (2+4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -373,6 +413,16 @@ R_Trombone_Voice_I = {                                                         %
                     (1+3)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Trb.                                                       %! _clone_segment_initial_short_instrument_name
+                    (1+3)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "tenor"                                                              %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -446,6 +496,16 @@ R_Trombone_Voice_II = {                                                        %
                     (2+4)                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Trb.                                                       %! _clone_segment_initial_short_instrument_name
+                    (2+4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "tenor"                                                              %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -515,6 +575,12 @@ R_Tuba_Voice_I = {                                                             %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Tub.                                                               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Tub.                                                               %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -561,6 +627,12 @@ R_Piano_Voice_I = {                                                            %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Pf.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Pf.                                                                %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -615,6 +687,16 @@ R_Percussion_Voice_I = {                                                       %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Perc. 1"                                                  %! _clone_segment_initial_short_instrument_name
+                    (tri.)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -674,6 +756,16 @@ R_Percussion_Voice_II = {                                                      %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Perc. 2"                                                  %! _clone_segment_initial_short_instrument_name
+                    (cym.)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -729,6 +821,16 @@ R_Percussion_Voice_III = {                                                     %
                     (vib.)                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Perc. 3"                                                  %! _clone_segment_initial_short_instrument_name
+                    (vib.)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -782,6 +884,12 @@ R_Percussion_Voice_IV = {                                                      %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Perc.                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -835,6 +943,16 @@ R_First_Violin_Voice_I_a = {                                                   %
                     (1-2)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -961,6 +1079,16 @@ R_First_Violin_Voice_III_a = {                                                 %
                     (3-4)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1085,6 +1213,16 @@ R_First_Violin_Voice_V_a = {                                                   %
                     (5-6)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1213,6 +1351,16 @@ R_First_Violin_Voice_VII_a = {                                                 %
                     (7-8)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1333,6 +1481,16 @@ R_First_Violin_Voice_IX_a = {                                                  %
                     (9-10)                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1453,6 +1611,16 @@ R_First_Violin_Voice_XI_a = {                                                  %
                     (11-12)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1573,6 +1741,16 @@ R_First_Violin_Voice_XIII_a = {                                                %
                     (13-14)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (13-14)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1693,6 +1871,16 @@ R_First_Violin_Voice_XV_a = {                                                  %
                     (15-16)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (15-16)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1813,6 +2001,16 @@ R_First_Violin_Voice_XVII_a = {                                                %
                     (17-18)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. I"                                                   %! _clone_segment_initial_short_instrument_name
+                    (17-18)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1937,6 +2135,16 @@ R_Second_Violin_Voice_I_a = {                                                  %
                     (1-2)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2061,6 +2269,16 @@ R_Second_Violin_Voice_III_a = {                                                %
                     (3-4)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2197,6 +2415,16 @@ R_Second_Violin_Voice_V_a = {                                                  %
                     (5-6)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2319,6 +2547,16 @@ R_Second_Violin_Voice_VII_a = {                                                %
                     (7-8)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2439,6 +2677,16 @@ R_Second_Violin_Voice_IX_a = {                                                 %
                     (9-10)                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2559,6 +2807,16 @@ R_Second_Violin_Voice_XI_a = {                                                 %
                     (11-12)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2695,6 +2953,16 @@ R_Second_Violin_Voice_XIII_a = {                                               %
                     (13-14)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (13-14)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2815,6 +3083,16 @@ R_Second_Violin_Voice_XV_a = {                                                 %
                     (15-16)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (15-16)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -2935,6 +3213,16 @@ R_Second_Violin_Voice_XVII_a = {                                               %
                     (17-18)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Vni. II"                                                  %! _clone_segment_initial_short_instrument_name
+                    (17-18)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3055,6 +3343,16 @@ R_Viola_Voice_I_a = {                                                          %
                     (1-2)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3179,6 +3477,16 @@ R_Viola_Voice_III_a = {                                                        %
                     (3-4)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3303,6 +3611,16 @@ R_Viola_Voice_V_a = {                                                          %
                     (5-6)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3433,6 +3751,16 @@ R_Viola_Voice_VII_a = {                                                        %
                     (7-8)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3553,6 +3881,16 @@ R_Viola_Voice_IX_a = {                                                         %
                     (9-10)                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3673,6 +4011,16 @@ R_Viola_Voice_XI_a = {                                                         %
                     (11-12)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3803,6 +4151,16 @@ R_Viola_Voice_XIII_a = {                                                       %
                     (13-14)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (13-14)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -3923,6 +4281,16 @@ R_Viola_Voice_XV_a = {                                                         %
                     (15-16)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (15-16)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4049,6 +4417,16 @@ R_Viola_Voice_XVII_a = {                                                       %
                     (17-18)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vle.                                                       %! _clone_segment_initial_short_instrument_name
+                    (17-18)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4175,6 +4553,16 @@ R_Cello_Voice_I_a = {                                                          %
                     (1-2)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4299,6 +4687,16 @@ R_Cello_Voice_III_a = {                                                        %
                     (3-4)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4419,6 +4817,16 @@ R_Cello_Voice_V_a = {                                                          %
                     (5-6)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4541,6 +4949,16 @@ R_Cello_Voice_VII_a = {                                                        %
                     (7-8)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (7-8)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4661,6 +5079,16 @@ R_Cello_Voice_IX_a = {                                                         %
                     (9-10)                                                     %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (9-10)                                                     %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4781,6 +5209,16 @@ R_Cello_Voice_XI_a = {                                                         %
                     (11-12)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (11-12)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -4905,6 +5343,16 @@ R_Cello_Voice_XIII_a = {                                                       %
                     (13-14)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Vc.                                                        %! _clone_segment_initial_short_instrument_name
+                    (13-14)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -5025,6 +5473,16 @@ R_Contrabass_Voice_I_a = {                                                     %
                     (1-2)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (1-2)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -5147,6 +5605,16 @@ R_Contrabass_Voice_III_a = {                                                   %
                     (3-4)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (3-4)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -5269,6 +5737,16 @@ R_Contrabass_Voice_V_a = {                                                     %
                     (5-6)                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    Cb.                                                        %! _clone_segment_initial_short_instrument_name
+                    (5-6)                                                      %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)

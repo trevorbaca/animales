@@ -209,6 +209,12 @@ AC_Piano_Voice_I_a = {                                                         %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Pf.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            Pf.                                                                %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
 %%% \override TextScript.X-offset = #3                                         %! +PARTS:baca_text_script_x_offset:OverrideCommand(1)
 %%% \magnifyStaff #10/7                                                        %! baca_literal:+TABLOID_SCORE:IndicatorCommand
@@ -333,6 +339,16 @@ AC_Percussion_Voice_IV_a = {                                                   %
                     (slate)                                                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
+    \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
+    \markup {                                                                  %! _clone_segment_initial_short_instrument_name
+        \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
+            #16                                                                %! _clone_segment_initial_short_instrument_name
+            \center-column                                                     %! _clone_segment_initial_short_instrument_name
+                {                                                              %! _clone_segment_initial_short_instrument_name
+                    "Perc. 4"                                                  %! _clone_segment_initial_short_instrument_name
+                    (slate)                                                    %! _clone_segment_initial_short_instrument_name
+                }                                                              %! _clone_segment_initial_short_instrument_name
+        }                                                                      %! _clone_segment_initial_short_instrument_name
 %%% \override TextScript.X-offset = #3                                         %! +PARTS:baca_text_script_x_offset:OverrideCommand(1)
 %%% \magnifyStaff #10/7                                                        %! baca_literal:+TABLOID_SCORE:IndicatorCommand
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
