@@ -42,7 +42,7 @@ maker(
         'B',
         abjad.tweak(
             (0, 6),
-            tag=baca.enums.ONLY_SCORE,
+            tag=baca.const.ONLY_SCORE,
             ).extra_offset,
         ),
     )
