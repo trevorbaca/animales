@@ -1,6 +1,6 @@
 import abjad
 import baca
-from typing import List
+import typing
 from abjadext import rmakers
 
 
@@ -45,7 +45,7 @@ def sforzando_exchange_rhythm(this_part: int) -> baca.rhythm:
     part_to_counts = abjad.OrderedDict()
     for part, indices in part_to_indices.items():
         offset = indices[0]
-        preamble: List[int] = []
+        preamble: typing.List[int] = []
         if offset != 0:
             preamble.append(offset)
         part_to_preamble[part] = preamble
