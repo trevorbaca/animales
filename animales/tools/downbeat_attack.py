@@ -39,11 +39,11 @@ def downbeat_attack(count=1, denominator=8):
             \context Score = "Score"                                                                 %! ScoreTemplate
             <<                                                                                       %! ScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "Global_Context"                                            %! _make_global_context
-                <<                                                                                   %! _make_global_context
+                \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
+                <<                                                                                   %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                    \context GlobalRests = "Global_Rests"                                            %! _make_global_context
-                    {                                                                                %! _make_global_context
+                    \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
+                    {                                                                                %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Rests measure 1]                                                   %! _comment_measure_numbers
                         R1 * 1                                                                       %! _make_global_rests(1)
@@ -54,10 +54,10 @@ def downbeat_attack(count=1, denominator=8):
                         % [Global_Rests measure 3]                                                   %! _comment_measure_numbers
                         R1 * 1/2                                                                     %! _make_global_rests(1)
             <BLANKLINE>
-                    }                                                                                %! _make_global_context
+                    }                                                                                %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "Global_Skips"                                            %! _make_global_context
-                    {                                                                                %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context
+                    {                                                                                %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                                   %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #8                                              %! HorizontalSpacingSpecifier(1):SPACING
@@ -79,15 +79,15 @@ def downbeat_attack(count=1, denominator=8):
                         \baca-bar-line-visible                                                       %! _attach_final_bar_line
                         \bar "|"                                                                     %! _attach_final_bar_line
             <BLANKLINE>
-                    }                                                                                %! _make_global_context
+                    }                                                                                %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                >>                                                                                   %! _make_global_context
+                >>                                                                                   %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                \context MusicContext = "Music_Context"                                              %! make_music_context
-                <<                                                                                   %! make_music_context
+                \context MusicContext = "Music_Context"                                              %! baca.ScoreTemplate.make_music_context
+                <<                                                                                   %! baca.ScoreTemplate.make_music_context
             <BLANKLINE>
-                    \context StaffGroup = "Brass_Staff_Group"                                        %! make_staff_group
-                    <<                                                                               %! make_staff_group
+                    \context StaffGroup = "Brass_Staff_Group"                                        %! baca.ScoreTemplate.make_staff_group
+                    <<                                                                               %! baca.ScoreTemplate.make_staff_group
             <BLANKLINE>
                         \context Staff = "Horn_Staff_I"                                              %! ScoreTemplate
                         {                                                                            %! ScoreTemplate
@@ -98,27 +98,27 @@ def downbeat_attack(count=1, denominator=8):
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
                                     % [Horn_Voice_I measure 1]                                       %! _comment_measure_numbers
-                                    \set Staff.shortInstrumentName =                                 %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
-                                    \markup {                                                        %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
-                                        \hcenter-in                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
-                                            #16                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
-                                            Hn.                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
-                                        }                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:attach_defaults:-PARTS
-                                    \clef "bass"                                                     %! DEFAULT_CLEF:_set_status_tag:attach_defaults
+                                    \set Staff.shortInstrumentName =                                 %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \markup {                                                        %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        \hcenter-in                                                  %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
+                                            #16                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
+                                            Hn.                                                      %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        }                                                            %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \clef "bass"                                                     %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
                                     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
                                     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)      %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
                                 %@% \override Staff.Clef.color = ##f                                 %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-                                    \set Staff.forceClef = ##t                                       %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
+                                    \set Staff.forceClef = ##t                                       %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
                                     a8                                                               %! animales_downbeat_attack
                                     ^ \baca-default-indicator-markup "(FrenchHorn)"                  %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
                                     ^ \baca-default-indicator-markup "[“Hn.”]"                       %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
                                     \override Staff.InstrumentName.color = #(x11-color 'violet)      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-                                    \set Staff.shortInstrumentName =                                 %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
-                                    \markup {                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
-                                        \hcenter-in                                                  %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
-                                            #16                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
-                                            Hn.                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
-                                        }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):attach_defaults:-PARTS
+                                    \set Staff.shortInstrumentName =                                 %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \markup {                                                        %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        \hcenter-in                                                  %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):abjad.ScoreTemplate.attach_defaults:-PARTS
+                                            #16                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):abjad.ScoreTemplate.attach_defaults:-PARTS
+                                            Hn.                                                      %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        }                                                            %! REDRAWN_DEFAULT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \override Staff.Clef.color = #(x11-color 'violet)                %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
             <BLANKLINE>
                                     r2..
@@ -153,9 +153,9 @@ def downbeat_attack(count=1, denominator=8):
             <BLANKLINE>
                         }                                                                            %! ScoreTemplate
             <BLANKLINE>
-                    >>                                                                               %! make_staff_group
+                    >>                                                                               %! baca.ScoreTemplate.make_staff_group
             <BLANKLINE>
-                >>                                                                                   %! make_music_context
+                >>                                                                                   %! baca.ScoreTemplate.make_music_context
             <BLANKLINE>
             >>                                                                                       %! ScoreTemplate
 
