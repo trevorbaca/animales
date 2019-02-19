@@ -31,175 +31,175 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score], strict=89)
         \context Score = "Score"                                                                 %! ScoreTemplate
         <<                                                                                       %! ScoreTemplate
-            \context GlobalContext = "Global_Context"                                            %! _make_global_context
-            <<                                                                                   %! _make_global_context
-                \context GlobalRests = "Global_Rests"                                            %! _make_global_context
-                {                                                                                %! _make_global_context
-                }                                                                                %! _make_global_context
-                \context GlobalSkips = "Global_Skips"                                            %! _make_global_context
-                {                                                                                %! _make_global_context
-                }                                                                                %! _make_global_context
-            >>                                                                                   %! _make_global_context
-            \context MusicContext = "Music_Context"                                              %! make_music_context
-            <<                                                                                   %! make_music_context
-                \context StaffGroup = "Wind_Staff_Group"                                         %! make_staff_group
-                <<                                                                               %! make_staff_group
-                    \context StaffGroup = "Flute_Square_Staff_Group"                             %! make_square_staff_group
-                    \with                                                                        %! make_square_staff_group
-                    {                                                                            %! make_square_staff_group
-                        systemStartDelimiter = #'SystemStartSquare                               %! make_square_staff_group
-                    }                                                                            %! make_square_staff_group
-                    <<                                                                           %! make_square_staff_group
+            \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
+            <<                                                                                   %! abjad.ScoreTemplate._make_global_context
+                \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
+                {                                                                                %! abjad.ScoreTemplate._make_global_context
+                }                                                                                %! abjad.ScoreTemplate._make_global_context
+                \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context
+                {                                                                                %! abjad.ScoreTemplate._make_global_context
+                }                                                                                %! abjad.ScoreTemplate._make_global_context
+            >>                                                                                   %! abjad.ScoreTemplate._make_global_context
+            \context MusicContext = "Music_Context"                                              %! baca.ScoreTemplate.make_music_context
+            <<                                                                                   %! baca.ScoreTemplate.make_music_context
+                \context StaffGroup = "Wind_Staff_Group"                                         %! baca.ScoreTemplate.make_staff_group
+                <<                                                                               %! baca.ScoreTemplate.make_staff_group
+                    \context StaffGroup = "Flute_Square_Staff_Group"                             %! baca.ScoreTemplate.make_square_staff_group
+                    \with                                                                        %! baca.ScoreTemplate.make_square_staff_group
+                    {                                                                            %! baca.ScoreTemplate.make_square_staff_group
+                        systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group
+                    }                                                                            %! baca.ScoreTemplate.make_square_staff_group
+                    <<                                                                           %! baca.ScoreTemplate.make_square_staff_group
                         \context Staff = "Flute_Staff_I"                                         %! ScoreTemplate
                         <<                                                                       %! ScoreTemplate
                             \context Voice = "Flute_Voice_I"                                     %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                 %! attach_defaults:-PARTS
-                                \markup {                                                        %! attach_defaults:-PARTS
-                                    \hcenter-in                                                  %! attach_defaults:-PARTS
-                                        #16                                                      %! attach_defaults:-PARTS
-                                        Fl.                                                      %! attach_defaults:-PARTS
-                                    }                                                            %! attach_defaults:-PARTS
-                                \clef "treble"                                                   %! attach_defaults
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        Fl.                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                             \context Voice = "Flute_Voice_II"                                    %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                         >>                                                                       %! ScoreTemplate
                         \context Staff = "Flute_Staff_II"                                        %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \context Voice = "Flute_Voice_III"                                   %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                 %! attach_defaults:-PARTS
-                                \markup {                                                        %! attach_defaults:-PARTS
-                                    \hcenter-in                                                  %! attach_defaults:-PARTS
-                                        #16                                                      %! attach_defaults:-PARTS
-                                        Fl.                                                      %! attach_defaults:-PARTS
-                                    }                                                            %! attach_defaults:-PARTS
-                                \clef "treble"                                                   %! attach_defaults
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        Fl.                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                         }                                                                        %! ScoreTemplate
-                    >>                                                                           %! make_square_staff_group
-                >>                                                                               %! make_staff_group
-                \context StaffGroup = "String_Staff_Group"                                       %! make_staff_group
-                <<                                                                               %! make_staff_group
-                    \context StaffGroup = "FirstViolin_Square_Staff_Group"                       %! make_square_staff_group
-                    \with                                                                        %! make_square_staff_group
-                    {                                                                            %! make_square_staff_group
-                        systemStartDelimiter = #'SystemStartSquare                               %! make_square_staff_group
-                    }                                                                            %! make_square_staff_group
-                    <<                                                                           %! make_square_staff_group
+                    >>                                                                           %! baca.ScoreTemplate.make_square_staff_group
+                >>                                                                               %! baca.ScoreTemplate.make_staff_group
+                \context StaffGroup = "String_Staff_Group"                                       %! baca.ScoreTemplate.make_staff_group
+                <<                                                                               %! baca.ScoreTemplate.make_staff_group
+                    \context StaffGroup = "FirstViolin_Square_Staff_Group"                       %! baca.ScoreTemplate.make_square_staff_group
+                    \with                                                                        %! baca.ScoreTemplate.make_square_staff_group
+                    {                                                                            %! baca.ScoreTemplate.make_square_staff_group
+                        systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group
+                    }                                                                            %! baca.ScoreTemplate.make_square_staff_group
+                    <<                                                                           %! baca.ScoreTemplate.make_square_staff_group
                         \context Staff = "First_Violin_Staff_I"                                  %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \context Voice = "First_Violin_Voice_I"                              %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                 %! attach_defaults:-PARTS
-                                \markup {                                                        %! attach_defaults:-PARTS
-                                    \hcenter-in                                                  %! attach_defaults:-PARTS
-                                        #16                                                      %! attach_defaults:-PARTS
-                                        "Vni. I"                                                 %! attach_defaults:-PARTS
-                                    }                                                            %! attach_defaults:-PARTS
-                                \clef "treble"                                                   %! attach_defaults
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        "Vni. I"                                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                         }                                                                        %! ScoreTemplate
                         \context Staff = "First_Violin_Staff_II"                                 %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \context Voice = "First_Violin_Voice_I"                              %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                 %! attach_defaults:-PARTS
-                                \markup {                                                        %! attach_defaults:-PARTS
-                                    \hcenter-in                                                  %! attach_defaults:-PARTS
-                                        #16                                                      %! attach_defaults:-PARTS
-                                        "Vni. I"                                                 %! attach_defaults:-PARTS
-                                    }                                                            %! attach_defaults:-PARTS
-                                \clef "treble"                                                   %! attach_defaults
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        "Vni. I"                                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                         }                                                                        %! ScoreTemplate
-                    >>                                                                           %! make_square_staff_group
-                    \context StaffGroup = "SecondViolin_Square_Staff_Group"                      %! make_square_staff_group
-                    \with                                                                        %! make_square_staff_group
-                    {                                                                            %! make_square_staff_group
-                        systemStartDelimiter = #'SystemStartSquare                               %! make_square_staff_group
-                    }                                                                            %! make_square_staff_group
-                    <<                                                                           %! make_square_staff_group
+                    >>                                                                           %! baca.ScoreTemplate.make_square_staff_group
+                    \context StaffGroup = "SecondViolin_Square_Staff_Group"                      %! baca.ScoreTemplate.make_square_staff_group
+                    \with                                                                        %! baca.ScoreTemplate.make_square_staff_group
+                    {                                                                            %! baca.ScoreTemplate.make_square_staff_group
+                        systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group
+                    }                                                                            %! baca.ScoreTemplate.make_square_staff_group
+                    <<                                                                           %! baca.ScoreTemplate.make_square_staff_group
                         \context Staff = "Second_Violin_Staff_I"                                 %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \context Voice = "Second_Violin_Voice_I"                             %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                 %! attach_defaults:-PARTS
-                                \markup {                                                        %! attach_defaults:-PARTS
-                                    \hcenter-in                                                  %! attach_defaults:-PARTS
-                                        #16                                                      %! attach_defaults:-PARTS
-                                        "Vni. II"                                                %! attach_defaults:-PARTS
-                                    }                                                            %! attach_defaults:-PARTS
-                                \clef "treble"                                                   %! attach_defaults
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        "Vni. II"                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                         }                                                                        %! ScoreTemplate
                         \context Staff = "Second_Violin_Staff_II"                                %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \context Voice = "Second_Violin_Voice_I"                             %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                 %! attach_defaults:-PARTS
-                                \markup {                                                        %! attach_defaults:-PARTS
-                                    \hcenter-in                                                  %! attach_defaults:-PARTS
-                                        #16                                                      %! attach_defaults:-PARTS
-                                        "Vni. II"                                                %! attach_defaults:-PARTS
-                                    }                                                            %! attach_defaults:-PARTS
-                                \clef "treble"                                                   %! attach_defaults
-                                s1                                                               %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        "Vni. II"                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
                         }                                                                        %! ScoreTemplate
-                    >>                                                                           %! make_square_staff_group
+                    >>                                                                           %! baca.ScoreTemplate.make_square_staff_group
                     \context Staff = "Viola_Staff_I"                                             %! ScoreTemplate
                     {                                                                            %! ScoreTemplate
                         \context Voice = "Viola_Voice_I"                                         %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
-                            \set Staff.shortInstrumentName =                                     %! attach_defaults:-PARTS
-                            \markup {                                                            %! attach_defaults:-PARTS
-                                \hcenter-in                                                      %! attach_defaults:-PARTS
-                                    #16                                                          %! attach_defaults:-PARTS
-                                    Vle.                                                         %! attach_defaults:-PARTS
-                                }                                                                %! attach_defaults:-PARTS
-                            \clef "alto"                                                         %! attach_defaults
-                            s1                                                                   %! ScoreTemplate.__illustrate__
+                            \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                            \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    #16                                                          %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    Vle.                                                         %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                            \clef "alto"                                                         %! abjad.ScoreTemplate.attach_defaults
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
                     }                                                                            %! ScoreTemplate
                     \context Staff = "Cello_Staff_I"                                             %! ScoreTemplate
                     {                                                                            %! ScoreTemplate
                         \context Voice = "Cello_Voice_I"                                         %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
-                            \set Staff.shortInstrumentName =                                     %! attach_defaults:-PARTS
-                            \markup {                                                            %! attach_defaults:-PARTS
-                                \hcenter-in                                                      %! attach_defaults:-PARTS
-                                    #16                                                          %! attach_defaults:-PARTS
-                                    Vc.                                                          %! attach_defaults:-PARTS
-                                }                                                                %! attach_defaults:-PARTS
-                            \clef "bass"                                                         %! attach_defaults
-                            s1                                                                   %! ScoreTemplate.__illustrate__
+                            \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                            \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    #16                                                          %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    Vc.                                                          %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                            \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
                     }                                                                            %! ScoreTemplate
                     \context Staff = "Contrabass_Staff_I"                                        %! ScoreTemplate
                     {                                                                            %! ScoreTemplate
                         \context Voice = "Contrabass_Voice_I"                                    %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
-                            \set Staff.shortInstrumentName =                                     %! attach_defaults:-PARTS
-                            \markup {                                                            %! attach_defaults:-PARTS
-                                \hcenter-in                                                      %! attach_defaults:-PARTS
-                                    #16                                                          %! attach_defaults:-PARTS
-                                    Cb.                                                          %! attach_defaults:-PARTS
-                                }                                                                %! attach_defaults:-PARTS
-                            \clef "bass"                                                         %! attach_defaults
-                            s1                                                                   %! ScoreTemplate.__illustrate__
+                            \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                            \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    #16                                                          %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    Cb.                                                          %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                            \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
                     }                                                                            %! ScoreTemplate
-                >>                                                                               %! make_staff_group
-            >>                                                                                   %! make_music_context
+                >>                                                                               %! baca.ScoreTemplate.make_staff_group
+            >>                                                                                   %! baca.ScoreTemplate.make_music_context
         >>                                                                                       %! ScoreTemplate
 
     ..  container:: example
@@ -221,35 +221,35 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> abjad.f(lilypond_file[abjad.Score], strict=89)
             \context Score = "Score"                                                                 %! ScoreTemplate
             <<                                                                                       %! ScoreTemplate
-                \context GlobalContext = "Global_Context"                                            %! _make_global_context
-                <<                                                                                   %! _make_global_context
-                    \context GlobalRests = "Global_Rests"                                            %! _make_global_context
-                    {                                                                                %! _make_global_context
-                    }                                                                                %! _make_global_context
-                    \context GlobalSkips = "Global_Skips"                                            %! _make_global_context
-                    {                                                                                %! _make_global_context
-                    }                                                                                %! _make_global_context
-                >>                                                                                   %! _make_global_context
-                \context MusicContext = "Music_Context"                                              %! make_music_context
-                <<                                                                                   %! make_music_context
-                    \context StaffGroup = "Wind_Staff_Group"                                         %! make_staff_group
-                    <<                                                                               %! make_staff_group
+                \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
+                <<                                                                                   %! abjad.ScoreTemplate._make_global_context
+                    \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
+                    {                                                                                %! abjad.ScoreTemplate._make_global_context
+                    }                                                                                %! abjad.ScoreTemplate._make_global_context
+                    \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context
+                    {                                                                                %! abjad.ScoreTemplate._make_global_context
+                    }                                                                                %! abjad.ScoreTemplate._make_global_context
+                >>                                                                                   %! abjad.ScoreTemplate._make_global_context
+                \context MusicContext = "Music_Context"                                              %! baca.ScoreTemplate.make_music_context
+                <<                                                                                   %! baca.ScoreTemplate.make_music_context
+                    \context StaffGroup = "Wind_Staff_Group"                                         %! baca.ScoreTemplate.make_staff_group
+                    <<                                                                               %! baca.ScoreTemplate.make_staff_group
                         \context Staff = "Bassoon_Staff_I"                                           %! ScoreTemplate
                         {                                                                            %! ScoreTemplate
                             \context Voice = "Bassoon_Voice_I"                                       %! ScoreTemplate
                             {                                                                        %! ScoreTemplate
-                                \set Staff.shortInstrumentName =                                     %! attach_defaults:-PARTS
-                                \markup {                                                            %! attach_defaults:-PARTS
-                                    \hcenter-in                                                      %! attach_defaults:-PARTS
-                                        #16                                                          %! attach_defaults:-PARTS
-                                        Bsn.                                                         %! attach_defaults:-PARTS
-                                    }                                                                %! attach_defaults:-PARTS
-                                \clef "bass"                                                         %! attach_defaults
-                                s1                                                                   %! ScoreTemplate.__illustrate__
+                                \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        #16                                                          %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                        Bsn.                                                         %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                    }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
+                                \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
+                                s1                                                                   %! abjad.ScoreTemplate.__illustrate__
                             }                                                                        %! ScoreTemplate
                         }                                                                            %! ScoreTemplate
-                    >>                                                                               %! make_staff_group
-                >>                                                                                   %! make_music_context
+                    >>                                                                               %! baca.ScoreTemplate.make_staff_group
+                >>                                                                                   %! baca.ScoreTemplate.make_music_context
             >>                                                                                       %! ScoreTemplate
 
     """
@@ -828,155 +828,155 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> abjad.f(score, strict=79)
             \context Score = "Score"                                                       %! ScoreTemplate
             <<                                                                             %! ScoreTemplate
-                \context GlobalContext = "Global_Context"                                  %! _make_global_context
-                <<                                                                         %! _make_global_context
-                    \context GlobalRests = "Global_Rests"                                  %! _make_global_context
-                    {                                                                      %! _make_global_context
-                    }                                                                      %! _make_global_context
-                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
-                    {                                                                      %! _make_global_context
-                    }                                                                      %! _make_global_context
-                >>                                                                         %! _make_global_context
-                \context MusicContext = "Music_Context"                                    %! make_music_context
-                <<                                                                         %! make_music_context
-                    \context StaffGroup = "Wind_Staff_Group"                               %! make_staff_group
-                    <<                                                                     %! make_staff_group
-                        \context StaffGroup = "Flute_Square_Staff_Group"                   %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "OboeFamily_Square_Staff_Group"              %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                            \context StaffGroup = "Oboe_Square_Staff_Group"                %! make_square_staff_group
-                            \with                                                          %! make_square_staff_group
-                            {                                                              %! make_square_staff_group
-                                systemStartDelimiter = #'SystemStartSquare                 %! make_square_staff_group
-                            }                                                              %! make_square_staff_group
-                            <<                                                             %! make_square_staff_group
-                            >>                                                             %! make_square_staff_group
-                            \context StaffGroup = "EnglishHorn_Square_Staff_Group"         %! make_square_staff_group
-                            \with                                                          %! make_square_staff_group
-                            {                                                              %! make_square_staff_group
-                                systemStartDelimiter = #'SystemStartSquare                 %! make_square_staff_group
-                            }                                                              %! make_square_staff_group
-                            <<                                                             %! make_square_staff_group
-                            >>                                                             %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "ClarinetFamily_Square_Staff_Group"          %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                            \context StaffGroup = "Clarinet_Square_Staff_Group"            %! make_square_staff_group
-                            \with                                                          %! make_square_staff_group
-                            {                                                              %! make_square_staff_group
-                                systemStartDelimiter = #'SystemStartSquare                 %! make_square_staff_group
-                            }                                                              %! make_square_staff_group
-                            <<                                                             %! make_square_staff_group
-                            >>                                                             %! make_square_staff_group
-                            \context StaffGroup = "BassClarinet_Square_Staff_Group"        %! make_square_staff_group
-                            \with                                                          %! make_square_staff_group
-                            {                                                              %! make_square_staff_group
-                                systemStartDelimiter = #'SystemStartSquare                 %! make_square_staff_group
-                            }                                                              %! make_square_staff_group
-                            <<                                                             %! make_square_staff_group
-                            >>                                                             %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Bassoon_Square_Staff_Group"                 %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                    >>                                                                     %! make_staff_group
-                    \context StaffGroup = "Brass_Staff_Group"                              %! make_staff_group
-                    <<                                                                     %! make_staff_group
-                        \context StaffGroup = "Horn_Square_Staff_Group"                    %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Trumpet_Square_Staff_Group"                 %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Trombone_Square_Staff_Group"                %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Tuba_Square_Staff_Group"                    %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                    >>                                                                     %! make_staff_group
+                \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
+                <<                                                                         %! abjad.ScoreTemplate._make_global_context
+                    \context GlobalRests = "Global_Rests"                                  %! abjad.ScoreTemplate._make_global_context
+                    {                                                                      %! abjad.ScoreTemplate._make_global_context
+                    }                                                                      %! abjad.ScoreTemplate._make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! abjad.ScoreTemplate._make_global_context
+                    {                                                                      %! abjad.ScoreTemplate._make_global_context
+                    }                                                                      %! abjad.ScoreTemplate._make_global_context
+                >>                                                                         %! abjad.ScoreTemplate._make_global_context
+                \context MusicContext = "Music_Context"                                    %! baca.ScoreTemplate.make_music_context
+                <<                                                                         %! baca.ScoreTemplate.make_music_context
+                    \context StaffGroup = "Wind_Staff_Group"                               %! baca.ScoreTemplate.make_staff_group
+                    <<                                                                     %! baca.ScoreTemplate.make_staff_group
+                        \context StaffGroup = "Flute_Square_Staff_Group"                   %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "OboeFamily_Square_Staff_Group"              %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                            \context StaffGroup = "Oboe_Square_Staff_Group"                %! baca.ScoreTemplate.make_square_staff_group
+                            \with                                                          %! baca.ScoreTemplate.make_square_staff_group
+                            {                                                              %! baca.ScoreTemplate.make_square_staff_group
+                                systemStartDelimiter = #'SystemStartSquare                 %! baca.ScoreTemplate.make_square_staff_group
+                            }                                                              %! baca.ScoreTemplate.make_square_staff_group
+                            <<                                                             %! baca.ScoreTemplate.make_square_staff_group
+                            >>                                                             %! baca.ScoreTemplate.make_square_staff_group
+                            \context StaffGroup = "EnglishHorn_Square_Staff_Group"         %! baca.ScoreTemplate.make_square_staff_group
+                            \with                                                          %! baca.ScoreTemplate.make_square_staff_group
+                            {                                                              %! baca.ScoreTemplate.make_square_staff_group
+                                systemStartDelimiter = #'SystemStartSquare                 %! baca.ScoreTemplate.make_square_staff_group
+                            }                                                              %! baca.ScoreTemplate.make_square_staff_group
+                            <<                                                             %! baca.ScoreTemplate.make_square_staff_group
+                            >>                                                             %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "ClarinetFamily_Square_Staff_Group"          %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                            \context StaffGroup = "Clarinet_Square_Staff_Group"            %! baca.ScoreTemplate.make_square_staff_group
+                            \with                                                          %! baca.ScoreTemplate.make_square_staff_group
+                            {                                                              %! baca.ScoreTemplate.make_square_staff_group
+                                systemStartDelimiter = #'SystemStartSquare                 %! baca.ScoreTemplate.make_square_staff_group
+                            }                                                              %! baca.ScoreTemplate.make_square_staff_group
+                            <<                                                             %! baca.ScoreTemplate.make_square_staff_group
+                            >>                                                             %! baca.ScoreTemplate.make_square_staff_group
+                            \context StaffGroup = "BassClarinet_Square_Staff_Group"        %! baca.ScoreTemplate.make_square_staff_group
+                            \with                                                          %! baca.ScoreTemplate.make_square_staff_group
+                            {                                                              %! baca.ScoreTemplate.make_square_staff_group
+                                systemStartDelimiter = #'SystemStartSquare                 %! baca.ScoreTemplate.make_square_staff_group
+                            }                                                              %! baca.ScoreTemplate.make_square_staff_group
+                            <<                                                             %! baca.ScoreTemplate.make_square_staff_group
+                            >>                                                             %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Bassoon_Square_Staff_Group"                 %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                    >>                                                                     %! baca.ScoreTemplate.make_staff_group
+                    \context StaffGroup = "Brass_Staff_Group"                              %! baca.ScoreTemplate.make_staff_group
+                    <<                                                                     %! baca.ScoreTemplate.make_staff_group
+                        \context StaffGroup = "Horn_Square_Staff_Group"                    %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Trumpet_Square_Staff_Group"                 %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Trombone_Square_Staff_Group"                %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Tuba_Square_Staff_Group"                    %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                    >>                                                                     %! baca.ScoreTemplate.make_staff_group
                     \context StaffGroup = "Piano_Piano_Staff"
                     <<
                     >>
                     \context StaffGroup = "Harp_Piano_Staff"
                     <<
                     >>
-                    \context StaffGroup = "Percussion_Staff_Group"                         %! make_staff_group
-                    <<                                                                     %! make_staff_group
-                    >>                                                                     %! make_staff_group
-                    \context StaffGroup = "String_Staff_Group"                             %! make_staff_group
-                    <<                                                                     %! make_staff_group
-                        \context StaffGroup = "FirstViolin_Square_Staff_Group"             %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "SecondViolin_Square_Staff_Group"            %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Viola_Square_Staff_Group"                   %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Cello_Square_Staff_Group"                   %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                        \context StaffGroup = "Contrabass_Square_Staff_Group"              %! make_square_staff_group
-                        \with                                                              %! make_square_staff_group
-                        {                                                                  %! make_square_staff_group
-                            systemStartDelimiter = #'SystemStartSquare                     %! make_square_staff_group
-                        }                                                                  %! make_square_staff_group
-                        <<                                                                 %! make_square_staff_group
-                        >>                                                                 %! make_square_staff_group
-                    >>                                                                     %! make_staff_group
-                >>                                                                         %! make_music_context
+                    \context StaffGroup = "Percussion_Staff_Group"                         %! baca.ScoreTemplate.make_staff_group
+                    <<                                                                     %! baca.ScoreTemplate.make_staff_group
+                    >>                                                                     %! baca.ScoreTemplate.make_staff_group
+                    \context StaffGroup = "String_Staff_Group"                             %! baca.ScoreTemplate.make_staff_group
+                    <<                                                                     %! baca.ScoreTemplate.make_staff_group
+                        \context StaffGroup = "FirstViolin_Square_Staff_Group"             %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "SecondViolin_Square_Staff_Group"            %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Viola_Square_Staff_Group"                   %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Cello_Square_Staff_Group"                   %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        \context StaffGroup = "Contrabass_Square_Staff_Group"              %! baca.ScoreTemplate.make_square_staff_group
+                        \with                                                              %! baca.ScoreTemplate.make_square_staff_group
+                        {                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                            systemStartDelimiter = #'SystemStartSquare                     %! baca.ScoreTemplate.make_square_staff_group
+                        }                                                                  %! baca.ScoreTemplate.make_square_staff_group
+                        <<                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                        >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
+                    >>                                                                     %! baca.ScoreTemplate.make_staff_group
+                >>                                                                         %! baca.ScoreTemplate.make_music_context
             >>                                                                             %! ScoreTemplate
 
         """

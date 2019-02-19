@@ -18,22 +18,22 @@
         \context Score = "Score"                                               %! ScoreTemplate
         <<                                                                     %! ScoreTemplate
 
-            \context GlobalContext = "Global_Context"                          %! _make_global_context
-            <<                                                                 %! _make_global_context
+            \context GlobalContext = "Global_Context"                          %! abjad.ScoreTemplate._make_global_context
+            <<                                                                 %! abjad.ScoreTemplate._make_global_context
 
-                \context GlobalRests = "Global_Rests"                          %! _make_global_context
+                \context GlobalRests = "Global_Rests"                          %! abjad.ScoreTemplate._make_global_context
                 \H_Global_Rests                                                %! extern
 
-                \context GlobalSkips = "Global_Skips"                          %! _make_global_context
+                \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context
                 \H_Global_Skips                                                %! extern
 
-            >>                                                                 %! _make_global_context
+            >>                                                                 %! abjad.ScoreTemplate._make_global_context
 
-            \context MusicContext = "Music_Context"                            %! make_music_context
-            <<                                                                 %! make_music_context
+            \context MusicContext = "Music_Context"                            %! baca.ScoreTemplate.make_music_context
+            <<                                                                 %! baca.ScoreTemplate.make_music_context
 
-                \context StaffGroup = "Wind_Staff_Group"                       %! make_staff_group
-                <<                                                             %! make_staff_group
+                \context StaffGroup = "Wind_Staff_Group"                       %! baca.ScoreTemplate.make_staff_group
+                <<                                                             %! baca.ScoreTemplate.make_staff_group
 
                     \context Staff = "Clarinet_Staff_I"                        %! ScoreTemplate
                     \H_Clarinet_Staff_I                                        %! extern
@@ -41,7 +41,7 @@
                     \context Staff = "Bass_Clarinet_Staff_I"                   %! ScoreTemplate
                     \H_Bass_Clarinet_Staff_I                                   %! extern
 
-                >>                                                             %! make_staff_group
+                >>                                                             %! baca.ScoreTemplate.make_staff_group
 
                 \context StaffGroup = "Piano_Piano_Staff"
                 <<
@@ -59,8 +59,8 @@
 
                 >>
 
-                \context StaffGroup = "Percussion_Staff_Group"                 %! make_staff_group
-                <<                                                             %! make_staff_group
+                \context StaffGroup = "Percussion_Staff_Group"                 %! baca.ScoreTemplate.make_staff_group
+                <<                                                             %! baca.ScoreTemplate.make_staff_group
 
                     \context Staff = "Percussion_Staff_II"                     %! ScoreTemplate
                     \H_Percussion_Staff_II                                     %! extern
@@ -68,10 +68,10 @@
                     \context Staff = "Percussion_Staff_III"                    %! ScoreTemplate
                     \H_Percussion_Staff_III                                    %! extern
 
-                >>                                                             %! make_staff_group
+                >>                                                             %! baca.ScoreTemplate.make_staff_group
 
-                \context StaffGroup = "String_Staff_Group"                     %! make_staff_group
-                <<                                                             %! make_staff_group
+                \context StaffGroup = "String_Staff_Group"                     %! baca.ScoreTemplate.make_staff_group
+                <<                                                             %! baca.ScoreTemplate.make_staff_group
 
                     \context Staff = "First_Violin_Staff_I"                    %! ScoreTemplate
                     \H_First_Violin_Staff_I                                    %! extern
@@ -85,12 +85,12 @@
                     \context Staff = "Cello_Staff_I"                           %! ScoreTemplate
                     \H_Cello_Staff_I                                           %! extern
 
-                    \context StaffGroup = "Contrabass_Square_Staff_Group"      %! make_square_staff_group
-                    \with                                                      %! make_square_staff_group
-                    {                                                          %! make_square_staff_group
-                        systemStartDelimiter = #'SystemStartSquare             %! make_square_staff_group
-                    }                                                          %! make_square_staff_group
-                    <<                                                         %! make_square_staff_group
+                    \context StaffGroup = "Contrabass_Square_Staff_Group"      %! baca.ScoreTemplate.make_square_staff_group
+                    \with                                                      %! baca.ScoreTemplate.make_square_staff_group
+                    {                                                          %! baca.ScoreTemplate.make_square_staff_group
+                        systemStartDelimiter = #'SystemStartSquare             %! baca.ScoreTemplate.make_square_staff_group
+                    }                                                          %! baca.ScoreTemplate.make_square_staff_group
+                    <<                                                         %! baca.ScoreTemplate.make_square_staff_group
 
                         \context Staff = "Contrabass_Staff_I"                  %! ScoreTemplate
                         \H_Contrabass_Staff_I                                  %! extern
@@ -98,11 +98,11 @@
                         \context Staff = "Contrabass_Staff_II"                 %! ScoreTemplate
                         \H_Contrabass_Staff_II                                 %! extern
 
-                    >>                                                         %! make_square_staff_group
+                    >>                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                >>                                                             %! make_staff_group
+                >>                                                             %! baca.ScoreTemplate.make_staff_group
 
-            >>                                                                 %! make_music_context
+            >>                                                                 %! baca.ScoreTemplate.make_music_context
 
         >>                                                                     %! ScoreTemplate
 
