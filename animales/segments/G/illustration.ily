@@ -30,12 +30,12 @@ G_Global_Skips = {                                                             %
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
     - \baca-rehearsal-mark-markup "G"                                          %! baca_rehearsal_mark:IndicatorCommand
-%@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "44"                                            %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
+%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "44"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
 %@% - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \tweak bound-details.left.text \markup {                                 %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@%     \concat                                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -62,80 +62,80 @@ G_Global_Skips = {                                                             %
             }                                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
         }                                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[1'26'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[1'26'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [G Global_Skips measure 45 / measure 2]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "45"                                            %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[1'28'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
+%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "45"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[1'28'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [G Global_Skips measure 46 / measure 3]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "46"                                            %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[1'31'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
+%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "46"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[1'31'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [G Global_Skips measure 47 / measure 4]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "47"                                            %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[1'33'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
+%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "47"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[1'33'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [G Global_Skips measure 48 / measure 5]                                  %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-both "4" "5"                                             %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-%@% - \baca-start-lmn-both "5" "6"                                             %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-both "48" "49"                                            %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[1'35'']" "[1'37'']"                                %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmi-both "4" "5"                                             %! LOCAL_MEASURE_INDEX
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX
+%@% - \baca-start-lmn-both "5" "6"                                             %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-both "48" "49"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-both "[1'35'']" "[1'37'']"                                %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [G Global_Skips measure 49 / measure 6]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
     \bacaStopTextSpanMM                                                        %! SEGMENT_FINAL_STOP_MM_SPANNER:_attach_metronome_marks(4)
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(2)
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
@@ -343,8 +343,8 @@ G_Piano_Voice_I_a = {                                                          %
     r1                                                                         %! animales_harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -430,8 +430,8 @@ G_Harp_Voice_I_a = {                                                           %
     r2                                                                         %! animales_harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "(“Harp”)"                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "[“Hp.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Harp”)"                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
