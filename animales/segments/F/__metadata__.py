@@ -419,16 +419,6 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'Harp_Piano_Staff',
-                        [
-                            abjad.Momento(
-                                context='Harp_Voice_I',
-                                manifest='instruments',
-                                value='Harp',
-                                ),
-                            ],
-                        ),
-                    (
                         'Harp_Staff_I',
                         [
                             abjad.Momento(
@@ -436,6 +426,11 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Hp.',
+                                ),
+                            abjad.Momento(
+                                context='Harp_Voice_I',
+                                manifest='instruments',
+                                value='Harp',
                                 ),
                             abjad.Momento(
                                 context='Harp_Voice_I',
@@ -690,16 +685,6 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'Piano_Piano_Staff',
-                        [
-                            abjad.Momento(
-                                context='Piano_Voice_I',
-                                manifest='instruments',
-                                value='Piano',
-                                ),
-                            ],
-                        ),
-                    (
                         'Piano_Staff_I',
                         [
                             abjad.Momento(
@@ -707,6 +692,11 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Pf.',
+                                ),
+                            abjad.Momento(
+                                context='Piano_Voice_I',
+                                manifest='instruments',
+                                value='Piano',
                                 ),
                             abjad.Momento(
                                 context='Piano_Voice_I',
