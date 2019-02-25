@@ -130,5 +130,84 @@ persist = abjad.OrderedDict(
                     ]
                 ),
             ),
+        (
+            'voice_metadata',
+            abjad.OrderedDict(
+                [
+                    (
+                        'Contrabass_Voice_I',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'RHYTHM',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 50),
+                                            ('logical_ties_produced', 57),
+                                            ('name', 'harp_exchange_rhythm'),
+                                            ('talea_weight_consumed', 300),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'Harp_Voice_I',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'RHYTHM',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 50),
+                                            ('logical_ties_produced', 51),
+                                            ('name', 'harp_exchange_rhythm'),
+                                            ('talea_weight_consumed', 300),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'Percussion_Voice_III',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'RHYTHM',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 50),
+                                            ('logical_ties_produced', 56),
+                                            ('name', 'harp_exchange_rhythm'),
+                                            ('talea_weight_consumed', 300),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    (
+                        'Piano_Voice_I',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'RHYTHM',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('divisions_consumed', 50),
+                                            ('logical_ties_produced', 51),
+                                            ('name', 'harp_exchange_rhythm'),
+                                            ('talea_weight_consumed', 300),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    ]
+                ),
+            ),
         ]
     )
