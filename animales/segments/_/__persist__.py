@@ -1,7 +1,7 @@
 import abjad
 
 
-metadata = abjad.OrderedDict(
+persist = abjad.OrderedDict(
     [
         (
             'container_to_part_assignment',
