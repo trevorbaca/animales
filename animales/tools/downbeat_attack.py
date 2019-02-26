@@ -36,8 +36,8 @@ def downbeat_attack(count=1, denominator=8):
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=89)
             <BLANKLINE>
-            \context Score = "Score"                                                                 %! ScoreTemplate
-            <<                                                                                       %! ScoreTemplate
+            \context Score = "Score"                                                                 %! animales.ScoreTemplate.__call__
+            <<                                                                                       %! animales.ScoreTemplate.__call__
             <BLANKLINE>
                 \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
                 <<                                                                                   %! abjad.ScoreTemplate._make_global_context
@@ -89,11 +89,11 @@ def downbeat_attack(count=1, denominator=8):
                     \context StaffGroup = "Brass_Staff_Group"                                        %! baca.ScoreTemplate.make_staff_group
                     <<                                                                               %! baca.ScoreTemplate.make_staff_group
             <BLANKLINE>
-                        \context Staff = "Horn_Staff_I"                                              %! ScoreTemplate
-                        {                                                                            %! ScoreTemplate
+                        \context Staff = "Horn_Staff_I"                                              %! animales.ScoreTemplate._make_staves
+                        {                                                                            %! animales.ScoreTemplate._make_staves
             <BLANKLINE>
-                            \context Voice = "Horn_Voice_I"                                          %! ScoreTemplate
-                            {                                                                        %! ScoreTemplate
+                            \context Voice = "Horn_Voice_I"                                          %! animales.ScoreTemplate._make_staves
+                            {                                                                        %! animales.ScoreTemplate._make_staves
             <BLANKLINE>
                                 {   %*% PartAssignment('Horn')
             <BLANKLINE>
@@ -149,15 +149,15 @@ def downbeat_attack(count=1, denominator=8):
                                 % [Horn_Voice_I measure 3]                                           %! _comment_measure_numbers
                                 R1 * 1/2                                                             %! _make_measure_silences
             <BLANKLINE>
-                            }                                                                        %! ScoreTemplate
+                            }                                                                        %! animales.ScoreTemplate._make_staves
             <BLANKLINE>
-                        }                                                                            %! ScoreTemplate
+                        }                                                                            %! animales.ScoreTemplate._make_staves
             <BLANKLINE>
                     >>                                                                               %! baca.ScoreTemplate.make_staff_group
             <BLANKLINE>
                 >>                                                                                   %! baca.ScoreTemplate.make_music_context
             <BLANKLINE>
-            >>                                                                                       %! ScoreTemplate
+            >>                                                                                       %! animales.ScoreTemplate.__call__
 
     """
 
