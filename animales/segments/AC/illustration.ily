@@ -1,4 +1,4 @@
-AC_Global_Rests = {                                                            %! extern
+AC_Global_Rests = {                                                            %! abjad.Path.extern
 
     % [AC Global_Rests measure 165 / measure 1]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -32,10 +32,10 @@ AC_Global_Rests = {                                                            %
     R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Global_Skips = {                                                            %! extern
+AC_Global_Skips = {                                                            %! abjad.Path.extern
 
     % [AC Global_Skips measure 165 / measure 1]                                %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -197,10 +197,10 @@ AC_Global_Skips = {                                                            %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|."                                                                  %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Piano_Voice_I_a = {                                                         %! extern
+AC_Piano_Voice_I_a = {                                                         %! abjad.Path.extern
 
     % [AC Piano_Voice_I measure 165 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -305,25 +305,25 @@ AC_Piano_Voice_I_a = {                                                         %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Piano_Voice_I = {                                                           %! extern
+AC_Piano_Voice_I = {                                                           %! abjad.Path.extern
 
-    \AC_Piano_Voice_I_a                                                        %! extern
+    \AC_Piano_Voice_I_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Piano_Staff_I = {                                                           %! extern
+AC_Piano_Staff_I = {                                                           %! abjad.Path.extern
 
     \context Voice = "Piano_Voice_I"                                           %! ScoreTemplate
-    \AC_Piano_Voice_I                                                          %! extern
+    \AC_Piano_Voice_I                                                          %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Percussion_Voice_IV_a = {                                                   %! extern
+AC_Percussion_Voice_IV_a = {                                                   %! abjad.Path.extern
 
     % [AC Percussion_Voice_IV measure 165 / measure 1]                         %! _comment_measure_numbers
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -504,19 +504,19 @@ AC_Percussion_Voice_IV_a = {                                                   %
 %%%         #"scripts.ufermata"                                                %! baca_markup:+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca_markup:+PARTS:IndicatorCommand
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Percussion_Voice_IV = {                                                     %! extern
+AC_Percussion_Voice_IV = {                                                     %! abjad.Path.extern
 
-    \AC_Percussion_Voice_IV_a                                                  %! extern
+    \AC_Percussion_Voice_IV_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-AC_Percussion_Staff_IV = {                                                     %! extern
+AC_Percussion_Staff_IV = {                                                     %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_IV"                                     %! ScoreTemplate
-    \AC_Percussion_Voice_IV                                                    %! extern
+    \AC_Percussion_Voice_IV                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern

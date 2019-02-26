@@ -1,19 +1,19 @@
-\version "2.19.82"                                                             %! _make_lilypond_file:LilyPondFile
-\language "english"                                                            %! _make_lilypond_file:LilyPondFile
+\version "2.19.82"                                                             %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\language "english"                                                            %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
 
-\include "../../stylesheets/stylesheet.ily"                                    %! _make_lilypond_file:LilyPondFile
-\include "../../stylesheets/nonfirst-segment.ily"                              %! _make_lilypond_file:LilyPondFile
-\include "illustration.ily"                                                    %! extern
+\include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "../../stylesheets/nonfirst-segment.ily"                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "illustration.ily"                                                    %! abjad.Path.extern
 \paper { first-page-number = #13 }                                             %! __make_segment_pdf__
 
 
-\score {                                                                       %! _make_lilypond_file:LilyPondFile
+\score {                                                                       %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
     
-    <<                                                                         %! _make_lilypond_file
+    <<                                                                         %! baca.SegmentMaker._make_lilypond_file
 
-        {                                                                      %! _make_lilypond_file
-            \include "layout.ly"                                               %! _make_lilypond_file
-        }                                                                      %! _make_lilypond_file
+        {                                                                      %! baca.SegmentMaker._make_lilypond_file
+            \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file
+        }                                                                      %! baca.SegmentMaker._make_lilypond_file
 
         \context Score = "Score"                                               %! ScoreTemplate
         <<                                                                     %! ScoreTemplate
@@ -22,10 +22,10 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context
 
                 \context GlobalRests = "Global_Rests"                          %! abjad.ScoreTemplate._make_global_context
-                \L_Global_Rests                                                %! extern
+                \L_Global_Rests                                                %! abjad.Path.extern
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context
-                \L_Global_Skips                                                %! extern
+                \L_Global_Skips                                                %! abjad.Path.extern
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context
 
@@ -36,10 +36,10 @@
                 <<                                                             %! baca.ScoreTemplate.make_staff_group
 
                     \context Staff = "Clarinet_Staff_I"                        %! ScoreTemplate
-                    \L_Clarinet_Staff_I                                        %! extern
+                    \L_Clarinet_Staff_I                                        %! abjad.Path.extern
 
                     \context Staff = "Bass_Clarinet_Staff_I"                   %! ScoreTemplate
-                    \L_Bass_Clarinet_Staff_I                                   %! extern
+                    \L_Bass_Clarinet_Staff_I                                   %! abjad.Path.extern
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group
 
@@ -47,7 +47,7 @@
                 <<
 
                     \context Staff = "Piano_Staff_I"                           %! ScoreTemplate
-                    \L_Piano_Staff_I                                           %! extern
+                    \L_Piano_Staff_I                                           %! abjad.Path.extern
 
                 >>
 
@@ -55,7 +55,7 @@
                 <<
 
                     \context Staff = "Harp_Staff_I"                            %! ScoreTemplate
-                    \L_Harp_Staff_I                                            %! extern
+                    \L_Harp_Staff_I                                            %! abjad.Path.extern
 
                 >>
 
@@ -63,13 +63,13 @@
                 <<                                                             %! baca.ScoreTemplate.make_staff_group
 
                     \context Staff = "Percussion_Staff_I"                      %! ScoreTemplate
-                    \L_Percussion_Staff_I                                      %! extern
+                    \L_Percussion_Staff_I                                      %! abjad.Path.extern
 
                     \context Staff = "Percussion_Staff_II"                     %! ScoreTemplate
-                    \L_Percussion_Staff_II                                     %! extern
+                    \L_Percussion_Staff_II                                     %! abjad.Path.extern
 
                     \context Staff = "Percussion_Staff_III"                    %! ScoreTemplate
-                    \L_Percussion_Staff_III                                    %! extern
+                    \L_Percussion_Staff_III                                    %! abjad.Path.extern
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group
 
@@ -77,16 +77,16 @@
                 <<                                                             %! baca.ScoreTemplate.make_staff_group
 
                     \context Staff = "First_Violin_Staff_I"                    %! ScoreTemplate
-                    \L_First_Violin_Staff_I                                    %! extern
+                    \L_First_Violin_Staff_I                                    %! abjad.Path.extern
 
                     \context Staff = "Second_Violin_Staff_I"                   %! ScoreTemplate
-                    \L_Second_Violin_Staff_I                                   %! extern
+                    \L_Second_Violin_Staff_I                                   %! abjad.Path.extern
 
                     \context Staff = "Viola_Staff_I"                           %! ScoreTemplate
-                    \L_Viola_Staff_I                                           %! extern
+                    \L_Viola_Staff_I                                           %! abjad.Path.extern
 
                     \context Staff = "Cello_Staff_I"                           %! ScoreTemplate
-                    \L_Cello_Staff_I                                           %! extern
+                    \L_Cello_Staff_I                                           %! abjad.Path.extern
 
                     \context StaffGroup = "Contrabass_Square_Staff_Group"      %! baca.ScoreTemplate.make_square_staff_group
                     \with                                                      %! baca.ScoreTemplate.make_square_staff_group
@@ -96,10 +96,10 @@
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group
 
                         \context Staff = "Contrabass_Staff_I"                  %! ScoreTemplate
-                        \L_Contrabass_Staff_I                                  %! extern
+                        \L_Contrabass_Staff_I                                  %! abjad.Path.extern
 
                         \context Staff = "Contrabass_Staff_II"                 %! ScoreTemplate
-                        \L_Contrabass_Staff_II                                 %! extern
+                        \L_Contrabass_Staff_II                                 %! abjad.Path.extern
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group
 
@@ -109,6 +109,6 @@
 
         >>                                                                     %! ScoreTemplate
 
-    >>                                                                         %! _make_lilypond_file
+    >>                                                                         %! baca.SegmentMaker._make_lilypond_file
     
-}                                                                              %! _make_lilypond_file:LilyPondFile
+}                                                                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
