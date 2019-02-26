@@ -4,24 +4,6 @@ import abjad
 metadata = abjad.OrderedDict(
     [
         (
-            'alive_during_segment',
-            [
-                'Score',
-                'Global_Context',
-                'Global_Rests',
-                'Global_Skips',
-                'Music_Context',
-                'Piano_Piano_Staff',
-                'Piano_Staff_I',
-                'Piano_Voice_I',
-                'Piano_Rest_Voice_I',
-                'Percussion_Staff_Group',
-                'Percussion_Staff_IV',
-                'Percussion_Voice_IV',
-                'Percussion_Rest_Voice_IV',
-                ],
-            ),
-        (
             'bol_measure_numbers',
             [165, 171],
             ),
