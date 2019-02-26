@@ -29,8 +29,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-        \context Score = "Score"                                                                 %! ScoreTemplate
-        <<                                                                                       %! ScoreTemplate
+        \context Score = "Score"                                                                 %! animales.ScoreTemplate.__call__
+        <<                                                                                       %! animales.ScoreTemplate.__call__
             \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
             <<                                                                                   %! abjad.ScoreTemplate._make_global_context
                 \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
@@ -50,10 +50,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group
                     }                                                                            %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                                           %! baca.ScoreTemplate.make_square_staff_group
-                        \context Staff = "Flute_Staff_I"                                         %! ScoreTemplate
-                        <<                                                                       %! ScoreTemplate
-                            \context Voice = "Flute_Voice_I"                                     %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                        \context Staff = "Flute_Staff_I"                                         %! animales.ScoreTemplate._make_staves
+                        <<                                                                       %! animales.ScoreTemplate._make_staves
+                            \context Voice = "Flute_Voice_I"                                     %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -62,16 +62,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                            \context Voice = "Flute_Voice_II"                                    %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                            \context Voice = "Flute_Voice_II"                                    %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                        >>                                                                       %! ScoreTemplate
-                        \context Staff = "Flute_Staff_II"                                        %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            \context Voice = "Flute_Voice_III"                                   %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                        >>                                                                       %! animales.ScoreTemplate._make_staves
+                        \context Staff = "Flute_Staff_II"                                        %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
+                            \context Voice = "Flute_Voice_III"                                   %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -80,8 +80,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                        }                                                                        %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                        }                                                                        %! animales.ScoreTemplate._make_staves
                     >>                                                                           %! baca.ScoreTemplate.make_square_staff_group
                 >>                                                                               %! baca.ScoreTemplate.make_staff_group
                 \context StaffGroup = "String_Staff_Group"                                       %! baca.ScoreTemplate.make_staff_group
@@ -92,10 +92,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group
                     }                                                                            %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                                           %! baca.ScoreTemplate.make_square_staff_group
-                        \context Staff = "First_Violin_Staff_I"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            \context Voice = "First_Violin_Voice_I"                              %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                        \context Staff = "First_Violin_Staff_I"                                  %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
+                            \context Voice = "First_Violin_Voice_I"                              %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -104,12 +104,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                        }                                                                        %! ScoreTemplate
-                        \context Staff = "First_Violin_Staff_II"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            \context Voice = "First_Violin_Voice_I"                              %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                        }                                                                        %! animales.ScoreTemplate._make_staves
+                        \context Staff = "First_Violin_Staff_II"                                 %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
+                            \context Voice = "First_Violin_Voice_I"                              %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -118,8 +118,8 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                        }                                                                        %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                        }                                                                        %! animales.ScoreTemplate._make_staves
                     >>                                                                           %! baca.ScoreTemplate.make_square_staff_group
                     \context StaffGroup = "SecondViolin_Square_Staff_Group"                      %! baca.ScoreTemplate.make_square_staff_group
                     \with                                                                        %! baca.ScoreTemplate.make_square_staff_group
@@ -127,10 +127,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group
                     }                                                                            %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                                           %! baca.ScoreTemplate.make_square_staff_group
-                        \context Staff = "Second_Violin_Staff_I"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            \context Voice = "Second_Violin_Voice_I"                             %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                        \context Staff = "Second_Violin_Staff_I"                                 %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
+                            \context Voice = "Second_Violin_Voice_I"                             %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -139,12 +139,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                        }                                                                        %! ScoreTemplate
-                        \context Staff = "Second_Violin_Staff_II"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            \context Voice = "Second_Violin_Voice_I"                             %! ScoreTemplate
-                            {                                                                    %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                        }                                                                        %! animales.ScoreTemplate._make_staves
+                        \context Staff = "Second_Violin_Staff_II"                                %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
+                            \context Voice = "Second_Violin_Voice_I"                             %! animales.ScoreTemplate._make_staves
+                            {                                                                    %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                 %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                        %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                  %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -153,13 +153,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                               %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                    %! ScoreTemplate
-                        }                                                                        %! ScoreTemplate
+                            }                                                                    %! animales.ScoreTemplate._make_staves
+                        }                                                                        %! animales.ScoreTemplate._make_staves
                     >>                                                                           %! baca.ScoreTemplate.make_square_staff_group
-                    \context Staff = "Viola_Staff_I"                                             %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Viola_Voice_I"                                         %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
+                    \context Staff = "Viola_Staff_I"                                             %! animales.ScoreTemplate._make_staves
+                    {                                                                            %! animales.ScoreTemplate._make_staves
+                        \context Voice = "Viola_Voice_I"                                         %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
                             \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
                             \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -168,12 +168,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
                             \clef "alto"                                                         %! abjad.ScoreTemplate.attach_defaults
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Cello_Staff_I"                                             %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Cello_Voice_I"                                         %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
+                        }                                                                        %! animales.ScoreTemplate._make_staves
+                    }                                                                            %! animales.ScoreTemplate._make_staves
+                    \context Staff = "Cello_Staff_I"                                             %! animales.ScoreTemplate._make_staves
+                    {                                                                            %! animales.ScoreTemplate._make_staves
+                        \context Voice = "Cello_Voice_I"                                         %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
                             \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
                             \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -182,12 +182,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
                             \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Contrabass_Staff_I"                                        %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Contrabass_Voice_I"                                    %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
+                        }                                                                        %! animales.ScoreTemplate._make_staves
+                    }                                                                            %! animales.ScoreTemplate._make_staves
+                    \context Staff = "Contrabass_Staff_I"                                        %! animales.ScoreTemplate._make_staves
+                    {                                                                            %! animales.ScoreTemplate._make_staves
+                        \context Voice = "Contrabass_Voice_I"                                    %! animales.ScoreTemplate._make_staves
+                        {                                                                        %! animales.ScoreTemplate._make_staves
                             \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
                             \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -196,11 +196,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
                             \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
                             s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                        }                                                                        %! animales.ScoreTemplate._make_staves
+                    }                                                                            %! animales.ScoreTemplate._make_staves
                 >>                                                                               %! baca.ScoreTemplate.make_staff_group
             >>                                                                                   %! baca.ScoreTemplate.make_music_context
-        >>                                                                                       %! ScoreTemplate
+        >>                                                                                       %! animales.ScoreTemplate.__call__
 
     ..  container:: example
 
@@ -219,8 +219,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-            \context Score = "Score"                                                                 %! ScoreTemplate
-            <<                                                                                       %! ScoreTemplate
+            \context Score = "Score"                                                                 %! animales.ScoreTemplate.__call__
+            <<                                                                                       %! animales.ScoreTemplate.__call__
                 \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
                 <<                                                                                   %! abjad.ScoreTemplate._make_global_context
                     \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
@@ -234,10 +234,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                 <<                                                                                   %! baca.ScoreTemplate.make_music_context
                     \context StaffGroup = "Wind_Staff_Group"                                         %! baca.ScoreTemplate.make_staff_group
                     <<                                                                               %! baca.ScoreTemplate.make_staff_group
-                        \context Staff = "Bassoon_Staff_I"                                           %! ScoreTemplate
-                        {                                                                            %! ScoreTemplate
-                            \context Voice = "Bassoon_Voice_I"                                       %! ScoreTemplate
-                            {                                                                        %! ScoreTemplate
+                        \context Staff = "Bassoon_Staff_I"                                           %! animales.ScoreTemplate._make_staves
+                        {                                                                            %! animales.ScoreTemplate._make_staves
+                            \context Voice = "Bassoon_Voice_I"                                       %! animales.ScoreTemplate._make_staves
+                            {                                                                        %! animales.ScoreTemplate._make_staves
                                 \set Staff.shortInstrumentName =                                     %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \markup {                                                            %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                     \hcenter-in                                                      %! abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -246,11 +246,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }                                                                %! abjad.ScoreTemplate.attach_defaults:-PARTS
                                 \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
                                 s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                            }                                                                        %! ScoreTemplate
-                        }                                                                            %! ScoreTemplate
+                            }                                                                        %! animales.ScoreTemplate._make_staves
+                        }                                                                            %! animales.ScoreTemplate._make_staves
                     >>                                                                               %! baca.ScoreTemplate.make_staff_group
                 >>                                                                                   %! baca.ScoreTemplate.make_music_context
-            >>                                                                                       %! ScoreTemplate
+            >>                                                                                       %! animales.ScoreTemplate.__call__
 
     """
 
@@ -427,7 +427,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
-        tag = 'ScoreTemplate'
+        tag = 'animales.ScoreTemplate.__call__'
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -645,7 +645,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         default_margin_markup,
         default_clef=None,
         ):
-        tag = 'ScoreTemplate'
+        tag = 'animales.ScoreTemplate._make_staves'
         assert default_margin_markup is not None
         staves = []
         if not bool(staff_specifiers):
@@ -826,8 +826,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> score = animales.ScoreTemplate.skeleton()
             >>> abjad.f(score, strict=79)
-            \context Score = "Score"                                                       %! ScoreTemplate
-            <<                                                                             %! ScoreTemplate
+            \context Score = "Score"                                                       %! animales.ScoreTemplate.__call__
+            <<                                                                             %! animales.ScoreTemplate.__call__
                 \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
                 <<                                                                         %! abjad.ScoreTemplate._make_global_context
                     \context GlobalRests = "Global_Rests"                                  %! abjad.ScoreTemplate._make_global_context
@@ -977,7 +977,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                         >>                                                                 %! baca.ScoreTemplate.make_square_staff_group
                     >>                                                                     %! baca.ScoreTemplate.make_staff_group
                 >>                                                                         %! baca.ScoreTemplate.make_music_context
-            >>                                                                             %! ScoreTemplate
+            >>                                                                             %! animales.ScoreTemplate.__call__
 
         """
         two_staff_token = [(1, [1]), (2, [2])]

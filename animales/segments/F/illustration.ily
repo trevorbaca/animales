@@ -307,7 +307,7 @@ F_Clarinet_Voice_I = {                                                         %
 
 F_Clarinet_Staff_I = {                                                         %! abjad.Path.extern
 
-    \context Voice = "Clarinet_Voice_I"                                        %! ScoreTemplate
+    \context Voice = "Clarinet_Voice_I"                                        %! animales.ScoreTemplate._make_staves
     \F_Clarinet_Voice_I                                                        %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -420,7 +420,7 @@ F_Piano_Voice_I = {                                                            %
 
 F_Piano_Staff_I = {                                                            %! abjad.Path.extern
 
-    \context Voice = "Piano_Voice_I"                                           %! ScoreTemplate
+    \context Voice = "Piano_Voice_I"                                           %! animales.ScoreTemplate._make_staves
     \F_Piano_Voice_I                                                           %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -541,7 +541,7 @@ F_Harp_Voice_I = {                                                             %
 
 F_Harp_Staff_I = {                                                             %! abjad.Path.extern
 
-    \context Voice = "Harp_Voice_I"                                            %! ScoreTemplate
+    \context Voice = "Harp_Voice_I"                                            %! animales.ScoreTemplate._make_staves
     \F_Harp_Voice_I                                                            %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -631,7 +631,7 @@ F_Percussion_Voice_I = {                                                       %
 
 F_Percussion_Staff_I = {                                                       %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_I"                                      %! ScoreTemplate
+    \context Voice = "Percussion_Voice_I"                                      %! animales.ScoreTemplate._make_staves
     \F_Percussion_Voice_I                                                      %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -743,7 +743,7 @@ F_Percussion_Voice_II = {                                                      %
 
 F_Percussion_Staff_II = {                                                      %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves
     \F_Percussion_Voice_II                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -863,7 +863,7 @@ F_Percussion_Voice_III = {                                                     %
 
 F_Percussion_Staff_III = {                                                     %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_III"                                    %! animales.ScoreTemplate._make_staves
     \F_Percussion_Voice_III                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -950,7 +950,7 @@ F_First_Violin_Voice_I = {                                                     %
 
 F_First_Violin_Staff_I = {                                                     %! abjad.Path.extern
 
-    \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
+    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves
     \F_First_Violin_Voice_I                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1031,7 +1031,7 @@ F_Second_Violin_Voice_I = {                                                    %
 
 F_Second_Violin_Staff_I = {                                                    %! abjad.Path.extern
 
-    \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
+    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves
     \F_Second_Violin_Voice_I                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1112,7 +1112,7 @@ F_Viola_Voice_I = {                                                            %
 
 F_Viola_Staff_I = {                                                            %! abjad.Path.extern
 
-    \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
+    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves
     \F_Viola_Voice_I                                                           %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1193,7 +1193,7 @@ F_Cello_Voice_I = {                                                            %
 
 F_Cello_Staff_I = {                                                            %! abjad.Path.extern
 
-    \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
+    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves
     \F_Cello_Voice_I                                                           %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1320,7 +1320,7 @@ F_Contrabass_Voice_I = {                                                       %
 
 F_Contrabass_Staff_I = {                                                       %! abjad.Path.extern
 
-    \context Voice = "Contrabass_Voice_I"                                      %! ScoreTemplate
+    \context Voice = "Contrabass_Voice_I"                                      %! animales.ScoreTemplate._make_staves
     \F_Contrabass_Voice_I                                                      %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1470,7 +1470,7 @@ F_Contrabass_Voice_III = {                                                     %
 
 F_Contrabass_Staff_II = {                                                      %! abjad.Path.extern
 
-    \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
+    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves
     \F_Contrabass_Voice_III                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern

@@ -15,8 +15,8 @@
             \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file
         }                                                                      %! baca.SegmentMaker._make_lilypond_file
 
-        \context Score = "Score"                                               %! ScoreTemplate
-        <<                                                                     %! ScoreTemplate
+        \context Score = "Score"                                               %! animales.ScoreTemplate.__call__
+        <<                                                                     %! animales.ScoreTemplate.__call__
 
             \context GlobalContext = "Global_Context"                          %! abjad.ScoreTemplate._make_global_context
             <<                                                                 %! abjad.ScoreTemplate._make_global_context
@@ -42,15 +42,15 @@
                     }                                                          %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                        \context Staff = "Oboe_Staff_I"                        %! ScoreTemplate
+                        \context Staff = "Oboe_Staff_I"                        %! animales.ScoreTemplate._make_staves
                         \O_Oboe_Staff_I                                        %! abjad.Path.extern
 
-                        \context Staff = "English_Horn_Staff_I"                %! ScoreTemplate
+                        \context Staff = "English_Horn_Staff_I"                %! animales.ScoreTemplate._make_staves
                         \O_English_Horn_Staff_I                                %! abjad.Path.extern
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                    \context Staff = "Bassoon_Staff_I"                         %! ScoreTemplate
+                    \context Staff = "Bassoon_Staff_I"                         %! animales.ScoreTemplate._make_staves
                     \O_Bassoon_Staff_I                                         %! abjad.Path.extern
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group
@@ -65,13 +65,13 @@
                     }                                                          %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                        \context Staff = "First_Violin_Staff_I"                %! ScoreTemplate
+                        \context Staff = "First_Violin_Staff_I"                %! animales.ScoreTemplate._make_staves
                         \O_First_Violin_Staff_I                                %! abjad.Path.extern
 
-                        \context Staff = "First_Violin_Staff_II"               %! ScoreTemplate
+                        \context Staff = "First_Violin_Staff_II"               %! animales.ScoreTemplate._make_staves
                         \O_First_Violin_Staff_II                               %! abjad.Path.extern
 
-                        \context Staff = "First_Violin_Staff_III"              %! ScoreTemplate
+                        \context Staff = "First_Violin_Staff_III"              %! animales.ScoreTemplate._make_staves
                         \O_First_Violin_Staff_III                              %! abjad.Path.extern
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group
@@ -83,10 +83,10 @@
                     }                                                          %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                        \context Staff = "Second_Violin_Staff_I"               %! ScoreTemplate
+                        \context Staff = "Second_Violin_Staff_I"               %! animales.ScoreTemplate._make_staves
                         \O_Second_Violin_Staff_I                               %! abjad.Path.extern
 
-                        \context Staff = "Second_Violin_Staff_II"              %! ScoreTemplate
+                        \context Staff = "Second_Violin_Staff_II"              %! animales.ScoreTemplate._make_staves
                         \O_Second_Violin_Staff_II                              %! abjad.Path.extern
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group
@@ -98,25 +98,25 @@
                     }                                                          %! baca.ScoreTemplate.make_square_staff_group
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                        \context Staff = "Viola_Staff_I"                       %! ScoreTemplate
+                        \context Staff = "Viola_Staff_I"                       %! animales.ScoreTemplate._make_staves
                         \O_Viola_Staff_I                                       %! abjad.Path.extern
 
-                        \context Staff = "Viola_Staff_II"                      %! ScoreTemplate
+                        \context Staff = "Viola_Staff_II"                      %! animales.ScoreTemplate._make_staves
                         \O_Viola_Staff_II                                      %! abjad.Path.extern
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group
 
-                    \context Staff = "Cello_Staff_I"                           %! ScoreTemplate
+                    \context Staff = "Cello_Staff_I"                           %! animales.ScoreTemplate._make_staves
                     \O_Cello_Staff_I                                           %! abjad.Path.extern
 
-                    \context Staff = "Contrabass_Staff_II"                     %! ScoreTemplate
+                    \context Staff = "Contrabass_Staff_II"                     %! animales.ScoreTemplate._make_staves
                     \O_Contrabass_Staff_II                                     %! abjad.Path.extern
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group
 
             >>                                                                 %! baca.ScoreTemplate.make_music_context
 
-        >>                                                                     %! ScoreTemplate
+        >>                                                                     %! animales.ScoreTemplate.__call__
 
     >>                                                                         %! baca.SegmentMaker._make_lilypond_file
     
