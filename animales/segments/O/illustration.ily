@@ -1,4 +1,4 @@
-O_Global_Rests = {                                                             %! extern
+O_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [O Global_Rests measure 95 / measure 1]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -42,10 +42,10 @@ O_Global_Rests = {                                                             %
     % [O Global_Rests measure 108 / measure 14]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Global_Skips = {                                                             %! extern
+O_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [O Global_Skips measure 95 / measure 1]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -273,10 +273,10 @@ O_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Oboe_Voice_I_a = {                                                           %! extern
+O_Oboe_Voice_I_a = {                                                           %! abjad.Path.extern
 
     % [O Oboe_Voice_I measure 95 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -382,25 +382,25 @@ O_Oboe_Voice_I_a = {                                                           %
     % [O Oboe_Voice_I measure 108 / measure 14]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Oboe_Voice_I = {                                                             %! extern
+O_Oboe_Voice_I = {                                                             %! abjad.Path.extern
 
-    \O_Oboe_Voice_I_a                                                          %! extern
+    \O_Oboe_Voice_I_a                                                          %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Oboe_Staff_I = {                                                             %! extern
+O_Oboe_Staff_I = {                                                             %! abjad.Path.extern
 
     \context Voice = "Oboe_Voice_I"                                            %! ScoreTemplate
-    \O_Oboe_Voice_I                                                            %! extern
+    \O_Oboe_Voice_I                                                            %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_English_Horn_Voice_I_a = {                                                   %! extern
+O_English_Horn_Voice_I_a = {                                                   %! abjad.Path.extern
 
     % [O English_Horn_Voice_I measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -506,25 +506,25 @@ O_English_Horn_Voice_I_a = {                                                   %
     % [O English_Horn_Voice_I measure 108 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_English_Horn_Voice_I = {                                                     %! extern
+O_English_Horn_Voice_I = {                                                     %! abjad.Path.extern
 
-    \O_English_Horn_Voice_I_a                                                  %! extern
+    \O_English_Horn_Voice_I_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_English_Horn_Staff_I = {                                                     %! extern
+O_English_Horn_Staff_I = {                                                     %! abjad.Path.extern
 
     \context Voice = "English_Horn_Voice_I"                                    %! ScoreTemplate
-    \O_English_Horn_Voice_I                                                    %! extern
+    \O_English_Horn_Voice_I                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Bassoon_Voice_I_a = {                                                        %! extern
+O_Bassoon_Voice_I_a = {                                                        %! abjad.Path.extern
 
     % [O Bassoon_Voice_I measure 95 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! DEFAULT_MARGIN_MARKUP:_set_status_tag:abjad.ScoreTemplate.attach_defaults:-PARTS
@@ -631,17 +631,17 @@ O_Bassoon_Voice_I_a = {                                                        %
     % [O Bassoon_Voice_I measure 108 / measure 14]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Bassoon_Voice_I = {                                                          %! extern
+O_Bassoon_Voice_I = {                                                          %! abjad.Path.extern
 
-    \O_Bassoon_Voice_I_a                                                       %! extern
+    \O_Bassoon_Voice_I_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Bassoon_Voice_II_a = {                                                       %! extern
+O_Bassoon_Voice_II_a = {                                                       %! abjad.Path.extern
 
     % [O Bassoon_Voice_II measure 95 / measure 1]                              %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -721,28 +721,28 @@ O_Bassoon_Voice_II_a = {                                                       %
     % [O Bassoon_Voice_II measure 108 / measure 14]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Bassoon_Voice_II = {                                                         %! extern
+O_Bassoon_Voice_II = {                                                         %! abjad.Path.extern
 
-    \O_Bassoon_Voice_II_a                                                      %! extern
+    \O_Bassoon_Voice_II_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Bassoon_Staff_I = <<                                                         %! extern
+O_Bassoon_Staff_I = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Bassoon_Voice_I"                                         %! ScoreTemplate
-    \O_Bassoon_Voice_I                                                         %! extern
+    \O_Bassoon_Voice_I                                                         %! abjad.Path.extern
 
     \context Voice = "Bassoon_Voice_II"                                        %! ScoreTemplate
-    \O_Bassoon_Voice_II                                                        %! extern
+    \O_Bassoon_Voice_II                                                        %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_First_Violin_Voice_I_a = {                                                   %! extern
+O_First_Violin_Voice_I_a = {                                                   %! abjad.Path.extern
 
     % [O First_Violin_Voice_I measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -914,17 +914,17 @@ O_First_Violin_Voice_I_a = {                                                   %
     % [O First_Violin_Voice_I measure 108 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_I = {                                                     %! extern
+O_First_Violin_Voice_I = {                                                     %! abjad.Path.extern
 
-    \O_First_Violin_Voice_I_a                                                  %! extern
+    \O_First_Violin_Voice_I_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_II_a = {                                                  %! extern
+O_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern
 
     % [O First_Violin_Voice_II measure 95 / measure 1]                         %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -1039,28 +1039,28 @@ O_First_Violin_Voice_II_a = {                                                  %
     % [O First_Violin_Voice_II measure 108 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_II = {                                                    %! extern
+O_First_Violin_Voice_II = {                                                    %! abjad.Path.extern
 
-    \O_First_Violin_Voice_II_a                                                 %! extern
+    \O_First_Violin_Voice_II_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Staff_I = <<                                                    %! extern
+O_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
-    \O_First_Violin_Voice_I                                                    %! extern
+    \O_First_Violin_Voice_I                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
-    \O_First_Violin_Voice_II                                                   %! extern
+    \O_First_Violin_Voice_II                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_First_Violin_Voice_III_a = {                                                 %! extern
+O_First_Violin_Voice_III_a = {                                                 %! abjad.Path.extern
 
     % [O First_Violin_Voice_III measure 95 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1226,17 +1226,17 @@ O_First_Violin_Voice_III_a = {                                                 %
     % [O First_Violin_Voice_III measure 108 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_III = {                                                   %! extern
+O_First_Violin_Voice_III = {                                                   %! abjad.Path.extern
 
-    \O_First_Violin_Voice_III_a                                                %! extern
+    \O_First_Violin_Voice_III_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_IV_a = {                                                  %! extern
+O_First_Violin_Voice_IV_a = {                                                  %! abjad.Path.extern
 
     % [O First_Violin_Voice_IV measure 95 / measure 1]                         %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -1351,28 +1351,28 @@ O_First_Violin_Voice_IV_a = {                                                  %
     % [O First_Violin_Voice_IV measure 108 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_IV = {                                                    %! extern
+O_First_Violin_Voice_IV = {                                                    %! abjad.Path.extern
 
-    \O_First_Violin_Voice_IV_a                                                 %! extern
+    \O_First_Violin_Voice_IV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Staff_II = <<                                                   %! extern
+O_First_Violin_Staff_II = <<                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
-    \O_First_Violin_Voice_III                                                  %! extern
+    \O_First_Violin_Voice_III                                                  %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_IV"                                   %! ScoreTemplate
-    \O_First_Violin_Voice_IV                                                   %! extern
+    \O_First_Violin_Voice_IV                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_First_Violin_Voice_V_a = {                                                   %! extern
+O_First_Violin_Voice_V_a = {                                                   %! abjad.Path.extern
 
     % [O First_Violin_Voice_V measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1494,25 +1494,25 @@ O_First_Violin_Voice_V_a = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Voice_V = {                                                     %! extern
+O_First_Violin_Voice_V = {                                                     %! abjad.Path.extern
 
-    \O_First_Violin_Voice_V_a                                                  %! extern
+    \O_First_Violin_Voice_V_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_First_Violin_Staff_III = {                                                   %! extern
+O_First_Violin_Staff_III = {                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_V"                                    %! ScoreTemplate
-    \O_First_Violin_Voice_V                                                    %! extern
+    \O_First_Violin_Voice_V                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_I_a = {                                                  %! extern
+O_Second_Violin_Voice_I_a = {                                                  %! abjad.Path.extern
 
     % [O Second_Violin_Voice_I measure 95 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1683,17 +1683,17 @@ O_Second_Violin_Voice_I_a = {                                                  %
     % [O Second_Violin_Voice_I measure 108 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_I = {                                                    %! extern
+O_Second_Violin_Voice_I = {                                                    %! abjad.Path.extern
 
-    \O_Second_Violin_Voice_I_a                                                 %! extern
+    \O_Second_Violin_Voice_I_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_II_a = {                                                 %! extern
+O_Second_Violin_Voice_II_a = {                                                 %! abjad.Path.extern
 
     % [O Second_Violin_Voice_II measure 95 / measure 1]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -1808,28 +1808,28 @@ O_Second_Violin_Voice_II_a = {                                                 %
     % [O Second_Violin_Voice_II measure 108 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_II = {                                                   %! extern
+O_Second_Violin_Voice_II = {                                                   %! abjad.Path.extern
 
-    \O_Second_Violin_Voice_II_a                                                %! extern
+    \O_Second_Violin_Voice_II_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Staff_I = <<                                                   %! extern
+O_Second_Violin_Staff_I = <<                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
-    \O_Second_Violin_Voice_I                                                   %! extern
+    \O_Second_Violin_Voice_I                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_II"                                  %! ScoreTemplate
-    \O_Second_Violin_Voice_II                                                  %! extern
+    \O_Second_Violin_Voice_II                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_III_a = {                                                %! extern
+O_Second_Violin_Voice_III_a = {                                                %! abjad.Path.extern
 
     % [O Second_Violin_Voice_III measure 95 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -1995,17 +1995,17 @@ O_Second_Violin_Voice_III_a = {                                                %
     % [O Second_Violin_Voice_III measure 108 / measure 14]                     %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_III = {                                                  %! extern
+O_Second_Violin_Voice_III = {                                                  %! abjad.Path.extern
 
-    \O_Second_Violin_Voice_III_a                                               %! extern
+    \O_Second_Violin_Voice_III_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_IV_a = {                                                 %! extern
+O_Second_Violin_Voice_IV_a = {                                                 %! abjad.Path.extern
 
     % [O Second_Violin_Voice_IV measure 95 / measure 1]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -2120,28 +2120,28 @@ O_Second_Violin_Voice_IV_a = {                                                 %
     % [O Second_Violin_Voice_IV measure 108 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Voice_IV = {                                                   %! extern
+O_Second_Violin_Voice_IV = {                                                   %! abjad.Path.extern
 
-    \O_Second_Violin_Voice_IV_a                                                %! extern
+    \O_Second_Violin_Voice_IV_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Second_Violin_Staff_II = <<                                                  %! extern
+O_Second_Violin_Staff_II = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
-    \O_Second_Violin_Voice_III                                                 %! extern
+    \O_Second_Violin_Voice_III                                                 %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_IV"                                  %! ScoreTemplate
-    \O_Second_Violin_Voice_IV                                                  %! extern
+    \O_Second_Violin_Voice_IV                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Viola_Voice_I_a = {                                                          %! extern
+O_Viola_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [O Viola_Voice_I measure 95 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -2307,17 +2307,17 @@ O_Viola_Voice_I_a = {                                                          %
     % [O Viola_Voice_I measure 108 / measure 14]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Voice_I = {                                                            %! extern
+O_Viola_Voice_I = {                                                            %! abjad.Path.extern
 
-    \O_Viola_Voice_I_a                                                         %! extern
+    \O_Viola_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Voice_II_a = {                                                         %! extern
+O_Viola_Voice_II_a = {                                                         %! abjad.Path.extern
 
     % [O Viola_Voice_II measure 95 / measure 1]                                %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -2432,28 +2432,28 @@ O_Viola_Voice_II_a = {                                                         %
     % [O Viola_Voice_II measure 108 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Voice_II = {                                                           %! extern
+O_Viola_Voice_II = {                                                           %! abjad.Path.extern
 
-    \O_Viola_Voice_II_a                                                        %! extern
+    \O_Viola_Voice_II_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Staff_I = <<                                                           %! extern
+O_Viola_Staff_I = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
-    \O_Viola_Voice_I                                                           %! extern
+    \O_Viola_Voice_I                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_II"                                          %! ScoreTemplate
-    \O_Viola_Voice_II                                                          %! extern
+    \O_Viola_Voice_II                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Viola_Voice_III_a = {                                                        %! extern
+O_Viola_Voice_III_a = {                                                        %! abjad.Path.extern
 
     % [O Viola_Voice_III measure 95 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -2619,17 +2619,17 @@ O_Viola_Voice_III_a = {                                                        %
     % [O Viola_Voice_III measure 108 / measure 14]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Voice_III = {                                                          %! extern
+O_Viola_Voice_III = {                                                          %! abjad.Path.extern
 
-    \O_Viola_Voice_III_a                                                       %! extern
+    \O_Viola_Voice_III_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Voice_IV_a = {                                                         %! extern
+O_Viola_Voice_IV_a = {                                                         %! abjad.Path.extern
 
     % [O Viola_Voice_IV measure 95 / measure 1]                                %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -2744,28 +2744,28 @@ O_Viola_Voice_IV_a = {                                                         %
     % [O Viola_Voice_IV measure 108 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Voice_IV = {                                                           %! extern
+O_Viola_Voice_IV = {                                                           %! abjad.Path.extern
 
-    \O_Viola_Voice_IV_a                                                        %! extern
+    \O_Viola_Voice_IV_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Staff_II = <<                                                          %! extern
+O_Viola_Staff_II = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
-    \O_Viola_Voice_III                                                         %! extern
+    \O_Viola_Voice_III                                                         %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_IV"                                          %! ScoreTemplate
-    \O_Viola_Voice_IV                                                          %! extern
+    \O_Viola_Voice_IV                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Cello_Voice_I_a = {                                                          %! extern
+O_Cello_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [O Cello_Voice_I measure 95 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -2936,17 +2936,17 @@ O_Cello_Voice_I_a = {                                                          %
     % [O Cello_Voice_I measure 108 / measure 14]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Cello_Voice_I = {                                                            %! extern
+O_Cello_Voice_I = {                                                            %! abjad.Path.extern
 
-    \O_Cello_Voice_I_a                                                         %! extern
+    \O_Cello_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Cello_Voice_II_a = {                                                         %! extern
+O_Cello_Voice_II_a = {                                                         %! abjad.Path.extern
 
     % [O Cello_Voice_II measure 95 / measure 1]                                %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -3061,28 +3061,28 @@ O_Cello_Voice_II_a = {                                                         %
     % [O Cello_Voice_II measure 108 / measure 14]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Cello_Voice_II = {                                                           %! extern
+O_Cello_Voice_II = {                                                           %! abjad.Path.extern
 
-    \O_Cello_Voice_II_a                                                        %! extern
+    \O_Cello_Voice_II_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Cello_Staff_I = <<                                                           %! extern
+O_Cello_Staff_I = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
-    \O_Cello_Voice_I                                                           %! extern
+    \O_Cello_Voice_I                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_II"                                          %! ScoreTemplate
-    \O_Cello_Voice_II                                                          %! extern
+    \O_Cello_Voice_II                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Contrabass_Voice_III_a = {                                                   %! extern
+O_Contrabass_Voice_III_a = {                                                   %! abjad.Path.extern
 
     % [O Contrabass_Voice_III measure 95 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -3223,19 +3223,19 @@ O_Contrabass_Voice_III_a = {                                                   %
     % [O Contrabass_Voice_III measure 108 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Contrabass_Voice_III = {                                                     %! extern
+O_Contrabass_Voice_III = {                                                     %! abjad.Path.extern
 
-    \O_Contrabass_Voice_III_a                                                  %! extern
+    \O_Contrabass_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Contrabass_Staff_II = {                                                      %! extern
+O_Contrabass_Staff_II = {                                                      %! abjad.Path.extern
 
     \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
-    \O_Contrabass_Voice_III                                                    %! extern
+    \O_Contrabass_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern

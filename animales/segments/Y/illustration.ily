@@ -1,4 +1,4 @@
-Y_Global_Rests = {                                                             %! extern
+Y_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [Y Global_Rests measure 152 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
@@ -9,10 +9,10 @@ Y_Global_Rests = {                                                             %
     % [Y Global_Rests measure 154 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Global_Skips = {                                                             %! extern
+Y_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [Y Global_Skips measure 152 / measure 1]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
@@ -61,10 +61,10 @@ Y_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_I_a = {                                                           %! extern
+Y_Horn_Voice_I_a = {                                                           %! abjad.Path.extern
 
     % [Y Horn_Voice_I measure 152 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -138,17 +138,17 @@ Y_Horn_Voice_I_a = {                                                           %
     % [Y Horn_Voice_I measure 154 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_I = {                                                             %! extern
+Y_Horn_Voice_I = {                                                             %! abjad.Path.extern
 
-    \Y_Horn_Voice_I_a                                                          %! extern
+    \Y_Horn_Voice_I_a                                                          %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_III_a = {                                                         %! extern
+Y_Horn_Voice_III_a = {                                                         %! abjad.Path.extern
 
     % [Y Horn_Voice_III measure 152 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -183,28 +183,28 @@ Y_Horn_Voice_III_a = {                                                         %
     % [Y Horn_Voice_III measure 154 / measure 3]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_III = {                                                           %! extern
+Y_Horn_Voice_III = {                                                           %! abjad.Path.extern
 
-    \Y_Horn_Voice_III_a                                                        %! extern
+    \Y_Horn_Voice_III_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Staff_I = <<                                                            %! extern
+Y_Horn_Staff_I = <<                                                            %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_I"                                            %! ScoreTemplate
-    \Y_Horn_Voice_I                                                            %! extern
+    \Y_Horn_Voice_I                                                            %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_III"                                          %! ScoreTemplate
-    \Y_Horn_Voice_III                                                          %! extern
+    \Y_Horn_Voice_III                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Horn_Voice_II_a = {                                                          %! extern
+Y_Horn_Voice_II_a = {                                                          %! abjad.Path.extern
 
     % [Y Horn_Voice_II measure 152 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -278,17 +278,17 @@ Y_Horn_Voice_II_a = {                                                          %
     % [Y Horn_Voice_II measure 154 / measure 3]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_II = {                                                            %! extern
+Y_Horn_Voice_II = {                                                            %! abjad.Path.extern
 
-    \Y_Horn_Voice_II_a                                                         %! extern
+    \Y_Horn_Voice_II_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_IV_a = {                                                          %! extern
+Y_Horn_Voice_IV_a = {                                                          %! abjad.Path.extern
 
     % [Y Horn_Voice_IV measure 152 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -323,28 +323,28 @@ Y_Horn_Voice_IV_a = {                                                          %
     % [Y Horn_Voice_IV measure 154 / measure 3]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Voice_IV = {                                                            %! extern
+Y_Horn_Voice_IV = {                                                            %! abjad.Path.extern
 
-    \Y_Horn_Voice_IV_a                                                         %! extern
+    \Y_Horn_Voice_IV_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Horn_Staff_II = <<                                                           %! extern
+Y_Horn_Staff_II = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_II"                                           %! ScoreTemplate
-    \Y_Horn_Voice_II                                                           %! extern
+    \Y_Horn_Voice_II                                                           %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_IV"                                           %! ScoreTemplate
-    \Y_Horn_Voice_IV                                                           %! extern
+    \Y_Horn_Voice_IV                                                           %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_I_a = {                                                        %! extern
+Y_Trumpet_Voice_I_a = {                                                        %! abjad.Path.extern
 
     % [Y Trumpet_Voice_I measure 152 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -418,17 +418,17 @@ Y_Trumpet_Voice_I_a = {                                                        %
     % [Y Trumpet_Voice_I measure 154 / measure 3]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_I = {                                                          %! extern
+Y_Trumpet_Voice_I = {                                                          %! abjad.Path.extern
 
-    \Y_Trumpet_Voice_I_a                                                       %! extern
+    \Y_Trumpet_Voice_I_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_III_a = {                                                      %! extern
+Y_Trumpet_Voice_III_a = {                                                      %! abjad.Path.extern
 
     % [Y Trumpet_Voice_III measure 152 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -463,28 +463,28 @@ Y_Trumpet_Voice_III_a = {                                                      %
     % [Y Trumpet_Voice_III measure 154 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_III = {                                                        %! extern
+Y_Trumpet_Voice_III = {                                                        %! abjad.Path.extern
 
-    \Y_Trumpet_Voice_III_a                                                     %! extern
+    \Y_Trumpet_Voice_III_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Staff_I = <<                                                         %! extern
+Y_Trumpet_Staff_I = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_I"                                         %! ScoreTemplate
-    \Y_Trumpet_Voice_I                                                         %! extern
+    \Y_Trumpet_Voice_I                                                         %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_III"                                       %! ScoreTemplate
-    \Y_Trumpet_Voice_III                                                       %! extern
+    \Y_Trumpet_Voice_III                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_II_a = {                                                       %! extern
+Y_Trumpet_Voice_II_a = {                                                       %! abjad.Path.extern
 
     % [Y Trumpet_Voice_II measure 152 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -558,17 +558,17 @@ Y_Trumpet_Voice_II_a = {                                                       %
     % [Y Trumpet_Voice_II measure 154 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_II = {                                                         %! extern
+Y_Trumpet_Voice_II = {                                                         %! abjad.Path.extern
 
-    \Y_Trumpet_Voice_II_a                                                      %! extern
+    \Y_Trumpet_Voice_II_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_IV_a = {                                                       %! extern
+Y_Trumpet_Voice_IV_a = {                                                       %! abjad.Path.extern
 
     % [Y Trumpet_Voice_IV measure 152 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -603,28 +603,28 @@ Y_Trumpet_Voice_IV_a = {                                                       %
     % [Y Trumpet_Voice_IV measure 154 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Voice_IV = {                                                         %! extern
+Y_Trumpet_Voice_IV = {                                                         %! abjad.Path.extern
 
-    \Y_Trumpet_Voice_IV_a                                                      %! extern
+    \Y_Trumpet_Voice_IV_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trumpet_Staff_II = <<                                                        %! extern
+Y_Trumpet_Staff_II = <<                                                        %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_II"                                        %! ScoreTemplate
-    \Y_Trumpet_Voice_II                                                        %! extern
+    \Y_Trumpet_Voice_II                                                        %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_IV"                                        %! ScoreTemplate
-    \Y_Trumpet_Voice_IV                                                        %! extern
+    \Y_Trumpet_Voice_IV                                                        %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Trombone_Voice_I_a = {                                                       %! extern
+Y_Trombone_Voice_I_a = {                                                       %! abjad.Path.extern
 
     % [Y Trombone_Voice_I measure 152 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -698,17 +698,17 @@ Y_Trombone_Voice_I_a = {                                                       %
     % [Y Trombone_Voice_I measure 154 / measure 3]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Voice_I = {                                                         %! extern
+Y_Trombone_Voice_I = {                                                         %! abjad.Path.extern
 
-    \Y_Trombone_Voice_I_a                                                      %! extern
+    \Y_Trombone_Voice_I_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Voice_III_a = {                                                     %! extern
+Y_Trombone_Voice_III_a = {                                                     %! abjad.Path.extern
 
     % [Y Trombone_Voice_III measure 152 / measure 1]                           %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -743,28 +743,28 @@ Y_Trombone_Voice_III_a = {                                                     %
     % [Y Trombone_Voice_III measure 154 / measure 3]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Voice_III = {                                                       %! extern
+Y_Trombone_Voice_III = {                                                       %! abjad.Path.extern
 
-    \Y_Trombone_Voice_III_a                                                    %! extern
+    \Y_Trombone_Voice_III_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Staff_I = <<                                                        %! extern
+Y_Trombone_Staff_I = <<                                                        %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_I"                                        %! ScoreTemplate
-    \Y_Trombone_Voice_I                                                        %! extern
+    \Y_Trombone_Voice_I                                                        %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_III"                                      %! ScoreTemplate
-    \Y_Trombone_Voice_III                                                      %! extern
+    \Y_Trombone_Voice_III                                                      %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Trombone_Voice_II_a = {                                                      %! extern
+Y_Trombone_Voice_II_a = {                                                      %! abjad.Path.extern
 
     % [Y Trombone_Voice_II measure 152 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -838,17 +838,17 @@ Y_Trombone_Voice_II_a = {                                                      %
     % [Y Trombone_Voice_II measure 154 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Voice_II = {                                                        %! extern
+Y_Trombone_Voice_II = {                                                        %! abjad.Path.extern
 
-    \Y_Trombone_Voice_II_a                                                     %! extern
+    \Y_Trombone_Voice_II_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Voice_IV_a = {                                                      %! extern
+Y_Trombone_Voice_IV_a = {                                                      %! abjad.Path.extern
 
     % [Y Trombone_Voice_IV measure 152 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -883,28 +883,28 @@ Y_Trombone_Voice_IV_a = {                                                      %
     % [Y Trombone_Voice_IV measure 154 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Voice_IV = {                                                        %! extern
+Y_Trombone_Voice_IV = {                                                        %! abjad.Path.extern
 
-    \Y_Trombone_Voice_IV_a                                                     %! extern
+    \Y_Trombone_Voice_IV_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Trombone_Staff_II = <<                                                       %! extern
+Y_Trombone_Staff_II = <<                                                       %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_II"                                       %! ScoreTemplate
-    \Y_Trombone_Voice_II                                                       %! extern
+    \Y_Trombone_Voice_II                                                       %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_IV"                                       %! ScoreTemplate
-    \Y_Trombone_Voice_IV                                                       %! extern
+    \Y_Trombone_Voice_IV                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Tuba_Voice_I_a = {                                                           %! extern
+Y_Tuba_Voice_I_a = {                                                           %! abjad.Path.extern
 
     % [Y Tuba_Voice_I measure 152 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -965,25 +965,25 @@ Y_Tuba_Voice_I_a = {                                                           %
     % [Y Tuba_Voice_I measure 154 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Tuba_Voice_I = {                                                             %! extern
+Y_Tuba_Voice_I = {                                                             %! abjad.Path.extern
 
-    \Y_Tuba_Voice_I_a                                                          %! extern
+    \Y_Tuba_Voice_I_a                                                          %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Tuba_Staff_I = {                                                             %! extern
+Y_Tuba_Staff_I = {                                                             %! abjad.Path.extern
 
     \context Voice = "Tuba_Voice_I"                                            %! ScoreTemplate
-    \Y_Tuba_Voice_I                                                            %! extern
+    \Y_Tuba_Voice_I                                                            %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Voice_II_a = {                                                    %! extern
+Y_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern
 
     % [Y Percussion_Voice_II measure 152 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1049,25 +1049,25 @@ Y_Percussion_Voice_II_a = {                                                    %
     - \tweak direction #up
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Voice_II = {                                                      %! extern
+Y_Percussion_Voice_II = {                                                      %! abjad.Path.extern
 
-    \Y_Percussion_Voice_II_a                                                   %! extern
+    \Y_Percussion_Voice_II_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Staff_II = {                                                      %! extern
+Y_Percussion_Staff_II = {                                                      %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
-    \Y_Percussion_Voice_II                                                     %! extern
+    \Y_Percussion_Voice_II                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Voice_III_a = {                                                   %! extern
+Y_Percussion_Voice_III_a = {                                                   %! abjad.Path.extern
 
     % [Y Percussion_Voice_III measure 152 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1132,25 +1132,25 @@ Y_Percussion_Voice_III_a = {                                                   %
     - \tweak direction #up
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Voice_III = {                                                     %! extern
+Y_Percussion_Voice_III = {                                                     %! abjad.Path.extern
 
-    \Y_Percussion_Voice_III_a                                                  %! extern
+    \Y_Percussion_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Staff_III = {                                                     %! extern
+Y_Percussion_Staff_III = {                                                     %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
-    \Y_Percussion_Voice_III                                                    %! extern
+    \Y_Percussion_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Voice_IV_a = {                                                    %! extern
+Y_Percussion_Voice_IV_a = {                                                    %! abjad.Path.extern
 
     % [Y Percussion_Voice_IV measure 152 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1215,25 +1215,25 @@ Y_Percussion_Voice_IV_a = {                                                    %
     - \tweak direction #up
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Voice_IV = {                                                      %! extern
+Y_Percussion_Voice_IV = {                                                      %! abjad.Path.extern
 
-    \Y_Percussion_Voice_IV_a                                                   %! extern
+    \Y_Percussion_Voice_IV_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Percussion_Staff_IV = {                                                      %! extern
+Y_Percussion_Staff_IV = {                                                      %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_IV"                                     %! ScoreTemplate
-    \Y_Percussion_Voice_IV                                                     %! extern
+    \Y_Percussion_Voice_IV                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_I_a = {                                                   %! extern
+Y_First_Violin_Voice_I_a = {                                                   %! abjad.Path.extern
 
     % [Y First_Violin_Voice_I measure 152 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1283,17 +1283,17 @@ Y_First_Violin_Voice_I_a = {                                                   %
     % [Y First_Violin_Voice_I measure 154 / measure 3]                         %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_I = {                                                     %! extern
+Y_First_Violin_Voice_I = {                                                     %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_I_a                                                  %! extern
+    \Y_First_Violin_Voice_I_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_II_a = {                                                  %! extern
+Y_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern
 
     % [Y First_Violin_Voice_II measure 152 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1329,28 +1329,28 @@ Y_First_Violin_Voice_II_a = {                                                  %
     % [Y First_Violin_Voice_II measure 154 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_II = {                                                    %! extern
+Y_First_Violin_Voice_II = {                                                    %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_II_a                                                 %! extern
+    \Y_First_Violin_Voice_II_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_I = <<                                                    %! extern
+Y_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
-    \Y_First_Violin_Voice_I                                                    %! extern
+    \Y_First_Violin_Voice_I                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
-    \Y_First_Violin_Voice_II                                                   %! extern
+    \Y_First_Violin_Voice_II                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_III_a = {                                                 %! extern
+Y_First_Violin_Voice_III_a = {                                                 %! abjad.Path.extern
 
     % [Y First_Violin_Voice_III measure 152 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1420,17 +1420,17 @@ Y_First_Violin_Voice_III_a = {                                                 %
 
     r4
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_III = {                                                   %! extern
+Y_First_Violin_Voice_III = {                                                   %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_III_a                                                %! extern
+    \Y_First_Violin_Voice_III_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_IV_a = {                                                  %! extern
+Y_First_Violin_Voice_IV_a = {                                                  %! abjad.Path.extern
 
     % [Y First_Violin_Voice_IV measure 152 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1454,28 +1454,28 @@ Y_First_Violin_Voice_IV_a = {                                                  %
     % [Y First_Violin_Voice_IV measure 154 / measure 3]                        %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_IV = {                                                    %! extern
+Y_First_Violin_Voice_IV = {                                                    %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_IV_a                                                 %! extern
+    \Y_First_Violin_Voice_IV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_II = <<                                                   %! extern
+Y_First_Violin_Staff_II = <<                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
-    \Y_First_Violin_Voice_III                                                  %! extern
+    \Y_First_Violin_Voice_III                                                  %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_IV"                                   %! ScoreTemplate
-    \Y_First_Violin_Voice_IV                                                   %! extern
+    \Y_First_Violin_Voice_IV                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_V_a = {                                                   %! extern
+Y_First_Violin_Voice_V_a = {                                                   %! abjad.Path.extern
 
     % [Y First_Violin_Voice_V measure 152 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1531,17 +1531,17 @@ Y_First_Violin_Voice_V_a = {                                                   %
     % [Y First_Violin_Voice_V measure 154 / measure 3]                         %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_V = {                                                     %! extern
+Y_First_Violin_Voice_V = {                                                     %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_V_a                                                  %! extern
+    \Y_First_Violin_Voice_V_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_VI_a = {                                                  %! extern
+Y_First_Violin_Voice_VI_a = {                                                  %! abjad.Path.extern
 
     % [Y First_Violin_Voice_VI measure 152 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1569,28 +1569,28 @@ Y_First_Violin_Voice_VI_a = {                                                  %
     % [Y First_Violin_Voice_VI measure 154 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_VI = {                                                    %! extern
+Y_First_Violin_Voice_VI = {                                                    %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_VI_a                                                 %! extern
+    \Y_First_Violin_Voice_VI_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_III = <<                                                  %! extern
+Y_First_Violin_Staff_III = <<                                                  %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_V"                                    %! ScoreTemplate
-    \Y_First_Violin_Voice_V                                                    %! extern
+    \Y_First_Violin_Voice_V                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_VI"                                   %! ScoreTemplate
-    \Y_First_Violin_Voice_VI                                                   %! extern
+    \Y_First_Violin_Voice_VI                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_VII_a = {                                                 %! extern
+Y_First_Violin_Voice_VII_a = {                                                 %! abjad.Path.extern
 
     % [Y First_Violin_Voice_VII measure 152 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1636,17 +1636,17 @@ Y_First_Violin_Voice_VII_a = {                                                 %
     % [Y First_Violin_Voice_VII measure 154 / measure 3]                       %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_VII = {                                                   %! extern
+Y_First_Violin_Voice_VII = {                                                   %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_VII_a                                                %! extern
+    \Y_First_Violin_Voice_VII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_VIII_a = {                                                %! extern
+Y_First_Violin_Voice_VIII_a = {                                                %! abjad.Path.extern
 
     % [Y First_Violin_Voice_VIII measure 152 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1692,28 +1692,28 @@ Y_First_Violin_Voice_VIII_a = {                                                %
 
     r4
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_VIII = {                                                  %! extern
+Y_First_Violin_Voice_VIII = {                                                  %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_VIII_a                                               %! extern
+    \Y_First_Violin_Voice_VIII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_IV = <<                                                   %! extern
+Y_First_Violin_Staff_IV = <<                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_VII"                                  %! ScoreTemplate
-    \Y_First_Violin_Voice_VII                                                  %! extern
+    \Y_First_Violin_Voice_VII                                                  %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_VIII"                                 %! ScoreTemplate
-    \Y_First_Violin_Voice_VIII                                                 %! extern
+    \Y_First_Violin_Voice_VIII                                                 %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_IX_a = {                                                  %! extern
+Y_First_Violin_Voice_IX_a = {                                                  %! abjad.Path.extern
 
     % [Y First_Violin_Voice_IX measure 152 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1771,17 +1771,17 @@ Y_First_Violin_Voice_IX_a = {                                                  %
     % [Y First_Violin_Voice_IX measure 154 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_IX = {                                                    %! extern
+Y_First_Violin_Voice_IX = {                                                    %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_IX_a                                                 %! extern
+    \Y_First_Violin_Voice_IX_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_X_a = {                                                   %! extern
+Y_First_Violin_Voice_X_a = {                                                   %! abjad.Path.extern
 
     % [Y First_Violin_Voice_X measure 152 / measure 1]                         %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1809,28 +1809,28 @@ Y_First_Violin_Voice_X_a = {                                                   %
 
     r8                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_X = {                                                     %! extern
+Y_First_Violin_Voice_X = {                                                     %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_X_a                                                  %! extern
+    \Y_First_Violin_Voice_X_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_V = <<                                                    %! extern
+Y_First_Violin_Staff_V = <<                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_IX"                                   %! ScoreTemplate
-    \Y_First_Violin_Voice_IX                                                   %! extern
+    \Y_First_Violin_Voice_IX                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_X"                                    %! ScoreTemplate
-    \Y_First_Violin_Voice_X                                                    %! extern
+    \Y_First_Violin_Voice_X                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XI_a = {                                                  %! extern
+Y_First_Violin_Voice_XI_a = {                                                  %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XI measure 152 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1876,17 +1876,17 @@ Y_First_Violin_Voice_XI_a = {                                                  %
     % [Y First_Violin_Voice_XI measure 154 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XI = {                                                    %! extern
+Y_First_Violin_Voice_XI = {                                                    %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XI_a                                                 %! extern
+    \Y_First_Violin_Voice_XI_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XII_a = {                                                 %! extern
+Y_First_Violin_Voice_XII_a = {                                                 %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XII measure 152 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -1934,28 +1934,28 @@ Y_First_Violin_Voice_XII_a = {                                                 %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XII = {                                                   %! extern
+Y_First_Violin_Voice_XII = {                                                   %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XII_a                                                %! extern
+    \Y_First_Violin_Voice_XII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_VI = <<                                                   %! extern
+Y_First_Violin_Staff_VI = <<                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XI"                                   %! ScoreTemplate
-    \Y_First_Violin_Voice_XI                                                   %! extern
+    \Y_First_Violin_Voice_XI                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XII"                                  %! ScoreTemplate
-    \Y_First_Violin_Voice_XII                                                  %! extern
+    \Y_First_Violin_Voice_XII                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XIII_a = {                                                %! extern
+Y_First_Violin_Voice_XIII_a = {                                                %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XIII measure 152 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2011,17 +2011,17 @@ Y_First_Violin_Voice_XIII_a = {                                                %
 
     r4
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XIII = {                                                  %! extern
+Y_First_Violin_Voice_XIII = {                                                  %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XIII_a                                               %! extern
+    \Y_First_Violin_Voice_XIII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XIV_a = {                                                 %! extern
+Y_First_Violin_Voice_XIV_a = {                                                 %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XIV measure 152 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2057,28 +2057,28 @@ Y_First_Violin_Voice_XIV_a = {                                                 %
 
     r2                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XIV = {                                                   %! extern
+Y_First_Violin_Voice_XIV = {                                                   %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XIV_a                                                %! extern
+    \Y_First_Violin_Voice_XIV_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_VII = <<                                                  %! extern
+Y_First_Violin_Staff_VII = <<                                                  %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XIII"                                 %! ScoreTemplate
-    \Y_First_Violin_Voice_XIII                                                 %! extern
+    \Y_First_Violin_Voice_XIII                                                 %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XIV"                                  %! ScoreTemplate
-    \Y_First_Violin_Voice_XIV                                                  %! extern
+    \Y_First_Violin_Voice_XIV                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XV_a = {                                                  %! extern
+Y_First_Violin_Voice_XV_a = {                                                  %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XV measure 152 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2128,17 +2128,17 @@ Y_First_Violin_Voice_XV_a = {                                                  %
     % [Y First_Violin_Voice_XV measure 154 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XV = {                                                    %! extern
+Y_First_Violin_Voice_XV = {                                                    %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XV_a                                                 %! extern
+    \Y_First_Violin_Voice_XV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XVI_a = {                                                 %! extern
+Y_First_Violin_Voice_XVI_a = {                                                 %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XVI measure 152 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2184,28 +2184,28 @@ Y_First_Violin_Voice_XVI_a = {                                                 %
 
     }                                                                          %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XVI = {                                                   %! extern
+Y_First_Violin_Voice_XVI = {                                                   %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XVI_a                                                %! extern
+    \Y_First_Violin_Voice_XVI_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_VIII = <<                                                 %! extern
+Y_First_Violin_Staff_VIII = <<                                                 %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XV"                                   %! ScoreTemplate
-    \Y_First_Violin_Voice_XV                                                   %! extern
+    \Y_First_Violin_Voice_XV                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XVI"                                  %! ScoreTemplate
-    \Y_First_Violin_Voice_XVI                                                  %! extern
+    \Y_First_Violin_Voice_XVI                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XVII_a = {                                                %! extern
+Y_First_Violin_Voice_XVII_a = {                                                %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XVII measure 152 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2251,17 +2251,17 @@ Y_First_Violin_Voice_XVII_a = {                                                %
     % [Y First_Violin_Voice_XVII measure 154 / measure 3]                      %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XVII = {                                                  %! extern
+Y_First_Violin_Voice_XVII = {                                                  %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XVII_a                                               %! extern
+    \Y_First_Violin_Voice_XVII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XVIII_a = {                                               %! extern
+Y_First_Violin_Voice_XVIII_a = {                                               %! abjad.Path.extern
 
     % [Y First_Violin_Voice_XVIII measure 152 / measure 1]                     %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2283,28 +2283,28 @@ Y_First_Violin_Voice_XVIII_a = {                                               %
     % [Y First_Violin_Voice_XVIII measure 154 / measure 3]                     %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Voice_XVIII = {                                                 %! extern
+Y_First_Violin_Voice_XVIII = {                                                 %! abjad.Path.extern
 
-    \Y_First_Violin_Voice_XVIII_a                                              %! extern
+    \Y_First_Violin_Voice_XVIII_a                                              %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_First_Violin_Staff_IX = <<                                                   %! extern
+Y_First_Violin_Staff_IX = <<                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XVII"                                 %! ScoreTemplate
-    \Y_First_Violin_Voice_XVII                                                 %! extern
+    \Y_First_Violin_Voice_XVII                                                 %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_XVIII"                                %! ScoreTemplate
-    \Y_First_Violin_Voice_XVIII                                                %! extern
+    \Y_First_Violin_Voice_XVIII                                                %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_I_a = {                                                  %! extern
+Y_Second_Violin_Voice_I_a = {                                                  %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_I measure 152 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2364,17 +2364,17 @@ Y_Second_Violin_Voice_I_a = {                                                  %
 
     r2                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_I = {                                                    %! extern
+Y_Second_Violin_Voice_I = {                                                    %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_I_a                                                 %! extern
+    \Y_Second_Violin_Voice_I_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_II_a = {                                                 %! extern
+Y_Second_Violin_Voice_II_a = {                                                 %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_II measure 152 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2416,28 +2416,28 @@ Y_Second_Violin_Voice_II_a = {                                                 %
 
     r8.                                                                        %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_II = {                                                   %! extern
+Y_Second_Violin_Voice_II = {                                                   %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_II_a                                                %! extern
+    \Y_Second_Violin_Voice_II_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_I = <<                                                   %! extern
+Y_Second_Violin_Staff_I = <<                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
-    \Y_Second_Violin_Voice_I                                                   %! extern
+    \Y_Second_Violin_Voice_I                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_II"                                  %! ScoreTemplate
-    \Y_Second_Violin_Voice_II                                                  %! extern
+    \Y_Second_Violin_Voice_II                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_III_a = {                                                %! extern
+Y_Second_Violin_Voice_III_a = {                                                %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_III measure 152 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2485,17 +2485,17 @@ Y_Second_Violin_Voice_III_a = {                                                %
     % [Y Second_Violin_Voice_III measure 154 / measure 3]                      %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_III = {                                                  %! extern
+Y_Second_Violin_Voice_III = {                                                  %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_III_a                                               %! extern
+    \Y_Second_Violin_Voice_III_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_IV_a = {                                                 %! extern
+Y_Second_Violin_Voice_IV_a = {                                                 %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_IV measure 152 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2527,28 +2527,28 @@ Y_Second_Violin_Voice_IV_a = {                                                 %
     % [Y Second_Violin_Voice_IV measure 154 / measure 3]                       %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_IV = {                                                   %! extern
+Y_Second_Violin_Voice_IV = {                                                   %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_IV_a                                                %! extern
+    \Y_Second_Violin_Voice_IV_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_II = <<                                                  %! extern
+Y_Second_Violin_Staff_II = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
-    \Y_Second_Violin_Voice_III                                                 %! extern
+    \Y_Second_Violin_Voice_III                                                 %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_IV"                                  %! ScoreTemplate
-    \Y_Second_Violin_Voice_IV                                                  %! extern
+    \Y_Second_Violin_Voice_IV                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_V_a = {                                                  %! extern
+Y_Second_Violin_Voice_V_a = {                                                  %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_V measure 152 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2602,17 +2602,17 @@ Y_Second_Violin_Voice_V_a = {                                                  %
 
     d'16                                                                       %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_V = {                                                    %! extern
+Y_Second_Violin_Voice_V = {                                                    %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_V_a                                                 %! extern
+    \Y_Second_Violin_Voice_V_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_VI_a = {                                                 %! extern
+Y_Second_Violin_Voice_VI_a = {                                                 %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_VI measure 152 / measure 1]                       %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2636,28 +2636,28 @@ Y_Second_Violin_Voice_VI_a = {                                                 %
     % [Y Second_Violin_Voice_VI measure 154 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_VI = {                                                   %! extern
+Y_Second_Violin_Voice_VI = {                                                   %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_VI_a                                                %! extern
+    \Y_Second_Violin_Voice_VI_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_III = <<                                                 %! extern
+Y_Second_Violin_Staff_III = <<                                                 %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_V"                                   %! ScoreTemplate
-    \Y_Second_Violin_Voice_V                                                   %! extern
+    \Y_Second_Violin_Voice_V                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_VI"                                  %! ScoreTemplate
-    \Y_Second_Violin_Voice_VI                                                  %! extern
+    \Y_Second_Violin_Voice_VI                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_VII_a = {                                                %! extern
+Y_Second_Violin_Voice_VII_a = {                                                %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_VII measure 152 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2721,17 +2721,17 @@ Y_Second_Violin_Voice_VII_a = {                                                %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_VII = {                                                  %! extern
+Y_Second_Violin_Voice_VII = {                                                  %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_VII_a                                               %! extern
+    \Y_Second_Violin_Voice_VII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_VIII_a = {                                               %! extern
+Y_Second_Violin_Voice_VIII_a = {                                               %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_VIII measure 152 / measure 1]                     %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2775,28 +2775,28 @@ Y_Second_Violin_Voice_VIII_a = {                                               %
 
     r4
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_VIII = {                                                 %! extern
+Y_Second_Violin_Voice_VIII = {                                                 %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_VIII_a                                              %! extern
+    \Y_Second_Violin_Voice_VIII_a                                              %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_IV = <<                                                  %! extern
+Y_Second_Violin_Staff_IV = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_VII"                                 %! ScoreTemplate
-    \Y_Second_Violin_Voice_VII                                                 %! extern
+    \Y_Second_Violin_Voice_VII                                                 %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_VIII"                                %! ScoreTemplate
-    \Y_Second_Violin_Voice_VIII                                                %! extern
+    \Y_Second_Violin_Voice_VIII                                                %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_IX_a = {                                                 %! extern
+Y_Second_Violin_Voice_IX_a = {                                                 %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_IX measure 152 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2848,17 +2848,17 @@ Y_Second_Violin_Voice_IX_a = {                                                 %
 
     r4..                                                                       %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_IX = {                                                   %! extern
+Y_Second_Violin_Voice_IX = {                                                   %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_IX_a                                                %! extern
+    \Y_Second_Violin_Voice_IX_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_X_a = {                                                  %! extern
+Y_Second_Violin_Voice_X_a = {                                                  %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_X measure 152 / measure 1]                        %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2888,28 +2888,28 @@ Y_Second_Violin_Voice_X_a = {                                                  %
     % [Y Second_Violin_Voice_X measure 154 / measure 3]                        %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_X = {                                                    %! extern
+Y_Second_Violin_Voice_X = {                                                    %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_X_a                                                 %! extern
+    \Y_Second_Violin_Voice_X_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_V = <<                                                   %! extern
+Y_Second_Violin_Staff_V = <<                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_IX"                                  %! ScoreTemplate
-    \Y_Second_Violin_Voice_IX                                                  %! extern
+    \Y_Second_Violin_Voice_IX                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_X"                                   %! ScoreTemplate
-    \Y_Second_Violin_Voice_X                                                   %! extern
+    \Y_Second_Violin_Voice_X                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XI_a = {                                                 %! extern
+Y_Second_Violin_Voice_XI_a = {                                                 %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XI measure 152 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2961,17 +2961,17 @@ Y_Second_Violin_Voice_XI_a = {                                                 %
     % [Y Second_Violin_Voice_XI measure 154 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XI = {                                                   %! extern
+Y_Second_Violin_Voice_XI = {                                                   %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XI_a                                                %! extern
+    \Y_Second_Violin_Voice_XI_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XII_a = {                                                %! extern
+Y_Second_Violin_Voice_XII_a = {                                                %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XII measure 152 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -2993,28 +2993,28 @@ Y_Second_Violin_Voice_XII_a = {                                                %
     % [Y Second_Violin_Voice_XII measure 154 / measure 3]                      %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XII = {                                                  %! extern
+Y_Second_Violin_Voice_XII = {                                                  %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XII_a                                               %! extern
+    \Y_Second_Violin_Voice_XII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_VI = <<                                                  %! extern
+Y_Second_Violin_Staff_VI = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XI"                                  %! ScoreTemplate
-    \Y_Second_Violin_Voice_XI                                                  %! extern
+    \Y_Second_Violin_Voice_XI                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XII"                                 %! ScoreTemplate
-    \Y_Second_Violin_Voice_XII                                                 %! extern
+    \Y_Second_Violin_Voice_XII                                                 %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XIII_a = {                                               %! extern
+Y_Second_Violin_Voice_XIII_a = {                                               %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XIII measure 152 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3084,17 +3084,17 @@ Y_Second_Violin_Voice_XIII_a = {                                               %
 
     r4
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XIII = {                                                 %! extern
+Y_Second_Violin_Voice_XIII = {                                                 %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XIII_a                                              %! extern
+    \Y_Second_Violin_Voice_XIII_a                                              %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XIV_a = {                                                %! extern
+Y_Second_Violin_Voice_XIV_a = {                                                %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XIV measure 152 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3128,28 +3128,28 @@ Y_Second_Violin_Voice_XIV_a = {                                                %
     % [Y Second_Violin_Voice_XIV measure 154 / measure 3]                      %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XIV = {                                                  %! extern
+Y_Second_Violin_Voice_XIV = {                                                  %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XIV_a                                               %! extern
+    \Y_Second_Violin_Voice_XIV_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_VII = <<                                                 %! extern
+Y_Second_Violin_Staff_VII = <<                                                 %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XIII"                                %! ScoreTemplate
-    \Y_Second_Violin_Voice_XIII                                                %! extern
+    \Y_Second_Violin_Voice_XIII                                                %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XIV"                                 %! ScoreTemplate
-    \Y_Second_Violin_Voice_XIV                                                 %! extern
+    \Y_Second_Violin_Voice_XIV                                                 %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XV_a = {                                                 %! extern
+Y_Second_Violin_Voice_XV_a = {                                                 %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XV measure 152 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3201,17 +3201,17 @@ Y_Second_Violin_Voice_XV_a = {                                                 %
 
     r8                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XV = {                                                   %! extern
+Y_Second_Violin_Voice_XV = {                                                   %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XV_a                                                %! extern
+    \Y_Second_Violin_Voice_XV_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XVI_a = {                                                %! extern
+Y_Second_Violin_Voice_XVI_a = {                                                %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XVI measure 152 / measure 1]                      %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3233,28 +3233,28 @@ Y_Second_Violin_Voice_XVI_a = {                                                %
     % [Y Second_Violin_Voice_XVI measure 154 / measure 3]                      %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XVI = {                                                  %! extern
+Y_Second_Violin_Voice_XVI = {                                                  %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XVI_a                                               %! extern
+    \Y_Second_Violin_Voice_XVI_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_VIII = <<                                                %! extern
+Y_Second_Violin_Staff_VIII = <<                                                %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XV"                                  %! ScoreTemplate
-    \Y_Second_Violin_Voice_XV                                                  %! extern
+    \Y_Second_Violin_Voice_XV                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XVI"                                 %! ScoreTemplate
-    \Y_Second_Violin_Voice_XVI                                                 %! extern
+    \Y_Second_Violin_Voice_XVI                                                 %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XVII_a = {                                               %! extern
+Y_Second_Violin_Voice_XVII_a = {                                               %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XVII measure 152 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3326,17 +3326,17 @@ Y_Second_Violin_Voice_XVII_a = {                                               %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XVII = {                                                 %! extern
+Y_Second_Violin_Voice_XVII = {                                                 %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XVII_a                                              %! extern
+    \Y_Second_Violin_Voice_XVII_a                                              %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XVIII_a = {                                              %! extern
+Y_Second_Violin_Voice_XVIII_a = {                                              %! abjad.Path.extern
 
     % [Y Second_Violin_Voice_XVIII measure 152 / measure 1]                    %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3360,28 +3360,28 @@ Y_Second_Violin_Voice_XVIII_a = {                                              %
 
     r2...                                                                      %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Voice_XVIII = {                                                %! extern
+Y_Second_Violin_Voice_XVIII = {                                                %! abjad.Path.extern
 
-    \Y_Second_Violin_Voice_XVIII_a                                             %! extern
+    \Y_Second_Violin_Voice_XVIII_a                                             %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Second_Violin_Staff_IX = <<                                                  %! extern
+Y_Second_Violin_Staff_IX = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XVII"                                %! ScoreTemplate
-    \Y_Second_Violin_Voice_XVII                                                %! extern
+    \Y_Second_Violin_Voice_XVII                                                %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_XVIII"                               %! ScoreTemplate
-    \Y_Second_Violin_Voice_XVIII                                               %! extern
+    \Y_Second_Violin_Voice_XVIII                                               %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_I_a = {                                                          %! extern
+Y_Viola_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [Y Viola_Voice_I measure 152 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3443,17 +3443,17 @@ Y_Viola_Voice_I_a = {                                                          %
 
     r2                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_I = {                                                            %! extern
+Y_Viola_Voice_I = {                                                            %! abjad.Path.extern
 
-    \Y_Viola_Voice_I_a                                                         %! extern
+    \Y_Viola_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_II_a = {                                                         %! extern
+Y_Viola_Voice_II_a = {                                                         %! abjad.Path.extern
 
     % [Y Viola_Voice_II measure 152 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3481,28 +3481,28 @@ Y_Viola_Voice_II_a = {                                                         %
     % [Y Viola_Voice_II measure 154 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_II = {                                                           %! extern
+Y_Viola_Voice_II = {                                                           %! abjad.Path.extern
 
-    \Y_Viola_Voice_II_a                                                        %! extern
+    \Y_Viola_Voice_II_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_I = <<                                                           %! extern
+Y_Viola_Staff_I = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
-    \Y_Viola_Voice_I                                                           %! extern
+    \Y_Viola_Voice_I                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_II"                                          %! ScoreTemplate
-    \Y_Viola_Voice_II                                                          %! extern
+    \Y_Viola_Voice_II                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_III_a = {                                                        %! extern
+Y_Viola_Voice_III_a = {                                                        %! abjad.Path.extern
 
     % [Y Viola_Voice_III measure 152 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3574,17 +3574,17 @@ Y_Viola_Voice_III_a = {                                                        %
 
     }                                                                          %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_III = {                                                          %! extern
+Y_Viola_Voice_III = {                                                          %! abjad.Path.extern
 
-    \Y_Viola_Voice_III_a                                                       %! extern
+    \Y_Viola_Voice_III_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_IV_a = {                                                         %! extern
+Y_Viola_Voice_IV_a = {                                                         %! abjad.Path.extern
 
     % [Y Viola_Voice_IV measure 152 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3608,28 +3608,28 @@ Y_Viola_Voice_IV_a = {                                                         %
     % [Y Viola_Voice_IV measure 154 / measure 3]                               %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_IV = {                                                           %! extern
+Y_Viola_Voice_IV = {                                                           %! abjad.Path.extern
 
-    \Y_Viola_Voice_IV_a                                                        %! extern
+    \Y_Viola_Voice_IV_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_II = <<                                                          %! extern
+Y_Viola_Staff_II = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
-    \Y_Viola_Voice_III                                                         %! extern
+    \Y_Viola_Voice_III                                                         %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_IV"                                          %! ScoreTemplate
-    \Y_Viola_Voice_IV                                                          %! extern
+    \Y_Viola_Voice_IV                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_V_a = {                                                          %! extern
+Y_Viola_Voice_V_a = {                                                          %! abjad.Path.extern
 
     % [Y Viola_Voice_V measure 152 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3675,17 +3675,17 @@ Y_Viola_Voice_V_a = {                                                          %
     % [Y Viola_Voice_V measure 154 / measure 3]                                %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_V = {                                                            %! extern
+Y_Viola_Voice_V = {                                                            %! abjad.Path.extern
 
-    \Y_Viola_Voice_V_a                                                         %! extern
+    \Y_Viola_Voice_V_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_VI_a = {                                                         %! extern
+Y_Viola_Voice_VI_a = {                                                         %! abjad.Path.extern
 
     % [Y Viola_Voice_VI measure 152 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3719,28 +3719,28 @@ Y_Viola_Voice_VI_a = {                                                         %
 
     r2                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_VI = {                                                           %! extern
+Y_Viola_Voice_VI = {                                                           %! abjad.Path.extern
 
-    \Y_Viola_Voice_VI_a                                                        %! extern
+    \Y_Viola_Voice_VI_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_III = <<                                                         %! extern
+Y_Viola_Staff_III = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_V"                                           %! ScoreTemplate
-    \Y_Viola_Voice_V                                                           %! extern
+    \Y_Viola_Voice_V                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_VI"                                          %! ScoreTemplate
-    \Y_Viola_Voice_VI                                                          %! extern
+    \Y_Viola_Voice_VI                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_VII_a = {                                                        %! extern
+Y_Viola_Voice_VII_a = {                                                        %! abjad.Path.extern
 
     % [Y Viola_Voice_VII measure 152 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3808,17 +3808,17 @@ Y_Viola_Voice_VII_a = {                                                        %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_VII = {                                                          %! extern
+Y_Viola_Voice_VII = {                                                          %! abjad.Path.extern
 
-    \Y_Viola_Voice_VII_a                                                       %! extern
+    \Y_Viola_Voice_VII_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_VIII_a = {                                                       %! extern
+Y_Viola_Voice_VIII_a = {                                                       %! abjad.Path.extern
 
     % [Y Viola_Voice_VIII measure 152 / measure 1]                             %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3840,28 +3840,28 @@ Y_Viola_Voice_VIII_a = {                                                       %
     % [Y Viola_Voice_VIII measure 154 / measure 3]                             %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_VIII = {                                                         %! extern
+Y_Viola_Voice_VIII = {                                                         %! abjad.Path.extern
 
-    \Y_Viola_Voice_VIII_a                                                      %! extern
+    \Y_Viola_Voice_VIII_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_IV = <<                                                          %! extern
+Y_Viola_Staff_IV = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_VII"                                         %! ScoreTemplate
-    \Y_Viola_Voice_VII                                                         %! extern
+    \Y_Viola_Voice_VII                                                         %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_VIII"                                        %! ScoreTemplate
-    \Y_Viola_Voice_VIII                                                        %! extern
+    \Y_Viola_Voice_VIII                                                        %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_IX_a = {                                                         %! extern
+Y_Viola_Voice_IX_a = {                                                         %! abjad.Path.extern
 
     % [Y Viola_Voice_IX measure 152 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3915,17 +3915,17 @@ Y_Viola_Voice_IX_a = {                                                         %
     % [Y Viola_Voice_IX measure 154 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_IX = {                                                           %! extern
+Y_Viola_Voice_IX = {                                                           %! abjad.Path.extern
 
-    \Y_Viola_Voice_IX_a                                                        %! extern
+    \Y_Viola_Voice_IX_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_X_a = {                                                          %! extern
+Y_Viola_Voice_X_a = {                                                          %! abjad.Path.extern
 
     % [Y Viola_Voice_X measure 152 / measure 1]                                %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -3955,28 +3955,28 @@ Y_Viola_Voice_X_a = {                                                          %
 
     b16                                                                        %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_X = {                                                            %! extern
+Y_Viola_Voice_X = {                                                            %! abjad.Path.extern
 
-    \Y_Viola_Voice_X_a                                                         %! extern
+    \Y_Viola_Voice_X_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_V = <<                                                           %! extern
+Y_Viola_Staff_V = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_IX"                                          %! ScoreTemplate
-    \Y_Viola_Voice_IX                                                          %! extern
+    \Y_Viola_Voice_IX                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_X"                                           %! ScoreTemplate
-    \Y_Viola_Voice_X                                                           %! extern
+    \Y_Viola_Voice_X                                                           %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_XI_a = {                                                         %! extern
+Y_Viola_Voice_XI_a = {                                                         %! abjad.Path.extern
 
     % [Y Viola_Voice_XI measure 152 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4024,17 +4024,17 @@ Y_Viola_Voice_XI_a = {                                                         %
     % [Y Viola_Voice_XI measure 154 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XI = {                                                           %! extern
+Y_Viola_Voice_XI = {                                                           %! abjad.Path.extern
 
-    \Y_Viola_Voice_XI_a                                                        %! extern
+    \Y_Viola_Voice_XI_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XII_a = {                                                        %! extern
+Y_Viola_Voice_XII_a = {                                                        %! abjad.Path.extern
 
     % [Y Viola_Voice_XII measure 152 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4074,28 +4074,28 @@ Y_Viola_Voice_XII_a = {                                                        %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XII = {                                                          %! extern
+Y_Viola_Voice_XII = {                                                          %! abjad.Path.extern
 
-    \Y_Viola_Voice_XII_a                                                       %! extern
+    \Y_Viola_Voice_XII_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_VI = <<                                                          %! extern
+Y_Viola_Staff_VI = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XI"                                          %! ScoreTemplate
-    \Y_Viola_Voice_XI                                                          %! extern
+    \Y_Viola_Voice_XI                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XII"                                         %! ScoreTemplate
-    \Y_Viola_Voice_XII                                                         %! extern
+    \Y_Viola_Voice_XII                                                         %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_XIII_a = {                                                       %! extern
+Y_Viola_Voice_XIII_a = {                                                       %! abjad.Path.extern
 
     % [Y Viola_Voice_XIII measure 152 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4163,17 +4163,17 @@ Y_Viola_Voice_XIII_a = {                                                       %
 
     r4
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XIII = {                                                         %! extern
+Y_Viola_Voice_XIII = {                                                         %! abjad.Path.extern
 
-    \Y_Viola_Voice_XIII_a                                                      %! extern
+    \Y_Viola_Voice_XIII_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XIV_a = {                                                        %! extern
+Y_Viola_Voice_XIV_a = {                                                        %! abjad.Path.extern
 
     % [Y Viola_Voice_XIV measure 152 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4201,28 +4201,28 @@ Y_Viola_Voice_XIV_a = {                                                        %
 
     r4..                                                                       %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XIV = {                                                          %! extern
+Y_Viola_Voice_XIV = {                                                          %! abjad.Path.extern
 
-    \Y_Viola_Voice_XIV_a                                                       %! extern
+    \Y_Viola_Voice_XIV_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_VII = <<                                                         %! extern
+Y_Viola_Staff_VII = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XIII"                                        %! ScoreTemplate
-    \Y_Viola_Voice_XIII                                                        %! extern
+    \Y_Viola_Voice_XIII                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XIV"                                         %! ScoreTemplate
-    \Y_Viola_Voice_XIV                                                         %! extern
+    \Y_Viola_Voice_XIV                                                         %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_XV_a = {                                                         %! extern
+Y_Viola_Voice_XV_a = {                                                         %! abjad.Path.extern
 
     % [Y Viola_Voice_XV measure 152 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4276,17 +4276,17 @@ Y_Viola_Voice_XV_a = {                                                         %
     % [Y Viola_Voice_XV measure 154 / measure 3]                               %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XV = {                                                           %! extern
+Y_Viola_Voice_XV = {                                                           %! abjad.Path.extern
 
-    \Y_Viola_Voice_XV_a                                                        %! extern
+    \Y_Viola_Voice_XV_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XVI_a = {                                                        %! extern
+Y_Viola_Voice_XVI_a = {                                                        %! abjad.Path.extern
 
     % [Y Viola_Voice_XVI measure 152 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4318,28 +4318,28 @@ Y_Viola_Voice_XVI_a = {                                                        %
     % [Y Viola_Voice_XVI measure 154 / measure 3]                              %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XVI = {                                                          %! extern
+Y_Viola_Voice_XVI = {                                                          %! abjad.Path.extern
 
-    \Y_Viola_Voice_XVI_a                                                       %! extern
+    \Y_Viola_Voice_XVI_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_VIII = <<                                                        %! extern
+Y_Viola_Staff_VIII = <<                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XV"                                          %! ScoreTemplate
-    \Y_Viola_Voice_XV                                                          %! extern
+    \Y_Viola_Voice_XV                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XVI"                                         %! ScoreTemplate
-    \Y_Viola_Voice_XVI                                                         %! extern
+    \Y_Viola_Voice_XVI                                                         %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Viola_Voice_XVII_a = {                                                       %! extern
+Y_Viola_Voice_XVII_a = {                                                       %! abjad.Path.extern
 
     % [Y Viola_Voice_XVII measure 152 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4385,17 +4385,17 @@ Y_Viola_Voice_XVII_a = {                                                       %
     % [Y Viola_Voice_XVII measure 154 / measure 3]                             %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XVII = {                                                         %! extern
+Y_Viola_Voice_XVII = {                                                         %! abjad.Path.extern
 
-    \Y_Viola_Voice_XVII_a                                                      %! extern
+    \Y_Viola_Voice_XVII_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XVIII_a = {                                                      %! extern
+Y_Viola_Voice_XVIII_a = {                                                      %! abjad.Path.extern
 
     % [Y Viola_Voice_XVIII measure 152 / measure 1]                            %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4427,28 +4427,28 @@ Y_Viola_Voice_XVIII_a = {                                                      %
 
     r2...                                                                      %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Voice_XVIII = {                                                        %! extern
+Y_Viola_Voice_XVIII = {                                                        %! abjad.Path.extern
 
-    \Y_Viola_Voice_XVIII_a                                                     %! extern
+    \Y_Viola_Voice_XVIII_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Viola_Staff_IX = <<                                                          %! extern
+Y_Viola_Staff_IX = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XVII"                                        %! ScoreTemplate
-    \Y_Viola_Voice_XVII                                                        %! extern
+    \Y_Viola_Voice_XVII                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_XVIII"                                       %! ScoreTemplate
-    \Y_Viola_Voice_XVIII                                                       %! extern
+    \Y_Viola_Voice_XVIII                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_I_a = {                                                          %! extern
+Y_Cello_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [Y Cello_Voice_I measure 152 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4508,17 +4508,17 @@ Y_Cello_Voice_I_a = {                                                          %
     % [Y Cello_Voice_I measure 154 / measure 3]                                %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_I = {                                                            %! extern
+Y_Cello_Voice_I = {                                                            %! abjad.Path.extern
 
-    \Y_Cello_Voice_I_a                                                         %! extern
+    \Y_Cello_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_II_a = {                                                         %! extern
+Y_Cello_Voice_II_a = {                                                         %! abjad.Path.extern
 
     % [Y Cello_Voice_II measure 152 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4548,28 +4548,28 @@ Y_Cello_Voice_II_a = {                                                         %
 
     r8                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_II = {                                                           %! extern
+Y_Cello_Voice_II = {                                                           %! abjad.Path.extern
 
-    \Y_Cello_Voice_II_a                                                        %! extern
+    \Y_Cello_Voice_II_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_I = <<                                                           %! extern
+Y_Cello_Staff_I = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
-    \Y_Cello_Voice_I                                                           %! extern
+    \Y_Cello_Voice_I                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_II"                                          %! ScoreTemplate
-    \Y_Cello_Voice_II                                                          %! extern
+    \Y_Cello_Voice_II                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_III_a = {                                                        %! extern
+Y_Cello_Voice_III_a = {                                                        %! abjad.Path.extern
 
     % [Y Cello_Voice_III measure 152 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4615,17 +4615,17 @@ Y_Cello_Voice_III_a = {                                                        %
     % [Y Cello_Voice_III measure 154 / measure 3]                              %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_III = {                                                          %! extern
+Y_Cello_Voice_III = {                                                          %! abjad.Path.extern
 
-    \Y_Cello_Voice_III_a                                                       %! extern
+    \Y_Cello_Voice_III_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_IV_a = {                                                         %! extern
+Y_Cello_Voice_IV_a = {                                                         %! abjad.Path.extern
 
     % [Y Cello_Voice_IV measure 152 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4673,28 +4673,28 @@ Y_Cello_Voice_IV_a = {                                                         %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_IV = {                                                           %! extern
+Y_Cello_Voice_IV = {                                                           %! abjad.Path.extern
 
-    \Y_Cello_Voice_IV_a                                                        %! extern
+    \Y_Cello_Voice_IV_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_II = <<                                                          %! extern
+Y_Cello_Staff_II = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_III"                                         %! ScoreTemplate
-    \Y_Cello_Voice_III                                                         %! extern
+    \Y_Cello_Voice_III                                                         %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_IV"                                          %! ScoreTemplate
-    \Y_Cello_Voice_IV                                                          %! extern
+    \Y_Cello_Voice_IV                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_V_a = {                                                          %! extern
+Y_Cello_Voice_V_a = {                                                          %! abjad.Path.extern
 
     % [Y Cello_Voice_V measure 152 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4742,17 +4742,17 @@ Y_Cello_Voice_V_a = {                                                          %
 
     r2...                                                                      %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_V = {                                                            %! extern
+Y_Cello_Voice_V = {                                                            %! abjad.Path.extern
 
-    \Y_Cello_Voice_V_a                                                         %! extern
+    \Y_Cello_Voice_V_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_VI_a = {                                                         %! extern
+Y_Cello_Voice_VI_a = {                                                         %! abjad.Path.extern
 
     % [Y Cello_Voice_VI measure 152 / measure 1]                               %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4788,28 +4788,28 @@ Y_Cello_Voice_VI_a = {                                                         %
 
     r2                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_VI = {                                                           %! extern
+Y_Cello_Voice_VI = {                                                           %! abjad.Path.extern
 
-    \Y_Cello_Voice_VI_a                                                        %! extern
+    \Y_Cello_Voice_VI_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_III = <<                                                         %! extern
+Y_Cello_Staff_III = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_V"                                           %! ScoreTemplate
-    \Y_Cello_Voice_V                                                           %! extern
+    \Y_Cello_Voice_V                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_VI"                                          %! ScoreTemplate
-    \Y_Cello_Voice_VI                                                          %! extern
+    \Y_Cello_Voice_VI                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_VII_a = {                                                        %! extern
+Y_Cello_Voice_VII_a = {                                                        %! abjad.Path.extern
 
     % [Y Cello_Voice_VII measure 152 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4867,17 +4867,17 @@ Y_Cello_Voice_VII_a = {                                                        %
     % [Y Cello_Voice_VII measure 154 / measure 3]                              %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_VII = {                                                          %! extern
+Y_Cello_Voice_VII = {                                                          %! abjad.Path.extern
 
-    \Y_Cello_Voice_VII_a                                                       %! extern
+    \Y_Cello_Voice_VII_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_VIII_a = {                                                       %! extern
+Y_Cello_Voice_VIII_a = {                                                       %! abjad.Path.extern
 
     % [Y Cello_Voice_VIII measure 152 / measure 1]                             %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -4923,28 +4923,28 @@ Y_Cello_Voice_VIII_a = {                                                       %
 
     }                                                                          %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_VIII = {                                                         %! extern
+Y_Cello_Voice_VIII = {                                                         %! abjad.Path.extern
 
-    \Y_Cello_Voice_VIII_a                                                      %! extern
+    \Y_Cello_Voice_VIII_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_IV = <<                                                          %! extern
+Y_Cello_Staff_IV = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_VII"                                         %! ScoreTemplate
-    \Y_Cello_Voice_VII                                                         %! extern
+    \Y_Cello_Voice_VII                                                         %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_VIII"                                        %! ScoreTemplate
-    \Y_Cello_Voice_VIII                                                        %! extern
+    \Y_Cello_Voice_VIII                                                        %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_IX_a = {                                                         %! extern
+Y_Cello_Voice_IX_a = {                                                         %! abjad.Path.extern
 
     % [Y Cello_Voice_IX measure 152 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4998,17 +4998,17 @@ Y_Cello_Voice_IX_a = {                                                         %
 
     r4                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_IX = {                                                           %! extern
+Y_Cello_Voice_IX = {                                                           %! abjad.Path.extern
 
-    \Y_Cello_Voice_IX_a                                                        %! extern
+    \Y_Cello_Voice_IX_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_X_a = {                                                          %! extern
+Y_Cello_Voice_X_a = {                                                          %! abjad.Path.extern
 
     % [Y Cello_Voice_X measure 152 / measure 1]                                %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -5030,28 +5030,28 @@ Y_Cello_Voice_X_a = {                                                          %
     % [Y Cello_Voice_X measure 154 / measure 3]                                %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_X = {                                                            %! extern
+Y_Cello_Voice_X = {                                                            %! abjad.Path.extern
 
-    \Y_Cello_Voice_X_a                                                         %! extern
+    \Y_Cello_Voice_X_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_V = <<                                                           %! extern
+Y_Cello_Staff_V = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_IX"                                          %! ScoreTemplate
-    \Y_Cello_Voice_IX                                                          %! extern
+    \Y_Cello_Voice_IX                                                          %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_X"                                           %! ScoreTemplate
-    \Y_Cello_Voice_X                                                           %! extern
+    \Y_Cello_Voice_X                                                           %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_XI_a = {                                                         %! extern
+Y_Cello_Voice_XI_a = {                                                         %! abjad.Path.extern
 
     % [Y Cello_Voice_XI measure 152 / measure 1]                               %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5109,17 +5109,17 @@ Y_Cello_Voice_XI_a = {                                                         %
 
     r2                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_XI = {                                                           %! extern
+Y_Cello_Voice_XI = {                                                           %! abjad.Path.extern
 
-    \Y_Cello_Voice_XI_a                                                        %! extern
+    \Y_Cello_Voice_XI_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_XII_a = {                                                        %! extern
+Y_Cello_Voice_XII_a = {                                                        %! abjad.Path.extern
 
     % [Y Cello_Voice_XII measure 152 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -5163,28 +5163,28 @@ Y_Cello_Voice_XII_a = {                                                        %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_XII = {                                                          %! extern
+Y_Cello_Voice_XII = {                                                          %! abjad.Path.extern
 
-    \Y_Cello_Voice_XII_a                                                       %! extern
+    \Y_Cello_Voice_XII_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_VI = <<                                                          %! extern
+Y_Cello_Staff_VI = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_XI"                                          %! ScoreTemplate
-    \Y_Cello_Voice_XI                                                          %! extern
+    \Y_Cello_Voice_XI                                                          %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_XII"                                         %! ScoreTemplate
-    \Y_Cello_Voice_XII                                                         %! extern
+    \Y_Cello_Voice_XII                                                         %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Cello_Voice_XIII_a = {                                                       %! extern
+Y_Cello_Voice_XIII_a = {                                                       %! abjad.Path.extern
 
     % [Y Cello_Voice_XIII measure 152 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5230,17 +5230,17 @@ Y_Cello_Voice_XIII_a = {                                                       %
     % [Y Cello_Voice_XIII measure 154 / measure 3]                             %! _comment_measure_numbers
     r1
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_XIII = {                                                         %! extern
+Y_Cello_Voice_XIII = {                                                         %! abjad.Path.extern
 
-    \Y_Cello_Voice_XIII_a                                                      %! extern
+    \Y_Cello_Voice_XIII_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_XIV_a = {                                                        %! extern
+Y_Cello_Voice_XIV_a = {                                                        %! abjad.Path.extern
 
     % [Y Cello_Voice_XIV measure 152 / measure 1]                              %! _comment_measure_numbers
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
@@ -5270,28 +5270,28 @@ Y_Cello_Voice_XIV_a = {                                                        %
     % [Y Cello_Voice_XIV measure 154 / measure 3]                              %! _comment_measure_numbers
     r1                                                                         %! animales_clb_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Voice_XIV = {                                                          %! extern
+Y_Cello_Voice_XIV = {                                                          %! abjad.Path.extern
 
-    \Y_Cello_Voice_XIV_a                                                       %! extern
+    \Y_Cello_Voice_XIV_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Cello_Staff_VII = <<                                                         %! extern
+Y_Cello_Staff_VII = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_XIII"                                        %! ScoreTemplate
-    \Y_Cello_Voice_XIII                                                        %! extern
+    \Y_Cello_Voice_XIII                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_XIV"                                         %! ScoreTemplate
-    \Y_Cello_Voice_XIV                                                         %! extern
+    \Y_Cello_Voice_XIV                                                         %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Y_Contrabass_Voice_III_a = {                                                   %! extern
+Y_Contrabass_Voice_III_a = {                                                   %! abjad.Path.extern
 
     % [Y Contrabass_Voice_III measure 152 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5353,19 +5353,19 @@ Y_Contrabass_Voice_III_a = {                                                   %
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Contrabass_Voice_III = {                                                     %! extern
+Y_Contrabass_Voice_III = {                                                     %! abjad.Path.extern
 
-    \Y_Contrabass_Voice_III_a                                                  %! extern
+    \Y_Contrabass_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Y_Contrabass_Staff_II = {                                                      %! extern
+Y_Contrabass_Staff_II = {                                                      %! abjad.Path.extern
 
     \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
-    \Y_Contrabass_Voice_III                                                    %! extern
+    \Y_Contrabass_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern

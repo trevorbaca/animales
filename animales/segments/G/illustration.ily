@@ -1,4 +1,4 @@
-G_Global_Rests = {                                                             %! extern
+G_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [G Global_Rests measure 44 / measure 1]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
@@ -18,10 +18,10 @@ G_Global_Rests = {                                                             %
     % [G Global_Rests measure 49 / measure 6]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Global_Skips = {                                                             %! extern
+G_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [G Global_Skips measure 44 / measure 1]                                  %! _comment_measure_numbers
 %%% \override TextSpanner.bound-details.left.padding = #3                      %! +TABLOID_SCORE:baca_text_spanner_left_padding:OverrideCommand(1)
@@ -140,10 +140,10 @@ G_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Clarinet_Voice_I_a = {                                                       %! extern
+G_Clarinet_Voice_I_a = {                                                       %! abjad.Path.extern
 
     % [G Clarinet_Voice_I measure 44 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -214,25 +214,25 @@ G_Clarinet_Voice_I_a = {                                                       %
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Clarinet_Voice_I = {                                                         %! extern
+G_Clarinet_Voice_I = {                                                         %! abjad.Path.extern
 
-    \G_Clarinet_Voice_I_a                                                      %! extern
+    \G_Clarinet_Voice_I_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Clarinet_Staff_I = {                                                         %! extern
+G_Clarinet_Staff_I = {                                                         %! abjad.Path.extern
 
     \context Voice = "Clarinet_Voice_I"                                        %! ScoreTemplate
-    \G_Clarinet_Voice_I                                                        %! extern
+    \G_Clarinet_Voice_I                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Bass_Clarinet_Voice_I_a = {                                                  %! extern
+G_Bass_Clarinet_Voice_I_a = {                                                  %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -302,25 +302,25 @@ G_Bass_Clarinet_Voice_I_a = {                                                  %
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Bass_Clarinet_Voice_I = {                                                    %! extern
+G_Bass_Clarinet_Voice_I = {                                                    %! abjad.Path.extern
 
-    \G_Bass_Clarinet_Voice_I_a                                                 %! extern
+    \G_Bass_Clarinet_Voice_I_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Bass_Clarinet_Staff_I = {                                                    %! extern
+G_Bass_Clarinet_Staff_I = {                                                    %! abjad.Path.extern
 
     \context Voice = "Bass_Clarinet_Voice_I"                                   %! ScoreTemplate
-    \G_Bass_Clarinet_Voice_I                                                   %! extern
+    \G_Bass_Clarinet_Voice_I                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Piano_Voice_I_a = {                                                          %! extern
+G_Piano_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [G Piano_Voice_I measure 44 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -389,25 +389,25 @@ G_Piano_Voice_I_a = {                                                          %
     % [G Piano_Voice_I measure 49 / measure 6]                                 %! _comment_measure_numbers
     r1                                                                         %! animales_harp_exchange_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Piano_Voice_I = {                                                            %! extern
+G_Piano_Voice_I = {                                                            %! abjad.Path.extern
 
-    \G_Piano_Voice_I_a                                                         %! extern
+    \G_Piano_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Piano_Staff_I = {                                                            %! extern
+G_Piano_Staff_I = {                                                            %! abjad.Path.extern
 
     \context Voice = "Piano_Voice_I"                                           %! ScoreTemplate
-    \G_Piano_Voice_I                                                           %! extern
+    \G_Piano_Voice_I                                                           %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Harp_Voice_I_a = {                                                           %! extern
+G_Harp_Voice_I_a = {                                                           %! abjad.Path.extern
 
     % [G Harp_Voice_I measure 44 / measure 1]                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -480,25 +480,25 @@ G_Harp_Voice_I_a = {                                                           %
     % [G Harp_Voice_I measure 49 / measure 6]                                  %! _comment_measure_numbers
     r1                                                                         %! animales_harp_exchange_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Harp_Voice_I = {                                                             %! extern
+G_Harp_Voice_I = {                                                             %! abjad.Path.extern
 
-    \G_Harp_Voice_I_a                                                          %! extern
+    \G_Harp_Voice_I_a                                                          %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Harp_Staff_I = {                                                             %! extern
+G_Harp_Staff_I = {                                                             %! abjad.Path.extern
 
     \context Voice = "Harp_Voice_I"                                            %! ScoreTemplate
-    \G_Harp_Voice_I                                                            %! extern
+    \G_Harp_Voice_I                                                            %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Percussion_Voice_II_a = {                                                    %! extern
+G_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern
 
     % [G Percussion_Voice_II measure 44 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -585,25 +585,25 @@ G_Percussion_Voice_II_a = {                                                    %
     \repeatTie
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Percussion_Voice_II = {                                                      %! extern
+G_Percussion_Voice_II = {                                                      %! abjad.Path.extern
 
-    \G_Percussion_Voice_II_a                                                   %! extern
+    \G_Percussion_Voice_II_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Percussion_Staff_II = {                                                      %! extern
+G_Percussion_Staff_II = {                                                      %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
-    \G_Percussion_Voice_II                                                     %! extern
+    \G_Percussion_Voice_II                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Percussion_Voice_III_a = {                                                   %! extern
+G_Percussion_Voice_III_a = {                                                   %! abjad.Path.extern
 
     % [G Percussion_Voice_III measure 44 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -695,25 +695,25 @@ G_Percussion_Voice_III_a = {                                                   %
 
     r2                                                                         %! animales_harp_exchange_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Percussion_Voice_III = {                                                     %! extern
+G_Percussion_Voice_III = {                                                     %! abjad.Path.extern
 
-    \G_Percussion_Voice_III_a                                                  %! extern
+    \G_Percussion_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Percussion_Staff_III = {                                                     %! extern
+G_Percussion_Staff_III = {                                                     %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
-    \G_Percussion_Voice_III                                                    %! extern
+    \G_Percussion_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_First_Violin_Voice_I_a = {                                                   %! extern
+G_First_Violin_Voice_I_a = {                                                   %! abjad.Path.extern
 
     % [G First_Violin_Voice_I measure 44 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -807,25 +807,25 @@ G_First_Violin_Voice_I_a = {                                                   %
     b4                                                                         %! baca_make_repeated_duration_notes
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_First_Violin_Voice_I = {                                                     %! extern
+G_First_Violin_Voice_I = {                                                     %! abjad.Path.extern
 
-    \G_First_Violin_Voice_I_a                                                  %! extern
+    \G_First_Violin_Voice_I_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_First_Violin_Staff_I = {                                                     %! extern
+G_First_Violin_Staff_I = {                                                     %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
-    \G_First_Violin_Voice_I                                                    %! extern
+    \G_First_Violin_Voice_I                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Second_Violin_Voice_I_a = {                                                  %! extern
+G_Second_Violin_Voice_I_a = {                                                  %! abjad.Path.extern
 
     % [G Second_Violin_Voice_I measure 44 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -919,25 +919,25 @@ G_Second_Violin_Voice_I_a = {                                                  %
     b4                                                                         %! baca_make_repeated_duration_notes
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Second_Violin_Voice_I = {                                                    %! extern
+G_Second_Violin_Voice_I = {                                                    %! abjad.Path.extern
 
-    \G_Second_Violin_Voice_I_a                                                 %! extern
+    \G_Second_Violin_Voice_I_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Second_Violin_Staff_I = {                                                    %! extern
+G_Second_Violin_Staff_I = {                                                    %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
-    \G_Second_Violin_Voice_I                                                   %! extern
+    \G_Second_Violin_Voice_I                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Viola_Voice_I_a = {                                                          %! extern
+G_Viola_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [G Viola_Voice_I measure 44 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1031,25 +1031,25 @@ G_Viola_Voice_I_a = {                                                          %
     b4                                                                         %! baca_make_repeated_duration_notes
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Viola_Voice_I = {                                                            %! extern
+G_Viola_Voice_I = {                                                            %! abjad.Path.extern
 
-    \G_Viola_Voice_I_a                                                         %! extern
+    \G_Viola_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Viola_Staff_I = {                                                            %! extern
+G_Viola_Staff_I = {                                                            %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
-    \G_Viola_Voice_I                                                           %! extern
+    \G_Viola_Voice_I                                                           %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Cello_Voice_I_a = {                                                          %! extern
+G_Cello_Voice_I_a = {                                                          %! abjad.Path.extern
 
     % [G Cello_Voice_I measure 44 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1143,25 +1143,25 @@ G_Cello_Voice_I_a = {                                                          %
     b4                                                                         %! baca_make_repeated_duration_notes
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Cello_Voice_I = {                                                            %! extern
+G_Cello_Voice_I = {                                                            %! abjad.Path.extern
 
-    \G_Cello_Voice_I_a                                                         %! extern
+    \G_Cello_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Cello_Staff_I = {                                                            %! extern
+G_Cello_Staff_I = {                                                            %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
-    \G_Cello_Voice_I                                                           %! extern
+    \G_Cello_Voice_I                                                           %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Contrabass_Voice_I_a = {                                                     %! extern
+G_Contrabass_Voice_I_a = {                                                     %! abjad.Path.extern
 
     % [G Contrabass_Voice_I measure 44 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1257,25 +1257,25 @@ G_Contrabass_Voice_I_a = {                                                     %
 
     r4                                                                         %! animales_harp_exchange_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Contrabass_Voice_I = {                                                       %! extern
+G_Contrabass_Voice_I = {                                                       %! abjad.Path.extern
 
-    \G_Contrabass_Voice_I_a                                                    %! extern
+    \G_Contrabass_Voice_I_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Contrabass_Staff_I = {                                                       %! extern
+G_Contrabass_Staff_I = {                                                       %! abjad.Path.extern
 
     \context Voice = "Contrabass_Voice_I"                                      %! ScoreTemplate
-    \G_Contrabass_Voice_I                                                      %! extern
+    \G_Contrabass_Voice_I                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Contrabass_Voice_III_a = {                                                   %! extern
+G_Contrabass_Voice_III_a = {                                                   %! abjad.Path.extern
 
     % [G Contrabass_Voice_III measure 44 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1381,19 +1381,19 @@ G_Contrabass_Voice_III_a = {                                                   %
     a,4                                                                        %! baca_make_repeated_duration_notes
     \!                                                                         %! baca_hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Contrabass_Voice_III = {                                                     %! extern
+G_Contrabass_Voice_III = {                                                     %! abjad.Path.extern
 
-    \G_Contrabass_Voice_III_a                                                  %! extern
+    \G_Contrabass_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-G_Contrabass_Staff_II = {                                                      %! extern
+G_Contrabass_Staff_II = {                                                      %! abjad.Path.extern
 
     \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
-    \G_Contrabass_Voice_III                                                    %! extern
+    \G_Contrabass_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern

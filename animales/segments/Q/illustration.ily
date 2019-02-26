@@ -1,4 +1,4 @@
-Q_Global_Rests = {                                                             %! extern
+Q_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [Q Global_Rests measure 119 / measure 1]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -40,10 +40,10 @@ Q_Global_Rests = {                                                             %
     % [Q Global_Rests measure 130 / measure 12]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests(1)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Global_Skips = {                                                             %! extern
+Q_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [Q Global_Skips measure 119 / measure 1]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -241,10 +241,10 @@ Q_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_I_a = {                                                           %! extern
+Q_Horn_Voice_I_a = {                                                           %! abjad.Path.extern
 
     % [Q Horn_Voice_I measure 119 / measure 1]                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -360,17 +360,17 @@ Q_Horn_Voice_I_a = {                                                           %
     % [Q Horn_Voice_I measure 130 / measure 12]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_I = {                                                             %! extern
+Q_Horn_Voice_I = {                                                             %! abjad.Path.extern
 
-    \Q_Horn_Voice_I_a                                                          %! extern
+    \Q_Horn_Voice_I_a                                                          %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_III_a = {                                                         %! extern
+Q_Horn_Voice_III_a = {                                                         %! abjad.Path.extern
 
     % [Q Horn_Voice_III measure 119 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -446,28 +446,28 @@ Q_Horn_Voice_III_a = {                                                         %
     % [Q Horn_Voice_III measure 130 / measure 12]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_III = {                                                           %! extern
+Q_Horn_Voice_III = {                                                           %! abjad.Path.extern
 
-    \Q_Horn_Voice_III_a                                                        %! extern
+    \Q_Horn_Voice_III_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Staff_I = <<                                                            %! extern
+Q_Horn_Staff_I = <<                                                            %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_I"                                            %! ScoreTemplate
-    \Q_Horn_Voice_I                                                            %! extern
+    \Q_Horn_Voice_I                                                            %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_III"                                          %! ScoreTemplate
-    \Q_Horn_Voice_III                                                          %! extern
+    \Q_Horn_Voice_III                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Horn_Voice_II_a = {                                                          %! extern
+Q_Horn_Voice_II_a = {                                                          %! abjad.Path.extern
 
     % [Q Horn_Voice_II measure 119 / measure 1]                                %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -583,17 +583,17 @@ Q_Horn_Voice_II_a = {                                                          %
     % [Q Horn_Voice_II measure 130 / measure 12]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_II = {                                                            %! extern
+Q_Horn_Voice_II = {                                                            %! abjad.Path.extern
 
-    \Q_Horn_Voice_II_a                                                         %! extern
+    \Q_Horn_Voice_II_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_IV_a = {                                                          %! extern
+Q_Horn_Voice_IV_a = {                                                          %! abjad.Path.extern
 
     % [Q Horn_Voice_IV measure 119 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -669,28 +669,28 @@ Q_Horn_Voice_IV_a = {                                                          %
     % [Q Horn_Voice_IV measure 130 / measure 12]                               %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Voice_IV = {                                                            %! extern
+Q_Horn_Voice_IV = {                                                            %! abjad.Path.extern
 
-    \Q_Horn_Voice_IV_a                                                         %! extern
+    \Q_Horn_Voice_IV_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Horn_Staff_II = <<                                                           %! extern
+Q_Horn_Staff_II = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_II"                                           %! ScoreTemplate
-    \Q_Horn_Voice_II                                                           %! extern
+    \Q_Horn_Voice_II                                                           %! abjad.Path.extern
 
     \context Voice = "Horn_Voice_IV"                                           %! ScoreTemplate
-    \Q_Horn_Voice_IV                                                           %! extern
+    \Q_Horn_Voice_IV                                                           %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_I_a = {                                                        %! extern
+Q_Trumpet_Voice_I_a = {                                                        %! abjad.Path.extern
 
     % [Q Trumpet_Voice_I measure 119 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -806,17 +806,17 @@ Q_Trumpet_Voice_I_a = {                                                        %
     % [Q Trumpet_Voice_I measure 130 / measure 12]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_I = {                                                          %! extern
+Q_Trumpet_Voice_I = {                                                          %! abjad.Path.extern
 
-    \Q_Trumpet_Voice_I_a                                                       %! extern
+    \Q_Trumpet_Voice_I_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_III_a = {                                                      %! extern
+Q_Trumpet_Voice_III_a = {                                                      %! abjad.Path.extern
 
     % [Q Trumpet_Voice_III measure 119 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -892,28 +892,28 @@ Q_Trumpet_Voice_III_a = {                                                      %
     % [Q Trumpet_Voice_III measure 130 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_III = {                                                        %! extern
+Q_Trumpet_Voice_III = {                                                        %! abjad.Path.extern
 
-    \Q_Trumpet_Voice_III_a                                                     %! extern
+    \Q_Trumpet_Voice_III_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Staff_I = <<                                                         %! extern
+Q_Trumpet_Staff_I = <<                                                         %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_I"                                         %! ScoreTemplate
-    \Q_Trumpet_Voice_I                                                         %! extern
+    \Q_Trumpet_Voice_I                                                         %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_III"                                       %! ScoreTemplate
-    \Q_Trumpet_Voice_III                                                       %! extern
+    \Q_Trumpet_Voice_III                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_II_a = {                                                       %! extern
+Q_Trumpet_Voice_II_a = {                                                       %! abjad.Path.extern
 
     % [Q Trumpet_Voice_II measure 119 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1029,17 +1029,17 @@ Q_Trumpet_Voice_II_a = {                                                       %
     % [Q Trumpet_Voice_II measure 130 / measure 12]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_II = {                                                         %! extern
+Q_Trumpet_Voice_II = {                                                         %! abjad.Path.extern
 
-    \Q_Trumpet_Voice_II_a                                                      %! extern
+    \Q_Trumpet_Voice_II_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_IV_a = {                                                       %! extern
+Q_Trumpet_Voice_IV_a = {                                                       %! abjad.Path.extern
 
     % [Q Trumpet_Voice_IV measure 119 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -1115,28 +1115,28 @@ Q_Trumpet_Voice_IV_a = {                                                       %
     % [Q Trumpet_Voice_IV measure 130 / measure 12]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Voice_IV = {                                                         %! extern
+Q_Trumpet_Voice_IV = {                                                         %! abjad.Path.extern
 
-    \Q_Trumpet_Voice_IV_a                                                      %! extern
+    \Q_Trumpet_Voice_IV_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trumpet_Staff_II = <<                                                        %! extern
+Q_Trumpet_Staff_II = <<                                                        %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_II"                                        %! ScoreTemplate
-    \Q_Trumpet_Voice_II                                                        %! extern
+    \Q_Trumpet_Voice_II                                                        %! abjad.Path.extern
 
     \context Voice = "Trumpet_Voice_IV"                                        %! ScoreTemplate
-    \Q_Trumpet_Voice_IV                                                        %! extern
+    \Q_Trumpet_Voice_IV                                                        %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Trombone_Voice_I_a = {                                                       %! extern
+Q_Trombone_Voice_I_a = {                                                       %! abjad.Path.extern
 
     % [Q Trombone_Voice_I measure 119 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1252,17 +1252,17 @@ Q_Trombone_Voice_I_a = {                                                       %
     % [Q Trombone_Voice_I measure 130 / measure 12]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Voice_I = {                                                         %! extern
+Q_Trombone_Voice_I = {                                                         %! abjad.Path.extern
 
-    \Q_Trombone_Voice_I_a                                                      %! extern
+    \Q_Trombone_Voice_I_a                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Voice_III_a = {                                                     %! extern
+Q_Trombone_Voice_III_a = {                                                     %! abjad.Path.extern
 
     % [Q Trombone_Voice_III measure 119 / measure 1]                           %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -1338,28 +1338,28 @@ Q_Trombone_Voice_III_a = {                                                     %
     % [Q Trombone_Voice_III measure 130 / measure 12]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Voice_III = {                                                       %! extern
+Q_Trombone_Voice_III = {                                                       %! abjad.Path.extern
 
-    \Q_Trombone_Voice_III_a                                                    %! extern
+    \Q_Trombone_Voice_III_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Staff_I = <<                                                        %! extern
+Q_Trombone_Staff_I = <<                                                        %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_I"                                        %! ScoreTemplate
-    \Q_Trombone_Voice_I                                                        %! extern
+    \Q_Trombone_Voice_I                                                        %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_III"                                      %! ScoreTemplate
-    \Q_Trombone_Voice_III                                                      %! extern
+    \Q_Trombone_Voice_III                                                      %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Trombone_Voice_II_a = {                                                      %! extern
+Q_Trombone_Voice_II_a = {                                                      %! abjad.Path.extern
 
     % [Q Trombone_Voice_II measure 119 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1475,17 +1475,17 @@ Q_Trombone_Voice_II_a = {                                                      %
     % [Q Trombone_Voice_II measure 130 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Voice_II = {                                                        %! extern
+Q_Trombone_Voice_II = {                                                        %! abjad.Path.extern
 
-    \Q_Trombone_Voice_II_a                                                     %! extern
+    \Q_Trombone_Voice_II_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Voice_IV_a = {                                                      %! extern
+Q_Trombone_Voice_IV_a = {                                                      %! abjad.Path.extern
 
     % [Q Trombone_Voice_IV measure 119 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
@@ -1561,28 +1561,28 @@ Q_Trombone_Voice_IV_a = {                                                      %
     % [Q Trombone_Voice_IV measure 130 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Voice_IV = {                                                        %! extern
+Q_Trombone_Voice_IV = {                                                        %! abjad.Path.extern
 
-    \Q_Trombone_Voice_IV_a                                                     %! extern
+    \Q_Trombone_Voice_IV_a                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Trombone_Staff_II = <<                                                       %! extern
+Q_Trombone_Staff_II = <<                                                       %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_II"                                       %! ScoreTemplate
-    \Q_Trombone_Voice_II                                                       %! extern
+    \Q_Trombone_Voice_II                                                       %! abjad.Path.extern
 
     \context Voice = "Trombone_Voice_IV"                                       %! ScoreTemplate
-    \Q_Trombone_Voice_IV                                                       %! extern
+    \Q_Trombone_Voice_IV                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_I_a = {                                                   %! extern
+Q_First_Violin_Voice_I_a = {                                                   %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1797,17 +1797,17 @@ Q_First_Violin_Voice_I_a = {                                                   %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_I = {                                                     %! extern
+Q_First_Violin_Voice_I = {                                                     %! abjad.Path.extern
 
-    \Q_First_Violin_Voice_I_a                                                  %! extern
+    \Q_First_Violin_Voice_I_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_II_a = {                                                  %! extern
+Q_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1974,28 +1974,28 @@ Q_First_Violin_Voice_II_a = {                                                  %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_II = {                                                    %! extern
+Q_First_Violin_Voice_II = {                                                    %! abjad.Path.extern
 
-    \Q_First_Violin_Voice_II_a                                                 %! extern
+    \Q_First_Violin_Voice_II_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Staff_I = <<                                                    %! extern
+Q_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_I"                                    %! ScoreTemplate
-    \Q_First_Violin_Voice_I                                                    %! extern
+    \Q_First_Violin_Voice_I                                                    %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_II"                                   %! ScoreTemplate
-    \Q_First_Violin_Voice_II                                                   %! extern
+    \Q_First_Violin_Voice_II                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_III_a = {                                                 %! extern
+Q_First_Violin_Voice_III_a = {                                                 %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2210,17 +2210,17 @@ Q_First_Violin_Voice_III_a = {                                                 %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_III = {                                                   %! extern
+Q_First_Violin_Voice_III = {                                                   %! abjad.Path.extern
 
-    \Q_First_Violin_Voice_III_a                                                %! extern
+    \Q_First_Violin_Voice_III_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_IV_a = {                                                  %! extern
+Q_First_Violin_Voice_IV_a = {                                                  %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2387,28 +2387,28 @@ Q_First_Violin_Voice_IV_a = {                                                  %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_IV = {                                                    %! extern
+Q_First_Violin_Voice_IV = {                                                    %! abjad.Path.extern
 
-    \Q_First_Violin_Voice_IV_a                                                 %! extern
+    \Q_First_Violin_Voice_IV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Staff_II = <<                                                   %! extern
+Q_First_Violin_Staff_II = <<                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_III"                                  %! ScoreTemplate
-    \Q_First_Violin_Voice_III                                                  %! extern
+    \Q_First_Violin_Voice_III                                                  %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_IV"                                   %! ScoreTemplate
-    \Q_First_Violin_Voice_IV                                                   %! extern
+    \Q_First_Violin_Voice_IV                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_V_a = {                                                   %! extern
+Q_First_Violin_Voice_V_a = {                                                   %! abjad.Path.extern
 
     % [Q First_Violin_Voice_V measure 119 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2553,25 +2553,25 @@ Q_First_Violin_Voice_V_a = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Voice_V = {                                                     %! extern
+Q_First_Violin_Voice_V = {                                                     %! abjad.Path.extern
 
-    \Q_First_Violin_Voice_V_a                                                  %! extern
+    \Q_First_Violin_Voice_V_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_First_Violin_Staff_III = {                                                   %! extern
+Q_First_Violin_Staff_III = {                                                   %! abjad.Path.extern
 
     \context Voice = "First_Violin_Voice_V"                                    %! ScoreTemplate
-    \Q_First_Violin_Voice_V                                                    %! extern
+    \Q_First_Violin_Voice_V                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_I_a = {                                                  %! extern
+Q_Second_Violin_Voice_I_a = {                                                  %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2790,17 +2790,17 @@ Q_Second_Violin_Voice_I_a = {                                                  %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_I = {                                                    %! extern
+Q_Second_Violin_Voice_I = {                                                    %! abjad.Path.extern
 
-    \Q_Second_Violin_Voice_I_a                                                 %! extern
+    \Q_Second_Violin_Voice_I_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_II_a = {                                                 %! extern
+Q_Second_Violin_Voice_II_a = {                                                 %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2967,28 +2967,28 @@ Q_Second_Violin_Voice_II_a = {                                                 %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_II = {                                                   %! extern
+Q_Second_Violin_Voice_II = {                                                   %! abjad.Path.extern
 
-    \Q_Second_Violin_Voice_II_a                                                %! extern
+    \Q_Second_Violin_Voice_II_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Staff_I = <<                                                   %! extern
+Q_Second_Violin_Staff_I = <<                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_I"                                   %! ScoreTemplate
-    \Q_Second_Violin_Voice_I                                                   %! extern
+    \Q_Second_Violin_Voice_I                                                   %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_II"                                  %! ScoreTemplate
-    \Q_Second_Violin_Voice_II                                                  %! extern
+    \Q_Second_Violin_Voice_II                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_III_a = {                                                %! extern
+Q_Second_Violin_Voice_III_a = {                                                %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3203,17 +3203,17 @@ Q_Second_Violin_Voice_III_a = {                                                %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_III = {                                                  %! extern
+Q_Second_Violin_Voice_III = {                                                  %! abjad.Path.extern
 
-    \Q_Second_Violin_Voice_III_a                                               %! extern
+    \Q_Second_Violin_Voice_III_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_IV_a = {                                                 %! extern
+Q_Second_Violin_Voice_IV_a = {                                                 %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3380,28 +3380,28 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Voice_IV = {                                                   %! extern
+Q_Second_Violin_Voice_IV = {                                                   %! abjad.Path.extern
 
-    \Q_Second_Violin_Voice_IV_a                                                %! extern
+    \Q_Second_Violin_Voice_IV_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Second_Violin_Staff_II = <<                                                  %! extern
+Q_Second_Violin_Staff_II = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_III"                                 %! ScoreTemplate
-    \Q_Second_Violin_Voice_III                                                 %! extern
+    \Q_Second_Violin_Voice_III                                                 %! abjad.Path.extern
 
     \context Voice = "Second_Violin_Voice_IV"                                  %! ScoreTemplate
-    \Q_Second_Violin_Voice_IV                                                  %! extern
+    \Q_Second_Violin_Voice_IV                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Viola_Voice_I_a = {                                                          %! extern
+Q_Viola_Voice_I_a = {                                                          %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3616,17 +3616,17 @@ Q_Viola_Voice_I_a = {                                                          %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Voice_I = {                                                            %! extern
+Q_Viola_Voice_I = {                                                            %! abjad.Path.extern
 
-    \Q_Viola_Voice_I_a                                                         %! extern
+    \Q_Viola_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Voice_II_a = {                                                         %! extern
+Q_Viola_Voice_II_a = {                                                         %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3793,28 +3793,28 @@ Q_Viola_Voice_II_a = {                                                         %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Voice_II = {                                                           %! extern
+Q_Viola_Voice_II = {                                                           %! abjad.Path.extern
 
-    \Q_Viola_Voice_II_a                                                        %! extern
+    \Q_Viola_Voice_II_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Staff_I = <<                                                           %! extern
+Q_Viola_Staff_I = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_I"                                           %! ScoreTemplate
-    \Q_Viola_Voice_I                                                           %! extern
+    \Q_Viola_Voice_I                                                           %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_II"                                          %! ScoreTemplate
-    \Q_Viola_Voice_II                                                          %! extern
+    \Q_Viola_Voice_II                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Viola_Voice_III_a = {                                                        %! extern
+Q_Viola_Voice_III_a = {                                                        %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4029,17 +4029,17 @@ Q_Viola_Voice_III_a = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Voice_III = {                                                          %! extern
+Q_Viola_Voice_III = {                                                          %! abjad.Path.extern
 
-    \Q_Viola_Voice_III_a                                                       %! extern
+    \Q_Viola_Voice_III_a                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Voice_IV_a = {                                                         %! extern
+Q_Viola_Voice_IV_a = {                                                         %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4206,28 +4206,28 @@ Q_Viola_Voice_IV_a = {                                                         %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Voice_IV = {                                                           %! extern
+Q_Viola_Voice_IV = {                                                           %! abjad.Path.extern
 
-    \Q_Viola_Voice_IV_a                                                        %! extern
+    \Q_Viola_Voice_IV_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Viola_Staff_II = <<                                                          %! extern
+Q_Viola_Staff_II = <<                                                          %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_III"                                         %! ScoreTemplate
-    \Q_Viola_Voice_III                                                         %! extern
+    \Q_Viola_Voice_III                                                         %! abjad.Path.extern
 
     \context Voice = "Viola_Voice_IV"                                          %! ScoreTemplate
-    \Q_Viola_Voice_IV                                                          %! extern
+    \Q_Viola_Voice_IV                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Cello_Voice_I_a = {                                                          %! extern
+Q_Cello_Voice_I_a = {                                                          %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4446,17 +4446,17 @@ Q_Cello_Voice_I_a = {                                                          %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Cello_Voice_I = {                                                            %! extern
+Q_Cello_Voice_I = {                                                            %! abjad.Path.extern
 
-    \Q_Cello_Voice_I_a                                                         %! extern
+    \Q_Cello_Voice_I_a                                                         %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Cello_Voice_II_a = {                                                         %! extern
+Q_Cello_Voice_II_a = {                                                         %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4623,28 +4623,28 @@ Q_Cello_Voice_II_a = {                                                         %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Cello_Voice_II = {                                                           %! extern
+Q_Cello_Voice_II = {                                                           %! abjad.Path.extern
 
-    \Q_Cello_Voice_II_a                                                        %! extern
+    \Q_Cello_Voice_II_a                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Cello_Staff_I = <<                                                           %! extern
+Q_Cello_Staff_I = <<                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_I"                                           %! ScoreTemplate
-    \Q_Cello_Voice_I                                                           %! extern
+    \Q_Cello_Voice_I                                                           %! abjad.Path.extern
 
     \context Voice = "Cello_Voice_II"                                          %! ScoreTemplate
-    \Q_Cello_Voice_II                                                          %! extern
+    \Q_Cello_Voice_II                                                          %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-Q_Contrabass_Voice_III_a = {                                                   %! extern
+Q_Contrabass_Voice_III_a = {                                                   %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4835,19 +4835,19 @@ Q_Contrabass_Voice_III_a = {                                                   %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Contrabass_Voice_III = {                                                     %! extern
+Q_Contrabass_Voice_III = {                                                     %! abjad.Path.extern
 
-    \Q_Contrabass_Voice_III_a                                                  %! extern
+    \Q_Contrabass_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-Q_Contrabass_Staff_II = {                                                      %! extern
+Q_Contrabass_Staff_II = {                                                      %! abjad.Path.extern
 
     \context Voice = "Contrabass_Voice_III"                                    %! ScoreTemplate
-    \Q_Contrabass_Voice_III                                                    %! extern
+    \Q_Contrabass_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
