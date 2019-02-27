@@ -127,7 +127,7 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-both "93" "94"                                            %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-both "[3'07'']" "[3'09'']"                                %! CLOCK_TIME
+%@% - \baca-start-ct-both-right-fermata "[3'07'']" "2''"                       %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [N Global_Skips measure 94 / measure 7]                                  %! _comment_measure_numbers

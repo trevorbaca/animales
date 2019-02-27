@@ -38,7 +38,7 @@ AB_Global_Skips = {                                                            %
     - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[5'39'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'42'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [AB Global_Skips measure 162 / measure 2]                                %! _comment_measure_numbers
@@ -55,7 +55,7 @@ AB_Global_Skips = {                                                            %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "162"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'40'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'43'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [AB Global_Skips measure 163 / measure 3]                                %! _comment_measure_numbers
@@ -70,7 +70,7 @@ AB_Global_Skips = {                                                            %
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-both "163" "164"                                          %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-both "[5'43'']" "[5'46'']"                                %! CLOCK_TIME
+%@% - \baca-start-ct-both-right-fermata "[5'46'']" "2''"                       %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [AB Global_Skips measure 164 / measure 4]                                %! _comment_measure_numbers
