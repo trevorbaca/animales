@@ -54,6 +54,9 @@ def downbeat_attack(count=1, denominator=8):
                         % [Global_Rests measure 3]                                                   %! _comment_measure_numbers
                         R1 * 1/2                                                                     %! _make_global_rests(1)
             <BLANKLINE>
+                        % [Global_Rests measure 4]                                                   %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+                        R1 * 1/4                                                                     %! PHANTOM:_make_global_rests(2)
+            <BLANKLINE>
                     }                                                                                %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                     \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context
@@ -78,6 +81,14 @@ def downbeat_attack(count=1, denominator=8):
                         s1 * 1/2                                                                     %! _make_global_skips(1)
                         \baca-bar-line-visible                                                       %! _attach_final_bar_line
                         \bar "|"                                                                     %! _attach_final_bar_line
+            <BLANKLINE>
+                        % [Global_Skips measure 4]                                                   %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+                        \baca-new-spacing-section #1 #8                                              %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING_COMMAND
+                        \time 1/4                                                                    %! PHANTOM:_style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
+                        \baca-time-signature-transparent                                             %! PHANTOM:_style_phantom_measures(2)
+                        s1 * 1/4                                                                     %! PHANTOM:_make_global_skips(3)
+                        \once \override Score.BarLine.transparent = ##t                              %! PHANTOM:_style_phantom_measures(3)
+                        \once \override Score.SpanBar.transparent = ##t                              %! PHANTOM:_style_phantom_measures(3)
             <BLANKLINE>
                     }                                                                                %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
@@ -148,6 +159,32 @@ def downbeat_attack(count=1, denominator=8):
             <BLANKLINE>
                                 % [Horn_Voice_I measure 3]                                           %! _comment_measure_numbers
                                 R1 * 1/2                                                             %! _make_measure_silences
+            <BLANKLINE>
+                                <<                                                                   %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                    \context Voice = "Horn_Voice_I"                                  %! PHANTOM:_make_multimeasure_rest_container
+                                    {                                                                %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                        % [Horn_Voice_I measure 4]                                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+                                        \baca-invisible-music                                        %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
+                                        c'1 * 1/4                                                    %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                    }                                                                %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                    \context Voice = "Horn_Rest_Voice_I"                             %! PHANTOM:_make_multimeasure_rest_container
+                                    {                                                                %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                        % [Horn_Rest_Voice_I measure 4]                              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+                                        \once \override Score.TimeSignature.X-extent = ##f           %! PHANTOM:_style_phantom_measures(6)
+                                        \once \override MultiMeasureRest.transparent = ##t           %! PHANTOM:_style_phantom_measures(7)
+                                        \stopStaff                                                   %! PHANTOM:_style_phantom_measures(8)
+                                        \once \override Staff.StaffSymbol.transparent = ##t          %! PHANTOM:_style_phantom_measures(8)
+                                        \startStaff                                                  %! PHANTOM:_style_phantom_measures(8)
+                                        R1 * 1/4                                                     %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                    }                                                                %! PHANTOM:_make_multimeasure_rest_container
+            <BLANKLINE>
+                                >>                                                                   %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>
                             }                                                                        %! animales.ScoreTemplate._make_staves
             <BLANKLINE>

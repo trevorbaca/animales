@@ -38,6 +38,7 @@ persist = abjad.OrderedDict(
                 'First_Violin_Rest_Voice_IV',
                 'First_Violin_Staff_III',
                 'First_Violin_Voice_V',
+                'First_Violin_Rest_Voice_V',
                 'SecondViolin_Square_Staff_Group',
                 'Second_Violin_Staff_I',
                 'Second_Violin_Voice_I',
