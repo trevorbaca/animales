@@ -1,6 +1,6 @@
 % first_page_number = 3
 % page_count = 1
-% measure_count = 5
+% measure_count = 5 + 1
 % time_signatures = [
 % '4/4', '4/4', '4/4', '4/4', '2/4'
 %  ]
@@ -54,15 +54,15 @@
         %@% \bacaStartTextSpanSPM                                              %! SPACING
 
             % [Page_Layout measure 17]                                         %! _comment_measure_numbers
-            \baca-new-spacing-section #35 #480                                 %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
+            \baca-new-spacing-section #1 #20                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
             s1 * 1/2                                                           %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
-        %@% - \baca-start-spm-both "[[1/20 * 35/24]]" "[1]"                    %! SPACING
+        %@% - \baca-start-spm-left-only "[1/20]"                               %! SPACING
         %@% \bacaStartTextSpanSPM                                              %! SPACING
 
             % [Page_Layout measure 18]                                         %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
-            \baca-new-spacing-section #1 #1                                    %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING_COMMAND
+            \baca-new-spacing-section #1 #4                                    %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! PHANTOM:_style_phantom_measures(1):BreakMeasureMap(2):BREAK
             \baca-time-signature-transparent                                   %! PHANTOM:_style_phantom_measures(2)
             s1 * 1/4                                                           %! PHANTOM:_make_global_skips(3)
