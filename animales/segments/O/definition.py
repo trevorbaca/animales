@@ -144,7 +144,7 @@ maker(
 def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
-        baca.dynamic('ff'),
+        baca.dynamic('ff-ancora'),
         baca.hairpin(
             'ff > pp',
             selector=baca.pleaves()[2:-2],
@@ -367,10 +367,10 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup('Cb. tutti')),
     baca.pitch('G1'),
-    baca.tag(
-        '+LETTER_PARTS_CB-1',
-        baca.clef('bass'),
-        ),
-    baca.only_segment(baca.literal(r'\clef "bass"')),
+#    baca.tag(
+#        '+LETTER_PARTS_CB-1',
+#        baca.clef('bass'),
+#        ),
+#    baca.only_segment(baca.literal(r'\clef "bass"')),
     tremolo_suite(),
     )
