@@ -607,12 +607,6 @@ persist = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Contrabass_Voice_III',
-                                edition=abjad.Tag('+LETTER_PARTS_CB-1'),
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='Contrabass_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Cb.',
@@ -621,6 +615,11 @@ persist = abjad.OrderedDict(
                                 context='Contrabass_Voice_III',
                                 manifest='instruments',
                                 value='Contrabass',
+                                ),
+                            abjad.Momento(
+                                context='Contrabass_Voice_III',
+                                prototype='abjad.Clef',
+                                value='bass',
                                 ),
                             ],
                         ),
