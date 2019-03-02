@@ -8,6 +8,9 @@ if not (
 del distutils
 del platform
 from animales.tools import *
-from animales.materials import *
+from animales.tools.ScoreTemplate import ScoreTemplate
+from animales.materials.instruments.definition import instruments
+from animales.materials.margin_markups.definition import margin_markups
+from animales.materials.metronome_marks.definition import metronome_marks
+from animales.materials.time_signatures.definition import time_signatures
 from animales import segments
-

@@ -4,7 +4,9 @@ import typing
 from abjadext import rmakers
 
 
-def sforzando_exchange_rhythm(this_part: int) -> baca.rhythm:
+def sforzando_exchange_rhythm(
+    this_part: int,
+    ) -> baca.RhythmCommand:
     """
     Makes sforzando-exchange rhythm.
     """

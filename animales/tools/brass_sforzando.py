@@ -1,7 +1,7 @@
 import abjad
 import animales
 import baca
-import roman
+import roman # type: ignore
 
 
 def brass_sforzando(maker, range_=(1, -1)):

@@ -2,6 +2,7 @@ import abjad
 import animales
 import baca
 import os
+import typing
 
 
 ###############################################################################
@@ -243,7 +244,8 @@ def lower_voice(n=5):
 
 score_template = animales.ScoreTemplate()
 for voice, items in string_parts.items():
-    commands = []
+    assert isinstance(items, list), repr(items)
+    commands: typing.List[baca.Command] = []
     voice = score_template.voice_abbreviations.get(voice, voice)
     section = '_'.join(abjad.String(voice).delimit_words()[:-2])
     members = items[0]

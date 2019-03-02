@@ -1,7 +1,7 @@
 import abjad
 import animales
 import baca
-import roman
+import roman # type: ignore
 import typing
 
 

@@ -95,6 +95,7 @@ voice_to_start_markup = {
     }
 
 for voice, commands in voice_to_start_markup.items():
+    assert isinstance(commands, list)
     maker(
         (voice, 1),
         *commands,
