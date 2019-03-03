@@ -360,7 +360,7 @@ Q_Horn_Voice_I = {                                                             %
 
             % [Q Horn_Voice_I measure 131 / measure 13]                        %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -472,7 +472,7 @@ Q_Horn_Voice_III = {                                                           %
 
             % [Q Horn_Voice_III measure 131 / measure 13]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -635,7 +635,7 @@ Q_Horn_Voice_II = {                                                            %
 
             % [Q Horn_Voice_II measure 131 / measure 13]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -747,7 +747,7 @@ Q_Horn_Voice_IV = {                                                            %
 
             % [Q Horn_Voice_IV measure 131 / measure 13]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -910,7 +910,7 @@ Q_Trumpet_Voice_I = {                                                          %
 
             % [Q Trumpet_Voice_I measure 131 / measure 13]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1022,7 +1022,7 @@ Q_Trumpet_Voice_III = {                                                        %
 
             % [Q Trumpet_Voice_III measure 131 / measure 13]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1185,7 +1185,7 @@ Q_Trumpet_Voice_II = {                                                         %
 
             % [Q Trumpet_Voice_II measure 131 / measure 13]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1297,7 +1297,7 @@ Q_Trumpet_Voice_IV = {                                                         %
 
             % [Q Trumpet_Voice_IV measure 131 / measure 13]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1460,7 +1460,7 @@ Q_Trombone_Voice_I = {                                                         %
 
             % [Q Trombone_Voice_I measure 131 / measure 13]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1572,7 +1572,7 @@ Q_Trombone_Voice_III = {                                                       %
 
             % [Q Trombone_Voice_III measure 131 / measure 13]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1735,7 +1735,7 @@ Q_Trombone_Voice_II = {                                                        %
 
             % [Q Trombone_Voice_II measure 131 / measure 13]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1847,7 +1847,7 @@ Q_Trombone_Voice_IV = {                                                        %
 
             % [Q Trombone_Voice_IV measure 131 / measure 13]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2109,7 +2109,7 @@ Q_First_Violin_Voice_I = {                                                     %
 
             % [Q First_Violin_Voice_I measure 131 / measure 13]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2312,7 +2312,7 @@ Q_First_Violin_Voice_II = {                                                    %
 
             % [Q First_Violin_Voice_II measure 131 / measure 13]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2574,7 +2574,7 @@ Q_First_Violin_Voice_III = {                                                   %
 
             % [Q First_Violin_Voice_III measure 131 / measure 13]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2777,7 +2777,7 @@ Q_First_Violin_Voice_IV = {                                                    %
 
             % [Q First_Violin_Voice_IV measure 131 / measure 13]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3232,7 +3232,7 @@ Q_Second_Violin_Voice_I = {                                                    %
 
             % [Q Second_Violin_Voice_I measure 131 / measure 13]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3435,7 +3435,7 @@ Q_Second_Violin_Voice_II = {                                                   %
 
             % [Q Second_Violin_Voice_II measure 131 / measure 13]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3697,7 +3697,7 @@ Q_Second_Violin_Voice_III = {                                                  %
 
             % [Q Second_Violin_Voice_III measure 131 / measure 13]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3900,7 +3900,7 @@ Q_Second_Violin_Voice_IV = {                                                   %
 
             % [Q Second_Violin_Voice_IV measure 131 / measure 13]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4162,7 +4162,7 @@ Q_Viola_Voice_I = {                                                            %
 
             % [Q Viola_Voice_I measure 131 / measure 13]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4365,7 +4365,7 @@ Q_Viola_Voice_II = {                                                           %
 
             % [Q Viola_Voice_II measure 131 / measure 13]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4627,7 +4627,7 @@ Q_Viola_Voice_III = {                                                          %
 
             % [Q Viola_Voice_III measure 131 / measure 13]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4830,7 +4830,7 @@ Q_Viola_Voice_IV = {                                                           %
 
             % [Q Viola_Voice_IV measure 131 / measure 13]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -5096,7 +5096,7 @@ Q_Cello_Voice_I = {                                                            %
 
             % [Q Cello_Voice_I measure 131 / measure 13]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -5299,7 +5299,7 @@ Q_Cello_Voice_II = {                                                           %
 
             % [Q Cello_Voice_II measure 131 / measure 13]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -5537,7 +5537,7 @@ Q_Contrabass_Voice_III = {                                                     %
 
             % [Q Contrabass_Voice_III measure 131 / measure 13]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

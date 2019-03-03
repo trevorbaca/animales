@@ -167,7 +167,7 @@ V_Horn_Voice_I = {                                                             %
 
             % [V Horn_Voice_I measure 146 / measure 4]                         %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -238,7 +238,7 @@ V_Horn_Voice_III = {                                                           %
 
             % [V Horn_Voice_III measure 146 / measure 4]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -359,7 +359,7 @@ V_Horn_Voice_II = {                                                            %
 
             % [V Horn_Voice_II measure 146 / measure 4]                        %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -430,7 +430,7 @@ V_Horn_Voice_IV = {                                                            %
 
             % [V Horn_Voice_IV measure 146 / measure 4]                        %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -551,7 +551,7 @@ V_Trumpet_Voice_I = {                                                          %
 
             % [V Trumpet_Voice_I measure 146 / measure 4]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -622,7 +622,7 @@ V_Trumpet_Voice_III = {                                                        %
 
             % [V Trumpet_Voice_III measure 146 / measure 4]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -743,7 +743,7 @@ V_Trumpet_Voice_II = {                                                         %
 
             % [V Trumpet_Voice_II measure 146 / measure 4]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -814,7 +814,7 @@ V_Trumpet_Voice_IV = {                                                         %
 
             % [V Trumpet_Voice_IV measure 146 / measure 4]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -935,7 +935,7 @@ V_Trombone_Voice_I = {                                                         %
 
             % [V Trombone_Voice_I measure 146 / measure 4]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1006,7 +1006,7 @@ V_Trombone_Voice_III = {                                                       %
 
             % [V Trombone_Voice_III measure 146 / measure 4]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1127,7 +1127,7 @@ V_Trombone_Voice_II = {                                                        %
 
             % [V Trombone_Voice_II measure 146 / measure 4]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1198,7 +1198,7 @@ V_Trombone_Voice_IV = {                                                        %
 
             % [V Trombone_Voice_IV measure 146 / measure 4]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1306,7 +1306,7 @@ V_Tuba_Voice_I = {                                                             %
 
             % [V Tuba_Voice_I measure 146 / measure 4]                         %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

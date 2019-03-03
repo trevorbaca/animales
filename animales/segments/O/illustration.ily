@@ -376,7 +376,7 @@ O_Oboe_Voice_I = {                                                             %
 
             % [O Oboe_Voice_I measure 109 / measure 15]                        %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -526,7 +526,7 @@ O_English_Horn_Voice_I = {                                                     %
 
             % [O English_Horn_Voice_I measure 109 / measure 15]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -677,7 +677,7 @@ O_Bassoon_Voice_I = {                                                          %
 
             % [O Bassoon_Voice_I measure 109 / measure 15]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -793,7 +793,7 @@ O_Bassoon_Voice_II = {                                                         %
 
             % [O Bassoon_Voice_II measure 109 / measure 15]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1012,7 +1012,7 @@ O_First_Violin_Voice_I = {                                                     %
 
             % [O First_Violin_Voice_I measure 109 / measure 15]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1163,7 +1163,7 @@ O_First_Violin_Voice_II = {                                                    %
 
             % [O First_Violin_Voice_II measure 109 / measure 15]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1376,7 +1376,7 @@ O_First_Violin_Voice_III = {                                                   %
 
             % [O First_Violin_Voice_III measure 109 / measure 15]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1527,7 +1527,7 @@ O_First_Violin_Voice_IV = {                                                    %
 
             % [O First_Violin_Voice_IV measure 109 / measure 15]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1911,7 +1911,7 @@ O_Second_Violin_Voice_I = {                                                    %
 
             % [O Second_Violin_Voice_I measure 109 / measure 15]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2062,7 +2062,7 @@ O_Second_Violin_Voice_II = {                                                   %
 
             % [O Second_Violin_Voice_II measure 109 / measure 15]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2275,7 +2275,7 @@ O_Second_Violin_Voice_III = {                                                  %
 
             % [O Second_Violin_Voice_III measure 109 / measure 15]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2426,7 +2426,7 @@ O_Second_Violin_Voice_IV = {                                                   %
 
             % [O Second_Violin_Voice_IV measure 109 / measure 15]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2639,7 +2639,7 @@ O_Viola_Voice_I = {                                                            %
 
             % [O Viola_Voice_I measure 109 / measure 15]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2790,7 +2790,7 @@ O_Viola_Voice_II = {                                                           %
 
             % [O Viola_Voice_II measure 109 / measure 15]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3003,7 +3003,7 @@ O_Viola_Voice_III = {                                                          %
 
             % [O Viola_Voice_III measure 109 / measure 15]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3154,7 +3154,7 @@ O_Viola_Voice_IV = {                                                           %
 
             % [O Viola_Voice_IV measure 109 / measure 15]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3372,7 +3372,7 @@ O_Cello_Voice_I = {                                                            %
 
             % [O Cello_Voice_I measure 109 / measure 15]                       %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3523,7 +3523,7 @@ O_Cello_Voice_II = {                                                           %
 
             % [O Cello_Voice_II measure 109 / measure 15]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3710,7 +3710,7 @@ O_Contrabass_Voice_III = {                                                     %
 
             % [O Contrabass_Voice_III measure 109 / measure 15]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

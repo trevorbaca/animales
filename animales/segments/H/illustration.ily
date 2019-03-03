@@ -236,7 +236,7 @@ H_Clarinet_Voice_I = {                                                         %
 
             % [H Clarinet_Voice_I measure 56 / measure 7]                      %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            d'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -685,7 +685,7 @@ H_Percussion_Voice_II = {                                                      %
 
             % [H Percussion_Voice_II measure 56 / measure 7]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -949,7 +949,7 @@ H_First_Violin_Voice_I = {                                                     %
 
             % [H First_Violin_Voice_I measure 56 / measure 7]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1077,7 +1077,7 @@ H_Second_Violin_Voice_I = {                                                    %
 
             % [H Second_Violin_Voice_I measure 56 / measure 7]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1205,7 +1205,7 @@ H_Viola_Voice_I = {                                                            %
 
             % [H Viola_Voice_I measure 56 / measure 7]                         %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1333,7 +1333,7 @@ H_Cello_Voice_I = {                                                            %
 
             % [H Cello_Voice_I measure 56 / measure 7]                         %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1600,7 +1600,7 @@ H_Contrabass_Voice_III = {                                                     %
 
             % [H Contrabass_Voice_III measure 56 / measure 7]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
