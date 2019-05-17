@@ -1,0 +1,3 @@
+[submodule "animales/test"]
+	path = animales/test
+	url = https://github.com/trevorbaca/test.git
