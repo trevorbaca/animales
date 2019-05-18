@@ -199,19 +199,9 @@ def downbeat_attack(count=1, denominator=8):
     """
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        division_masks=[
-            rmakers.silence([0], inverted=True),
-            ],
-        logical_tie_masks=[
-            rmakers.silence([0], inverted=True),
-            ],
-        tag='animales_downbeat_attack',
-        talea=rmakers.Talea(
-            counts=[count],
-            denominator=denominator,
-            ),
-        )
-    return baca.rhythm(
-        rewrite_meter=True,
-        rhythm_maker=rhythm_maker,
-        )
+        division_masks=[rmakers.silence([0], inverted=True)],
+        logical_tie_masks=[rmakers.silence([0], inverted=True)],
+        tag="animales_downbeat_attack",
+        talea=rmakers.Talea(counts=[count], denominator=denominator),
+    )
+    return baca.rhythm(rewrite_meter=True, rhythm_maker=rhythm_maker)

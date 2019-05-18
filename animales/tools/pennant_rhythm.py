@@ -17,19 +17,14 @@ def pennant_rhythm(extra_counts=None, silences=None):
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=extra_counts,
-        tag='animales_pennant_rhythm',
-        talea=rmakers.Talea(
-            counts=[1],
-            denominator=16,
-            ),
+        tag="animales_pennant_rhythm",
+        talea=rmakers.Talea(counts=[1], denominator=16),
         tuplet_specifier=rmakers.TupletSpecifier(
-            diminution=True,
-            extract_trivial=True,
-            trivialize=True,
-            ),
-        )
+            diminution=True, extract_trivial=True, trivialize=True
+        ),
+    )
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

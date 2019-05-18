@@ -5,19 +5,19 @@ from abjadext import rmakers
 
 
 def harp_exchange_rhythm(
-    this_part,
-    division_masks=None,
-    no_logical_tie_masks=False,
-    ):
+    this_part, division_masks=None, no_logical_tie_masks=False
+):
     """
     Makes harp-exchange rhythm.
     """
-    part_to_pattern = abjad.OrderedDict([
-        (0, abjad.index([0, 30], period=36)),
-        (1, abjad.index([0, 12, 16, 28, 32], period=48)),
-        (2, abjad.index([0, 30], period=36)),
-        (3, abjad.index([0, 12, 16, 28, 32], period=48)),
-        ])
+    part_to_pattern = abjad.OrderedDict(
+        [
+            (0, abjad.index([0, 30], period=36)),
+            (1, abjad.index([0, 12, 16, 28, 32], period=48)),
+            (2, abjad.index([0, 30], period=36)),
+            (3, abjad.index([0, 12, 16, 28, 32], period=48)),
+        ]
+    )
 
     part_to_indices = abjad.OrderedDict()
     for part in part_to_pattern:
@@ -63,11 +63,7 @@ def harp_exchange_rhythm(
         counts.append(2)
         rest = -(count - 2)
         counts.append(rest)
-    talea = rmakers.Talea(
-        counts=counts,
-        denominator=16,
-        preamble=preamble,
-        )
+    talea = rmakers.Talea(counts=counts, denominator=16, preamble=preamble)
 
     if this_part == 0:
         logical_tie_masks = None
@@ -81,16 +77,15 @@ def harp_exchange_rhythm(
         extra_counts_per_division=[2],
         logical_tie_masks=logical_tie_masks,
         talea=talea,
-        tag='animales_harp_exchange_rhythm',
+        tag="animales_harp_exchange_rhythm",
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(
-            extract_trivial=True,
-            trivialize=True,
-            ),
-        )
+            extract_trivial=True, trivialize=True
+        ),
+    )
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
-        persist='harp_exchange_rhythm',
+        persist="harp_exchange_rhythm",
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

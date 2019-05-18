@@ -2,77 +2,25 @@ import abjad
 import baca
 
 
-instruments = abjad.OrderedDict([
-    (
-        'BassClarinet',
-        abjad.BassClarinet(),
-        ),
-    (
-        'Bassoon',
-        abjad.Bassoon(),
-        ),
-    (
-        'Cello',
-        abjad.Cello(),
-        ),
-    (
-        'Clarinet',
-        abjad.ClarinetInBFlat(),
-        ),
-    (
-        'Contrabass',
-        abjad.Contrabass(pitch_range='[E1, D6]'),
-        ),
-    (
-        'EnglishHorn',
-        abjad.EnglishHorn(),
-        ),
-    (
-        'Flute',
-        abjad.Flute(),
-        ),
-    (
-        'Harp',
-        abjad.Harp(),
-        ),
-    (
-        'Horn',
-        abjad.FrenchHorn(),
-        ),
-    (
-        'Oboe',
-        abjad.Oboe(),
-        ),
-    (
-        'Percussion',
-        abjad.Percussion(),
-        ),
-    (
-        'Piano',
-        abjad.Piano(),
-        ),
-    (
-        'Trombone',
-        abjad.TenorTrombone(),
-        ),
-    (
-        'Trumpet',
-        abjad.Trumpet(),
-        ),
-    (
-        'Tuba',
-        abjad.Tuba(),
-        ),
-    (
-        'Vibraphone',
-        abjad.Vibraphone(),
-        ),
-    (
-        'Viola',
-        abjad.Viola(),
-        ),
-    (
-        'Violin',
-        abjad.Violin(),
-        ),
-    ])
+instruments = abjad.OrderedDict(
+    [
+        ("BassClarinet", abjad.BassClarinet()),
+        ("Bassoon", abjad.Bassoon()),
+        ("Cello", abjad.Cello()),
+        ("Clarinet", abjad.ClarinetInBFlat()),
+        ("Contrabass", abjad.Contrabass(pitch_range="[E1, D6]")),
+        ("EnglishHorn", abjad.EnglishHorn()),
+        ("Flute", abjad.Flute()),
+        ("Harp", abjad.Harp()),
+        ("Horn", abjad.FrenchHorn()),
+        ("Oboe", abjad.Oboe()),
+        ("Percussion", abjad.Percussion()),
+        ("Piano", abjad.Piano()),
+        ("Trombone", abjad.TenorTrombone()),
+        ("Trumpet", abjad.Trumpet()),
+        ("Tuba", abjad.Tuba()),
+        ("Vibraphone", abjad.Vibraphone()),
+        ("Viola", abjad.Viola()),
+        ("Violin", abjad.Violin()),
+    ]
+)

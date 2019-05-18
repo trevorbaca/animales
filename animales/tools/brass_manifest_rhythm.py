@@ -22,35 +22,29 @@ def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
         10: ([6, 6, 6, -2], 13, [0, 1, 0, 0]),
         11: ([6, 6, 6, -2], None, [0, 0, 1, 0]),
         12: ([6, 6, 6, -2], 4, [1, 0, 0, 0]),
-        }[part]
+    }[part]
 
     if delay is None:
         preamble = None
     else:
         preamble = [-delay]
 
-    talea = rmakers.Talea(
-        counts=counts,
-        denominator=8,
-        preamble=preamble,
-        )
+    talea = rmakers.Talea(counts=counts, denominator=8, preamble=preamble)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts_per_division,
-        tag='animales_brass_manifest_rhythm',
+        tag="animales_brass_manifest_rhythm",
         talea=talea,
         tuplet_specifier=rmakers.TupletSpecifier(
-            extract_trivial=True,
-            rewrite_rest_filled=True,
-            trivialize=True,
-            ),
-        )
+            extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+        ),
+    )
 
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         left_broken=left_broken,
-        persist='brass_manifest_rhythm',
+        persist="brass_manifest_rhythm",
         rewrite_meter=True,
         right_broken=right_broken,
         rhythm_maker=rhythm_maker,
-        )
+    )
