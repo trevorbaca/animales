@@ -37,12 +37,7 @@ def glissando_positions(reverse=False, rotate=0, transpose=0):
             )
 
     """
-    positions = [
-        8, 13, 9, 14,
-        5, 11, 8, 12,
-        2, 8, 3, 9,
-        -1, 5, 0, 6,
-        ]
+    positions = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
     positions = [_ + transpose for _ in positions]
     positions = baca.sequence(positions)
     if reverse is True:

@@ -1,14 +1,14 @@
 import abjad
 import animales
 import baca
-import roman # type: ignore
+import roman  # type: ignore
 import typing
 
 
 def parts(
     section: str,
     token: typing.Union[int, typing.List[int], typing.Tuple[int, int]] = None,
-    ) -> baca.PartAssignmentCommand:
+) -> baca.PartAssignmentCommand:
     """
     Designates parts.
 
@@ -47,5 +47,5 @@ def parts(
         assert score_template.part_manifest is not None
         for part in part_assignment:
             if part not in score_template.part_manifest.parts:
-                raise Exception(f'no {part!r} in part manifest.')
+                raise Exception(f"no {part!r} in part manifest.")
     return baca.parts(part_assignment)
