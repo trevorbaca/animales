@@ -1,3 +1,4 @@
+% Animales desconocidos (2018)
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
 
 
@@ -162,6 +163,10 @@
 
         \override TextScript.font-name = #"Palatino"
         \override TextScript.padding = 1
+        % DISCOVERY: overriding textscript.x-extent = ##f
+        %            makes lilypond ignore self-alignment-x tweaks;
+        %            probably should never be done at stylesheet level.
+        % NOTE:      may be best to override NO text script properties.
         \override TextScript.X-extent = ##f
         \override TextScript.Y-extent = #'(-1.5 . 1.5)
 
