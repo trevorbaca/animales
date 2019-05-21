@@ -18,7 +18,7 @@ if __name__ == "__main__":
         author="Trevor Bača",
         author_email="trevor.baca@gmail.com",
         install_requires=install_requires,
-        keywords=keywords,
+        keywords=", ".join(keywords),
         name="animales",
         packages=["animales"],
         platforms="Any",
