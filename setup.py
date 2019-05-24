@@ -11,7 +11,6 @@ keywords = [
     "formalized score control",
     "lilypond",
 ]
-keywords = ", ".join(keywords)
 
 if __name__ == "__main__":
     setuptools.setup(
