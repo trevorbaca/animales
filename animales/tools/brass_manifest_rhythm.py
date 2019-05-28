@@ -41,7 +41,7 @@ def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
     )
 
     return baca.rhythm(
-        division_expression=baca.strict_quarter_divisions(),
+        divisions=baca.quarter_divisions(),
         left_broken=left_broken,
         persist="brass_manifest_rhythm",
         rewrite_meter=True,
