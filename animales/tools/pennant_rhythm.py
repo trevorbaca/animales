@@ -24,7 +24,7 @@ def pennant_rhythm(extra_counts=None, silences=None):
         ),
     )
     return baca.rhythm(
-        division_expression=baca.strict_quarter_divisions(),
+        divisions=baca.quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
     )
