@@ -70,7 +70,7 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
         ),
     )
     return baca.rhythm(
-        divisions=baca.quarter_divisions(),
+        divisions=baca.quarter_split_each(),
         persist="sforzando_exchange_rhythm",
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
