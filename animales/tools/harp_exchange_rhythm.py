@@ -84,7 +84,7 @@ def harp_exchange_rhythm(
         ),
     )
     return baca.rhythm(
-        divisions=baca.quarter_divisions(),
+        divisions=baca.quarter_split_each(),
         persist="harp_exchange_rhythm",
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
