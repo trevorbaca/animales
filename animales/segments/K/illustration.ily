@@ -364,7 +364,7 @@ K_Horn_Voice_I_a = {                                                           %
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
 %%% fs'!8                                                                      %! AccidentalAdjustmentCommand:+PARTS
-    fs'!8                                                                      %! AccidentalAdjustmentCommand:-PARTS %! animales_downbeat_attack %@%
+    fs'!8                                                                      %! AccidentalAdjustmentCommand:-PARTS %! animales.downbeat_attack %@%
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -464,7 +464,7 @@ K_Horn_Voice_III_a = {                                                         %
     % [K Horn_Voice_III measure 68 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    f'8                                                                        %! animales_downbeat_attack
+    f'8                                                                        %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
@@ -587,7 +587,7 @@ K_Horn_Voice_II_a = {                                                          %
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    e'8                                                                        %! animales_downbeat_attack
+    e'8                                                                        %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -687,7 +687,7 @@ K_Horn_Voice_IV_a = {                                                          %
     % [K Horn_Voice_IV measure 68 / measure 1]                                 %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    f'8                                                                        %! animales_downbeat_attack
+    f'8                                                                        %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
@@ -810,7 +810,7 @@ K_Trumpet_Voice_I_a = {                                                        %
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af'!8                                                                      %! animales_downbeat_attack
+    af'!8                                                                      %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -910,7 +910,7 @@ K_Trumpet_Voice_III_a = {                                                      %
     % [K Trumpet_Voice_III measure 68 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    a'8                                                                        %! animales_downbeat_attack
+    a'8                                                                        %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
@@ -1033,7 +1033,7 @@ K_Trumpet_Voice_II_a = {                                                       %
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af'!8                                                                      %! animales_downbeat_attack
+    af'!8                                                                      %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1135,7 +1135,7 @@ K_Trumpet_Voice_IV_a = {                                                       %
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
 %%% g'8                                                                        %! AccidentalAdjustmentCommand:+PARTS
-    g'!8                                                                       %! AccidentalAdjustmentCommand:-PARTS %! animales_downbeat_attack %@%
+    g'!8                                                                       %! AccidentalAdjustmentCommand:-PARTS %! animales.downbeat_attack %@%
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
@@ -1258,7 +1258,7 @@ K_Trombone_Voice_I_a = {                                                       %
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af!8                                                                       %! animales_downbeat_attack
+    af!8                                                                       %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1358,7 +1358,7 @@ K_Trombone_Voice_III_a = {                                                     %
     % [K Trombone_Voice_III measure 68 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    g8                                                                         %! animales_downbeat_attack
+    g8                                                                         %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
@@ -1481,7 +1481,7 @@ K_Trombone_Voice_II_a = {                                                      %
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
     \dynamicUp                                                                 %! baca_dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    bf!8                                                                       %! animales_downbeat_attack
+    bf!8                                                                       %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1583,7 +1583,7 @@ K_Trombone_Voice_IV_a = {                                                      %
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
 %%% g8                                                                         %! AccidentalAdjustmentCommand:+PARTS
-    g!8                                                                        %! AccidentalAdjustmentCommand:-PARTS %! animales_downbeat_attack %@%
+    g!8                                                                        %! AccidentalAdjustmentCommand:-PARTS %! animales.downbeat_attack %@%
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
@@ -1695,7 +1695,7 @@ K_Piano_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1710,57 +1710,57 @@ K_Piano_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [K Piano_Voice_I measure 69 / measure 2]                                 %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [K Piano_Voice_I measure 70 / measure 3]                             %! _comment_measure_numbers
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [K Piano_Voice_I measure 71 / measure 4]                                 %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [K Piano_Voice_I measure 72 / measure 5]                                 %! _comment_measure_numbers
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [K Piano_Voice_I measure 73 / measure 6]                                 %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Piano_Voice_I measure 74 / measure 7]                                 %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [K Piano_Voice_I measure 75 / measure 8]                             %! _comment_measure_numbers
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1826,7 +1826,7 @@ K_Harp_Voice_I_a = {                                                           %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Harp”)"                              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1841,55 +1841,55 @@ K_Harp_Voice_I_a = {                                                           %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [K Harp_Voice_I measure 69 / measure 2]                                  %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [K Harp_Voice_I measure 70 / measure 3]                                  %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Harp_Voice_I measure 71 / measure 4]                                  %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [K Harp_Voice_I measure 72 / measure 5]                                  %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [K Harp_Voice_I measure 73 / measure 6]                                  %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Harp_Voice_I measure 74 / measure 7]                                  %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [K Harp_Voice_I measure 75 / measure 8]                                  %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2099,7 +2099,7 @@ K_Percussion_Voice_III_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2117,59 +2117,59 @@ K_Percussion_Voice_III_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 69 / measure 2]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 70 / measure 3]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 71 / measure 4]                          %! _comment_measure_numbers
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 72 / measure 5]                          %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 73 / measure 6]                          %! _comment_measure_numbers
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        c''8                                                                   %! animales_harp_exchange_rhythm
+        c''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 74 / measure 7]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Percussion_Voice_III measure 75 / measure 8]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2667,7 +2667,7 @@ K_Contrabass_Voice_I_a = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Cb. 1”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2685,63 +2685,63 @@ K_Contrabass_Voice_I_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
-        cqf''!8                                                                %! animales_harp_exchange_rhythm
+        cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 69 / measure 2]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 70 / measure 3]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 71 / measure 4]                            %! _comment_measure_numbers
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        r8                                                                     %! animales_harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm
 
-        cqf''!8                                                                %! animales_harp_exchange_rhythm
+        cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r8                                                                     %! animales_harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 72 / measure 5]                            %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 73 / measure 6]                            %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-        cqf''!8                                                                %! animales_harp_exchange_rhythm
+        cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 74 / measure 7]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [K Contrabass_Voice_I measure 75 / measure 8]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 
