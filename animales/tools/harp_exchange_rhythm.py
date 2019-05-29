@@ -77,7 +77,7 @@ def harp_exchange_rhythm(
         extra_counts_per_division=[2],
         logical_tie_masks=logical_tie_masks,
         talea=talea,
-        tag="animales_harp_exchange_rhythm",
+        tag="animales.harp_exchange_rhythm",
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True, trivialize=True

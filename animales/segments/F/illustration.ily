@@ -372,11 +372,11 @@ F_Piano_Voice_I_a = {                                                          %
     % [F Piano_Voice_I measure 37 / measure 2]                                 %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         r8
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
@@ -388,49 +388,49 @@ F_Piano_Voice_I_a = {                                                          %
                     "mute with LH inside piano: dull thud"                     %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
 
-        r8                                                                     %! animales_harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [F Piano_Voice_I measure 38 / measure 3]                                 %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Piano_Voice_I measure 39 / measure 4]                                 %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [F Piano_Voice_I measure 40 / measure 5]                                 %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Piano_Voice_I measure 41 / measure 6]                                 %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
     % [F Piano_Voice_I measure 42 / measure 7]                                 %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [F Piano_Voice_I measure 43 / measure 8]                             %! _comment_measure_numbers
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -511,9 +511,9 @@ F_Harp_Voice_I_a = {                                                           %
     % [F Harp_Voice_I measure 37 / measure 2]                                  %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
@@ -535,49 +535,49 @@ F_Harp_Voice_I_a = {                                                           %
     %%%                 }                                                      %! baca_markup:+PARTS:IndicatorCommand
     %%%     }                                                                  %! baca_markup:+PARTS:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [F Harp_Voice_I measure 38 / measure 3]                                  %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Harp_Voice_I measure 39 / measure 4]                                  %! _comment_measure_numbers
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
     % [F Harp_Voice_I measure 40 / measure 5]                                  %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Harp_Voice_I measure 41 / measure 6]                                  %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
     % [F Harp_Voice_I measure 42 / measure 7]                                  %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \stopped                                                             %! baca_stoppped:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [F Harp_Voice_I measure 43 / measure 8]                                  %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -879,7 +879,7 @@ F_Percussion_Staff_II = {                                                      %
 
 F_Percussion_Voice_III_a = {                                                   %! abjad.Path.extern
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [F Percussion_Voice_III measure 36 / measure 1]                      %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
@@ -908,7 +908,7 @@ F_Percussion_Voice_III_a = {                                                   %
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
@@ -933,50 +933,50 @@ F_Percussion_Voice_III_a = {                                                   %
             }                                                                  %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [F Percussion_Voice_III measure 37 / measure 2]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [F Percussion_Voice_III measure 38 / measure 3]                      %! _comment_measure_numbers
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [F Percussion_Voice_III measure 39 / measure 4]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Percussion_Voice_III measure 40 / measure 5]                          %! _comment_measure_numbers
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
     % [F Percussion_Voice_III measure 41 / measure 6]                          %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
     % [F Percussion_Voice_III measure 42 / measure 7]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Percussion_Voice_III measure 43 / measure 8]                          %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca_text_script_extra_offset:OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -1485,7 +1485,7 @@ F_Contrabass_Voice_I_a = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    as,!4                                                                      %! animales_harp_exchange_rhythm
+    as,!4                                                                      %! animales.harp_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Contrabass”)"                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1503,9 +1503,9 @@ F_Contrabass_Voice_I_a = {                                                     %
                 }                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [F Contrabass_Voice_I measure 37 / measure 2]                        %! _comment_measure_numbers
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -1513,7 +1513,7 @@ F_Contrabass_Voice_I_a = {                                                     %
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
@@ -1521,50 +1521,50 @@ F_Contrabass_Voice_I_a = {                                                     %
         ^ \markup { pizz. }                                                    %! baca_markup:IndicatorCommand
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r2.                                                                        %! animales_harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm
 
     % [F Contrabass_Voice_I measure 38 / measure 3]                            %! _comment_measure_numbers
-    r2                                                                         %! animales_harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [F Contrabass_Voice_I measure 39 / measure 4]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Contrabass_Voice_I measure 40 / measure 5]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
-    \times 2/3 {                                                               %! animales_harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [F Contrabass_Voice_I measure 41 / measure 6]                        %! _comment_measure_numbers
-        d''8                                                                   %! animales_harp_exchange_rhythm
+        d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-        r4                                                                     %! animales_harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm
 
-    }                                                                          %! animales_harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm
 
-    r4                                                                         %! animales_harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm
 
     % [F Contrabass_Voice_I measure 42 / measure 7]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
     % [F Contrabass_Voice_I measure 43 / measure 8]                            %! _comment_measure_numbers
-    r1                                                                         %! animales_harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm
 
 }                                                                              %! abjad.Path.extern
 

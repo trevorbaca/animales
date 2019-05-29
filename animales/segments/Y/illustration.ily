@@ -106,7 +106,7 @@ Y_Horn_Voice_I_a = {                                                           %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    g'8                                                                        %! animales_downbeat_attack
+    g'8                                                                        %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -191,7 +191,7 @@ Y_Horn_Voice_III_a = {                                                         %
 
     % [Y Horn_Voice_III measure 152 / measure 1]                               %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    c'8                                                                        %! animales_downbeat_attack
+    c'8                                                                        %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -298,7 +298,7 @@ Y_Horn_Voice_II_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    df'!8                                                                      %! animales_downbeat_attack
+    df'!8                                                                      %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -383,7 +383,7 @@ Y_Horn_Voice_IV_a = {                                                          %
 
     % [Y Horn_Voice_IV measure 152 / measure 1]                                %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    b8                                                                         %! animales_downbeat_attack
+    b8                                                                         %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -490,7 +490,7 @@ Y_Trumpet_Voice_I_a = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    d''8                                                                       %! animales_downbeat_attack
+    d''8                                                                       %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -575,7 +575,7 @@ Y_Trumpet_Voice_III_a = {                                                      %
 
     % [Y Trumpet_Voice_III measure 152 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    g'8                                                                        %! animales_downbeat_attack
+    g'8                                                                        %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -682,7 +682,7 @@ Y_Trumpet_Voice_II_a = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    af'!8                                                                      %! animales_downbeat_attack
+    af'!8                                                                      %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -767,7 +767,7 @@ Y_Trumpet_Voice_IV_a = {                                                       %
 
     % [Y Trumpet_Voice_IV measure 152 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    f'8                                                                        %! animales_downbeat_attack
+    f'8                                                                        %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -874,7 +874,7 @@ Y_Trombone_Voice_I_a = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    g'8                                                                        %! animales_downbeat_attack
+    g'8                                                                        %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -959,7 +959,7 @@ Y_Trombone_Voice_III_a = {                                                     %
 
     % [Y Trombone_Voice_III measure 152 / measure 1]                           %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    c'8                                                                        %! animales_downbeat_attack
+    c'8                                                                        %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1066,7 +1066,7 @@ Y_Trombone_Voice_II_a = {                                                      %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    df'!8                                                                      %! animales_downbeat_attack
+    df'!8                                                                      %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1151,7 +1151,7 @@ Y_Trombone_Voice_IV_a = {                                                      %
 
     % [Y Trombone_Voice_IV measure 152 / measure 1]                            %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    b8                                                                         %! animales_downbeat_attack
+    b8                                                                         %! animales.downbeat_attack
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1249,7 +1249,7 @@ Y_Tuba_Voice_I_a = {                                                           %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    c,8                                                                        %! animales_downbeat_attack
+    c,8                                                                        %! animales.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! baca_marcato:IndicatorCommand
@@ -1687,7 +1687,7 @@ Y_First_Violin_Voice_I_a = {                                                   %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1704,13 +1704,13 @@ Y_First_Violin_Voice_I_a = {                                                   %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_I measure 153 / measure 2]                         %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_I measure 154 / measure 3]                         %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1761,28 +1761,28 @@ Y_First_Violin_Voice_II_a = {                                                  %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_II measure 153 / measure 2]                        %! _comment_measure_numbers
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_II measure 154 / measure 3]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1873,31 +1873,31 @@ Y_First_Violin_Voice_III_a = {                                                 %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y First_Violin_Voice_III measure 153 / measure 2]                   %! _comment_measure_numbers
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
     % [Y First_Violin_Voice_III measure 154 / measure 3]                       %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -2033,7 +2033,7 @@ Y_First_Violin_Voice_V_a = {                                                   %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2050,19 +2050,19 @@ Y_First_Violin_Voice_V_a = {                                                   %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_V measure 153 / measure 2]                         %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_V measure 154 / measure 3]                         %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2113,20 +2113,20 @@ Y_First_Violin_Voice_VI_a = {                                                  %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y First_Violin_Voice_VI measure 153 / measure 2]                        %! _comment_measure_numbers
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_VI measure 154 / measure 3]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2273,33 +2273,33 @@ Y_First_Violin_Voice_VIII_a = {                                                %
     r1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y First_Violin_Voice_VIII measure 153 / measure 2]                  %! _comment_measure_numbers
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
     % [Y First_Violin_Voice_VIII measure 154 / measure 3]                      %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -2375,7 +2375,7 @@ Y_First_Violin_Voice_IX_a = {                                                  %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2390,23 +2390,23 @@ Y_First_Violin_Voice_IX_a = {                                                  %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_IX measure 153 / measure 2]                        %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_IX measure 154 / measure 3]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2457,20 +2457,20 @@ Y_First_Violin_Voice_X_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y First_Violin_Voice_X measure 153 / measure 2]                         %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_X measure 154 / measure 3]                         %! _comment_measure_numbers
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2544,7 +2544,7 @@ Y_First_Violin_Voice_XI_a = {                                                  %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2560,10 +2560,10 @@ Y_First_Violin_Voice_XI_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y First_Violin_Voice_XI measure 153 / measure 2]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_XI measure 154 / measure 3]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2617,35 +2617,35 @@ Y_First_Violin_Voice_XII_a = {                                                 %
     r4
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2
 
     % [Y First_Violin_Voice_XII measure 153 / measure 2]                       %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y First_Violin_Voice_XII measure 154 / measure 3]                   %! _comment_measure_numbers
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -2742,13 +2742,13 @@ Y_First_Violin_Voice_XIII_a = {                                                %
     % [Y First_Violin_Voice_XIII measure 154 / measure 3]                      %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -2801,28 +2801,28 @@ Y_First_Violin_Voice_XIV_a = {                                                 %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_XIV measure 153 / measure 2]                       %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_XIV measure 154 / measure 3]                       %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2896,7 +2896,7 @@ Y_First_Violin_Voice_XV_a = {                                                  %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2911,15 +2911,15 @@ Y_First_Violin_Voice_XV_a = {                                                  %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_XV measure 153 / measure 2]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_XV measure 154 / measure 3]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2976,32 +2976,32 @@ Y_First_Violin_Voice_XVI_a = {                                                 %
     % [Y First_Violin_Voice_XVI measure 153 / measure 2]                       %! _comment_measure_numbers
     r4
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2
 
     % [Y First_Violin_Voice_XVI measure 154 / measure 3]                       %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3145,14 +3145,14 @@ Y_First_Violin_Voice_XVIII_a = {                                               %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y First_Violin_Voice_XVIII measure 153 / measure 2]                     %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y First_Violin_Voice_XVIII measure 154 / measure 3]                     %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3226,7 +3226,7 @@ Y_Second_Violin_Voice_I_a = {                                                  %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -3244,22 +3244,22 @@ Y_Second_Violin_Voice_I_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Second_Violin_Voice_I measure 153 / measure 2]                        %! _comment_measure_numbers
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_I measure 154 / measure 3]                        %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3310,34 +3310,34 @@ Y_Second_Violin_Voice_II_a = {                                                 %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_II measure 153 / measure 2]                       %! _comment_measure_numbers
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_II measure 154 / measure 3]                       %! _comment_measure_numbers
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3491,13 +3491,13 @@ Y_Second_Violin_Voice_IV_a = {                                                 %
     % [Y Second_Violin_Voice_IV measure 153 / measure 2]                       %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_IV measure 154 / measure 3]                       %! _comment_measure_numbers
     r1
@@ -3574,7 +3574,7 @@ Y_Second_Violin_Voice_V_a = {                                                  %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3590,18 +3590,18 @@ Y_Second_Violin_Voice_V_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Second_Violin_Voice_V measure 153 / measure 2]                        %! _comment_measure_numbers
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_V measure 154 / measure 3]                        %! _comment_measure_numbers
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3652,16 +3652,16 @@ Y_Second_Violin_Voice_VI_a = {                                                 %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_VI measure 153 / measure 2]                       %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_VI measure 154 / measure 3]                       %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3750,27 +3750,27 @@ Y_Second_Violin_Voice_VII_a = {                                                %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
     % [Y Second_Violin_Voice_VII measure 153 / measure 2]                      %! _comment_measure_numbers
     r1
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Second_Violin_Voice_VII measure 154 / measure 3]                  %! _comment_measure_numbers
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -3826,31 +3826,31 @@ Y_Second_Violin_Voice_VIII_a = {                                               %
     r1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Second_Violin_Voice_VIII measure 153 / measure 2]                 %! _comment_measure_numbers
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
     % [Y Second_Violin_Voice_VIII measure 154 / measure 3]                     %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -3926,7 +3926,7 @@ Y_Second_Violin_Voice_IX_a = {                                                 %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3942,16 +3942,16 @@ Y_Second_Violin_Voice_IX_a = {                                                 %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Second_Violin_Voice_IX measure 153 / measure 2]                       %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_IX measure 154 / measure 3]                       %! _comment_measure_numbers
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4002,22 +4002,22 @@ Y_Second_Violin_Voice_X_a = {                                                  %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_X measure 153 / measure 2]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_X measure 154 / measure 3]                        %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4091,7 +4091,7 @@ Y_Second_Violin_Voice_XI_a = {                                                 %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -4107,16 +4107,16 @@ Y_Second_Violin_Voice_XI_a = {                                                 %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Second_Violin_Voice_XI measure 153 / measure 2]                       %! _comment_measure_numbers
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_XI measure 154 / measure 3]                       %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4263,33 +4263,33 @@ Y_Second_Violin_Voice_XIII_a = {                                               %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Second_Violin_Voice_XIII measure 153 / measure 2]                 %! _comment_measure_numbers
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
     % [Y Second_Violin_Voice_XIII measure 154 / measure 3]                     %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -4342,26 +4342,26 @@ Y_Second_Violin_Voice_XIV_a = {                                                %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_XIV measure 153 / measure 2]                      %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_XIV measure 154 / measure 3]                      %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4435,7 +4435,7 @@ Y_Second_Violin_Voice_XV_a = {                                                 %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -4451,16 +4451,16 @@ Y_Second_Violin_Voice_XV_a = {                                                 %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Second_Violin_Voice_XV measure 153 / measure 2]                       %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_XV measure 154 / measure 3]                       %! _comment_measure_numbers
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4607,35 +4607,35 @@ Y_Second_Violin_Voice_XVII_a = {                                               %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2
 
     % [Y Second_Violin_Voice_XVII measure 153 / measure 2]                     %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Second_Violin_Voice_XVII measure 154 / measure 3]                 %! _comment_measure_numbers
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -4688,16 +4688,16 @@ Y_Second_Violin_Voice_XVIII_a = {                                              %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Second_Violin_Voice_XVIII measure 153 / measure 2]                    %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Second_Violin_Voice_XVIII measure 154 / measure 3]                    %! _comment_measure_numbers
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4771,7 +4771,7 @@ Y_Viola_Voice_I_a = {                                                          %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -4788,25 +4788,25 @@ Y_Viola_Voice_I_a = {                                                          %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Viola_Voice_I measure 153 / measure 2]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_I measure 154 / measure 3]                                %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4857,20 +4857,20 @@ Y_Viola_Voice_II_a = {                                                         %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_II measure 153 / measure 2]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_II measure 154 / measure 3]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4964,32 +4964,32 @@ Y_Viola_Voice_III_a = {                                                        %
     % [Y Viola_Voice_III measure 153 / measure 2]                              %! _comment_measure_numbers
     r4
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2
 
     % [Y Viola_Voice_III measure 154 / measure 3]                              %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5123,7 +5123,7 @@ Y_Viola_Voice_V_a = {                                                          %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -5139,10 +5139,10 @@ Y_Viola_Voice_V_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Viola_Voice_V measure 153 / measure 2]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_V measure 154 / measure 3]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5193,26 +5193,26 @@ Y_Viola_Voice_VI_a = {                                                         %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Viola_Voice_VI measure 153 / measure 2]                               %! _comment_measure_numbers
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Viola_Voice_VI measure 154 / measure 3]                               %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5301,31 +5301,31 @@ Y_Viola_Voice_VII_a = {                                                        %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
     % [Y Viola_Voice_VII measure 153 / measure 2]                              %! _comment_measure_numbers
     r1
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Viola_Voice_VII measure 154 / measure 3]                          %! _comment_measure_numbers
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -5459,7 +5459,7 @@ Y_Viola_Voice_IX_a = {                                                         %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -5475,18 +5475,18 @@ Y_Viola_Voice_IX_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Viola_Voice_IX measure 153 / measure 2]                               %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_IX measure 154 / measure 3]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5537,22 +5537,22 @@ Y_Viola_Voice_X_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Viola_Voice_X measure 153 / measure 2]                                %! _comment_measure_numbers
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_X measure 154 / measure 3]                                %! _comment_measure_numbers
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5626,7 +5626,7 @@ Y_Viola_Voice_XI_a = {                                                         %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -5641,13 +5641,13 @@ Y_Viola_Voice_XI_a = {                                                         %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
     % [Y Viola_Voice_XI measure 153 / measure 2]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_XI measure 154 / measure 3]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5701,27 +5701,27 @@ Y_Viola_Voice_XII_a = {                                                        %
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
     % [Y Viola_Voice_XII measure 153 / measure 2]                              %! _comment_measure_numbers
     r1
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Viola_Voice_XII measure 154 / measure 3]                          %! _comment_measure_numbers
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -5812,31 +5812,31 @@ Y_Viola_Voice_XIII_a = {                                                       %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Viola_Voice_XIII measure 153 / measure 2]                         %! _comment_measure_numbers
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
     % [Y Viola_Voice_XIII measure 154 / measure 3]                             %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -5889,20 +5889,20 @@ Y_Viola_Voice_XIV_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Viola_Voice_XIV measure 153 / measure 2]                              %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_XIV measure 154 / measure 3]                              %! _comment_measure_numbers
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r4..                                                                       %! animales_clb_rhythm
+    r4..                                                                       %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5976,7 +5976,7 @@ Y_Viola_Voice_XV_a = {                                                         %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -5991,19 +5991,19 @@ Y_Viola_Voice_XV_a = {                                                         %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_XV measure 153 / measure 2]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_XV measure 154 / measure 3]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6060,13 +6060,13 @@ Y_Viola_Voice_XVI_a = {                                                        %
     % [Y Viola_Voice_XVI measure 153 / measure 2]                              %! _comment_measure_numbers
     r2
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -6215,24 +6215,24 @@ Y_Viola_Voice_XVIII_a = {                                                      %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
     % [Y Viola_Voice_XVIII measure 153 / measure 2]                            %! _comment_measure_numbers
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
     % [Y Viola_Voice_XVIII measure 154 / measure 3]                            %! _comment_measure_numbers
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6306,7 +6306,7 @@ Y_Cello_Voice_I_a = {                                                          %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -6323,23 +6323,23 @@ Y_Cello_Voice_I_a = {                                                          %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Cello_Voice_I measure 153 / measure 2]                                %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_I measure 154 / measure 3]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6390,22 +6390,22 @@ Y_Cello_Voice_II_a = {                                                         %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Cello_Voice_II measure 153 / measure 2]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_II measure 154 / measure 3]                               %! _comment_measure_numbers
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6552,35 +6552,35 @@ Y_Cello_Voice_IV_a = {                                                         %
     r4
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2
 
     % [Y Cello_Voice_IV measure 153 / measure 2]                               %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Cello_Voice_IV measure 154 / measure 3]                           %! _comment_measure_numbers
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -6656,7 +6656,7 @@ Y_Cello_Voice_V_a = {                                                          %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -6672,12 +6672,12 @@ Y_Cello_Voice_V_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Cello_Voice_V measure 153 / measure 2]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_V measure 154 / measure 3]                                %! _comment_measure_numbers
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r2...                                                                      %! animales_clb_rhythm
+    r2...                                                                      %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6728,28 +6728,28 @@ Y_Cello_Voice_VI_a = {                                                         %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Cello_Voice_VI measure 153 / measure 2]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_VI measure 154 / measure 3]                               %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6838,15 +6838,15 @@ Y_Cello_Voice_VII_a = {                                                        %
                 }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        d'8                                                                    %! animales_clb_rhythm
+        d'8                                                                    %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
@@ -6911,32 +6911,32 @@ Y_Cello_Voice_VIII_a = {                                                       %
     % [Y Cello_Voice_VIII measure 153 / measure 2]                             %! _comment_measure_numbers
     r4
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2
 
     % [Y Cello_Voice_VIII measure 154 / measure 3]                             %! _comment_measure_numbers
     r2.
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7010,7 +7010,7 @@ Y_Cello_Voice_IX_a = {                                                         %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -7026,18 +7026,18 @@ Y_Cello_Voice_IX_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Cello_Voice_IX measure 153 / measure 2]                               %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_IX measure 154 / measure 3]                               %! _comment_measure_numbers
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7088,14 +7088,14 @@ Y_Cello_Voice_X_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Cello_Voice_X measure 153 / measure 2]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_X measure 154 / measure 3]                                %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7169,7 +7169,7 @@ Y_Cello_Voice_XI_a = {                                                         %
         }                                                                      %! _clone_segment_initial_short_instrument_name
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \voiceOne                                                                  %! baca_voice_one:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -7185,22 +7185,22 @@ Y_Cello_Voice_XI_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     % [Y Cello_Voice_XI measure 153 / measure 2]                               %! _comment_measure_numbers
-    r8.                                                                        %! animales_clb_rhythm
+    r8.                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r2.                                                                        %! animales_clb_rhythm
+    r2.                                                                        %! animales.clb_rhythm
 
     % [Y Cello_Voice_XI measure 154 / measure 3]                               %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    d'16                                                                       %! animales_clb_rhythm
+    d'16                                                                       %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7254,31 +7254,31 @@ Y_Cello_Voice_XII_a = {                                                        %
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
-        r8                                                                     %! animales_clb_rhythm
+        r8                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r4
 
     % [Y Cello_Voice_XII measure 153 / measure 2]                              %! _comment_measure_numbers
     r1
 
-    \times 2/3 {                                                               %! animales_clb_rhythm
+    \times 2/3 {                                                               %! animales.clb_rhythm
 
         % [Y Cello_Voice_XII measure 154 / measure 3]                          %! _comment_measure_numbers
-        r4                                                                     %! animales_clb_rhythm
+        r4                                                                     %! animales.clb_rhythm
 
-        b8                                                                     %! animales_clb_rhythm
+        b8                                                                     %! animales.clb_rhythm
 
-    }                                                                          %! animales_clb_rhythm
+    }                                                                          %! animales.clb_rhythm
 
     r2.
 
@@ -7424,22 +7424,22 @@ Y_Cello_Voice_XIV_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca_voice_two:-PARTS:IndicatorCommand
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Y Cello_Voice_XIV measure 153 / measure 2]                              %! _comment_measure_numbers
-    r4                                                                         %! animales_clb_rhythm
+    r4                                                                         %! animales.clb_rhythm
 
-    r16                                                                        %! animales_clb_rhythm
+    r16                                                                        %! animales.clb_rhythm
 
-    b16                                                                        %! animales_clb_rhythm
+    b16                                                                        %! animales.clb_rhythm
 
-    r8                                                                         %! animales_clb_rhythm
+    r8                                                                         %! animales.clb_rhythm
 
-    r2                                                                         %! animales_clb_rhythm
+    r2                                                                         %! animales.clb_rhythm
 
     % [Y Cello_Voice_XIV measure 154 / measure 3]                              %! _comment_measure_numbers
-    r1                                                                         %! animales_clb_rhythm
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 

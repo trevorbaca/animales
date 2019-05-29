@@ -56,7 +56,7 @@ def clb_rhythm(section, member, counts, wrap):
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts_per_division,
-        tag="animales_clb_rhythm",
+        tag="animales.clb_rhythm",
         talea=talea,
         tuplet_specifier=rmakers.TupletSpecifier(
             diminution=True,
