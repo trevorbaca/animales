@@ -67,7 +67,7 @@ def clb_rhythm(section, member, counts, wrap):
     )
 
     return baca.rhythm(
-        divisions=baca.quarter_split_each(),
+        divisions=baca.divisions().quarters_each(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
     )
