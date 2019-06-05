@@ -1,7 +1,7 @@
 import abjad
 import animales
 import baca
-import roman  # type: ignore
+import roman
 import typing
 
 
@@ -31,7 +31,7 @@ def parts(
         >>> animales.parts('Horn', [1, 3])
         PartAssignmentCommand(part_assignment=PartAssignment('Horn', [1, 3]), selector=baca.leaves())
 
-    ..  container:: example
+    ..  container:: example exception
 
         Raises exception on nonexistent part:
 

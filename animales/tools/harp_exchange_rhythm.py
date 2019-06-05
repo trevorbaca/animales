@@ -5,8 +5,11 @@ from abjadext import rmakers
 
 
 def harp_exchange_rhythm(
-    this_part, division_masks=None, no_logical_tie_masks=False
-):
+    this_part: int,
+    *,
+    dmask: rmakers.MasksTyping = None,
+    no_logical_tie_masks: bool = False,
+) -> baca.RhythmCommand:
     """
     Makes harp-exchange rhythm.
     """
@@ -73,11 +76,10 @@ def harp_exchange_rhythm(
         logical_tie_masks = None
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        division_masks=division_masks,
+        division_masks=dmask,
         extra_counts_per_division=[2],
         logical_tie_masks=logical_tie_masks,
         talea=talea,
-        tag="animales.harp_exchange_rhythm",
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True, trivialize=True
@@ -88,4 +90,5 @@ def harp_exchange_rhythm(
         persist="harp_exchange_rhythm",
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
+        tag="animales.harp_exchange_rhythm",
     )

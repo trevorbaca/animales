@@ -1,11 +1,20 @@
 import abjad
 import animales
 import baca
-import roman  # type: ignore
+import roman
+import typing
+from .clb_rhythm import clb_rhythm
+from .margin_markup import margin_markup
+from .parts import parts
 
 
 def constellations(
-    maker, counts, first=False, omit_contrabasses=False, range_=(1, -1)
+    maker: baca.SegmentMaker,
+    counts: typing.Sequence[abjad.IntegerSequence],
+    *,
+    first: bool = False,
+    omit_contrabasses: bool = False,
+    range_: typing.Union[int, abjad.IntegerPair] = (1, -1),
 ):
     """
     Makes constellations.
@@ -38,6 +47,7 @@ def constellations(
         )
 
     duration = sum([_.duration for _ in maker.time_signatures])
+    assert isinstance(duration, abjad.Duration), repr(duration)
     wrap = duration.with_denominator(16).numerator
     for section, members in section_to_members.items():
         if omit_contrabasses and section == "Contrabass":
@@ -47,8 +57,8 @@ def constellations(
             numeral = roman.toRoman(member)
             numeral = str(numeral).upper()
             voice = f"{section}_Voice_{numeral}"
-            maker(voice, animales.parts(section, member))
-            rhythm = animales.clb_rhythm(section, member, counts, wrap)
+            maker(voice, parts(section, member))
+            rhythm = clb_rhythm(section, member, counts, wrap)
             commands.append(rhythm)
             if member % 2 == 0:
                 polyphony = lower_voice()
@@ -61,6 +71,7 @@ def constellations(
                         "tap G string with wood of bow in rhythm indicated.",
                     ]
                 ).boxed()
+                command: baca.CommandTyping
                 command = baca.markup(markup, selector=baca.leaf(0))
                 command = baca.only_parts(command)
                 commands.append(command)
@@ -73,7 +84,7 @@ def constellations(
             if first and member % 2 == 1:
                 abbreviation = section_to_abbreviation[section]
                 key = f"{abbreviation} ({member}-{member+1})"
-                margin_markup = animales.margin_markup(key)
-                commands.append(margin_markup)
+                margin_markup_ = margin_markup(key)
+                commands.append(margin_markup_)
             commands.append(polyphony)
             maker((voice, range_), *commands)

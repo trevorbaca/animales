@@ -1,10 +1,15 @@
 import abjad
 import animales
 import baca
-import roman  # type: ignore
+import roman
+import typing
+from .downbeat_attack import downbeat_attack
 
 
-def brass_sforzando(maker, range_=(1, -1)):
+def brass_sforzando(
+    maker: baca.SegmentMaker,
+    range_: typing.Union[int, abjad.IntegerPair] = (1, -1),
+) -> None:
     """
     Makes brass sforzando.
     """
@@ -26,7 +31,7 @@ def brass_sforzando(maker, range_=(1, -1)):
     }
 
     for voice, pitch in voice_to_pitch.items():
-        maker((voice, range_), animales.downbeat_attack(), baca.marcato())
+        maker((voice, range_), downbeat_attack(), baca.marcato())
         words = abjad.String(voice).delimit_words()
         member = roman.fromRoman(words[-1])
         if member in (1, 2):

@@ -62,7 +62,6 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2],
-        tag="animales.sforzando_exchange_rhythm",
         talea=talea,
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(
@@ -74,4 +73,5 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
         persist="sforzando_exchange_rhythm",
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
+        tag="animales.sforzando_exchange_rhythm",
     )

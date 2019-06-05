@@ -3,9 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
+def brass_manifest_rhythm(
+    part: int, *, left_broken: bool = False, right_broken: bool = False
+) -> baca.RhythmCommand:
     """
-    'Makes brass manifest rhythm.
+    Makes brass manifest rhythm.
     """
 
     assert part in range(1, 12 + 1), repr(part)
@@ -33,7 +35,6 @@ def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts_per_division,
-        tag="animales.brass_manifest_rhythm",
         talea=talea,
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True, rewrite_rest_filled=True, trivialize=True
@@ -47,4 +48,5 @@ def brass_manifest_rhythm(part, left_broken=False, right_broken=False):
         rewrite_meter=True,
         right_broken=right_broken,
         rhythm_maker=rhythm_maker,
+        tag="animales.brass_manifest_rhythm",
     )
