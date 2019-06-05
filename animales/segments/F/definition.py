@@ -273,7 +273,7 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(
         1,
-        division_masks=rmakers.silence([1]),
+        dmask=rmakers.silence([1]),
         no_logical_tie_masks=True,
         ),
     animales.margin_markup('Cb. 1'),

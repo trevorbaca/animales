@@ -1,9 +1,12 @@
 import abjad
 import animales
 import baca
+from .sforzando_exchange_rhythm import sforzando_exchange_rhythm
 
 
-def make_trill_rhythm(maker, measures=(1, -1)):
+def make_trill_rhythm(
+    maker: baca.SegmentMaker, measures: abjad.IntegerPair = (1, -1)
+) -> None:
     """
     Makes trill rhythm.
     """
@@ -19,4 +22,4 @@ def make_trill_rhythm(maker, measures=(1, -1)):
     }
 
     for voice, part in voice_to_part.items():
-        maker((voice, measures), animales.sforzando_exchange_rhythm(part))
+        maker((voice, measures), sforzando_exchange_rhythm(part))

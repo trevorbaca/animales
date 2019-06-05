@@ -2,12 +2,15 @@ import abjad
 import baca
 
 
-def attach_grand_pause_fermatas(maker, measure=-1):
+def attach_grand_pause_fermatas(
+    maker: baca.SegmentMaker, *, measure: int = -1
+) -> None:
     """
     Attaches grand pause fermatas in parts.
 
     Because voices alive in semgent do not receive GlobalRests variables.
     """
+    assert maker.score_template is not None
     dummy_score = maker.score_template()
     for voice in abjad.iterate(dummy_score).components(abjad.Voice):
         markup = abjad.Markup.musicglyph("scripts.ufermata")

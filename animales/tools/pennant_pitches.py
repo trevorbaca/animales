@@ -1,13 +1,19 @@
 import abjad
 import baca
+import typing
 
 
-def pennant_pitches(start_pitch, intervals=[0], direction=abjad.Up):
+def pennant_pitches(
+    start_pitch: typing.Union[int, str],
+    intervals: abjad.IntegerSequence = [0],
+    *,
+    direction: abjad.VerticalAlignment = abjad.Up,
+) -> baca.CommandTyping:
     """
     Makes pennant pitches.
     """
-    start_pitch = abjad.NumberedPitch(start_pitch)
-    start_pitch = start_pitch.number
+    start_pitch_ = abjad.NumberedPitch(start_pitch)
+    start_pitch = start_pitch_.number
     intervals_ = [
         0,
         1,

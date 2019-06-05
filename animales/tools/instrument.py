@@ -2,7 +2,7 @@ import animales
 import baca
 
 
-def instrument(key):
+def instrument(key) -> baca.InstrumentChangeCommand:
     """
     Makes instrument change command.
     """
