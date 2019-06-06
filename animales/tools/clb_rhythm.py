@@ -50,9 +50,7 @@ def clb_rhythm(
         extra_counts = [-1]
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        beam_specifier=rmakers.BeamSpecifier(
-            beam_each_division=True,
-        ),
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts,
         talea=talea,
         tuplet_specifier=rmakers.TupletSpecifier(
