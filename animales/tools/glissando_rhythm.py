@@ -10,13 +10,11 @@ def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
-        beam_specifier=rmakers.BeamSpecifier(
-            beam_each_division=True,
-        ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             talea=rmakers.Talea(
                 counts=baca.sequence([5, 1, 2, 1]).rotate(n=rotate),
                 denominator=8,
-            )
+            ),
         ),
         tag="animales.glissando_rhythm",
     )

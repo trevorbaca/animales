@@ -61,9 +61,7 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
     talea = rmakers.Talea(counts=counts, denominator=16, preamble=preamble)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        beam_specifier=rmakers.BeamSpecifier(
-            beam_each_division=True,
-        ),
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=[2],
         talea=talea,
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
