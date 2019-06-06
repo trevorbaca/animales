@@ -76,6 +76,9 @@ def harp_exchange_rhythm(
         logical_tie_masks = None
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        beam_specifier=rmakers.BeamSpecifier(
+            beam_each_division=True,
+        ),
         division_masks=dmask,
         extra_counts_per_division=[2],
         logical_tie_masks=logical_tie_masks,
