@@ -8,7 +8,7 @@ def harp_exchange_rhythm(
     this_part: int,
     *,
     dmask: rmakers.MasksTyping = None,
-    no_logical_tie_masks: bool = False,
+    mask_first: bool = False,
 ) -> baca.RhythmCommand:
     """
     Makes harp-exchange rhythm.
@@ -68,18 +68,17 @@ def harp_exchange_rhythm(
         counts.append(rest)
     talea = rmakers.Talea(counts=counts, denominator=16, preamble=preamble)
 
-    if this_part == 0:
-        logical_tie_masks = None
-    elif not no_logical_tie_masks:
-        logical_tie_masks = [rmakers.silence([0])]
-    else:
-        logical_tie_masks = None
+    specifiers = []
+    if mask_first is True:
+        specifiers.append(
+            rmakers.SilenceMask(selector=baca.lt(0)),
+        )
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        *specifiers,
         beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         division_masks=dmask,
         extra_counts_per_division=[2],
-        logical_tie_masks=logical_tie_masks,
         talea=talea,
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(

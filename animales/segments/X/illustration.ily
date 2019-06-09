@@ -129,7 +129,7 @@ X_Horn_Voice_I_a = {                                                           %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -200,7 +200,7 @@ X_Horn_Voice_III_a = {                                                         %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -321,7 +321,7 @@ X_Horn_Voice_II_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -392,7 +392,7 @@ X_Horn_Voice_IV_a = {                                                          %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -513,7 +513,7 @@ X_Trumpet_Voice_I_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -584,7 +584,7 @@ X_Trumpet_Voice_III_a = {                                                      %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -705,7 +705,7 @@ X_Trumpet_Voice_II_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -776,7 +776,7 @@ X_Trumpet_Voice_IV_a = {                                                       %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -897,7 +897,7 @@ X_Trombone_Voice_I_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -968,7 +968,7 @@ X_Trombone_Voice_III_a = {                                                     %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1089,7 +1089,7 @@ X_Trombone_Voice_II_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1160,7 +1160,7 @@ X_Trombone_Voice_IV_a = {                                                      %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1268,7 +1268,7 @@ X_Tuba_Voice_I_a = {                                                           %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
