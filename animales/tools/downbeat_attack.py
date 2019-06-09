@@ -12,9 +12,11 @@ def downbeat_attack(
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.SilenceMask(
+                selector=baca.lts()[abjad.index([0], inverted=True)],
+            ),
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=[rmakers.silence([0], inverted=True)],
-            logical_tie_masks=[rmakers.silence([0], inverted=True)],
             talea=rmakers.Talea(counts=[count], denominator=denominator),
         ),
         tag="animales.downbeat_attack",

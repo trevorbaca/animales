@@ -109,7 +109,7 @@ maker(
 maker(
     'hp1',
     animales.parts('Harp'),
-    animales.harp_exchange_rhythm(2),
+    animales.harp_exchange_rhythm(2, mask_first=True),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.edition(
@@ -131,7 +131,7 @@ maker(
 maker(
     'pf1',
     animales.parts('Piano'),
-    animales.harp_exchange_rhythm(3),
+    animales.harp_exchange_rhythm(3, mask_first=True),
     baca.dynamic('mf'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup('mute with LH inside piano: dull thud', boxed=True),
@@ -274,7 +274,6 @@ maker(
     animales.harp_exchange_rhythm(
         1,
         dmask=rmakers.silence([1]),
-        no_logical_tie_masks=True,
         ),
     animales.margin_markup('Cb. 1'),
     baca.dynamic('p'),

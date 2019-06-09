@@ -328,7 +328,7 @@ C_Horn_Voice_I_a = {                                                           %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -426,7 +426,7 @@ C_Horn_Voice_III_a = {                                                         %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -574,7 +574,7 @@ C_Horn_Voice_II_a = {                                                          %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -672,7 +672,7 @@ C_Horn_Voice_IV_a = {                                                          %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -820,7 +820,7 @@ C_Trumpet_Voice_I_a = {                                                        %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -918,7 +918,7 @@ C_Trumpet_Voice_III_a = {                                                      %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1066,7 +1066,7 @@ C_Trumpet_Voice_II_a = {                                                       %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1164,7 +1164,7 @@ C_Trumpet_Voice_IV_a = {                                                       %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1312,7 +1312,7 @@ C_Trombone_Voice_I_a = {                                                       %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1410,7 +1410,7 @@ C_Trombone_Voice_III_a = {                                                     %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1558,7 +1558,7 @@ C_Trombone_Voice_II_a = {                                                      %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1656,7 +1656,7 @@ C_Trombone_Voice_IV_a = {                                                      %
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:+PARTS:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1791,7 +1791,7 @@ C_Tuba_Voice_I_a = {                                                           %
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \marcato                                                                 %! baca.marcato:IndicatorCommand
 
-    r2..
+    r2..                                                                       %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 

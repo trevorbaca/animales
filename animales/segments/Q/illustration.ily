@@ -279,9 +279,9 @@ Q_Horn_Voice_I_a = {                                                           %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -391,9 +391,9 @@ Q_Horn_Voice_III_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -554,9 +554,9 @@ Q_Horn_Voice_II_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -666,9 +666,9 @@ Q_Horn_Voice_IV_a = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -829,9 +829,9 @@ Q_Trumpet_Voice_I_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -941,9 +941,9 @@ Q_Trumpet_Voice_III_a = {                                                      %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1104,9 +1104,9 @@ Q_Trumpet_Voice_II_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1216,9 +1216,9 @@ Q_Trumpet_Voice_IV_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1379,9 +1379,9 @@ Q_Trombone_Voice_I_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1491,9 +1491,9 @@ Q_Trombone_Voice_III_a = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1654,9 +1654,9 @@ Q_Trombone_Voice_II_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1766,9 +1766,9 @@ Q_Trombone_Voice_IV_a = {                                                      %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
-    r8
+    r8                                                                         %! animales.downbeat_attack
 
-    r2
+    r2                                                                         %! animales.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
