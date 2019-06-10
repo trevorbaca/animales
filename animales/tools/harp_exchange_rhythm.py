@@ -70,9 +70,7 @@ def harp_exchange_rhythm(
 
     specifiers = []
     if mask_first is True:
-        specifiers.append(
-            rmakers.SilenceMask(selector=baca.lt(0)),
-        )
+        specifiers.append(rmakers.SilenceMask(selector=baca.lt(0)))
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         *specifiers,
