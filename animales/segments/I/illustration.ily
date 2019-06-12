@@ -396,7 +396,7 @@ I_Horn_Voice_I_a = {                                                           %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -415,7 +415,7 @@ I_Horn_Voice_I_a = {                                                           %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [I Horn_Voice_I measure 57 / measure 2]                                  %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
 
     e'4                                                                        %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -533,7 +533,7 @@ I_Horn_Voice_III_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     % [I Horn_Voice_III measure 59 / measure 4]                                %! _comment_measure_numbers
     ef'!2..                                                                    %! animales.brass_manifest_rhythm
@@ -554,7 +554,7 @@ I_Horn_Voice_III_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     ef'!2                                                                      %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -638,7 +638,7 @@ I_Horn_Voice_II_a = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -657,7 +657,7 @@ I_Horn_Voice_II_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [I Horn_Voice_II measure 57 / measure 2]                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                        %! animales.brass_manifest_rhythm
 
     \times 2/3 {                                                               %! animales.brass_manifest_rhythm
 
@@ -763,7 +763,7 @@ I_Horn_Voice_IV_a = {                                                          %
 
     % [I Horn_Voice_IV measure 56 / measure 1]                                 %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    r4.
+    r4.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
 
@@ -908,7 +908,7 @@ I_Trumpet_Voice_I_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -927,7 +927,7 @@ I_Trumpet_Voice_I_a = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [I Trumpet_Voice_I measure 57 / measure 2]                               %! _comment_measure_numbers
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     af'!2                                                                      %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -947,7 +947,7 @@ I_Trumpet_Voice_I_a = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     af'!2                                                                      %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -967,7 +967,7 @@ I_Trumpet_Voice_I_a = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     af'!4                                                                      %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1172,7 +1172,7 @@ I_Trumpet_Voice_II_a = {                                                       %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1191,7 +1191,7 @@ I_Trumpet_Voice_II_a = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [I Trumpet_Voice_II measure 57 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
 
     r8                                                                         %! animales.brass_manifest_rhythm
 
@@ -1296,7 +1296,7 @@ I_Trumpet_Voice_IV_a = {                                                       %
 
     % [I Trumpet_Voice_IV measure 56 / measure 1]                              %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    r4.
+    r4.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
 
@@ -1350,7 +1350,7 @@ I_Trumpet_Voice_IV_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     g'2                                                                        %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1434,7 +1434,7 @@ I_Trombone_Voice_I_a = {                                                       %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1453,7 +1453,7 @@ I_Trombone_Voice_I_a = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [I Trombone_Voice_I measure 57 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
 
     af!4                                                                       %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1479,7 +1479,7 @@ I_Trombone_Voice_I_a = {                                                       %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [I Trombone_Voice_I measure 60 / measure 5]                              %! _comment_measure_numbers
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     bf!4                                                                       %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1577,7 +1577,7 @@ I_Trombone_Voice_III_a = {                                                     %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [I Trombone_Voice_III measure 59 / measure 4]                            %! _comment_measure_numbers
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     a2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1610,7 +1610,7 @@ I_Trombone_Voice_III_a = {                                                     %
     a2                                                                         %! animales.brass_manifest_rhythm
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1689,7 +1689,7 @@ I_Trombone_Voice_II_a = {                                                      %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    r2
+    r2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1708,7 +1708,7 @@ I_Trombone_Voice_II_a = {                                                      %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [I Trombone_Voice_II measure 57 / measure 2]                             %! _comment_measure_numbers
-    r2.
+    r2.                                                                        %! animales.brass_manifest_rhythm
 
     \times 2/3 {                                                               %! animales.brass_manifest_rhythm
 
@@ -1816,7 +1816,7 @@ I_Trombone_Voice_IV_a = {                                                      %
 
     % [I Trombone_Voice_IV measure 56 / measure 1]                             %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    r4.
+    r4.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:_reapply_persistent_indicators(3)
 

@@ -1630,7 +1630,7 @@ R_First_Violin_Voice_III_a = {                                                 %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1659,10 +1659,10 @@ R_First_Violin_Voice_III_a = {                                                 %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R First_Violin_Voice_III measure 132 / measure 2]                       %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_III measure 133 / measure 3]                       %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1713,7 +1713,7 @@ R_First_Violin_Voice_IV_a = {                                                  %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
@@ -1729,10 +1729,10 @@ R_First_Violin_Voice_IV_a = {                                                  %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R First_Violin_Voice_IV measure 132 / measure 2]                        %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_IV measure 133 / measure 3]                        %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2006,7 +2006,7 @@ R_First_Violin_Voice_VII_a = {                                                 %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -2033,10 +2033,10 @@ R_First_Violin_Voice_VII_a = {                                                 %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R First_Violin_Voice_VII measure 132 / measure 2]                       %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_VII measure 133 / measure 3]                       %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2087,7 +2087,7 @@ R_First_Violin_Voice_VIII_a = {                                                %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -2101,10 +2101,10 @@ R_First_Violin_Voice_VIII_a = {                                                %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R First_Violin_Voice_VIII measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_VIII measure 133 / measure 3]                      %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2451,7 +2451,7 @@ R_First_Violin_Voice_XII_a = {                                                 %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -2465,10 +2465,10 @@ R_First_Violin_Voice_XII_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R First_Violin_Voice_XII measure 132 / measure 2]                       %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_XII measure 133 / measure 3]                       %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2552,7 +2552,7 @@ R_First_Violin_Voice_XIII_a = {                                                %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -2579,10 +2579,10 @@ R_First_Violin_Voice_XIII_a = {                                                %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R First_Violin_Voice_XIII measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_XIII measure 133 / measure 3]                      %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2815,7 +2815,7 @@ R_First_Violin_Voice_XVI_a = {                                                 %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -2829,10 +2829,10 @@ R_First_Violin_Voice_XVI_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R First_Violin_Voice_XVI measure 132 / measure 2]                       %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_XVI measure 133 / measure 3]                       %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -2916,7 +2916,7 @@ R_First_Violin_Voice_XVII_a = {                                                %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -2943,10 +2943,10 @@ R_First_Violin_Voice_XVII_a = {                                                %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R First_Violin_Voice_XVII measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R First_Violin_Voice_XVII measure 133 / measure 3]                      %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3288,7 +3288,7 @@ R_Second_Violin_Voice_III_a = {                                                %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3317,10 +3317,10 @@ R_Second_Violin_Voice_III_a = {                                                %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Second_Violin_Voice_III measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_III measure 133 / measure 3]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
@@ -3332,7 +3332,7 @@ R_Second_Violin_Voice_III_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm
 
-    r4
+    r4                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3383,7 +3383,7 @@ R_Second_Violin_Voice_IV_a = {                                                 %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
@@ -3399,10 +3399,10 @@ R_Second_Violin_Voice_IV_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Second_Violin_Voice_IV measure 132 / measure 2]                       %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_IV measure 133 / measure 3]                       %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3670,7 +3670,7 @@ R_Second_Violin_Voice_VII_a = {                                                %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -3697,10 +3697,10 @@ R_Second_Violin_Voice_VII_a = {                                                %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Second_Violin_Voice_VII measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_VII measure 133 / measure 3]                      %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -3751,7 +3751,7 @@ R_Second_Violin_Voice_VIII_a = {                                               %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -3765,10 +3765,10 @@ R_Second_Violin_Voice_VIII_a = {                                               %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Second_Violin_Voice_VIII measure 132 / measure 2]                     %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_VIII measure 133 / measure 3]                     %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4115,7 +4115,7 @@ R_Second_Violin_Voice_XII_a = {                                                %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -4129,7 +4129,7 @@ R_Second_Violin_Voice_XII_a = {                                                %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Second_Violin_Voice_XII measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
@@ -4148,7 +4148,7 @@ R_Second_Violin_Voice_XII_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm
 
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4232,7 +4232,7 @@ R_Second_Violin_Voice_XIII_a = {                                               %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -4259,10 +4259,10 @@ R_Second_Violin_Voice_XIII_a = {                                               %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Second_Violin_Voice_XIII measure 132 / measure 2]                     %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_XIII measure 133 / measure 3]                     %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4495,7 +4495,7 @@ R_Second_Violin_Voice_XVI_a = {                                                %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -4509,10 +4509,10 @@ R_Second_Violin_Voice_XVI_a = {                                                %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Second_Violin_Voice_XVI measure 132 / measure 2]                      %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_XVI measure 133 / measure 3]                      %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4596,7 +4596,7 @@ R_Second_Violin_Voice_XVII_a = {                                               %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -4623,10 +4623,10 @@ R_Second_Violin_Voice_XVII_a = {                                               %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Second_Violin_Voice_XVII measure 132 / measure 2]                     %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Second_Violin_Voice_XVII measure 133 / measure 3]                     %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -4964,7 +4964,7 @@ R_Viola_Voice_III_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -4993,10 +4993,10 @@ R_Viola_Voice_III_a = {                                                        %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Viola_Voice_III measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_III measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5047,7 +5047,7 @@ R_Viola_Voice_IV_a = {                                                         %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
@@ -5063,10 +5063,10 @@ R_Viola_Voice_IV_a = {                                                         %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Viola_Voice_IV measure 132 / measure 2]                               %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_IV measure 133 / measure 3]                               %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5342,7 +5342,7 @@ R_Viola_Voice_VII_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -5369,10 +5369,10 @@ R_Viola_Voice_VII_a = {                                                        %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Viola_Voice_VII measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_VII measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5423,7 +5423,7 @@ R_Viola_Voice_VIII_a = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -5437,10 +5437,10 @@ R_Viola_Voice_VIII_a = {                                                       %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Viola_Voice_VIII measure 132 / measure 2]                             %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_VIII measure 133 / measure 3]                             %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5787,7 +5787,7 @@ R_Viola_Voice_XII_a = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r2
+    r2                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -5808,13 +5808,13 @@ R_Viola_Voice_XII_a = {                                                        %
 
     }                                                                          %! animales.clb_rhythm
 
-    r4
+    r4                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_XII measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_XII measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -5898,7 +5898,7 @@ R_Viola_Voice_XIII_a = {                                                       %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -5925,10 +5925,10 @@ R_Viola_Voice_XIII_a = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Viola_Voice_XIII measure 132 / measure 2]                             %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_XIII measure 133 / measure 3]                             %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6167,7 +6167,7 @@ R_Viola_Voice_XVI_a = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -6181,10 +6181,10 @@ R_Viola_Voice_XVI_a = {                                                        %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Viola_Voice_XVI measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_XVI measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6268,7 +6268,7 @@ R_Viola_Voice_XVII_a = {                                                       %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -6295,10 +6295,10 @@ R_Viola_Voice_XVII_a = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Viola_Voice_XVII measure 132 / measure 2]                             %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Viola_Voice_XVII measure 133 / measure 3]                             %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6642,7 +6642,7 @@ R_Cello_Voice_III_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -6669,10 +6669,10 @@ R_Cello_Voice_III_a = {                                                        %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Cello_Voice_III measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Cello_Voice_III measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -6723,7 +6723,7 @@ R_Cello_Voice_IV_a = {                                                         %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -6737,10 +6737,10 @@ R_Cello_Voice_IV_a = {                                                         %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Cello_Voice_IV measure 132 / measure 2]                               %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Cello_Voice_IV measure 133 / measure 3]                               %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7008,7 +7008,7 @@ R_Cello_Voice_VII_a = {                                                        %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -7035,10 +7035,10 @@ R_Cello_Voice_VII_a = {                                                        %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Cello_Voice_VII measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Cello_Voice_VII measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7089,7 +7089,7 @@ R_Cello_Voice_VIII_a = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -7103,10 +7103,10 @@ R_Cello_Voice_VIII_a = {                                                       %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Cello_Voice_VIII measure 132 / measure 2]                             %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Cello_Voice_VIII measure 133 / measure 3]                             %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7457,7 +7457,7 @@ R_Cello_Voice_XII_a = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -7471,10 +7471,10 @@ R_Cello_Voice_XII_a = {                                                        %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Cello_Voice_XII measure 132 / measure 2]                              %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Cello_Voice_XII measure 133 / measure 3]                              %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7558,7 +7558,7 @@ R_Cello_Voice_XIII_a = {                                                       %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -7585,10 +7585,10 @@ R_Cello_Voice_XIII_a = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Cello_Voice_XIII measure 132 / measure 2]                             %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Cello_Voice_XIII measure 133 / measure 3]                             %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7823,7 +7823,7 @@ R_Contrabass_Voice_II_a = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    r1
+    r1                                                                         %! animales.clb_rhythm
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
@@ -7837,10 +7837,10 @@ R_Contrabass_Voice_II_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [R Contrabass_Voice_II measure 132 / measure 2]                          %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Contrabass_Voice_II measure 133 / measure 3]                          %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -7924,7 +7924,7 @@ R_Contrabass_Voice_III_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \magnifyStaff #3/5                                                         %! _magnify_staves_:-PARTS
-    r1
+    r1                                                                         %! animales.clb_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -7953,10 +7953,10 @@ R_Contrabass_Voice_III_a = {                                                   %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [R Contrabass_Voice_III measure 132 / measure 2]                         %! _comment_measure_numbers
-    r2
+    r2                                                                         %! animales.clb_rhythm
 
     % [R Contrabass_Voice_III measure 133 / measure 3]                         %! _comment_measure_numbers
-    r1
+    r1                                                                         %! animales.clb_rhythm
 
 }                                                                              %! abjad.Path.extern
 

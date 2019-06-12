@@ -467,7 +467,7 @@ J_Horn_Voice_III_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     f'2                                                                        %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -490,7 +490,7 @@ J_Horn_Voice_III_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     % [J Horn_Voice_III measure 66 / measure 5]                                %! _comment_measure_numbers
     f'2..                                                                      %! animales.brass_manifest_rhythm
@@ -507,7 +507,7 @@ J_Horn_Voice_III_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1250,7 +1250,7 @@ J_Trumpet_Voice_II_a = {                                                       %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [J Trumpet_Voice_II measure 66 / measure 5]                              %! _comment_measure_numbers
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     af'!2.                                                                     %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1263,7 +1263,7 @@ J_Trumpet_Voice_II_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
 }                                                                              %! abjad.Path.extern
 
@@ -1314,7 +1314,7 @@ J_Trumpet_Voice_IV_a = {                                                       %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [J Trumpet_Voice_IV measure 63 / measure 2]                              %! _comment_measure_numbers
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     a'2.                                                                       %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1327,7 +1327,7 @@ J_Trumpet_Voice_IV_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     % [J Trumpet_Voice_IV measure 65 / measure 4]                              %! _comment_measure_numbers
     a'2                                                                        %! animales.brass_manifest_rhythm
@@ -1462,7 +1462,7 @@ J_Trombone_Voice_I_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     % [J Trombone_Voice_I measure 63 / measure 2]                              %! _comment_measure_numbers
     bf!2                                                                       %! animales.brass_manifest_rhythm
@@ -1495,7 +1495,7 @@ J_Trombone_Voice_I_a = {                                                       %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [J Trombone_Voice_I measure 65 / measure 4]                              %! _comment_measure_numbers
-    r4
+    r4                                                                         %! animales.brass_manifest_rhythm
 
     af!4                                                                       %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

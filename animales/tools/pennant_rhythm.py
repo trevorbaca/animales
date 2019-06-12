@@ -16,13 +16,13 @@ def pennant_rhythm(
         mask = rmakers.silence(silences)
         dmask = [mask]
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        rmakers.TupletSpecifier(
+            diminution=True, extract_trivial=True, trivialize=True
+        ),
         beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         division_masks=dmask,
         extra_counts_per_division=extra_counts,
         talea=rmakers.Talea(counts=[1], denominator=16),
-        tuplet_specifier=rmakers.TupletSpecifier(
-            diminution=True, extract_trivial=True, trivialize=True
-        ),
     )
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
