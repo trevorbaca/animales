@@ -56,7 +56,7 @@ def clb_rhythm(
             rewrite_rest_filled=True,
             trivialize=True,
         ),
-        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+        rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts,
         talea=talea,
     )
