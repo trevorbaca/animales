@@ -204,7 +204,7 @@ F_Clarinet_Voice_I_a = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    e''2                                                                       %! baca_make_repeat_tied_notes
+    e''2                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "(“Clarinet”)"                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -227,15 +227,15 @@ F_Clarinet_Voice_I_a = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [F Clarinet_Voice_I measure 37 / measure 2]                              %! _comment_measure_numbers
-    e''1                                                                       %! baca_make_repeat_tied_notes
+    e''1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Clarinet_Voice_I measure 38 / measure 3]                              %! _comment_measure_numbers
-    e''1                                                                       %! baca_make_repeat_tied_notes
+    e''1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Clarinet_Voice_I measure 39 / measure 4]                              %! _comment_measure_numbers
-    e''1                                                                       %! baca_make_repeat_tied_notes
+    e''1                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -257,7 +257,7 @@ F_Clarinet_Voice_I_b = {                                                       %
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    ef''!1                                                                     %! baca_make_repeat_tied_notes
+    ef''!1                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     ^ \markup { "solo (cl. 2)" }                                               %! baca.markup:-PARTS:IndicatorCommand
@@ -278,15 +278,15 @@ F_Clarinet_Voice_I_b = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [F Clarinet_Voice_I measure 41 / measure 6]                              %! _comment_measure_numbers
-    ef''!2                                                                     %! baca_make_repeat_tied_notes
+    ef''!2                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Clarinet_Voice_I measure 42 / measure 7]                              %! _comment_measure_numbers
-    ef''!1                                                                     %! baca_make_repeat_tied_notes
+    ef''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Clarinet_Voice_I measure 43 / measure 8]                              %! _comment_measure_numbers
-    ef''!1                                                                     %! baca_make_repeat_tied_notes
+    ef''!1                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -772,7 +772,7 @@ F_Percussion_Voice_II_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -793,42 +793,42 @@ F_Percussion_Voice_II_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F Percussion_Voice_II measure 37 / measure 2]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [F Percussion_Voice_II measure 38 / measure 3]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [F Percussion_Voice_II measure 39 / measure 4]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [F Percussion_Voice_II measure 40 / measure 5]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [F Percussion_Voice_II measure 41 / measure 6]                           %! _comment_measure_numbers
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [F Percussion_Voice_II measure 42 / measure 7]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [F Percussion_Voice_II measure 43 / measure 8]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -1043,7 +1043,7 @@ F_First_Violin_Voice_I_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    bf'''!2                                                                    %! baca_make_repeat_tied_notes
+    bf'''!2                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1065,31 +1065,31 @@ F_First_Violin_Voice_I_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F First_Violin_Voice_I measure 37 / measure 2]                          %! _comment_measure_numbers
-    bf'''!1                                                                    %! baca_make_repeat_tied_notes
+    bf'''!1                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F First_Violin_Voice_I measure 38 / measure 3]                          %! _comment_measure_numbers
-    bf'''!1                                                                    %! baca_make_repeat_tied_notes
+    bf'''!1                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F First_Violin_Voice_I measure 39 / measure 4]                          %! _comment_measure_numbers
-    bf'''!1                                                                    %! baca_make_repeat_tied_notes
+    bf'''!1                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F First_Violin_Voice_I measure 40 / measure 5]                          %! _comment_measure_numbers
-    bf'''!1                                                                    %! baca_make_repeat_tied_notes
+    bf'''!1                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F First_Violin_Voice_I measure 41 / measure 6]                          %! _comment_measure_numbers
-    bf'''!2                                                                    %! baca_make_repeat_tied_notes
+    bf'''!2                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F First_Violin_Voice_I measure 42 / measure 7]                          %! _comment_measure_numbers
-    bf'''!1                                                                    %! baca_make_repeat_tied_notes
+    bf'''!1                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F First_Violin_Voice_I measure 43 / measure 8]                          %! _comment_measure_numbers
-    bf'''!1                                                                    %! baca_make_repeat_tied_notes
+    bf'''!1                                                                    %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -1156,7 +1156,7 @@ F_Second_Violin_Voice_I_a = {                                                  %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    bf''!2                                                                     %! baca_make_repeat_tied_notes
+    bf''!2                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1172,31 +1172,31 @@ F_Second_Violin_Voice_I_a = {                                                  %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F Second_Violin_Voice_I measure 37 / measure 2]                         %! _comment_measure_numbers
-    bf''!1                                                                     %! baca_make_repeat_tied_notes
+    bf''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Second_Violin_Voice_I measure 38 / measure 3]                         %! _comment_measure_numbers
-    bf''!1                                                                     %! baca_make_repeat_tied_notes
+    bf''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Second_Violin_Voice_I measure 39 / measure 4]                         %! _comment_measure_numbers
-    bf''!1                                                                     %! baca_make_repeat_tied_notes
+    bf''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Second_Violin_Voice_I measure 40 / measure 5]                         %! _comment_measure_numbers
-    bf''!1                                                                     %! baca_make_repeat_tied_notes
+    bf''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Second_Violin_Voice_I measure 41 / measure 6]                         %! _comment_measure_numbers
-    bf''!2                                                                     %! baca_make_repeat_tied_notes
+    bf''!2                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Second_Violin_Voice_I measure 42 / measure 7]                         %! _comment_measure_numbers
-    bf''!1                                                                     %! baca_make_repeat_tied_notes
+    bf''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Second_Violin_Voice_I measure 43 / measure 8]                         %! _comment_measure_numbers
-    bf''!1                                                                     %! baca_make_repeat_tied_notes
+    bf''!1                                                                     %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -1263,7 +1263,7 @@ F_Viola_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    bf'!2                                                                      %! baca_make_repeat_tied_notes
+    bf'!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle.”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1279,31 +1279,31 @@ F_Viola_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F Viola_Voice_I measure 37 / measure 2]                                 %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Viola_Voice_I measure 38 / measure 3]                                 %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Viola_Voice_I measure 39 / measure 4]                                 %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Viola_Voice_I measure 40 / measure 5]                                 %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Viola_Voice_I measure 41 / measure 6]                                 %! _comment_measure_numbers
-    bf'!2                                                                      %! baca_make_repeat_tied_notes
+    bf'!2                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Viola_Voice_I measure 42 / measure 7]                                 %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Viola_Voice_I measure 43 / measure 8]                                 %! _comment_measure_numbers
-    bf'!1                                                                      %! baca_make_repeat_tied_notes
+    bf'!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -1370,7 +1370,7 @@ F_Cello_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    bf,!2                                                                      %! baca_make_repeat_tied_notes
+    bf,!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1386,31 +1386,31 @@ F_Cello_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F Cello_Voice_I measure 37 / measure 2]                                 %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Cello_Voice_I measure 38 / measure 3]                                 %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Cello_Voice_I measure 39 / measure 4]                                 %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Cello_Voice_I measure 40 / measure 5]                                 %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Cello_Voice_I measure 41 / measure 6]                                 %! _comment_measure_numbers
-    bf,!2                                                                      %! baca_make_repeat_tied_notes
+    bf,!2                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Cello_Voice_I measure 42 / measure 7]                                 %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Cello_Voice_I measure 43 / measure 8]                                 %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -1638,7 +1638,7 @@ F_Contrabass_Voice_III_a = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    as,!2                                                                      %! baca_make_repeat_tied_notes
+    as,!2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1659,7 +1659,7 @@ F_Contrabass_Voice_III_a = {                                                   %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [F Contrabass_Voice_III measure 37 / measure 2]                          %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 %%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
 %%%     \scale                                                                 %! baca.markup:+PARTS:IndicatorCommand
 %%%         #'(1.25 . 1.25)                                                    %! baca.markup:+PARTS:IndicatorCommand
@@ -1719,27 +1719,27 @@ F_Contrabass_Voice_III_a = {                                                   %
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [F Contrabass_Voice_III measure 38 / measure 3]                          %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Contrabass_Voice_III measure 39 / measure 4]                          %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Contrabass_Voice_III measure 40 / measure 5]                          %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Contrabass_Voice_III measure 41 / measure 6]                          %! _comment_measure_numbers
-    bf,!2                                                                      %! baca_make_repeat_tied_notes
+    bf,!2                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Contrabass_Voice_III measure 42 / measure 7]                          %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [F Contrabass_Voice_III measure 43 / measure 8]                          %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern

@@ -180,7 +180,7 @@ L_Clarinet_Voice_I_a = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    f''2.                                                                      %! baca_make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1):right_broken
     ^ \baca-reapplied-indicator-markup "(“Clarinet”)"                          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -201,23 +201,23 @@ L_Clarinet_Voice_I_a = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca.margin_markup:-PARTS:ANIMALES:IndicatorCommand
 
     % [L Clarinet_Voice_I measure 77 / measure 2]                              %! _comment_measure_numbers
-    f''2.                                                                      %! baca_make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [L Clarinet_Voice_I measure 78 / measure 3]                              %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [L Clarinet_Voice_I measure 79 / measure 4]                              %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [L Clarinet_Voice_I measure 80 / measure 5]                              %! _comment_measure_numbers
-    f''2                                                                       %! baca_make_repeat_tied_notes
+    f''2                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [L Clarinet_Voice_I measure 81 / measure 6]                              %! _comment_measure_numbers
-    f''2.                                                                      %! baca_make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
@@ -327,13 +327,13 @@ L_Bass_Clarinet_Voice_I_a = {                                                  %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [L Bass_Clarinet_Voice_I measure 80 / measure 5]                         %! _comment_measure_numbers
-    bf!2                                                                       %! baca_make_repeat_tied_notes
+    bf!2                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1):right_broken
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1):right_broken
 
     % [L Bass_Clarinet_Voice_I measure 81 / measure 6]                         %! _comment_measure_numbers
-    bf!2.                                                                      %! baca_make_repeat_tied_notes
+    bf!2.                                                                      %! baca.make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
@@ -646,7 +646,7 @@ L_Percussion_Voice_I_a = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -669,18 +669,18 @@ L_Percussion_Voice_I_a = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [L Percussion_Voice_I measure 77 / measure 2]                            %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [L Percussion_Voice_I measure 78 / measure 3]                            %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [L Percussion_Voice_I measure 79 / measure 4]                            %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -688,12 +688,12 @@ L_Percussion_Voice_I_a = {                                                     %
     \repeatTie
 
     % [L Percussion_Voice_I measure 80 / measure 5]                            %! _comment_measure_numbers
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [L Percussion_Voice_I measure 81 / measure 6]                            %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -774,7 +774,7 @@ L_Percussion_Voice_II_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -795,29 +795,29 @@ L_Percussion_Voice_II_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [L Percussion_Voice_II measure 77 / measure 2]                           %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [L Percussion_Voice_II measure 78 / measure 3]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [L Percussion_Voice_II measure 79 / measure 4]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [L Percussion_Voice_II measure 80 / measure 5]                           %! _comment_measure_numbers
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [L Percussion_Voice_II measure 81 / measure 6]                           %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -1012,7 +1012,7 @@ L_First_Violin_Voice_I_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    af'''!4                                                                    %! baca_make_repeated_duration_notes
+    af'''!4                                                                    %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:REDUNDANT_DYNAMIC:baca.hairpin:PiecewiseCommand(1):right_broken
     - \trill                                                                   %! baca.articulation:IndicatorCommand
@@ -1034,50 +1034,50 @@ L_First_Violin_Voice_I_a = {                                                   %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    g'''4                                                                      %! baca_make_repeated_duration_notes
+    g'''4                                                                      %! baca.make_repeated_duration_notes
 
-    f'''4                                                                      %! baca_make_repeated_duration_notes
+    f'''4                                                                      %! baca.make_repeated_duration_notes
 
     % [L First_Violin_Voice_I measure 77 / measure 2]                          %! _comment_measure_numbers
-    e'''4                                                                      %! baca_make_repeated_duration_notes
+    e'''4                                                                      %! baca.make_repeated_duration_notes
 
-    c'''4                                                                      %! baca_make_repeated_duration_notes
+    c'''4                                                                      %! baca.make_repeated_duration_notes
 
-    b''4                                                                       %! baca_make_repeated_duration_notes
+    b''4                                                                       %! baca.make_repeated_duration_notes
 
     % [L First_Violin_Voice_I measure 78 / measure 3]                          %! _comment_measure_numbers
-    a''4                                                                       %! baca_make_repeated_duration_notes
+    a''4                                                                       %! baca.make_repeated_duration_notes
 
-    g''4                                                                       %! baca_make_repeated_duration_notes
+    g''4                                                                       %! baca.make_repeated_duration_notes
 
-    f''4                                                                       %! baca_make_repeated_duration_notes
+    f''4                                                                       %! baca.make_repeated_duration_notes
 
-    d''4                                                                       %! baca_make_repeated_duration_notes
+    d''4                                                                       %! baca.make_repeated_duration_notes
 
     % [L First_Violin_Voice_I measure 79 / measure 4]                          %! _comment_measure_numbers
-    c''4                                                                       %! baca_make_repeated_duration_notes
+    c''4                                                                       %! baca.make_repeated_duration_notes
 
-    b'4                                                                        %! baca_make_repeated_duration_notes
+    b'4                                                                        %! baca.make_repeated_duration_notes
 
-    a'4                                                                        %! baca_make_repeated_duration_notes
+    a'4                                                                        %! baca.make_repeated_duration_notes
 
-    g'4                                                                        %! baca_make_repeated_duration_notes
+    g'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L First_Violin_Voice_I measure 80 / measure 5]                          %! _comment_measure_numbers
-    f'4                                                                        %! baca_make_repeated_duration_notes
+    f'4                                                                        %! baca.make_repeated_duration_notes
 
-    e'4                                                                        %! baca_make_repeated_duration_notes
+    e'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L First_Violin_Voice_I measure 81 / measure 6]                          %! _comment_measure_numbers
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
 
-    b4                                                                         %! baca_make_repeated_duration_notes
+    b4                                                                         %! baca.make_repeated_duration_notes
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    a4                                                                         %! baca_make_repeated_duration_notes
+    a4                                                                         %! baca.make_repeated_duration_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -1144,7 +1144,7 @@ L_Second_Violin_Voice_I_a = {                                                  %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    af''!4                                                                     %! baca_make_repeated_duration_notes
+    af''!4                                                                     %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:REDUNDANT_DYNAMIC:baca.hairpin:PiecewiseCommand(1):right_broken
     - \trill                                                                   %! baca.articulation:IndicatorCommand
@@ -1166,50 +1166,50 @@ L_Second_Violin_Voice_I_a = {                                                  %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    g''4                                                                       %! baca_make_repeated_duration_notes
+    g''4                                                                       %! baca.make_repeated_duration_notes
 
-    f''4                                                                       %! baca_make_repeated_duration_notes
+    f''4                                                                       %! baca.make_repeated_duration_notes
 
     % [L Second_Violin_Voice_I measure 77 / measure 2]                         %! _comment_measure_numbers
-    f''4                                                                       %! baca_make_repeated_duration_notes
+    f''4                                                                       %! baca.make_repeated_duration_notes
 
-    e''4                                                                       %! baca_make_repeated_duration_notes
+    e''4                                                                       %! baca.make_repeated_duration_notes
 
-    d''4                                                                       %! baca_make_repeated_duration_notes
+    d''4                                                                       %! baca.make_repeated_duration_notes
 
     % [L Second_Violin_Voice_I measure 78 / measure 3]                         %! _comment_measure_numbers
-    c''4                                                                       %! baca_make_repeated_duration_notes
+    c''4                                                                       %! baca.make_repeated_duration_notes
 
-    c''4                                                                       %! baca_make_repeated_duration_notes
+    c''4                                                                       %! baca.make_repeated_duration_notes
 
-    b'4                                                                        %! baca_make_repeated_duration_notes
+    b'4                                                                        %! baca.make_repeated_duration_notes
 
-    a'4                                                                        %! baca_make_repeated_duration_notes
+    a'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Second_Violin_Voice_I measure 79 / measure 4]                         %! _comment_measure_numbers
-    g'4                                                                        %! baca_make_repeated_duration_notes
+    g'4                                                                        %! baca.make_repeated_duration_notes
 
-    f'4                                                                        %! baca_make_repeated_duration_notes
+    f'4                                                                        %! baca.make_repeated_duration_notes
 
-    f'4                                                                        %! baca_make_repeated_duration_notes
+    f'4                                                                        %! baca.make_repeated_duration_notes
 
-    e'4                                                                        %! baca_make_repeated_duration_notes
+    e'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Second_Violin_Voice_I measure 80 / measure 5]                         %! _comment_measure_numbers
-    d'4                                                                        %! baca_make_repeated_duration_notes
+    d'4                                                                        %! baca.make_repeated_duration_notes
 
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Second_Violin_Voice_I measure 81 / measure 6]                         %! _comment_measure_numbers
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
 
-    b4                                                                         %! baca_make_repeated_duration_notes
+    b4                                                                         %! baca.make_repeated_duration_notes
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    a4                                                                         %! baca_make_repeated_duration_notes
+    a4                                                                         %! baca.make_repeated_duration_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -1276,7 +1276,7 @@ L_Viola_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    af'!4                                                                      %! baca_make_repeated_duration_notes
+    af'!4                                                                      %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:REDUNDANT_DYNAMIC:baca.hairpin:PiecewiseCommand(1):right_broken
     - \trill                                                                   %! baca.articulation:IndicatorCommand
@@ -1298,50 +1298,50 @@ L_Viola_Voice_I_a = {                                                          %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    a'4                                                                        %! baca_make_repeated_duration_notes
+    a'4                                                                        %! baca.make_repeated_duration_notes
 
-    g'4                                                                        %! baca_make_repeated_duration_notes
+    g'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Viola_Voice_I measure 77 / measure 2]                                 %! _comment_measure_numbers
-    g'4                                                                        %! baca_make_repeated_duration_notes
+    g'4                                                                        %! baca.make_repeated_duration_notes
 
-    f'4                                                                        %! baca_make_repeated_duration_notes
+    f'4                                                                        %! baca.make_repeated_duration_notes
 
-    f'4                                                                        %! baca_make_repeated_duration_notes
+    f'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Viola_Voice_I measure 78 / measure 3]                                 %! _comment_measure_numbers
-    f'4                                                                        %! baca_make_repeated_duration_notes
+    f'4                                                                        %! baca.make_repeated_duration_notes
 
-    e'4                                                                        %! baca_make_repeated_duration_notes
+    e'4                                                                        %! baca.make_repeated_duration_notes
 
-    e'4                                                                        %! baca_make_repeated_duration_notes
+    e'4                                                                        %! baca.make_repeated_duration_notes
 
-    e'4                                                                        %! baca_make_repeated_duration_notes
+    e'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Viola_Voice_I measure 79 / measure 4]                                 %! _comment_measure_numbers
-    d'4                                                                        %! baca_make_repeated_duration_notes
+    d'4                                                                        %! baca.make_repeated_duration_notes
 
-    d'4                                                                        %! baca_make_repeated_duration_notes
+    d'4                                                                        %! baca.make_repeated_duration_notes
 
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
 
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Viola_Voice_I measure 80 / measure 5]                                 %! _comment_measure_numbers
-    c'4                                                                        %! baca_make_repeated_duration_notes
+    c'4                                                                        %! baca.make_repeated_duration_notes
 
-    b4                                                                         %! baca_make_repeated_duration_notes
+    b4                                                                         %! baca.make_repeated_duration_notes
 
     % [L Viola_Voice_I measure 81 / measure 6]                                 %! _comment_measure_numbers
-    b4                                                                         %! baca_make_repeated_duration_notes
+    b4                                                                         %! baca.make_repeated_duration_notes
 
-    a4                                                                         %! baca_make_repeated_duration_notes
+    a4                                                                         %! baca.make_repeated_duration_notes
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    a4                                                                         %! baca_make_repeated_duration_notes
+    a4                                                                         %! baca.make_repeated_duration_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -1408,7 +1408,7 @@ L_Cello_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    af,!4                                                                      %! baca_make_repeated_duration_notes
+    af,!4                                                                      %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:REDUNDANT_DYNAMIC:baca.hairpin:PiecewiseCommand(1):right_broken
     - \trill                                                                   %! baca.articulation:IndicatorCommand
@@ -1430,50 +1430,50 @@ L_Cello_Voice_I_a = {                                                          %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    b,4                                                                        %! baca_make_repeated_duration_notes
+    b,4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Cello_Voice_I measure 77 / measure 2]                                 %! _comment_measure_numbers
-    b,4                                                                        %! baca_make_repeated_duration_notes
+    b,4                                                                        %! baca.make_repeated_duration_notes
 
-    c4                                                                         %! baca_make_repeated_duration_notes
+    c4                                                                         %! baca.make_repeated_duration_notes
 
-    c4                                                                         %! baca_make_repeated_duration_notes
+    c4                                                                         %! baca.make_repeated_duration_notes
 
     % [L Cello_Voice_I measure 78 / measure 3]                                 %! _comment_measure_numbers
-    c4                                                                         %! baca_make_repeated_duration_notes
+    c4                                                                         %! baca.make_repeated_duration_notes
 
-    d4                                                                         %! baca_make_repeated_duration_notes
+    d4                                                                         %! baca.make_repeated_duration_notes
 
-    d4                                                                         %! baca_make_repeated_duration_notes
+    d4                                                                         %! baca.make_repeated_duration_notes
 
-    d4                                                                         %! baca_make_repeated_duration_notes
+    d4                                                                         %! baca.make_repeated_duration_notes
 
     % [L Cello_Voice_I measure 79 / measure 4]                                 %! _comment_measure_numbers
-    e4                                                                         %! baca_make_repeated_duration_notes
+    e4                                                                         %! baca.make_repeated_duration_notes
 
-    e4                                                                         %! baca_make_repeated_duration_notes
+    e4                                                                         %! baca.make_repeated_duration_notes
 
-    f4                                                                         %! baca_make_repeated_duration_notes
+    f4                                                                         %! baca.make_repeated_duration_notes
 
-    f4                                                                         %! baca_make_repeated_duration_notes
+    f4                                                                         %! baca.make_repeated_duration_notes
 
     % [L Cello_Voice_I measure 80 / measure 5]                                 %! _comment_measure_numbers
-    f4                                                                         %! baca_make_repeated_duration_notes
+    f4                                                                         %! baca.make_repeated_duration_notes
 
-    g4                                                                         %! baca_make_repeated_duration_notes
+    g4                                                                         %! baca.make_repeated_duration_notes
 
     % [L Cello_Voice_I measure 81 / measure 6]                                 %! _comment_measure_numbers
-    g4                                                                         %! baca_make_repeated_duration_notes
+    g4                                                                         %! baca.make_repeated_duration_notes
 
-    a4                                                                         %! baca_make_repeated_duration_notes
+    a4                                                                         %! baca.make_repeated_duration_notes
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    a4                                                                         %! baca_make_repeated_duration_notes
+    a4                                                                         %! baca.make_repeated_duration_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -1673,7 +1673,7 @@ L_Contrabass_Voice_III_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    af,!4                                                                      %! baca_make_repeated_duration_notes
+    af,!4                                                                      %! baca.make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1):right_broken
     - \trill                                                                   %! baca.articulation:IndicatorCommand
@@ -1699,50 +1699,50 @@ L_Contrabass_Voice_III_a = {                                                   %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Contrabass_Voice_III measure 77 / measure 2]                          %! _comment_measure_numbers
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Contrabass_Voice_III measure 78 / measure 3]                          %! _comment_measure_numbers
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
-    a,4                                                                        %! baca_make_repeated_duration_notes
+    a,4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Contrabass_Voice_III measure 79 / measure 4]                          %! _comment_measure_numbers
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Contrabass_Voice_III measure 80 / measure 5]                          %! _comment_measure_numbers
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
     % [L Contrabass_Voice_III measure 81 / measure 6]                          %! _comment_measure_numbers
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    g,4                                                                        %! baca_make_repeated_duration_notes
+    g,4                                                                        %! baca.make_repeated_duration_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern

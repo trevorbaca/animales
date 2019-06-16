@@ -190,7 +190,7 @@ C_Clarinet_Voice_I_a = {                                                       %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Clarinet_Voice_I measure 20 / measure 3]                              %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     ^ \markup { "solo (cl. 3)" }                                               %! baca.markup:-PARTS:IndicatorCommand
@@ -199,15 +199,15 @@ C_Clarinet_Voice_I_a = {                                                       %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [C Clarinet_Voice_I measure 21 / measure 4]                              %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Clarinet_Voice_I measure 22 / measure 5]                              %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Clarinet_Voice_I measure 23 / measure 6]                              %! _comment_measure_numbers
-    d''2.                                                                      %! baca_make_repeat_tied_notes
+    d''2.                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
@@ -1936,7 +1936,7 @@ C_Percussion_Voice_I_a = {                                                     %
     % [C Percussion_Voice_I measure 20 / measure 3]                            %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:-PARTS:IndicatorCommand
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca.literal:+PARTS:TEMPORARY:IndicatorCommand
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1948,19 +1948,19 @@ C_Percussion_Voice_I_a = {                                                     %
         }                                                                      %! baca.markup:IndicatorCommand
 
     % [C Percussion_Voice_I measure 21 / measure 4]                            %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Voice_I measure 22 / measure 5]                            %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Voice_I measure 23 / measure 6]                            %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -2080,7 +2080,7 @@ C_Percussion_Voice_II_a = {                                                    %
     % [C Percussion_Voice_II measure 20 / measure 3]                           %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:-PARTS:IndicatorCommand
 %%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca.literal:+PARTS:TEMPORARY:IndicatorCommand
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -2092,19 +2092,19 @@ C_Percussion_Voice_II_a = {                                                    %
         }                                                                      %! baca.markup:IndicatorCommand
 
     % [C Percussion_Voice_II measure 21 / measure 4]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Voice_II measure 22 / measure 5]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Voice_II measure 23 / measure 6]                           %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -2361,7 +2361,7 @@ C_First_Violin_Voice_I_b = {                                                   %
 
     % [C First_Violin_Voice_I measure 20 / measure 3]                          %! _comment_measure_numbers
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
@@ -2378,15 +2378,15 @@ C_First_Violin_Voice_I_b = {                                                   %
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C First_Violin_Voice_I measure 21 / measure 4]                          %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C First_Violin_Voice_I measure 22 / measure 5]                          %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C First_Violin_Voice_I measure 23 / measure 6]                          %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -2496,22 +2496,22 @@ C_First_Violin_Voice_III_a = {                                                 %
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C First_Violin_Voice_III measure 20 / measure 3]                        %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C First_Violin_Voice_III measure 21 / measure 4]                        %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C First_Violin_Voice_III measure 22 / measure 5]                        %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C First_Violin_Voice_III measure 23 / measure 6]                        %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -2616,22 +2616,22 @@ C_Second_Violin_Voice_I_a = {                                                  %
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Second_Violin_Voice_I measure 20 / measure 3]                         %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C Second_Violin_Voice_I measure 21 / measure 4]                         %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Second_Violin_Voice_I measure 22 / measure 5]                         %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Second_Violin_Voice_I measure 23 / measure 6]                         %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -2733,22 +2733,22 @@ C_Second_Violin_Voice_III_a = {                                                %
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Second_Violin_Voice_III measure 20 / measure 3]                       %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C Second_Violin_Voice_III measure 21 / measure 4]                       %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Second_Violin_Voice_III measure 22 / measure 5]                       %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Second_Violin_Voice_III measure 23 / measure 6]                       %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -2856,24 +2856,24 @@ C_Viola_Voice_I_a = {                                                          %
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Viola_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C Viola_Voice_I measure 21 / measure 4]                                 %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [C Viola_Voice_I measure 22 / measure 5]                                 %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [C Viola_Voice_I measure 23 / measure 6]                                 %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -2978,24 +2978,24 @@ C_Viola_Voice_III_a = {                                                        %
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Viola_Voice_III measure 20 / measure 3]                               %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C Viola_Voice_III measure 21 / measure 4]                               %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [C Viola_Voice_III measure 22 / measure 5]                               %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [C Viola_Voice_III measure 23 / measure 6]                               %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -3088,22 +3088,22 @@ C_Cello_Voice_I_a = {                                                          %
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
 
     % [C Cello_Voice_I measure 20 / measure 3]                                 %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup:+PARTS:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [C Cello_Voice_I measure 21 / measure 4]                                 %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Cello_Voice_I measure 22 / measure 5]                                 %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Cello_Voice_I measure 23 / measure 6]                                 %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'2.                                                                       %! baca.make_repeat_tied_notes
     \repeatTie
 
 }                                                                              %! abjad.Path.extern
@@ -3204,22 +3204,22 @@ C_Contrabass_Voice_III_a = {                                                   %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Contrabass_Voice_III measure 20 / measure 3]                          %! _comment_measure_numbers
-    c1                                                                         %! baca_make_repeat_tied_notes
+    c1                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1):right_broken
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1):right_broken
 
     % [C Contrabass_Voice_III measure 21 / measure 4]                          %! _comment_measure_numbers
-    c1                                                                         %! baca_make_repeat_tied_notes
+    c1                                                                         %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Contrabass_Voice_III measure 22 / measure 5]                          %! _comment_measure_numbers
-    c1                                                                         %! baca_make_repeat_tied_notes
+    c1                                                                         %! baca.make_repeat_tied_notes
     \repeatTie
 
     % [C Contrabass_Voice_III measure 23 / measure 6]                          %! _comment_measure_numbers
-    c2.                                                                        %! baca_make_repeat_tied_notes
+    c2.                                                                        %! baca.make_repeat_tied_notes
     \repeatTie
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 

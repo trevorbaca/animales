@@ -1910,7 +1910,7 @@ Q_First_Violin_Voice_I_a = {                                                   %
                             (5-8)                                              %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -1965,7 +1965,7 @@ Q_First_Violin_Voice_I_a = {                                                   %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_I measure 122 / measure 4]                         %! _comment_measure_numbers
-    a''1                                                                       %! baca_make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1977,12 +1977,12 @@ Q_First_Violin_Voice_I_a = {                                                   %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_I measure 123 / measure 5]                         %! _comment_measure_numbers
-    a''1                                                                       %! baca_make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_I measure 124 / measure 6]                         %! _comment_measure_numbers
-    a''1                                                                       %! baca_make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2033,7 +2033,7 @@ Q_First_Violin_Voice_I_a = {                                                   %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_I measure 127 / measure 9]                         %! _comment_measure_numbers
-    a''2.                                                                      %! baca_make_repeat_tied_notes
+    a''2.                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2045,12 +2045,12 @@ Q_First_Violin_Voice_I_a = {                                                   %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_I measure 128 / measure 10]                        %! _comment_measure_numbers
-    a''1                                                                       %! baca_make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_I measure 129 / measure 11]                        %! _comment_measure_numbers
-    a''1                                                                       %! baca_make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2078,7 +2078,7 @@ Q_First_Violin_Voice_I_a = {                                                   %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -2139,7 +2139,7 @@ Q_First_Violin_Voice_II_a = {                                                  %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q First_Violin_Voice_II measure 119 / measure 1]                %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -2171,7 +2171,7 @@ Q_First_Violin_Voice_II_a = {                                                  %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_II measure 122 / measure 4]                        %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2183,12 +2183,12 @@ Q_First_Violin_Voice_II_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_II measure 123 / measure 5]                        %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_II measure 124 / measure 6]                        %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2239,7 +2239,7 @@ Q_First_Violin_Voice_II_a = {                                                  %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_II measure 127 / measure 9]                        %! _comment_measure_numbers
-    f''2.                                                                      %! baca_make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2251,12 +2251,12 @@ Q_First_Violin_Voice_II_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_II measure 128 / measure 10]                       %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_II measure 129 / measure 11]                       %! _comment_measure_numbers
-    f''1                                                                       %! baca_make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2284,7 +2284,7 @@ Q_First_Violin_Voice_II_a = {                                                  %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2375,7 +2375,7 @@ Q_First_Violin_Voice_III_a = {                                                 %
                             (13-17)                                            %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -2430,7 +2430,7 @@ Q_First_Violin_Voice_III_a = {                                                 %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_III measure 122 / measure 4]                       %! _comment_measure_numbers
-    g''1                                                                       %! baca_make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2442,12 +2442,12 @@ Q_First_Violin_Voice_III_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_III measure 123 / measure 5]                       %! _comment_measure_numbers
-    g''1                                                                       %! baca_make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_III measure 124 / measure 6]                       %! _comment_measure_numbers
-    g''1                                                                       %! baca_make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2498,7 +2498,7 @@ Q_First_Violin_Voice_III_a = {                                                 %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_III measure 127 / measure 9]                       %! _comment_measure_numbers
-    g''2.                                                                      %! baca_make_repeat_tied_notes
+    g''2.                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2510,12 +2510,12 @@ Q_First_Violin_Voice_III_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_III measure 128 / measure 10]                      %! _comment_measure_numbers
-    g''1                                                                       %! baca_make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_III measure 129 / measure 11]                      %! _comment_measure_numbers
-    g''1                                                                       %! baca_make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2543,7 +2543,7 @@ Q_First_Violin_Voice_III_a = {                                                 %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -2604,7 +2604,7 @@ Q_First_Violin_Voice_IV_a = {                                                  %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q First_Violin_Voice_IV measure 119 / measure 1]                %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -2636,7 +2636,7 @@ Q_First_Violin_Voice_IV_a = {                                                  %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_IV measure 122 / measure 4]                        %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2648,12 +2648,12 @@ Q_First_Violin_Voice_IV_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_IV measure 123 / measure 5]                        %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_IV measure 124 / measure 6]                        %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2704,7 +2704,7 @@ Q_First_Violin_Voice_IV_a = {                                                  %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q First_Violin_Voice_IV measure 127 / measure 9]                        %! _comment_measure_numbers
-    d''2.                                                                      %! baca_make_repeat_tied_notes
+    d''2.                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2716,12 +2716,12 @@ Q_First_Violin_Voice_IV_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q First_Violin_Voice_IV measure 128 / measure 10]                       %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_IV measure 129 / measure 11]                       %! _comment_measure_numbers
-    d''1                                                                       %! baca_make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2749,7 +2749,7 @@ Q_First_Violin_Voice_IV_a = {                                                  %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2838,7 +2838,7 @@ Q_First_Violin_Voice_V_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    cs'!2.                                                                     %! baca_make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2859,7 +2859,7 @@ Q_First_Violin_Voice_V_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Q First_Violin_Voice_V measure 120 / measure 2]                         %! _comment_measure_numbers
-    cs'!2.                                                                     %! baca_make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -2891,21 +2891,21 @@ Q_First_Violin_Voice_V_a = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [Q First_Violin_Voice_V measure 122 / measure 4]                         %! _comment_measure_numbers
-    cs'!1                                                                      %! baca_make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     % [Q First_Violin_Voice_V measure 123 / measure 5]                         %! _comment_measure_numbers
-    cs'!1                                                                      %! baca_make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_V measure 124 / measure 6]                         %! _comment_measure_numbers
-    cs'!1                                                                      %! baca_make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_V measure 125 / measure 7]                         %! _comment_measure_numbers
-    cs'!2.                                                                     %! baca_make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -2937,21 +2937,21 @@ Q_First_Violin_Voice_V_a = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [Q First_Violin_Voice_V measure 127 / measure 9]                         %! _comment_measure_numbers
-    cs'!2.                                                                     %! baca_make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     % [Q First_Violin_Voice_V measure 128 / measure 10]                        %! _comment_measure_numbers
-    cs'!1                                                                      %! baca_make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_V measure 129 / measure 11]                        %! _comment_measure_numbers
-    cs'!1                                                                      %! baca_make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q First_Violin_Voice_V measure 130 / measure 12]                        %! _comment_measure_numbers
-    cs'!2                                                                      %! baca_make_repeat_tied_notes
+    cs'!2                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -3029,7 +3029,7 @@ Q_Second_Violin_Voice_I_a = {                                                  %
                             (5-8)                                              %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -3084,7 +3084,7 @@ Q_Second_Violin_Voice_I_a = {                                                  %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_I measure 122 / measure 4]                        %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3096,13 +3096,13 @@ Q_Second_Violin_Voice_I_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_I measure 123 / measure 5]                        %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q Second_Violin_Voice_I measure 124 / measure 6]                        %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3154,7 +3154,7 @@ Q_Second_Violin_Voice_I_a = {                                                  %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_I measure 127 / measure 9]                        %! _comment_measure_numbers
-    b'2.                                                                       %! baca_make_repeat_tied_notes
+    b'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3166,13 +3166,13 @@ Q_Second_Violin_Voice_I_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_I measure 128 / measure 10]                       %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q Second_Violin_Voice_I measure 129 / measure 11]                       %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3201,7 +3201,7 @@ Q_Second_Violin_Voice_I_a = {                                                  %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -3262,7 +3262,7 @@ Q_Second_Violin_Voice_II_a = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q Second_Violin_Voice_II measure 119 / measure 1]               %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -3294,7 +3294,7 @@ Q_Second_Violin_Voice_II_a = {                                                 %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_II measure 122 / measure 4]                       %! _comment_measure_numbers
-    g'1                                                                        %! baca_make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3306,12 +3306,12 @@ Q_Second_Violin_Voice_II_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_II measure 123 / measure 5]                       %! _comment_measure_numbers
-    g'1                                                                        %! baca_make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Second_Violin_Voice_II measure 124 / measure 6]                       %! _comment_measure_numbers
-    g'1                                                                        %! baca_make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3362,7 +3362,7 @@ Q_Second_Violin_Voice_II_a = {                                                 %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_II measure 127 / measure 9]                       %! _comment_measure_numbers
-    g'2.                                                                       %! baca_make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3374,12 +3374,12 @@ Q_Second_Violin_Voice_II_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_II measure 128 / measure 10]                      %! _comment_measure_numbers
-    g'1                                                                        %! baca_make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Second_Violin_Voice_II measure 129 / measure 11]                      %! _comment_measure_numbers
-    g'1                                                                        %! baca_make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3407,7 +3407,7 @@ Q_Second_Violin_Voice_II_a = {                                                 %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3498,7 +3498,7 @@ Q_Second_Violin_Voice_III_a = {                                                %
                             (13-18)                                            %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -3553,7 +3553,7 @@ Q_Second_Violin_Voice_III_a = {                                                %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_III measure 122 / measure 4]                      %! _comment_measure_numbers
-    a'1                                                                        %! baca_make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3565,12 +3565,12 @@ Q_Second_Violin_Voice_III_a = {                                                %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_III measure 123 / measure 5]                      %! _comment_measure_numbers
-    a'1                                                                        %! baca_make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Second_Violin_Voice_III measure 124 / measure 6]                      %! _comment_measure_numbers
-    a'1                                                                        %! baca_make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3621,7 +3621,7 @@ Q_Second_Violin_Voice_III_a = {                                                %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_III measure 127 / measure 9]                      %! _comment_measure_numbers
-    a'2.                                                                       %! baca_make_repeat_tied_notes
+    a'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3633,12 +3633,12 @@ Q_Second_Violin_Voice_III_a = {                                                %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_III measure 128 / measure 10]                     %! _comment_measure_numbers
-    a'1                                                                        %! baca_make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Second_Violin_Voice_III measure 129 / measure 11]                     %! _comment_measure_numbers
-    a'1                                                                        %! baca_make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3666,7 +3666,7 @@ Q_Second_Violin_Voice_III_a = {                                                %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -3727,7 +3727,7 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q Second_Violin_Voice_IV measure 119 / measure 1]               %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -3759,7 +3759,7 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_IV measure 122 / measure 4]                       %! _comment_measure_numbers
-    f'1                                                                        %! baca_make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3771,12 +3771,12 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_IV measure 123 / measure 5]                       %! _comment_measure_numbers
-    f'1                                                                        %! baca_make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Second_Violin_Voice_IV measure 124 / measure 6]                       %! _comment_measure_numbers
-    f'1                                                                        %! baca_make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3827,7 +3827,7 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Second_Violin_Voice_IV measure 127 / measure 9]                       %! _comment_measure_numbers
-    f'2.                                                                       %! baca_make_repeat_tied_notes
+    f'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3839,12 +3839,12 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Second_Violin_Voice_IV measure 128 / measure 10]                      %! _comment_measure_numbers
-    f'1                                                                        %! baca_make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Second_Violin_Voice_IV measure 129 / measure 11]                      %! _comment_measure_numbers
-    f'1                                                                        %! baca_make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3872,7 +3872,7 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3963,7 +3963,7 @@ Q_Viola_Voice_I_a = {                                                          %
                             (5-8)                                              %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -4018,7 +4018,7 @@ Q_Viola_Voice_I_a = {                                                          %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_I measure 122 / measure 4]                                %! _comment_measure_numbers
-    d'1                                                                        %! baca_make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4030,12 +4030,12 @@ Q_Viola_Voice_I_a = {                                                          %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_I measure 123 / measure 5]                                %! _comment_measure_numbers
-    d'1                                                                        %! baca_make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_I measure 124 / measure 6]                                %! _comment_measure_numbers
-    d'1                                                                        %! baca_make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4086,7 +4086,7 @@ Q_Viola_Voice_I_a = {                                                          %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_I measure 127 / measure 9]                                %! _comment_measure_numbers
-    d'2.                                                                       %! baca_make_repeat_tied_notes
+    d'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4098,12 +4098,12 @@ Q_Viola_Voice_I_a = {                                                          %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_I measure 128 / measure 10]                               %! _comment_measure_numbers
-    d'1                                                                        %! baca_make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_I measure 129 / measure 11]                               %! _comment_measure_numbers
-    d'1                                                                        %! baca_make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4131,7 +4131,7 @@ Q_Viola_Voice_I_a = {                                                          %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -4192,7 +4192,7 @@ Q_Viola_Voice_II_a = {                                                         %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q Viola_Voice_II measure 119 / measure 1]                       %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -4224,7 +4224,7 @@ Q_Viola_Voice_II_a = {                                                         %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_II measure 122 / measure 4]                               %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4236,12 +4236,12 @@ Q_Viola_Voice_II_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_II measure 123 / measure 5]                               %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_II measure 124 / measure 6]                               %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4292,7 +4292,7 @@ Q_Viola_Voice_II_a = {                                                         %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_II measure 127 / measure 9]                               %! _comment_measure_numbers
-    a2.                                                                        %! baca_make_repeat_tied_notes
+    a2.                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4304,12 +4304,12 @@ Q_Viola_Voice_II_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_II measure 128 / measure 10]                              %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_II measure 129 / measure 11]                              %! _comment_measure_numbers
-    a1                                                                         %! baca_make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4337,7 +4337,7 @@ Q_Viola_Voice_II_a = {                                                         %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4428,7 +4428,7 @@ Q_Viola_Voice_III_a = {                                                        %
                             (13-18)                                            %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -4483,7 +4483,7 @@ Q_Viola_Voice_III_a = {                                                        %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_III measure 122 / measure 4]                              %! _comment_measure_numbers
-    b1                                                                         %! baca_make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4495,12 +4495,12 @@ Q_Viola_Voice_III_a = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_III measure 123 / measure 5]                              %! _comment_measure_numbers
-    b1                                                                         %! baca_make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_III measure 124 / measure 6]                              %! _comment_measure_numbers
-    b1                                                                         %! baca_make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4551,7 +4551,7 @@ Q_Viola_Voice_III_a = {                                                        %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_III measure 127 / measure 9]                              %! _comment_measure_numbers
-    b2.                                                                        %! baca_make_repeat_tied_notes
+    b2.                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4563,12 +4563,12 @@ Q_Viola_Voice_III_a = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_III measure 128 / measure 10]                             %! _comment_measure_numbers
-    b1                                                                         %! baca_make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_III measure 129 / measure 11]                             %! _comment_measure_numbers
-    b1                                                                         %! baca_make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4596,7 +4596,7 @@ Q_Viola_Voice_III_a = {                                                        %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -4657,7 +4657,7 @@ Q_Viola_Voice_IV_a = {                                                         %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q Viola_Voice_IV measure 119 / measure 1]                       %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -4689,7 +4689,7 @@ Q_Viola_Voice_IV_a = {                                                         %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_IV measure 122 / measure 4]                               %! _comment_measure_numbers
-    g1                                                                         %! baca_make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4701,12 +4701,12 @@ Q_Viola_Voice_IV_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_IV measure 123 / measure 5]                               %! _comment_measure_numbers
-    g1                                                                         %! baca_make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_IV measure 124 / measure 6]                               %! _comment_measure_numbers
-    g1                                                                         %! baca_make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4757,7 +4757,7 @@ Q_Viola_Voice_IV_a = {                                                         %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Viola_Voice_IV measure 127 / measure 9]                               %! _comment_measure_numbers
-    g2.                                                                        %! baca_make_repeat_tied_notes
+    g2.                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4769,12 +4769,12 @@ Q_Viola_Voice_IV_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Viola_Voice_IV measure 128 / measure 10]                              %! _comment_measure_numbers
-    g1                                                                         %! baca_make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Viola_Voice_IV measure 129 / measure 11]                              %! _comment_measure_numbers
-    g1                                                                         %! baca_make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4802,7 +4802,7 @@ Q_Viola_Voice_IV_a = {                                                         %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4893,7 +4893,7 @@ Q_Cello_Voice_I_a = {                                                          %
                             (9-14)                                             %! _clone_segment_initial_short_instrument_name
                         }                                                      %! _clone_segment_initial_short_instrument_name
                 }                                                              %! _clone_segment_initial_short_instrument_name
-        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+        %%% \override TextSpanner.staff-padding = #5                           %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \override DynamicText.stencil = ##f                                %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(1)
             \override Hairpin.stencil = ##f                                    %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(1)
             \override TextSpanner.stencil = ##f                                %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(1)
@@ -4948,7 +4948,7 @@ Q_Cello_Voice_I_a = {                                                          %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Cello_Voice_I measure 122 / measure 4]                                %! _comment_measure_numbers
-    d1                                                                         %! baca_make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -4960,13 +4960,13 @@ Q_Cello_Voice_I_a = {                                                          %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Cello_Voice_I measure 123 / measure 5]                                %! _comment_measure_numbers
-    d1                                                                         %! baca_make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q Cello_Voice_I measure 124 / measure 6]                                %! _comment_measure_numbers
-    d1                                                                         %! baca_make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5018,7 +5018,7 @@ Q_Cello_Voice_I_a = {                                                          %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Cello_Voice_I measure 127 / measure 9]                                %! _comment_measure_numbers
-    d2.                                                                        %! baca_make_repeat_tied_notes
+    d2.                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5030,13 +5030,13 @@ Q_Cello_Voice_I_a = {                                                          %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Cello_Voice_I measure 128 / measure 10]                               %! _comment_measure_numbers
-    d1                                                                         %! baca_make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [Q Cello_Voice_I measure 129 / measure 11]                               %! _comment_measure_numbers
-    d1                                                                         %! baca_make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5065,7 +5065,7 @@ Q_Cello_Voice_I_a = {                                                          %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+        %%% \revert TextSpanner.staff-padding                                  %! +PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert DynamicText.stencil                                        %! -PARTS:baca.dynamic_text_stencil_false:OverrideCommand(2)
             \revert Hairpin.stencil                                            %! -PARTS:baca.hairpin_stencil_false:OverrideCommand(2)
             \revert TextSpanner.stencil                                        %! -PARTS:baca.text_spanner_stencil_false:OverrideCommand(2)
@@ -5126,7 +5126,7 @@ Q_Cello_Voice_II_a = {                                                         %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [Q Cello_Voice_II measure 119 / measure 1]                       %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \voiceTwo                                                          %! baca.voice_two:-PARTS:IndicatorCommand
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
@@ -5158,7 +5158,7 @@ Q_Cello_Voice_II_a = {                                                         %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Cello_Voice_II measure 122 / measure 4]                               %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5170,12 +5170,12 @@ Q_Cello_Voice_II_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Cello_Voice_II measure 123 / measure 5]                               %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Cello_Voice_II measure 124 / measure 6]                               %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5226,7 +5226,7 @@ Q_Cello_Voice_II_a = {                                                         %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Cello_Voice_II measure 127 / measure 9]                               %! _comment_measure_numbers
-    g,2.                                                                       %! baca_make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5238,12 +5238,12 @@ Q_Cello_Voice_II_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Cello_Voice_II measure 128 / measure 10]                              %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Cello_Voice_II measure 129 / measure 11]                              %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5271,7 +5271,7 @@ Q_Cello_Voice_II_a = {                                                         %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
-            \revert TextSpanner.staff-padding                                  %! -PARTS:baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! -PARTS:baca.text_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5397,7 +5397,7 @@ Q_Contrabass_Voice_III_a = {                                                   %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Contrabass_Voice_III measure 122 / measure 4]                         %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5409,12 +5409,12 @@ Q_Contrabass_Voice_III_a = {                                                   %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Contrabass_Voice_III measure 123 / measure 5]                         %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Contrabass_Voice_III measure 124 / measure 6]                         %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5465,7 +5465,7 @@ Q_Contrabass_Voice_III_a = {                                                   %
 %%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
 
     % [Q Contrabass_Voice_III measure 127 / measure 9]                         %! _comment_measure_numbers
-    g,2.                                                                       %! baca_make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5477,12 +5477,12 @@ Q_Contrabass_Voice_III_a = {                                                   %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [Q Contrabass_Voice_III measure 128 / measure 10]                        %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [Q Contrabass_Voice_III measure 129 / measure 11]                        %! _comment_measure_numbers
-    g,1                                                                        %! baca_make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
