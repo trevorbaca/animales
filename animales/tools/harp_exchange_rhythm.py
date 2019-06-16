@@ -75,11 +75,11 @@ def harp_exchange_rhythm(
     rhythm_maker = rmakers.TaleaRhythmMaker(
         *specifiers,
         rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
+        rmakers.TieSpecifier(repeat_ties=True),
         rmakers.BeamSpecifier(beam_each_division=True),
         division_masks=dmask,
         extra_counts_per_division=[2],
         talea=talea,
-        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
