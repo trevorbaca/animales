@@ -1369,7 +1369,7 @@ V_Percussion_Voice_II_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1389,13 +1389,13 @@ V_Percussion_Voice_II_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [V Percussion_Voice_II measure 144 / measure 2]                          %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [V Percussion_Voice_II measure 145 / measure 3]                          %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
