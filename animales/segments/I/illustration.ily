@@ -1089,10 +1089,10 @@ I_Trumpet_Voice_III_a = {                                                      %
     ~
 
     g'8                                                                        %! animales.brass_manifest_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a'8                                                                        %! animales.brass_manifest_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -1207,11 +1207,11 @@ I_Trumpet_Voice_II_a = {                                                       %
     ~
 
     af'!8                                                                      %! animales.brass_manifest_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     bf'!8                                                                      %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [I Trumpet_Voice_II measure 59 / measure 4]                              %! _comment_measure_numbers
     bf'!2                                                                      %! animales.brass_manifest_rhythm
@@ -1238,11 +1238,11 @@ I_Trumpet_Voice_II_a = {                                                       %
 
     % [I Trumpet_Voice_II measure 61 / measure 6]                              %! _comment_measure_numbers
     af'!8                                                                      %! animales.brass_manifest_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     bf'!8                                                                      %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     bf'!2                                                                      %! animales.brass_manifest_rhythm
     ~
@@ -1566,11 +1566,11 @@ I_Trombone_Voice_III_a = {                                                     %
 
     % [I Trombone_Voice_III measure 58 / measure 3]                            %! _comment_measure_numbers
     a8                                                                         %! animales.brass_manifest_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g8                                                                         %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1587,11 +1587,11 @@ I_Trombone_Voice_III_a = {                                                     %
     ~
 
     a8                                                                         %! animales.brass_manifest_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g8                                                                         %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [I Trombone_Voice_III measure 60 / measure 5]                            %! _comment_measure_numbers
     g2                                                                         %! animales.brass_manifest_rhythm
@@ -1729,11 +1729,11 @@ I_Trombone_Voice_II_a = {                                                      %
 
     % [I Trombone_Voice_II measure 59 / measure 4]                             %! _comment_measure_numbers
     af!8                                                                       %! animales.brass_manifest_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     bf!8                                                                       %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     bf!2                                                                       %! animales.brass_manifest_rhythm
 

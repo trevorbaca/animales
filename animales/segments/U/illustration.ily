@@ -107,7 +107,7 @@ U_First_Violin_Voice_I_a = {                                                   %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -121,7 +121,7 @@ U_First_Violin_Voice_I_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -164,10 +164,10 @@ U_First_Violin_Voice_I_a = {                                                   %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -226,10 +226,10 @@ U_First_Violin_Voice_II_a = {                                                  %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -239,22 +239,22 @@ U_First_Violin_Voice_II_a = {                                                  %
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -411,10 +411,10 @@ U_First_Violin_Voice_III_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -477,10 +477,10 @@ U_First_Violin_Voice_IV_a = {                                                  %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -634,12 +634,12 @@ U_First_Violin_Voice_V_a = {                                                   %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U First_Violin_Voice_V measure 141 / measure 2]                         %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
@@ -649,10 +649,10 @@ U_First_Violin_Voice_V_a = {                                                   %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! animales.clb_rhythm
 
@@ -662,20 +662,20 @@ U_First_Violin_Voice_V_a = {                                                   %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -762,16 +762,16 @@ U_First_Violin_Voice_VI_a = {                                                  %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -921,10 +921,10 @@ U_First_Violin_Voice_VII_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -982,11 +982,11 @@ U_First_Violin_Voice_VIII_a = {                                                %
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                              %! baca.voice_two:-PARTS:IndicatorCommand
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -999,20 +999,20 @@ U_First_Violin_Voice_VIII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -1026,10 +1026,10 @@ U_First_Violin_Voice_VIII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -1043,10 +1043,10 @@ U_First_Violin_Voice_VIII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -1157,24 +1157,24 @@ U_First_Violin_Voice_IX_a = {                                                  %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U First_Violin_Voice_IX measure 142 / measure 3]                        %! _comment_measure_numbers
     r4                                                                         %! animales.clb_rhythm
@@ -1182,10 +1182,10 @@ U_First_Violin_Voice_IX_a = {                                                  %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -1263,10 +1263,10 @@ U_First_Violin_Voice_X_a = {                                                   %
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -1284,10 +1284,10 @@ U_First_Violin_Voice_X_a = {                                                   %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -1379,12 +1379,12 @@ U_First_Violin_Voice_XI_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
@@ -1393,10 +1393,10 @@ U_First_Violin_Voice_XI_a = {                                                  %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -1406,10 +1406,10 @@ U_First_Violin_Voice_XI_a = {                                                  %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -1417,10 +1417,10 @@ U_First_Violin_Voice_XI_a = {                                                  %
 
     % [U First_Violin_Voice_XI measure 142 / measure 3]                        %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -1506,10 +1506,10 @@ U_First_Violin_Voice_XII_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -1522,10 +1522,10 @@ U_First_Violin_Voice_XII_a = {                                                 %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -1533,10 +1533,10 @@ U_First_Violin_Voice_XII_a = {                                                 %
 
         % [U First_Violin_Voice_XII measure 142 / measure 3]                   %! _comment_measure_numbers
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -1549,10 +1549,10 @@ U_First_Violin_Voice_XII_a = {                                                 %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -1677,10 +1677,10 @@ U_First_Violin_Voice_XIII_a = {                                                %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -1742,10 +1742,10 @@ U_First_Violin_Voice_XIV_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -1763,10 +1763,10 @@ U_First_Violin_Voice_XIV_a = {                                                 %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -1879,10 +1879,10 @@ U_First_Violin_Voice_XV_a = {                                                  %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -1890,24 +1890,24 @@ U_First_Violin_Voice_XV_a = {                                                  %
 
     % [U First_Violin_Voice_XV measure 141 / measure 2]                        %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -2004,10 +2004,10 @@ U_First_Violin_Voice_XVI_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -2021,10 +2021,10 @@ U_First_Violin_Voice_XVI_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -2125,10 +2125,10 @@ U_First_Violin_Voice_XVII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -2224,16 +2224,16 @@ U_First_Violin_Voice_XVIII_a = {                                               %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -2357,20 +2357,20 @@ U_Second_Violin_Voice_I_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -2380,10 +2380,10 @@ U_Second_Violin_Voice_I_a = {                                                  %
     r2                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -2393,12 +2393,12 @@ U_Second_Violin_Voice_I_a = {                                                  %
 
     % [U Second_Violin_Voice_I measure 142 / measure 3]                        %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -2473,10 +2473,10 @@ U_Second_Violin_Voice_II_a = {                                                 %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U Second_Violin_Voice_II measure 141 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! animales.clb_rhythm
@@ -2501,10 +2501,10 @@ U_Second_Violin_Voice_II_a = {                                                 %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -2602,20 +2602,20 @@ U_Second_Violin_Voice_III_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -2629,10 +2629,10 @@ U_Second_Violin_Voice_III_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -2726,10 +2726,10 @@ U_Second_Violin_Voice_IV_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -2743,10 +2743,10 @@ U_Second_Violin_Voice_IV_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -2760,20 +2760,20 @@ U_Second_Violin_Voice_IV_a = {                                                 %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -2786,10 +2786,10 @@ U_Second_Violin_Voice_IV_a = {                                                 %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -2881,10 +2881,10 @@ U_Second_Violin_Voice_V_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -2927,10 +2927,10 @@ U_Second_Violin_Voice_V_a = {                                                  %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
 }                                                                              %! abjad.Path.extern
 
@@ -2982,11 +2982,11 @@ U_Second_Violin_Voice_VI_a = {                                                 %
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -3029,10 +3029,10 @@ U_Second_Violin_Voice_VI_a = {                                                 %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -3127,10 +3127,10 @@ U_Second_Violin_Voice_VII_a = {                                                %
 
         % [U Second_Violin_Voice_VII measure 141 / measure 2]                  %! _comment_measure_numbers
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3143,20 +3143,20 @@ U_Second_Violin_Voice_VII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3170,10 +3170,10 @@ U_Second_Violin_Voice_VII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -3284,10 +3284,10 @@ U_Second_Violin_Voice_VIII_a = {                                               %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3381,10 +3381,10 @@ U_Second_Violin_Voice_IX_a = {                                                 %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -3409,10 +3409,10 @@ U_Second_Violin_Voice_IX_a = {                                                 %
 
     % [U Second_Violin_Voice_IX measure 142 / measure 3]                       %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -3485,12 +3485,12 @@ U_Second_Violin_Voice_X_a = {                                                  %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U Second_Violin_Voice_X measure 141 / measure 2]                        %! _comment_measure_numbers
     b16                                                                        %! animales.clb_rhythm
@@ -3500,10 +3500,10 @@ U_Second_Violin_Voice_X_a = {                                                  %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! animales.clb_rhythm
 
@@ -3513,20 +3513,20 @@ U_Second_Violin_Voice_X_a = {                                                  %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -3648,16 +3648,16 @@ U_Second_Violin_Voice_XI_a = {                                                 %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -3772,10 +3772,10 @@ U_Second_Violin_Voice_XII_a = {                                                %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3858,7 +3858,7 @@ U_Second_Violin_Voice_XIII_a = {                                               %
         d'8                                                                    %! animales.clb_rhythm
         ^ \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Violin”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3872,7 +3872,7 @@ U_Second_Violin_Voice_XIII_a = {                                               %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3885,20 +3885,20 @@ U_Second_Violin_Voice_XIII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3912,10 +3912,10 @@ U_Second_Violin_Voice_XIII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -3929,10 +3929,10 @@ U_Second_Violin_Voice_XIII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4008,24 +4008,24 @@ U_Second_Violin_Voice_XIV_a = {                                                %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U Second_Violin_Voice_XIV measure 142 / measure 3]                      %! _comment_measure_numbers
     r4                                                                         %! animales.clb_rhythm
@@ -4033,10 +4033,10 @@ U_Second_Violin_Voice_XIV_a = {                                                %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -4149,10 +4149,10 @@ U_Second_Violin_Voice_XV_a = {                                                 %
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -4170,10 +4170,10 @@ U_Second_Violin_Voice_XV_a = {                                                 %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -4232,20 +4232,20 @@ U_Second_Violin_Voice_XVI_a = {                                                %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -4258,10 +4258,10 @@ U_Second_Violin_Voice_XVI_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4274,10 +4274,10 @@ U_Second_Violin_Voice_XVI_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4408,10 +4408,10 @@ U_Second_Violin_Voice_XVII_a = {                                               %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -4424,10 +4424,10 @@ U_Second_Violin_Voice_XVII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4435,10 +4435,10 @@ U_Second_Violin_Voice_XVII_a = {                                               %
 
         % [U Second_Violin_Voice_XVII measure 142 / measure 3]                 %! _comment_measure_numbers
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -4451,10 +4451,10 @@ U_Second_Violin_Voice_XVII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4530,10 +4530,10 @@ U_Second_Violin_Voice_XVIII_a = {                                              %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -4543,10 +4543,10 @@ U_Second_Violin_Voice_XVIII_a = {                                              %
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -4555,12 +4555,12 @@ U_Second_Violin_Voice_XVIII_a = {                                              %
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -4654,10 +4654,10 @@ U_Viola_Voice_I_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -4675,10 +4675,10 @@ U_Viola_Voice_I_a = {                                                          %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -4758,10 +4758,10 @@ U_Viola_Voice_II_a = {                                                         %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -4769,24 +4769,24 @@ U_Viola_Voice_II_a = {                                                         %
 
     % [U Viola_Voice_II measure 141 / measure 2]                               %! _comment_measure_numbers
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -4920,10 +4920,10 @@ U_Viola_Voice_III_a = {                                                        %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -4937,10 +4937,10 @@ U_Viola_Voice_III_a = {                                                        %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -5008,10 +5008,10 @@ U_Viola_Voice_IV_a = {                                                         %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -5142,16 +5142,16 @@ U_Viola_Voice_V_a = {                                                          %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -5238,20 +5238,20 @@ U_Viola_Voice_VI_a = {                                                         %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -5261,10 +5261,10 @@ U_Viola_Voice_VI_a = {                                                         %
     r2                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -5274,12 +5274,12 @@ U_Viola_Voice_VI_a = {                                                         %
 
     % [U Viola_Voice_VI measure 142 / measure 3]                               %! _comment_measure_numbers
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -5383,10 +5383,10 @@ U_Viola_Voice_VII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -5489,20 +5489,20 @@ U_Viola_Voice_VIII_a = {                                                       %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -5516,10 +5516,10 @@ U_Viola_Voice_VIII_a = {                                                       %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -5655,22 +5655,22 @@ U_Viola_Voice_IX_a = {                                                         %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
@@ -5680,10 +5680,10 @@ U_Viola_Voice_IX_a = {                                                         %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2.                                                                        %! animales.clb_rhythm
 
@@ -5740,10 +5740,10 @@ U_Viola_Voice_X_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -5786,10 +5786,10 @@ U_Viola_Voice_X_a = {                                                          %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
 }                                                                              %! abjad.Path.extern
 
@@ -5866,7 +5866,7 @@ U_Viola_Voice_XI_a = {                                                         %
     d'16                                                                       %! animales.clb_rhythm
     ^ \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5880,7 +5880,7 @@ U_Viola_Voice_XI_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -5923,10 +5923,10 @@ U_Viola_Voice_XI_a = {                                                         %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -5986,10 +5986,10 @@ U_Viola_Voice_XII_a = {                                                        %
 
         % [U Viola_Voice_XII measure 141 / measure 2]                          %! _comment_measure_numbers
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -6002,20 +6002,20 @@ U_Viola_Voice_XII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -6029,10 +6029,10 @@ U_Viola_Voice_XII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -6178,10 +6178,10 @@ U_Viola_Voice_XIII_a = {                                                       %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -6240,10 +6240,10 @@ U_Viola_Voice_XIV_a = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -6268,10 +6268,10 @@ U_Viola_Voice_XIV_a = {                                                        %
 
     % [U Viola_Voice_XIV measure 142 / measure 3]                              %! _comment_measure_numbers
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -6379,12 +6379,12 @@ U_Viola_Voice_XV_a = {                                                         %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U Viola_Voice_XV measure 141 / measure 2]                               %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
@@ -6394,10 +6394,10 @@ U_Viola_Voice_XV_a = {                                                         %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! animales.clb_rhythm
 
@@ -6407,20 +6407,20 @@ U_Viola_Voice_XV_a = {                                                         %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -6511,10 +6511,10 @@ U_Viola_Voice_XVI_a = {                                                        %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -6527,10 +6527,10 @@ U_Viola_Voice_XVI_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -6672,10 +6672,10 @@ U_Viola_Voice_XVII_a = {                                                       %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -6731,11 +6731,11 @@ U_Viola_Voice_XVIII_a = {                                                      %
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -6744,12 +6744,12 @@ U_Viola_Voice_XVIII_a = {                                                      %
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -6757,10 +6757,10 @@ U_Viola_Voice_XVIII_a = {                                                      %
 
     % [U Viola_Voice_XVIII measure 141 / measure 2]                            %! _comment_measure_numbers
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -6778,10 +6778,10 @@ U_Viola_Voice_XVIII_a = {                                                      %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! animales.clb_rhythm
 
@@ -6892,24 +6892,24 @@ U_Cello_Voice_I_a = {                                                          %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U Cello_Voice_I measure 142 / measure 3]                                %! _comment_measure_numbers
     r4                                                                         %! animales.clb_rhythm
@@ -6917,10 +6917,10 @@ U_Cello_Voice_I_a = {                                                          %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -7000,10 +7000,10 @@ U_Cello_Voice_II_a = {                                                         %
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -7021,10 +7021,10 @@ U_Cello_Voice_II_a = {                                                         %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -7118,20 +7118,20 @@ U_Cello_Voice_III_a = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7144,10 +7144,10 @@ U_Cello_Voice_III_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -7160,10 +7160,10 @@ U_Cello_Voice_III_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -7259,10 +7259,10 @@ U_Cello_Voice_IV_a = {                                                         %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7275,10 +7275,10 @@ U_Cello_Voice_IV_a = {                                                         %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -7286,10 +7286,10 @@ U_Cello_Voice_IV_a = {                                                         %
 
         % [U Cello_Voice_IV measure 142 / measure 3]                           %! _comment_measure_numbers
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7302,10 +7302,10 @@ U_Cello_Voice_IV_a = {                                                         %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -7416,10 +7416,10 @@ U_Cello_Voice_V_a = {                                                          %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -7429,10 +7429,10 @@ U_Cello_Voice_V_a = {                                                          %
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -7441,12 +7441,12 @@ U_Cello_Voice_V_a = {                                                          %
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -7503,10 +7503,10 @@ U_Cello_Voice_VI_a = {                                                         %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -7524,10 +7524,10 @@ U_Cello_Voice_VI_a = {                                                         %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -7646,10 +7646,10 @@ U_Cello_Voice_VII_a = {                                                        %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7663,20 +7663,20 @@ U_Cello_Voice_VII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7690,10 +7690,10 @@ U_Cello_Voice_VII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -7783,10 +7783,10 @@ U_Cello_Voice_VIII_a = {                                                       %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7800,10 +7800,10 @@ U_Cello_Voice_VIII_a = {                                                       %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7901,10 +7901,10 @@ U_Cello_Voice_IX_a = {                                                         %
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -7912,10 +7912,10 @@ U_Cello_Voice_IX_a = {                                                         %
     r4                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -8001,16 +8001,16 @@ U_Cello_Voice_X_a = {                                                          %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -8132,20 +8132,20 @@ U_Cello_Voice_XI_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -8155,10 +8155,10 @@ U_Cello_Voice_XI_a = {                                                         %
     r2                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -8168,12 +8168,12 @@ U_Cello_Voice_XI_a = {                                                         %
 
     % [U Cello_Voice_XI measure 142 / measure 3]                               %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -8242,10 +8242,10 @@ U_Cello_Voice_XII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -8383,20 +8383,20 @@ U_Cello_Voice_XIII_a = {                                                       %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -8410,10 +8410,10 @@ U_Cello_Voice_XIII_a = {                                                       %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -8514,22 +8514,22 @@ U_Cello_Voice_XIV_a = {                                                        %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
@@ -8539,10 +8539,10 @@ U_Cello_Voice_XIV_a = {                                                        %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2.                                                                        %! animales.clb_rhythm
 
@@ -8636,10 +8636,10 @@ U_Contrabass_Voice_I_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -8682,10 +8682,10 @@ U_Contrabass_Voice_I_a = {                                                     %
     r8                                                                         %! animales.clb_rhythm
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
 }                                                                              %! abjad.Path.extern
 
@@ -8739,11 +8739,11 @@ U_Contrabass_Voice_II_a = {                                                    %
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \voiceTwo                                                              %! baca.voice_two:-PARTS:IndicatorCommand
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -8756,10 +8756,10 @@ U_Contrabass_Voice_II_a = {                                                    %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -8890,10 +8890,10 @@ U_Contrabass_Voice_III_a = {                                                   %
 
         % [U Contrabass_Voice_III measure 141 / measure 2]                     %! _comment_measure_numbers
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -8906,20 +8906,20 @@ U_Contrabass_Voice_III_a = {                                                   %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -8933,10 +8933,10 @@ U_Contrabass_Voice_III_a = {                                                   %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -8995,10 +8995,10 @@ U_Contrabass_Voice_IV_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! animales.clb_rhythm
 
@@ -9023,24 +9023,24 @@ U_Contrabass_Voice_IV_a = {                                                    %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! animales.clb_rhythm
 
@@ -9132,10 +9132,10 @@ U_Contrabass_Voice_V_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
 
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
@@ -9160,10 +9160,10 @@ U_Contrabass_Voice_V_a = {                                                     %
 
     % [U Contrabass_Voice_V measure 142 / measure 3]                           %! _comment_measure_numbers
     d'16                                                                       %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     d'16                                                                       %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 
@@ -9236,12 +9236,12 @@ U_Contrabass_Voice_VI_a = {                                                    %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [U Contrabass_Voice_VI measure 141 / measure 2]                          %! _comment_measure_numbers
     b16                                                                        %! animales.clb_rhythm
@@ -9251,10 +9251,10 @@ U_Contrabass_Voice_VI_a = {                                                    %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! animales.clb_rhythm
 
@@ -9264,20 +9264,20 @@ U_Contrabass_Voice_VI_a = {                                                    %
     r16                                                                        %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! animales.clb_rhythm
 
     r4                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! animales.clb_rhythm
 

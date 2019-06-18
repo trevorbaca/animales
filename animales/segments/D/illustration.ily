@@ -506,11 +506,11 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando
 
     g'''8                                                                      %! animales.glissando_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     c'''8                                                                      %! animales.glissando_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     % [D First_Violin_Voice_II measure 25 / measure 2]                         %! _comment_measure_numbers
@@ -520,11 +520,11 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando
 
     f''8                                                                       %! animales.glissando_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     e'''8
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     b''2
@@ -532,19 +532,19 @@ D_First_Violin_Voice_II_a = {                                                  %
 
     % [D First_Violin_Voice_II measure 26 / measure 3]                         %! _comment_measure_numbers
     f'''8                                                                      %! animales.glissando_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     c''8
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     b''8
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     d''8                                                                       %! animales.glissando_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     c'''2                                                                      %! animales.glissando_rhythm
@@ -552,11 +552,11 @@ D_First_Violin_Voice_II_a = {                                                  %
 
     % [D First_Violin_Voice_II measure 27 / measure 4]                         %! _comment_measure_numbers
     g'8                                                                        %! animales.glissando_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     f''8                                                                       %! animales.glissando_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! animales.glissando_rhythm
@@ -573,15 +573,15 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando
 
     c'''8                                                                      %! animales.glissando_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     a'''8
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     f''8
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     e'''8                                                                      %! animales.glissando_rhythm
@@ -589,7 +589,7 @@ D_First_Violin_Voice_II_a = {                                                  %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     % [D First_Violin_Voice_II measure 29 / measure 6]                         %! _comment_measure_numbers
@@ -597,13 +597,13 @@ D_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando
 
     f'''8                                                                      %! animales.glissando_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando
 
     b8                                                                         %! animales.glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up:OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -1199,11 +1199,11 @@ D_Viola_Voice_I_a = {                                                          %
 
     b8                                                                         %! animales.sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b8                                                                         %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [D Viola_Voice_I measure 25 / measure 2]                                 %! _comment_measure_numbers
     b1                                                                         %! animales.sforzando_exchange_rhythm
@@ -1226,11 +1226,11 @@ D_Viola_Voice_I_a = {                                                          %
 
     b8                                                                         %! animales.sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b8                                                                         %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [D Viola_Voice_I measure 29 / measure 6]                                 %! _comment_measure_numbers
     b2.                                                                        %! animales.sforzando_exchange_rhythm
@@ -1464,11 +1464,11 @@ D_Cello_Voice_I_a = {                                                          %
 
     b8                                                                         %! animales.sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     b8                                                                         %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
 }                                                                              %! abjad.Path.extern
 

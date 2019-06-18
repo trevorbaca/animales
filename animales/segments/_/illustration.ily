@@ -732,11 +732,11 @@ i_Second_Violin_Voice_I_a = {                                                  %
 
     af'!8                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     af'!8                                                                      %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [_ Second_Violin_Voice_I measure 6]                                      %! _comment_measure_numbers
     af'!1                                                                      %! animales.sforzando_exchange_rhythm
@@ -1243,11 +1243,11 @@ i_Cello_Voice_I_a = {                                                          %
 
     a'8                                                                        %! animales.sforzando_exchange_rhythm
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a'8                                                                        %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [_ Cello_Voice_I measure 5]                                              %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
