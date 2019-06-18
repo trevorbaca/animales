@@ -2294,10 +2294,10 @@ Y_First_Violin_Voice_VIII_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -2979,10 +2979,10 @@ Y_First_Violin_Voice_XVI_a = {                                                 %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -4284,10 +4284,10 @@ Y_Second_Violin_Voice_XIII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4967,10 +4967,10 @@ Y_Viola_Voice_III_a = {                                                        %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -5306,10 +5306,10 @@ Y_Viola_Voice_VII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
@@ -6914,10 +6914,10 @@ Y_Cello_Voice_VIII_a = {                                                       %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -7259,10 +7259,10 @@ Y_Cello_Voice_XII_a = {                                                        %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.clb_rhythm
 
