@@ -521,10 +521,10 @@ AB_First_Violin_Voice_III_a = {                                                %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.clb_rhythm
 
@@ -1071,10 +1071,10 @@ AB_First_Violin_Voice_VIII_a = {                                               %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -3599,10 +3599,10 @@ AB_Second_Violin_Voice_XII_a = {                                               %
         r8                                                                     %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.clb_rhythm
 
@@ -4180,10 +4180,10 @@ AB_Second_Violin_Voice_XVII_a = {                                              %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         r8                                                                     %! animales.clb_rhythm
 
@@ -6712,10 +6712,10 @@ AB_Cello_Voice_III_a = {                                                       %
         r8                                                                     %! animales.clb_rhythm
 
         d'8                                                                    %! animales.clb_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         d'8                                                                    %! animales.clb_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.clb_rhythm
 
@@ -7258,10 +7258,10 @@ AB_Cello_Voice_VIII_a = {                                                      %
     \times 2/3 {                                                               %! animales.clb_rhythm
 
         b8                                                                     %! animales.clb_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         b8                                                                     %! animales.clb_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         r8                                                                     %! animales.clb_rhythm
 

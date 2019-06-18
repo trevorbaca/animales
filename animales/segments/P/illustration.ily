@@ -936,11 +936,11 @@ P_Horn_Voice_III_a = {                                                         %
 
     % [P Horn_Voice_III measure 110 / measure 2]                               %! _comment_measure_numbers
     df'!8                                                                      %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     ef'!8                                                                      %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     ef'!2                                                                      %! animales.brass_manifest_rhythm
     ~
@@ -1676,11 +1676,11 @@ P_Trumpet_Voice_III_a = {                                                      %
     ~
 
     f'8                                                                        %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g'8                                                                        %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     % [P Trumpet_Voice_III measure 114 / measure 6]                            %! _comment_measure_numbers
     g'2                                                                        %! animales.brass_manifest_rhythm
@@ -1703,11 +1703,11 @@ P_Trumpet_Voice_III_a = {                                                      %
 
     % [P Trumpet_Voice_III measure 116 / measure 8]                            %! _comment_measure_numbers
     f'8                                                                        %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g'8                                                                        %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g'2                                                                        %! animales.brass_manifest_rhythm
     ~
@@ -1726,11 +1726,11 @@ P_Trumpet_Voice_III_a = {                                                      %
     ~
 
     f'8                                                                        %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g'8                                                                        %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     % [P Trumpet_Voice_III measure 118 / measure 10]                           %! _comment_measure_numbers
     g'2                                                                        %! animales.brass_manifest_rhythm
@@ -1870,11 +1870,11 @@ P_Trumpet_Voice_II_a = {                                                       %
 
     % [P Trumpet_Voice_II measure 113 / measure 5]                             %! _comment_measure_numbers
     gf'!8                                                                      %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af'!8                                                                      %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af'!2                                                                      %! animales.brass_manifest_rhythm
     ~
@@ -2197,11 +2197,11 @@ P_Trombone_Voice_I_a = {                                                       %
     ~
 
     af!8                                                                       %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     gf!8                                                                       %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     % [P Trombone_Voice_I measure 112 / measure 4]                             %! _comment_measure_numbers
     gf!2                                                                       %! animales.brass_manifest_rhythm
@@ -2235,11 +2235,11 @@ P_Trombone_Voice_I_a = {                                                       %
 
     % [P Trombone_Voice_I measure 114 / measure 6]                             %! _comment_measure_numbers
     gf!8                                                                       %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af!8                                                                       %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af!2                                                                       %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2257,11 +2257,11 @@ P_Trombone_Voice_I_a = {                                                       %
 
     % [P Trombone_Voice_I measure 116 / measure 8]                             %! _comment_measure_numbers
     gf!8                                                                       %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af!8                                                                       %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af!2                                                                       %! animales.brass_manifest_rhythm
     ~
@@ -2351,11 +2351,11 @@ P_Trombone_Voice_III_a = {                                                     %
     ~
 
     g8                                                                         %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     f8                                                                         %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     % [P Trombone_Voice_III measure 111 / measure 3]                           %! _comment_measure_numbers
     f2                                                                         %! animales.brass_manifest_rhythm
@@ -2405,11 +2405,11 @@ P_Trombone_Voice_III_a = {                                                     %
     ~
 
     f8                                                                         %! animales.brass_manifest_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g8                                                                         %! animales.brass_manifest_rhythm
     ~
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     % [P Trombone_Voice_III measure 115 / measure 7]                           %! _comment_measure_numbers
     g2                                                                         %! animales.brass_manifest_rhythm

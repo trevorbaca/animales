@@ -183,63 +183,63 @@ M_Flute_Voice_I_a = {                                                          %
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
         (                                                                      %! baca.slur:SpannerIndicatorCommand(1)
 
         af''!8                                                                 %! animales.pennant_rhythm
 
         g''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     fs''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     f''16                                                                      %! animales.pennant_rhythm
 
     g''16                                                                      %! animales.pennant_rhythm
 
     fs''!16                                                                    %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af''!16                                                                    %! animales.pennant_rhythm
 
     bf''!16                                                                    %! animales.pennant_rhythm
 
     a''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g''16                                                                      %! animales.pennant_rhythm
 
     a''16                                                                      %! animales.pennant_rhythm
 
     bf''!16                                                                    %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         % [M Flute_Voice_I measure 84 / measure 3]                             %! _comment_measure_numbers
         b''8                                                                   %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         bf''!8                                                                 %! animales.pennant_rhythm
 
         c'''8                                                                  %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         cs'''!8                                                                %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         b''8                                                                   %! animales.pennant_rhythm
 
@@ -247,7 +247,7 @@ M_Flute_Voice_I_a = {                                                          %
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(2)
         )                                                                      %! baca.slur:SpannerIndicatorCommand(2)
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
@@ -325,7 +325,7 @@ M_Flute_Voice_III_a = {                                                        %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     (                                                                          %! baca.slur:SpannerIndicatorCommand(1)
 
     fs''!16                                                                    %! animales.pennant_rhythm
@@ -333,68 +333,68 @@ M_Flute_Voice_III_a = {                                                        %
     f''16                                                                      %! animales.pennant_rhythm
 
     e''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         % [M Flute_Voice_III measure 83 / measure 2]                           %! _comment_measure_numbers
         ef''!8                                                                 %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         f''8                                                                   %! animales.pennant_rhythm
 
         e''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         f''8                                                                   %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         fs''!8                                                                 %! animales.pennant_rhythm
 
         af''!8                                                                 %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     g''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     fs''!16                                                                    %! animales.pennant_rhythm
 
     f''16                                                                      %! animales.pennant_rhythm
 
     g''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     a''16                                                                      %! animales.pennant_rhythm
 
     af''!16                                                                    %! animales.pennant_rhythm
 
     bf''!16                                                                    %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     % [M Flute_Voice_III measure 84 / measure 3]                               %! _comment_measure_numbers
     b''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     a''16                                                                      %! animales.pennant_rhythm
 
     bf''!16                                                                    %! animales.pennant_rhythm
 
     b''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         c'''8                                                                  %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         b''8                                                                   %! animales.pennant_rhythm
 
@@ -402,7 +402,7 @@ M_Flute_Voice_III_a = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         )                                                                      %! baca.slur:SpannerIndicatorCommand(2)
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
@@ -532,86 +532,86 @@ M_Flute_Voice_II_a = {                                                         %
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
         (                                                                      %! baca.slur:SpannerIndicatorCommand(1)
 
         e''8                                                                   %! animales.pennant_rhythm
 
         ef''!8                                                                 %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         d''8                                                                   %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         cs''!8                                                                 %! animales.pennant_rhythm
 
         ef''!8                                                                 %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     % [M Flute_Voice_II measure 83 / measure 2]                                %! _comment_measure_numbers
     d''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     ef''!16                                                                    %! animales.pennant_rhythm
 
     e''16                                                                      %! animales.pennant_rhythm
 
     fs''!16                                                                    %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     f''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     e''16                                                                      %! animales.pennant_rhythm
 
     ef''!16                                                                    %! animales.pennant_rhythm
 
     f''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         fs''!8                                                                 %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         g''8                                                                   %! animales.pennant_rhythm
 
         fs''!8                                                                 %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         af''!8                                                                 %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         a''8                                                                   %! animales.pennant_rhythm
 
         g''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     % [M Flute_Voice_II measure 84 / measure 3]                                %! _comment_measure_numbers
     af''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     a''16                                                                      %! animales.pennant_rhythm
 
     bf''!16                                                                    %! animales.pennant_rhythm
 
     a''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     g''16                                                                      %! animales.pennant_rhythm
 
@@ -621,7 +621,7 @@ M_Flute_Voice_II_a = {                                                         %
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(2)
     )                                                                          %! baca.slur:SpannerIndicatorCommand(2)
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -695,7 +695,7 @@ M_Flute_Voice_IV_a = {                                                         %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     (                                                                          %! baca.slur:SpannerIndicatorCommand(1)
 
     ef''!16                                                                    %! animales.pennant_rhythm
@@ -703,27 +703,27 @@ M_Flute_Voice_IV_a = {                                                         %
     d''16                                                                      %! animales.pennant_rhythm
 
     cs''!16                                                                    %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     c''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     d''16                                                                      %! animales.pennant_rhythm
 
     cs''!16                                                                    %! animales.pennant_rhythm
 
     d''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         ef''!8                                                                 %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         f''8                                                                   %! animales.pennant_rhythm
 
         e''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
@@ -731,44 +731,44 @@ M_Flute_Voice_IV_a = {                                                         %
 
         % [M Flute_Voice_IV measure 83 / measure 2]                            %! _comment_measure_numbers
         ef''!8                                                                 %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         d''8                                                                   %! animales.pennant_rhythm
 
         e''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     f''16                                                                      %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     fs''!16                                                                    %! animales.pennant_rhythm
 
     f''16                                                                      %! animales.pennant_rhythm
 
     g''16                                                                      %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     af''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     fs''!16                                                                    %! animales.pennant_rhythm
 
     g''16                                                                      %! animales.pennant_rhythm
 
     af''!16                                                                    %! animales.pennant_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     \times 2/3 {                                                               %! animales.pennant_rhythm
 
         a''8                                                                   %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         af''!8                                                                 %! animales.pennant_rhythm
 
         g''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
@@ -776,17 +776,17 @@ M_Flute_Voice_IV_a = {                                                         %
 
         % [M Flute_Voice_IV measure 84 / measure 3]                            %! _comment_measure_numbers
         fs''!8                                                                 %! animales.pennant_rhythm
-        [                                                                      %! Duration_Specifier__rewrite_meter_
+        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
         af''!8                                                                 %! animales.pennant_rhythm
 
         g''8                                                                   %! animales.pennant_rhythm
-        ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
 
     }                                                                          %! animales.pennant_rhythm
 
     af''!16                                                                    %! animales.pennant_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     a''16                                                                      %! animales.pennant_rhythm
 
@@ -796,7 +796,7 @@ M_Flute_Voice_IV_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     )                                                                          %! baca.slur:SpannerIndicatorCommand(2)
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1776,19 +1776,19 @@ M_First_Violin_Voice_III_a = {                                                 %
     \glissando                                                                 %! baca.glissando
 
     d''8                                                                       %! animales.glissando_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     c'''8
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     g''8
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     d'''8                                                                      %! animales.glissando_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! animales.glissando_rhythm

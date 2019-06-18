@@ -4862,10 +4862,10 @@ X_Viola_Voice_VI_a = {                                                         %
     r8                                                                         %! animales.clb_rhythm
 
     b16                                                                        %! animales.clb_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     b16                                                                        %! animales.clb_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
 
     r4                                                                         %! animales.clb_rhythm
 
