@@ -2168,11 +2168,11 @@ C_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando
 
     b'8                                                                        %! animales.glissando_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     g''8                                                                       %! animales.glissando_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     a'4                                                                        %! animales.glissando_rhythm
@@ -2182,38 +2182,38 @@ C_First_Violin_Voice_II_a = {                                                  %
     d'''8                                                                      %! animales.glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     e''8
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     c'''2
     \glissando                                                                 %! baca.glissando
 
     d''8                                                                       %! animales.glissando_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     g'''8                                                                      %! animales.glissando_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     % [C First_Violin_Voice_II measure 22 / measure 5]                         %! _comment_measure_numbers
     c'''8                                                                      %! animales.glissando_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     f'''8                                                                      %! animales.glissando_rhythm
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     g''2                                                                       %! animales.glissando_rhythm
     \glissando                                                                 %! baca.glissando
 
     b'''8                                                                      %! animales.glissando_rhythm
-    [                                                                          %! Duration_Specifier__rewrite_meter_
+    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     d'''8                                                                      %! animales.glissando_rhythm
@@ -2221,7 +2221,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
     \glissando                                                                 %! baca.glissando
 
     % [C First_Violin_Voice_II measure 23 / measure 6]                         %! _comment_measure_numbers
