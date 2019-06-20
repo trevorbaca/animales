@@ -10,17 +10,21 @@ def pennant_rhythm(
     """
     Makes pennant rhythm.
     """
-    dmask = None
+    specifiers = []
     if silences is not None:
-        assert isinstance(silences, list), repr(silences)
-        mask = rmakers.silence(silences)
-        dmask = [mask]
+        specifier = rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index(silences)]
+        )
+        specifiers.append(specifier)
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        *specifiers,
         rmakers.TupletSpecifier(
-            diminution=True, extract_trivial=True, trivialize=True
+            diminution=True,
+            extract_trivial=True,
+            rewrite_rest_filled=True,
+            trivialize=True,
         ),
         rmakers.BeamSpecifier(beam_each_division=True),
-        division_masks=dmask,
         extra_counts_per_division=extra_counts,
         talea=rmakers.Talea(counts=[1], denominator=16),
     )
