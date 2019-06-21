@@ -120,7 +120,6 @@ maker(
             ],
             boxed=True,
             ),
-        #selector=baca.pleaf(0),
         ),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
@@ -273,7 +272,8 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(
         1,
-        dmask=rmakers.silence([1]),
+        #dmask=rmakers.silence([1]),
+        rmakers.SilenceMask(selector=baca.tuplet(1)),
         ),
     animales.margin_markup('Cb. 1'),
     baca.dynamic('p'),
