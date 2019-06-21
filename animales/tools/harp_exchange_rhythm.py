@@ -6,8 +6,8 @@ from abjadext import rmakers
 
 def harp_exchange_rhythm(
     this_part: int,
-    *,
-    dmask: rmakers.MasksTyping = None,
+    *specifiers,
+    #dmask: rmakers.MasksTyping = None,
     mask_first: bool = False,
 ) -> baca.RhythmCommand:
     """
@@ -68,16 +68,19 @@ def harp_exchange_rhythm(
         counts.append(rest)
     talea = rmakers.Talea(counts=counts, denominator=16, preamble=preamble)
 
-    specifiers = []
+    mask_first_specifier = []
     if mask_first is True:
-        specifiers.append(rmakers.SilenceMask(selector=baca.lt(0)))
+        specifier = rmakers.SilenceMask(selector=baca.lt(0))
+        mask_first_specifier.append(specifier)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         *specifiers,
+        rmakers.CacheState(),
+        *mask_first_specifier,
         rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
         rmakers.TieSpecifier(repeat_ties=True),
         rmakers.BeamSpecifier(beam_each_division=True),
-        division_masks=dmask,
+        #division_masks=dmask,
         extra_counts_per_division=[2],
         talea=talea,
     )
