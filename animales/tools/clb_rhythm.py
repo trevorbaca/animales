@@ -50,13 +50,13 @@ def clb_rhythm(
         extra_counts = [-1]
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(
             diminution=True,
             extract_trivial=True,
             rewrite_rest_filled=True,
             trivialize=True,
         ),
-        rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts,
         talea=talea,
     )
