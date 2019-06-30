@@ -34,10 +34,10 @@ def brass_manifest_rhythm(
     talea = rmakers.Talea(counts=counts, denominator=8, preamble=preamble)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(
             extract_trivial=True, rewrite_rest_filled=True, trivialize=True
         ),
-        rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extra_counts_per_division,
         talea=talea,
     )

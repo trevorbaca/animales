@@ -74,9 +74,9 @@ def harp_exchange_rhythm(
         *specifiers,
         rmakers.CacheState(),
         *silence_first_specifier,
+        rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
         rmakers.TieSpecifier(repeat_ties=True),
-        rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=[2],
         talea=talea,
     )
