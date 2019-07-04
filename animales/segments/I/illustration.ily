@@ -2182,7 +2182,7 @@ I_Percussion_Voice_II = {                                                      %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 2/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2207,13 +2207,13 @@ I_Percussion_Voice_II = {                                                      %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Voice_II measure 59 / measure 4]                           %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Voice_II measure 60 / measure 5]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 2/4                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Voice_II measure 61 / measure 6]                           %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

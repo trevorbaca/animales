@@ -141,7 +141,7 @@ i_Percussion_Voice_I_a = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
     ^ \baca-default-indicator-markup "(“Percussion”)"                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-default-indicator-markup "[“Perc.”]"                               %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -154,10 +154,10 @@ i_Percussion_Voice_I_a = {                                                     %
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [_ Percussion_Voice_I measure 2]                                         %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_I measure 3]                                         %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_I measure 4]                                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -166,7 +166,7 @@ i_Percussion_Voice_I_a = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_I measure 6]                                         %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! abjad.Path.extern
 
@@ -230,7 +230,7 @@ i_Percussion_Voice_II_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
     ^ \baca-default-indicator-markup "(“Percussion”)"                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-default-indicator-markup "[“Perc.”]"                               %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -243,10 +243,10 @@ i_Percussion_Voice_II_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [_ Percussion_Voice_II measure 2]                                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_II measure 3]                                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_II measure 4]                                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -255,7 +255,7 @@ i_Percussion_Voice_II_a = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_II measure 6]                                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! abjad.Path.extern
 
@@ -319,7 +319,7 @@ i_Percussion_Voice_IV_a = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
     ^ \baca-default-indicator-markup "(“Percussion”)"                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-default-indicator-markup "[“Perc.”]"                               %! DEFAULT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -332,10 +332,10 @@ i_Percussion_Voice_IV_a = {                                                    %
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [_ Percussion_Voice_IV measure 2]                                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_IV measure 3]                                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_IV measure 4]                                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -344,7 +344,7 @@ i_Percussion_Voice_IV_a = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Voice_IV measure 6]                                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! abjad.Path.extern
 

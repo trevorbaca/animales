@@ -688,7 +688,7 @@ E_First_Violin_Voice_III = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 %%% \stopTrillSpan                                                             %! baca.stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -708,10 +708,10 @@ E_First_Violin_Voice_III = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [E First_Violin_Voice_III measure 31 / measure 2]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E First_Violin_Voice_III measure 32 / measure 3]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 2/4                                                                   %! _call_rhythm_commands
 
     % [E First_Violin_Voice_III measure 33 / measure 4]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -720,7 +720,7 @@ E_First_Violin_Voice_III = {                                                   %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [E First_Violin_Voice_III measure 35 / measure 6]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -923,7 +923,7 @@ E_Second_Violin_Voice_III = {                                                  %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 %%% \stopTrillSpan                                                             %! baca.stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -943,10 +943,10 @@ E_Second_Violin_Voice_III = {                                                  %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [E Second_Violin_Voice_III measure 31 / measure 2]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E Second_Violin_Voice_III measure 32 / measure 3]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 2/4                                                                   %! _call_rhythm_commands
 
     % [E Second_Violin_Voice_III measure 33 / measure 4]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -955,7 +955,7 @@ E_Second_Violin_Voice_III = {                                                  %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [E Second_Violin_Voice_III measure 35 / measure 6]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1158,7 +1158,7 @@ E_Viola_Voice_III = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 %%% \stopTrillSpan                                                             %! baca.stop_trill:-SEGMENT:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-but-accents-sffz                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1178,10 +1178,10 @@ E_Viola_Voice_III = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [E Viola_Voice_III measure 31 / measure 2]                               %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E Viola_Voice_III measure 32 / measure 3]                               %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 2/4                                                                   %! _call_rhythm_commands
 
     % [E Viola_Voice_III measure 33 / measure 4]                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -1190,7 +1190,7 @@ E_Viola_Voice_III = {                                                          %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [E Viola_Voice_III measure 35 / measure 6]                               %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
