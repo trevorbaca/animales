@@ -70,20 +70,19 @@ def harp_exchange_rhythm(
         specifier = rmakers.SilenceMask(selector=baca.lt(0))
         silence_first_specifier.append(specifier)
 
-    rhythm_maker = rmakers.TaleaRhythmMaker(
-        *specifiers,
-        rmakers.CacheState(),
-        *silence_first_specifier,
-        rmakers.BeamSpecifier(selector=baca.tuplets()),
-        rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
-        rmakers.TieSpecifier(repeat_ties=True),
-        extra_counts_per_division=[2],
-        talea=talea,
-    )
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
         persist="harp_exchange_rhythm",
         rewrite_meter=True,
-        rhythm_maker=rhythm_maker,
-        tag="animales.harp_exchange_rhythm",
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            *specifiers,
+            rmakers.CacheState(),
+            *silence_first_specifier,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
+            rmakers.TieSpecifier(repeat_ties=True),
+            extra_counts_per_division=[2],
+            tag="animales.harp_exchange_rhythm",
+            talea=talea,
+        ),
     )
