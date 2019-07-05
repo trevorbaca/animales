@@ -49,21 +49,19 @@ def clb_rhythm(
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
 
-    rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.BeamSpecifier(selector=baca.tuplets()),
-        rmakers.TupletSpecifier(
-            diminution=True,
-            extract_trivial=True,
-            rewrite_rest_filled=True,
-            trivialize=True,
-        ),
-        extra_counts_per_division=extra_counts,
-        talea=talea,
-    )
-
     return baca.rhythm(
-        divisions=baca.divisions().fuse().quarters(),
-        rewrite_meter=True,
-        rhythm_maker=rhythm_maker,
-        tag="animales.clb_rhythm",
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.TupletSpecifier(
+                diminution=True,
+                extract_trivial=True,
+                rewrite_rest_filled=True,
+                trivialize=True,
+            ),
+            rmakers.RewriteMeterCommand(),
+            divisions=baca.divisions().fuse().quarters(),
+            extra_counts_per_division=extra_counts,
+            tag="animales.clb_rhythm",
+            talea=talea,
+        )
     )

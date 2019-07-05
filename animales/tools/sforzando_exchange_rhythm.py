@@ -60,17 +60,16 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
     counts = part_to_counts[this_part]
     talea = rmakers.Talea(counts=counts, denominator=16, preamble=preamble)
 
-    rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.BeamSpecifier(selector=baca.tuplets()),
-        rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
-        rmakers.TieSpecifier(repeat_ties=True),
-        extra_counts_per_division=[2],
-        talea=talea,
-    )
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
         persist="sforzando_exchange_rhythm",
         rewrite_meter=True,
-        rhythm_maker=rhythm_maker,
-        tag="animales.sforzando_exchange_rhythm",
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
+            rmakers.TieSpecifier(repeat_ties=True),
+            extra_counts_per_division=[2],
+            tag="animales.sforzando_exchange_rhythm",
+            talea=talea,
+        ),
     )
