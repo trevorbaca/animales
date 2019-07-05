@@ -71,16 +71,16 @@ def harp_exchange_rhythm(
         silence_first_specifier.append(specifier)
 
     return baca.rhythm(
-        divisions=baca.divisions().fuse().quarters(),
         persist="harp_exchange_rhythm",
-        rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
             rmakers.CacheState(),
             *silence_first_specifier,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True, trivialize=True),
+            rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
+            divisions=baca.divisions().fuse().quarters(),
             extra_counts_per_division=[2],
             tag="animales.harp_exchange_rhythm",
             talea=talea,

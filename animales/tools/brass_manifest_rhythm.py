@@ -31,21 +31,22 @@ def brass_manifest_rhythm(
     else:
         preamble = [-delay]
 
-    talea = rmakers.Talea(counts=counts, denominator=8, preamble=preamble)
-
     return baca.rhythm(
-        divisions=baca.divisions().fuse().quarters(),
         left_broken=left_broken,
         persist="brass_manifest_rhythm",
-        rewrite_meter=True,
         right_broken=right_broken,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
+            rmakers.CacheState(),
+            rmakers.RewriteMeterCommand(),
+            divisions=baca.divisions().fuse().quarters(),
             extra_counts_per_division=extra_counts_per_division,
             tag="animales.brass_manifest_rhythm",
-            talea=talea,
+            talea=rmakers.Talea(
+                counts=counts, denominator=8, preamble=preamble
+            ),
         ),
     )
