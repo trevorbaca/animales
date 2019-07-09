@@ -3,9 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def brass_manifest_rhythm(
-    part: int, *, left_broken: bool = False, right_broken: bool = False
-) -> baca.RhythmCommand:
+def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
     """
     Makes brass manifest rhythm.
     """
@@ -32,9 +30,7 @@ def brass_manifest_rhythm(
         preamble = [-delay]
 
     return baca.rhythm(
-        left_broken=left_broken,
         persist="brass_manifest_rhythm",
-        right_broken=right_broken,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(

@@ -121,7 +121,7 @@ def crescendi():
 
 maker(
     'hn1',
-    animales.brass_manifest_rhythm(1, right_broken=True),
+    animales.brass_manifest_rhythm(1),
     animales.parts('Horn', 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -131,7 +131,7 @@ maker(
 
 maker(
     'hn3',
-    animales.brass_manifest_rhythm(3, right_broken=True),
+    animales.brass_manifest_rhythm(3),
     animales.parts('Horn', 3),
     baca.not_parts(baca.voice_two()),
     baca.pitches('Ab3 Bb3', persist='seconds'),
@@ -140,7 +140,7 @@ maker(
 
 maker(
     'hn2',
-    animales.brass_manifest_rhythm(2, right_broken=True),
+    animales.brass_manifest_rhythm(2),
     animales.parts('Horn', 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -150,7 +150,7 @@ maker(
 
 maker(
     'hn4',
-    animales.brass_manifest_rhythm(4, right_broken=True),
+    animales.brass_manifest_rhythm(4),
     baca.not_parts(baca.voice_two()),
     animales.parts('Horn', 4),
     baca.pitches('Ab3 Bb3', persist='seconds'),
@@ -161,7 +161,7 @@ maker(
 
 maker(
     'tp1',
-    animales.brass_manifest_rhythm(5, right_broken=True),
+    animales.brass_manifest_rhythm(5),
     animales.parts('Trumpet', 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -171,7 +171,7 @@ maker(
 
 maker(
     'tp3',
-    animales.brass_manifest_rhythm(7, right_broken=True),
+    animales.brass_manifest_rhythm(7),
     animales.parts('Trumpet', 3),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', persist='seconds'),
@@ -180,7 +180,7 @@ maker(
 
 maker(
     'tp2',
-    animales.brass_manifest_rhythm(6, right_broken=True),
+    animales.brass_manifest_rhythm(6),
     animales.parts('Trumpet', 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -190,7 +190,7 @@ maker(
 
 maker(
     'tp4',
-    animales.brass_manifest_rhythm(8, right_broken=True),
+    animales.brass_manifest_rhythm(8),
     animales.parts('Trumpet', 4),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', persist='seconds'),
@@ -201,7 +201,7 @@ maker(
 
 maker(
     'tbn1',
-    animales.brass_manifest_rhythm(9, right_broken=True),
+    animales.brass_manifest_rhythm(9),
     animales.parts('Trombone', 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -211,7 +211,7 @@ maker(
 
 maker(
     'tbn3',
-    animales.brass_manifest_rhythm(11, right_broken=True),
+    animales.brass_manifest_rhythm(11),
     animales.parts('Trombone', 3),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G3 A3', persist='seconds'),
@@ -220,7 +220,7 @@ maker(
 
 maker(
     'tbn2',
-    animales.brass_manifest_rhythm(10, right_broken=True),
+    animales.brass_manifest_rhythm(10),
     animales.parts('Trombone', 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -230,7 +230,7 @@ maker(
 
 maker(
     'tbn4',
-    animales.brass_manifest_rhythm(12, right_broken=True),
+    animales.brass_manifest_rhythm(12),
     animales.parts('Trombone', 4),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G3 A3', persist='seconds'),
