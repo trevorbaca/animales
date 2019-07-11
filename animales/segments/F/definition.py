@@ -235,7 +235,7 @@ warning = warning.scale((1.25, 1.25))
 maker(
     'cb3',
     baca.suite(
-        baca.untie_to(selector=baca.leaf(1)),
+        baca.untie(baca.leaf(1)),
         baca.pitch('A#1', selector=baca.pleaf(0)),
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
         baca.repeat_tie_to(selector=baca.leaf(1)),

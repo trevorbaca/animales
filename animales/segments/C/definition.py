@@ -188,7 +188,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
-        baca.untie_to(selector=baca.leaves()),
+        baca.untie(baca.leaves()),
         animales.glissando_positions(reverse=True),
         baca.pitch('C5', selector=baca.pleaf(0)),
         baca.pitch('C6', selector=baca.pleaf(-1)),
