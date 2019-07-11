@@ -192,7 +192,7 @@ maker(
         animales.glissando_positions(reverse=True),
         baca.pitch('C5', selector=baca.pleaf(0)),
         baca.pitch('C6', selector=baca.pleaf(-1)),
-        baca.tie(selector=baca.ptail(-2)),
+        baca.tie(baca.ptail(-2)),
         baca.glissando(),
         ),
     )
