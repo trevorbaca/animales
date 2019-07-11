@@ -2229,7 +2229,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando
 
     c'''8                                                                      %! animales.glissando_rhythm
-    ~                                                                          %! baca.tie_repeat_pitches
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     c'''4.                                                                     %! animales.glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

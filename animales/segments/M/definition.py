@@ -290,7 +290,6 @@ maker(
         animales.glissando_positions(transpose=-3),
         baca.pitch('G4', selector=baca.pleaf(0)),
         baca.pitch('G4', selector=baca.pleaf(-1)),
-        baca.tie_repeat_pitches(),
         baca.glissando(),
         ),
     )
