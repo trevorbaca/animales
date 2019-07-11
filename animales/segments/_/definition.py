@@ -135,7 +135,7 @@ maker(
 # then untie ...
 maker(
     (strings, (5, 6)),
-    baca.untie_to(selector=baca.pleaf(0)),
+    baca.untie(baca.pleaf(0)),
     )
 
 # ... then pitch
