@@ -115,7 +115,6 @@ maker(
         animales.glissando_positions(transpose=-1),
         baca.pitch('B4', selector=baca.pleaf(0)),
         baca.pitch('B3', selector=baca.pleaf(-1)),
-        baca.tie_repeat_pitches(),
         baca.glissando(),
         ),
     )
