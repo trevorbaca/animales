@@ -98,7 +98,7 @@ maker(
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     )
 
 # harp

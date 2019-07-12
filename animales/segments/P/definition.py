@@ -321,7 +321,7 @@ maker(
     animales.parts('First_Violin', 18),
     baca.make_repeat_tied_notes(),
     baca.pitch('C#4'),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 

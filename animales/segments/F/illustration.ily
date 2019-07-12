@@ -778,7 +778,7 @@ F_Percussion_Voice_II_a = {                                                    %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-%@% \repeatTie                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS %! TieCorrectionCommand
+    \repeatTie                                                                 %! baca.repeat_tie:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1716,7 +1716,7 @@ F_Contrabass_Voice_III_a = {                                                   %
                         }                                                      %! baca.markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.markup:-PARTS:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie                                                                 %! baca.repeat_tie:IndicatorCommand
 
     % [F Contrabass_Voice_III measure 38 / measure 3]                          %! _comment_measure_numbers
     bf,!1                                                                      %! baca.make_repeat_tied_notes

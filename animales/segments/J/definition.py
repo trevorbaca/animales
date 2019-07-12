@@ -309,7 +309,7 @@ stop_trill = [
 maker(
     (stop_trill, 1),
     baca.not_segment(baca.stop_trill()),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     )
 
 maker(
