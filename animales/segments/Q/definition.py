@@ -286,7 +286,7 @@ for voice, items in string_parts.items():
 
 maker(
     '1vn5',
-    baca.repeat_tie_to(selector=baca.leaf(0)),
+    baca.repeat_tie(baca.leaf(0)),
     baca.stem_tremolo(
         selector=baca.pleaves(exclude=abjad.const.HIDDEN),
         ),

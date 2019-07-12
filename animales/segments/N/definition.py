@@ -167,7 +167,7 @@ maker(
         selector=baca.leaves()[2:4],
         ),
     baca.pitch('Ab2'),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     )
 
 maker(

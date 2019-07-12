@@ -93,7 +93,7 @@ maker(
     baca.hairpin('p >o niente', selector=baca.pleaves().rleak()),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     )
 
 maker(

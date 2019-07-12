@@ -102,7 +102,7 @@ maker(
     'perc2',
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
@@ -114,7 +114,7 @@ maker(
     animales.parts('Percussion', 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
     
@@ -125,7 +125,7 @@ maker(
     animales.parts('Percussion', 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -143,6 +143,6 @@ maker(
     baca.dynamic('fff'),
     baca.make_repeat_tied_notes(),
     baca.pitch('C#2'),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     baca.text_spanner('ord. => ext. pont.'),
     )

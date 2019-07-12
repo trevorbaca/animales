@@ -155,7 +155,7 @@ maker(
     animales.parts('Percussion', 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -238,7 +238,7 @@ maker(
         baca.untie(baca.leaf(1)),
         baca.pitch('A#1', selector=baca.pleaf(0)),
         baca.pitch('Bb1', selector=baca.leaves()[1:]),
-        baca.repeat_tie_to(selector=baca.leaf(1)),
+        baca.repeat_tie(selector=baca.leaf(1)),
         baca.edition(
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
