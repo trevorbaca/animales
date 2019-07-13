@@ -40,14 +40,13 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
                 ),
                 rmakers.CacheState(),
                 extra_counts_per_division=extra_counts_per_division,
-                tag="animales.brass_manifest_rhythm",
                 talea=rmakers.Talea(
                     counts=counts, denominator=8, preamble=preamble
                 ),
             ),
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().fuse().quarters(),
-            tag="animales.brass_manifest_rhythm",
         ),
         persist="brass_manifest_rhythm",
+        tag="animales.brass_manifest_rhythm",
     )

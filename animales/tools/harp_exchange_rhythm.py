@@ -76,7 +76,6 @@ def harp_exchange_rhythm(
                 *specifiers,
                 rmakers.CacheState(),
                 extra_counts_per_division=[2],
-                tag="animales.harp_exchange_rhythm",
                 talea=talea,
             ),
             *silence_first_specifier,
@@ -85,7 +84,7 @@ def harp_exchange_rhythm(
             rmakers.RewriteMeterCommand(),
             rmakers.TieSpecifier(repeat_ties=True),
             divisions=baca.divisions().fuse().quarters(),
-            tag="animales.harp_exchange_rhythm",
         ),
         persist="harp_exchange_rhythm",
+        tag="animales.harp_exchange_rhythm",
     )
