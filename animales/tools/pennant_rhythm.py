@@ -21,7 +21,6 @@ def pennant_rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts,
-                tag="animales.pennant_rhythm",
                 talea=rmakers.Talea(counts=[1], denominator=16),
             ),
             *specifiers,
@@ -34,6 +33,6 @@ def pennant_rhythm(
             ),
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().fuse().quarters(),
-            tag="animales.pennant_rhythm",
-        )
+        ),
+        tag="animales.pennant_rhythm",
     )

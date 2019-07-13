@@ -17,7 +17,7 @@ def downbeat_attack(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             rmakers.RewriteMeterCommand(),
-            tag="animales.downbeat_attack",
             talea=rmakers.Talea(counts=[count], denominator=denominator),
-        )
+        ),
+        tag="animales.downbeat_attack",
     )
