@@ -7,7 +7,7 @@ def pennant_pitches(
     start_pitch: typing.Union[int, str],
     intervals: abjad.IntegerSequence = [0],
     *,
-    direction: abjad.VerticalAlignment = abjad.Up,
+    direction: typing.Union[int, abjad.VerticalAlignment] = abjad.Up,
 ) -> baca.CommandTyping:
     """
     Makes pennant pitches.
