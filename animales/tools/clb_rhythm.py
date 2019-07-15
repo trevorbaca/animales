@@ -54,14 +54,14 @@ def clb_rhythm(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts, talea=talea
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 diminution=True,
                 extract_trivial=True,
                 rewrite_rest_filled=True,
                 trivialize=True,
             ),
-            rmakers.RewriteMeterCommand(),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="animales.clb_rhythm",
