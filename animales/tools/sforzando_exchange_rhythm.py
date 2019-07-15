@@ -63,14 +63,15 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                rmakers.BeamCommand(selector=baca.tuplets()),
-                rmakers.TupletCommand(extract_trivial=True, trivialize=True),
+                rmakers.beam(),
+                rmakers.trivialize(),
+                rmakers.extract_trivial(),
                 rmakers.cache_state(),
                 extra_counts_per_division=[2],
                 talea=talea,
             ),
             rmakers.rewrite_meter(),
-            rmakers.TieCommand(repeat_ties=True),
+            rmakers.to_repeat_tie(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         persist="sforzando_exchange_rhythm",
