@@ -22,14 +22,14 @@ def pennant_rhythm(
                 talea=rmakers.Talea(counts=[1], denominator=16),
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 diminution=True,
                 extract_trivial=True,
                 rewrite_rest_filled=True,
                 trivialize=True,
             ),
-            rmakers.RewriteMeterCommand(),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="animales.pennant_rhythm",

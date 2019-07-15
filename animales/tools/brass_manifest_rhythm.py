@@ -32,19 +32,19 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                rmakers.BeamSpecifier(selector=baca.tuplets()),
-                rmakers.TupletSpecifier(
+                rmakers.BeamCommand(selector=baca.tuplets()),
+                rmakers.TupletCommand(
                     extract_trivial=True,
                     rewrite_rest_filled=True,
                     trivialize=True,
                 ),
-                rmakers.CacheState(),
+                rmakers.cache_state(),
                 extra_counts_per_division=extra_counts_per_division,
                 talea=rmakers.Talea(
                     counts=counts, denominator=8, preamble=preamble
                 ),
             ),
-            rmakers.RewriteMeterCommand(),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         persist="brass_manifest_rhythm",
