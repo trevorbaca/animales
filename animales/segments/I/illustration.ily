@@ -180,27 +180,27 @@ I_Clarinet_Voice_I_a = {                                                       %
 
     % [I Clarinet_Voice_I measure 57 / measure 2]                              %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Clarinet_Voice_I measure 58 / measure 3]                              %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Clarinet_Voice_I measure 59 / measure 4]                              %! _comment_measure_numbers
     b'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Clarinet_Voice_I measure 60 / measure 5]                              %! _comment_measure_numbers
     b'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Clarinet_Voice_I measure 61 / measure 6]                              %! _comment_measure_numbers
     b'1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
@@ -287,11 +287,11 @@ I_Bass_Clarinet_Voice_I_a = {                                                  %
 
     % [I Bass_Clarinet_Voice_I measure 57 / measure 2]                         %! _comment_measure_numbers
     b2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Bass_Clarinet_Voice_I measure 58 / measure 3]                         %! _comment_measure_numbers
     b2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2415,23 +2415,23 @@ I_First_Violin_Voice_I_a = {                                                   %
 
     % [I First_Violin_Voice_I measure 57 / measure 2]                          %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I First_Violin_Voice_I measure 58 / measure 3]                          %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I First_Violin_Voice_I measure 59 / measure 4]                          %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I First_Violin_Voice_I measure 60 / measure 5]                          %! _comment_measure_numbers
     a2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I First_Violin_Voice_I measure 61 / measure 6]                          %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -2519,23 +2519,23 @@ I_Second_Violin_Voice_I_a = {                                                  %
 
     % [I Second_Violin_Voice_I measure 57 / measure 2]                         %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Second_Violin_Voice_I measure 58 / measure 3]                         %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Second_Violin_Voice_I measure 59 / measure 4]                         %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Second_Violin_Voice_I measure 60 / measure 5]                         %! _comment_measure_numbers
     a2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Second_Violin_Voice_I measure 61 / measure 6]                         %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -2623,23 +2623,23 @@ I_Viola_Voice_I_a = {                                                          %
 
     % [I Viola_Voice_I measure 57 / measure 2]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Viola_Voice_I measure 58 / measure 3]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Viola_Voice_I measure 59 / measure 4]                                 %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Viola_Voice_I measure 60 / measure 5]                                 %! _comment_measure_numbers
     a2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Viola_Voice_I measure 61 / measure 6]                                 %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -2727,23 +2727,23 @@ I_Cello_Voice_I_a = {                                                          %
 
     % [I Cello_Voice_I measure 57 / measure 2]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Cello_Voice_I measure 58 / measure 3]                                 %! _comment_measure_numbers
     a2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Cello_Voice_I measure 59 / measure 4]                                 %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Cello_Voice_I measure 60 / measure 5]                                 %! _comment_measure_numbers
     a2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Cello_Voice_I measure 61 / measure 6]                                 %! _comment_measure_numbers
     a1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -2968,23 +2968,23 @@ I_Contrabass_Voice_III_a = {                                                   %
 
     % [I Contrabass_Voice_III measure 57 / measure 2]                          %! _comment_measure_numbers
     a,2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Contrabass_Voice_III measure 58 / measure 3]                          %! _comment_measure_numbers
     a,2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Contrabass_Voice_III measure 59 / measure 4]                          %! _comment_measure_numbers
     a,1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Contrabass_Voice_III measure 60 / measure 5]                          %! _comment_measure_numbers
     a,2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [I Contrabass_Voice_III measure 61 / measure 6]                          %! _comment_measure_numbers
     a,1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern

@@ -71,7 +71,7 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
                 talea=talea,
             ),
             rmakers.rewrite_meter(),
-            rmakers.to_repeat_tie(),
+            rmakers.force_repeat_ties(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         persist="sforzando_exchange_rhythm",
