@@ -63,7 +63,7 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                rmakers.beam(),
+                rmakers.simple_beam(),
                 rmakers.trivialize(),
                 rmakers.extract_trivial(),
                 rmakers.cache_state(),
