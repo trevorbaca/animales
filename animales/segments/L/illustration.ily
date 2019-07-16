@@ -202,23 +202,23 @@ L_Clarinet_Voice_I_a = {                                                       %
 
     % [L Clarinet_Voice_I measure 77 / measure 2]                              %! _comment_measure_numbers
     f''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Clarinet_Voice_I measure 78 / measure 3]                              %! _comment_measure_numbers
     f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Clarinet_Voice_I measure 79 / measure 4]                              %! _comment_measure_numbers
     f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Clarinet_Voice_I measure 80 / measure 5]                              %! _comment_measure_numbers
     f''2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Clarinet_Voice_I measure 81 / measure 6]                              %! _comment_measure_numbers
     f''2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -334,7 +334,7 @@ L_Bass_Clarinet_Voice_I_a = {                                                  %
 
     % [L Bass_Clarinet_Voice_I measure 81 / measure 6]                         %! _comment_measure_numbers
     bf!2.                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:HIDE_TO_JOIN_BROKEN_SPANNERS
 
 }                                                                              %! abjad.Path.extern
@@ -671,31 +671,31 @@ L_Percussion_Voice_I_a = {                                                     %
     % [L Percussion_Voice_I measure 77 / measure 2]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_I measure 78 / measure 3]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_I measure 79 / measure 4]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_I measure 80 / measure 5]                            %! _comment_measure_numbers
     c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_I measure 81 / measure 6]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
@@ -797,29 +797,29 @@ L_Percussion_Voice_II_a = {                                                    %
     % [L Percussion_Voice_II measure 77 / measure 2]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_II measure 78 / measure 3]                           %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_II measure 79 / measure 4]                           %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_II measure 80 / measure 5]                           %! _comment_measure_numbers
     c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [L Percussion_Voice_II measure 81 / measure 6]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 

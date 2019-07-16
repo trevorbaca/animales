@@ -920,13 +920,13 @@ M_Clarinet_Voice_I_a = {                                                       %
 
     % [M Clarinet_Voice_I measure 83 / measure 2]                              %! _comment_measure_numbers
     f''1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Clarinet_Voice_I measure 84 / measure 3]                              %! _comment_measure_numbers
     f''2                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1042,23 +1042,23 @@ M_Bass_Clarinet_Voice_I_a = {                                                  %
 
     % [M Bass_Clarinet_Voice_I measure 83 / measure 2]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Bass_Clarinet_Voice_I measure 84 / measure 3]                         %! _comment_measure_numbers
     bf!2                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Bass_Clarinet_Voice_I measure 85 / measure 4]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Bass_Clarinet_Voice_I measure 86 / measure 5]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Bass_Clarinet_Voice_I measure 87 / measure 6]                         %! _comment_measure_numbers
     bf!1                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
@@ -1402,13 +1402,13 @@ M_Percussion_Voice_I_a = {                                                     %
     % [M Percussion_Voice_I measure 83 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Percussion_Voice_I measure 84 / measure 3]                            %! _comment_measure_numbers
     c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1537,13 +1537,13 @@ M_Percussion_Voice_II_a = {                                                    %
     % [M Percussion_Voice_II measure 83 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Percussion_Voice_II measure 84 / measure 3]                           %! _comment_measure_numbers
     c'2                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1911,11 +1911,11 @@ M_First_Violin_Voice_I_a = {                                                   %
     g1                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M First_Violin_Voice_I measure 84 / measure 3]                          %! _comment_measure_numbers
     g2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2042,11 +2042,11 @@ M_Second_Violin_Voice_I_a = {                                                  %
     g1                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Second_Violin_Voice_I measure 84 / measure 3]                         %! _comment_measure_numbers
     g2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2170,11 +2170,11 @@ M_Viola_Voice_I_a = {                                                          %
     g1                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Viola_Voice_I measure 84 / measure 3]                                 %! _comment_measure_numbers
     g2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2298,11 +2298,11 @@ M_Cello_Voice_I_a = {                                                          %
     g1                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Cello_Voice_I measure 84 / measure 3]                                 %! _comment_measure_numbers
     g2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2571,11 +2571,11 @@ M_Contrabass_Voice_III_a = {                                                   %
     g,1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [M Contrabass_Voice_III measure 84 / measure 3]                          %! _comment_measure_numbers
     g,2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 

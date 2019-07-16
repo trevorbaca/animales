@@ -83,7 +83,7 @@ def harp_exchange_rhythm(
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.to_repeat_tie(),
+            rmakers.force_repeat_ties(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         persist="harp_exchange_rhythm",

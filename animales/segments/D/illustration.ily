@@ -178,25 +178,25 @@ D_Clarinet_Voice_I_a = {                                                       %
 
     % [D Clarinet_Voice_I measure 25 / measure 2]                              %! _comment_measure_numbers
     ds''!1                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Clarinet_Voice_I measure 26 / measure 3]                              %! _comment_measure_numbers
     ds''!1                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Clarinet_Voice_I measure 27 / measure 4]                              %! _comment_measure_numbers
     ds''!1                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Clarinet_Voice_I measure 28 / measure 5]                              %! _comment_measure_numbers
     ds''!2.                                                                    %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Clarinet_Voice_I measure 29 / measure 6]                              %! _comment_measure_numbers
     ds''!2.                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
@@ -298,30 +298,30 @@ D_Percussion_Voice_I_a = {                                                     %
     % [D Percussion_Voice_I measure 25 / measure 2]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_I measure 26 / measure 3]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_I measure 27 / measure 4]                            %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_I measure 28 / measure 5]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_I measure 29 / measure 6]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
@@ -423,30 +423,30 @@ D_Percussion_Voice_II_a = {                                                    %
     % [D Percussion_Voice_II measure 25 / measure 2]                           %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_II measure 26 / measure 3]                           %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_II measure 27 / measure 4]                           %! _comment_measure_numbers
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_II measure 28 / measure 5]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Percussion_Voice_II measure 29 / measure 6]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
@@ -1551,25 +1551,25 @@ D_Contrabass_Voice_III_a = {                                                   %
 
     % [D Contrabass_Voice_III measure 25 / measure 2]                          %! _comment_measure_numbers
     b,1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Contrabass_Voice_III measure 26 / measure 3]                          %! _comment_measure_numbers
     b,1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Contrabass_Voice_III measure 27 / measure 4]                          %! _comment_measure_numbers
     b,1                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Contrabass_Voice_III measure 28 / measure 5]                          %! _comment_measure_numbers
     b,2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [D Contrabass_Voice_III measure 29 / measure 6]                          %! _comment_measure_numbers
     b,2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
 }                                                                              %! abjad.Path.extern
 
