@@ -54,7 +54,7 @@ def clb_rhythm(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts, talea=talea
             ),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
             rmakers.force_diminution(),

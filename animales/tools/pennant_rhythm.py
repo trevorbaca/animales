@@ -22,7 +22,7 @@ def pennant_rhythm(
                 talea=rmakers.Talea(counts=[1], denominator=16),
             ),
             *specifiers,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.force_diminution(),
             rmakers.trivialize(),
