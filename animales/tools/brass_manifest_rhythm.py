@@ -32,7 +32,7 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                rmakers.simple_beam(),
+                rmakers.beam(),
                 rmakers.rewrite_rest_filled(),
                 rmakers.trivialize(),
                 rmakers.extract_trivial(),

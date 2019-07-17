@@ -79,7 +79,7 @@ def harp_exchange_rhythm(
                 talea=talea,
             ),
             *silence_first_specifier,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),

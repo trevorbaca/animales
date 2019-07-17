@@ -9,7 +9,7 @@ def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
     """
     return baca.rhythm(
         rmakers.TaleaRhythmMaker(
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             talea=rmakers.Talea(
