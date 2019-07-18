@@ -67,7 +67,7 @@ def harp_exchange_rhythm(
 
     silence_first_specifier = []
     if silence_first is True:
-        specifier = rmakers.rest(baca.lt(0))
+        specifier = rmakers.force_rest(baca.lt(0))
         silence_first_specifier.append(specifier)
 
     return baca.rhythm(

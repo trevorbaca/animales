@@ -12,7 +12,7 @@ def pennant_rhythm(
     """
     specifiers = []
     if silences is not None:
-        specifier = rmakers.rest(baca.tuplets().get(silences))
+        specifier = rmakers.force_rest(baca.tuplets().get(silences))
         specifiers.append(specifier)
 
     return baca.rhythm(

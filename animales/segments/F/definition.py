@@ -272,7 +272,7 @@ maker(
     animales.parts('Contrabass', 1),
     animales.harp_exchange_rhythm(
         1,
-        rmakers.rest(baca.tuplet(1)),
+        rmakers.force_rest(baca.tuplet(1)),
         ),
     animales.margin_markup('Cb. 1'),
     baca.dynamic('p'),
