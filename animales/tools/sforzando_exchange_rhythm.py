@@ -67,7 +67,7 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
                 rmakers.trivialize(),
                 rmakers.extract_trivial(),
                 rmakers.cache_state(),
-                extra_counts_per_division=[2],
+                extra_counts=[2],
                 talea=talea,
             ),
             rmakers.rewrite_meter(),

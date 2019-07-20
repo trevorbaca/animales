@@ -75,7 +75,7 @@ def harp_exchange_rhythm(
             rmakers.TaleaRhythmMaker(
                 *specifiers,
                 rmakers.cache_state(),
-                extra_counts_per_division=[2],
+                extra_counts=[2],
                 talea=talea,
             ),
             *silence_first_specifier,
