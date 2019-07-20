@@ -50,8 +50,8 @@ def clb_rhythm(
         extra_counts = [-1]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(extra_counts=extra_counts, talea=talea),
+        rmakers.rhythm(
+            rmakers.talea(extra_counts=extra_counts, talea=talea),
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
