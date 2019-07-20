@@ -8,7 +8,7 @@ def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
     Makes glissando rhythm.
     """
     return baca.rhythm(
-        rmakers.TaleaRhythmMaker(
+        rmakers.talea(
             rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),

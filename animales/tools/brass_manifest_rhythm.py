@@ -30,8 +30,8 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
         preamble = [-delay]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 rmakers.beam(),
                 rmakers.rewrite_rest_filled(),
                 rmakers.trivialize(),
