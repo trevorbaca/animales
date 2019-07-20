@@ -58,7 +58,7 @@ def clb_rhythm(
             rmakers.force_diminution(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            divisions=baca.divisions().fuse().quarters(),
+            preprocessor=baca.divisions().fuse().quarters(),
         ),
         tag="animales.clb_rhythm",
     )
