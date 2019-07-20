@@ -9,7 +9,7 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
     """
 
     assert part in range(1, 12 + 1), repr(part)
-    counts, delay, extra_counts_per_division = {
+    counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
         2: ([8, 8, -2], 13, [0, 1, 0, 0]),
         3: ([8, 8, -2], None, [0, 0, 1, 0]),
@@ -37,7 +37,7 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
                 rmakers.trivialize(),
                 rmakers.extract_trivial(),
                 rmakers.cache_state(),
-                extra_counts_per_division=extra_counts_per_division,
+                extra_counts=extra_counts,
                 talea=rmakers.Talea(
                     counts=counts, denominator=8, preamble=preamble
                 ),
