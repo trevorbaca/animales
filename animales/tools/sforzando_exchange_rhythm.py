@@ -58,17 +58,19 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
 
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-    talea = rmakers.Talea(counts=counts, denominator=16, preamble=preamble)
 
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.talea(
+                counts,
+                16,
                 rmakers.beam(),
                 rmakers.trivialize(),
                 rmakers.extract_trivial(),
                 rmakers.cache_state(),
                 extra_counts=[2],
-                talea=talea,
+                preamble=preamble,
+                ###talea=talea,
             ),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_tie(),

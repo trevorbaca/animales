@@ -43,15 +43,13 @@ def clb_rhythm(
     assert shards.weight() == counts_.weight()
     counts_ = shards[index]
 
-    talea = rmakers.Talea(counts=counts_, denominator=16)
-
     extra_counts = None
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(extra_counts=extra_counts, talea=talea),
+            rmakers.talea(counts_, 16, extra_counts=extra_counts),
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
