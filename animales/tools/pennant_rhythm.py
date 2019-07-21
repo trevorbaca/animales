@@ -17,10 +17,7 @@ def pennant_rhythm(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(
-                extra_counts=extra_counts,
-                talea=rmakers.Talea(counts=[1], denominator=16),
-            ),
+            rmakers.talea([1], 16, extra_counts=extra_counts),
             *specifiers,
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),
