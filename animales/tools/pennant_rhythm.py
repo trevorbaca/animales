@@ -16,16 +16,14 @@ def pennant_rhythm(
         specifiers.append(specifier)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea([1], 16, extra_counts=extra_counts),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.force_diminution(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            preprocessor=baca.divisions().fuse().quarters(),
-        ),
+        rmakers.talea([1], 16, extra_counts=extra_counts),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.force_diminution(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        preprocessor=baca.divisions().fuse().quarters(),
         tag="animales.pennant_rhythm",
     )
