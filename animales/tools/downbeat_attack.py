@@ -10,14 +10,11 @@ def downbeat_attack(
     Makes downbeat attack.
     """
     return baca.rhythm(
-        rmakers.talea(
-            [count],
-            denominator,
-            rmakers.force_rest(baca.lts()[1:]),
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-        ),
+        rmakers.talea([count], denominator),
+        rmakers.force_rest(baca.lts()[1:]),
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
         tag="animales.downbeat_attack",
     )
