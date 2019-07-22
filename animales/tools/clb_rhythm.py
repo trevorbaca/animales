@@ -48,15 +48,13 @@ def clb_rhythm(
         extra_counts = [-1]
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts_, 16, extra_counts=extra_counts),
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.trivialize(),
-            rmakers.force_diminution(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            preprocessor=baca.divisions().fuse().quarters(),
-        ),
+        rmakers.talea(counts_, 16, extra_counts=extra_counts),
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.trivialize(),
+        rmakers.force_diminution(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        preprocessor=baca.divisions().fuse().quarters(),
         tag="animales.clb_rhythm",
     )
