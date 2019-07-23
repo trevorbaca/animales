@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 
 def harp_exchange_rhythm(
-    this_part: int, *specifiers, silence_first: bool = False
+    this_part: int, *commands, silence_first: bool = False
 ) -> baca.RhythmCommand:
     """
     Makes harp-exchange rhythm.
@@ -71,7 +71,7 @@ def harp_exchange_rhythm(
 
     return baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
-        *specifiers,
+        *commands,
         rmakers.cache_state(),
         *silence_first_specifier,
         rmakers.beam(),
