@@ -70,14 +70,9 @@ def harp_exchange_rhythm(
         silence_first_specifier.append(specifier)
 
     return baca.rhythm(
-        rmakers.talea(
-            counts,
-            16,
-            *specifiers,
-            rmakers.cache_state(),
-            extra_counts=[2],
-            preamble=preamble,
-        ),
+        rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
+        *specifiers,
+        rmakers.cache_state(),
         *silence_first_specifier,
         rmakers.beam(),
         rmakers.trivialize(),
