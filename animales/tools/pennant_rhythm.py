@@ -10,14 +10,14 @@ def pennant_rhythm(
     """
     Makes pennant rhythm.
     """
-    specifiers = []
+    commands = []
     if silences is not None:
         specifier = rmakers.force_rest(baca.tuplets().get(silences))
-        specifiers.append(specifier)
+        commands.append(specifier)
 
     return baca.rhythm(
         rmakers.talea([1], 16, extra_counts=extra_counts),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.force_diminution(),
