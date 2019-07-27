@@ -68,6 +68,7 @@ maker(
     baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark(
         'J',
+        baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=baca.const.ONLY_SCORE,

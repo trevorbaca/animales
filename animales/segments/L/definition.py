@@ -60,6 +60,7 @@ maker(
     baca.metronome_mark(baca.Accelerando()),
     baca.rehearsal_mark(
         'L',
+        baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag='+TABLOID_SCORE',
