@@ -61,6 +61,7 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'N',
+        baca.skip(1 - 1),
         abjad.tweak(
             (0, -2),
             tag='+TABLOID_SCORE',

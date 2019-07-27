@@ -63,6 +63,7 @@ maker(
     baca.metronome_mark('114'),
     baca.rehearsal_mark(
         'M',
+        baca.skip(1 - 1),
         abjad.tweak(
             (0, 12),
             tag='+TABLOID_SCORE',
