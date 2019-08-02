@@ -25,6 +25,5 @@ def pennant_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=baca.divisions().fuse().quarters(),
-        stack=True,
         tag="animales.pennant_rhythm",
     )
