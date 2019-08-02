@@ -12,6 +12,5 @@ def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        stack=True,
         tag="animales.glissando_rhythm",
     )

@@ -81,6 +81,5 @@ def harp_exchange_rhythm(
         rmakers.force_repeat_tie(),
         preprocessor=baca.divisions().fuse().quarters(),
         persist="harp_exchange_rhythm",
-        stack=True,
         tag="animales.harp_exchange_rhythm",
     )
