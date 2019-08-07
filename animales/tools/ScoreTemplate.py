@@ -586,11 +586,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             assert isinstance(voices, list), repr(voices)
             staff_numeral = self._to_roman(staff_number)
             if len(voices) == 1:
-                is_simultaneous = False
+                simultaneous = False
             else:
-                is_simultaneous = True
+                simultaneous = True
             staff = abjad.Staff(
-                is_simultaneous=is_simultaneous,
+                simultaneous=simultaneous,
                 name=f"{name}_Staff_{staff_numeral}",
                 tag=tag,
             )
