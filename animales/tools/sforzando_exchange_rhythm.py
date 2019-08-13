@@ -66,7 +66,7 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.divisions().fuse().quarters(),
+        preprocessor=baca.sequence().fuse().quarters(),
         persist="sforzando_exchange_rhythm",
         tag="animales.sforzando_exchange_rhythm",
     )
