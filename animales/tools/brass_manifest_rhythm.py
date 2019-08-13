@@ -36,7 +36,7 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.divisions().fuse().quarters(),
+        preprocessor=baca.sequence().fuse().quarters(),
         persist="brass_manifest_rhythm",
         tag="animales.brass_manifest_rhythm",
     )
