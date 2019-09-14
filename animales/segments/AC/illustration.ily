@@ -343,6 +343,7 @@ AC_Piano_Staff_I = {                                                           %
 AC_Percussion_Voice_IV_a = {                                                   %! abjad.Path.extern
 
     % [AC Percussion_Voice_IV measure 165 / measure 1]                         %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
