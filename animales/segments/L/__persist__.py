@@ -558,13 +558,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(0, 0),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_I',
@@ -595,13 +590,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(0, 0),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_II',
@@ -649,6 +639,12 @@ persist = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Voice_IV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_IV',

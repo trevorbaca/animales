@@ -1872,6 +1872,7 @@ C_Percussion_Voice_I_a = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [C Percussion_Voice_I measure 18 / measure 1]                    %! _comment_measure_numbers
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 1                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1934,8 +1935,6 @@ C_Percussion_Voice_I_a = {                                                     %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Percussion_Voice_I measure 20 / measure 3]                            %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:-PARTS:IndicatorCommand
-%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca.literal:+PARTS:TEMPORARY:IndicatorCommand
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2016,6 +2015,7 @@ C_Percussion_Voice_II_a = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [C Percussion_Voice_II measure 18 / measure 1]                   %! _comment_measure_numbers
+            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 1                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2078,8 +2078,6 @@ C_Percussion_Voice_II_a = {                                                    %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [C Percussion_Voice_II measure 20 / measure 3]                           %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:-PARTS:IndicatorCommand
-%%% \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca.literal:+PARTS:TEMPORARY:IndicatorCommand
     c'1                                                                        %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

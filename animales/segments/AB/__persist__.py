@@ -993,6 +993,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_II',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1027,6 +1033,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_IV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_IV',
@@ -1067,6 +1079,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_VI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_VI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1101,6 +1119,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_VIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_VIII',
@@ -1141,6 +1165,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_X',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_X',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1178,6 +1208,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_XII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_XII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1212,6 +1248,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Cello_Voice_XIV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Cello_Voice_XIV',
@@ -1303,6 +1345,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Contrabass_Voice_II',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Contrabass_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1321,6 +1369,12 @@ persist = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Cb. (3-4)',
+                                ),
+                            abjad.Momento(
+                                context='Contrabass_Voice_III',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
                                 ),
                             abjad.Momento(
                                 context='Contrabass_Voice_III',
@@ -1363,6 +1417,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Contrabass_Voice_VI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Contrabass_Voice_VI',
@@ -1454,6 +1514,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_II',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1488,6 +1554,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_IV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_IV',
@@ -1528,6 +1600,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_VI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_VI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1562,6 +1640,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_VIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_VIII',
@@ -1602,6 +1686,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XVIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_XVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1636,6 +1726,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_X',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_X',
@@ -1676,6 +1772,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_XII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1713,6 +1815,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XIV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_XIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -1747,6 +1855,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='First_Violin_Voice_XVI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='First_Violin_Voice_XVI',
@@ -2057,13 +2171,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(0, 0),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_I',
@@ -2094,13 +2203,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(0, 0),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_II',
@@ -2130,6 +2234,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_III',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Voice_III',
                                 manifest='instruments',
                                 value='Vibraphone',
                                 ),
@@ -2153,6 +2263,12 @@ persist = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc. 4 (tam.)',
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Voice_IV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Voice_IV',
@@ -2289,6 +2405,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_II',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2323,6 +2445,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_IV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_IV',
@@ -2363,6 +2491,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_VI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_VI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2397,6 +2531,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_VIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_VIII',
@@ -2437,6 +2577,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XVIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_XVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2471,6 +2617,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_X',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_X',
@@ -2511,6 +2663,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_XII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2548,6 +2706,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XIV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_XIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2582,6 +2746,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Second_Violin_Voice_XVI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Second_Violin_Voice_XVI',
@@ -2861,6 +3031,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_II',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2895,6 +3071,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_IV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_IV',
@@ -2935,6 +3117,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_VI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_VI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2969,6 +3157,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_VIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_VIII',
@@ -3009,6 +3203,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XVIII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_XVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3043,6 +3243,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_X',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_X',
@@ -3083,6 +3289,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XII',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_XII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3120,6 +3332,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XIV',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_XIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -3154,6 +3372,12 @@ persist = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Viola_Voice_XVI',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Viola_Voice_XVI',
