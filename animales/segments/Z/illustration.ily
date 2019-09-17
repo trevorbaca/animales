@@ -6635,7 +6635,7 @@ Z_Contrabass_Voice_III_a = {                                                   %
     % [Z Contrabass_Voice_III measure 157 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     cs!1                                                                       %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(2)
+    \stopTextSpan                                                              %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
