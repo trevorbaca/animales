@@ -75,8 +75,6 @@ def constellations(
                 command = baca.markup(markup, selector=baca.leaf(0))
                 command = baca.only_parts(command)
                 commands.append(command)
-                command = baca.only_parts(baca.bar_extent_persistent((-2, 2)))
-                commands.append(command)
                 command = baca.staff_lines(1)
                 commands.append(command)
                 command = baca.clef("percussion")
