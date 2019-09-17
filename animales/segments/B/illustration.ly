@@ -1,19 +1,19 @@
-\version "2.19.83"                                                             %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
-\language "english"                                                            %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\version "2.19.83"                                                             %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile
+\language "english"                                                            %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile
 
-\include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
-\include "../../stylesheets/nonfirst-segment.ily"                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile
+\include "../../stylesheets/nonfirst-segment.ily"                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile
 \include "illustration.ily"                                                    %! abjad.Path.extern
 \paper { first-page-number = #3 }                                              %! __make_segment_pdf__
 
 
-\score {                                                                       %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\score {                                                                       %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile
     
-    <<                                                                         %! baca.SegmentMaker._make_lilypond_file
+    <<                                                                         %! baca.SegmentMaker._make_lilypond_file()
 
-        {                                                                      %! baca.SegmentMaker._make_lilypond_file
-            \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file
-        }                                                                      %! baca.SegmentMaker._make_lilypond_file
+        {                                                                      %! baca.SegmentMaker._make_lilypond_file()
+            \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file()
+        }                                                                      %! baca.SegmentMaker._make_lilypond_file()
 
         \context Score = "Score"                                               %! animales.ScoreTemplate.__call__
         <<                                                                     %! animales.ScoreTemplate.__call__
@@ -89,6 +89,6 @@
 
         >>                                                                     %! animales.ScoreTemplate.__call__
 
-    >>                                                                         %! baca.SegmentMaker._make_lilypond_file
+    >>                                                                         %! baca.SegmentMaker._make_lilypond_file()
     
-}                                                                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+}                                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile
