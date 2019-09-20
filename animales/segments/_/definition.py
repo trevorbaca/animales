@@ -31,17 +31,17 @@ maker = baca.SegmentMaker(
         cellos=[
             (1, [1]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[:6],
     transpose_score=True,
     validate_measure_count=6,
-    )
+)
 
 maker(
     'Global_Skips',
     baca.metronome_mark('114'),
-    )
+)
 
 # single-staff percussion
 
@@ -49,19 +49,19 @@ maker(
     'perc1',
     animales.parts('Percussion', 1),
     baca.staff_lines(1),
-    )
+)
 
 maker(
     'perc2',
     animales.parts('Percussion', 2),
     baca.staff_lines(1),
-    )
+)
 
 maker(
     'perc4',
     animales.parts('Percussion', 4),
     baca.staff_lines(1),
-    )
+)
 
 # start markup
 
@@ -100,7 +100,7 @@ for voice, commands in voice_to_start_markup.items():
     maker(
         (voice, 1),
         *commands,
-        )
+    )
 
 # strings
 
@@ -110,7 +110,7 @@ animales.make_trill_rhythm(maker)
 maker(
     ('vc1', 1),
     baca.clef('tenor'),
-    )
+)
 
 strings = [
     '1vn1',
@@ -126,18 +126,18 @@ strings = [
 maker(
     ('1vn1', 1),
     baca.accent(selector=baca.phead(0)),
-    )
+)
 
 maker(
     strings,
     baca.accent(selector=baca.pheads()[1:]),
-    )
+)
 
 # then untie ...
 maker(
     (strings, (5, 6)),
     baca.untie(baca.pleaf(0)),
-    )
+)
 
 # ... then pitch
 maker(
@@ -145,14 +145,14 @@ maker(
     baca.dynamic('f-but-accents-sffz', selector=baca.pleaf(0)),
     baca.pitch('A4'),
     baca.trill_spanner('B4'),
-    )
+)
 
 maker(
     (strings, (5, 6)),
     baca.dynamic('p-sub-but-accents-continue-sffz', selector=baca.pleaf(0)),
     baca.pitch('Ab4'),
     baca.trill_spanner('A4', right_broken=True),
-    )
+)
 
 raised_trill = [
     '1vn3',
@@ -170,9 +170,9 @@ unraised_trill = [
 maker(
     raised_trill,
     baca.trill_spanner_staff_padding(6),
-    )
+)
 
 maker(
     unraised_trill,
     baca.trill_spanner_staff_padding(4),
-    )
+)

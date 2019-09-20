@@ -56,12 +56,12 @@ maker = baca.SegmentMaker(
             (1, [1]),
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 8],
     transpose_score=True,
     validate_measure_count=8,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -72,17 +72,17 @@ maker(
         abjad.tweak(
             (0, 6),
             tag=baca.const.ONLY_SCORE,
-            ).extra_offset,
-        ),
+        ).extra_offset,
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_left_padding(-8),
-        ),
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_y_offset(8),
-        ),
-    )
+    ),
+)
 
 # clarinets
 
@@ -92,17 +92,17 @@ maker(
     animales.parts('Clarinet', 1), baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('C5'),
-    )
+)
 
 maker(
     ('Global_Rests', (5, -1)),
     animales.parts('Clarinet', 1),
-    )
+)
 
 maker(
     ('Global_Rests', (1, 4)),
     animales.parts('Clarinet', 2),
-    )
+)
 
 maker(
     ('cl1', (5, 8)),
@@ -111,7 +111,7 @@ maker(
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Cb5'),
-    )
+)
 
 # brass
 
@@ -128,7 +128,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('hn3', 1),
@@ -136,7 +136,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('hn2', 1),
@@ -145,7 +145,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('A3 B3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('hn4', 1),
@@ -153,7 +153,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 # trumpets
 
@@ -164,7 +164,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tp3', 1),
@@ -172,7 +172,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tp2', 1),
@@ -181,7 +181,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab4 Bb4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tp4', 1),
@@ -191,7 +191,7 @@ maker(
     baca.not_parts(baca.note_column_shift(1.0)),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 # trombones
 
@@ -202,7 +202,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tbn3', 1),
@@ -210,7 +210,7 @@ maker(
     baca.dynamic('sfz'),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
     baca.not_parts(baca.voice_two()),
-    )
+)
 
 maker(
     ('tbn2', 1),
@@ -219,7 +219,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Ab3 Bb3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tbn4', 1),
@@ -229,7 +229,7 @@ maker(
     baca.not_parts(baca.note_column_shift(1.0)),
     baca.not_parts(baca.voice_two()),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 # harp
 
@@ -240,7 +240,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('C5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # piano
 
@@ -251,7 +251,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('C5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # percussion (cym., vib.)
 
@@ -261,7 +261,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 maker(
     'perc3',
@@ -269,7 +269,7 @@ maker(
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('C5'),
-    )
+)
 
 # strings
 
@@ -278,28 +278,28 @@ maker(
     animales.parts('First_Violin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab6'),
-    )
+)
 
 maker(
     '2vn1',
     animales.parts('Second_Violin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab5'),
-    )
+)
 
 maker(
     'va1',
     animales.parts('Viola'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab4'),
-    )
+)
 
 maker(
     'vc1',
     animales.parts('Cello'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab2'),
-    )
+)
 
 most_strings = [
     '1vn1',
@@ -311,7 +311,7 @@ most_strings = [
 maker(
     most_strings,
     baca.dynamic('pp'),
-    )
+)
 
 maker(
     'cb3',
@@ -319,7 +319,7 @@ maker(
     baca.dynamic('p'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Ab1'),
-    )
+)
 
 # contrabass solo
 
@@ -330,4 +330,4 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.note_head_style_harmonic(),
     baca.pitch('Cqf5', do_not_transpose=True),
-    )
+)

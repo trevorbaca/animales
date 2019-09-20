@@ -41,12 +41,12 @@ maker = baca.SegmentMaker(
         contrabasses=[
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -57,17 +57,17 @@ maker(
         abjad.tweak(
             (0, 6),
             tag='+TABLOID_SCORE',
-            ).extra_offset,
-        ),
+        ).extra_offset,
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_left_padding(1),
-        ),
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_y_offset(8),
-        ),
-    )
+    ),
+)
 
 # clarinet
 
@@ -79,7 +79,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.edition('solo (cl. 3)', 'solo'),
     baca.pitch('C#5'),
-    )
+)
 
 # percussion
 
@@ -91,7 +91,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 maker(
     'perc2',
@@ -100,7 +100,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # strings
 
@@ -110,33 +110,33 @@ maker(
     animales.parts('First_Violin'),
     baca.make_repeated_duration_notes([(1, 4)]),
     baca.not_parts(baca.one_voice()),
-    )
+)
 
 maker(
     '2vn1',
     animales.margin_markup('Vni. II'),
     animales.parts('Second_Violin'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'va1',
     animales.parts('Viola'),
     animales.margin_markup('Vle.'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'vc1',
     animales.parts('Cello'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'cb3',
     animales.parts('Contrabass'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 left_broken = [
     '1vn1',
@@ -149,7 +149,7 @@ maker(
     (left_broken, 1),
     baca.not_segment(baca.stop_trill()),
     baca.repeat_tie(baca.pleaf(0)),
-    )
+)
 
 absent_left_broken = [
     '1vn3',
@@ -160,7 +160,7 @@ absent_left_broken = [
 maker(
     (absent_left_broken, 1),
     baca.not_segment(baca.stop_trill()),
-    )
+)
 
 maker(
     '1vn1',
@@ -170,10 +170,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'A6'),
-    )
+)
 
 maker(
     '2vn1',
@@ -183,10 +183,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'A5'),
-    )
+)
 
 maker(
     'va1',
@@ -196,10 +196,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'A4'),
-    )
+)
 
 maker(
     'vc1',
@@ -209,10 +209,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('B3', 'C3'),
-    )
+)
 
 maker(
     'cb3',
@@ -220,8 +220,8 @@ maker(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
-        ),
+    ),
     baca.hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('B1', 'A1'),
     baca.repeat_tie(baca.pleaf(0)),
-    )
+)

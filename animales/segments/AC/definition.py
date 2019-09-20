@@ -23,12 +23,12 @@ maker = baca.SegmentMaker(
         percussion=[
             (4, [4]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=10,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -38,14 +38,14 @@ maker(
         abjad.tweak(
             (0, 6),
             tag='+TABLOID_SCORE',
-            ).extra_offset,
-        ),
-    )
+        ).extra_offset,
+    ),
+)
 
 maker(
     'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(10 - 1)),
-    )
+)
 
 animales.attach_grand_pause_fermatas(maker, measure=-1)
 
@@ -54,7 +54,7 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 maker(
     'pf1',
     animales.parts('Piano'),
-    )
+)
 
 maker(
     ('pf1', (1, 9)),
@@ -64,17 +64,17 @@ maker(
     baca.markup(
         'harmonic: touch lowest string of piano 1 cm from hammers',
         boxed=True,
-        ),
+    ),
     baca.pitch('C#4'),
     baca.only_parts(baca.text_script_x_offset(3)),
-    )
+)
 
 # slate
 
 maker(
     'perc4',
     animales.parts('Percussion', 4),
-    )
+)
 
 maker(
     ('perc4', (1, 8)),
@@ -87,20 +87,20 @@ maker(
             'one quarter diameter of circle every quarter note',
             ],
             boxed=True,
-            ),
         ),
+    ),
     baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),
-    )
+)
 
 for voice in (
     'perc4',
     'pf1',
-    ):
+):
     maker(
         (voice, 1),
         baca.tag(
             '+TABLOID_SCORE',
             baca.literal(r'\magnifyStaff #10/7'),
-            )
         )
+    )

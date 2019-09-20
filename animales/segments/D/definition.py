@@ -40,12 +40,12 @@ maker = baca.SegmentMaker(
         contrabasses=[
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -55,9 +55,9 @@ maker(
         abjad.tweak(
             (0, -2),
             tag=baca.const.ONLY_SCORE,
-            ).extra_offset,
-        ),
-    )
+    ).extra_offset,
+    ),
+)
 
 # clarinet
 
@@ -69,7 +69,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.edition('solo (cl. 2)', 'solo'),
     baca.pitch('C#5'),
-    )
+)
 
 # percussion
 
@@ -82,7 +82,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # cymbal
 
@@ -93,7 +93,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # strings
 
@@ -104,11 +104,11 @@ maker(
     baca.hairpin(
         'p < f',
         selector=baca.mleaves(1).rleak(),
-        ),
+    ),
     baca.hairpin(
         'f > p',
         selector=baca.mleaves(-1).lleak(),
-        ),
+    ),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
@@ -118,8 +118,8 @@ maker(
         baca.pitch('B4', baca.pleaf(0), allow_repitch=True),
         baca.pitch('B3', baca.pleaf(-1), allow_repitch=True),
         baca.glissando(),
-        ),
-    )
+    ),
+)
 
 animales.assign_trill_parts(maker, exclude_first_violin=True)
 animales.make_trill_rhythm(maker)
@@ -127,12 +127,12 @@ animales.make_trill_rhythm(maker)
 maker(
     ('1vn1', 1),
     baca.not_parts(baca.voice_two()),
-    )
+)
 
 maker(
     ('vc1', 1),
     baca.clef('bass'),
-    )
+)
 
 strings = [
     '1vn1',
@@ -150,7 +150,7 @@ maker(
     baca.dynamic('f-but-accents-sffz', selector=baca.pleaf(0)),
     baca.pitch('B3'),
     baca.trill_spanner('C4', right_broken=True),
-    )
+)
 
 # contrabasses
 
@@ -160,4 +160,4 @@ maker(
     baca.hairpin('< ff', selector=baca.pleaves()[:4], left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('B1'),
-    )
+)

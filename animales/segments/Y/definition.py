@@ -80,12 +80,12 @@ maker = baca.SegmentMaker(
         contrabasses=[
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=3,
-    )
+)
 
 maker(
     'Global_Skips',    
@@ -95,9 +95,9 @@ maker(
         abjad.tweak(
             (0, 6),
             tag='+TABLOID_SCORE',
-            ).extra_offset,
-        ),
-    )
+        ).extra_offset,
+    ),
+)
 
 # brass
 
@@ -115,7 +115,7 @@ maker(
     baca.repeat_tie(baca.pleaf(0)),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # bass drum
 
@@ -126,7 +126,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
     
 # tam-tam
 
@@ -137,7 +137,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # strings
 
@@ -145,7 +145,7 @@ animales.constellations(
     maker,
     [[1, -55], [1, -17], [1, -17]],
     omit_contrabasses=True,
-    ) 
+) 
 
 maker(
     'cb3',
@@ -156,4 +156,4 @@ maker(
     baca.markup('arco'),
     baca.pitch('C#2'),
     baca.staff_lines(5),
-    )
+)
