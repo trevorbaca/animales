@@ -61,12 +61,12 @@ maker = baca.SegmentMaker(
             (6, [11, 12]),
             (7, [13, 14]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=4,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -76,14 +76,14 @@ maker(
         abjad.tweak(
             (0, 6),
             tag='+TABLOID_SCORE',
-            ).extra_offset,
-        ),
-    )
+        ).extra_offset,
+    ),
+)
 
 maker(
     'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(4 - 1)),
-    )
+)
 
 animales.attach_grand_pause_fermatas(maker, measure=-1)
 
@@ -94,7 +94,7 @@ animales.attach_grand_pause_fermatas(maker, measure=-1)
 maker(
     'perc1',
     animales.parts('Percussion', 1),
-    )
+)
 
 maker(
     ('perc1', (1, 3)),
@@ -102,7 +102,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # strings
 
@@ -111,4 +111,4 @@ animales.constellations(
     [[1, -17], [1, -17], [1, -17]],
     omit_contrabasses=True,
     range_=(1, 3),
-    ) 
+) 

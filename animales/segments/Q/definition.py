@@ -52,12 +52,12 @@ maker = baca.SegmentMaker(
         contrabasses=[
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=12,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -68,15 +68,15 @@ maker(
         abjad.tweak(
             (0, 12),
             tag='+TABLOID_SCORE',
-            ).extra_offset,
-        ),
-    )
+        ).extra_offset,
+    ),
+)
 
 maker(
     'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(2)),
     baca.global_fermata('fermata', selector=baca.leaf(7)),
-    )
+)
 
 animales.attach_grand_pause_fermatas(maker, measure=3)
 animales.attach_grand_pause_fermatas(maker, measure=8)
@@ -94,7 +94,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('hn3', 1),
@@ -102,7 +102,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('Gb3 Ab3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('hn2', 1),
@@ -111,7 +111,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('G3 A3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('hn4', 1),
@@ -119,7 +119,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('Gb3 Ab3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 # trumpets
 
@@ -130,7 +130,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb4 Ab4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tp3', 1),
@@ -138,7 +138,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('F4 G4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tp2', 1),
@@ -147,7 +147,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb4 Ab4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tp4', 1),
@@ -155,7 +155,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('F4 G4', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 # trombones
 
@@ -166,7 +166,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb3 Ab3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tbn3', 1),
@@ -174,7 +174,7 @@ maker(
     baca.dynamic('sfz'),
     baca.pitches('F3 G3', ignore_incomplete=True, persist='seconds'),
     baca.not_parts(baca.voice_two()),
-    )
+)
 
 maker(
     ('tbn2', 1),
@@ -183,7 +183,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic('sfz')),
     baca.pitches('Gb3 Ab3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 maker(
     ('tbn4', 1),
@@ -191,7 +191,7 @@ maker(
     baca.dynamic('sfz'),
     baca.not_parts(baca.voice_two()),
     baca.pitches('F3 G3', ignore_incomplete=True, persist='seconds'),
-    )
+)
 
 # strings
 
@@ -219,15 +219,15 @@ def tremolo(peak='f'):
         baca.hairpin(
             f'niente o< {peak} >o niente',
             pieces=baca.mgroups([2, 2]),
-            ),
+        ),
         baca.text_spanner(
             'tasto => ext. pont. => tasto',
             pieces=baca.cmgroups([2]),
-            ),
+        ),
         baca.stem_tremolo(
             selector=baca.pleaves(exclude=abjad.const.HIDDEN),
-            ),
-        )
+        ),
+    )
 
 def upper_voice():
     return baca.suite(
@@ -236,13 +236,13 @@ def upper_voice():
         baca.not_parts(baca.hairpin_stencil_false()),
         baca.not_parts(baca.text_spanner_stencil_false()),
         baca.not_parts(baca.voice_one()),
-        )
+    )
 
 def lower_voice(n=5):
     return baca.suite(
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.text_spanner_staff_padding(n)),
-        )
+    )
 
 score_template = animales.ScoreTemplate()
 for voice, items in string_parts.items():
@@ -260,12 +260,12 @@ for voice, items in string_parts.items():
         baca.pitch(
             items[2],
             selector=baca.plts(exclude=abjad.const.HIDDEN),
-            ),
-        )
+        ),
+    )
     maker(
         voice,
         *commands,
-        )
+    )
     if voice == 'First_Violin_Voice_V':
         continue
     maker(
@@ -274,15 +274,15 @@ for voice, items in string_parts.items():
             (voice, (9, 11)),
             ],
         baca.make_repeat_tied_notes(),
-        )
+    )
     maker(
         (voice, (4, 7)),
         tremolo('f'),
-        )
+    )
     maker(
         (voice, (9, 12)),
         tremolo('mp'),
-        )
+    )
 
 # solo violin
 
@@ -291,8 +291,8 @@ maker(
     baca.repeat_tie(baca.leaf(0)),
     baca.stem_tremolo(
         selector=baca.pleaves(exclude=abjad.const.HIDDEN),
-        ),
-    )
+    ),
+)
 
 maker(
     [
@@ -301,4 +301,4 @@ maker(
         ('1vn5', (9, 12)),
         ],
     baca.make_repeat_tied_notes(),
-    )
+)

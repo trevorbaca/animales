@@ -46,12 +46,12 @@ maker = baca.SegmentMaker(
             (1, [1]),
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 8],
     transpose_score=True,
     validate_measure_count=8,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -62,17 +62,17 @@ maker(
         abjad.tweak(
             (0, 6),
             tag='+TABLOID_SCORE',
-            ).extra_offset,
-        ),
+        ).extra_offset,
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_left_padding(-9),
-        ),
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_y_offset(8),
-        ),
-    )
+    ),
+)
 
 # clarinets
 
@@ -84,17 +84,17 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.edition('solo (cl. 1)', 'solo'),
     baca.pitch('D5'),
-    )
+)
 
 maker(
     ('Global_Rests', (5, -1)),
     animales.parts('Clarinet', 1),
-    )
+)
 
 maker(
     ('Global_Rests', (1, 4)),
     animales.parts('Clarinet', 2),
-    )
+)
 
 maker(
     ('cl1', (5, 8)),
@@ -104,7 +104,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.edition('solo (cl. 2)', 'solo'),
     baca.pitch('Db5'),
-    )
+)
 
 # harp
 
@@ -121,11 +121,11 @@ maker(
             'LH damps at soundboard; RH plucks string at usual position',
             ],
             boxed=True,
-            ),
         ),
+    ),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # piano
 
@@ -138,7 +138,7 @@ maker(
     baca.markup('mute with LH inside piano: dull thud', boxed=True),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # percussion
 
@@ -148,7 +148,7 @@ maker(
     'perc1',
     animales.parts('Percussion', 1),
     baca.dynamic('niente', selector=baca.leaf(0)),
-    )
+)
 
 # cymbal
 
@@ -159,7 +159,7 @@ maker(
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # vibraphone
 
@@ -175,7 +175,7 @@ maker(
     baca.markup('vibraphone', boxed=True),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch('D5'),
-    )
+)
 
 # strings
 
@@ -185,40 +185,40 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup('strings: still (non vib.)', boxed=True),
-        ),
+    ),
     baca.pitch('Bb6'),
-    )
+)
 
 maker(
     '2vn1',
     animales.parts('Second_Violin'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb5'),
-    )
+)
 
 maker(
     'va1',
     animales.parts('Viola'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb4'),
-    )
+)
 
 maker(
     'vc1',
     animales.parts('Cello'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
-    )
+)
 
 maker(
     'cb3',
     animales.margin_markup(
         'Cb. (2-6)',
         alert=baca.markup('(cb. 2-6)'),
-        ),
+    ),
     animales.parts('Contrabass', (2, 6)),
     baca.make_repeat_tied_notes(),
-    )
+)
 
 warning = abjad.Markup.line([
     abjad.Markup.concat([
@@ -244,9 +244,9 @@ maker(
         baca.edition(
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
             baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
-            ),
         ),
-    )
+    ),
+)
 
 upper_strings = [
     '1vn1',
@@ -259,13 +259,13 @@ maker(
     (upper_strings, 1),
     baca.dynamic('pp'),
     baca.only_parts(baca.markup('still (non vibrato)')),
-    )
+)
 
 maker(
     ('cb3', 1),
     baca.dynamic('p'),
     baca.only_parts(baca.markup('still (non vibrato)')),
-    )
+)
 
 # contrabass solo
 
@@ -275,15 +275,15 @@ maker(
     animales.harp_exchange_rhythm(
         1,
         rmakers.force_rest(baca.tuplet(1)),
-        ),
+    ),
     animales.margin_markup('Cb. 1'),
     baca.dynamic('p'),
-    )
+)
 
 maker(
     ('cb1', 1),
     baca.pitch('A#1'),
-    )
+)
 
 maker(
     ('cb1', (2, -1)),
@@ -294,4 +294,4 @@ maker(
     baca.markup('pizz.'),
     baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
-    )
+)

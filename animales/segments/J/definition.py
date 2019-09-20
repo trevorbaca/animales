@@ -57,12 +57,12 @@ maker = baca.SegmentMaker(
             (1, [1]),
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -73,17 +73,17 @@ maker(
         abjad.tweak(
             (0, 6),
             tag=baca.const.ONLY_SCORE,
-            ).extra_offset,
-        ),
+        ).extra_offset,
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_left_padding(2),
-        ),
+    ),
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_y_offset(8),
-        ),
-    )
+    ),
+)
 
 # clarinet
 
@@ -94,7 +94,7 @@ maker(
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb4'),
-    )
+)
 
 # horns
 
@@ -102,15 +102,15 @@ crescendi = baca.suite(
     baca.new(
         baca.hairpin('< f', left_broken=True),
         map=baca.run(0),
-        ),
+    ),
     baca.new(
         baca.hairpin(
             'mp < ff',
             remove_length_1_spanner_start=True,
-            ),
-        map=baca.runs()[1:],
         ),
-    )
+        map=baca.runs()[1:],
+    ),
+)
 
 maker(
     'hn1',
@@ -120,7 +120,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.pitches('A3 B3', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'hn3',
@@ -129,7 +129,7 @@ maker(
     baca.not_parts(baca.voice_two()),
     baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'hn2',
@@ -139,7 +139,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.pitches('A3 B3', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'hn4',
@@ -148,7 +148,7 @@ maker(
     baca.not_parts(baca.voice_two()),
     baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
-    )
+)
 
 # trumpets
 
@@ -160,7 +160,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.pitches('Ab4 Bb4', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'tp3',
@@ -169,7 +169,7 @@ maker(
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'tp2',
@@ -179,7 +179,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.pitches('Ab4 Bb4', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'tp4',
@@ -188,7 +188,7 @@ maker(
     baca.not_parts(baca.voice_two()),
     baca.pitches('G4 A4', persist='seconds'),
     crescendi,
-    )
+)
 
 # trombones
 
@@ -200,7 +200,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'tbn3',
@@ -209,7 +209,7 @@ maker(
     baca.not_parts(baca.voice_two()),
     baca.pitches('G3 A3', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'tbn2',
@@ -219,7 +219,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.pitches('Ab3 Bb3', persist='seconds'),
     crescendi,
-    )
+)
 
 maker(
     'tbn4',
@@ -228,7 +228,7 @@ maker(
     baca.not_parts(baca.voice_two()),
     baca.pitches('G3 A3', persist='seconds'),
     crescendi,
-    )
+)
 
 # harp
 
@@ -239,7 +239,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('C5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # piano
 
@@ -250,7 +250,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('C5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # percussion
 
@@ -263,7 +263,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 # vibraphone
 
@@ -273,7 +273,7 @@ maker(
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('C5'),
-    )
+)
 
 # strings
 
@@ -281,25 +281,25 @@ maker(
     '1vn1',
     animales.parts('First_Violin'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     '2vn1',
     animales.parts('Second_Violin'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'va1',
     animales.parts('Viola'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'vc1',
     animales.parts('Cello'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 stop_trill = [
     '1vn1',
@@ -312,7 +312,7 @@ maker(
     (stop_trill, 1),
     baca.not_segment(baca.stop_trill()),
     baca.repeat_tie(baca.pleaf(0)),
-    )
+)
 
 maker(
     '1vn1',
@@ -322,10 +322,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G6'),
-    )
+)
 
 maker(
     '2vn1',
@@ -335,10 +335,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G5'),
-    )
+)
 
 maker(
     'va1',
@@ -348,10 +348,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'G4'),
-    )
+)
 
 maker(
     'vc1',
@@ -361,10 +361,10 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('f >', right_broken=True),
     baca.interpolate_staff_positions('A3', 'B2'),
-    )
+)
 
 maker(
     'cb3',
@@ -373,11 +373,11 @@ maker(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
-        ),
+    ),
     baca.hairpin('ff >', right_broken=True),
     baca.interpolate_staff_positions('A1', 'G1'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 # contrabass solo
 
@@ -388,4 +388,4 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.note_head_style_harmonic(),
     baca.pitch('Cqf5', do_not_transpose=True),
-    )
+)

@@ -48,12 +48,12 @@ maker = baca.SegmentMaker(
             (1, [1]),
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -62,8 +62,8 @@ maker(
     baca.tag(
         '+TABLOID_SCORE',
         baca.text_spanner_left_padding(3),
-        ),
-    )
+    ),
+)
 
 # clarinet
 
@@ -75,7 +75,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.edition('solo (cl. 1)', 'solo'),
     baca.pitch('F5'),
-    )
+)
 
 # bass clarinet
 
@@ -84,12 +84,12 @@ maker(
     baca.hairpin('o<', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('A2'),
-    )
+)
 
 maker(
     'bcl1',
     animales.parts('Bass_Clarinet'),
-    )
+)
 
 # harp
 
@@ -100,7 +100,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # piano
 
@@ -111,7 +111,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('D5'),
     baca.stopped(selector=baca.pheads()),
-    )
+)
 
 # percussion
 
@@ -125,7 +125,7 @@ maker(
     baca.repeat_tie(baca.pleaf(0)),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 maker(
     'perc3',
@@ -133,7 +133,7 @@ maker(
     animales.harp_exchange_rhythm(0),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('D5'),
-    )
+)
 
 # strings
 
@@ -146,11 +146,11 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb6', 'B3'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     '2vn1',
@@ -161,11 +161,11 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb5', 'B3'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'va1',
@@ -176,11 +176,11 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb4', 'B3'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'vc1',
@@ -191,11 +191,11 @@ maker(
         hide_middle_note_heads=True,
         right_broken=True,
         style='trill',
-        ),
+    ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb2', 'B3'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 maker(
     'cb3',
@@ -205,11 +205,11 @@ maker(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
-        ),
+    ),
     baca.hairpin('pp <', right_broken=True),
     baca.interpolate_staff_positions('Bb1', 'A1'),
     baca.make_repeated_duration_notes([(1, 4)]),
-    )
+)
 
 # contrabass solo
 
@@ -220,4 +220,4 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.note_head_style_harmonic(),
     baca.pitch('D5', do_not_transpose=True),
-    )
+)

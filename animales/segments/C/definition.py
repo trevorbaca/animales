@@ -55,12 +55,12 @@ maker = baca.SegmentMaker(
         contrabasses=[
             (2, [3]),
             ],
-        ),
+    ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 6],
     transpose_score=True,
     validate_measure_count=6,
-    )
+)
 
 maker(
     ('Global_Skips', 3),
@@ -70,9 +70,9 @@ maker(
         abjad.tweak(
             (0, -2),
             tag=baca.const.ONLY_SCORE,
-            ).extra_offset,
-        ),
-    )
+        ).extra_offset,
+    ),
+)
 
 # clarinet
 
@@ -82,13 +82,13 @@ maker(
     baca.hairpin('mp < mf'),
     baca.make_repeat_tied_notes(),
     baca.pitch('C5'),
-    )
+)
 
 maker(
     'cl1',
     animales.margin_markup('Cl. 3'),
     animales.parts('Clarinet', 3),
-    )
+)
 
 # percussion
 
@@ -101,32 +101,32 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
+)
 
 maker(
     ('perc1', (3, 6)),
     baca.markup('triangle (small beater)', boxed=True),
-    )
+)
 
 maker(
     ('perc2', (3, 6)),
     baca.markup(
         'suspended cymbal (soft yarn mallets: attackless sound)',
         boxed=True,
-        ),
-    )
+    ),
+)
 
 maker(
     'perc1',
     animales.margin_markup('Perc. 1 (tri.)'),
     animales.parts('Percussion', 1),
-    )
+)
 
 maker(
     'perc2',
     animales.margin_markup('Perc. 2 (cym.)'),
     animales.parts('Percussion', 2),
-    )
+)
 
 # brass
 
@@ -136,32 +136,32 @@ animales.brass_sforzando(maker, 3)
 maker(
     'hn1',
     animales.margin_markup('Hn. (1+3)'),
-    )
+)
 
 maker(
     'hn2',
     animales.margin_markup('Hn. (2+4)'),
-    )
+)
 
 maker(
     'tp1',
     animales.margin_markup('Tp. (1+3)'),
-    )
+)
 
 maker(
     'tp2',
     animales.margin_markup('Tp. (2+4)'),
-    )
+)
 
 maker(
     'tbn1',
     animales.margin_markup('Trb. (1+3)'),
-    )
+)
 
 maker(
     'tbn2',
     animales.margin_markup('Trb. (2+4)'),
-    )
+)
 
 # strings
 
@@ -172,11 +172,11 @@ maker(
     baca.hairpin(
         'p < f',
         selector=baca.mleaves(1).rleak(),
-        ),
+    ),
     baca.hairpin(
         'f > p',
         selector=baca.mleaves(-1).lleak(),
-        ),
+    ),
     baca.edition('solo (first violin)', 'solo'),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
@@ -188,8 +188,8 @@ maker(
         baca.pitch('C6', baca.pleaf(-1), allow_repitch=True),
         baca.tie(baca.ptail(-2)),
         baca.glissando(),
-        ),
-    )
+    ),
+)
 
 animales.make_trill_rhythm(maker, measures=(1, 2))
 
@@ -209,7 +209,7 @@ maker(
     baca.dynamic('f-sub-but-accents-continue-sffz', selector=baca.pleaf(0)),
     baca.pitch('Db4'),
     baca.trill_spanner('Eb4'),
-    )
+)
 
 raised_trill = [
     '1vn3',
@@ -227,12 +227,12 @@ unraised_trill = [
 maker(
     (raised_trill, (1, 2)),
     baca.trill_spanner_staff_padding(6),
-    )
+)
 
 maker(
     (unraised_trill, (1, 2)),
     baca.trill_spanner_staff_padding(4),
-    )
+)
 
 maker(
     (strings, (3, 6)),
@@ -240,13 +240,13 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.only_parts(baca.markup('still (non vibrato)')),
     baca.pitch(0),
-    )
+)
 
 maker(
     ('1vn1', (1, 2)),
     animales.parts('First_Violin', (1, 10)),
     baca.not_parts(baca.voice_two()),
-    )
+)
 
 maker(
     ('1vn1', (3, 6)),
@@ -256,40 +256,40 @@ maker(
             baca.markups.lines([
                 'all other strings:', 'still (non vibrato)']).boxed(),
             direction=abjad.Down,
-            ),
         ),
+    ),
     baca.not_parts(baca.voice_two()),
-    )
+)
 
 maker(
     '1vn3',
     animales.parts('First_Violin', (11, 18)),
-    )
+)
 
 maker(
     '2vn1',
     animales.parts('Second_Violin', (1, 10)),
-    )
+)
 
 maker(
     '2vn3',
     animales.parts('Second_Violin', (11, 18)),
-    )
+)
 
 maker(
     'va1',
     animales.parts('Viola', (1, 10)),
-    )
+)
 
 maker(
     'va3',
     animales.parts('Viola', (11, 18)),
-    )
+)
 
 maker(
     'vc1',
     animales.parts('Cello'),
-    )
+)
 
 # contrabasses
 
@@ -298,9 +298,9 @@ maker(
     baca.hairpin('p <', right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch('C2'),
-    )
+)
 
 maker(
     'cb3',
     animales.parts('Contrabass'),
-    )
+)
