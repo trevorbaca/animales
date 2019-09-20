@@ -495,7 +495,7 @@ D_Percussion_Staff_II = {                                                      %
 D_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern
 
     % [D First_Violin_Voice_II measure 24 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up:OverrideCommand(1)
+    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up():OverrideCommand(1)
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     b'2                                                                        %! animales.glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca.stop_trill:+PARTS:IndicatorCommand
@@ -604,7 +604,7 @@ D_First_Violin_Voice_II_a = {                                                  %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up:OverrideCommand(2)
+    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -1412,8 +1412,8 @@ D_Cello_Voice_I_a = {                                                          %
             #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Vc.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_24:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_24:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_24:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_24:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)

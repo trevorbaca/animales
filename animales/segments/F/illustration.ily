@@ -47,8 +47,8 @@ F_Global_Rests = {                                                             %
 F_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [F Global_Skips measure 36 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
-%%% \override TextSpanner.bound-details.left.padding = #-9                     %! +TABLOID_SCORE:baca.text_spanner_left_padding:OverrideCommand(1)
-%%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca.text_spanner_y_offset:OverrideCommand(1)
+%%% \override TextSpanner.bound-details.left.padding = #-9                     %! +TABLOID_SCORE:baca.text_spanner_left_padding():OverrideCommand(1)
+%%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca.text_spanner_y_offset():OverrideCommand(1)
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -157,8 +157,8 @@ F_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
 %@% - \baca-start-ct-both "[1'26'']" "[1'30'']"                                %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
-%%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca.text_spanner_left_padding:OverrideCommand(2)
-%%% \revert TextSpanner.Y-offset                                               %! +TABLOID_SCORE:baca.text_spanner_y_offset:OverrideCommand(2)
+%%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca.text_spanner_left_padding():OverrideCommand(2)
+%%% \revert TextSpanner.Y-offset                                               %! +TABLOID_SCORE:baca.text_spanner_y_offset():OverrideCommand(2)
     \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
     \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
@@ -901,9 +901,9 @@ F_Percussion_Voice_III_a = {                                                   %
                         (vib.)                                                 %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                     }                                                          %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             }                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    %%% \override TextScript.extra-offset = #'(1.5 . 1.5)                      %! +PARTS:baca.text_script_extra_offset:OverrideCommand(1)
-    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_36:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_36:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    %%% \override TextScript.extra-offset = #'(1.5 . 1.5)                      %! +PARTS:baca.text_script_extra_offset():OverrideCommand(1)
+    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_36:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_36:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! EXPLICIT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -978,7 +978,7 @@ F_Percussion_Voice_III_a = {                                                   %
 
     % [F Percussion_Voice_III measure 43 / measure 8]                          %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.harp_exchange_rhythm
-%%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset:OverrideCommand(2)
+%%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -1509,9 +1509,9 @@ F_Contrabass_Voice_I_a = {                                                     %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
         % [F Contrabass_Voice_I measure 37 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic:OverrideCommand(1)
-        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_37:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_37:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():OverrideCommand(1)
+        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_37:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_37:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -1555,7 +1555,7 @@ F_Contrabass_Voice_I_a = {                                                     %
         % [F Contrabass_Voice_I measure 41 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
         d''8                                                                   %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca.laissez_vibrer:IndicatorCommand
-        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic:OverrideCommand(2)
+        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():OverrideCommand(2)
 
         r4                                                                     %! animales.harp_exchange_rhythm
 

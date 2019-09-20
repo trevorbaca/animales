@@ -27,8 +27,8 @@ J_Global_Rests = {                                                             %
 J_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [J Global_Skips measure 62 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
-%%% \override TextSpanner.bound-details.left.padding = #2                      %! +TABLOID_SCORE:baca.text_spanner_left_padding:OverrideCommand(1)
-%%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca.text_spanner_y_offset:OverrideCommand(1)
+%%% \override TextSpanner.bound-details.left.padding = #2                      %! +TABLOID_SCORE:baca.text_spanner_left_padding():OverrideCommand(1)
+%%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca.text_spanner_y_offset():OverrideCommand(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):baca.SegmentMaker._make_global_skips(2)
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -131,8 +131,8 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
 %@% - \baca-start-ct-both "[2'17'']" "[2'19'']"                                %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
-%%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca.text_spanner_left_padding:OverrideCommand(2)
-%%% \revert TextSpanner.Y-offset                                               %! +TABLOID_SCORE:baca.text_spanner_y_offset:OverrideCommand(2)
+%%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca.text_spanner_left_padding():OverrideCommand(2)
+%%% \revert TextSpanner.Y-offset                                               %! +TABLOID_SCORE:baca.text_spanner_y_offset():OverrideCommand(2)
     \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
     \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
@@ -3089,7 +3089,7 @@ J_Contrabass_Voice_I_a = {                                                     %
 
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm
 
-        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic:OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():OverrideCommand(1)
         cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca.laissez_vibrer:IndicatorCommand
 
@@ -3110,7 +3110,7 @@ J_Contrabass_Voice_I_a = {                                                     %
         % [J Contrabass_Voice_I measure 66 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
         cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca.laissez_vibrer:IndicatorCommand
-        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic:OverrideCommand(2)
+        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():OverrideCommand(2)
 
         r4                                                                     %! animales.harp_exchange_rhythm
 

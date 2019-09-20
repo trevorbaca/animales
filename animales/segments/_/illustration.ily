@@ -415,7 +415,7 @@ i_First_Violin_Voice_I_a = {                                                   %
                     (1-10)                                                     %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -469,7 +469,7 @@ i_First_Violin_Voice_I_a = {                                                   %
     % [_ First_Violin_Voice_I measure 6]                                       %! baca.SegmentMaker._comment_measure_numbers()
     af'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -539,7 +539,7 @@ i_First_Violin_Voice_III_a = {                                                 %
                     (11-18)                                                    %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -607,7 +607,7 @@ i_First_Violin_Voice_III_a = {                                                 %
     % [_ First_Violin_Voice_III measure 6]                                     %! baca.SegmentMaker._comment_measure_numbers()
     af'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -677,7 +677,7 @@ i_Second_Violin_Voice_I_a = {                                                  %
                     (1-10)                                                     %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -743,7 +743,7 @@ i_Second_Violin_Voice_I_a = {                                                  %
     % [_ Second_Violin_Voice_I measure 6]                                      %! baca.SegmentMaker._comment_measure_numbers()
     af'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -813,7 +813,7 @@ i_Second_Violin_Voice_III_a = {                                                %
                     (11-18)                                                    %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -888,7 +888,7 @@ i_Second_Violin_Voice_III_a = {                                                %
 
     af'!2.                                                                     %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -958,7 +958,7 @@ i_Viola_Voice_I_a = {                                                          %
                     (1-10)                                                     %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "alto"                                                               %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -1019,7 +1019,7 @@ i_Viola_Voice_I_a = {                                                          %
 
     af'!4.                                                                     %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -1089,7 +1089,7 @@ i_Viola_Voice_III_a = {                                                        %
                     (11-18)                                                    %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
                 }                                                              %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "alto"                                                               %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -1141,7 +1141,7 @@ i_Viola_Voice_III_a = {                                                        %
 
     af'!4                                                                      %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -1203,9 +1203,9 @@ i_Cello_Voice_I_a = {                                                          %
             #16                                                                %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
             Cellos                                                             %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         }                                                                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_1:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_1:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_1:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_1:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "tenor"                                                              %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)      %! DEFAULT_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1264,7 +1264,7 @@ i_Cello_Voice_I_a = {                                                          %
     % [_ Cello_Voice_I measure 6]                                              %! baca.SegmentMaker._comment_measure_numbers()
     af'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 

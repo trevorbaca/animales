@@ -1434,8 +1434,8 @@ R_First_Violin_Voice_I_a = {                                                   %
                     (1-2)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1523,8 +1523,8 @@ R_First_Violin_Voice_II_a = {                                                  %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1625,8 +1625,8 @@ R_First_Violin_Voice_III_a = {                                                 %
                     (3-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1711,8 +1711,8 @@ R_First_Violin_Voice_IV_a = {                                                  %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1813,8 +1813,8 @@ R_First_Violin_Voice_V_a = {                                                   %
                     (5-6)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -1899,8 +1899,8 @@ R_First_Violin_Voice_VI_a = {                                                  %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2005,8 +2005,8 @@ R_First_Violin_Voice_VII_a = {                                                 %
                     (7-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2089,8 +2089,8 @@ R_First_Violin_Voice_VIII_a = {                                                %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2189,8 +2189,8 @@ R_First_Violin_Voice_IX_a = {                                                  %
                     (9-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2273,8 +2273,8 @@ R_First_Violin_Voice_X_a = {                                                   %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2373,8 +2373,8 @@ R_First_Violin_Voice_XI_a = {                                                  %
                     (11-12)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2457,8 +2457,8 @@ R_First_Violin_Voice_XII_a = {                                                 %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2557,8 +2557,8 @@ R_First_Violin_Voice_XIII_a = {                                                %
                     (13-14)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2641,8 +2641,8 @@ R_First_Violin_Voice_XIV_a = {                                                 %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2741,8 +2741,8 @@ R_First_Violin_Voice_XV_a = {                                                  %
                     (15-16)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2825,8 +2825,8 @@ R_First_Violin_Voice_XVI_a = {                                                 %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2926,8 +2926,8 @@ R_First_Violin_Voice_XVII_a = {                                                %
                     (17-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3011,8 +3011,8 @@ R_First_Violin_Voice_XVIII_a = {                                               %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3116,8 +3116,8 @@ R_Second_Violin_Voice_I_a = {                                                  %
                     (1-2)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3203,8 +3203,8 @@ R_Second_Violin_Voice_II_a = {                                                 %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3305,8 +3305,8 @@ R_Second_Violin_Voice_III_a = {                                                %
                     (3-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3403,8 +3403,8 @@ R_Second_Violin_Voice_IV_a = {                                                 %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3505,8 +3505,8 @@ R_Second_Violin_Voice_V_a = {                                                  %
                     (5-6)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3589,8 +3589,8 @@ R_Second_Violin_Voice_VI_a = {                                                 %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3691,8 +3691,8 @@ R_Second_Violin_Voice_VII_a = {                                                %
                     (7-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3775,8 +3775,8 @@ R_Second_Violin_Voice_VIII_a = {                                               %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3875,8 +3875,8 @@ R_Second_Violin_Voice_IX_a = {                                                 %
                     (9-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3959,8 +3959,8 @@ R_Second_Violin_Voice_X_a = {                                                  %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4059,8 +4059,8 @@ R_Second_Violin_Voice_XI_a = {                                                 %
                     (11-12)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4143,8 +4143,8 @@ R_Second_Violin_Voice_XII_a = {                                                %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4259,8 +4259,8 @@ R_Second_Violin_Voice_XIII_a = {                                               %
                     (13-14)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4343,8 +4343,8 @@ R_Second_Violin_Voice_XIV_a = {                                                %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4443,8 +4443,8 @@ R_Second_Violin_Voice_XV_a = {                                                 %
                     (15-16)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4527,8 +4527,8 @@ R_Second_Violin_Voice_XVI_a = {                                                %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4628,8 +4628,8 @@ R_Second_Violin_Voice_XVII_a = {                                               %
                     (17-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4713,8 +4713,8 @@ R_Second_Violin_Voice_XVIII_a = {                                              %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4814,8 +4814,8 @@ R_Viola_Voice_I_a = {                                                          %
                     (1-2)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -4901,8 +4901,8 @@ R_Viola_Voice_II_a = {                                                         %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5003,8 +5003,8 @@ R_Viola_Voice_III_a = {                                                        %
                     (3-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5089,8 +5089,8 @@ R_Viola_Voice_IV_a = {                                                         %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5191,8 +5191,8 @@ R_Viola_Voice_V_a = {                                                          %
                     (5-6)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5275,8 +5275,8 @@ R_Viola_Voice_VI_a = {                                                         %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5385,8 +5385,8 @@ R_Viola_Voice_VII_a = {                                                        %
                     (7-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5469,8 +5469,8 @@ R_Viola_Voice_VIII_a = {                                                       %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5569,8 +5569,8 @@ R_Viola_Voice_IX_a = {                                                         %
                     (9-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5653,8 +5653,8 @@ R_Viola_Voice_X_a = {                                                          %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5753,8 +5753,8 @@ R_Viola_Voice_XI_a = {                                                         %
                     (11-12)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5837,8 +5837,8 @@ R_Viola_Voice_XII_a = {                                                        %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -5947,8 +5947,8 @@ R_Viola_Voice_XIII_a = {                                                       %
                     (13-14)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6031,8 +6031,8 @@ R_Viola_Voice_XIV_a = {                                                        %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6131,8 +6131,8 @@ R_Viola_Voice_XV_a = {                                                         %
                     (15-16)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6221,8 +6221,8 @@ R_Viola_Voice_XVI_a = {                                                        %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6322,8 +6322,8 @@ R_Viola_Voice_XVII_a = {                                                       %
                     (17-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6407,8 +6407,8 @@ R_Viola_Voice_XVIII_a = {                                                      %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6514,8 +6514,8 @@ R_Cello_Voice_I_a = {                                                          %
                     (1-2)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6601,8 +6601,8 @@ R_Cello_Voice_II_a = {                                                         %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6703,8 +6703,8 @@ R_Cello_Voice_III_a = {                                                        %
                     (3-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6787,8 +6787,8 @@ R_Cello_Voice_IV_a = {                                                         %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6887,8 +6887,8 @@ R_Cello_Voice_V_a = {                                                          %
                     (5-6)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -6973,8 +6973,8 @@ R_Cello_Voice_VI_a = {                                                         %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7073,8 +7073,8 @@ R_Cello_Voice_VII_a = {                                                        %
                     (7-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7157,8 +7157,8 @@ R_Cello_Voice_VIII_a = {                                                       %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7257,8 +7257,8 @@ R_Cello_Voice_IX_a = {                                                         %
                     (9-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7341,8 +7341,8 @@ R_Cello_Voice_X_a = {                                                          %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7441,8 +7441,8 @@ R_Cello_Voice_XI_a = {                                                         %
                     (11-12)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7529,8 +7529,8 @@ R_Cello_Voice_XII_a = {                                                        %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7630,8 +7630,8 @@ R_Cello_Voice_XIII_a = {                                                       %
                     (13-14)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7715,8 +7715,8 @@ R_Cello_Voice_XIV_a = {                                                        %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7816,8 +7816,8 @@ R_Contrabass_Voice_I_a = {                                                     %
                     (1-2)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -7903,8 +7903,8 @@ R_Contrabass_Voice_II_a = {                                                    %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -8003,8 +8003,8 @@ R_Contrabass_Voice_III_a = {                                                   %
                     (3-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -8089,8 +8089,8 @@ R_Contrabass_Voice_IV_a = {                                                    %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -8190,8 +8190,8 @@ R_Contrabass_Voice_V_a = {                                                     %
                     (5-6)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -8275,8 +8275,8 @@ R_Contrabass_Voice_VI_a = {                                                    %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_131:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_131:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
     \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
