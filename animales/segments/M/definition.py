@@ -13,6 +13,7 @@ start = metadata.get('final_measure_number')
 assert start == 81
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
         flutes=[
             (1, [1, 3]),
@@ -289,8 +290,8 @@ maker(
     baca.suite(
         baca.untie(baca.leaves()),
         animales.glissando_positions(transpose=-3),
-        baca.pitch('G4', selector=baca.pleaf(0)),
-        baca.pitch('G4', selector=baca.pleaf(-1)),
+        baca.pitch('G4', baca.pleaf(0), allow_repitch=True),
+        baca.pitch('G4', baca.pleaf(-1), allow_repitch=True),
         baca.glissando(),
         ),
     )

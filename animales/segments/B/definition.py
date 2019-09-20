@@ -13,6 +13,7 @@ start = metadata.get('final_measure_number')
 assert start == 12
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
         first_violins=[
             (1, [1]),

@@ -14,6 +14,7 @@ start = metadata.get('final_measure_number')
 assert start == 35
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
         clarinets=[
             (1, [1]),
@@ -277,6 +278,10 @@ maker(
         ),
     animales.margin_markup('Cb. 1'),
     baca.dynamic('p'),
+    )
+
+maker(
+    ('cb1', 1),
     baca.pitch('A#1'),
     )
 

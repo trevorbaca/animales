@@ -9,6 +9,7 @@ import os
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
         percussion=[
             (1, [1]),

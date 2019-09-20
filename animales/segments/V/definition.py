@@ -13,6 +13,7 @@ start = 136
 
 time_signatures = animales.time_signatures[start: start + 3]
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
         horns=[
             (1, [1, 3]),

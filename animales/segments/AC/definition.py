@@ -14,6 +14,7 @@ start = 142
 time_signatures = animales.time_signatures[start: start + 9] + ((1, 4),)
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     final_bar_line='|.',
     score_template=animales.ScoreTemplate(
         piano=[
