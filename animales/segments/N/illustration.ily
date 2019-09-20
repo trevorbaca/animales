@@ -19,7 +19,7 @@ N_Global_Rests = {                                                             %
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [N Global_Rests measure 94 / measure 7]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)             %! -PARTS:baca.mmrest_text_extra_offset:OverrideCommand(1)
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)             %! -PARTS:baca.mmrest_text_extra_offset():OverrideCommand(1)
     \baca-fermata-measure                                                      %! baca.global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
     ^ \baca-fermata-markup                                                     %! baca.global_fermata:GlobalFermataCommand(1)
@@ -1866,7 +1866,7 @@ N_Percussion_Staff_III = {                                                     %
 N_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern
 
     % [N First_Violin_Voice_II measure 88 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up:OverrideCommand(1)
+    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up():OverrideCommand(1)
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     g'4                                                                        %! animales.glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca.stop_trill:+PARTS:IndicatorCommand
@@ -1925,7 +1925,7 @@ N_First_Violin_Voice_II_a = {                                                  %
     g'4                                                                        %! animales.glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up:OverrideCommand(2)
+    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 

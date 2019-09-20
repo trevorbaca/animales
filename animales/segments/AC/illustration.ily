@@ -206,8 +206,8 @@ AC_Piano_Voice_I_a = {                                                         %
             #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Pf.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
-%%% \override TextScript.X-offset = #3                                         %! +PARTS:baca.text_script_x_offset:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic():OverrideCommand(1)
+%%% \override TextScript.X-offset = #3                                         %! +PARTS:baca.text_script_x_offset():OverrideCommand(1)
 %%% \magnifyStaff #10/7                                                        %! baca.literal:+TABLOID_SCORE:IndicatorCommand
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -266,8 +266,8 @@ AC_Piano_Voice_I_a = {                                                         %
     % [AC Piano_Voice_I measure 173 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!1                                                                      %! baca.make_notes
     - \laissezVibrer                                                           %! baca.laissez_vibrer:IndicatorCommand
-    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
-%%% \revert TextScript.X-offset                                                %! +PARTS:baca.text_script_x_offset:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():OverrideCommand(2)
+%%% \revert TextScript.X-offset                                                %! +PARTS:baca.text_script_x_offset():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -367,7 +367,7 @@ AC_Percussion_Voice_IV_a = {                                                   %
                     (slate)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-%%% \override TextScript.X-offset = #3                                         %! +PARTS:baca.text_script_x_offset:OverrideCommand(1)
+%%% \override TextScript.X-offset = #3                                         %! +PARTS:baca.text_script_x_offset():OverrideCommand(1)
 %%% \magnifyStaff #10/7                                                        %! baca.literal:+TABLOID_SCORE:IndicatorCommand
     \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -490,7 +490,7 @@ AC_Percussion_Voice_IV_a = {                                                   %
 
     c'4                                                                        %! baca.make_tied_repeated_durations
     \repeatTie                                                                 %! baca.make_tied_repeated_durations
-%%% \revert TextScript.X-offset                                                %! +PARTS:baca.text_script_x_offset:OverrideCommand(2)
+%%% \revert TextScript.X-offset                                                %! +PARTS:baca.text_script_x_offset():OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 

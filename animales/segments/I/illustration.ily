@@ -2845,7 +2845,7 @@ I_Contrabass_Voice_I_a = {                                                     %
         % [I Contrabass_Voice_I measure 58 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.harp_exchange_rhythm
 
-        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic:OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():OverrideCommand(1)
         cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca.laissez_vibrer:IndicatorCommand
 
@@ -2865,7 +2865,7 @@ I_Contrabass_Voice_I_a = {                                                     %
 
         cqf''!8                                                                %! animales.harp_exchange_rhythm
         - \laissezVibrer                                                       %! baca.laissez_vibrer:IndicatorCommand
-        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic:OverrideCommand(2)
+        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():OverrideCommand(2)
 
     }                                                                          %! animales.harp_exchange_rhythm
 

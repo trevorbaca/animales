@@ -2153,7 +2153,7 @@ C_Percussion_Staff_II = {                                                      %
 C_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern
 
     % [C First_Violin_Voice_II measure 20 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up:OverrideCommand(1)
+    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up():OverrideCommand(1)
     \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
     c''2                                                                       %! animales.glissando_rhythm
 %%% \stopTrillSpan                                                             %! baca.stop_trill:+PARTS:IndicatorCommand
@@ -2232,7 +2232,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     c'''4.                                                                     %! animales.glissando_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up:OverrideCommand(2)
+    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -2317,7 +2317,7 @@ C_First_Violin_Voice_I_a = {                                                   %
                     (1-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2350,7 +2350,7 @@ C_First_Violin_Voice_I_a = {                                                   %
 
     df'!2.                                                                     %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
 
@@ -2459,7 +2459,7 @@ C_First_Violin_Voice_III_a = {                                                 %
                     (11-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2491,7 +2491,7 @@ C_First_Violin_Voice_III_a = {                                                 %
 
     df'!2                                                                      %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
     % [C First_Violin_Voice_III measure 20 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes
@@ -2579,7 +2579,7 @@ C_Second_Violin_Voice_I_a = {                                                  %
                     (1-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2611,7 +2611,7 @@ C_Second_Violin_Voice_I_a = {                                                  %
 
     df'!8                                                                      %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
     % [C Second_Violin_Voice_I measure 20 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes
@@ -2699,7 +2699,7 @@ C_Second_Violin_Voice_III_a = {                                                %
                     (11-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2728,7 +2728,7 @@ C_Second_Violin_Voice_III_a = {                                                %
     % [C Second_Violin_Voice_III measure 19 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
     df'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
     % [C Second_Violin_Voice_III measure 20 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes
@@ -2816,7 +2816,7 @@ C_Viola_Voice_I_a = {                                                          %
                     (1-10)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2851,7 +2851,7 @@ C_Viola_Voice_I_a = {                                                          %
     % [C Viola_Voice_I measure 19 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
     df'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
     % [C Viola_Voice_I measure 20 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes
@@ -2941,7 +2941,7 @@ C_Viola_Voice_III_a = {                                                        %
                     (11-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
                 }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -2973,7 +2973,7 @@ C_Viola_Voice_III_a = {                                                        %
     % [C Viola_Voice_III measure 19 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
     df'!1                                                                      %! animales.sforzando_exchange_rhythm
     \repeatTie
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
     % [C Viola_Voice_III measure 20 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes
@@ -3055,7 +3055,7 @@ C_Cello_Voice_I_a = {                                                          %
             #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
             Vc.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
         }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding:OverrideCommand(1)
+    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():OverrideCommand(1)
     \clef "tenor"                                                              %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -3083,7 +3083,7 @@ C_Cello_Voice_I_a = {                                                          %
 
     df'!2..                                                                    %! animales.sforzando_exchange_rhythm
     - \accent                                                                  %! baca.accent:IndicatorCommand
-    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding:OverrideCommand(2)
+    \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():OverrideCommand(2)
 
     % [C Cello_Voice_I measure 20 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
     c'1                                                                        %! baca.make_repeat_tied_notes
