@@ -18,21 +18,21 @@ maker = baca.SegmentMaker(
         horns=[
             (1, [1, 3]),
             (2, [2, 4]),
-            ],
+        ],
         trumpets=[
             (1, [1, 3]),
             (2, [2, 4]),
-            ],
+        ],
         trombones=[
             (1, [1, 3]),
             (2, [2, 4]),
-            ],
+        ],
         tuba=[
             (1, [1]),
-            ],
+        ],
         percussion=[
             (2, [2]),
-            ],
+        ],
         first_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -43,7 +43,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             (8, [15, 16]),
             (9, [17, 18]),
-            ],
+        ],
         second_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -54,7 +54,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             (8, [15, 16]),
             (9, [17, 18]),
-            ],
+        ],
         violas=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -65,7 +65,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             (8, [15, 16]),
             (9, [17, 18]),
-            ],
+        ],
         cellos=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -74,12 +74,12 @@ maker = baca.SegmentMaker(
             (5, [9, 10]),
             (6, [11, 12]),
             (7, [13, 14]),
-            ],
+        ],
         contrabasses=[
             (1, [1, 2]),
             (2, [3, 4]),
             (3, [5, 6]),
-            ],
+        ],
     ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
@@ -88,13 +88,13 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    'Global_Skips',
+    "Global_Skips",
     baca.rehearsal_mark(
-        'V',
+        "V",
         baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
-            tag='+TABLOID_SCORE',
+            tag="+TABLOID_SCORE",
         ).extra_offset,
     ),
 )
@@ -109,9 +109,9 @@ animales.brass_sforzando(maker, 1)
 # cymbal
 
 maker(
-    'perc2',
-    animales.parts('Percussion', 2),
-    baca.dynamic('p'),
+    "perc2",
+    animales.parts("Percussion", 2),
+    baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=baca.pleaves()),

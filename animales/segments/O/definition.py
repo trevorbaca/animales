@@ -9,7 +9,7 @@ import os
 ###############################################################################
 
 metadata = baca.previous_metadata(__file__)
-start = metadata.get('final_measure_number')
+start = metadata.get("final_measure_number")
 assert start == 94
 
 maker = baca.SegmentMaker(
@@ -17,32 +17,32 @@ maker = baca.SegmentMaker(
     score_template=animales.ScoreTemplate(
         oboes=[
             (1, [1]),
-            ],
+        ],
         english_horn=[
             (1, [1]),
-            ],
+        ],
         bassoons=[
             (1, [1, 2]),
-            ],
+        ],
         first_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
             (3, [5]),
-            ],
+        ],
         second_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
-            ],
+        ],
         violas=[
             (1, [1, 2]),
             (2, [3, 4]),
-            ],
+        ],
         cellos=[
             (1, [1, 2]),
-            ],
+        ],
         contrabasses=[
             (2, [3]),
-            ],
+        ],
     ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=animales.time_signatures[start:start + 14],
@@ -51,20 +51,20 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    'Global_Skips',
+    "Global_Skips",
     baca.rehearsal_mark(
-        'O',
+        "O",
         baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
-            tag='+TABLOID_SCORE',
+            tag="+TABLOID_SCORE",
         ).extra_offset,
     ),
 )
 
 def swell(peak):
     return baca.hairpin(
-        f'niente o< {peak} >o niente',
+        f"niente o< {peak} >o niente",
         pieces=baca.mgroups([2, 3, 1]),
         selector=baca.rleaves(),
     )
@@ -72,73 +72,73 @@ def swell(peak):
 # oboes
 
 maker(
-    'ob1',
-    animales.parts('Oboe'),
+    "ob1",
+    animales.parts("Oboe"),
 )
 
 maker(
-    ('ob1', (1, 5)),
+    ("ob1", (1, 5)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('A4'),
+    baca.pitch("A4"),
 )
 
 maker(
-    ('ob1', (1, 6)),
-    swell('f'),
+    ("ob1", (1, 6)),
+    swell("f"),
 )
 
 # english horn
 
 maker(
-    'eh1',
-    animales.parts('English_Horn'),
+    "eh1",
+    animales.parts("English_Horn"),
 )
 
 maker(
-    ('eh1', (1, 5)),
+    ("eh1", (1, 5)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('G3'),
+    baca.pitch("G3"),
 )
 
 maker(
-    ('eh1', (1, 6)),
-    swell('f'),
+    ("eh1", (1, 6)),
+    swell("f"),
 )
 
 # bassoons
 
 maker(
-    'bsn1',
-    animales.parts('Bassoon', 1),
+    "bsn1",
+    animales.parts("Bassoon", 1),
     baca.not_parts(baca.voice_one()),
 )
 
 maker(
-    'bsn2',
-    animales.parts('Bassoon', 2),
+    "bsn2",
+    animales.parts("Bassoon", 2),
     baca.not_parts(baca.voice_two()),
 )
 
 maker(
-    ('bsn1', (1, 5)),
+    ("bsn1", (1, 5)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('B3'),
+    baca.pitch("B3"),
 )
 
 maker(
-    ('bsn1', (1, 6)),
-    baca.only_parts(swell('f')),
+    ("bsn1", (1, 6)),
+    baca.only_parts(swell("f")),
 )
 
 maker(
-    ('bsn2', (1, 5)),
+    ("bsn2", (1, 5)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('G2'),
+    baca.pitch("G2"),
 )
 
 maker(
-    ('bsn2', (1, 6)),
-    swell('f'),
+    ("bsn2", (1, 6)),
+    swell("f"),
 )
 
 # strings
@@ -146,16 +146,16 @@ maker(
 def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
-        baca.dynamic('ff-ancora'),
+        baca.dynamic("ff-ancora"),
         baca.hairpin(
-            'ff > pp',
+            "ff > pp",
             selector=baca.pleaves()[2:-2],
         ),
         baca.only_parts(
-            baca.markup('ext. ponticello: like acid', boxed=True),
+            baca.markup("ext. ponticello: like acid", boxed=True),
         ),
         baca.text_spanner(
-            'ext. pont. => tasto',
+            "ext. pont. => tasto",
             selector=baca.pleaves()[2:-2],
         ),
         baca.stem_tremolo(selector=baca.pleaves()),
@@ -180,41 +180,42 @@ def lower_voice_suite(n=5):
 # solo violin
 
 maker(
-    '1vn5',
-    animales.margin_markup('Vni. I 18'),
-    animales.parts('First_Violin', 18),
-    baca.dynamic('f'),
+    "1vn5",
+    animales.margin_markup("Vni. I 18"),
+    animales.parts("First_Violin", 18),
+    baca.dynamic("f"),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.lines([
-            'solo: absolutely fixed and determined; ponticello;',
-            'non diminuendo: appear as if by magic',
+        baca.markups.lines(
+            [
+                "solo: absolutely fixed and determined; ponticello;",
+                "non diminuendo: appear as if by magic",
             ],
             boxed=True,
         ),
     ),
-    baca.pitch('C#4'),
+    baca.pitch("C#4"),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
 
 # part assignments
 
 voice_to_members = {
-    '1vn1': (1, 4),
-    '1vn2': (5, 8),
-    '1vn3': (9, 12),
-    '1vn4': (13, 17),
-    '2vn1': (1, 4),
-    '2vn2': (5, 8),
-    '2vn3': (9, 12),
-    '2vn4': (13, 18),
-    'va1': (1, 4),
-    'va2': (5, 8),
-    'va3': (9, 12),
-    'va4': (13, 18),
-    'vc1': (1, 8),
-    'vc2': (9, 14),
-    'cb3': None,
+    "1vn1": (1, 4),
+    "1vn2": (5, 8),
+    "1vn3": (9, 12),
+    "1vn4": (13, 17),
+    "2vn1": (1, 4),
+    "2vn2": (5, 8),
+    "2vn3": (9, 12),
+    "2vn4": (13, 18),
+    "va1": (1, 4),
+    "va2": (5, 8),
+    "va3": (9, 12),
+    "va4": (13, 18),
+    "vc1": (1, 8),
+    "vc2": (9, 14),
+    "cb3": None,
     }
 
 for voice, members in voice_to_members.items():
@@ -227,40 +228,40 @@ for voice, members in voice_to_members.items():
 # first violins
 
 maker(
-    ('1vn1', (1, 10)),
-    animales.margin_markup('Vni. I (1-4) (5-8)'),
+    ("1vn1", (1, 10)),
+    animales.margin_markup("Vni. I (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup('tutti: ext. ponticello: like acid', boxed=True),
+        baca.markup("tutti: ext. ponticello: like acid", boxed=True),
     ),
-    baca.not_parts(baca.markup('1-4 + 5-8')),
-    baca.pitch('A5'),
+    baca.not_parts(baca.markup("1-4 + 5-8")),
+    baca.pitch("A5"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('1vn2', (1, 10)),
+    ("1vn2", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('F5'),
+    baca.pitch("F5"),
     lower_voice_suite(8),
     tremolo_suite(),
 )
 
 maker(
-    ('1vn3', (1, 10)),
-    animales.margin_markup('Vni. I (9-12) (13-17)'),
+    ("1vn3", (1, 10)),
+    animales.margin_markup("Vni. I (9-12) (13-17)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('9-12 + 13-17')),
-    baca.pitch('G5'),
+    baca.not_parts(baca.markup("9-12 + 13-17")),
+    baca.pitch("G5"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('1vn4', (1, 10)),
+    ("1vn4", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('D5'),
+    baca.pitch("D5"),
     lower_voice_suite(8),
     tremolo_suite(),
 )
@@ -268,37 +269,37 @@ maker(
 # second violins
 
 maker(
-    ('2vn1', (1, 10)),
-    animales.margin_markup('Vni. II (1-4) (5-8)'),
+    ("2vn1", (1, 10)),
+    animales.margin_markup("Vni. II (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('1-4 + 5-8')),
-    baca.pitch('B4'),
+    baca.not_parts(baca.markup("1-4 + 5-8")),
+    baca.pitch("B4"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('2vn2', (1, 10)),
+    ("2vn2", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('G4'),
+    baca.pitch("G4"),
     lower_voice_suite(),
     tremolo_suite(),
 )
 
 maker(
-    ('2vn3', (1, 10)),
-    animales.margin_markup('Vni. II (9-12) (13-18)'),
+    ("2vn3", (1, 10)),
+    animales.margin_markup("Vni. II (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('9-12 + 13-18')),
-    baca.pitch('A4'),
+    baca.not_parts(baca.markup("9-12 + 13-18")),
+    baca.pitch("A4"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('2vn4', (1, 10)),
+    ("2vn4", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('F4'),
+    baca.pitch("F4"),
     lower_voice_suite(),
     tremolo_suite(),
 )
@@ -306,37 +307,37 @@ maker(
 # violas
 
 maker(
-    ('va1', (1, 10)),
-    animales.margin_markup('Vle. (1-4) (5-8)'),
+    ("va1", (1, 10)),
+    animales.margin_markup("Vle. (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('1-4 + 5-8')),
-    baca.pitch('D4'),
+    baca.not_parts(baca.markup("1-4 + 5-8")),
+    baca.pitch("D4"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('va2', (1, 10)),
+    ("va2", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('A3'),
+    baca.pitch("A3"),
     lower_voice_suite(),
     tremolo_suite(),
 )
 
 maker(
-    ('va3', (1, 10)),
-    animales.margin_markup('Vle. (9-12) (13-18)'),
+    ("va3", (1, 10)),
+    animales.margin_markup("Vle. (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('9-12 + 13-18')),
-    baca.pitch('B3'),
+    baca.not_parts(baca.markup("9-12 + 13-18")),
+    baca.pitch("B3"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('va4', (1, 10)),
+    ("va4", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('G3'),
+    baca.pitch("G3"),
     lower_voice_suite(),
     tremolo_suite(),
 )
@@ -344,19 +345,19 @@ maker(
 # cellos
 
 maker(
-    ('vc1', (1, 10)),
-    animales.margin_markup('Vc. (1-8) (9-14)'),
+    ("vc1", (1, 10)),
+    animales.margin_markup("Vc. (1-8) (9-14)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('1-8 + 9-14')),
-    baca.pitch('D3'),
+    baca.not_parts(baca.markup("1-8 + 9-14")),
+    baca.pitch("D3"),
     tremolo_suite(),
     upper_voice_suite(),
 )
 
 maker(
-    ('vc2', (1, 10)),
+    ("vc2", (1, 10)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('G2'),
+    baca.pitch("G2"),
     lower_voice_suite(),
     tremolo_suite(),
 )
@@ -364,15 +365,15 @@ maker(
 # contrabasses
 
 maker(
-    ('cb3', (1, 10)),
-    animales.margin_markup('Cb.'),
+    ("cb3", (1, 10)),
+    animales.margin_markup("Cb."),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup('Cb. tutti')),
-    baca.pitch('G1'),
+    baca.not_parts(baca.markup("Cb. tutti")),
+    baca.pitch("G1"),
 #    baca.tag(
-#        '+LETTER_PARTS_CB-1',
-#        baca.clef('bass'),
+#        "+LETTER_PARTS_CB-1",
+#        baca.clef("bass"),
 #    ),
-#    baca.only_segment(baca.literal(r'\clef "bass"')),
+#    baca.only_segment(baca.literal(r"\clef "bass"")),
     tremolo_suite(),
 )
