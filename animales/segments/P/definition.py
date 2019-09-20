@@ -14,6 +14,7 @@ start = 94
 
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
         oboes=[
             (1, [1]),
