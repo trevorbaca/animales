@@ -20,7 +20,7 @@ maker = baca.SegmentMaker(
             (2, [2]),
             (3, [3]),
             (4, [4]),
-            ],
+        ],
         first_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -31,7 +31,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             (8, [15, 16]),
             (9, [17, 18]),
-            ],
+        ],
         second_violins=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -42,7 +42,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             (8, [15, 16]),
             (9, [17, 18]),
-            ],
+        ],
         violas=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -53,7 +53,7 @@ maker = baca.SegmentMaker(
             (7, [13, 14]),
             (8, [15, 16]),
             (9, [17, 18]),
-            ],
+        ],
         cellos=[
             (1, [1, 2]),
             (2, [3, 4]),
@@ -62,7 +62,7 @@ maker = baca.SegmentMaker(
             (5, [9, 10]),
             (6, [11, 12]),
             (7, [13, 14]),
-            ],
+        ],
     ),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
@@ -71,13 +71,13 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    'Global_Skips',
+    "Global_Skips",
     baca.rehearsal_mark(
-        'AA',
+        "AA",
         baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
-            tag='+TABLOID_SCORE',
+            tag="+TABLOID_SCORE",
         ).extra_offset,
     ),
 )
@@ -87,8 +87,8 @@ maker(
 # triangle
 
 maker(
-    'perc1',
-    animales.parts('Percussion', 1),
+    "perc1",
+    animales.parts("Percussion", 1),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
@@ -98,8 +98,8 @@ maker(
 # cymbal
 
 maker(
-    'perc2',
-    animales.parts('Percussion', 2),
+    "perc2",
+    animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(baca.pleaf(0)),
     baca.staff_position(0),
@@ -109,8 +109,8 @@ maker(
 # bass drum
 
 maker(
-    'perc3',
-    animales.parts('Percussion', 3),
+    "perc3",
+    animales.parts("Percussion", 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
@@ -120,8 +120,8 @@ maker(
 # tam-tam
 
 maker(
-    'perc4',
-    animales.parts('Percussion', 4),
+    "perc4",
+    animales.parts("Percussion", 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(baca.pleaf(0)),
