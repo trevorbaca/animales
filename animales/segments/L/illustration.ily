@@ -1716,7 +1716,7 @@ L_Contrabass_Voice_III_a = {                                                   %
 
     a,4                                                                        %! baca.make_repeated_duration_notes()
 
-    g,4                                                                        %! baca.make_repeated_duration_notes()
+    a,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [L Contrabass_Voice_III measure 79 / measure 4]                          %! baca.SegmentMaker._comment_measure_numbers()
     g,4                                                                        %! baca.make_repeated_duration_notes()

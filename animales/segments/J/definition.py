@@ -324,7 +324,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("A3", "G6"),
+    baca.interpolate_pitches("A3", "G6"),
 )
 
 maker(
@@ -337,7 +337,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("A3", "G5"),
+    baca.interpolate_pitches("A3", "G5"),
 )
 
 maker(
@@ -350,7 +350,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("A3", "G4"),
+    baca.interpolate_pitches("A3", "G4"),
 )
 
 maker(
@@ -363,7 +363,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("A3", "B2"),
+    baca.interpolate_pitches("A3", "B2"),
 )
 
 maker(
@@ -375,7 +375,7 @@ maker(
         right_broken=True,
     ),
     baca.hairpin("ff >", right_broken=True),
-    baca.interpolate_staff_positions("A2", "G2"),
+    baca.interpolate_pitches("A1", "G1"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 

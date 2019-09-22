@@ -173,7 +173,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("B3", "A6"),
+    baca.interpolate_pitches("B3", "A6"),
 )
 
 maker(
@@ -186,7 +186,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("B3", "A5"),
+    baca.interpolate_pitches("B3", "A5"),
 )
 
 maker(
@@ -199,7 +199,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("B3", "A4"),
+    baca.interpolate_pitches("B3", "A4"),
 )
 
 maker(
@@ -212,7 +212,7 @@ maker(
         style="trill",
     ),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_staff_positions("B3", "C3"),
+    baca.interpolate_pitches("B3", "C3"),
 )
 
 maker(
@@ -223,6 +223,6 @@ maker(
         right_broken=True,
     ),
     baca.hairpin("ff >", right_broken=True),
-    baca.interpolate_staff_positions("B2", "A2"),
+    baca.interpolate_pitches("B1", "A1"),
     baca.repeat_tie(baca.pleaf(0)),
 )
