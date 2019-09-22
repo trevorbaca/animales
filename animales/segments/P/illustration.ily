@@ -44,7 +44,7 @@ P_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
 %%% - \tweak extra-offset #'(0 . 6)                                            %! +TABLOID_SCORE
-    - \baca-rehearsal-mark-markup "P"                                          %! baca.rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "P"                                          %! baca.rehearsal_mark():IndicatorCommand
 %@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "109"                                           %! MEASURE_NUMBER
@@ -210,7 +210,7 @@ P_Oboe_Voice_I_a = {                                                           %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    a'2.                                                                       %! baca.make_repeat_tied_notes
+    a'2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Ob.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -228,26 +228,26 @@ P_Oboe_Voice_I_a = {                                                           %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Oboe_Voice_I measure 110 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'2.                                                                       %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Oboe_Voice_I measure 111 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [P Oboe_Voice_I measure 112 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Oboe_Voice_I measure 113 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -348,7 +348,7 @@ P_English_Horn_Voice_I_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    d'2.                                                                       %! baca.make_repeat_tied_notes
+    d'2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -366,26 +366,26 @@ P_English_Horn_Voice_I_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P English_Horn_Voice_I measure 110 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'2.                                                                       %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P English_Horn_Voice_I measure 111 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [P English_Horn_Voice_I measure 112 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P English_Horn_Voice_I measure 113 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -486,8 +486,8 @@ P_Bassoon_Voice_I_a = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    b2.                                                                        %! baca.make_repeat_tied_notes
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    b2.                                                                        %! baca.make_repeat_tied_notes()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:+PARTS:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Bsn.”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -505,26 +505,26 @@ P_Bassoon_Voice_I_a = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Bassoon_Voice_I measure 110 / measure 2]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b2.                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Bassoon_Voice_I measure 111 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:+PARTS:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
 %%% - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
 %%% \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:+PARTS:PiecewiseCommand(1)
 
     % [P Bassoon_Voice_I measure 112 / measure 4]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Bassoon_Voice_I measure 113 / measure 5]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -600,8 +600,8 @@ P_Bassoon_Voice_I = {                                                          %
 P_Bassoon_Voice_II_a = {                                                       %! abjad.Path.extern
 
     % [P Bassoon_Voice_II measure 109 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    g,2.                                                                       %! baca.make_repeat_tied_notes
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -609,26 +609,26 @@ P_Bassoon_Voice_II_a = {                                                       %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [P Bassoon_Voice_II measure 110 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Bassoon_Voice_II measure 111 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [P Bassoon_Voice_II measure 112 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Bassoon_Voice_II measure 113 / measure 5]                             %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -740,8 +740,8 @@ P_Horn_Voice_I_a = {                                                           %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
+    \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
     r2.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -926,7 +926,7 @@ P_Horn_Voice_I = {                                                             %
 P_Horn_Voice_III_a = {                                                         %! abjad.Path.extern
 
     % [P Horn_Voice_III measure 109 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
     df'!2.                                                                     %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -1084,8 +1084,8 @@ P_Horn_Voice_II_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
+    \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
     r2.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -1270,7 +1270,7 @@ P_Horn_Voice_II = {                                                            %
 P_Horn_Voice_IV_a = {                                                          %! abjad.Path.extern
 
     % [P Horn_Voice_IV measure 109 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
     r4.                                                                        %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -1460,8 +1460,8 @@ P_Trumpet_Voice_I_a = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
+    \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
     r2.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -1610,7 +1610,7 @@ P_Trumpet_Voice_I = {                                                          %
 P_Trumpet_Voice_III_a = {                                                      %! abjad.Path.extern
 
     % [P Trumpet_Voice_III measure 109 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
     f'2.                                                                       %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -1810,8 +1810,8 @@ P_Trumpet_Voice_II_a = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
+    \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
     r2.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -1981,7 +1981,7 @@ P_Trumpet_Voice_II = {                                                         %
 P_Trumpet_Voice_IV_a = {                                                       %! abjad.Path.extern
 
     % [P Trumpet_Voice_IV measure 109 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
     r4.                                                                        %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -2160,8 +2160,8 @@ P_Trombone_Voice_I_a = {                                                       %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
+    \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
     r2.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -2329,7 +2329,7 @@ P_Trombone_Voice_I = {                                                         %
 P_Trombone_Voice_III_a = {                                                     %! abjad.Path.extern
 
     % [P Trombone_Voice_III measure 109 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
     f2                                                                         %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -2520,8 +2520,8 @@ P_Trombone_Voice_II_a = {                                                      %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \dynamicUp                                                                 %! baca.dynamic_down:-PARTS:IndicatorCommand
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
+    \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
     r2.                                                                        %! animales.brass_manifest_rhythm
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -2687,7 +2687,7 @@ P_Trombone_Voice_II = {                                                        %
 P_Trombone_Voice_IV_a = {                                                      %! abjad.Path.extern
 
     % [P Trombone_Voice_IV measure 109 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
     r4.                                                                        %! animales.brass_manifest_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -2891,26 +2891,26 @@ P_First_Violin_Voice_I_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    a''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    a''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup {                                                                %! baca.markup:-PARTS:IndicatorCommand
-        \override                                                              %! baca.markup:-PARTS:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca.markup:-PARTS:IndicatorCommand
-            \box                                                               %! baca.markup:-PARTS:IndicatorCommand
-                "tutti: sim."                                                  %! baca.markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca.markup:-PARTS:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup():-PARTS:IndicatorCommand
+        \override                                                              %! baca.markup():-PARTS:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca.markup():-PARTS:IndicatorCommand
+            \box                                                               %! baca.markup():-PARTS:IndicatorCommand
+                "tutti: sim."                                                  %! baca.markup():-PARTS:IndicatorCommand
+        }                                                                      %! baca.markup():-PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -2926,18 +2926,18 @@ P_First_Violin_Voice_I_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P First_Violin_Voice_I measure 110 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_I measure 111 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    a''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -2948,49 +2948,49 @@ P_First_Violin_Voice_I_a = {                                                   %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P First_Violin_Voice_I measure 112 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_I measure 113 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_I measure 114 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_I measure 115 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_I measure 116 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    a''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P First_Violin_Voice_I measure 117 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_I measure 118 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-    a''2                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a''2                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -3037,32 +3037,32 @@ P_First_Violin_Voice_II_a = {                                                  %
 
     % [P First_Violin_Voice_II measure 109 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    f''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    f''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P First_Violin_Voice_II measure 110 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_II measure 111 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3073,49 +3073,49 @@ P_First_Violin_Voice_II_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P First_Violin_Voice_II measure 112 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_II measure 113 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_II measure 114 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_II measure 115 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_II measure 116 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P First_Violin_Voice_II measure 117 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    f''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_II measure 118 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f''2                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f''2                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -3200,20 +3200,20 @@ P_First_Violin_Voice_III_a = {                                                 %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    g''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    g''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"             %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -3229,18 +3229,18 @@ P_First_Violin_Voice_III_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P First_Violin_Voice_III measure 110 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_III measure 111 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3251,49 +3251,49 @@ P_First_Violin_Voice_III_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P First_Violin_Voice_III measure 112 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_III measure 113 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_III measure 114 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_III measure 115 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_III measure 116 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P First_Violin_Voice_III measure 117 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_III measure 118 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
-    g''2                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g''2                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -3340,32 +3340,32 @@ P_First_Violin_Voice_IV_a = {                                                  %
 
     % [P First_Violin_Voice_IV measure 109 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #8                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    d''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    d''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P First_Violin_Voice_IV measure 110 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_IV measure 111 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    d''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3376,49 +3376,49 @@ P_First_Violin_Voice_IV_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P First_Violin_Voice_IV measure 112 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_IV measure 113 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_IV measure 114 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_IV measure 115 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''2.                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''2.                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_IV measure 116 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    d''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P First_Violin_Voice_IV measure 117 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''1                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''1                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_IV measure 118 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    d''2                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d''2                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -3496,13 +3496,13 @@ P_First_Violin_Voice_V_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    cs'!2.                                                                     %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vni. I 18”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    \repeatTie                                                                 %! baca.repeat_tie:IndicatorCommand
+    \repeatTie                                                                 %! baca.repeat_tie():IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -3517,49 +3517,49 @@ P_First_Violin_Voice_V_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P First_Violin_Voice_V measure 110 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!2.                                                                     %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 111 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!1                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 112 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!1                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 113 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!1                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 114 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!2.                                                                     %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 115 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!2.                                                                     %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!2.                                                                     %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 116 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!1                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 117 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!1                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!1                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P First_Violin_Voice_V measure 118 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-    cs'!2                                                                      %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    cs'!2                                                                      %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
 }                                                                              %! abjad.Path.extern
 
@@ -3640,20 +3640,20 @@ P_Second_Violin_Voice_I_a = {                                                  %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    b'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    b'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -3669,19 +3669,19 @@ P_Second_Violin_Voice_I_a = {                                                  %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Second_Violin_Voice_I measure 110 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_I measure 111 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    b'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3692,53 +3692,53 @@ P_Second_Violin_Voice_I_a = {                                                  %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Second_Violin_Voice_I measure 112 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_I measure 113 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_I measure 114 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_I measure 115 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_I measure 116 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    b'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Second_Violin_Voice_I measure 117 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    b'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_I measure 118 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    b'2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b'2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -3785,32 +3785,32 @@ P_Second_Violin_Voice_II_a = {                                                 %
 
     % [P Second_Violin_Voice_II measure 109 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    g'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    g'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P Second_Violin_Voice_II measure 110 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_II measure 111 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3821,49 +3821,49 @@ P_Second_Violin_Voice_II_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Second_Violin_Voice_II measure 112 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_II measure 113 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_II measure 114 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_II measure 115 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_II measure 116 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Second_Violin_Voice_II measure 117 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
-    g'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_II measure 118 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
-    g'2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g'2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -3948,20 +3948,20 @@ P_Second_Violin_Voice_III_a = {                                                %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    a'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    a'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -3977,18 +3977,18 @@ P_Second_Violin_Voice_III_a = {                                                %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Second_Violin_Voice_III measure 110 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_III measure 111 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3999,49 +3999,49 @@ P_Second_Violin_Voice_III_a = {                                                %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Second_Violin_Voice_III measure 112 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_III measure 113 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_III measure 114 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_III measure 115 / measure 7]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_III measure 116 / measure 8]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Second_Violin_Voice_III measure 117 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
-    a'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_III measure 118 / measure 10]                     %! baca.SegmentMaker._comment_measure_numbers()
-    a'2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a'2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -4088,32 +4088,32 @@ P_Second_Violin_Voice_IV_a = {                                                 %
 
     % [P Second_Violin_Voice_IV measure 109 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    f'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    f'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P Second_Violin_Voice_IV measure 110 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_IV measure 111 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    f'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -4124,49 +4124,49 @@ P_Second_Violin_Voice_IV_a = {                                                 %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Second_Violin_Voice_IV measure 112 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_IV measure 113 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_IV measure 114 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_IV measure 115 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_IV measure 116 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    f'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Second_Violin_Voice_IV measure 117 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Second_Violin_Voice_IV measure 118 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
-    f'2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    f'2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -4251,20 +4251,20 @@ P_Viola_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    d'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    d'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -4280,18 +4280,18 @@ P_Viola_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Viola_Voice_I measure 110 / measure 2]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_I measure 111 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -4302,49 +4302,49 @@ P_Viola_Voice_I_a = {                                                          %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Viola_Voice_I measure 112 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_I measure 113 / measure 5]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_I measure 114 / measure 6]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_I measure 115 / measure 7]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_I measure 116 / measure 8]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Viola_Voice_I measure 117 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d'1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_I measure 118 / measure 10]                               %! baca.SegmentMaker._comment_measure_numbers()
-    d'2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d'2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -4391,32 +4391,32 @@ P_Viola_Voice_II_a = {                                                         %
 
     % [P Viola_Voice_II measure 109 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    a2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    a2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P Viola_Voice_II measure 110 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_II measure 111 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    a1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -4427,49 +4427,49 @@ P_Viola_Voice_II_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Viola_Voice_II measure 112 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_II measure 113 / measure 5]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_II measure 114 / measure 6]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_II measure 115 / measure 7]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_II measure 116 / measure 8]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    a1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Viola_Voice_II measure 117 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
-    a1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_II measure 118 / measure 10]                              %! baca.SegmentMaker._comment_measure_numbers()
-    a2                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    a2                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -4554,20 +4554,20 @@ P_Viola_Voice_III_a = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    b2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    b2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -4583,18 +4583,18 @@ P_Viola_Voice_III_a = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Viola_Voice_III measure 110 / measure 2]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_III measure 111 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -4605,49 +4605,49 @@ P_Viola_Voice_III_a = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Viola_Voice_III measure 112 / measure 4]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_III measure 113 / measure 5]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_III measure 114 / measure 6]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_III measure 115 / measure 7]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_III measure 116 / measure 8]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Viola_Voice_III measure 117 / measure 9]                              %! baca.SegmentMaker._comment_measure_numbers()
-    b1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_III measure 118 / measure 10]                             %! baca.SegmentMaker._comment_measure_numbers()
-    b2                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    b2                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -4694,32 +4694,32 @@ P_Viola_Voice_IV_a = {                                                         %
 
     % [P Viola_Voice_IV measure 109 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    g2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    g2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P Viola_Voice_IV measure 110 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_IV measure 111 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -4730,49 +4730,49 @@ P_Viola_Voice_IV_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Viola_Voice_IV measure 112 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_IV measure 113 / measure 5]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_IV measure 114 / measure 6]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_IV measure 115 / measure 7]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_IV measure 116 / measure 8]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Viola_Voice_IV measure 117 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Viola_Voice_IV measure 118 / measure 10]                              %! baca.SegmentMaker._comment_measure_numbers()
-    g2                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g2                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -4857,20 +4857,20 @@ P_Cello_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    \voiceOne                                                                  %! baca.voice_one:-PARTS:IndicatorCommand
-    d2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceOne                                                                  %! baca.voice_one():-PARTS:IndicatorCommand
+    d2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -4886,19 +4886,19 @@ P_Cello_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Cello_Voice_I measure 110 / measure 2]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_I measure 111 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    d1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -4909,53 +4909,53 @@ P_Cello_Voice_I_a = {                                                          %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Cello_Voice_I measure 112 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_I measure 113 / measure 5]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_I measure 114 / measure 6]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_I measure 115 / measure 7]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d2.                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d2.                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_I measure 116 / measure 8]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    d1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Cello_Voice_I measure 117 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
-    d1                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d1                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_I measure 118 / measure 10]                               %! baca.SegmentMaker._comment_measure_numbers()
-    d2                                                                         %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    d2                                                                         %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 %%% \revert TextScript.extra-offset                                            %! +PARTS:baca.text_script_extra_offset():OverrideCommand(2)
 %%% \revert TextSpanner.staff-padding                                          %! +PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
     \revert DynamicText.stencil                                                %! -PARTS:baca.dynamic_text_stencil_false():OverrideCommand(2)
@@ -5002,32 +5002,32 @@ P_Cello_Voice_II_a = {                                                         %
 
     % [P Cello_Voice_II measure 109 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \override TextSpanner.staff-padding = #5                                   %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(1)
-    \voiceTwo                                                                  %! baca.voice_two:-PARTS:IndicatorCommand
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    \voiceTwo                                                                  %! baca.voice_two():-PARTS:IndicatorCommand
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
 
     % [P Cello_Voice_II measure 110 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_II measure 111 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -5038,49 +5038,49 @@ P_Cello_Voice_II_a = {                                                         %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Cello_Voice_II measure 112 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_II measure 113 / measure 5]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_II measure 114 / measure 6]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_II measure 115 / measure 7]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_II measure 116 / measure 8]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Cello_Voice_II measure 117 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Cello_Voice_II measure 118 / measure 10]                              %! baca.SegmentMaker._comment_measure_numbers()
-    g,2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert TextSpanner.staff-padding                                          %! -PARTS:baca.text_spanner_staff_padding():OverrideCommand(2)
 
 }                                                                              %! abjad.Path.extern
@@ -5150,19 +5150,19 @@ P_Contrabass_Voice_III_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Cb.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup:+PARTS:IndicatorCommand
-%%%     \override                                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         #'(box-padding . 0.5)                                              %! baca.markup:+PARTS:IndicatorCommand
-%%%         \box                                                               %! baca.markup:+PARTS:IndicatorCommand
-%%%             "ext. ponticello: like acide"                                  %! baca.markup:+PARTS:IndicatorCommand
-%%%     }                                                                      %! baca.markup:+PARTS:IndicatorCommand
+%%% ^ \markup {                                                                %! baca.markup():+PARTS:IndicatorCommand
+%%%     \override                                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:IndicatorCommand
+%%%         \box                                                               %! baca.markup():+PARTS:IndicatorCommand
+%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:IndicatorCommand
+%%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -5173,18 +5173,18 @@ P_Contrabass_Voice_III_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [P Contrabass_Voice_III measure 110 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Contrabass_Voice_III measure 111 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca.text_spanner:PiecewiseCommand(1)
@@ -5195,49 +5195,49 @@ P_Contrabass_Voice_III_a = {                                                   %
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
     % [P Contrabass_Voice_III measure 112 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Contrabass_Voice_III measure 113 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Contrabass_Voice_III measure 114 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Contrabass_Voice_III measure 115 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,2.                                                                       %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2.                                                                       %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Contrabass_Voice_III measure 116 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \stopTextSpan                                                              %! SPANNER_STOP:baca.text_spanner:PiecewiseCommand(2)
 
     % [P Contrabass_Voice_III measure 117 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
-    g,1                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,1                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [P Contrabass_Voice_III measure 118 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-    g,2                                                                        %! baca.make_repeat_tied_notes
-    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \accent                                                                  %! baca.accent:IndicatorCommand
-    \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    g,2                                                                        %! baca.make_repeat_tied_notes()
+    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    - \accent                                                                  %! baca.accent():IndicatorCommand
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
 }                                                                              %! abjad.Path.extern
 
