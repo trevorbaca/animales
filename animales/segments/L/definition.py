@@ -228,7 +228,7 @@ maker(
         right_broken=True,
     ),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_staff_positions("Ab1", "G1"),
+    baca.interpolate_staff_positions("Ab2", "G2"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 

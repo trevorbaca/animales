@@ -207,7 +207,7 @@ maker(
         right_broken=True,
     ),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_staff_positions("Bb1", "A1"),
+    baca.interpolate_staff_positions("Bb2", "A2"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 

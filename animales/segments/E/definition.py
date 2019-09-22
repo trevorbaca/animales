@@ -15,6 +15,7 @@ assert start == 29
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     clock_time_override=abjad.MetronomeMark((1, 4), 95),
+    do_not_check_wellformedness=True,
     score_template=animales.ScoreTemplate(
         clarinets=[
             (1, [1]),
@@ -222,6 +223,6 @@ maker(
         right_broken=True,
     ),
     baca.hairpin("ff >", right_broken=True),
-    baca.interpolate_staff_positions("B1", "A1"),
+    baca.interpolate_staff_positions("B2", "A2"),
     baca.repeat_tie(baca.pleaf(0)),
 )
