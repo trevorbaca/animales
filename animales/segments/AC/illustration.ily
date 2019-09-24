@@ -283,6 +283,7 @@ AC_Piano_Voice_I_a = {                                                         %
         %%%     \musicglyph                                                    %! baca.markup():+PARTS:IndicatorCommand
         %%%         #"scripts.ufermata"                                        %! baca.markup():+PARTS:IndicatorCommand
         %%%     }                                                              %! baca.markup():+PARTS:IndicatorCommand
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -291,6 +292,7 @@ AC_Piano_Voice_I_a = {                                                         %
 
             % [AC Piano_Rest_Voice_I measure 174 / measure 10]                 %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -311,6 +313,7 @@ AC_Piano_Voice_I = {                                                           %
             % [AC Piano_Voice_I measure 175 / measure 11]                      %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -324,6 +327,7 @@ AC_Piano_Voice_I = {                                                           %
             \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(8)
             \startStaff                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(8)
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -500,6 +504,7 @@ AC_Percussion_Voice_IV_a = {                                                   %
             % [AC Percussion_Voice_IV measure 173 / measure 9]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -508,6 +513,7 @@ AC_Percussion_Voice_IV_a = {                                                   %
 
             % [AC Percussion_Rest_Voice_IV measure 173 / measure 9]            %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -521,6 +527,7 @@ AC_Percussion_Voice_IV_a = {                                                   %
 %%%     \musicglyph                                                            %! baca.markup():+PARTS:IndicatorCommand
 %%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:IndicatorCommand
 %%%     }                                                                      %! baca.markup():+PARTS:IndicatorCommand
+%@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
 }                                                                              %! abjad.Path.extern
 
@@ -537,6 +544,7 @@ AC_Percussion_Voice_IV = {                                                     %
             % [AC Percussion_Voice_IV measure 175 / measure 11]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -550,6 +558,7 @@ AC_Percussion_Voice_IV = {                                                     %
             \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(8)
             \startStaff                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(8)
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
