@@ -60,7 +60,7 @@ maker(
     baca.metronome_mark(baca.Accelerando()),
     baca.rehearsal_mark("G"),
     baca.tag(
-        "+TABLOID_SCORE",
+        abjad.Tag("+TABLOID_SCORE"),
         baca.text_spanner_left_padding(3),
     ),
 )

@@ -68,5 +68,5 @@ def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
         rmakers.force_repeat_tie(),
         preprocessor=baca.sequence().fuse().quarters(),
         persist="sforzando_exchange_rhythm",
-        tag="animales.sforzando_exchange_rhythm",
+        tag=abjad.Tag("animales.sforzando_exchange_rhythm()"),
     )

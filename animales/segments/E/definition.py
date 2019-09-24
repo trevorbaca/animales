@@ -57,15 +57,15 @@ maker(
         baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
-            tag="+TABLOID_SCORE",
+            tag=abjad.Tag("+TABLOID_SCORE"),
         ).extra_offset,
     ),
     baca.tag(
-        "+TABLOID_SCORE",
+        abjad.Tag("+TABLOID_SCORE"),
         baca.text_spanner_left_padding(1),
     ),
     baca.tag(
-        "+TABLOID_SCORE",
+        abjad.Tag("+TABLOID_SCORE"),
         baca.text_spanner_y_offset(8),
     ),
 )

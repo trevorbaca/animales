@@ -59,7 +59,7 @@ maker(
     baca.metronome_mark("114"),
     baca.rehearsal_mark("H"),
     baca.tag(
-        "+TABLOID_SCORE",
+        abjad.Tag("+TABLOID_SCORE"),
         baca.text_spanner_left_padding(-8),
     ),
 )

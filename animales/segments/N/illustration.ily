@@ -174,7 +174,7 @@ N_Flute_Voice_I_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    r2.                                                                        %! animales.pennant_rhythm
+    r2.                                                                        %! animales.pennant_rhythm()
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Fl. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -192,9 +192,9 @@ N_Flute_Voice_I_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        g''8                                                                   %! animales.pennant_rhythm
+        g''8                                                                   %! animales.pennant_rhythm()
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
@@ -202,77 +202,77 @@ N_Flute_Voice_I_a = {                                                          %
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
         (                                                                      %! baca.slur():SpannerIndicatorCommand(1)
 
-        af''!8                                                                 %! animales.pennant_rhythm
+        af''!8                                                                 %! animales.pennant_rhythm()
 
-        g''8                                                                   %! animales.pennant_rhythm
+        g''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
     % [N Flute_Voice_I measure 89 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
 
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [N Flute_Voice_I measure 90 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        b''8                                                                   %! animales.pennant_rhythm
+        b''8                                                                   %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        bf''!8                                                                 %! animales.pennant_rhythm
+        bf''!8                                                                 %! animales.pennant_rhythm()
 
-        c'''8                                                                  %! animales.pennant_rhythm
+        c'''8                                                                  %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        cs'''!8                                                                %! animales.pennant_rhythm
+        cs'''!8                                                                %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        b''8                                                                   %! animales.pennant_rhythm
+        b''8                                                                   %! animales.pennant_rhythm()
 
-        c'''8                                                                  %! animales.pennant_rhythm
+        c'''8                                                                  %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    cs'''!16                                                                   %! animales.pennant_rhythm
+    cs'''!16                                                                   %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    d'''16                                                                     %! animales.pennant_rhythm
+    d'''16                                                                     %! animales.pennant_rhythm()
 
-    cs'''!16                                                                   %! animales.pennant_rhythm
+    cs'''!16                                                                   %! animales.pennant_rhythm()
 
-    c'''16                                                                     %! animales.pennant_rhythm
+    c'''16                                                                     %! animales.pennant_rhythm()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():+PARTS:PiecewiseCommand(2)
     )                                                                          %! SPANNER_STOP:baca.slur():SpannerIndicatorCommand(2)
@@ -361,11 +361,11 @@ N_Flute_Voice_III_a = {                                                        %
 
     % [N Flute_Voice_III measure 88 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    r2                                                                         %! animales.pennant_rhythm
+    r2                                                                         %! animales.pennant_rhythm()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
 
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -373,95 +373,95 @@ N_Flute_Voice_III_a = {                                                        %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     (                                                                          %! baca.slur():SpannerIndicatorCommand(1)
 
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
 
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
 
-    e''16                                                                      %! animales.pennant_rhythm
+    e''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        ef''!8                                                                 %! animales.pennant_rhythm
+        ef''!8                                                                 %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        f''8                                                                   %! animales.pennant_rhythm
+        f''8                                                                   %! animales.pennant_rhythm()
 
-        e''8                                                                   %! animales.pennant_rhythm
+        e''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
         % [N Flute_Voice_III measure 89 / measure 2]                           %! baca.SegmentMaker._comment_measure_numbers()
-        f''8                                                                   %! animales.pennant_rhythm
+        f''8                                                                   %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        fs''!8                                                                 %! animales.pennant_rhythm
+        fs''!8                                                                 %! animales.pennant_rhythm()
 
-        af''!8                                                                 %! animales.pennant_rhythm
+        af''!8                                                                 %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
 
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [N Flute_Voice_III measure 90 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    b''16                                                                      %! animales.pennant_rhythm
+    b''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
 
-    b''16                                                                      %! animales.pennant_rhythm
+    b''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        c'''8                                                                  %! animales.pennant_rhythm
+        c'''8                                                                  %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        b''8                                                                   %! animales.pennant_rhythm
+        b''8                                                                   %! animales.pennant_rhythm()
 
-        bf''!8                                                                 %! animales.pennant_rhythm
+        bf''!8                                                                 %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        a''8                                                                   %! animales.pennant_rhythm
+        a''8                                                                   %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        b''8                                                                   %! animales.pennant_rhythm
+        b''8                                                                   %! animales.pennant_rhythm()
 
-        bf''!8                                                                 %! animales.pennant_rhythm
+        bf''!8                                                                 %! animales.pennant_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
         )                                                                      %! SPANNER_STOP:baca.slur():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -544,10 +544,10 @@ N_Flute_Voice_III = {                                                          %
 
 N_Flute_Staff_I = <<                                                           %! abjad.Path.extern()
 
-    \context Voice = "Flute_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Flute_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \N_Flute_Voice_I                                                           %! abjad.Path.extern()
 
-    \context Voice = "Flute_Voice_III"                                         %! animales.ScoreTemplate._make_staves
+    \context Voice = "Flute_Voice_III"                                         %! animales.ScoreTemplate._make_staves()
     \N_Flute_Voice_III                                                         %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -582,7 +582,7 @@ N_Flute_Voice_II_a = {                                                         %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    r4                                                                         %! animales.pennant_rhythm
+    r4                                                                         %! animales.pennant_rhythm()
 %%% - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():+PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Fl. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -600,9 +600,9 @@ N_Flute_Voice_II_a = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        ef''!8                                                                 %! animales.pennant_rhythm
+        ef''!8                                                                 %! animales.pennant_rhythm()
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \mf                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():+PARTS:PiecewiseCommand(1)
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
@@ -610,105 +610,105 @@ N_Flute_Voice_II_a = {                                                         %
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
         (                                                                      %! baca.slur():SpannerIndicatorCommand(1)
 
-        e''8                                                                   %! animales.pennant_rhythm
+        e''8                                                                   %! animales.pennant_rhythm()
 
-        ef''!8                                                                 %! animales.pennant_rhythm
+        ef''!8                                                                 %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        d''8                                                                   %! animales.pennant_rhythm
+        d''8                                                                   %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        cs''!8                                                                 %! animales.pennant_rhythm
+        cs''!8                                                                 %! animales.pennant_rhythm()
 
-        ef''!8                                                                 %! animales.pennant_rhythm
+        ef''!8                                                                 %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    d''16                                                                      %! animales.pennant_rhythm
+    d''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    ef''!16                                                                    %! animales.pennant_rhythm
+    ef''!16                                                                    %! animales.pennant_rhythm()
 
-    e''16                                                                      %! animales.pennant_rhythm
+    e''16                                                                      %! animales.pennant_rhythm()
 
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [N Flute_Voice_II measure 89 / measure 2]                                %! baca.SegmentMaker._comment_measure_numbers()
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    e''16                                                                      %! animales.pennant_rhythm
+    e''16                                                                      %! animales.pennant_rhythm()
 
-    ef''!16                                                                    %! animales.pennant_rhythm
+    ef''!16                                                                    %! animales.pennant_rhythm()
 
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        fs''!8                                                                 %! animales.pennant_rhythm
+        fs''!8                                                                 %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        g''8                                                                   %! animales.pennant_rhythm
+        g''8                                                                   %! animales.pennant_rhythm()
 
-        fs''!8                                                                 %! animales.pennant_rhythm
+        fs''!8                                                                 %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
         % [N Flute_Voice_II measure 90 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-        af''!8                                                                 %! animales.pennant_rhythm
+        af''!8                                                                 %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        a''8                                                                   %! animales.pennant_rhythm
+        a''8                                                                   %! animales.pennant_rhythm()
 
-        g''8                                                                   %! animales.pennant_rhythm
+        g''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        a''8                                                                   %! animales.pennant_rhythm
+        a''8                                                                   %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        bf''!8                                                                 %! animales.pennant_rhythm
+        bf''!8                                                                 %! animales.pennant_rhythm()
 
-        c'''8                                                                  %! animales.pennant_rhythm
+        c'''8                                                                  %! animales.pennant_rhythm()
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \ff                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():+PARTS:PiecewiseCommand(2)
         )                                                                      %! SPANNER_STOP:baca.slur():SpannerIndicatorCommand(2)
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -793,7 +793,7 @@ N_Flute_Voice_IV_a = {                                                         %
 
     % [N Flute_Voice_IV measure 88 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    d''16                                                                      %! animales.pennant_rhythm
+    d''16                                                                      %! animales.pennant_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -801,111 +801,111 @@ N_Flute_Voice_IV_a = {                                                         %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     (                                                                          %! baca.slur():SpannerIndicatorCommand(1)
 
-    ef''!16                                                                    %! animales.pennant_rhythm
+    ef''!16                                                                    %! animales.pennant_rhythm()
 
-    d''16                                                                      %! animales.pennant_rhythm
+    d''16                                                                      %! animales.pennant_rhythm()
 
-    cs''!16                                                                    %! animales.pennant_rhythm
+    cs''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    c''16                                                                      %! animales.pennant_rhythm
+    c''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    d''16                                                                      %! animales.pennant_rhythm
+    d''16                                                                      %! animales.pennant_rhythm()
 
-    cs''!16                                                                    %! animales.pennant_rhythm
+    cs''!16                                                                    %! animales.pennant_rhythm()
 
-    d''16                                                                      %! animales.pennant_rhythm
+    d''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        ef''!8                                                                 %! animales.pennant_rhythm
+        ef''!8                                                                 %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        f''8                                                                   %! animales.pennant_rhythm
+        f''8                                                                   %! animales.pennant_rhythm()
 
-        e''8                                                                   %! animales.pennant_rhythm
+        e''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        ef''!8                                                                 %! animales.pennant_rhythm
+        ef''!8                                                                 %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        d''8                                                                   %! animales.pennant_rhythm
+        d''8                                                                   %! animales.pennant_rhythm()
 
-        e''8                                                                   %! animales.pennant_rhythm
+        e''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
     % [N Flute_Voice_IV measure 89 / measure 2]                                %! baca.SegmentMaker._comment_measure_numbers()
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
 
-    f''16                                                                      %! animales.pennant_rhythm
+    f''16                                                                      %! animales.pennant_rhythm()
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    fs''!16                                                                    %! animales.pennant_rhythm
+    fs''!16                                                                    %! animales.pennant_rhythm()
 
-    g''16                                                                      %! animales.pennant_rhythm
+    g''16                                                                      %! animales.pennant_rhythm()
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
         % [N Flute_Voice_IV measure 90 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-        a''8                                                                   %! animales.pennant_rhythm
+        a''8                                                                   %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        af''!8                                                                 %! animales.pennant_rhythm
+        af''!8                                                                 %! animales.pennant_rhythm()
 
-        g''8                                                                   %! animales.pennant_rhythm
+        g''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    \times 2/3 {                                                               %! animales.pennant_rhythm
+    \times 2/3 {                                                               %! animales.pennant_rhythm()
 
-        fs''!8                                                                 %! animales.pennant_rhythm
+        fs''!8                                                                 %! animales.pennant_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-        af''!8                                                                 %! animales.pennant_rhythm
+        af''!8                                                                 %! animales.pennant_rhythm()
 
-        g''8                                                                   %! animales.pennant_rhythm
+        g''8                                                                   %! animales.pennant_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
-    }                                                                          %! animales.pennant_rhythm
+    }                                                                          %! animales.pennant_rhythm()
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
 
-    b''16                                                                      %! animales.pennant_rhythm
+    b''16                                                                      %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    a''16                                                                      %! animales.pennant_rhythm
+    a''16                                                                      %! animales.pennant_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    af''!16                                                                    %! animales.pennant_rhythm
+    af''!16                                                                    %! animales.pennant_rhythm()
 
-    bf''!16                                                                    %! animales.pennant_rhythm
+    bf''!16                                                                    %! animales.pennant_rhythm()
 
-    b''16                                                                      %! animales.pennant_rhythm
+    b''16                                                                      %! animales.pennant_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     )                                                                          %! SPANNER_STOP:baca.slur():SpannerIndicatorCommand(2)
@@ -992,10 +992,10 @@ N_Flute_Voice_IV = {                                                           %
 
 N_Flute_Staff_II = <<                                                          %! abjad.Path.extern()
 
-    \context Voice = "Flute_Voice_II"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Flute_Voice_II"                                          %! animales.ScoreTemplate._make_staves()
     \N_Flute_Voice_II                                                          %! abjad.Path.extern()
 
-    \context Voice = "Flute_Voice_IV"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Flute_Voice_IV"                                          %! animales.ScoreTemplate._make_staves()
     \N_Flute_Voice_IV                                                          %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1156,7 +1156,7 @@ N_Bass_Clarinet_Voice_I = {                                                    %
 
 N_Bass_Clarinet_Staff_I = {                                                    %! abjad.Path.extern()
 
-    \context Voice = "Bass_Clarinet_Voice_I"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "Bass_Clarinet_Voice_I"                                   %! animales.ScoreTemplate._make_staves()
     \N_Bass_Clarinet_Voice_I                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1182,7 +1182,7 @@ N_Piano_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    r4                                                                         %! animales.harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1196,48 +1196,48 @@ N_Piano_Voice_I_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
-        r8                                                                     %! animales.harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
-        r8                                                                     %! animales.harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Piano_Voice_I measure 89 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Piano_Voice_I measure 90 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Piano_Voice_I measure 91 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! animales.harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
-        r8                                                                     %! animales.harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
-        r8                                                                     %! animales.harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Piano_Voice_I measure 92 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Piano_Voice_I measure 93 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1308,7 +1308,7 @@ N_Piano_Voice_I = {                                                            %
 
 N_Piano_Staff_I = {                                                            %! abjad.Path.extern()
 
-    \context Voice = "Piano_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Piano_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \N_Piano_Voice_I                                                           %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1334,7 +1334,7 @@ N_Harp_Voice_I_a = {                                                           %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "(“Harp”)"                              %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1349,39 +1349,39 @@ N_Harp_Voice_I_a = {                                                           %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [N Harp_Voice_I measure 89 / measure 2]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Harp_Voice_I measure 90 / measure 3]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! animales.harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
-        r4                                                                     %! animales.harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
     % [N Harp_Voice_I measure 91 / measure 4]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Harp_Voice_I measure 92 / measure 5]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Harp_Voice_I measure 93 / measure 6]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    r2.                                                                        %! animales.harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
-        r4                                                                     %! animales.harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1452,7 +1452,7 @@ N_Harp_Voice_I = {                                                             %
 
 N_Harp_Staff_I = {                                                             %! abjad.Path.extern()
 
-    \context Voice = "Harp_Voice_I"                                            %! animales.ScoreTemplate._make_staves
+    \context Voice = "Harp_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
     \N_Harp_Voice_I                                                            %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1607,7 +1607,7 @@ N_Percussion_Voice_I = {                                                       %
 
 N_Percussion_Staff_I = {                                                       %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_I"                                      %! animales.ScoreTemplate._make_staves
+    \context Voice = "Percussion_Voice_I"                                      %! animales.ScoreTemplate._make_staves()
     \N_Percussion_Voice_I                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1761,7 +1761,7 @@ N_Percussion_Voice_II = {                                                      %
 
 N_Percussion_Staff_II = {                                                      %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves
+    \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves()
     \N_Percussion_Voice_II                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1795,7 +1795,7 @@ N_Percussion_Voice_III_a = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1814,39 +1814,39 @@ N_Percussion_Voice_III_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [N Percussion_Voice_III measure 89 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Percussion_Voice_III measure 90 / measure 3]                          %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
-        r4                                                                     %! animales.harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
-    r4                                                                         %! animales.harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Percussion_Voice_III measure 91 / measure 4]                          %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         % [N Percussion_Voice_III measure 92 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
-        r4                                                                     %! animales.harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
-    r2.                                                                        %! animales.harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm()
 
     % [N Percussion_Voice_III measure 93 / measure 6]                          %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1917,7 +1917,7 @@ N_Percussion_Voice_III = {                                                     %
 
 N_Percussion_Staff_III = {                                                     %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_III"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "Percussion_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
     \N_Percussion_Voice_III                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1928,7 +1928,7 @@ N_First_Violin_Voice_II_a = {                                                  %
     % [N First_Violin_Voice_II measure 88 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up():baca.OverrideCommand._call(1)
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    g'4                                                                        %! animales.glissando_rhythm
+    g'4                                                                        %! animales.glissando_rhythm()
 %%% \stopTrillSpan                                                             %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():REDUNDANT_DYNAMIC:SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
@@ -1936,7 +1936,7 @@ N_First_Violin_Voice_II_a = {                                                  %
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
     \glissando                                                                 %! baca.glissando()
 
-    e'''8                                                                      %! animales.glissando_rhythm
+    e'''8                                                                      %! animales.glissando_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
@@ -1948,7 +1948,7 @@ N_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando()
 
     % [N First_Violin_Voice_II measure 89 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d''8                                                                       %! animales.glissando_rhythm
+    d''8                                                                       %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
@@ -1962,7 +1962,7 @@ N_First_Violin_Voice_II_a = {                                                  %
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    d'''8                                                                      %! animales.glissando_rhythm
+    d'''8                                                                      %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1971,18 +1971,18 @@ N_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando()
 
     % [N First_Violin_Voice_II measure 90 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a'2                                                                        %! animales.glissando_rhythm
+    a'2                                                                        %! animales.glissando_rhythm()
     \glissando                                                                 %! baca.glissando()
 
-    g''8                                                                       %! animales.glissando_rhythm
+    g''8                                                                       %! animales.glissando_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    b'8                                                                        %! animales.glissando_rhythm
+    b'8                                                                        %! animales.glissando_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    g'4                                                                        %! animales.glissando_rhythm
+    g'4                                                                        %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up():baca.OverrideCommand._call(2)
@@ -2207,10 +2207,10 @@ N_First_Violin_Voice_I = {                                                     %
 
 N_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves()
     \N_First_Violin_Voice_II                                                   %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves()
     \N_First_Violin_Voice_I                                                    %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -2356,7 +2356,7 @@ N_Second_Violin_Voice_I = {                                                    %
 
 N_Second_Violin_Staff_I = {                                                    %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves()
     \N_Second_Violin_Voice_I                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2502,7 +2502,7 @@ N_Viola_Voice_I = {                                                            %
 
 N_Viola_Staff_I = {                                                            %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \N_Viola_Voice_I                                                           %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2648,7 +2648,7 @@ N_Cello_Voice_I = {                                                            %
 
 N_Cello_Staff_I = {                                                            %! abjad.Path.extern()
 
-    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \N_Cello_Voice_I                                                           %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2682,7 +2682,7 @@ N_Contrabass_Voice_I_a = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! REAPPLIED_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Cb. 1”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2701,41 +2701,41 @@ N_Contrabass_Voice_I_a = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [N Contrabass_Voice_I measure 89 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Contrabass_Voice_I measure 90 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-    r4                                                                         %! animales.harp_exchange_rhythm
+    r4                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
-        r8                                                                     %! animales.harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
-        r8                                                                     %! animales.harp_exchange_rhythm
+        r8                                                                     %! animales.harp_exchange_rhythm()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
-    r2                                                                         %! animales.harp_exchange_rhythm
+    r2                                                                         %! animales.harp_exchange_rhythm()
 
     % [N Contrabass_Voice_I measure 91 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm
+    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         % [N Contrabass_Voice_I measure 92 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-        r4                                                                     %! animales.harp_exchange_rhythm
+        r4                                                                     %! animales.harp_exchange_rhythm()
 
-        bf'!8                                                                  %! animales.harp_exchange_rhythm
+        bf'!8                                                                  %! animales.harp_exchange_rhythm()
         - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
-    }                                                                          %! animales.harp_exchange_rhythm
+    }                                                                          %! animales.harp_exchange_rhythm()
 
-    r2.                                                                        %! animales.harp_exchange_rhythm
+    r2.                                                                        %! animales.harp_exchange_rhythm()
 
     % [N Contrabass_Voice_I measure 93 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    r1                                                                         %! animales.harp_exchange_rhythm
+    r1                                                                         %! animales.harp_exchange_rhythm()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2806,7 +2806,7 @@ N_Contrabass_Voice_I = {                                                       %
 
 N_Contrabass_Staff_I = {                                                       %! abjad.Path.extern()
 
-    \context Voice = "Contrabass_Voice_I"                                      %! animales.ScoreTemplate._make_staves
+    \context Voice = "Contrabass_Voice_I"                                      %! animales.ScoreTemplate._make_staves()
     \N_Contrabass_Voice_I                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2961,7 +2961,7 @@ N_Contrabass_Voice_III = {                                                     %
 
 N_Contrabass_Staff_II = {                                                      %! abjad.Path.extern()
 
-    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
     \N_Contrabass_Voice_III                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
