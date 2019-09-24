@@ -371,7 +371,7 @@ maker(
     baca.not_parts(baca.markup("Cb. tutti")),
     baca.pitch("G1"),
 #    baca.tag(
-#        "+LETTER_PARTS_CB-1",
+#        abjad.Tag("+LETTER_PARTS_CB-1"),
 #        baca.clef("bass"),
 #    ),
 #    baca.only_segment(baca.literal(r"\clef "bass"")),

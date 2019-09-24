@@ -255,7 +255,7 @@ C_Clarinet_Voice_I = {                                                         %
 
 C_Clarinet_Staff_I = {                                                         %! abjad.Path.extern()
 
-    \context Voice = "Clarinet_Voice_I"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Clarinet_Voice_I"                                        %! animales.ScoreTemplate._make_staves()
     \C_Clarinet_Voice_I                                                        %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -331,12 +331,12 @@ C_Horn_Voice_I_a = {                                                           %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Horn_Voice_I measure 20 / measure 3]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    g'8                                                                        %! animales.downbeat_attack
+    g'8                                                                        %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -438,12 +438,12 @@ C_Horn_Voice_III_a = {                                                         %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Horn_Voice_III measure 20 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
-    c'8                                                                        %! animales.downbeat_attack
+    c'8                                                                        %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -516,10 +516,10 @@ C_Horn_Voice_III = {                                                           %
 
 C_Horn_Staff_I = <<                                                            %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_I"                                            %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
     \C_Horn_Voice_I                                                            %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_III"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_III"                                          %! animales.ScoreTemplate._make_staves()
     \C_Horn_Voice_III                                                          %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -595,12 +595,12 @@ C_Horn_Voice_II_a = {                                                          %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Horn_Voice_II measure 20 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    df'!8                                                                      %! animales.downbeat_attack
+    df'!8                                                                      %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -702,12 +702,12 @@ C_Horn_Voice_IV_a = {                                                          %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Horn_Voice_IV measure 20 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    b8                                                                         %! animales.downbeat_attack
+    b8                                                                         %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -780,10 +780,10 @@ C_Horn_Voice_IV = {                                                            %
 
 C_Horn_Staff_II = <<                                                           %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_II"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_II"                                           %! animales.ScoreTemplate._make_staves()
     \C_Horn_Voice_II                                                           %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_IV"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_IV"                                           %! animales.ScoreTemplate._make_staves()
     \C_Horn_Voice_IV                                                           %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -859,12 +859,12 @@ C_Trumpet_Voice_I_a = {                                                        %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trumpet_Voice_I measure 20 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
-    d''8                                                                       %! animales.downbeat_attack
+    d''8                                                                       %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -966,12 +966,12 @@ C_Trumpet_Voice_III_a = {                                                      %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trumpet_Voice_III measure 20 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
-    g'8                                                                        %! animales.downbeat_attack
+    g'8                                                                        %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1044,10 +1044,10 @@ C_Trumpet_Voice_III = {                                                        %
 
 C_Trumpet_Staff_I = <<                                                         %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_I"                                         %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_I"                                         %! animales.ScoreTemplate._make_staves()
     \C_Trumpet_Voice_I                                                         %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_III"                                       %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_III"                                       %! animales.ScoreTemplate._make_staves()
     \C_Trumpet_Voice_III                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1123,12 +1123,12 @@ C_Trumpet_Voice_II_a = {                                                       %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trumpet_Voice_II measure 20 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
-    af'!8                                                                      %! animales.downbeat_attack
+    af'!8                                                                      %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1230,12 +1230,12 @@ C_Trumpet_Voice_IV_a = {                                                       %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trumpet_Voice_IV measure 20 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
-    f'8                                                                        %! animales.downbeat_attack
+    f'8                                                                        %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1308,10 +1308,10 @@ C_Trumpet_Voice_IV = {                                                         %
 
 C_Trumpet_Staff_II = <<                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_II"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_II"                                        %! animales.ScoreTemplate._make_staves()
     \C_Trumpet_Voice_II                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_IV"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_IV"                                        %! animales.ScoreTemplate._make_staves()
     \C_Trumpet_Voice_IV                                                        %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1387,12 +1387,12 @@ C_Trombone_Voice_I_a = {                                                       %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trombone_Voice_I measure 20 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
-    g'8                                                                        %! animales.downbeat_attack
+    g'8                                                                        %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1494,12 +1494,12 @@ C_Trombone_Voice_III_a = {                                                     %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trombone_Voice_III measure 20 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c'8                                                                        %! animales.downbeat_attack
+    c'8                                                                        %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1572,10 +1572,10 @@ C_Trombone_Voice_III = {                                                       %
 
 C_Trombone_Staff_I = <<                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_I"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_I"                                        %! animales.ScoreTemplate._make_staves()
     \C_Trombone_Voice_I                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_III"                                      %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_III"                                      %! animales.ScoreTemplate._make_staves()
     \C_Trombone_Voice_III                                                      %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1651,12 +1651,12 @@ C_Trombone_Voice_II_a = {                                                      %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trombone_Voice_II measure 20 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
-    df'!8                                                                      %! animales.downbeat_attack
+    df'!8                                                                      %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1758,12 +1758,12 @@ C_Trombone_Voice_IV_a = {                                                      %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Trombone_Voice_IV measure 20 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
-    b8                                                                         %! animales.downbeat_attack
+    b8                                                                         %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1836,10 +1836,10 @@ C_Trombone_Voice_IV = {                                                        %
 
 C_Trombone_Staff_II = <<                                                       %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_II"                                       %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_II"                                       %! animales.ScoreTemplate._make_staves()
     \C_Trombone_Voice_II                                                       %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_IV"                                       %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_IV"                                       %! animales.ScoreTemplate._make_staves()
     \C_Trombone_Voice_IV                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1902,12 +1902,12 @@ C_Tuba_Voice_I_a = {                                                           %
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
     % [C Tuba_Voice_I measure 20 / measure 3]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    c,8                                                                        %! animales.downbeat_attack
+    c,8                                                                        %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-sffz                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \marcato                                                                 %! baca.marcato():baca.IndicatorCommand._call()
 
-    r2..                                                                       %! animales.downbeat_attack
+    r2..                                                                       %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1980,7 +1980,7 @@ C_Tuba_Voice_I = {                                                             %
 
 C_Tuba_Staff_I = {                                                             %! abjad.Path.extern()
 
-    \context Voice = "Tuba_Voice_I"                                            %! animales.ScoreTemplate._make_staves
+    \context Voice = "Tuba_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
     \C_Tuba_Voice_I                                                            %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2128,7 +2128,7 @@ C_Percussion_Voice_I = {                                                       %
 
 C_Percussion_Staff_I = {                                                       %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_I"                                      %! animales.ScoreTemplate._make_staves
+    \context Voice = "Percussion_Voice_I"                                      %! animales.ScoreTemplate._make_staves()
     \C_Percussion_Voice_I                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2276,7 +2276,7 @@ C_Percussion_Voice_II = {                                                      %
 
 C_Percussion_Staff_II = {                                                      %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves
+    \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves()
     \C_Percussion_Voice_II                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2287,7 +2287,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     % [C First_Violin_Voice_II measure 20 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up():baca.OverrideCommand._call(1)
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    c''2                                                                       %! animales.glissando_rhythm
+    c''2                                                                       %! animales.glissando_rhythm()
 %%% \stopTrillSpan                                                             %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
@@ -2297,19 +2297,19 @@ C_First_Violin_Voice_II_a = {                                                  %
     \<                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
     \glissando                                                                 %! baca.glissando()
 
-    b'8                                                                        %! animales.glissando_rhythm
+    b'8                                                                        %! animales.glissando_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    g''8                                                                       %! animales.glissando_rhythm
+    g''8                                                                       %! animales.glissando_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    a'4                                                                        %! animales.glissando_rhythm
+    a'4                                                                        %! animales.glissando_rhythm()
     \glissando                                                                 %! baca.glissando()
 
     % [C First_Violin_Voice_II measure 21 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''8                                                                      %! animales.glissando_rhythm
+    d'''8                                                                      %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
@@ -2322,31 +2322,31 @@ C_First_Violin_Voice_II_a = {                                                  %
     c'''2
     \glissando                                                                 %! baca.glissando()
 
-    d''8                                                                       %! animales.glissando_rhythm
+    d''8                                                                       %! animales.glissando_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    g'''8                                                                      %! animales.glissando_rhythm
+    g'''8                                                                      %! animales.glissando_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
     % [C First_Violin_Voice_II measure 22 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    c'''8                                                                      %! animales.glissando_rhythm
+    c'''8                                                                      %! animales.glissando_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    f'''8                                                                      %! animales.glissando_rhythm
+    f'''8                                                                      %! animales.glissando_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    g''2                                                                       %! animales.glissando_rhythm
+    g''2                                                                       %! animales.glissando_rhythm()
     \glissando                                                                 %! baca.glissando()
 
-    b'''8                                                                      %! animales.glissando_rhythm
+    b'''8                                                                      %! animales.glissando_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \glissando                                                                 %! baca.glissando()
 
-    d'''8                                                                      %! animales.glissando_rhythm
+    d'''8                                                                      %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2355,13 +2355,13 @@ C_First_Violin_Voice_II_a = {                                                  %
     \glissando                                                                 %! baca.glissando()
 
     % [C First_Violin_Voice_II measure 23 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-    a'''4                                                                      %! animales.glissando_rhythm
+    a'''4                                                                      %! animales.glissando_rhythm()
     \glissando                                                                 %! baca.glissando()
 
-    c'''8                                                                      %! animales.glissando_rhythm
+    c'''8                                                                      %! animales.glissando_rhythm()
     ~                                                                          %! baca.tie():baca.IndicatorCommand._call()
 
-    c'''4.                                                                     %! animales.glissando_rhythm
+    c'''4.                                                                     %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
     \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up():baca.OverrideCommand._call(2)
@@ -2462,7 +2462,7 @@ C_First_Violin_Voice_I_a = {                                                   %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-10)”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2482,10 +2482,10 @@ C_First_Violin_Voice_I_a = {                                                   %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [C First_Violin_Voice_I measure 19 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
-    df'!4                                                                      %! animales.sforzando_exchange_rhythm
+    df'!4                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
-    df'!2.                                                                     %! animales.sforzando_exchange_rhythm
+    df'!2.                                                                     %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -2566,10 +2566,10 @@ C_First_Violin_Voice_I = {                                                     %
 
 C_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves()
     \C_First_Violin_Voice_II                                                   %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves()
     \C_First_Violin_Voice_I                                                    %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -2605,7 +2605,7 @@ C_First_Violin_Voice_III_a = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (11-18)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2625,10 +2625,10 @@ C_First_Violin_Voice_III_a = {                                                 %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [C First_Violin_Voice_III measure 19 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    df'!2                                                                      %! animales.sforzando_exchange_rhythm
+    df'!2                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
-    df'!2                                                                      %! animales.sforzando_exchange_rhythm
+    df'!2                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -2691,7 +2691,7 @@ C_First_Violin_Voice_III = {                                                   %
 
 C_First_Violin_Staff_II = {                                                    %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_III"                                  %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_III"                                  %! animales.ScoreTemplate._make_staves()
     \C_First_Violin_Voice_III                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2727,7 +2727,7 @@ C_Second_Violin_Voice_I_a = {                                                  %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-10)”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2747,10 +2747,10 @@ C_Second_Violin_Voice_I_a = {                                                  %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [C Second_Violin_Voice_I measure 19 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    df'!2..                                                                    %! animales.sforzando_exchange_rhythm
+    df'!2..                                                                    %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
-    df'!8                                                                      %! animales.sforzando_exchange_rhythm
+    df'!8                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -2813,7 +2813,7 @@ C_Second_Violin_Voice_I = {                                                    %
 
 C_Second_Violin_Staff_I = {                                                    %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves()
     \C_Second_Violin_Voice_I                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2849,7 +2849,7 @@ C_Second_Violin_Voice_III_a = {                                                %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (11-18)”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2869,7 +2869,7 @@ C_Second_Violin_Voice_III_a = {                                                %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [C Second_Violin_Voice_III measure 19 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -2932,7 +2932,7 @@ C_Second_Violin_Voice_III = {                                                  %
 
 C_Second_Violin_Staff_II = {                                                   %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_III"                                 %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_III"                                 %! animales.ScoreTemplate._make_staves()
     \C_Second_Violin_Voice_III                                                 %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2968,7 +2968,7 @@ C_Viola_Voice_I_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!4.                                                                     %! animales.sforzando_exchange_rhythm
+    df'!4.                                                                     %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-10)”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2987,14 +2987,14 @@ C_Viola_Voice_I_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    df'!8                                                                      %! animales.sforzando_exchange_rhythm
+    df'!8                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    df'!2                                                                      %! animales.sforzando_exchange_rhythm
+    df'!2                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
     % [C Viola_Voice_I measure 19 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -3059,7 +3059,7 @@ C_Viola_Voice_I = {                                                            %
 
 C_Viola_Staff_I = {                                                            %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \C_Viola_Voice_I                                                           %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3095,7 +3095,7 @@ C_Viola_Voice_III_a = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!2                                                                      %! animales.sforzando_exchange_rhythm
+    df'!2                                                                      %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vle. (11-18)”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -3114,11 +3114,11 @@ C_Viola_Voice_III_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    df'!2                                                                      %! animales.sforzando_exchange_rhythm
+    df'!2                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [C Viola_Voice_III measure 19 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -3183,7 +3183,7 @@ C_Viola_Voice_III = {                                                          %
 
 C_Viola_Staff_II = {                                                           %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_III"                                         %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_III"                                         %! animales.ScoreTemplate._make_staves()
     \C_Viola_Voice_III                                                         %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3211,7 +3211,7 @@ C_Cello_Voice_I_a = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    df'!1                                                                      %! animales.sforzando_exchange_rhythm
+    df'!1                                                                      %! animales.sforzando_exchange_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sub-but-accents-continue-sffz                                      %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -3227,10 +3227,10 @@ C_Cello_Voice_I_a = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [C Cello_Voice_I measure 19 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    df'!8                                                                      %! animales.sforzando_exchange_rhythm
+    df'!8                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
-    df'!2..                                                                    %! animales.sforzando_exchange_rhythm
+    df'!2..                                                                    %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -3293,7 +3293,7 @@ C_Cello_Voice_I = {                                                            %
 
 C_Cello_Staff_I = {                                                            %! abjad.Path.extern()
 
-    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \C_Cello_Voice_I                                                           %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3415,7 +3415,7 @@ C_Contrabass_Voice_III = {                                                     %
 
 C_Contrabass_Staff_II = {                                                      %! abjad.Path.extern()
 
-    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
     \C_Contrabass_Voice_III                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()

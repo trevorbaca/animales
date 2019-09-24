@@ -261,7 +261,7 @@ Q_Horn_Voice_I_a = {                                                           %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    d'8                                                                        %! animales.downbeat_attack
+    d'8                                                                        %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -279,9 +279,9 @@ Q_Horn_Voice_I_a = {                                                           %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -401,13 +401,13 @@ Q_Horn_Voice_III_a = {                                                         %
     % [Q Horn_Voice_III measure 119 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    ef'!8                                                                      %! animales.downbeat_attack
+    ef'!8                                                                      %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -524,10 +524,10 @@ Q_Horn_Voice_III = {                                                           %
 
 Q_Horn_Staff_I = <<                                                            %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_I"                                            %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
     \Q_Horn_Voice_I                                                            %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_III"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_III"                                          %! animales.ScoreTemplate._make_staves()
     \Q_Horn_Voice_III                                                          %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -564,7 +564,7 @@ Q_Horn_Voice_II_a = {                                                          %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    d'8                                                                        %! animales.downbeat_attack
+    d'8                                                                        %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -582,9 +582,9 @@ Q_Horn_Voice_II_a = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -704,13 +704,13 @@ Q_Horn_Voice_IV_a = {                                                          %
     % [Q Horn_Voice_IV measure 119 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    ef'!8                                                                      %! animales.downbeat_attack
+    ef'!8                                                                      %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -827,10 +827,10 @@ Q_Horn_Voice_IV = {                                                            %
 
 Q_Horn_Staff_II = <<                                                           %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_II"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_II"                                           %! animales.ScoreTemplate._make_staves()
     \Q_Horn_Voice_II                                                           %! abjad.Path.extern()
 
-    \context Voice = "Horn_Voice_IV"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Horn_Voice_IV"                                           %! animales.ScoreTemplate._make_staves()
     \Q_Horn_Voice_IV                                                           %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -867,7 +867,7 @@ Q_Trumpet_Voice_I_a = {                                                        %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    af'!8                                                                      %! animales.downbeat_attack
+    af'!8                                                                      %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -885,9 +885,9 @@ Q_Trumpet_Voice_I_a = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1007,13 +1007,13 @@ Q_Trumpet_Voice_III_a = {                                                      %
     % [Q Trumpet_Voice_III measure 119 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    f'8                                                                        %! animales.downbeat_attack
+    f'8                                                                        %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1130,10 +1130,10 @@ Q_Trumpet_Voice_III = {                                                        %
 
 Q_Trumpet_Staff_I = <<                                                         %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_I"                                         %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_I"                                         %! animales.ScoreTemplate._make_staves()
     \Q_Trumpet_Voice_I                                                         %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_III"                                       %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_III"                                       %! animales.ScoreTemplate._make_staves()
     \Q_Trumpet_Voice_III                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1170,7 +1170,7 @@ Q_Trumpet_Voice_II_a = {                                                       %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    af'!8                                                                      %! animales.downbeat_attack
+    af'!8                                                                      %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1188,9 +1188,9 @@ Q_Trumpet_Voice_II_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1310,13 +1310,13 @@ Q_Trumpet_Voice_IV_a = {                                                       %
     % [Q Trumpet_Voice_IV measure 119 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    f'8                                                                        %! animales.downbeat_attack
+    f'8                                                                        %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1433,10 +1433,10 @@ Q_Trumpet_Voice_IV = {                                                         %
 
 Q_Trumpet_Staff_II = <<                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_II"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_II"                                        %! animales.ScoreTemplate._make_staves()
     \Q_Trumpet_Voice_II                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trumpet_Voice_IV"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trumpet_Voice_IV"                                        %! animales.ScoreTemplate._make_staves()
     \Q_Trumpet_Voice_IV                                                        %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1473,7 +1473,7 @@ Q_Trombone_Voice_I_a = {                                                       %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    af!8                                                                       %! animales.downbeat_attack
+    af!8                                                                       %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1491,9 +1491,9 @@ Q_Trombone_Voice_I_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1613,13 +1613,13 @@ Q_Trombone_Voice_III_a = {                                                     %
     % [Q Trombone_Voice_III measure 119 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    f8                                                                         %! animales.downbeat_attack
+    f8                                                                         %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1736,10 +1736,10 @@ Q_Trombone_Voice_III = {                                                       %
 
 Q_Trombone_Staff_I = <<                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_I"                                        %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_I"                                        %! animales.ScoreTemplate._make_staves()
     \Q_Trombone_Voice_I                                                        %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_III"                                      %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_III"                                      %! animales.ScoreTemplate._make_staves()
     \Q_Trombone_Voice_III                                                      %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1776,7 +1776,7 @@ Q_Trombone_Voice_II_a = {                                                      %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-    gf!8                                                                       %! animales.downbeat_attack
+    gf!8                                                                       %! animales.downbeat_attack()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():+PARTS:baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1794,9 +1794,9 @@ Q_Trombone_Voice_II_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1916,13 +1916,13 @@ Q_Trombone_Voice_IV_a = {                                                      %
     % [Q Trombone_Voice_IV measure 119 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    f8                                                                         %! animales.downbeat_attack
+    f8                                                                         %! animales.downbeat_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
 
-    r8                                                                         %! animales.downbeat_attack
+    r8                                                                         %! animales.downbeat_attack()
 
-    r2                                                                         %! animales.downbeat_attack
+    r2                                                                         %! animales.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2039,10 +2039,10 @@ Q_Trombone_Voice_IV = {                                                        %
 
 Q_Trombone_Staff_II = <<                                                       %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_II"                                       %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_II"                                       %! animales.ScoreTemplate._make_staves()
     \Q_Trombone_Voice_II                                                       %! abjad.Path.extern()
 
-    \context Voice = "Trombone_Voice_IV"                                       %! animales.ScoreTemplate._make_staves
+    \context Voice = "Trombone_Voice_IV"                                       %! animales.ScoreTemplate._make_staves()
     \Q_Trombone_Voice_IV                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -2526,10 +2526,10 @@ Q_First_Violin_Voice_II = {                                                    %
 
 Q_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves()
     \Q_First_Violin_Voice_I                                                    %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves()
     \Q_First_Violin_Voice_II                                                   %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -3013,10 +3013,10 @@ Q_First_Violin_Voice_IV = {                                                    %
 
 Q_First_Violin_Staff_II = <<                                                   %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_III"                                  %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_III"                                  %! animales.ScoreTemplate._make_staves()
     \Q_First_Violin_Voice_III                                                  %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_IV"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_IV"                                   %! animales.ScoreTemplate._make_staves()
     \Q_First_Violin_Voice_IV                                                   %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -3211,7 +3211,7 @@ Q_First_Violin_Voice_V = {                                                     %
 
 Q_First_Violin_Staff_III = {                                                   %! abjad.Path.extern()
 
-    \context Voice = "First_Violin_Voice_V"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "First_Violin_Voice_V"                                    %! animales.ScoreTemplate._make_staves()
     \Q_First_Violin_Voice_V                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3699,10 +3699,10 @@ Q_Second_Violin_Voice_II = {                                                   %
 
 Q_Second_Violin_Staff_I = <<                                                   %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves()
     \Q_Second_Violin_Voice_I                                                   %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_II"                                  %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_II"                                  %! animales.ScoreTemplate._make_staves()
     \Q_Second_Violin_Voice_II                                                  %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -4186,10 +4186,10 @@ Q_Second_Violin_Voice_IV = {                                                   %
 
 Q_Second_Violin_Staff_II = <<                                                  %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_III"                                 %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_III"                                 %! animales.ScoreTemplate._make_staves()
     \Q_Second_Violin_Voice_III                                                 %! abjad.Path.extern()
 
-    \context Voice = "Second_Violin_Voice_IV"                                  %! animales.ScoreTemplate._make_staves
+    \context Voice = "Second_Violin_Voice_IV"                                  %! animales.ScoreTemplate._make_staves()
     \Q_Second_Violin_Voice_IV                                                  %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -4673,10 +4673,10 @@ Q_Viola_Voice_II = {                                                           %
 
 Q_Viola_Staff_I = <<                                                           %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \Q_Viola_Voice_I                                                           %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_II"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_II"                                          %! animales.ScoreTemplate._make_staves()
     \Q_Viola_Voice_II                                                          %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -5160,10 +5160,10 @@ Q_Viola_Voice_IV = {                                                           %
 
 Q_Viola_Staff_II = <<                                                          %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_III"                                         %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_III"                                         %! animales.ScoreTemplate._make_staves()
     \Q_Viola_Voice_III                                                         %! abjad.Path.extern()
 
-    \context Voice = "Viola_Voice_IV"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Viola_Voice_IV"                                          %! animales.ScoreTemplate._make_staves()
     \Q_Viola_Voice_IV                                                          %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -5651,10 +5651,10 @@ Q_Cello_Voice_II = {                                                           %
 
 Q_Cello_Staff_I = <<                                                           %! abjad.Path.extern()
 
-    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \Q_Cello_Voice_I                                                           %! abjad.Path.extern()
 
-    \context Voice = "Cello_Voice_II"                                          %! animales.ScoreTemplate._make_staves
+    \context Voice = "Cello_Voice_II"                                          %! animales.ScoreTemplate._make_staves()
     \Q_Cello_Voice_II                                                          %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -5900,7 +5900,7 @@ Q_Contrabass_Voice_III = {                                                     %
 
 Q_Contrabass_Staff_II = {                                                      %! abjad.Path.extern()
 
-    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves
+    \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
     \Q_Contrabass_Voice_III                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()

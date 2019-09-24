@@ -68,11 +68,11 @@ maker(
         ).extra_offset,
     ),
     baca.tag(
-        "+TABLOID_SCORE",
+        abjad.Tag("+TABLOID_SCORE"),
         baca.text_spanner_left_padding(3),
     ),
     baca.tag(
-        "+TABLOID_SCORE",
+        abjad.Tag("+TABLOID_SCORE"),
         baca.text_spanner_y_offset(8),
     ),
 )

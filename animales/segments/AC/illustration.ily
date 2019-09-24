@@ -338,7 +338,7 @@ AC_Piano_Voice_I = {                                                           %
 
 AC_Piano_Staff_I = {                                                           %! abjad.Path.extern()
 
-    \context Voice = "Piano_Voice_I"                                           %! animales.ScoreTemplate._make_staves
+    \context Voice = "Piano_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
     \AC_Piano_Voice_I                                                          %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -569,7 +569,7 @@ AC_Percussion_Voice_IV = {                                                     %
 
 AC_Percussion_Staff_IV = {                                                     %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_IV"                                     %! animales.ScoreTemplate._make_staves
+    \context Voice = "Percussion_Voice_IV"                                     %! animales.ScoreTemplate._make_staves()
     \AC_Percussion_Voice_IV                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()

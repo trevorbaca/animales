@@ -101,7 +101,7 @@ for voice in (
     maker(
         (voice, 1),
         baca.tag(
-            "+TABLOID_SCORE",
+            abjad.Tag("+TABLOID_SCORE"),
             baca.literal(r"\magnifyStaff #10/7"),
         )
     )
