@@ -2285,7 +2285,7 @@ C_Percussion_Staff_II = {                                                      %
 C_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern()
 
     % [C First_Violin_Voice_II measure 20 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \override DynamicLineSpanner.direction = #up                               %! -PARTS:baca.dls_up():baca.OverrideCommand._call(1)
+    \override DynamicLineSpanner.direction = #up                               %! baca.dls_up():-PARTS:baca.OverrideCommand._call(1)
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     c''2                                                                       %! animales.glissando_rhythm()
 %%% \stopTrillSpan                                                             %! baca.literal():+PARTS:baca.IndicatorCommand._call()
@@ -2364,7 +2364,7 @@ C_First_Violin_Voice_II_a = {                                                  %
     c'''4.                                                                     %! animales.glissando_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
-    \revert DynamicLineSpanner.direction                                       %! -PARTS:baca.dls_up():baca.OverrideCommand._call(2)
+    \revert DynamicLineSpanner.direction                                       %! baca.dls_up():-PARTS:baca.OverrideCommand._call(2)
 
 }                                                                              %! abjad.Path.extern()
 

@@ -27,8 +27,8 @@ J_Global_Rests = {                                                             %
 J_Global_Skips = {                                                             %! abjad.Path.extern()
 
     % [J Global_Skips measure 62 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
-%%% \override TextSpanner.bound-details.left.padding = #2                      %! +TABLOID_SCORE:baca.text_spanner_left_padding():baca.OverrideCommand._call(1)
-%%% \override TextSpanner.Y-offset = #8                                        %! +TABLOID_SCORE:baca.text_spanner_y_offset():baca.OverrideCommand._call(1)
+%%% \override TextSpanner.bound-details.left.padding = #2                      %! baca.text_spanner_left_padding():+TABLOID_SCORE:baca.OverrideCommand._call(1)
+%%% \override TextSpanner.Y-offset = #8                                        %! baca.text_spanner_y_offset():+TABLOID_SCORE:baca.OverrideCommand._call(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(1):baca.SegmentMaker._make_global_skips(2)
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -131,8 +131,8 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% - \baca-start-ct-both "[2'17'']" "[2'19'']"                                %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
-%%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca.text_spanner_left_padding():baca.OverrideCommand._call(2)
-%%% \revert TextSpanner.Y-offset                                               %! +TABLOID_SCORE:baca.text_spanner_y_offset():baca.OverrideCommand._call(2)
+%%% \revert TextSpanner.bound-details.left.padding                             %! baca.text_spanner_left_padding():+TABLOID_SCORE:baca.OverrideCommand._call(2)
+%%% \revert TextSpanner.Y-offset                                               %! baca.text_spanner_y_offset():+TABLOID_SCORE:baca.OverrideCommand._call(2)
     \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
     \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
