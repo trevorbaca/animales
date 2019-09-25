@@ -27,7 +27,7 @@ H_Global_Rests = {                                                             %
 H_Global_Skips = {                                                             %! abjad.Path.extern()
 
     % [H Global_Skips measure 50 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
-%%% \override TextSpanner.bound-details.left.padding = #-8                     %! +TABLOID_SCORE:baca.text_spanner_left_padding():baca.OverrideCommand._call(1)
+%%% \override TextSpanner.bound-details.left.padding = #-8                     %! baca.text_spanner_left_padding():+TABLOID_SCORE:baca.OverrideCommand._call(1)
     \time 4/4                                                                  %! REAPPLIED_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(1):baca.SegmentMaker._make_global_skips(2)
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -109,7 +109,7 @@ H_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% - \baca-start-ct-both "[1'53'']" "[1'55'']"                                %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
-%%% \revert TextSpanner.bound-details.left.padding                             %! +TABLOID_SCORE:baca.text_spanner_left_padding():baca.OverrideCommand._call(2)
+%%% \revert TextSpanner.bound-details.left.padding                             %! baca.text_spanner_left_padding():+TABLOID_SCORE:baca.OverrideCommand._call(2)
     \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
     \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
@@ -199,7 +199,7 @@ H_Clarinet_Voice_I_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
             % [H Clarinet_Rest_Voice_I measure 53 / measure 4]                 %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)     %! +SCORE:baca.mmrest_text_extra_offset():baca.OverrideCommand._call(1)
+        %%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)     %! baca.mmrest_text_extra_offset():+SCORE:baca.OverrideCommand._call(1)
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container()
             ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
                 \override                                                      %! baca.markup():baca.IndicatorCommand._call()
