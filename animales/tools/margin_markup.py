@@ -17,6 +17,6 @@ def margin_markup(
     command = baca.margin_markup(
         margin_markup, alert=alert, context=context, selector=selector
     )
-    command = baca.not_parts(command)
-    command = baca.tag(abjad.Tag("ANIMALES"), command)
-    return command
+    command_ = baca.not_parts(command)
+    command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
+    return command_

@@ -70,7 +70,7 @@ maker(
         baca.skip(1 - 1),
         abjad.tweak(
             (0, 6),
-            tag="+TABLOID_SCORE",
+            tag=abjad.Tag("+TABLOID_SCORE"),
         ).extra_offset,
     ),
 )
