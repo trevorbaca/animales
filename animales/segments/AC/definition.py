@@ -40,6 +40,7 @@ maker(
             tag=abjad.Tag("+TABLOID_SCORE"),
         ).extra_offset,
     ),
+    baca.bar_line("|.", baca.skip(-1)),
 )
 
 maker(

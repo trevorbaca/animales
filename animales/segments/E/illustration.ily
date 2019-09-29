@@ -135,8 +135,6 @@ E_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 %%% \revert TextSpanner.bound-details.left.padding                             %! baca.text_spanner_left_padding():+TABLOID_SCORE:baca.OverrideCommand._call(2)
 %%% \revert TextSpanner.Y-offset                                               %! baca.text_spanner_y_offset():+TABLOID_SCORE:baca.OverrideCommand._call(2)
-    \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
-    \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
     % [E Global_Skips measure 36 / measure 7]                                  %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
     \time 1/4                                                                  %! baca.SegmentMaker._make_global_skips(3):PHANTOM:baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._style_phantom_measures(1)
