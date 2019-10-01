@@ -3453,9 +3453,9 @@ C_Contrabass_Voice_III_a = {                                                   %
     % [C Contrabass_Voice_III measure 20 / measure 3]                          %! baca.SegmentMaker._comment_measure_numbers()
     c1                                                                         %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):right_broken:SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN:SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):right_broken:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [C Contrabass_Voice_III measure 21 / measure 4]                          %! baca.SegmentMaker._comment_measure_numbers()
     c1                                                                         %! baca.make_repeat_tied_notes()
