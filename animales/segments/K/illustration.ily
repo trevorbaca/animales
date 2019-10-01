@@ -365,8 +365,8 @@ K_Horn_Voice_I_a = {                                                           %
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
     \dynamicUp                                                                 %! baca.dynamic_up():-PARTS:baca.IndicatorCommand._call()
     \voiceOne                                                                  %! baca.voice_one():-PARTS:baca.IndicatorCommand._call()
-%%% fs'!8                                                                      %! +PARTS:AccidentalAdjustmentCommand
-    fs'!8                                                                      %! -PARTS:AccidentalAdjustmentCommand %! animales.downbeat_attack() %@%
+%%% fs'!8                                                                      %! +PARTS:baca.AccidentalAdjustmentCommand._call()
+    fs'!8                                                                      %! -PARTS:baca.AccidentalAdjustmentCommand._call() %! animales.downbeat_attack() %@%
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \sfz                                                                       %! baca.dynamic():+PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -1227,8 +1227,8 @@ K_Trumpet_Voice_IV_a = {                                                       %
     \once \override NoteColumn.force-hshift = #1.0                             %! baca.note_column_shift():-PARTS:baca.OverrideCommand._call(1)
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-%%% g'8                                                                        %! +PARTS:AccidentalAdjustmentCommand
-    g'!8                                                                       %! -PARTS:AccidentalAdjustmentCommand %! animales.downbeat_attack() %@%
+%%% g'8                                                                        %! +PARTS:baca.AccidentalAdjustmentCommand._call()
+    g'!8                                                                       %! -PARTS:baca.AccidentalAdjustmentCommand._call() %! animales.downbeat_attack() %@%
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
@@ -1727,8 +1727,8 @@ K_Trombone_Voice_IV_a = {                                                      %
     \once \override NoteColumn.force-hshift = #1.0                             %! baca.note_column_shift():-PARTS:baca.OverrideCommand._call(1)
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-%%% g8                                                                         %! +PARTS:AccidentalAdjustmentCommand
-    g!8                                                                        %! -PARTS:AccidentalAdjustmentCommand %! animales.downbeat_attack() %@%
+%%% g8                                                                         %! +PARTS:baca.AccidentalAdjustmentCommand._call()
+    g!8                                                                        %! -PARTS:baca.AccidentalAdjustmentCommand._call() %! animales.downbeat_attack() %@%
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
