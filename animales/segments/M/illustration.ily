@@ -182,7 +182,7 @@ M_Flute_Voice_I_a = {                                                          %
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! baca.hairpin():+PARTS:baca.PiecewiseCommand._call(2):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
-        (                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(1)
+        (                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
         af''!8                                                                 %! animales.pennant_rhythm()
 
@@ -244,7 +244,7 @@ M_Flute_Voice_I_a = {                                                          %
         c'''8                                                                  %! animales.pennant_rhythm()
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \ff                                                                    %! baca.hairpin():+PARTS:baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        )                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+        )                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.pennant_rhythm()
@@ -333,7 +333,7 @@ M_Flute_Voice_III_a = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
-    (                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(1)
+    (                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
     fs''!16                                                                    %! animales.pennant_rhythm()
 
@@ -408,7 +408,7 @@ M_Flute_Voice_III_a = {                                                        %
         bf''!8                                                                 %! animales.pennant_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        )                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+        )                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! animales.pennant_rhythm()
@@ -549,7 +549,7 @@ M_Flute_Voice_II_a = {                                                         %
     %%% - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
     %%% \<                                                                     %! baca.hairpin():+PARTS:baca.PiecewiseCommand._call(2):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
-        (                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(1)
+        (                                                                      %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
         e''8                                                                   %! animales.pennant_rhythm()
 
@@ -636,7 +636,7 @@ M_Flute_Voice_II_a = {                                                         %
     af''!16                                                                    %! animales.pennant_rhythm()
 %%% - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1):+PARTS
 %%% \ff                                                                        %! baca.hairpin():+PARTS:baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    )                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    )                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -721,7 +721,7 @@ M_Flute_Voice_IV_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
-    (                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(1)
+    (                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
     ef''!16                                                                    %! animales.pennant_rhythm()
 
@@ -820,7 +820,7 @@ M_Flute_Voice_IV_a = {                                                         %
     bf''!16                                                                    %! animales.pennant_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    )                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    )                                                                          %! baca.slur():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -2004,7 +2004,7 @@ M_First_Violin_Voice_I_a = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
-    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     g2.                                                                        %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Vni. I”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2016,7 +2016,7 @@ M_First_Violin_Voice_I_a = {                                                   %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
-    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2048,7 +2048,7 @@ M_First_Violin_Voice_I_a = {                                                   %
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             b'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
-            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
@@ -2151,7 +2151,7 @@ M_Second_Violin_Voice_I_a = {                                                  %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
-    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     g2.                                                                        %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Vni. II”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2163,7 +2163,7 @@ M_Second_Violin_Voice_I_a = {                                                  %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
-    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2195,7 +2195,7 @@ M_Second_Violin_Voice_I_a = {                                                  %
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             b'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
-            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
@@ -2295,7 +2295,7 @@ M_Viola_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
-    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     g2.                                                                        %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Vle.”]"                              %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2307,7 +2307,7 @@ M_Viola_Voice_I_a = {                                                          %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
-    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2339,7 +2339,7 @@ M_Viola_Voice_I_a = {                                                          %
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
-            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
@@ -2439,7 +2439,7 @@ M_Cello_Voice_I_a = {                                                          %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
-    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \pitchedTrill                                                              %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     g2.                                                                        %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
@@ -2451,7 +2451,7 @@ M_Cello_Voice_I_a = {                                                          %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
-    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan af                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -2483,7 +2483,7 @@ M_Cello_Voice_I_a = {                                                          %
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             d1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
-            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
