@@ -307,7 +307,7 @@ J_Horn_Voice_I_a = {                                                           %
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Horn”)"                              %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ~
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -467,7 +467,7 @@ J_Horn_Voice_III_a = {                                                         %
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     f'4.                                                                       %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     ef'!8                                                                      %! animales.brass_manifest_rhythm()
     ~
@@ -607,7 +607,7 @@ J_Horn_Voice_II_a = {                                                          %
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Horn”)"                              %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -753,7 +753,7 @@ J_Horn_Voice_IV_a = {                                                          %
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     f'2.                                                                       %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     ef'!4                                                                      %! animales.brass_manifest_rhythm()
     ~
@@ -906,7 +906,7 @@ J_Trumpet_Voice_I_a = {                                                        %
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"                           %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -1048,7 +1048,7 @@ J_Trumpet_Voice_III_a = {                                                      %
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     g'2                                                                        %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ~
 
     g'8                                                                        %! animales.brass_manifest_rhythm()
@@ -1238,7 +1238,7 @@ J_Trumpet_Voice_II_a = {                                                       %
 
     af'!8                                                                      %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ~
 
     af'!2                                                                      %! animales.brass_manifest_rhythm()
@@ -1344,7 +1344,7 @@ J_Trumpet_Voice_IV_a = {                                                       %
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     a'4                                                                        %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     g'2.                                                                       %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1480,7 +1480,7 @@ J_Trombone_Voice_I_a = {                                                       %
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"                          %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -1614,7 +1614,7 @@ J_Trombone_Voice_III_a = {                                                     %
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     g2                                                                         %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ~
 
     g8                                                                         %! animales.brass_manifest_rhythm()
@@ -1781,7 +1781,7 @@ J_Trombone_Voice_II_a = {                                                      %
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"                          %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
@@ -1907,7 +1907,7 @@ J_Trombone_Voice_IV_a = {                                                      %
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
     g8                                                                         %! animales.brass_manifest_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS:LEFT_BROKEN:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     r8                                                                         %! animales.brass_manifest_rhythm()
 
