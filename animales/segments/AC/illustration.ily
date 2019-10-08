@@ -216,7 +216,7 @@ AC_Piano_Voice_I_a = {                                                         %
     cs'!2.                                                                     %! baca.make_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
@@ -242,35 +242,35 @@ AC_Piano_Voice_I_a = {                                                         %
 
     % [AC Piano_Voice_I measure 166 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!2.                                                                     %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 167 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!1                                                                      %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 168 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!1                                                                      %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 169 / measure 5]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!1                                                                      %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 170 / measure 6]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!2.                                                                     %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 171 / measure 7]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!2.                                                                     %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 172 / measure 8]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!1                                                                      %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     % [AC Piano_Voice_I measure 173 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
     cs'!1                                                                      %! baca.make_notes()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 %%% \revert TextScript.X-offset                                                %! baca.text_script_x_offset():+PARTS:baca.OverrideCommand._call(2)
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP

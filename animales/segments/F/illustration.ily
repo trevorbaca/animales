@@ -395,7 +395,7 @@ F_Piano_Voice_I_a = {                                                          %
         d''8                                                                   %! animales.harp_exchange_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
         ^ \markup {                                                            %! baca.markup():baca.IndicatorCommand._call()
             \override                                                          %! baca.markup():baca.IndicatorCommand._call()
@@ -419,7 +419,7 @@ F_Piano_Voice_I_a = {                                                          %
         r4                                                                     %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
     }                                                                          %! animales.harp_exchange_rhythm()
@@ -439,7 +439,7 @@ F_Piano_Voice_I_a = {                                                          %
 
         % [F Piano_Voice_I measure 43 / measure 8]                             %! baca.SegmentMaker._comment_measure_numbers()
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -536,7 +536,7 @@ F_Harp_Voice_I_a = {                                                           %
         d''8                                                                   %! animales.harp_exchange_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
         ^ \markup {                                                            %! baca.markup():-PARTS:baca.IndicatorCommand._call()
             \override                                                          %! baca.markup():-PARTS:baca.IndicatorCommand._call()
@@ -568,7 +568,7 @@ F_Harp_Voice_I_a = {                                                           %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -589,7 +589,7 @@ F_Harp_Voice_I_a = {                                                           %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -958,7 +958,7 @@ F_Percussion_Voice_III_a = {                                                   %
         d''8                                                                   %! animales.harp_exchange_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         ^ \markup {                                                            %! baca.markup():baca.IndicatorCommand._call()
             \override                                                          %! baca.markup():baca.IndicatorCommand._call()
                 #'(box-padding . 0.5)                                          %! baca.markup():baca.IndicatorCommand._call()
@@ -993,7 +993,7 @@ F_Percussion_Voice_III_a = {                                                   %
 
         % [F Percussion_Voice_III measure 38 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1010,7 +1010,7 @@ F_Percussion_Voice_III_a = {                                                   %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1613,7 +1613,7 @@ F_Contrabass_Voice_I_a = {                                                     %
         d''8                                                                   %! animales.harp_exchange_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         ^ \markup { "8th partial / D (harmonics at sounding pitch)" }          %! baca.markup():baca.IndicatorCommand._call()
         ^ \markup { pizz. }                                                    %! baca.markup():baca.IndicatorCommand._call()
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
@@ -1630,7 +1630,7 @@ F_Contrabass_Voice_I_a = {                                                     %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1648,7 +1648,7 @@ F_Contrabass_Voice_I_a = {                                                     %
 
         % [F Contrabass_Voice_I measure 41 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
         d''8                                                                   %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         \revert NoteHead.style                                                 %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
 
         r4                                                                     %! animales.harp_exchange_rhythm()
