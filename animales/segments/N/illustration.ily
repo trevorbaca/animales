@@ -1230,7 +1230,7 @@ N_Piano_Voice_I_a = {                                                          %
         r8                                                                     %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r8                                                                     %! animales.harp_exchange_rhythm()
@@ -1253,7 +1253,7 @@ N_Piano_Voice_I_a = {                                                          %
         r8                                                                     %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r8                                                                     %! animales.harp_exchange_rhythm()
@@ -1389,7 +1389,7 @@ N_Harp_Voice_I_a = {                                                           %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -1408,7 +1408,7 @@ N_Harp_Voice_I_a = {                                                           %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -1877,7 +1877,7 @@ N_Percussion_Voice_III_a = {                                                   %
     \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1892,7 +1892,7 @@ N_Percussion_Voice_III_a = {                                                   %
 
         % [N Percussion_Voice_III measure 92 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 
@@ -2812,7 +2812,7 @@ N_Contrabass_Voice_I_a = {                                                     %
         r8                                                                     %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
         r8                                                                     %! animales.harp_exchange_rhythm()
 
@@ -2829,7 +2829,7 @@ N_Contrabass_Voice_I_a = {                                                     %
         r4                                                                     %! animales.harp_exchange_rhythm()
 
         bf'!8                                                                  %! animales.harp_exchange_rhythm()
-        - \laissezVibrer                                                       %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+        \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
 
     }                                                                          %! animales.harp_exchange_rhythm()
 
