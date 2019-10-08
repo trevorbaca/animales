@@ -81,14 +81,14 @@ maker(
     (strings, (1, 3)),
     baca.dynamic("f-sub-but-accents-continue-sffz", selector=baca.pleaf(0)),
     baca.pitch("E4"),
-    baca.trill_spanner("F4"),
+    baca.trill_spanner(alteration="F4"),
 )
 
 maker(
     (strings, (4, 5)),
     baca.dynamic("p-sub-but-accents-continue-sffz", selector=baca.pleaf(0)),
     baca.pitch("Eb4"),
-    baca.trill_spanner("E4", right_broken=True),
+    baca.trill_spanner(alteration="E4", right_broken=True),
 )
     
 raised_trill = [
