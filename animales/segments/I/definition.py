@@ -287,7 +287,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.hairpin("pp <", right_broken=True),
     baca.pitch("A3"),
-    baca.trill_spanner("Ab3", right_broken=True),
+    baca.trill_spanner(alteration="Ab3", right_broken=True),
 )
 
 maker(

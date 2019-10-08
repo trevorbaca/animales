@@ -149,7 +149,7 @@ maker(
     baca.accent(selector=baca.pheads()[1:]),
     baca.dynamic("f-but-accents-sffz", selector=baca.pleaf(0)),
     baca.pitch("B3"),
-    baca.trill_spanner("C4", right_broken=True),
+    baca.trill_spanner(alteration="C4", right_broken=True),
 )
 
 # contrabasses

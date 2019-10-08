@@ -208,7 +208,7 @@ maker(
     baca.accent(selector=baca.pheads()[1:]),
     baca.dynamic("f-sub-but-accents-continue-sffz", selector=baca.pleaf(0)),
     baca.pitch("Db4"),
-    baca.trill_spanner("Eb4"),
+    baca.trill_spanner(alteration="Eb4"),
 )
 
 raised_trill = [
