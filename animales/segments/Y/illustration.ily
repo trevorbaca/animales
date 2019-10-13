@@ -7939,7 +7939,7 @@ Y_Contrabass_Voice_III_a = {                                                   %
     % [Y Contrabass_Voice_III measure 154 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     cs!1                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()

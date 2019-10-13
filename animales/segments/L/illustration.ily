@@ -223,7 +223,7 @@ L_Clarinet_Voice_I_a = {                                                       %
     % [L Clarinet_Voice_I measure 81 / measure 6]                              %! baca.SegmentMaker._comment_measure_numbers()
     f''2.                                                                      %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
@@ -357,7 +357,7 @@ L_Bass_Clarinet_Voice_I_a = {                                                  %
     % [L Bass_Clarinet_Voice_I measure 81 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
     bf!2.                                                                      %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
@@ -1144,7 +1144,7 @@ L_First_Violin_Voice_I_a = {                                                   %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     a4                                                                         %! baca.make_repeated_duration_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
@@ -1287,7 +1287,7 @@ L_Second_Violin_Voice_I_a = {                                                  %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     a4                                                                         %! baca.make_repeated_duration_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
@@ -1430,7 +1430,7 @@ L_Viola_Voice_I_a = {                                                          %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     a4                                                                         %! baca.make_repeated_duration_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
@@ -1573,7 +1573,7 @@ L_Cello_Voice_I_a = {                                                          %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     a4                                                                         %! baca.make_repeated_duration_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
@@ -1857,7 +1857,7 @@ L_Contrabass_Voice_III_a = {                                                   %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     g,4                                                                        %! baca.make_repeated_duration_notes()
-    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):HIDE_TO_JOIN_BROKEN_SPANNERS
+    \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
 }                                                                              %! abjad.Path.extern()
