@@ -137,7 +137,7 @@ AB_Percussion_Voice_I_a = {                                                    %
     \repeatTie                                                                 %! baca.repeat_tie():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT
+    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -173,10 +173,10 @@ AB_Percussion_Voice_I_a = {                                                    %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Percussion_Voice_I measure 164 / measure 4]                  %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -313,10 +313,10 @@ AB_First_Violin_Voice_I_a = {                                                  %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_I measure 164 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -411,10 +411,10 @@ AB_First_Violin_Voice_II_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_II measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -562,10 +562,10 @@ AB_First_Violin_Voice_III_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_III measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -665,10 +665,10 @@ AB_First_Violin_Voice_IV_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_IV measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -806,10 +806,10 @@ AB_First_Violin_Voice_V_a = {                                                  %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_V measure 164 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -907,10 +907,10 @@ AB_First_Violin_Voice_VI_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_VI measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1044,10 +1044,10 @@ AB_First_Violin_Voice_VII_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_VII measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1147,10 +1147,10 @@ AB_First_Violin_Voice_VIII_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_VIII measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1276,10 +1276,10 @@ AB_First_Violin_Voice_IX_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_IX measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1381,10 +1381,10 @@ AB_First_Violin_Voice_X_a = {                                                  %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_X measure 164 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1520,10 +1520,10 @@ AB_First_Violin_Voice_XI_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XI measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1621,10 +1621,10 @@ AB_First_Violin_Voice_XII_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XII measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1766,10 +1766,10 @@ AB_First_Violin_Voice_XIII_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XIII measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -1863,10 +1863,10 @@ AB_First_Violin_Voice_XIV_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XIV measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2004,10 +2004,10 @@ AB_First_Violin_Voice_XV_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XV measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2113,10 +2113,10 @@ AB_First_Violin_Voice_XVI_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XVI measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2248,10 +2248,10 @@ AB_First_Violin_Voice_XVII_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XVII measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2350,10 +2350,10 @@ AB_First_Violin_Voice_XVIII_a = {                                              %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB First_Violin_Voice_XVIII measure 164 / measure 4]            %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2487,10 +2487,10 @@ AB_Second_Violin_Voice_I_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_I measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2593,10 +2593,10 @@ AB_Second_Violin_Voice_II_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_II measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2738,10 +2738,10 @@ AB_Second_Violin_Voice_III_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_III measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2849,10 +2849,10 @@ AB_Second_Violin_Voice_IV_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_IV measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -2986,10 +2986,10 @@ AB_Second_Violin_Voice_V_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_V measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3081,10 +3081,10 @@ AB_Second_Violin_Voice_VI_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_VI measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3234,10 +3234,10 @@ AB_Second_Violin_Voice_VII_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_VII measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3335,10 +3335,10 @@ AB_Second_Violin_Voice_VIII_a = {                                              %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_VIII measure 164 / measure 4]            %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3468,10 +3468,10 @@ AB_Second_Violin_Voice_IX_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_IX measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3573,10 +3573,10 @@ AB_Second_Violin_Voice_X_a = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_X measure 164 / measure 4]               %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3704,10 +3704,10 @@ AB_Second_Violin_Voice_XI_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XI measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3817,10 +3817,10 @@ AB_Second_Violin_Voice_XII_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XII measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -3954,10 +3954,10 @@ AB_Second_Violin_Voice_XIII_a = {                                              %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XIII measure 164 / measure 4]            %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4057,10 +4057,10 @@ AB_Second_Violin_Voice_XIV_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XIV measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4194,10 +4194,10 @@ AB_Second_Violin_Voice_XV_a = {                                                %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XV measure 164 / measure 4]              %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4295,10 +4295,10 @@ AB_Second_Violin_Voice_XVI_a = {                                               %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XVI measure 164 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4434,10 +4434,10 @@ AB_Second_Violin_Voice_XVII_a = {                                              %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XVII measure 164 / measure 4]            %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4528,10 +4528,10 @@ AB_Second_Violin_Voice_XVIII_a = {                                             %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Second_Violin_Voice_XVIII measure 164 / measure 4]           %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4671,10 +4671,10 @@ AB_Viola_Voice_I_a = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_I measure 164 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4777,10 +4777,10 @@ AB_Viola_Voice_II_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_II measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -4916,10 +4916,10 @@ AB_Viola_Voice_III_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_III measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5027,10 +5027,10 @@ AB_Viola_Voice_IV_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_IV measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5160,10 +5160,10 @@ AB_Viola_Voice_V_a = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_V measure 164 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5265,10 +5265,10 @@ AB_Viola_Voice_VI_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_VI measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5410,10 +5410,10 @@ AB_Viola_Voice_VII_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_VII measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5509,10 +5509,10 @@ AB_Viola_Voice_VIII_a = {                                                      %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_VIII measure 164 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5646,10 +5646,10 @@ AB_Viola_Voice_IX_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_IX measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5745,10 +5745,10 @@ AB_Viola_Voice_X_a = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_X measure 164 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5884,10 +5884,10 @@ AB_Viola_Voice_XI_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XI measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -5991,10 +5991,10 @@ AB_Viola_Voice_XII_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XII measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6136,10 +6136,10 @@ AB_Viola_Voice_XIII_a = {                                                      %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XIII measure 164 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6237,10 +6237,10 @@ AB_Viola_Voice_XIV_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XIV measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6368,10 +6368,10 @@ AB_Viola_Voice_XV_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XV measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6485,10 +6485,10 @@ AB_Viola_Voice_XVI_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XVI measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6622,10 +6622,10 @@ AB_Viola_Voice_XVII_a = {                                                      %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XVII measure 164 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6720,10 +6720,10 @@ AB_Viola_Voice_XVIII_a = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Viola_Voice_XVIII measure 164 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6863,10 +6863,10 @@ AB_Cello_Voice_I_a = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_I measure 164 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -6961,10 +6961,10 @@ AB_Cello_Voice_II_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_II measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7110,10 +7110,10 @@ AB_Cello_Voice_III_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_III measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7211,10 +7211,10 @@ AB_Cello_Voice_IV_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_IV measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7350,10 +7350,10 @@ AB_Cello_Voice_V_a = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_V measure 164 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7451,10 +7451,10 @@ AB_Cello_Voice_VI_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_VI measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7588,10 +7588,10 @@ AB_Cello_Voice_VII_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_VII measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7691,10 +7691,10 @@ AB_Cello_Voice_VIII_a = {                                                      %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_VIII measure 164 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7820,10 +7820,10 @@ AB_Cello_Voice_IX_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_IX measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -7925,10 +7925,10 @@ AB_Cello_Voice_X_a = {                                                         %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_X measure 164 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -8064,10 +8064,10 @@ AB_Cello_Voice_XI_a = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_XI measure 164 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -8165,10 +8165,10 @@ AB_Cello_Voice_XII_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_XII measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -8310,10 +8310,10 @@ AB_Cello_Voice_XIII_a = {                                                      %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_XIII measure 164 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
@@ -8408,10 +8408,10 @@ AB_Cello_Voice_XIV_a = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
             % [AB Cello_Voice_XIV measure 164 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
-        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
+        %%% \once \override Score.MultiMeasureRest.transparent = ##t           %! baca.literal():+PARTS:baca.IndicatorCommand._call()
+        %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
