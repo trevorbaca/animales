@@ -454,6 +454,8 @@ i_First_Violin_Voice_I_a = {                                                   %
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (1-10)”]"                      %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     \startTrillSpan b'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
@@ -473,10 +475,14 @@ i_First_Violin_Voice_I_a = {                                                   %
 
     a'2                                                                        %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_I measure 3]                                       %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_I measure 4]                                       %! baca.SegmentMaker._comment_measure_numbers()
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
@@ -490,9 +496,11 @@ i_First_Violin_Voice_I_a = {                                                   %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \startTrillSpan a'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_I measure 6]                                       %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! animales.sforzando_exchange_rhythm()
+    af'1                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -596,10 +604,14 @@ i_First_Violin_Voice_III_a = {                                                 %
 
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_III measure 2]                                     %! baca.SegmentMaker._comment_measure_numbers()
     a'2                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
 
@@ -608,15 +620,21 @@ i_First_Violin_Voice_III_a = {                                                 %
 
         a'4                                                                    %! animales.sforzando_exchange_rhythm()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
+        - \tweak stencil ##f                                                   %! baca.SegmentMaker._attach_shadow_tie_indicators()
+        ~                                                                      %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     }                                                                          %! animales.sforzando_exchange_rhythm()
 
     a'4                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_III measure 3]                                     %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_III measure 4]                                     %! baca.SegmentMaker._comment_measure_numbers()
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
@@ -632,9 +650,11 @@ i_First_Violin_Voice_III_a = {                                                 %
 
     af'!2                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ First_Violin_Voice_III measure 6]                                     %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! animales.sforzando_exchange_rhythm()
+    af'1                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -723,6 +743,8 @@ i_Second_Violin_Voice_I_a = {                                                  %
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (1-10)”]"                     %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     \startTrillSpan b'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
@@ -741,10 +763,14 @@ i_Second_Violin_Voice_I_a = {                                                  %
 
     a'4.                                                                       %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_I measure 2]                                      %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_I measure 3]                                      %! baca.SegmentMaker._comment_measure_numbers()
     a'8                                                                        %! animales.sforzando_exchange_rhythm()
@@ -752,6 +778,8 @@ i_Second_Violin_Voice_I_a = {                                                  %
 
     a'2..                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_I measure 4]                                      %! baca.SegmentMaker._comment_measure_numbers()
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
@@ -764,17 +792,21 @@ i_Second_Violin_Voice_I_a = {                                                  %
     \baca-p-sub-but-accents-continue-sffz                                      %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \startTrillSpan a'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    af'!8                                                                      %! animales.sforzando_exchange_rhythm()
+    af'8                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     af'!8                                                                      %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_I measure 6]                                      %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! animales.sforzando_exchange_rhythm()
+    af'1                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -863,6 +895,8 @@ i_Second_Violin_Voice_III_a = {                                                %
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (11-18)”]"                    %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     \startTrillSpan b'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
@@ -883,15 +917,21 @@ i_Second_Violin_Voice_III_a = {                                                %
 
         a'8                                                                    %! animales.sforzando_exchange_rhythm()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
+        - \tweak stencil ##f                                                   %! baca.SegmentMaker._attach_shadow_tie_indicators()
+        ~                                                                      %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     }                                                                          %! animales.sforzando_exchange_rhythm()
 
     a'4                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_III measure 2]                                    %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_III measure 3]                                    %! baca.SegmentMaker._comment_measure_numbers()
     a'4                                                                        %! animales.sforzando_exchange_rhythm()
@@ -899,6 +939,8 @@ i_Second_Violin_Voice_III_a = {                                                %
 
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Second_Violin_Voice_III measure 4]                                    %! baca.SegmentMaker._comment_measure_numbers()
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
@@ -911,19 +953,23 @@ i_Second_Violin_Voice_III_a = {                                                %
     \baca-p-sub-but-accents-continue-sffz                                      %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \startTrillSpan a'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
 
         % [_ Second_Violin_Voice_III measure 6]                                %! baca.SegmentMaker._comment_measure_numbers()
-        af'!8                                                                  %! animales.sforzando_exchange_rhythm()
+        af'8                                                                   %! animales.sforzando_exchange_rhythm()
         \repeatTie
 
         af'!4                                                                  %! animales.sforzando_exchange_rhythm()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
+        - \tweak stencil ##f                                                   %! baca.SegmentMaker._attach_shadow_tie_indicators()
+        ~                                                                      %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     }                                                                          %! animales.sforzando_exchange_rhythm()
 
-    af'!2.                                                                     %! animales.sforzando_exchange_rhythm()
+    af'2.                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
@@ -1027,10 +1073,14 @@ i_Viola_Voice_I_a = {                                                          %
 
     a'4                                                                        %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Viola_Voice_I measure 2]                                              %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Viola_Voice_I measure 3]                                              %! baca.SegmentMaker._comment_measure_numbers()
     a'2..                                                                      %! animales.sforzando_exchange_rhythm()
@@ -1038,6 +1088,8 @@ i_Viola_Voice_I_a = {                                                          %
 
     a'8                                                                        %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Viola_Voice_I measure 4]                                              %! baca.SegmentMaker._comment_measure_numbers()
     a'2.                                                                       %! animales.sforzando_exchange_rhythm()
@@ -1050,12 +1102,16 @@ i_Viola_Voice_I_a = {                                                          %
     \baca-p-sub-but-accents-continue-sffz                                      %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \startTrillSpan a'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Viola_Voice_I measure 6]                                              %! baca.SegmentMaker._comment_measure_numbers()
-    af'!2                                                                      %! animales.sforzando_exchange_rhythm()
+    af'2                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    af'!8                                                                      %! animales.sforzando_exchange_rhythm()
+    af'8                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
     af'!4.                                                                     %! animales.sforzando_exchange_rhythm()
@@ -1163,6 +1219,8 @@ i_Viola_Voice_III_a = {                                                        %
     % [_ Viola_Voice_III measure 2]                                            %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Viola_Voice_III measure 3]                                            %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
@@ -1179,9 +1237,11 @@ i_Viola_Voice_III_a = {                                                        %
     \baca-p-sub-but-accents-continue-sffz                                      %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \startTrillSpan a'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Viola_Voice_III measure 6]                                            %! baca.SegmentMaker._comment_measure_numbers()
-    af'!2.                                                                     %! animales.sforzando_exchange_rhythm()
+    af'2.                                                                      %! animales.sforzando_exchange_rhythm()
     \repeatTie
 
     af'!4                                                                      %! animales.sforzando_exchange_rhythm()
@@ -1267,6 +1327,8 @@ i_Cello_Voice_I_a = {                                                          %
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Vc.”]"                                 %! DEFAULT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     \startTrillSpan b'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
     \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -1282,17 +1344,25 @@ i_Cello_Voice_I_a = {                                                          %
 
     a'8                                                                        %! animales.sforzando_exchange_rhythm()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     a'2                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Cello_Voice_I measure 3]                                              %! baca.SegmentMaker._comment_measure_numbers()
     a'1                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Cello_Voice_I measure 4]                                              %! baca.SegmentMaker._comment_measure_numbers()
     a'2                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     a'8                                                                        %! animales.sforzando_exchange_rhythm()
     \repeatTie
@@ -1309,9 +1379,11 @@ i_Cello_Voice_I_a = {                                                          %
     \baca-p-sub-but-accents-continue-sffz                                      %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \startTrillSpan a'                                                         %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [_ Cello_Voice_I measure 6]                                              %! baca.SegmentMaker._comment_measure_numbers()
-    af'!1                                                                      %! animales.sforzando_exchange_rhythm()
+    af'1                                                                       %! animales.sforzando_exchange_rhythm()
     \repeatTie
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
