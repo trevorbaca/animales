@@ -22,10 +22,10 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context()
 
                 \context GlobalRests = "Global_Rests"                          %! abjad.ScoreTemplate._make_global_context()
-                \AC_Global_Rests                                               %! abjad.Path.extern()
+                \CC_Global_Rests                                               %! abjad.Path.extern()
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context()
-                \AC_Global_Skips                                               %! abjad.Path.extern()
+                \CC_Global_Skips                                               %! abjad.Path.extern()
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context()
 
@@ -36,7 +36,7 @@
                 <<
 
                     \context Staff = "Piano_Staff_I"                           %! animales.ScoreTemplate._make_staves()
-                    \AC_Piano_Staff_I                                          %! abjad.Path.extern()
+                    \CC_Piano_Staff_I                                          %! abjad.Path.extern()
 
                 >>
 
@@ -44,7 +44,7 @@
                 <<                                                             %! baca.ScoreTemplate.make_staff_group()
 
                     \context Staff = "Percussion_Staff_IV"                     %! animales.ScoreTemplate._make_staves()
-                    \AC_Percussion_Staff_IV                                    %! abjad.Path.extern()
+                    \CC_Percussion_Staff_IV                                    %! abjad.Path.extern()
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group()
 

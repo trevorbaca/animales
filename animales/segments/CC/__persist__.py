@@ -26,7 +26,7 @@ persist = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'AC_Percussion_Voice_IV_a',
+                        'CC_Percussion_Voice_IV_a',
                         (
                             abjad.PartAssignment('Percussion', 4),
                             abjad.Timespan(
@@ -36,7 +36,7 @@ persist = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'AC_Piano_Voice_I_a',
+                        'CC_Piano_Voice_I_a',
                         (
                             abjad.PartAssignment('Piano'),
                             abjad.Timespan(
