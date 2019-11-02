@@ -59,7 +59,7 @@ C_Global_Skips = {                                                             %
     % [C Global_Skips measure 20 / measure 3]                                  %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
 %%% - \tweak extra-offset #'(0 . -2)                                           %! +SCORE
-    - \baca-rehearsal-mark-markup "C"                                          %! baca.rehearsal_mark():baca.IndicatorCommand._call()
+    - \baca-rehearsal-mark-markup "C" #10                                      %! baca.rehearsal_mark():baca.IndicatorCommand._call()
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
