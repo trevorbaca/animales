@@ -8,7 +8,6 @@ from animales.materials import margin_markups
 from animales.ScoreTemplate import ScoreTemplate
 
 
-
 def assign_brass_sforzando_parts(
     maker: baca.SegmentMaker, omit_tuba: bool = False
 ) -> None:
@@ -106,7 +105,7 @@ def assign_trill_parts(
             command = parts(section, members)
         maker(voice, command)
 
-        
+
 def attach_grand_pause_fermatas(
     maker: baca.SegmentMaker, *, measure: int = -1
 ) -> None:
