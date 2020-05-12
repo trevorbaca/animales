@@ -1,8 +1,9 @@
 import abjad
-import animales
 import baca
 import roman
 import typing
+from animales.materials import instruments
+from animales.materials import margin_markups
 
 
 class ScoreTemplate(baca.ScoreTemplate):
@@ -377,127 +378,127 @@ class ScoreTemplate(baca.ScoreTemplate):
         flute_staves = self._make_staves(
             "Flute",
             self.flutes,
-            animales.instruments["Flute"],
-            animales.margin_markups["Fl."],
+            instruments["Flute"],
+            margin_markups["Fl."],
             abjad.Clef("treble"),
         )
         oboe_staves = self._make_staves(
             "Oboe",
             self.oboes,
-            animales.instruments["Oboe"],
-            animales.margin_markups["Ob."],
+            instruments["Oboe"],
+            margin_markups["Ob."],
             abjad.Clef("treble"),
         )
         english_horn_staves = self._make_staves(
             "English_Horn",
             self.english_horn,
-            animales.instruments["EnglishHorn"],
-            animales.margin_markups["Eng. hn."],
+            instruments["EnglishHorn"],
+            margin_markups["Eng. hn."],
             abjad.Clef("treble"),
         )
         clarinet_staves = self._make_staves(
             "Clarinet",
             self.clarinets,
-            animales.instruments["Clarinet"],
-            animales.margin_markups["Cl."],
+            instruments["Clarinet"],
+            margin_markups["Cl."],
             abjad.Clef("treble"),
         )
         bass_clarinet_staves = self._make_staves(
             "Bass_Clarinet",
             self.bass_clarinet,
-            animales.instruments["BassClarinet"],
-            animales.margin_markups["B. cl."],
+            instruments["BassClarinet"],
+            margin_markups["B. cl."],
             abjad.Clef("treble"),
         )
         bassoon_staves = self._make_staves(
             "Bassoon",
             self.bassoons,
-            animales.instruments["Bassoon"],
-            animales.margin_markups["Bsn."],
+            instruments["Bassoon"],
+            margin_markups["Bsn."],
             abjad.Clef("bass"),
         )
         horn_staves = self._make_staves(
             "Horn",
             self.horns,
-            animales.instruments["Horn"],
-            animales.margin_markups["Hn."],
+            instruments["Horn"],
+            margin_markups["Hn."],
             abjad.Clef("bass"),
         )
         trumpet_staves = self._make_staves(
             "Trumpet",
             self.trumpets,
-            animales.instruments["Trumpet"],
-            animales.margin_markups["Tp."],
+            instruments["Trumpet"],
+            margin_markups["Tp."],
             abjad.Clef("treble"),
         )
         trombone_staves = self._make_staves(
             "Trombone",
             self.trombones,
-            animales.instruments["Trombone"],
-            animales.margin_markups["Trb."],
+            instruments["Trombone"],
+            margin_markups["Trb."],
             abjad.Clef("tenor"),
         )
         tuba_staves = self._make_staves(
             "Tuba",
             self.tuba,
-            animales.instruments["Tuba"],
-            animales.margin_markups["Tub."],
+            instruments["Tuba"],
+            margin_markups["Tub."],
             abjad.Clef("bass"),
         )
         harp_staves = self._make_staves(
             "Harp",
             self.harp,
-            animales.instruments["Harp"],
-            animales.margin_markups["Hp."],
+            instruments["Harp"],
+            margin_markups["Hp."],
             abjad.Clef("treble"),
         )
         piano_staves = self._make_staves(
             "Piano",
             self.piano,
-            animales.instruments["Piano"],
-            animales.margin_markups["Pf."],
+            instruments["Piano"],
+            margin_markups["Pf."],
             abjad.Clef("treble"),
         )
         percussion_staves = self._make_staves(
             "Percussion",
             self.percussion,
-            animales.instruments["Percussion"],
-            animales.margin_markups["Perc."],
+            instruments["Percussion"],
+            margin_markups["Perc."],
             abjad.Clef("percussion"),
         )
         first_violin_staves = self._make_staves(
             "First_Violin",
             self.first_violins,
-            animales.instruments["Violin"],
-            animales.margin_markups["Vni. I"],
+            instruments["Violin"],
+            margin_markups["Vni. I"],
             abjad.Clef("treble"),
         )
         second_violin_staves = self._make_staves(
             "Second_Violin",
             self.second_violins,
-            animales.instruments["Violin"],
-            animales.margin_markups["Vni. II"],
+            instruments["Violin"],
+            margin_markups["Vni. II"],
             abjad.Clef("treble"),
         )
         viola_staves = self._make_staves(
             "Viola",
             self.violas,
-            animales.instruments["Viola"],
-            animales.margin_markups["Vle."],
+            instruments["Viola"],
+            margin_markups["Vle."],
             abjad.Clef("alto"),
         )
         cello_staves = self._make_staves(
             "Cello",
             self.cellos,
-            animales.instruments["Cello"],
-            animales.margin_markups["Vc."],
+            instruments["Cello"],
+            margin_markups["Vc."],
             abjad.Clef("bass"),
         )
         contrabass_staves = self._make_staves(
             "Contrabass",
             self.contrabasses,
-            animales.instruments["Contrabass"],
-            animales.margin_markups["Cb."],
+            instruments["Contrabass"],
+            margin_markups["Cb."],
             abjad.Clef("bass"),
         )
         music_context = self.make_music_context(
@@ -652,34 +653,34 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         dictionary = abjad.OrderedDict(
             [
-                ("Flute", [animales.instruments["Flute"]]),
-                ("Oboe", [animales.instruments["Oboe"]]),
-                ("English_Horn", [animales.instruments["EnglishHorn"]]),
-                ("Clarinet", [animales.instruments["Clarinet"]]),
-                ("Bass_Clarinet", [animales.instruments["BassClarinet"]]),
-                ("Horn", [animales.instruments["Horn"]]),
-                ("Trumpet", [animales.instruments["Trumpet"]]),
-                ("Trombone", [animales.instruments["Trombone"]]),
-                ("Tuba", [animales.instruments["Tuba"]]),
-                ("Harp", [animales.instruments["Harp"]]),
-                ("Piano", [animales.instruments["Piano"]]),
-                ("Percussion_Staff_I", [animales.instruments["Percussion"]]),
-                ("Percussion_Staff_II", [animales.instruments["Percussion"]]),
-                ("Percussion_Staff_III", [animales.instruments["Vibraphone"]]),
-                ("Percussion_Staff_IV", [animales.instruments["Percussion"]]),
-                ("First_Violin", [animales.instruments["Violin"]]),
-                ("Second_Violin", [animales.instruments["Violin"]]),
-                ("Viola", [animales.instruments["Viola"]]),
-                ("Cello", [animales.instruments["Cello"]]),
-                ("Contrabass", [animales.instruments["Contrabass"]]),
+                ("Flute", [instruments["Flute"]]),
+                ("Oboe", [instruments["Oboe"]]),
+                ("English_Horn", [instruments["EnglishHorn"]]),
+                ("Clarinet", [instruments["Clarinet"]]),
+                ("Bass_Clarinet", [instruments["BassClarinet"]]),
+                ("Horn", [instruments["Horn"]]),
+                ("Trumpet", [instruments["Trumpet"]]),
+                ("Trombone", [instruments["Trombone"]]),
+                ("Tuba", [instruments["Tuba"]]),
+                ("Harp", [instruments["Harp"]]),
+                ("Piano", [instruments["Piano"]]),
+                ("Percussion_Staff_I", [instruments["Percussion"]]),
+                ("Percussion_Staff_II", [instruments["Percussion"]]),
+                ("Percussion_Staff_III", [instruments["Vibraphone"]]),
+                ("Percussion_Staff_IV", [instruments["Percussion"]]),
+                ("First_Violin", [instruments["Violin"]]),
+                ("Second_Violin", [instruments["Violin"]]),
+                ("Viola", [instruments["Viola"]]),
+                ("Cello", [instruments["Cello"]]),
+                ("Contrabass", [instruments["Contrabass"]]),
             ]
         )
         staff_name_words = abjad.String(staff_name).delimit_words()
         for key in dictionary:
             key_words = abjad.String(key).delimit_words()
             if staff_name_words[: len(key_words)] == key_words:
-                instruments = dictionary[key]
-                if instrument in instruments:
+                instruments_ = dictionary[key]
+                if instrument in instruments_:
                     return True
                 else:
                     return False
