@@ -1,6 +1,5 @@
 import baca
 
-
 time_signatures = 10
 trill_space = 2
 

@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 pairs = baca.sequence(
     [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
 )
