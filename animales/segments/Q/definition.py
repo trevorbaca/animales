@@ -1,9 +1,9 @@
-import abjad
-import animales
-import baca
 import os
 import typing
 
+import abjad
+import animales
+import baca
 
 ###############################################################################
 ##################################### [Q] #####################################

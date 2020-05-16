@@ -1,6 +1,5 @@
 import baca
 
-
 part_identifier = 'CL-1'
 
 def make_systems(measure_numbers, between_systems=20):

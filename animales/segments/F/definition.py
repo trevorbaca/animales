@@ -1,9 +1,9 @@
+import os
+
 import abjad
 import animales
 import baca
-import os
 from abjadext import rmakers
-
 
 ###############################################################################
 ##################################### [F] #####################################

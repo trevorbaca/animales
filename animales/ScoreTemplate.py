@@ -1,9 +1,10 @@
+import typing
+
+import roman
+
 import abjad
 import baca
-import roman
-import typing
-from animales.materials import instruments
-from animales.materials import margin_markups
+from animales.materials import instruments, margin_markups
 
 
 class ScoreTemplate(baca.ScoreTemplate):

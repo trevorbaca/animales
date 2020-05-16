@@ -1,6 +1,5 @@
 import baca
 
-
 part_identifier = 'VA-10'
 
 def make_systems(measure_numbers, between_systems=20, after_global_context=0):
