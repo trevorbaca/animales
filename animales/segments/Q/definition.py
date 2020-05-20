@@ -212,7 +212,8 @@ string_parts = {
     "vc1": [(1, 8), True, "D3"],
     "vc2": [(9, 14), False, "G2"],
     "cb3": [(1, -1), None, "G1"],
-    }
+}
+
 
 def tremolo(peak="f"):
     return baca.suite(
@@ -229,6 +230,7 @@ def tremolo(peak="f"):
         ),
     )
 
+
 def upper_voice():
     return baca.suite(
         baca.only_parts(baca.text_spanner_staff_padding(5)),
@@ -238,11 +240,13 @@ def upper_voice():
         baca.not_parts(baca.voice_one()),
     )
 
+
 def lower_voice(n=5):
     return baca.suite(
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.text_spanner_staff_padding(n)),
     )
+
 
 score_template = animales.ScoreTemplate()
 for voice, items in string_parts.items():

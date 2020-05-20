@@ -226,14 +226,14 @@ warning = abjad.Markup.line([
         "(",
         "B",
         abjad.Markup.flat().scale((0.65, 0.65)).raise_(0.5),
-        ]),
+    ]),
     abjad.Markup("="),
     abjad.Markup.concat([
         "A",
         abjad.Markup.sharp().scale((0.55, 0.55)).raise_(0.8),
         ")",
-        ]),
-    ])
+    ]),
+])
 warning = warning.scale((1.25, 1.25))
 maker(
     "cb3",

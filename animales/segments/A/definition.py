@@ -87,7 +87,7 @@ maker(
     baca.pitch("F4"),
     baca.trill_spanner(alteration="Gb4", right_broken=True),
 )
-    
+
 raised_trill = [
     "1vn3",
     "2vn3",

@@ -116,7 +116,7 @@ maker(
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
-    
+
 # tam-tam
 
 maker(
@@ -134,4 +134,4 @@ animales.constellations(
     maker,
     [[1, 1, -5], [1, 1, -5], [1, -8]],
     omit_contrabasses=True,
-) 
+)
