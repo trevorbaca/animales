@@ -103,4 +103,4 @@ animales.brass_sforzando(maker, 1)
 
 # strings
 
-animales.constellations(maker, [[1, -55], [1, -17], [1, -17]]) 
+animales.constellations(maker, [[1, -55], [1, -17], [1, -17]])

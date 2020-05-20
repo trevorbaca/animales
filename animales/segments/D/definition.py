@@ -55,7 +55,7 @@ maker(
         abjad.tweak(
             (0, -2),
             tag=abjad.tags.ONLY_SCORE,
-    ).extra_offset,
+        ).extra_offset,
     ),
 )
 

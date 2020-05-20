@@ -93,7 +93,7 @@ voice_to_start_markup = {
     "vc1": [
         baca.start_markup("Cellos", hcenter_in=16),
     ],
-    }
+}
 
 for voice, commands in voice_to_start_markup.items():
     assert isinstance(commands, list)

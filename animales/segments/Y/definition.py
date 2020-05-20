@@ -88,7 +88,7 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    "Global_Skips",    
+    "Global_Skips",
     baca.rehearsal_mark(
         "Y",
         baca.skip(1 - 1),
@@ -127,7 +127,7 @@ maker(
     baca.repeat_tie(baca.pleaf(0)),
     baca.stem_tremolo(selector=baca.pleaves()),
 )
-    
+
 # tam-tam
 
 maker(
@@ -145,7 +145,7 @@ animales.constellations(
     maker,
     [[1, -55], [1, -17], [1, -17]],
     omit_contrabasses=True,
-) 
+)
 
 maker(
     "cb3",

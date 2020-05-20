@@ -111,4 +111,4 @@ animales.constellations(
     [[1, -17], [1, -17], [1, -17]],
     omit_contrabasses=True,
     range_=(1, 3),
-) 
+)

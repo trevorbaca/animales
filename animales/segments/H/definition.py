@@ -85,7 +85,7 @@ maker(
             "choke sound suddenly:",
             "touch tongue to reed",
             "exactly on downbeat",
-            ]).boxed(),
+        ]).boxed(),
         selector=baca.leaf(0),
     ),
     baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),

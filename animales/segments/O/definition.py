@@ -62,12 +62,14 @@ maker(
     ),
 )
 
+
 def swell(peak):
     return baca.hairpin(
         f"niente o< {peak} >o niente",
         pieces=baca.mgroups([2, 3, 1]),
         selector=baca.rleaves(),
     )
+
 
 # oboes
 
@@ -143,6 +145,7 @@ maker(
 
 # strings
 
+
 def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.pleaves()),
@@ -161,6 +164,7 @@ def tremolo_suite():
         baca.stem_tremolo(selector=baca.pleaves()),
     )
 
+
 def upper_voice_suite():
     return baca.suite(
         baca.only_parts(baca.text_script_extra_offset((1, 3))),
@@ -171,11 +175,13 @@ def upper_voice_suite():
         baca.not_parts(baca.voice_one()),
     )
 
+
 def lower_voice_suite(n=5):
     return baca.suite(
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.text_spanner_staff_padding(n)),
     )
+
 
 # solo violin
 
@@ -216,7 +222,7 @@ voice_to_members = {
     "vc1": (1, 8),
     "vc2": (9, 14),
     "cb3": None,
-    }
+}
 
 for voice, members in voice_to_members.items():
     section = animales.ScoreTemplate.voice_to_section(voice)
@@ -370,10 +376,10 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(baca.markup("Cb. tutti")),
     baca.pitch("G1"),
-#    baca.tag(
-#        abjad.Tag("+LETTER_PARTS_CB-1"),
-#        baca.clef("bass"),
-#    ),
-#    baca.only_segment(baca.literal(r"\clef "bass"")),
+    #    baca.tag(
+    #        abjad.Tag("+LETTER_PARTS_CB-1"),
+    #        baca.clef("bass"),
+    #    ),
+    #    baca.only_segment(baca.literal(r"\clef "bass"")),
     tremolo_suite(),
 )

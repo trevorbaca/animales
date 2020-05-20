@@ -82,4 +82,4 @@ maker(
     ),
 )
 
-animales.constellations(maker, [[1, -17], [1, -17], [1, -17]]) 
+animales.constellations(maker, [[1, -17], [1, -17], [1, -17]])
