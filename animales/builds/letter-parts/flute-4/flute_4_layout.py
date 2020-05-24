@@ -2,6 +2,7 @@ import baca
 
 part_identifier = 'FL-4'
 
+
 def make_systems(measure_numbers, between_systems=20):
     global_context_padding = 0
     systems = []
@@ -19,23 +20,24 @@ def make_systems(measure_numbers, between_systems=20):
             global_context_padding,
             measure=measure_number,
             y_offset=y_offset,
-            )
+        )
         systems.append(system)
     return systems
+
 
 breaks = baca.breaks(
     baca.page(
         *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
         number=1,
-        ),
+    ),
     baca.page(
         *make_systems([76, 82, 88, 95, 107, 119, 131, 143, 155, 167], 21),
         number=2,
-        ),
-    )
+    ),
+)
 
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 8),
-    )
+)

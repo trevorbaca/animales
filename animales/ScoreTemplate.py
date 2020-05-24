@@ -1,5 +1,3 @@
-import typing
-
 import roman
 
 import abjad
@@ -23,236 +21,69 @@ class ScoreTemplate(baca.ScoreTemplate):
         ...     cellos=[(1, [1])],
         ...     contrabasses=[(1, [1])],
         ...     )
-        >>> path = abjad.Path('animales', 'stylesheets', 'contexts.ily')
-        >>> lilypond_file = template.__illustrate__(
-        ...     global_staff_size=8,
-        ...     includes=[path],
-        ...     )
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
-
-        >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-        \context Score = "Score"                                                                 %! animales.ScoreTemplate.__call__()
-        <<                                                                                       %! animales.ScoreTemplate.__call__()
-            \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context()
-            <<                                                                                   %! abjad.ScoreTemplate._make_global_context()
-                \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context()
-                {                                                                                %! abjad.ScoreTemplate._make_global_context()
-                }                                                                                %! abjad.ScoreTemplate._make_global_context()
-                \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context()
-                {                                                                                %! abjad.ScoreTemplate._make_global_context()
-                }                                                                                %! abjad.ScoreTemplate._make_global_context()
-            >>                                                                                   %! abjad.ScoreTemplate._make_global_context()
-            \context MusicContext = "Music_Context"                                              %! baca.ScoreTemplate.make_music_context()
-            <<                                                                                   %! baca.ScoreTemplate.make_music_context()
-                \context StaffGroup = "Wind_Staff_Group"                                         %! baca.ScoreTemplate.make_staff_group()
-                <<                                                                               %! baca.ScoreTemplate.make_staff_group()
-                    \context StaffGroup = "Flute_Square_Staff_Group"                             %! baca.ScoreTemplate.make_square_staff_group()
-                    \with                                                                        %! baca.ScoreTemplate.make_square_staff_group()
-                    {                                                                            %! baca.ScoreTemplate.make_square_staff_group()
-                        systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group()
-                    }                                                                            %! baca.ScoreTemplate.make_square_staff_group()
-                    <<                                                                           %! baca.ScoreTemplate.make_square_staff_group()
-                        \context Staff = "Flute_Staff_I"                                         %! animales.ScoreTemplate._make_staves()
-                        <<                                                                       %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "Flute_Voice_I"                                     %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        Fl.                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "Flute_Voice_II"                                    %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                        >>                                                                       %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "Flute_Staff_II"                                        %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "Flute_Voice_III"                                   %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        Fl.                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                    >>                                                                           %! baca.ScoreTemplate.make_square_staff_group()
-                >>                                                                               %! baca.ScoreTemplate.make_staff_group()
-                \context StaffGroup = "String_Staff_Group"                                       %! baca.ScoreTemplate.make_staff_group()
-                <<                                                                               %! baca.ScoreTemplate.make_staff_group()
-                    \context StaffGroup = "FirstViolin_Square_Staff_Group"                       %! baca.ScoreTemplate.make_square_staff_group()
-                    \with                                                                        %! baca.ScoreTemplate.make_square_staff_group()
-                    {                                                                            %! baca.ScoreTemplate.make_square_staff_group()
-                        systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group()
-                    }                                                                            %! baca.ScoreTemplate.make_square_staff_group()
-                    <<                                                                           %! baca.ScoreTemplate.make_square_staff_group()
-                        \context Staff = "First_Violin_Staff_I"                                  %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "First_Violin_Voice_I"                              %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        "Vni. I"                                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "First_Violin_Staff_II"                                 %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "First_Violin_Voice_I"                              %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        "Vni. I"                                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                    >>                                                                           %! baca.ScoreTemplate.make_square_staff_group()
-                    \context StaffGroup = "SecondViolin_Square_Staff_Group"                      %! baca.ScoreTemplate.make_square_staff_group()
-                    \with                                                                        %! baca.ScoreTemplate.make_square_staff_group()
-                    {                                                                            %! baca.ScoreTemplate.make_square_staff_group()
-                        systemStartDelimiter = #'SystemStartSquare                               %! baca.ScoreTemplate.make_square_staff_group()
-                    }                                                                            %! baca.ScoreTemplate.make_square_staff_group()
-                    <<                                                                           %! baca.ScoreTemplate.make_square_staff_group()
-                        \context Staff = "Second_Violin_Staff_I"                                 %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "Second_Violin_Voice_I"                             %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        "Vni. II"                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "Second_Violin_Staff_II"                                %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "Second_Violin_Voice_I"                             %! animales.ScoreTemplate._make_staves()
-                            {                                                                    %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                 %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        "Vni. II"                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                    %! animales.ScoreTemplate._make_staves()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                    >>                                                                           %! baca.ScoreTemplate.make_square_staff_group()
-                    \context Staff = "Viola_Staff_I"                                             %! animales.ScoreTemplate._make_staves()
-                    {                                                                            %! animales.ScoreTemplate._make_staves()
-                        \context Voice = "Viola_Voice_I"                                         %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \set Staff.shortInstrumentName =                                     %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                            \markup {                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \hcenter-in                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    #16                                                          %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    Vle.                                                         %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                }                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                            \clef "alto"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                    }                                                                            %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Cello_Staff_I"                                             %! animales.ScoreTemplate._make_staves()
-                    {                                                                            %! animales.ScoreTemplate._make_staves()
-                        \context Voice = "Cello_Voice_I"                                         %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \set Staff.shortInstrumentName =                                     %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                            \markup {                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \hcenter-in                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    #16                                                          %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    Vc.                                                          %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                }                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                            \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                    }                                                                            %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Contrabass_Staff_I"                                        %! animales.ScoreTemplate._make_staves()
-                    {                                                                            %! animales.ScoreTemplate._make_staves()
-                        \context Voice = "Contrabass_Voice_I"                                    %! animales.ScoreTemplate._make_staves()
-                        {                                                                        %! animales.ScoreTemplate._make_staves()
-                            \set Staff.shortInstrumentName =                                     %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                            \markup {                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \hcenter-in                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    #16                                                          %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    Cb.                                                          %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                }                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                            \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                        }                                                                        %! animales.ScoreTemplate._make_staves()
-                    }                                                                            %! animales.ScoreTemplate._make_staves()
-                >>                                                                               %! baca.ScoreTemplate.make_staff_group()
-            >>                                                                                   %! baca.ScoreTemplate.make_music_context()
-        >>                                                                                       %! animales.ScoreTemplate.__call__()
-
-    ..  container:: example
-
-        REGRESSION. Bassoon staff appears correctly:
-
-        >>> template = animales.ScoreTemplate(
-        ...     bassoons=[(1, [1])],
-        ...     )
-        >>> path = abjad.Path('animales', 'stylesheets', 'contexts.ily')
-        >>> lilypond_file = template.__illustrate__(
-        ...     global_staff_size=8,
-        ...     includes=[path],
-        ...     )
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
-
-        ..  docs::
-
-            >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-            \context Score = "Score"                                                                 %! animales.ScoreTemplate.__call__()
-            <<                                                                                       %! animales.ScoreTemplate.__call__()
-                \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context()
-                <<                                                                                   %! abjad.ScoreTemplate._make_global_context()
-                    \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context()
-                    {                                                                                %! abjad.ScoreTemplate._make_global_context()
-                    }                                                                                %! abjad.ScoreTemplate._make_global_context()
-                    \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context()
-                    {                                                                                %! abjad.ScoreTemplate._make_global_context()
-                    }                                                                                %! abjad.ScoreTemplate._make_global_context()
-                >>                                                                                   %! abjad.ScoreTemplate._make_global_context()
-                \context MusicContext = "Music_Context"                                              %! baca.ScoreTemplate.make_music_context()
-                <<                                                                                   %! baca.ScoreTemplate.make_music_context()
-                    \context StaffGroup = "Wind_Staff_Group"                                         %! baca.ScoreTemplate.make_staff_group()
-                    <<                                                                               %! baca.ScoreTemplate.make_staff_group()
-                        \context Staff = "Bassoon_Staff_I"                                           %! animales.ScoreTemplate._make_staves()
-                        {                                                                            %! animales.ScoreTemplate._make_staves()
-                            \context Voice = "Bassoon_Voice_I"                                       %! animales.ScoreTemplate._make_staves()
-                            {                                                                        %! animales.ScoreTemplate._make_staves()
-                                \set Staff.shortInstrumentName =                                     %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \markup {                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    \hcenter-in                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        #16                                                          %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                        Bsn.                                                         %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                    }                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2)
-                                \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
-                                s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
-                            }                                                                        %! animales.ScoreTemplate._make_staves()
-                        }                                                                            %! animales.ScoreTemplate._make_staves()
-                    >>                                                                               %! baca.ScoreTemplate.make_staff_group()
-                >>                                                                                   %! baca.ScoreTemplate.make_music_context()
-            >>                                                                                       %! animales.ScoreTemplate.__call__()
+        >>> abjad.f(template)
+        animales.ScoreTemplate(
+            flutes=[
+                (
+                    1,
+                    [1, 2],
+                    ),
+                (
+                    2,
+                    [3],
+                    ),
+                ],
+            oboes=0,
+            english_horn=0,
+            clarinets=0,
+            bass_clarinet=0,
+            bassoons=0,
+            horns=0,
+            trumpets=0,
+            trombones=0,
+            tuba=0,
+            harp=0,
+            piano=0,
+            percussion=0,
+            first_violins=[
+                (
+                    1,
+                    [1],
+                    ),
+                (
+                    2,
+                    [1],
+                    ),
+                ],
+            second_violins=[
+                (
+                    1,
+                    [1],
+                    ),
+                (
+                    2,
+                    [1],
+                    ),
+                ],
+            violas=[
+                (
+                    1,
+                    [1],
+                    ),
+                ],
+            cellos=[
+                (
+                    1,
+                    [1],
+                    ),
+                ],
+            contrabasses=[
+                (
+                    1,
+                    [1],
+                    ),
+                ],
+            )
 
     """
 
@@ -294,6 +125,8 @@ class ScoreTemplate(baca.ScoreTemplate):
     all_music_in_part_containers = True
 
     _always_make_global_rests = True
+
+    _publish_storage_format = True
 
     ### INITIALIZER ###
 
@@ -921,7 +754,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         Gets voice abbreviations.
 
         ..  container:: example
-        
+
             >>> score_template = animales.ScoreTemplate()
             >>> abjad.f(score_template.voice_abbreviations)
             abjad.OrderedDict(

@@ -2,6 +2,7 @@ import baca
 
 part_identifier = 'PERC-1'
 
+
 def make_systems(measure_numbers, between_systems, global_context_padding):
     systems = []
     if measure_numbers[0] == 1:
@@ -18,23 +19,24 @@ def make_systems(measure_numbers, between_systems, global_context_padding):
             global_context_padding,
             measure=measure_number,
             y_offset=y_offset,
-            )
+        )
         systems.append(system)
     return systems
+
 
 breaks = baca.breaks(
     baca.page(
         *make_systems([1, 11, 20, 30, 41, 51, 61], 24, 2),
         number=1,
-        ),
+    ),
     baca.page(
         *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21, 2),
         number=2,
-        ),
-    )
+    ),
+)
 
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 8),
-    )
+)
