@@ -1,12 +1,54 @@
 import distutils.version
 import platform
 
-from animales.ScoreTemplate import ScoreTemplate
-from animales.materials.instruments.definition import instruments
-from animales.materials.margin_markups.definition import margin_markups
-from animales.materials.metronome_marks.definition import metronome_marks
-from animales.materials.time_signatures.definition import time_signatures
-from animales.tools import *
+from .ScoreTemplate import ScoreTemplate
+from .materials import instruments, margin_markups, metronome_marks, time_signatures
+from .tools import (
+    assign_brass_sforzando_parts,
+    assign_trill_parts,
+    attach_grand_pause_fermatas,
+    brass_manifest_rhythm,
+    brass_sforzando,
+    clb_rhythm,
+    constellations,
+    downbeat_attack,
+    glissando_positions,
+    glissando_rhythm,
+    harp_exchange_rhythm,
+    instrument,
+    make_trill_rhythm,
+    margin_markup,
+    parts,
+    pennant_pitches,
+    pennant_rhythm,
+    sforzando_exchange_rhythm,
+)
+
+__all__ = [
+    "ScoreTemplate",
+    "instruments",
+    "margin_markups",
+    "metronome_marks",
+    "time_signatures",
+    "assign_brass_sforzando_parts",
+    "assign_trill_parts",
+    "attach_grand_pause_fermatas",
+    "brass_manifest_rhythm",
+    "brass_sforzando",
+    "clb_rhythm",
+    "constellations",
+    "downbeat_attack",
+    "glissando_positions",
+    "glissando_rhythm",
+    "harp_exchange_rhythm",
+    "instrument",
+    "make_trill_rhythm",
+    "margin_markup",
+    "parts",
+    "pennant_pitches",
+    "pennant_rhythm",
+    "sforzando_exchange_rhythm",
+]
 
 if not (
     distutils.version.LooseVersion("3.7")
