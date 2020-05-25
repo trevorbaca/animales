@@ -5,106 +5,32 @@ import roman
 import abjad
 import baca
 from abjadext import rmakers
-from animales.ScoreTemplate import ScoreTemplate
-from animales.materials import instruments, margin_markups
 
+# metronome marks
 
-def assign_brass_sforzando_parts(
-    maker: baca.SegmentMaker, omit_tuba: bool = False
-) -> None:
-    """
-    Assigns brass sforzando parts.
-    """
+metronome_marks = abjad.OrderedDict(
+    [
+        ("48", abjad.MetronomeMark((1, 4), 48)),
+        ("60", abjad.MetronomeMark((1, 4), 60)),
+        ("76", abjad.MetronomeMark((1, 4), 76)),
+        ("84", abjad.MetronomeMark((1, 4), 84)),
+        ("96", abjad.MetronomeMark((1, 4), 96)),
+        ("114", abjad.MetronomeMark((1, 4), 114)),
+        ("120", abjad.MetronomeMark((1, 4), 120)),
+        ("132", abjad.MetronomeMark((1, 4), 132)),
+    ]
+)
 
-    maker("Horn_Voice_I", parts("Horn", 1), baca.not_parts(baca.voice_one()))
+# time signatures
 
-    maker("Horn_Voice_III", parts("Horn", 3), baca.not_parts(baca.voice_two()))
+pairs = baca.sequence(
+    [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
+)
+pairs = pairs.helianthate(-1, -1).flatten()
+pairs = [abjad.TimeSignature(_) for _ in pairs]
+time_signatures = abjad.CyclicTuple(pairs)
 
-    maker("Horn_Voice_II", parts("Horn", 2), baca.not_parts(baca.voice_one()))
-
-    maker("Horn_Voice_IV", parts("Horn", 4), baca.not_parts(baca.voice_two()))
-
-    maker(
-        "Trumpet_Voice_I",
-        parts("Trumpet", 1),
-        baca.not_parts(baca.voice_one()),
-    )
-
-    maker(
-        "Trumpet_Voice_III",
-        parts("Trumpet", 3),
-        baca.not_parts(baca.voice_two()),
-    )
-
-    maker(
-        "Trumpet_Voice_II",
-        parts("Trumpet", 2),
-        baca.not_parts(baca.voice_one()),
-    )
-
-    maker(
-        "Trumpet_Voice_IV",
-        parts("Trumpet", 4),
-        baca.not_parts(baca.voice_two()),
-    )
-
-    maker(
-        "Trombone_Voice_I",
-        parts("Trombone", 1),
-        baca.not_parts(baca.voice_one()),
-    )
-
-    maker(
-        "Trombone_Voice_III",
-        parts("Trombone", 3),
-        baca.not_parts(baca.voice_two()),
-    )
-
-    maker(
-        "Trombone_Voice_II",
-        parts("Trombone", 2),
-        baca.not_parts(baca.voice_one()),
-    )
-
-    maker(
-        "Trombone_Voice_IV",
-        parts("Trombone", 4),
-        baca.not_parts(baca.voice_two()),
-    )
-
-    if not omit_tuba:
-        maker("Tuba_Voice_I", parts("Tuba"))
-
-
-def assign_trill_parts(
-    maker: baca.SegmentMaker, *, exclude_first_violin: bool = False
-) -> None:
-    """
-    Assigns trill parts.
-    """
-
-    voice_to_members: typing.Dict[
-        str, typing.Union[str, abjad.IntegerPair]
-    ] = {
-        "First_Violin_Voice_I": (1, 10),
-        "First_Violin_Voice_III": (11, 18),
-        "Second_Violin_Voice_I": (1, 10),
-        "Second_Violin_Voice_III": (11, 18),
-        "Viola_Voice_I": (1, 10),
-        "Viola_Voice_III": (11, 18),
-        "Cello_Voice_I": "all",
-    }
-
-    for voice, members in voice_to_members.items():
-        section = ScoreTemplate.voice_to_section(voice)
-        if voice == "First_Violin_Voice_I" and exclude_first_violin:
-            command = parts(section, (2, 10))
-        elif members == "all":
-            command = parts(section)
-        else:
-            assert not isinstance(members, str)
-            command = parts(section, members)
-        maker(voice, command)
+# other functions
 
 
 def attach_grand_pause_fermatas(
@@ -206,142 +132,6 @@ def brass_sforzando(
         else:
             raise ValueError(member)
         maker((voice, range_), baca.pitch(pitch))
-
-
-def clb_rhythm(
-    section: str,
-    member: int,
-    counts: typing.Sequence[abjad.IntegerSequence],
-    wrap: int,
-):
-    """
-    Makes clb rhythm.
-    """
-
-    if section in ("First_Violin", "Second_Violin", "Viola"):
-        assert member in range(1, 18 + 1), repr(member)
-    elif section == "Cello":
-        assert member in range(1, 14 + 1), repr(member)
-    elif section == "Contrabass":
-        assert member in range(1, 6 + 1), repr(member)
-    else:
-        assert ValueError(section)
-
-    section_to_offset = {
-        "First_Violin": 0,
-        "Second_Violin": 18,
-        "Viola": 36,
-        "Cello": 54,
-        "Contrabass": 68,
-    }
-
-    total_players = 74
-    index = section_to_offset[section] + member - 1
-
-    counts_ = baca.sequence(counts)
-    counts_ = counts_.helianthate(-1, -1)
-    counts_ = counts_.flatten()
-    counts_ = counts_.repeat_to_weight(total_players * wrap)
-    shards = counts_.split([wrap], cyclic=True, overhang=abjad.Exact)
-    assert len(shards) == total_players
-    assert shards.weight() == counts_.weight()
-    counts_ = shards[index]
-
-    extra_counts = None
-    if index % 9 in [2, 3, 6, 7]:
-        extra_counts = [-1]
-
-    return baca.rhythm(
-        rmakers.talea(counts_, 16, extra_counts=extra_counts),
-        rmakers.beam(),
-        rmakers.rewrite_rest_filled(),
-        rmakers.trivialize(),
-        rmakers.force_diminution(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        preprocessor=baca.sequence().fuse().quarters(),
-        tag=abjad.Tag("animales.clb_rhythm()"),
-    )
-
-
-def constellations(
-    maker: baca.SegmentMaker,
-    counts: typing.Sequence[abjad.IntegerSequence],
-    *,
-    first: bool = False,
-    omit_contrabasses: bool = False,
-    range_: typing.Union[int, abjad.IntegerPair] = (1, -1),
-):
-    """
-    Makes constellations.
-    """
-
-    section_to_members = {
-        "First_Violin": 18,
-        "Second_Violin": 18,
-        "Viola": 18,
-        "Cello": 14,
-        "Contrabass": 6,
-    }
-
-    section_to_abbreviation = {
-        "First_Violin": "Vni. I",
-        "Second_Violin": "Vni. II",
-        "Viola": "Vle.",
-        "Cello": "Vc.",
-        "Contrabass": "Cb.",
-    }
-
-    def upper_voice():
-        return baca.suite(
-            baca.not_parts(baca.voice_one()), baca.staff_position(1)
-        )
-
-    def lower_voice():
-        return baca.suite(
-            baca.not_parts(baca.voice_two()), baca.staff_position(-1)
-        )
-
-    duration = sum([_.duration for _ in maker.time_signatures])
-    assert isinstance(duration, abjad.Duration), repr(duration)
-    wrap = duration.with_denominator(16).numerator
-    for section, members in section_to_members.items():
-        if omit_contrabasses and section == "Contrabass":
-            continue
-        for member in range(1, members + 1):
-            commands = []
-            numeral = roman.toRoman(member)
-            numeral = str(numeral).upper()
-            voice = f"{section}_Voice_{numeral}"
-            maker(voice, parts(section, member))
-            rhythm = clb_rhythm(section, member, counts, wrap)
-            commands.append(rhythm)
-            if member % 2 == 0:
-                polyphony = lower_voice()
-            else:
-                polyphony = upper_voice()
-            if first:
-                markup = baca.markups.lines(
-                    [
-                        "col legno battuti: damp G string with LH; then",
-                        "tap G string with wood of bow in rhythm indicated.",
-                    ]
-                ).boxed()
-                command: baca.CommandTyping
-                command = baca.markup(markup, selector=baca.leaf(0))
-                command = baca.only_parts(command)
-                commands.append(command)
-                command = baca.staff_lines(1)
-                commands.append(command)
-                command = baca.clef("percussion")
-                commands.append(command)
-            if first and member % 2 == 1:
-                abbreviation = section_to_abbreviation[section]
-                key = f"{abbreviation} ({member}-{member+1})"
-                margin_markup_ = margin_markup(key)
-                commands.append(margin_markup_)
-            commands.append(polyphony)
-            maker((voice, range_), *commands)
 
 
 def downbeat_attack(
@@ -501,13 +291,6 @@ def harp_exchange_rhythm(
     )
 
 
-def instrument(key) -> baca.InstrumentChangeCommand:
-    """
-    Makes instrument change command.
-    """
-    return baca.instrument(instruments[key])
-
-
 def make_trill_rhythm(
     maker: baca.SegmentMaker, measures: abjad.IntegerPair = (1, -1)
 ) -> None:
@@ -527,70 +310,6 @@ def make_trill_rhythm(
 
     for voice, part in voice_to_part.items():
         maker((voice, measures), sforzando_exchange_rhythm(part))
-
-
-def margin_markup(
-    key: str,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.SelectorTyping = baca.leaf(0),
-) -> baca.CommandTyping:
-    """
-    Makes tagged margin markup indicator command.
-    """
-    margin_markup = margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup, alert=alert, context=context, selector=selector
-    )
-    command_ = baca.not_parts(command)
-    command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
-    return command_
-
-
-def parts(
-    section: str,
-    token: typing.Union[int, typing.List[int], typing.Tuple[int, int]] = None,
-) -> baca.PartAssignmentCommand:
-    """
-    Designates parts.
-
-    >>> import animales
-
-    ..  container:: example
-
-        >>> animales.parts('Horn')
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn'), selector=baca.leaves())
-
-        >>> animales.parts('Horn', 1)
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', 1), selector=baca.leaves())
-
-        >>> animales.parts('Horn', 2)
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', 2), selector=baca.leaves())
-
-        >>> animales.parts('Horn', (3, 4))
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', (3, 4)), selector=baca.leaves())
-
-        >>> animales.parts('Horn', [1, 3])
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', [1, 3]), selector=baca.leaves())
-
-    ..  container:: example exception
-
-        Raises exception on nonexistent part:
-
-        >>> animales.parts('Horn', 5)
-        Traceback (most recent call last):
-            ...
-        Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.
-
-    """
-    part_assignment = abjad.PartAssignment(section=section, token=token)
-    if part_assignment.token is not None:
-        score_template = ScoreTemplate()
-        assert score_template.part_manifest is not None
-        for part in part_assignment:
-            if part not in score_template.part_manifest.parts:
-                raise Exception(f"no {part!r} in part manifest.")
-    return baca.parts(part_assignment)
 
 
 def pennant_pitches(
