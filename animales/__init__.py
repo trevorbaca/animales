@@ -1,27 +1,32 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
-from .materials import instruments, margin_markups, metronome_marks, time_signatures
-from .tools import (
+from .ScoreTemplate import (
+    ScoreTemplate,
     assign_brass_sforzando_parts,
     assign_trill_parts,
+    clb_rhythm,
+    constellations,
+    instrument,
+    instruments,
+    margin_markup,
+    margin_markups,
+    parts,
+)
+from .tools import (
     attach_grand_pause_fermatas,
     brass_manifest_rhythm,
     brass_sforzando,
-    clb_rhythm,
-    constellations,
     downbeat_attack,
     glissando_positions,
     glissando_rhythm,
     harp_exchange_rhythm,
-    instrument,
     make_trill_rhythm,
-    margin_markup,
-    parts,
+    metronome_marks,
     pennant_pitches,
     pennant_rhythm,
     sforzando_exchange_rhythm,
+    time_signatures,
 )
 
 __all__ = [
