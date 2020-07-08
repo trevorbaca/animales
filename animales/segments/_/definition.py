@@ -1,5 +1,3 @@
-import os
-
 import abjad
 import animales
 import baca
@@ -32,7 +30,7 @@ maker = baca.SegmentMaker(
             (1, [1]),
         ],
     ),
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    segment_directory=abjad.Path(__file__).resolve().parent,
     time_signatures=animales.time_signatures[:6],
     transpose_score=True,
     validate_measure_count=6,
