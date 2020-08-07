@@ -4,6 +4,7 @@ import roman
 
 import abjad
 import baca
+import ide
 from abjadext import rmakers
 
 # instruments
@@ -128,35 +129,35 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
-    _part_manifest = abjad.PartManifest(
-        abjad.Section(abbreviation="FL", count=4, name="Flute"),
-        abjad.Section(abbreviation="OB", count=3, name="Oboe"),
-        abjad.Part(section="English_Horn", section_abbreviation="EH"),
-        abjad.Section(abbreviation="CL", count=3, name="Clarinet"),
-        abjad.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
-        abjad.Section(abbreviation="BSN", count=2, name="Bassoon"),
-        abjad.Section(abbreviation="HN", count=4, name="Horn"),
-        abjad.Section(abbreviation="TP", count=4, name="Trumpet"),
-        abjad.Section(abbreviation="TBN", count=4, name="Trombone"),
-        abjad.Part(section="Tuba", section_abbreviation="TUB"),
-        abjad.Part(section="Harp", section_abbreviation="HP"),
-        abjad.Part(section="Piano", section_abbreviation="PF"),
-        abjad.Section(abbreviation="PERC", count=4, name="Percussion"),
-        abjad.Section(
+    _part_manifest = ide.PartManifest(
+        ide.Section(abbreviation="FL", count=4, name="Flute"),
+        ide.Section(abbreviation="OB", count=3, name="Oboe"),
+        ide.Part(section="English_Horn", section_abbreviation="EH"),
+        ide.Section(abbreviation="CL", count=3, name="Clarinet"),
+        ide.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
+        ide.Section(abbreviation="BSN", count=2, name="Bassoon"),
+        ide.Section(abbreviation="HN", count=4, name="Horn"),
+        ide.Section(abbreviation="TP", count=4, name="Trumpet"),
+        ide.Section(abbreviation="TBN", count=4, name="Trombone"),
+        ide.Part(section="Tuba", section_abbreviation="TUB"),
+        ide.Part(section="Harp", section_abbreviation="HP"),
+        ide.Part(section="Piano", section_abbreviation="PF"),
+        ide.Section(abbreviation="PERC", count=4, name="Percussion"),
+        ide.Section(
             abbreviation="VN-1",
             count=18,
             instrument="Violin",
             name="First_Violin",
         ),
-        abjad.Section(
+        ide.Section(
             abbreviation="VN-2",
             count=18,
             instrument="Violin",
             name="Second_Violin",
         ),
-        abjad.Section(abbreviation="VA", count=18, name="Viola"),
-        abjad.Section(abbreviation="VC", count=14, name="Cello"),
-        abjad.Section(abbreviation="CB", count=6, name="Contrabass"),
+        ide.Section(abbreviation="VA", count=18, name="Viola"),
+        ide.Section(abbreviation="VC", count=14, name="Cello"),
+        ide.Section(abbreviation="CB", count=6, name="Contrabass"),
     )
 
     all_music_in_part_containers = True
@@ -558,7 +559,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
     def allows_part_assignment(
-        self, voice_name: str, part_assignment: abjad.PartAssignment
+        self, voice_name: str, part_assignment: ide.PartAssignment
     ) -> bool:
         """
         Is true when ``voice_name`` allows ``part_assignment``.
@@ -569,25 +570,25 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     abjad.PartAssignment('First_Violin'),
+            ...     ide.PartAssignment('First_Violin'),
             ...     )
             True
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     abjad.PartAssignment('First_Violin', (1, 10)),
+            ...     ide.PartAssignment('First_Violin', (1, 10)),
             ...     )
             True
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     abjad.PartAssignment('Second_Violin'),
+            ...     ide.PartAssignment('Second_Violin'),
             ...     )
             False
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     abjad.PartAssignment('Violin'),
+            ...     ide.PartAssignment('Violin'),
             ...     )
             False
 
@@ -1381,7 +1382,7 @@ def parts(
         Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.
 
     """
-    part_assignment = abjad.PartAssignment(section=section, token=token)
+    part_assignment = ide.PartAssignment(section=section, token=token)
     if part_assignment.token is not None:
         score_template = ScoreTemplate()
         assert score_template.part_manifest is not None
