@@ -67,7 +67,7 @@ maker(
         baca.skip(1 - 1),
         abjad.tweak(
             (0, -2),
-            tag=abjad.tags.ONLY_SCORE,
+            tag=baca.tags.ONLY_SCORE,
         ).extra_offset,
     ),
 )
