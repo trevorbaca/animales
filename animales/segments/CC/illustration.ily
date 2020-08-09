@@ -1,4 +1,4 @@
-CC_Global_Rests = {                                                            %! abjad.Path.extern()
+CC_Global_Rests = {                                                            %! ide.Path.extern()
 
     % [CC Global_Rests measure 165 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
@@ -35,10 +35,10 @@ CC_Global_Rests = {                                                            %
     % [CC Global_Rests measure 175 / measure 11]                               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Global_Skips = {                                                            %! abjad.Path.extern()
+CC_Global_Skips = {                                                            %! ide.Path.extern()
 
     % [CC Global_Skips measure 165 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
@@ -187,10 +187,10 @@ CC_Global_Skips = {                                                            %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Piano_Voice_I_a = {                                                         %! abjad.Path.extern()
+CC_Piano_Voice_I_a = {                                                         %! ide.Path.extern()
 
     % [CC Piano_Voice_I measure 165 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -306,12 +306,12 @@ CC_Piano_Voice_I_a = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Piano_Voice_I = {                                                           %! abjad.Path.extern()
+CC_Piano_Voice_I = {                                                           %! ide.Path.extern()
 
-    \CC_Piano_Voice_I_a                                                        %! abjad.Path.extern()
+    \CC_Piano_Voice_I_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -342,18 +342,18 @@ CC_Piano_Voice_I = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Piano_Staff_I = {                                                           %! abjad.Path.extern()
+CC_Piano_Staff_I = {                                                           %! ide.Path.extern()
 
     \context Voice = "Piano_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
-    \CC_Piano_Voice_I                                                          %! abjad.Path.extern()
+    \CC_Piano_Voice_I                                                          %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Percussion_Voice_IV_a = {                                                   %! abjad.Path.extern()
+CC_Percussion_Voice_IV_a = {                                                   %! ide.Path.extern()
 
     % [CC Percussion_Voice_IV measure 165 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(0 . 0)                             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -601,12 +601,12 @@ CC_Percussion_Voice_IV_a = {                                                   %
 %%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Percussion_Voice_IV = {                                                     %! abjad.Path.extern()
+CC_Percussion_Voice_IV = {                                                     %! ide.Path.extern()
 
-    \CC_Percussion_Voice_IV_a                                                  %! abjad.Path.extern()
+    \CC_Percussion_Voice_IV_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -641,12 +641,12 @@ CC_Percussion_Voice_IV = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-CC_Percussion_Staff_IV = {                                                     %! abjad.Path.extern()
+CC_Percussion_Staff_IV = {                                                     %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_IV"                                     %! animales.ScoreTemplate._make_staves()
-    \CC_Percussion_Voice_IV                                                    %! abjad.Path.extern()
+    \CC_Percussion_Voice_IV                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()

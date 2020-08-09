@@ -2,7 +2,7 @@
 \language "english"                                                            %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_format_pieces()
 
 \include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
-\include "illustration.ily"                                                    %! abjad.Path.extern()
+\include "illustration.ily"                                                    %! ide.Path.extern()
 
 
 \score {                                                                       %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
@@ -20,10 +20,10 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context()
 
                 \context GlobalRests = "Global_Rests"                          %! abjad.ScoreTemplate._make_global_context()
-                \i_Global_Rests                                                %! abjad.Path.extern()
+                \i_Global_Rests                                                %! ide.Path.extern()
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context()
-                \i_Global_Skips                                                %! abjad.Path.extern()
+                \i_Global_Skips                                                %! ide.Path.extern()
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context()
 
@@ -34,13 +34,13 @@
                 <<                                                             %! baca.ScoreTemplate.make_staff_group()
 
                     \context Staff = "Percussion_Staff_I"                      %! animales.ScoreTemplate._make_staves()
-                    \i_Percussion_Staff_I                                      %! abjad.Path.extern()
+                    \i_Percussion_Staff_I                                      %! ide.Path.extern()
 
                     \context Staff = "Percussion_Staff_II"                     %! animales.ScoreTemplate._make_staves()
-                    \i_Percussion_Staff_II                                     %! abjad.Path.extern()
+                    \i_Percussion_Staff_II                                     %! ide.Path.extern()
 
                     \context Staff = "Percussion_Staff_IV"                     %! animales.ScoreTemplate._make_staves()
-                    \i_Percussion_Staff_IV                                     %! abjad.Path.extern()
+                    \i_Percussion_Staff_IV                                     %! ide.Path.extern()
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group()
 
@@ -55,10 +55,10 @@
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group()
 
                         \context Staff = "First_Violin_Staff_I"                %! animales.ScoreTemplate._make_staves()
-                        \i_First_Violin_Staff_I                                %! abjad.Path.extern()
+                        \i_First_Violin_Staff_I                                %! ide.Path.extern()
 
                         \context Staff = "First_Violin_Staff_II"               %! animales.ScoreTemplate._make_staves()
-                        \i_First_Violin_Staff_II                               %! abjad.Path.extern()
+                        \i_First_Violin_Staff_II                               %! ide.Path.extern()
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group()
 
@@ -70,10 +70,10 @@
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group()
 
                         \context Staff = "Second_Violin_Staff_I"               %! animales.ScoreTemplate._make_staves()
-                        \i_Second_Violin_Staff_I                               %! abjad.Path.extern()
+                        \i_Second_Violin_Staff_I                               %! ide.Path.extern()
 
                         \context Staff = "Second_Violin_Staff_II"              %! animales.ScoreTemplate._make_staves()
-                        \i_Second_Violin_Staff_II                              %! abjad.Path.extern()
+                        \i_Second_Violin_Staff_II                              %! ide.Path.extern()
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group()
 
@@ -85,15 +85,15 @@
                     <<                                                         %! baca.ScoreTemplate.make_square_staff_group()
 
                         \context Staff = "Viola_Staff_I"                       %! animales.ScoreTemplate._make_staves()
-                        \i_Viola_Staff_I                                       %! abjad.Path.extern()
+                        \i_Viola_Staff_I                                       %! ide.Path.extern()
 
                         \context Staff = "Viola_Staff_II"                      %! animales.ScoreTemplate._make_staves()
-                        \i_Viola_Staff_II                                      %! abjad.Path.extern()
+                        \i_Viola_Staff_II                                      %! ide.Path.extern()
 
                     >>                                                         %! baca.ScoreTemplate.make_square_staff_group()
 
                     \context Staff = "Cello_Staff_I"                           %! animales.ScoreTemplate._make_staves()
-                    \i_Cello_Staff_I                                           %! abjad.Path.extern()
+                    \i_Cello_Staff_I                                           %! ide.Path.extern()
 
                 >>                                                             %! baca.ScoreTemplate.make_staff_group()
 

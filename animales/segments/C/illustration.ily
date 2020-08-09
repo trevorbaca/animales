@@ -1,4 +1,4 @@
-C_Global_Rests = {                                                             %! abjad.Path.extern()
+C_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [C Global_Rests measure 18 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
@@ -21,10 +21,10 @@ C_Global_Rests = {                                                             %
     % [C Global_Rests measure 24 / measure 7]                                  %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Global_Skips = {                                                             %! abjad.Path.extern()
+C_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [C Global_Skips measure 18 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
@@ -119,10 +119,10 @@ C_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Clarinet_Voice_I_a = {                                                       %! abjad.Path.extern()
+C_Clarinet_Voice_I_a = {                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -228,12 +228,12 @@ C_Clarinet_Voice_I_a = {                                                       %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Clarinet_Voice_I = {                                                         %! abjad.Path.extern()
+C_Clarinet_Voice_I = {                                                         %! ide.Path.extern()
 
-    \C_Clarinet_Voice_I_a                                                      %! abjad.Path.extern()
+    \C_Clarinet_Voice_I_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -265,18 +265,18 @@ C_Clarinet_Voice_I = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Clarinet_Staff_I = {                                                         %! abjad.Path.extern()
+C_Clarinet_Staff_I = {                                                         %! ide.Path.extern()
 
     \context Voice = "Clarinet_Voice_I"                                        %! animales.ScoreTemplate._make_staves()
-    \C_Clarinet_Voice_I                                                        %! abjad.Path.extern()
+    \C_Clarinet_Voice_I                                                        %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_I_a = {                                                           %! abjad.Path.extern()
+C_Horn_Voice_I_a = {                                                           %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -388,12 +388,12 @@ C_Horn_Voice_I_a = {                                                           %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_I = {                                                             %! abjad.Path.extern()
+C_Horn_Voice_I = {                                                             %! ide.Path.extern()
 
-    \C_Horn_Voice_I_a                                                          %! abjad.Path.extern()
+    \C_Horn_Voice_I_a                                                          %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -424,10 +424,10 @@ C_Horn_Voice_I = {                                                             %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_III_a = {                                                         %! abjad.Path.extern()
+C_Horn_Voice_III_a = {                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -500,12 +500,12 @@ C_Horn_Voice_III_a = {                                                         %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_III = {                                                           %! abjad.Path.extern()
+C_Horn_Voice_III = {                                                           %! ide.Path.extern()
 
-    \C_Horn_Voice_III_a                                                        %! abjad.Path.extern()
+    \C_Horn_Voice_III_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -536,21 +536,21 @@ C_Horn_Voice_III = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Staff_I = <<                                                            %! abjad.Path.extern()
+C_Horn_Staff_I = <<                                                            %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
-    \C_Horn_Voice_I                                                            %! abjad.Path.extern()
+    \C_Horn_Voice_I                                                            %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_III"                                          %! animales.ScoreTemplate._make_staves()
-    \C_Horn_Voice_III                                                          %! abjad.Path.extern()
+    \C_Horn_Voice_III                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Horn_Voice_II_a = {                                                          %! abjad.Path.extern()
+C_Horn_Voice_II_a = {                                                          %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -662,12 +662,12 @@ C_Horn_Voice_II_a = {                                                          %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_II = {                                                            %! abjad.Path.extern()
+C_Horn_Voice_II = {                                                            %! ide.Path.extern()
 
-    \C_Horn_Voice_II_a                                                         %! abjad.Path.extern()
+    \C_Horn_Voice_II_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -698,10 +698,10 @@ C_Horn_Voice_II = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_IV_a = {                                                          %! abjad.Path.extern()
+C_Horn_Voice_IV_a = {                                                          %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -774,12 +774,12 @@ C_Horn_Voice_IV_a = {                                                          %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Voice_IV = {                                                            %! abjad.Path.extern()
+C_Horn_Voice_IV = {                                                            %! ide.Path.extern()
 
-    \C_Horn_Voice_IV_a                                                         %! abjad.Path.extern()
+    \C_Horn_Voice_IV_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -810,21 +810,21 @@ C_Horn_Voice_IV = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Horn_Staff_II = <<                                                           %! abjad.Path.extern()
+C_Horn_Staff_II = <<                                                           %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_II"                                           %! animales.ScoreTemplate._make_staves()
-    \C_Horn_Voice_II                                                           %! abjad.Path.extern()
+    \C_Horn_Voice_II                                                           %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_IV"                                           %! animales.ScoreTemplate._make_staves()
-    \C_Horn_Voice_IV                                                           %! abjad.Path.extern()
+    \C_Horn_Voice_IV                                                           %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Trumpet_Voice_I_a = {                                                        %! abjad.Path.extern()
+C_Trumpet_Voice_I_a = {                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -936,12 +936,12 @@ C_Trumpet_Voice_I_a = {                                                        %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Voice_I = {                                                          %! abjad.Path.extern()
+C_Trumpet_Voice_I = {                                                          %! ide.Path.extern()
 
-    \C_Trumpet_Voice_I_a                                                       %! abjad.Path.extern()
+    \C_Trumpet_Voice_I_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -972,10 +972,10 @@ C_Trumpet_Voice_I = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Voice_III_a = {                                                      %! abjad.Path.extern()
+C_Trumpet_Voice_III_a = {                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1048,12 +1048,12 @@ C_Trumpet_Voice_III_a = {                                                      %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Voice_III = {                                                        %! abjad.Path.extern()
+C_Trumpet_Voice_III = {                                                        %! ide.Path.extern()
 
-    \C_Trumpet_Voice_III_a                                                     %! abjad.Path.extern()
+    \C_Trumpet_Voice_III_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1084,21 +1084,21 @@ C_Trumpet_Voice_III = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Staff_I = <<                                                         %! abjad.Path.extern()
+C_Trumpet_Staff_I = <<                                                         %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_I"                                         %! animales.ScoreTemplate._make_staves()
-    \C_Trumpet_Voice_I                                                         %! abjad.Path.extern()
+    \C_Trumpet_Voice_I                                                         %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_III"                                       %! animales.ScoreTemplate._make_staves()
-    \C_Trumpet_Voice_III                                                       %! abjad.Path.extern()
+    \C_Trumpet_Voice_III                                                       %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Trumpet_Voice_II_a = {                                                       %! abjad.Path.extern()
+C_Trumpet_Voice_II_a = {                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1210,12 +1210,12 @@ C_Trumpet_Voice_II_a = {                                                       %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Voice_II = {                                                         %! abjad.Path.extern()
+C_Trumpet_Voice_II = {                                                         %! ide.Path.extern()
 
-    \C_Trumpet_Voice_II_a                                                      %! abjad.Path.extern()
+    \C_Trumpet_Voice_II_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1246,10 +1246,10 @@ C_Trumpet_Voice_II = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Voice_IV_a = {                                                       %! abjad.Path.extern()
+C_Trumpet_Voice_IV_a = {                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1322,12 +1322,12 @@ C_Trumpet_Voice_IV_a = {                                                       %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Voice_IV = {                                                         %! abjad.Path.extern()
+C_Trumpet_Voice_IV = {                                                         %! ide.Path.extern()
 
-    \C_Trumpet_Voice_IV_a                                                      %! abjad.Path.extern()
+    \C_Trumpet_Voice_IV_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1358,21 +1358,21 @@ C_Trumpet_Voice_IV = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trumpet_Staff_II = <<                                                        %! abjad.Path.extern()
+C_Trumpet_Staff_II = <<                                                        %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_II"                                        %! animales.ScoreTemplate._make_staves()
-    \C_Trumpet_Voice_II                                                        %! abjad.Path.extern()
+    \C_Trumpet_Voice_II                                                        %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_IV"                                        %! animales.ScoreTemplate._make_staves()
-    \C_Trumpet_Voice_IV                                                        %! abjad.Path.extern()
+    \C_Trumpet_Voice_IV                                                        %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Trombone_Voice_I_a = {                                                       %! abjad.Path.extern()
+C_Trombone_Voice_I_a = {                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1484,12 +1484,12 @@ C_Trombone_Voice_I_a = {                                                       %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Voice_I = {                                                         %! abjad.Path.extern()
+C_Trombone_Voice_I = {                                                         %! ide.Path.extern()
 
-    \C_Trombone_Voice_I_a                                                      %! abjad.Path.extern()
+    \C_Trombone_Voice_I_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1520,10 +1520,10 @@ C_Trombone_Voice_I = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Voice_III_a = {                                                     %! abjad.Path.extern()
+C_Trombone_Voice_III_a = {                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1596,12 +1596,12 @@ C_Trombone_Voice_III_a = {                                                     %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Voice_III = {                                                       %! abjad.Path.extern()
+C_Trombone_Voice_III = {                                                       %! ide.Path.extern()
 
-    \C_Trombone_Voice_III_a                                                    %! abjad.Path.extern()
+    \C_Trombone_Voice_III_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1632,21 +1632,21 @@ C_Trombone_Voice_III = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Staff_I = <<                                                        %! abjad.Path.extern()
+C_Trombone_Staff_I = <<                                                        %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_I"                                        %! animales.ScoreTemplate._make_staves()
-    \C_Trombone_Voice_I                                                        %! abjad.Path.extern()
+    \C_Trombone_Voice_I                                                        %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_III"                                      %! animales.ScoreTemplate._make_staves()
-    \C_Trombone_Voice_III                                                      %! abjad.Path.extern()
+    \C_Trombone_Voice_III                                                      %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Trombone_Voice_II_a = {                                                      %! abjad.Path.extern()
+C_Trombone_Voice_II_a = {                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1758,12 +1758,12 @@ C_Trombone_Voice_II_a = {                                                      %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Voice_II = {                                                        %! abjad.Path.extern()
+C_Trombone_Voice_II = {                                                        %! ide.Path.extern()
 
-    \C_Trombone_Voice_II_a                                                     %! abjad.Path.extern()
+    \C_Trombone_Voice_II_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1794,10 +1794,10 @@ C_Trombone_Voice_II = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Voice_IV_a = {                                                      %! abjad.Path.extern()
+C_Trombone_Voice_IV_a = {                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1870,12 +1870,12 @@ C_Trombone_Voice_IV_a = {                                                      %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Voice_IV = {                                                        %! abjad.Path.extern()
+C_Trombone_Voice_IV = {                                                        %! ide.Path.extern()
 
-    \C_Trombone_Voice_IV_a                                                     %! abjad.Path.extern()
+    \C_Trombone_Voice_IV_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1906,21 +1906,21 @@ C_Trombone_Voice_IV = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Trombone_Staff_II = <<                                                       %! abjad.Path.extern()
+C_Trombone_Staff_II = <<                                                       %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_II"                                       %! animales.ScoreTemplate._make_staves()
-    \C_Trombone_Voice_II                                                       %! abjad.Path.extern()
+    \C_Trombone_Voice_II                                                       %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_IV"                                       %! animales.ScoreTemplate._make_staves()
-    \C_Trombone_Voice_IV                                                       %! abjad.Path.extern()
+    \C_Trombone_Voice_IV                                                       %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_Tuba_Voice_I_a = {                                                           %! abjad.Path.extern()
+C_Tuba_Voice_I_a = {                                                           %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -2019,12 +2019,12 @@ C_Tuba_Voice_I_a = {                                                           %
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Tuba_Voice_I = {                                                             %! abjad.Path.extern()
+C_Tuba_Voice_I = {                                                             %! ide.Path.extern()
 
-    \C_Tuba_Voice_I_a                                                          %! abjad.Path.extern()
+    \C_Tuba_Voice_I_a                                                          %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2055,18 +2055,18 @@ C_Tuba_Voice_I = {                                                             %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Tuba_Staff_I = {                                                             %! abjad.Path.extern()
+C_Tuba_Staff_I = {                                                             %! ide.Path.extern()
 
     \context Voice = "Tuba_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
-    \C_Tuba_Voice_I                                                            %! abjad.Path.extern()
+    \C_Tuba_Voice_I                                                            %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Voice_I_a = {                                                     %! abjad.Path.extern()
+C_Percussion_Voice_I_a = {                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -2183,12 +2183,12 @@ C_Percussion_Voice_I_a = {                                                     %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Voice_I = {                                                       %! abjad.Path.extern()
+C_Percussion_Voice_I = {                                                       %! ide.Path.extern()
 
-    \C_Percussion_Voice_I_a                                                    %! abjad.Path.extern()
+    \C_Percussion_Voice_I_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2220,18 +2220,18 @@ C_Percussion_Voice_I = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Staff_I = {                                                       %! abjad.Path.extern()
+C_Percussion_Staff_I = {                                                       %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_I"                                      %! animales.ScoreTemplate._make_staves()
-    \C_Percussion_Voice_I                                                      %! abjad.Path.extern()
+    \C_Percussion_Voice_I                                                      %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern()
+C_Percussion_Voice_II_a = {                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -2348,12 +2348,12 @@ C_Percussion_Voice_II_a = {                                                    %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Voice_II = {                                                      %! abjad.Path.extern()
+C_Percussion_Voice_II = {                                                      %! ide.Path.extern()
 
-    \C_Percussion_Voice_II_a                                                   %! abjad.Path.extern()
+    \C_Percussion_Voice_II_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2385,18 +2385,18 @@ C_Percussion_Voice_II = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Percussion_Staff_II = {                                                      %! abjad.Path.extern()
+C_Percussion_Staff_II = {                                                      %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves()
-    \C_Percussion_Voice_II                                                     %! abjad.Path.extern()
+    \C_Percussion_Voice_II                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern()
+C_First_Violin_Voice_II_a = {                                                  %! ide.Path.extern()
 
     % [C First_Violin_Voice_II measure 20 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     \override DynamicLineSpanner.direction = #up                               %! baca.dls_up():-PARTS:baca.OverrideCommand._call(1)
@@ -2480,10 +2480,10 @@ C_First_Violin_Voice_II_a = {                                                  %
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \revert DynamicLineSpanner.direction                                       %! baca.dls_up():-PARTS:baca.OverrideCommand._call(2)
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Voice_II = {                                                    %! abjad.Path.extern()
+C_First_Violin_Voice_II = {                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -2514,7 +2514,7 @@ C_First_Violin_Voice_II = {                                                    %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-    \C_First_Violin_Voice_II_a                                                 %! abjad.Path.extern()
+    \C_First_Violin_Voice_II_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2546,10 +2546,10 @@ C_First_Violin_Voice_II = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Voice_I_a = {                                                   %! abjad.Path.extern()
+C_First_Violin_Voice_I_a = {                                                   %! ide.Path.extern()
 
     % [C First_Violin_Voice_I measure 18 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2609,10 +2609,10 @@ C_First_Violin_Voice_I_a = {                                                   %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     \revert TrillSpanner.staff-padding                                         %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(2)
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Voice_I_b = {                                                   %! abjad.Path.extern()
+C_First_Violin_Voice_I_b = {                                                   %! ide.Path.extern()
 
     % [C First_Violin_Voice_I measure 20 / measure 3]                          %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -2657,14 +2657,14 @@ C_First_Violin_Voice_I_b = {                                                   %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Voice_I = {                                                     %! abjad.Path.extern()
+C_First_Violin_Voice_I = {                                                     %! ide.Path.extern()
 
-    \C_First_Violin_Voice_I_a                                                  %! abjad.Path.extern()
+    \C_First_Violin_Voice_I_a                                                  %! ide.Path.extern()
 
-    \C_First_Violin_Voice_I_b                                                  %! abjad.Path.extern()
+    \C_First_Violin_Voice_I_b                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2696,21 +2696,21 @@ C_First_Violin_Voice_I = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern()
+C_First_Violin_Staff_I = <<                                                    %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves()
-    \C_First_Violin_Voice_II                                                   %! abjad.Path.extern()
+    \C_First_Violin_Voice_II                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves()
-    \C_First_Violin_Voice_I                                                    %! abjad.Path.extern()
+    \C_First_Violin_Voice_I                                                    %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-C_First_Violin_Voice_III_a = {                                                 %! abjad.Path.extern()
+C_First_Violin_Voice_III_a = {                                                 %! ide.Path.extern()
 
     % [C First_Violin_Voice_III measure 18 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2801,12 +2801,12 @@ C_First_Violin_Voice_III_a = {                                                 %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Voice_III = {                                                   %! abjad.Path.extern()
+C_First_Violin_Voice_III = {                                                   %! ide.Path.extern()
 
-    \C_First_Violin_Voice_III_a                                                %! abjad.Path.extern()
+    \C_First_Violin_Voice_III_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2838,18 +2838,18 @@ C_First_Violin_Voice_III = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_First_Violin_Staff_II = {                                                    %! abjad.Path.extern()
+C_First_Violin_Staff_II = {                                                    %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_III"                                  %! animales.ScoreTemplate._make_staves()
-    \C_First_Violin_Voice_III                                                  %! abjad.Path.extern()
+    \C_First_Violin_Voice_III                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Second_Violin_Voice_I_a = {                                                  %! abjad.Path.extern()
+C_Second_Violin_Voice_I_a = {                                                  %! ide.Path.extern()
 
     % [C Second_Violin_Voice_I measure 18 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2940,12 +2940,12 @@ C_Second_Violin_Voice_I_a = {                                                  %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Second_Violin_Voice_I = {                                                    %! abjad.Path.extern()
+C_Second_Violin_Voice_I = {                                                    %! ide.Path.extern()
 
-    \C_Second_Violin_Voice_I_a                                                 %! abjad.Path.extern()
+    \C_Second_Violin_Voice_I_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2977,18 +2977,18 @@ C_Second_Violin_Voice_I = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Second_Violin_Staff_I = {                                                    %! abjad.Path.extern()
+C_Second_Violin_Staff_I = {                                                    %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves()
-    \C_Second_Violin_Voice_I                                                   %! abjad.Path.extern()
+    \C_Second_Violin_Voice_I                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Second_Violin_Voice_III_a = {                                                %! abjad.Path.extern()
+C_Second_Violin_Voice_III_a = {                                                %! ide.Path.extern()
 
     % [C Second_Violin_Voice_III measure 18 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3076,12 +3076,12 @@ C_Second_Violin_Voice_III_a = {                                                %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Second_Violin_Voice_III = {                                                  %! abjad.Path.extern()
+C_Second_Violin_Voice_III = {                                                  %! ide.Path.extern()
 
-    \C_Second_Violin_Voice_III_a                                               %! abjad.Path.extern()
+    \C_Second_Violin_Voice_III_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3113,18 +3113,18 @@ C_Second_Violin_Voice_III = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Second_Violin_Staff_II = {                                                   %! abjad.Path.extern()
+C_Second_Violin_Staff_II = {                                                   %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_III"                                 %! animales.ScoreTemplate._make_staves()
-    \C_Second_Violin_Voice_III                                                 %! abjad.Path.extern()
+    \C_Second_Violin_Voice_III                                                 %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Voice_I_a = {                                                          %! abjad.Path.extern()
+C_Viola_Voice_I_a = {                                                          %! ide.Path.extern()
 
     % [C Viola_Voice_I measure 18 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3222,12 +3222,12 @@ C_Viola_Voice_I_a = {                                                          %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Voice_I = {                                                            %! abjad.Path.extern()
+C_Viola_Voice_I = {                                                            %! ide.Path.extern()
 
-    \C_Viola_Voice_I_a                                                         %! abjad.Path.extern()
+    \C_Viola_Voice_I_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3259,18 +3259,18 @@ C_Viola_Voice_I = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Staff_I = {                                                            %! abjad.Path.extern()
+C_Viola_Staff_I = {                                                            %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
-    \C_Viola_Voice_I                                                           %! abjad.Path.extern()
+    \C_Viola_Voice_I                                                           %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Voice_III_a = {                                                        %! abjad.Path.extern()
+C_Viola_Voice_III_a = {                                                        %! ide.Path.extern()
 
     % [C Viola_Voice_III measure 18 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3363,12 +3363,12 @@ C_Viola_Voice_III_a = {                                                        %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Voice_III = {                                                          %! abjad.Path.extern()
+C_Viola_Voice_III = {                                                          %! ide.Path.extern()
 
-    \C_Viola_Voice_III_a                                                       %! abjad.Path.extern()
+    \C_Viola_Voice_III_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3400,18 +3400,18 @@ C_Viola_Voice_III = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Viola_Staff_II = {                                                           %! abjad.Path.extern()
+C_Viola_Staff_II = {                                                           %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_III"                                         %! animales.ScoreTemplate._make_staves()
-    \C_Viola_Voice_III                                                         %! abjad.Path.extern()
+    \C_Viola_Voice_III                                                         %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Cello_Voice_I_a = {                                                          %! abjad.Path.extern()
+C_Cello_Voice_I_a = {                                                          %! ide.Path.extern()
 
     % [C Cello_Voice_I measure 18 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3490,12 +3490,12 @@ C_Cello_Voice_I_a = {                                                          %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Cello_Voice_I = {                                                            %! abjad.Path.extern()
+C_Cello_Voice_I = {                                                            %! ide.Path.extern()
 
-    \C_Cello_Voice_I_a                                                         %! abjad.Path.extern()
+    \C_Cello_Voice_I_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3527,18 +3527,18 @@ C_Cello_Voice_I = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Cello_Staff_I = {                                                            %! abjad.Path.extern()
+C_Cello_Staff_I = {                                                            %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
-    \C_Cello_Voice_I                                                           %! abjad.Path.extern()
+    \C_Cello_Voice_I                                                           %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Contrabass_Voice_III_a = {                                                   %! abjad.Path.extern()
+C_Contrabass_Voice_III_a = {                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -3629,12 +3629,12 @@ C_Contrabass_Voice_III_a = {                                                   %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Contrabass_Voice_III = {                                                     %! abjad.Path.extern()
+C_Contrabass_Voice_III = {                                                     %! ide.Path.extern()
 
-    \C_Contrabass_Voice_III_a                                                  %! abjad.Path.extern()
+    \C_Contrabass_Voice_III_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3666,12 +3666,12 @@ C_Contrabass_Voice_III = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-C_Contrabass_Staff_II = {                                                      %! abjad.Path.extern()
+C_Contrabass_Staff_II = {                                                      %! ide.Path.extern()
 
     \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
-    \C_Contrabass_Voice_III                                                    %! abjad.Path.extern()
+    \C_Contrabass_Voice_III                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()

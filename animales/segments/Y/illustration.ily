@@ -1,4 +1,4 @@
-Y_Global_Rests = {                                                             %! abjad.Path.extern()
+Y_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [Y Global_Rests measure 152 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
@@ -12,10 +12,10 @@ Y_Global_Rests = {                                                             %
     % [Y Global_Rests measure 155 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Global_Skips = {                                                             %! abjad.Path.extern()
+Y_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [Y Global_Skips measure 152 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._reapply_persistent_indicators(1):baca.SegmentMaker._set_status_tag():REAPPLIED_TIME_SIGNATURE
@@ -72,10 +72,10 @@ Y_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_I_a = {                                                           %! abjad.Path.extern()
+Y_Horn_Voice_I_a = {                                                           %! ide.Path.extern()
 
     % [Y Horn_Voice_I measure 152 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -154,12 +154,12 @@ Y_Horn_Voice_I_a = {                                                           %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_I = {                                                             %! abjad.Path.extern()
+Y_Horn_Voice_I = {                                                             %! ide.Path.extern()
 
-    \Y_Horn_Voice_I_a                                                          %! abjad.Path.extern()
+    \Y_Horn_Voice_I_a                                                          %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -190,10 +190,10 @@ Y_Horn_Voice_I = {                                                             %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_III_a = {                                                         %! abjad.Path.extern()
+Y_Horn_Voice_III_a = {                                                         %! ide.Path.extern()
 
     % [Y Horn_Voice_III measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -233,12 +233,12 @@ Y_Horn_Voice_III_a = {                                                         %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_III = {                                                           %! abjad.Path.extern()
+Y_Horn_Voice_III = {                                                           %! ide.Path.extern()
 
-    \Y_Horn_Voice_III_a                                                        %! abjad.Path.extern()
+    \Y_Horn_Voice_III_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -269,21 +269,21 @@ Y_Horn_Voice_III = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Staff_I = <<                                                            %! abjad.Path.extern()
+Y_Horn_Staff_I = <<                                                            %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
-    \Y_Horn_Voice_I                                                            %! abjad.Path.extern()
+    \Y_Horn_Voice_I                                                            %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_III"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Horn_Voice_III                                                          %! abjad.Path.extern()
+    \Y_Horn_Voice_III                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Horn_Voice_II_a = {                                                          %! abjad.Path.extern()
+Y_Horn_Voice_II_a = {                                                          %! ide.Path.extern()
 
     % [Y Horn_Voice_II measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -362,12 +362,12 @@ Y_Horn_Voice_II_a = {                                                          %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_II = {                                                            %! abjad.Path.extern()
+Y_Horn_Voice_II = {                                                            %! ide.Path.extern()
 
-    \Y_Horn_Voice_II_a                                                         %! abjad.Path.extern()
+    \Y_Horn_Voice_II_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -398,10 +398,10 @@ Y_Horn_Voice_II = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_IV_a = {                                                          %! abjad.Path.extern()
+Y_Horn_Voice_IV_a = {                                                          %! ide.Path.extern()
 
     % [Y Horn_Voice_IV measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -441,12 +441,12 @@ Y_Horn_Voice_IV_a = {                                                          %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Voice_IV = {                                                            %! abjad.Path.extern()
+Y_Horn_Voice_IV = {                                                            %! ide.Path.extern()
 
-    \Y_Horn_Voice_IV_a                                                         %! abjad.Path.extern()
+    \Y_Horn_Voice_IV_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -477,21 +477,21 @@ Y_Horn_Voice_IV = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Horn_Staff_II = <<                                                           %! abjad.Path.extern()
+Y_Horn_Staff_II = <<                                                           %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_II"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Horn_Voice_II                                                           %! abjad.Path.extern()
+    \Y_Horn_Voice_II                                                           %! ide.Path.extern()
 
     \context Voice = "Horn_Voice_IV"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Horn_Voice_IV                                                           %! abjad.Path.extern()
+    \Y_Horn_Voice_IV                                                           %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_I_a = {                                                        %! abjad.Path.extern()
+Y_Trumpet_Voice_I_a = {                                                        %! ide.Path.extern()
 
     % [Y Trumpet_Voice_I measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -570,12 +570,12 @@ Y_Trumpet_Voice_I_a = {                                                        %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_I = {                                                          %! abjad.Path.extern()
+Y_Trumpet_Voice_I = {                                                          %! ide.Path.extern()
 
-    \Y_Trumpet_Voice_I_a                                                       %! abjad.Path.extern()
+    \Y_Trumpet_Voice_I_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -606,10 +606,10 @@ Y_Trumpet_Voice_I = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_III_a = {                                                      %! abjad.Path.extern()
+Y_Trumpet_Voice_III_a = {                                                      %! ide.Path.extern()
 
     % [Y Trumpet_Voice_III measure 152 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -649,12 +649,12 @@ Y_Trumpet_Voice_III_a = {                                                      %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_III = {                                                        %! abjad.Path.extern()
+Y_Trumpet_Voice_III = {                                                        %! ide.Path.extern()
 
-    \Y_Trumpet_Voice_III_a                                                     %! abjad.Path.extern()
+    \Y_Trumpet_Voice_III_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -685,21 +685,21 @@ Y_Trumpet_Voice_III = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Staff_I = <<                                                         %! abjad.Path.extern()
+Y_Trumpet_Staff_I = <<                                                         %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_I"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Trumpet_Voice_I                                                         %! abjad.Path.extern()
+    \Y_Trumpet_Voice_I                                                         %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_III"                                       %! animales.ScoreTemplate._make_staves()
-    \Y_Trumpet_Voice_III                                                       %! abjad.Path.extern()
+    \Y_Trumpet_Voice_III                                                       %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_II_a = {                                                       %! abjad.Path.extern()
+Y_Trumpet_Voice_II_a = {                                                       %! ide.Path.extern()
 
     % [Y Trumpet_Voice_II measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -778,12 +778,12 @@ Y_Trumpet_Voice_II_a = {                                                       %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_II = {                                                         %! abjad.Path.extern()
+Y_Trumpet_Voice_II = {                                                         %! ide.Path.extern()
 
-    \Y_Trumpet_Voice_II_a                                                      %! abjad.Path.extern()
+    \Y_Trumpet_Voice_II_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -814,10 +814,10 @@ Y_Trumpet_Voice_II = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_IV_a = {                                                       %! abjad.Path.extern()
+Y_Trumpet_Voice_IV_a = {                                                       %! ide.Path.extern()
 
     % [Y Trumpet_Voice_IV measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -857,12 +857,12 @@ Y_Trumpet_Voice_IV_a = {                                                       %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Voice_IV = {                                                         %! abjad.Path.extern()
+Y_Trumpet_Voice_IV = {                                                         %! ide.Path.extern()
 
-    \Y_Trumpet_Voice_IV_a                                                      %! abjad.Path.extern()
+    \Y_Trumpet_Voice_IV_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -893,21 +893,21 @@ Y_Trumpet_Voice_IV = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trumpet_Staff_II = <<                                                        %! abjad.Path.extern()
+Y_Trumpet_Staff_II = <<                                                        %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_II"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Trumpet_Voice_II                                                        %! abjad.Path.extern()
+    \Y_Trumpet_Voice_II                                                        %! ide.Path.extern()
 
     \context Voice = "Trumpet_Voice_IV"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Trumpet_Voice_IV                                                        %! abjad.Path.extern()
+    \Y_Trumpet_Voice_IV                                                        %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Trombone_Voice_I_a = {                                                       %! abjad.Path.extern()
+Y_Trombone_Voice_I_a = {                                                       %! ide.Path.extern()
 
     % [Y Trombone_Voice_I measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -986,12 +986,12 @@ Y_Trombone_Voice_I_a = {                                                       %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Voice_I = {                                                         %! abjad.Path.extern()
+Y_Trombone_Voice_I = {                                                         %! ide.Path.extern()
 
-    \Y_Trombone_Voice_I_a                                                      %! abjad.Path.extern()
+    \Y_Trombone_Voice_I_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1022,10 +1022,10 @@ Y_Trombone_Voice_I = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Voice_III_a = {                                                     %! abjad.Path.extern()
+Y_Trombone_Voice_III_a = {                                                     %! ide.Path.extern()
 
     % [Y Trombone_Voice_III measure 152 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -1065,12 +1065,12 @@ Y_Trombone_Voice_III_a = {                                                     %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Voice_III = {                                                       %! abjad.Path.extern()
+Y_Trombone_Voice_III = {                                                       %! ide.Path.extern()
 
-    \Y_Trombone_Voice_III_a                                                    %! abjad.Path.extern()
+    \Y_Trombone_Voice_III_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1101,21 +1101,21 @@ Y_Trombone_Voice_III = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Staff_I = <<                                                        %! abjad.Path.extern()
+Y_Trombone_Staff_I = <<                                                        %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_I"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Trombone_Voice_I                                                        %! abjad.Path.extern()
+    \Y_Trombone_Voice_I                                                        %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_III"                                      %! animales.ScoreTemplate._make_staves()
-    \Y_Trombone_Voice_III                                                      %! abjad.Path.extern()
+    \Y_Trombone_Voice_III                                                      %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Trombone_Voice_II_a = {                                                      %! abjad.Path.extern()
+Y_Trombone_Voice_II_a = {                                                      %! ide.Path.extern()
 
     % [Y Trombone_Voice_II measure 152 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1194,12 +1194,12 @@ Y_Trombone_Voice_II_a = {                                                      %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Voice_II = {                                                        %! abjad.Path.extern()
+Y_Trombone_Voice_II = {                                                        %! ide.Path.extern()
 
-    \Y_Trombone_Voice_II_a                                                     %! abjad.Path.extern()
+    \Y_Trombone_Voice_II_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1230,10 +1230,10 @@ Y_Trombone_Voice_II = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Voice_IV_a = {                                                      %! abjad.Path.extern()
+Y_Trombone_Voice_IV_a = {                                                      %! ide.Path.extern()
 
     % [Y Trombone_Voice_IV measure 152 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \voiceTwo                                                                  %! baca.voice_two():-PARTS:baca.IndicatorCommand._call()
@@ -1273,12 +1273,12 @@ Y_Trombone_Voice_IV_a = {                                                      %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Voice_IV = {                                                        %! abjad.Path.extern()
+Y_Trombone_Voice_IV = {                                                        %! ide.Path.extern()
 
-    \Y_Trombone_Voice_IV_a                                                     %! abjad.Path.extern()
+    \Y_Trombone_Voice_IV_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1309,21 +1309,21 @@ Y_Trombone_Voice_IV = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Trombone_Staff_II = <<                                                       %! abjad.Path.extern()
+Y_Trombone_Staff_II = <<                                                       %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_II"                                       %! animales.ScoreTemplate._make_staves()
-    \Y_Trombone_Voice_II                                                       %! abjad.Path.extern()
+    \Y_Trombone_Voice_II                                                       %! ide.Path.extern()
 
     \context Voice = "Trombone_Voice_IV"                                       %! animales.ScoreTemplate._make_staves()
-    \Y_Trombone_Voice_IV                                                       %! abjad.Path.extern()
+    \Y_Trombone_Voice_IV                                                       %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Tuba_Voice_I_a = {                                                           %! abjad.Path.extern()
+Y_Tuba_Voice_I_a = {                                                           %! ide.Path.extern()
 
     % [Y Tuba_Voice_I measure 152 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1389,12 +1389,12 @@ Y_Tuba_Voice_I_a = {                                                           %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Tuba_Voice_I = {                                                             %! abjad.Path.extern()
+Y_Tuba_Voice_I = {                                                             %! ide.Path.extern()
 
-    \Y_Tuba_Voice_I_a                                                          %! abjad.Path.extern()
+    \Y_Tuba_Voice_I_a                                                          %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1425,18 +1425,18 @@ Y_Tuba_Voice_I = {                                                             %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Tuba_Staff_I = {                                                             %! abjad.Path.extern()
+Y_Tuba_Staff_I = {                                                             %! ide.Path.extern()
 
     \context Voice = "Tuba_Voice_I"                                            %! animales.ScoreTemplate._make_staves()
-    \Y_Tuba_Voice_I                                                            %! abjad.Path.extern()
+    \Y_Tuba_Voice_I                                                            %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern()
+Y_Percussion_Voice_II_a = {                                                    %! ide.Path.extern()
 
     % [Y Percussion_Voice_II measure 152 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1513,12 +1513,12 @@ Y_Percussion_Voice_II_a = {                                                    %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Voice_II = {                                                      %! abjad.Path.extern()
+Y_Percussion_Voice_II = {                                                      %! ide.Path.extern()
 
-    \Y_Percussion_Voice_II_a                                                   %! abjad.Path.extern()
+    \Y_Percussion_Voice_II_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1550,18 +1550,18 @@ Y_Percussion_Voice_II = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Staff_II = {                                                      %! abjad.Path.extern()
+Y_Percussion_Staff_II = {                                                      %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_II"                                     %! animales.ScoreTemplate._make_staves()
-    \Y_Percussion_Voice_II                                                     %! abjad.Path.extern()
+    \Y_Percussion_Voice_II                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Voice_III_a = {                                                   %! abjad.Path.extern()
+Y_Percussion_Voice_III_a = {                                                   %! ide.Path.extern()
 
     % [Y Percussion_Voice_III measure 152 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1637,12 +1637,12 @@ Y_Percussion_Voice_III_a = {                                                   %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Voice_III = {                                                     %! abjad.Path.extern()
+Y_Percussion_Voice_III = {                                                     %! ide.Path.extern()
 
-    \Y_Percussion_Voice_III_a                                                  %! abjad.Path.extern()
+    \Y_Percussion_Voice_III_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1674,18 +1674,18 @@ Y_Percussion_Voice_III = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Staff_III = {                                                     %! abjad.Path.extern()
+Y_Percussion_Staff_III = {                                                     %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
-    \Y_Percussion_Voice_III                                                    %! abjad.Path.extern()
+    \Y_Percussion_Voice_III                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Voice_IV_a = {                                                    %! abjad.Path.extern()
+Y_Percussion_Voice_IV_a = {                                                    %! ide.Path.extern()
 
     % [Y Percussion_Voice_IV measure 152 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1762,12 +1762,12 @@ Y_Percussion_Voice_IV_a = {                                                    %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Voice_IV = {                                                      %! abjad.Path.extern()
+Y_Percussion_Voice_IV = {                                                      %! ide.Path.extern()
 
-    \Y_Percussion_Voice_IV_a                                                   %! abjad.Path.extern()
+    \Y_Percussion_Voice_IV_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1799,18 +1799,18 @@ Y_Percussion_Voice_IV = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Percussion_Staff_IV = {                                                      %! abjad.Path.extern()
+Y_Percussion_Staff_IV = {                                                      %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_IV"                                     %! animales.ScoreTemplate._make_staves()
-    \Y_Percussion_Voice_IV                                                     %! abjad.Path.extern()
+    \Y_Percussion_Voice_IV                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_I_a = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_I_a = {                                                   %! ide.Path.extern()
 
     % [Y First_Violin_Voice_I measure 152 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1860,12 +1860,12 @@ Y_First_Violin_Voice_I_a = {                                                   %
     % [Y First_Violin_Voice_I measure 154 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_I = {                                                     %! abjad.Path.extern()
+Y_First_Violin_Voice_I = {                                                     %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_I_a                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_I_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1897,10 +1897,10 @@ Y_First_Violin_Voice_I = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_II_a = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_II_a = {                                                  %! ide.Path.extern()
 
     % [Y First_Violin_Voice_II measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -1936,12 +1936,12 @@ Y_First_Violin_Voice_II_a = {                                                  %
     % [Y First_Violin_Voice_II measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_II = {                                                    %! abjad.Path.extern()
+Y_First_Violin_Voice_II = {                                                    %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_II_a                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_II_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1973,21 +1973,21 @@ Y_First_Violin_Voice_II = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_I = <<                                                    %! abjad.Path.extern()
+Y_First_Violin_Staff_I = <<                                                    %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_I"                                    %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_I                                                    %! abjad.Path.extern()
+    \Y_First_Violin_Voice_I                                                    %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_II"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_II                                                   %! abjad.Path.extern()
+    \Y_First_Violin_Voice_II                                                   %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_III_a = {                                                 %! abjad.Path.extern()
+Y_First_Violin_Voice_III_a = {                                                 %! ide.Path.extern()
 
     % [Y First_Violin_Voice_III measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2057,12 +2057,12 @@ Y_First_Violin_Voice_III_a = {                                                 %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_III = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_III = {                                                   %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_III_a                                                %! abjad.Path.extern()
+    \Y_First_Violin_Voice_III_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2094,10 +2094,10 @@ Y_First_Violin_Voice_III = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_IV_a = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_IV_a = {                                                  %! ide.Path.extern()
 
     % [Y First_Violin_Voice_IV measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -2120,12 +2120,12 @@ Y_First_Violin_Voice_IV_a = {                                                  %
     % [Y First_Violin_Voice_IV measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_IV = {                                                    %! abjad.Path.extern()
+Y_First_Violin_Voice_IV = {                                                    %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_IV_a                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_IV_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2157,21 +2157,21 @@ Y_First_Violin_Voice_IV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_II = <<                                                   %! abjad.Path.extern()
+Y_First_Violin_Staff_II = <<                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_III"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_III                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_III                                                  %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_IV"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_IV                                                   %! abjad.Path.extern()
+    \Y_First_Violin_Voice_IV                                                   %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_V_a = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_V_a = {                                                   %! ide.Path.extern()
 
     % [Y First_Violin_Voice_V measure 152 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2227,12 +2227,12 @@ Y_First_Violin_Voice_V_a = {                                                   %
     % [Y First_Violin_Voice_V measure 154 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_V = {                                                     %! abjad.Path.extern()
+Y_First_Violin_Voice_V = {                                                     %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_V_a                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_V_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2264,10 +2264,10 @@ Y_First_Violin_Voice_V = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_VI_a = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_VI_a = {                                                  %! ide.Path.extern()
 
     % [Y First_Violin_Voice_VI measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -2294,12 +2294,12 @@ Y_First_Violin_Voice_VI_a = {                                                  %
     % [Y First_Violin_Voice_VI measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_VI = {                                                    %! abjad.Path.extern()
+Y_First_Violin_Voice_VI = {                                                    %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_VI_a                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_VI_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2331,21 +2331,21 @@ Y_First_Violin_Voice_VI = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_III = <<                                                  %! abjad.Path.extern()
+Y_First_Violin_Staff_III = <<                                                  %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_V"                                    %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_V                                                    %! abjad.Path.extern()
+    \Y_First_Violin_Voice_V                                                    %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_VI"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_VI                                                   %! abjad.Path.extern()
+    \Y_First_Violin_Voice_VI                                                   %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_VII_a = {                                                 %! abjad.Path.extern()
+Y_First_Violin_Voice_VII_a = {                                                 %! ide.Path.extern()
 
     % [Y First_Violin_Voice_VII measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2391,12 +2391,12 @@ Y_First_Violin_Voice_VII_a = {                                                 %
     % [Y First_Violin_Voice_VII measure 154 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_VII = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_VII = {                                                   %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_VII_a                                                %! abjad.Path.extern()
+    \Y_First_Violin_Voice_VII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2428,10 +2428,10 @@ Y_First_Violin_Voice_VII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_VIII_a = {                                                %! abjad.Path.extern()
+Y_First_Violin_Voice_VIII_a = {                                                %! ide.Path.extern()
 
     % [Y First_Violin_Voice_VIII measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -2476,12 +2476,12 @@ Y_First_Violin_Voice_VIII_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_VIII = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_VIII = {                                                  %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_VIII_a                                               %! abjad.Path.extern()
+    \Y_First_Violin_Voice_VIII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2513,21 +2513,21 @@ Y_First_Violin_Voice_VIII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_IV = <<                                                   %! abjad.Path.extern()
+Y_First_Violin_Staff_IV = <<                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_VII"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_VII                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_VII                                                  %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_VIII"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_VIII                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_VIII                                                 %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_IX_a = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_IX_a = {                                                  %! ide.Path.extern()
 
     % [Y First_Violin_Voice_IX measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2585,12 +2585,12 @@ Y_First_Violin_Voice_IX_a = {                                                  %
     % [Y First_Violin_Voice_IX measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_IX = {                                                    %! abjad.Path.extern()
+Y_First_Violin_Voice_IX = {                                                    %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_IX_a                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_IX_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2622,10 +2622,10 @@ Y_First_Violin_Voice_IX = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_X_a = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_X_a = {                                                   %! ide.Path.extern()
 
     % [Y First_Violin_Voice_X measure 152 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -2652,12 +2652,12 @@ Y_First_Violin_Voice_X_a = {                                                   %
 
     r8                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_X = {                                                     %! abjad.Path.extern()
+Y_First_Violin_Voice_X = {                                                     %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_X_a                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_X_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2689,21 +2689,21 @@ Y_First_Violin_Voice_X = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_V = <<                                                    %! abjad.Path.extern()
+Y_First_Violin_Staff_V = <<                                                    %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_IX"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_IX                                                   %! abjad.Path.extern()
+    \Y_First_Violin_Voice_IX                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_X"                                    %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_X                                                    %! abjad.Path.extern()
+    \Y_First_Violin_Voice_X                                                    %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XI_a = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_XI_a = {                                                  %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XI measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2749,12 +2749,12 @@ Y_First_Violin_Voice_XI_a = {                                                  %
     % [Y First_Violin_Voice_XI measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XI = {                                                    %! abjad.Path.extern()
+Y_First_Violin_Voice_XI = {                                                    %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XI_a                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XI_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2786,10 +2786,10 @@ Y_First_Violin_Voice_XI = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XII_a = {                                                 %! abjad.Path.extern()
+Y_First_Violin_Voice_XII_a = {                                                 %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XII measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -2836,12 +2836,12 @@ Y_First_Violin_Voice_XII_a = {                                                 %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XII = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_XII = {                                                   %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XII_a                                                %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2873,21 +2873,21 @@ Y_First_Violin_Voice_XII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_VI = <<                                                   %! abjad.Path.extern()
+Y_First_Violin_Staff_VI = <<                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XI"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XI                                                   %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XI                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XII"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XII                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XII                                                  %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XIII_a = {                                                %! abjad.Path.extern()
+Y_First_Violin_Voice_XIII_a = {                                                %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XIII measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2943,12 +2943,12 @@ Y_First_Violin_Voice_XIII_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XIII = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_XIII = {                                                  %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XIII_a                                               %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XIII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2980,10 +2980,10 @@ Y_First_Violin_Voice_XIII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XIV_a = {                                                 %! abjad.Path.extern()
+Y_First_Violin_Voice_XIV_a = {                                                 %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XIV measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -3018,12 +3018,12 @@ Y_First_Violin_Voice_XIV_a = {                                                 %
 
     r2                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XIV = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_XIV = {                                                   %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XIV_a                                                %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XIV_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3055,21 +3055,21 @@ Y_First_Violin_Voice_XIV = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_VII = <<                                                  %! abjad.Path.extern()
+Y_First_Violin_Staff_VII = <<                                                  %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XIII"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XIII                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XIII                                                 %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XIV"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XIV                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XIV                                                  %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XV_a = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_XV_a = {                                                  %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XV measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3119,12 +3119,12 @@ Y_First_Violin_Voice_XV_a = {                                                  %
     % [Y First_Violin_Voice_XV measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XV = {                                                    %! abjad.Path.extern()
+Y_First_Violin_Voice_XV = {                                                    %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XV_a                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XV_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3156,10 +3156,10 @@ Y_First_Violin_Voice_XV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XVI_a = {                                                 %! abjad.Path.extern()
+Y_First_Violin_Voice_XVI_a = {                                                 %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XVI measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -3204,12 +3204,12 @@ Y_First_Violin_Voice_XVI_a = {                                                 %
 
     }                                                                          %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XVI = {                                                   %! abjad.Path.extern()
+Y_First_Violin_Voice_XVI = {                                                   %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XVI_a                                                %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XVI_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3241,21 +3241,21 @@ Y_First_Violin_Voice_XVI = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_VIII = <<                                                 %! abjad.Path.extern()
+Y_First_Violin_Staff_VIII = <<                                                 %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XV"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XV                                                   %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XV                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XVI"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XVI                                                  %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XVI                                                  %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XVII_a = {                                                %! abjad.Path.extern()
+Y_First_Violin_Voice_XVII_a = {                                                %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XVII measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3301,12 +3301,12 @@ Y_First_Violin_Voice_XVII_a = {                                                %
     % [Y First_Violin_Voice_XVII measure 154 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XVII = {                                                  %! abjad.Path.extern()
+Y_First_Violin_Voice_XVII = {                                                  %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XVII_a                                               %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XVII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3338,10 +3338,10 @@ Y_First_Violin_Voice_XVII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XVIII_a = {                                               %! abjad.Path.extern()
+Y_First_Violin_Voice_XVIII_a = {                                               %! ide.Path.extern()
 
     % [Y First_Violin_Voice_XVIII measure 152 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -3363,12 +3363,12 @@ Y_First_Violin_Voice_XVIII_a = {                                               %
     % [Y First_Violin_Voice_XVIII measure 154 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Voice_XVIII = {                                                 %! abjad.Path.extern()
+Y_First_Violin_Voice_XVIII = {                                                 %! ide.Path.extern()
 
-    \Y_First_Violin_Voice_XVIII_a                                              %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XVIII_a                                              %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3400,21 +3400,21 @@ Y_First_Violin_Voice_XVIII = {                                                 %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_First_Violin_Staff_IX = <<                                                   %! abjad.Path.extern()
+Y_First_Violin_Staff_IX = <<                                                   %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XVII"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XVII                                                 %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XVII                                                 %! ide.Path.extern()
 
     \context Voice = "First_Violin_Voice_XVIII"                                %! animales.ScoreTemplate._make_staves()
-    \Y_First_Violin_Voice_XVIII                                                %! abjad.Path.extern()
+    \Y_First_Violin_Voice_XVIII                                                %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_I_a = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_I_a = {                                                  %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_I measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3474,12 +3474,12 @@ Y_Second_Violin_Voice_I_a = {                                                  %
 
     r2                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_I = {                                                    %! abjad.Path.extern()
+Y_Second_Violin_Voice_I = {                                                    %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_I_a                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_I_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3511,10 +3511,10 @@ Y_Second_Violin_Voice_I = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_II_a = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_II_a = {                                                 %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_II measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -3556,12 +3556,12 @@ Y_Second_Violin_Voice_II_a = {                                                 %
 
     r8.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_II = {                                                   %! abjad.Path.extern()
+Y_Second_Violin_Voice_II = {                                                   %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_II_a                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_II_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3593,21 +3593,21 @@ Y_Second_Violin_Voice_II = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_I = <<                                                   %! abjad.Path.extern()
+Y_Second_Violin_Staff_I = <<                                                   %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_I"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_I                                                   %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_I                                                   %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_II"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_II                                                  %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_II                                                  %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_III_a = {                                                %! abjad.Path.extern()
+Y_Second_Violin_Voice_III_a = {                                                %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_III measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3655,12 +3655,12 @@ Y_Second_Violin_Voice_III_a = {                                                %
     % [Y Second_Violin_Voice_III measure 154 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_III = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_III = {                                                  %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_III_a                                               %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_III_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3692,10 +3692,10 @@ Y_Second_Violin_Voice_III = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_IV_a = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_IV_a = {                                                 %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_IV measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -3726,12 +3726,12 @@ Y_Second_Violin_Voice_IV_a = {                                                 %
     % [Y Second_Violin_Voice_IV measure 154 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_IV = {                                                   %! abjad.Path.extern()
+Y_Second_Violin_Voice_IV = {                                                   %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_IV_a                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_IV_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3763,21 +3763,21 @@ Y_Second_Violin_Voice_IV = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_II = <<                                                  %! abjad.Path.extern()
+Y_Second_Violin_Staff_II = <<                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_III"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_III                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_III                                                 %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_IV"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_IV                                                  %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_IV                                                  %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_V_a = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_V_a = {                                                  %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_V measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3831,12 +3831,12 @@ Y_Second_Violin_Voice_V_a = {                                                  %
 
     d'16                                                                       %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_V = {                                                    %! abjad.Path.extern()
+Y_Second_Violin_Voice_V = {                                                    %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_V_a                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_V_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3868,10 +3868,10 @@ Y_Second_Violin_Voice_V = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_VI_a = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_VI_a = {                                                 %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_VI measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -3894,12 +3894,12 @@ Y_Second_Violin_Voice_VI_a = {                                                 %
     % [Y Second_Violin_Voice_VI measure 154 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_VI = {                                                   %! abjad.Path.extern()
+Y_Second_Violin_Voice_VI = {                                                   %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_VI_a                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_VI_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3931,21 +3931,21 @@ Y_Second_Violin_Voice_VI = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_III = <<                                                 %! abjad.Path.extern()
+Y_Second_Violin_Staff_III = <<                                                 %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_V"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_V                                                   %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_V                                                   %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_VI"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_VI                                                  %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_VI                                                  %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_VII_a = {                                                %! abjad.Path.extern()
+Y_Second_Violin_Voice_VII_a = {                                                %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_VII measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4009,12 +4009,12 @@ Y_Second_Violin_Voice_VII_a = {                                                %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_VII = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_VII = {                                                  %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_VII_a                                               %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_VII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4046,10 +4046,10 @@ Y_Second_Violin_Voice_VII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_VIII_a = {                                               %! abjad.Path.extern()
+Y_Second_Violin_Voice_VIII_a = {                                               %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_VIII measure 152 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -4092,12 +4092,12 @@ Y_Second_Violin_Voice_VIII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_VIII = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_VIII = {                                                 %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_VIII_a                                              %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_VIII_a                                              %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4129,21 +4129,21 @@ Y_Second_Violin_Voice_VIII = {                                                 %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_IV = <<                                                  %! abjad.Path.extern()
+Y_Second_Violin_Staff_IV = <<                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_VII"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_VII                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_VII                                                 %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_VIII"                                %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_VIII                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_VIII                                                %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_IX_a = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_IX_a = {                                                 %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_IX measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4195,12 +4195,12 @@ Y_Second_Violin_Voice_IX_a = {                                                 %
 
     r4..                                                                       %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_IX = {                                                   %! abjad.Path.extern()
+Y_Second_Violin_Voice_IX = {                                                   %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_IX_a                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_IX_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4232,10 +4232,10 @@ Y_Second_Violin_Voice_IX = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_X_a = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_X_a = {                                                  %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_X measure 152 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -4264,12 +4264,12 @@ Y_Second_Violin_Voice_X_a = {                                                  %
     % [Y Second_Violin_Voice_X measure 154 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_X = {                                                    %! abjad.Path.extern()
+Y_Second_Violin_Voice_X = {                                                    %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_X_a                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_X_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4301,21 +4301,21 @@ Y_Second_Violin_Voice_X = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_V = <<                                                   %! abjad.Path.extern()
+Y_Second_Violin_Staff_V = <<                                                   %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_IX"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_IX                                                  %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_IX                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_X"                                   %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_X                                                   %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_X                                                   %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XI_a = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_XI_a = {                                                 %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XI measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4367,12 +4367,12 @@ Y_Second_Violin_Voice_XI_a = {                                                 %
     % [Y Second_Violin_Voice_XI measure 154 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XI = {                                                   %! abjad.Path.extern()
+Y_Second_Violin_Voice_XI = {                                                   %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XI_a                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XI_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4404,10 +4404,10 @@ Y_Second_Violin_Voice_XI = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XII_a = {                                                %! abjad.Path.extern()
+Y_Second_Violin_Voice_XII_a = {                                                %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XII measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -4428,12 +4428,12 @@ Y_Second_Violin_Voice_XII_a = {                                                %
     % [Y Second_Violin_Voice_XII measure 154 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XII = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_XII = {                                                  %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XII_a                                               %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4465,21 +4465,21 @@ Y_Second_Violin_Voice_XII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_VI = <<                                                  %! abjad.Path.extern()
+Y_Second_Violin_Staff_VI = <<                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XI"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XI                                                  %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XI                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XII"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XII                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XII                                                 %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XIII_a = {                                               %! abjad.Path.extern()
+Y_Second_Violin_Voice_XIII_a = {                                               %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XIII measure 152 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4549,12 +4549,12 @@ Y_Second_Violin_Voice_XIII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XIII = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_XIII = {                                                 %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XIII_a                                              %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XIII_a                                              %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4586,10 +4586,10 @@ Y_Second_Violin_Voice_XIII = {                                                 %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XIV_a = {                                                %! abjad.Path.extern()
+Y_Second_Violin_Voice_XIV_a = {                                                %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XIV measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -4622,12 +4622,12 @@ Y_Second_Violin_Voice_XIV_a = {                                                %
     % [Y Second_Violin_Voice_XIV measure 154 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XIV = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_XIV = {                                                  %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XIV_a                                               %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XIV_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4659,21 +4659,21 @@ Y_Second_Violin_Voice_XIV = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_VII = <<                                                 %! abjad.Path.extern()
+Y_Second_Violin_Staff_VII = <<                                                 %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XIII"                                %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XIII                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XIII                                                %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XIV"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XIV                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XIV                                                 %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XV_a = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_XV_a = {                                                 %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XV measure 152 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4725,12 +4725,12 @@ Y_Second_Violin_Voice_XV_a = {                                                 %
 
     r8                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XV = {                                                   %! abjad.Path.extern()
+Y_Second_Violin_Voice_XV = {                                                   %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XV_a                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XV_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4762,10 +4762,10 @@ Y_Second_Violin_Voice_XV = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XVI_a = {                                                %! abjad.Path.extern()
+Y_Second_Violin_Voice_XVI_a = {                                                %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XVI measure 152 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -4786,12 +4786,12 @@ Y_Second_Violin_Voice_XVI_a = {                                                %
     % [Y Second_Violin_Voice_XVI measure 154 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XVI = {                                                  %! abjad.Path.extern()
+Y_Second_Violin_Voice_XVI = {                                                  %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XVI_a                                               %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XVI_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4823,21 +4823,21 @@ Y_Second_Violin_Voice_XVI = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_VIII = <<                                                %! abjad.Path.extern()
+Y_Second_Violin_Staff_VIII = <<                                                %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XV"                                  %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XV                                                  %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XV                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XVI"                                 %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XVI                                                 %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XVI                                                 %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XVII_a = {                                               %! abjad.Path.extern()
+Y_Second_Violin_Voice_XVII_a = {                                               %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XVII measure 152 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4909,12 +4909,12 @@ Y_Second_Violin_Voice_XVII_a = {                                               %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XVII = {                                                 %! abjad.Path.extern()
+Y_Second_Violin_Voice_XVII = {                                                 %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XVII_a                                              %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XVII_a                                              %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4946,10 +4946,10 @@ Y_Second_Violin_Voice_XVII = {                                                 %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XVIII_a = {                                              %! abjad.Path.extern()
+Y_Second_Violin_Voice_XVIII_a = {                                              %! ide.Path.extern()
 
     % [Y Second_Violin_Voice_XVIII measure 152 / measure 1]                    %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -4973,12 +4973,12 @@ Y_Second_Violin_Voice_XVIII_a = {                                              %
 
     r2...                                                                      %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Voice_XVIII = {                                                %! abjad.Path.extern()
+Y_Second_Violin_Voice_XVIII = {                                                %! ide.Path.extern()
 
-    \Y_Second_Violin_Voice_XVIII_a                                             %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XVIII_a                                             %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5010,21 +5010,21 @@ Y_Second_Violin_Voice_XVIII = {                                                %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Second_Violin_Staff_IX = <<                                                  %! abjad.Path.extern()
+Y_Second_Violin_Staff_IX = <<                                                  %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XVII"                                %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XVII                                                %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XVII                                                %! ide.Path.extern()
 
     \context Voice = "Second_Violin_Voice_XVIII"                               %! animales.ScoreTemplate._make_staves()
-    \Y_Second_Violin_Voice_XVIII                                               %! abjad.Path.extern()
+    \Y_Second_Violin_Voice_XVIII                                               %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_I_a = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_I_a = {                                                          %! ide.Path.extern()
 
     % [Y Viola_Voice_I measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5086,12 +5086,12 @@ Y_Viola_Voice_I_a = {                                                          %
 
     r2                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_I = {                                                            %! abjad.Path.extern()
+Y_Viola_Voice_I = {                                                            %! ide.Path.extern()
 
-    \Y_Viola_Voice_I_a                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_I_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5123,10 +5123,10 @@ Y_Viola_Voice_I = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_II_a = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_II_a = {                                                         %! ide.Path.extern()
 
     % [Y Viola_Voice_II measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -5154,12 +5154,12 @@ Y_Viola_Voice_II_a = {                                                         %
     % [Y Viola_Voice_II measure 154 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_II = {                                                           %! abjad.Path.extern()
+Y_Viola_Voice_II = {                                                           %! ide.Path.extern()
 
-    \Y_Viola_Voice_II_a                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_II_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5191,21 +5191,21 @@ Y_Viola_Voice_II = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_I = <<                                                           %! abjad.Path.extern()
+Y_Viola_Staff_I = <<                                                           %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_I                                                           %! abjad.Path.extern()
+    \Y_Viola_Voice_I                                                           %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_II"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_II                                                          %! abjad.Path.extern()
+    \Y_Viola_Voice_II                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_III_a = {                                                        %! abjad.Path.extern()
+Y_Viola_Voice_III_a = {                                                        %! ide.Path.extern()
 
     % [Y Viola_Voice_III measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5277,12 +5277,12 @@ Y_Viola_Voice_III_a = {                                                        %
 
     }                                                                          %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_III = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_III = {                                                          %! ide.Path.extern()
 
-    \Y_Viola_Voice_III_a                                                       %! abjad.Path.extern()
+    \Y_Viola_Voice_III_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5314,10 +5314,10 @@ Y_Viola_Voice_III = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_IV_a = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_IV_a = {                                                         %! ide.Path.extern()
 
     % [Y Viola_Voice_IV measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -5340,12 +5340,12 @@ Y_Viola_Voice_IV_a = {                                                         %
     % [Y Viola_Voice_IV measure 154 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_IV = {                                                           %! abjad.Path.extern()
+Y_Viola_Voice_IV = {                                                           %! ide.Path.extern()
 
-    \Y_Viola_Voice_IV_a                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_IV_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5377,21 +5377,21 @@ Y_Viola_Voice_IV = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_II = <<                                                          %! abjad.Path.extern()
+Y_Viola_Staff_II = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_III"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_III                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_III                                                         %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_IV"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_IV                                                          %! abjad.Path.extern()
+    \Y_Viola_Voice_IV                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_V_a = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_V_a = {                                                          %! ide.Path.extern()
 
     % [Y Viola_Voice_V measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5437,12 +5437,12 @@ Y_Viola_Voice_V_a = {                                                          %
     % [Y Viola_Voice_V measure 154 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_V = {                                                            %! abjad.Path.extern()
+Y_Viola_Voice_V = {                                                            %! ide.Path.extern()
 
-    \Y_Viola_Voice_V_a                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_V_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5474,10 +5474,10 @@ Y_Viola_Voice_V = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_VI_a = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_VI_a = {                                                         %! ide.Path.extern()
 
     % [Y Viola_Voice_VI measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -5510,12 +5510,12 @@ Y_Viola_Voice_VI_a = {                                                         %
 
     r2                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_VI = {                                                           %! abjad.Path.extern()
+Y_Viola_Voice_VI = {                                                           %! ide.Path.extern()
 
-    \Y_Viola_Voice_VI_a                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_VI_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5547,21 +5547,21 @@ Y_Viola_Voice_VI = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_III = <<                                                         %! abjad.Path.extern()
+Y_Viola_Staff_III = <<                                                         %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_V"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_V                                                           %! abjad.Path.extern()
+    \Y_Viola_Voice_V                                                           %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_VI"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_VI                                                          %! abjad.Path.extern()
+    \Y_Viola_Voice_VI                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_VII_a = {                                                        %! abjad.Path.extern()
+Y_Viola_Voice_VII_a = {                                                        %! ide.Path.extern()
 
     % [Y Viola_Voice_VII measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5629,12 +5629,12 @@ Y_Viola_Voice_VII_a = {                                                        %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_VII = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_VII = {                                                          %! ide.Path.extern()
 
-    \Y_Viola_Voice_VII_a                                                       %! abjad.Path.extern()
+    \Y_Viola_Voice_VII_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5666,10 +5666,10 @@ Y_Viola_Voice_VII = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_VIII_a = {                                                       %! abjad.Path.extern()
+Y_Viola_Voice_VIII_a = {                                                       %! ide.Path.extern()
 
     % [Y Viola_Voice_VIII measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -5690,12 +5690,12 @@ Y_Viola_Voice_VIII_a = {                                                       %
     % [Y Viola_Voice_VIII measure 154 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_VIII = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_VIII = {                                                         %! ide.Path.extern()
 
-    \Y_Viola_Voice_VIII_a                                                      %! abjad.Path.extern()
+    \Y_Viola_Voice_VIII_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5727,21 +5727,21 @@ Y_Viola_Voice_VIII = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_IV = <<                                                          %! abjad.Path.extern()
+Y_Viola_Staff_IV = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_VII"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_VII                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_VII                                                         %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_VIII"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_VIII                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_VIII                                                        %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_IX_a = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_IX_a = {                                                         %! ide.Path.extern()
 
     % [Y Viola_Voice_IX measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5795,12 +5795,12 @@ Y_Viola_Voice_IX_a = {                                                         %
     % [Y Viola_Voice_IX measure 154 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_IX = {                                                           %! abjad.Path.extern()
+Y_Viola_Voice_IX = {                                                           %! ide.Path.extern()
 
-    \Y_Viola_Voice_IX_a                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_IX_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5832,10 +5832,10 @@ Y_Viola_Voice_IX = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_X_a = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_X_a = {                                                          %! ide.Path.extern()
 
     % [Y Viola_Voice_X measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -5864,12 +5864,12 @@ Y_Viola_Voice_X_a = {                                                          %
 
     b16                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_X = {                                                            %! abjad.Path.extern()
+Y_Viola_Voice_X = {                                                            %! ide.Path.extern()
 
-    \Y_Viola_Voice_X_a                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_X_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5901,21 +5901,21 @@ Y_Viola_Voice_X = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_V = <<                                                           %! abjad.Path.extern()
+Y_Viola_Staff_V = <<                                                           %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_IX"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_IX                                                          %! abjad.Path.extern()
+    \Y_Viola_Voice_IX                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_X"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_X                                                           %! abjad.Path.extern()
+    \Y_Viola_Voice_X                                                           %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_XI_a = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_XI_a = {                                                         %! ide.Path.extern()
 
     % [Y Viola_Voice_XI measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5963,12 +5963,12 @@ Y_Viola_Voice_XI_a = {                                                         %
     % [Y Viola_Voice_XI measure 154 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XI = {                                                           %! abjad.Path.extern()
+Y_Viola_Voice_XI = {                                                           %! ide.Path.extern()
 
-    \Y_Viola_Voice_XI_a                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_XI_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6000,10 +6000,10 @@ Y_Viola_Voice_XI = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XII_a = {                                                        %! abjad.Path.extern()
+Y_Viola_Voice_XII_a = {                                                        %! ide.Path.extern()
 
     % [Y Viola_Voice_XII measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -6042,12 +6042,12 @@ Y_Viola_Voice_XII_a = {                                                        %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XII = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_XII = {                                                          %! ide.Path.extern()
 
-    \Y_Viola_Voice_XII_a                                                       %! abjad.Path.extern()
+    \Y_Viola_Voice_XII_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6079,21 +6079,21 @@ Y_Viola_Voice_XII = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_VI = <<                                                          %! abjad.Path.extern()
+Y_Viola_Staff_VI = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XI"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XI                                                          %! abjad.Path.extern()
+    \Y_Viola_Voice_XI                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XII"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XII                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_XII                                                         %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_XIII_a = {                                                       %! abjad.Path.extern()
+Y_Viola_Voice_XIII_a = {                                                       %! ide.Path.extern()
 
     % [Y Viola_Voice_XIII measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6161,12 +6161,12 @@ Y_Viola_Voice_XIII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XIII = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_XIII = {                                                         %! ide.Path.extern()
 
-    \Y_Viola_Voice_XIII_a                                                      %! abjad.Path.extern()
+    \Y_Viola_Voice_XIII_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6198,10 +6198,10 @@ Y_Viola_Voice_XIII = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XIV_a = {                                                        %! abjad.Path.extern()
+Y_Viola_Voice_XIV_a = {                                                        %! ide.Path.extern()
 
     % [Y Viola_Voice_XIV measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -6228,12 +6228,12 @@ Y_Viola_Voice_XIV_a = {                                                        %
 
     r4..                                                                       %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XIV = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_XIV = {                                                          %! ide.Path.extern()
 
-    \Y_Viola_Voice_XIV_a                                                       %! abjad.Path.extern()
+    \Y_Viola_Voice_XIV_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6265,21 +6265,21 @@ Y_Viola_Voice_XIV = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_VII = <<                                                         %! abjad.Path.extern()
+Y_Viola_Staff_VII = <<                                                         %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XIII"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XIII                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_XIII                                                        %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XIV"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XIV                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_XIV                                                         %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_XV_a = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_XV_a = {                                                         %! ide.Path.extern()
 
     % [Y Viola_Voice_XV measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6333,12 +6333,12 @@ Y_Viola_Voice_XV_a = {                                                         %
     % [Y Viola_Voice_XV measure 154 / measure 3]                               %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XV = {                                                           %! abjad.Path.extern()
+Y_Viola_Voice_XV = {                                                           %! ide.Path.extern()
 
-    \Y_Viola_Voice_XV_a                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_XV_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6370,10 +6370,10 @@ Y_Viola_Voice_XV = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XVI_a = {                                                        %! abjad.Path.extern()
+Y_Viola_Voice_XVI_a = {                                                        %! ide.Path.extern()
 
     % [Y Viola_Voice_XVI measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -6404,12 +6404,12 @@ Y_Viola_Voice_XVI_a = {                                                        %
     % [Y Viola_Voice_XVI measure 154 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XVI = {                                                          %! abjad.Path.extern()
+Y_Viola_Voice_XVI = {                                                          %! ide.Path.extern()
 
-    \Y_Viola_Voice_XVI_a                                                       %! abjad.Path.extern()
+    \Y_Viola_Voice_XVI_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6441,21 +6441,21 @@ Y_Viola_Voice_XVI = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_VIII = <<                                                        %! abjad.Path.extern()
+Y_Viola_Staff_VIII = <<                                                        %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XV"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XV                                                          %! abjad.Path.extern()
+    \Y_Viola_Voice_XV                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XVI"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XVI                                                         %! abjad.Path.extern()
+    \Y_Viola_Voice_XVI                                                         %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Viola_Voice_XVII_a = {                                                       %! abjad.Path.extern()
+Y_Viola_Voice_XVII_a = {                                                       %! ide.Path.extern()
 
     % [Y Viola_Voice_XVII measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6501,12 +6501,12 @@ Y_Viola_Voice_XVII_a = {                                                       %
     % [Y Viola_Voice_XVII measure 154 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XVII = {                                                         %! abjad.Path.extern()
+Y_Viola_Voice_XVII = {                                                         %! ide.Path.extern()
 
-    \Y_Viola_Voice_XVII_a                                                      %! abjad.Path.extern()
+    \Y_Viola_Voice_XVII_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6538,10 +6538,10 @@ Y_Viola_Voice_XVII = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XVIII_a = {                                                      %! abjad.Path.extern()
+Y_Viola_Voice_XVIII_a = {                                                      %! ide.Path.extern()
 
     % [Y Viola_Voice_XVIII measure 152 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -6573,12 +6573,12 @@ Y_Viola_Voice_XVIII_a = {                                                      %
 
     r2...                                                                      %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Voice_XVIII = {                                                        %! abjad.Path.extern()
+Y_Viola_Voice_XVIII = {                                                        %! ide.Path.extern()
 
-    \Y_Viola_Voice_XVIII_a                                                     %! abjad.Path.extern()
+    \Y_Viola_Voice_XVIII_a                                                     %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6610,21 +6610,21 @@ Y_Viola_Voice_XVIII = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Viola_Staff_IX = <<                                                          %! abjad.Path.extern()
+Y_Viola_Staff_IX = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XVII"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XVII                                                        %! abjad.Path.extern()
+    \Y_Viola_Voice_XVII                                                        %! ide.Path.extern()
 
     \context Voice = "Viola_Voice_XVIII"                                       %! animales.ScoreTemplate._make_staves()
-    \Y_Viola_Voice_XVIII                                                       %! abjad.Path.extern()
+    \Y_Viola_Voice_XVIII                                                       %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_I_a = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_I_a = {                                                          %! ide.Path.extern()
 
     % [Y Cello_Voice_I measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6684,12 +6684,12 @@ Y_Cello_Voice_I_a = {                                                          %
     % [Y Cello_Voice_I measure 154 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_I = {                                                            %! abjad.Path.extern()
+Y_Cello_Voice_I = {                                                            %! ide.Path.extern()
 
-    \Y_Cello_Voice_I_a                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_I_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6721,10 +6721,10 @@ Y_Cello_Voice_I = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_II_a = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_II_a = {                                                         %! ide.Path.extern()
 
     % [Y Cello_Voice_II measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -6754,12 +6754,12 @@ Y_Cello_Voice_II_a = {                                                         %
 
     r8                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_II = {                                                           %! abjad.Path.extern()
+Y_Cello_Voice_II = {                                                           %! ide.Path.extern()
 
-    \Y_Cello_Voice_II_a                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_II_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6791,21 +6791,21 @@ Y_Cello_Voice_II = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_I = <<                                                           %! abjad.Path.extern()
+Y_Cello_Staff_I = <<                                                           %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_I"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_I                                                           %! abjad.Path.extern()
+    \Y_Cello_Voice_I                                                           %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_II"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_II                                                          %! abjad.Path.extern()
+    \Y_Cello_Voice_II                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_III_a = {                                                        %! abjad.Path.extern()
+Y_Cello_Voice_III_a = {                                                        %! ide.Path.extern()
 
     % [Y Cello_Voice_III measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6851,12 +6851,12 @@ Y_Cello_Voice_III_a = {                                                        %
     % [Y Cello_Voice_III measure 154 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_III = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_III = {                                                          %! ide.Path.extern()
 
-    \Y_Cello_Voice_III_a                                                       %! abjad.Path.extern()
+    \Y_Cello_Voice_III_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6888,10 +6888,10 @@ Y_Cello_Voice_III = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_IV_a = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_IV_a = {                                                         %! ide.Path.extern()
 
     % [Y Cello_Voice_IV measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -6938,12 +6938,12 @@ Y_Cello_Voice_IV_a = {                                                         %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_IV = {                                                           %! abjad.Path.extern()
+Y_Cello_Voice_IV = {                                                           %! ide.Path.extern()
 
-    \Y_Cello_Voice_IV_a                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_IV_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6975,21 +6975,21 @@ Y_Cello_Voice_IV = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_II = <<                                                          %! abjad.Path.extern()
+Y_Cello_Staff_II = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_III"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_III                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_III                                                         %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_IV"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_IV                                                          %! abjad.Path.extern()
+    \Y_Cello_Voice_IV                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_V_a = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_V_a = {                                                          %! ide.Path.extern()
 
     % [Y Cello_Voice_V measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7037,12 +7037,12 @@ Y_Cello_Voice_V_a = {                                                          %
 
     r2...                                                                      %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_V = {                                                            %! abjad.Path.extern()
+Y_Cello_Voice_V = {                                                            %! ide.Path.extern()
 
-    \Y_Cello_Voice_V_a                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_V_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7074,10 +7074,10 @@ Y_Cello_Voice_V = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_VI_a = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_VI_a = {                                                         %! ide.Path.extern()
 
     % [Y Cello_Voice_VI measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -7112,12 +7112,12 @@ Y_Cello_Voice_VI_a = {                                                         %
 
     r2                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_VI = {                                                           %! abjad.Path.extern()
+Y_Cello_Voice_VI = {                                                           %! ide.Path.extern()
 
-    \Y_Cello_Voice_VI_a                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_VI_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7149,21 +7149,21 @@ Y_Cello_Voice_VI = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_III = <<                                                         %! abjad.Path.extern()
+Y_Cello_Staff_III = <<                                                         %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_V"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_V                                                           %! abjad.Path.extern()
+    \Y_Cello_Voice_V                                                           %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_VI"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_VI                                                          %! abjad.Path.extern()
+    \Y_Cello_Voice_VI                                                          %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_VII_a = {                                                        %! abjad.Path.extern()
+Y_Cello_Voice_VII_a = {                                                        %! ide.Path.extern()
 
     % [Y Cello_Voice_VII measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7221,12 +7221,12 @@ Y_Cello_Voice_VII_a = {                                                        %
     % [Y Cello_Voice_VII measure 154 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_VII = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_VII = {                                                          %! ide.Path.extern()
 
-    \Y_Cello_Voice_VII_a                                                       %! abjad.Path.extern()
+    \Y_Cello_Voice_VII_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7258,10 +7258,10 @@ Y_Cello_Voice_VII = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_VIII_a = {                                                       %! abjad.Path.extern()
+Y_Cello_Voice_VIII_a = {                                                       %! ide.Path.extern()
 
     % [Y Cello_Voice_VIII measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -7306,12 +7306,12 @@ Y_Cello_Voice_VIII_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_VIII = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_VIII = {                                                         %! ide.Path.extern()
 
-    \Y_Cello_Voice_VIII_a                                                      %! abjad.Path.extern()
+    \Y_Cello_Voice_VIII_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7343,21 +7343,21 @@ Y_Cello_Voice_VIII = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_IV = <<                                                          %! abjad.Path.extern()
+Y_Cello_Staff_IV = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_VII"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_VII                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_VII                                                         %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_VIII"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_VIII                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_VIII                                                        %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_IX_a = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_IX_a = {                                                         %! ide.Path.extern()
 
     % [Y Cello_Voice_IX measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7411,12 +7411,12 @@ Y_Cello_Voice_IX_a = {                                                         %
 
     r4                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_IX = {                                                           %! abjad.Path.extern()
+Y_Cello_Voice_IX = {                                                           %! ide.Path.extern()
 
-    \Y_Cello_Voice_IX_a                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_IX_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7448,10 +7448,10 @@ Y_Cello_Voice_IX = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_X_a = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_X_a = {                                                          %! ide.Path.extern()
 
     % [Y Cello_Voice_X measure 152 / measure 1]                                %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -7472,12 +7472,12 @@ Y_Cello_Voice_X_a = {                                                          %
     % [Y Cello_Voice_X measure 154 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_X = {                                                            %! abjad.Path.extern()
+Y_Cello_Voice_X = {                                                            %! ide.Path.extern()
 
-    \Y_Cello_Voice_X_a                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_X_a                                                         %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7509,21 +7509,21 @@ Y_Cello_Voice_X = {                                                            %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_V = <<                                                           %! abjad.Path.extern()
+Y_Cello_Staff_V = <<                                                           %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_IX"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_IX                                                          %! abjad.Path.extern()
+    \Y_Cello_Voice_IX                                                          %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_X"                                           %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_X                                                           %! abjad.Path.extern()
+    \Y_Cello_Voice_X                                                           %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_XI_a = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_XI_a = {                                                         %! ide.Path.extern()
 
     % [Y Cello_Voice_XI measure 152 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7581,12 +7581,12 @@ Y_Cello_Voice_XI_a = {                                                         %
 
     r2                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_XI = {                                                           %! abjad.Path.extern()
+Y_Cello_Voice_XI = {                                                           %! ide.Path.extern()
 
-    \Y_Cello_Voice_XI_a                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_XI_a                                                        %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7618,10 +7618,10 @@ Y_Cello_Voice_XI = {                                                           %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_XII_a = {                                                        %! abjad.Path.extern()
+Y_Cello_Voice_XII_a = {                                                        %! ide.Path.extern()
 
     % [Y Cello_Voice_XII measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -7664,12 +7664,12 @@ Y_Cello_Voice_XII_a = {                                                        %
 
     r2.                                                                        %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_XII = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_XII = {                                                          %! ide.Path.extern()
 
-    \Y_Cello_Voice_XII_a                                                       %! abjad.Path.extern()
+    \Y_Cello_Voice_XII_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7701,21 +7701,21 @@ Y_Cello_Voice_XII = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_VI = <<                                                          %! abjad.Path.extern()
+Y_Cello_Staff_VI = <<                                                          %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_XI"                                          %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_XI                                                          %! abjad.Path.extern()
+    \Y_Cello_Voice_XI                                                          %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_XII"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_XII                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_XII                                                         %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Cello_Voice_XIII_a = {                                                       %! abjad.Path.extern()
+Y_Cello_Voice_XIII_a = {                                                       %! ide.Path.extern()
 
     % [Y Cello_Voice_XIII measure 152 / measure 1]                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7761,12 +7761,12 @@ Y_Cello_Voice_XIII_a = {                                                       %
     % [Y Cello_Voice_XIII measure 154 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_XIII = {                                                         %! abjad.Path.extern()
+Y_Cello_Voice_XIII = {                                                         %! ide.Path.extern()
 
-    \Y_Cello_Voice_XIII_a                                                      %! abjad.Path.extern()
+    \Y_Cello_Voice_XIII_a                                                      %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7798,10 +7798,10 @@ Y_Cello_Voice_XIII = {                                                         %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_XIV_a = {                                                        %! abjad.Path.extern()
+Y_Cello_Voice_XIV_a = {                                                        %! ide.Path.extern()
 
     % [Y Cello_Voice_XIV measure 152 / measure 1]                              %! baca.SegmentMaker._comment_measure_numbers()
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_BAR_EXTENT:EXPLICIT_BAR_EXTENT
@@ -7831,12 +7831,12 @@ Y_Cello_Voice_XIV_a = {                                                        %
     % [Y Cello_Voice_XIV measure 154 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Voice_XIV = {                                                          %! abjad.Path.extern()
+Y_Cello_Voice_XIV = {                                                          %! ide.Path.extern()
 
-    \Y_Cello_Voice_XIV_a                                                       %! abjad.Path.extern()
+    \Y_Cello_Voice_XIV_a                                                       %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7868,21 +7868,21 @@ Y_Cello_Voice_XIV = {                                                          %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Cello_Staff_VII = <<                                                         %! abjad.Path.extern()
+Y_Cello_Staff_VII = <<                                                         %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_XIII"                                        %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_XIII                                                        %! abjad.Path.extern()
+    \Y_Cello_Voice_XIII                                                        %! ide.Path.extern()
 
     \context Voice = "Cello_Voice_XIV"                                         %! animales.ScoreTemplate._make_staves()
-    \Y_Cello_Voice_XIV                                                         %! abjad.Path.extern()
+    \Y_Cello_Voice_XIV                                                         %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-Y_Contrabass_Voice_III_a = {                                                   %! abjad.Path.extern()
+Y_Contrabass_Voice_III_a = {                                                   %! ide.Path.extern()
 
     % [Y Contrabass_Voice_III measure 152 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7958,12 +7958,12 @@ Y_Contrabass_Voice_III_a = {                                                   %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):RIGHT_BROKEN
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Contrabass_Voice_III = {                                                     %! abjad.Path.extern()
+Y_Contrabass_Voice_III = {                                                     %! ide.Path.extern()
 
-    \Y_Contrabass_Voice_III_a                                                  %! abjad.Path.extern()
+    \Y_Contrabass_Voice_III_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7995,12 +7995,12 @@ Y_Contrabass_Voice_III = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-Y_Contrabass_Staff_II = {                                                      %! abjad.Path.extern()
+Y_Contrabass_Staff_II = {                                                      %! ide.Path.extern()
 
     \context Voice = "Contrabass_Voice_III"                                    %! animales.ScoreTemplate._make_staves()
-    \Y_Contrabass_Voice_III                                                    %! abjad.Path.extern()
+    \Y_Contrabass_Voice_III                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
