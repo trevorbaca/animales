@@ -42,6 +42,15 @@ animales-choke-sound-suddenly-explanation = \markup {
     }
   }
 
+animales-col-legno-battuti-explanation = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "col legno battuti: damp G string with LH; then"
+    "tap G string with wood of bow in rhythm indicated."
+    }
+  }
+
 animales-lh-damped-pdlt-explanation = \markup {
   \override #'(box-padding . 0.5)
   \box

@@ -998,10 +998,19 @@ def margin_markup(
     return command_
 
 
-def _make_margin_markup(markup):
-    return abjad.MarginMarkup(
-        markup=baca.markups.instrument(markup, hcenter_in=16)
-    )
+def _make_margin_markup(name):
+    if isinstance(name, str):
+        string = rf'\markup \hcenter-in #16 "{name}"'
+    elif isinstance(name, list) and len(name) == 2:
+        line_1 = rf'\hcenter-in #16 "{name[0]}"'
+        line_2 = rf'\hcenter-in #16 "{name[1]}"'
+        string = rf'\markup \column {{ {line_1} {line_2} }}'
+    elif isinstance(name, list) and len(name) == 3:
+        line_1 = rf'\hcenter-in #16 "{name[0]}"'
+        line_2 = rf'\hcenter-in #16 "{name[1]}"'
+        line_3 = rf'\hcenter-in #16 "{name[2]}"'
+        string = rf'\markup \column {{ {line_1} {line_2} {line_3} }}'
+    return abjad.MarginMarkup(markup=string)
 
 
 margin_markups = abjad.OrderedDict(
@@ -1323,12 +1332,10 @@ def constellations(
             else:
                 polyphony = upper_voice()
             if first:
-                markup = baca.markups.lines(
-                    [
-                        "col legno battuti: damp G string with LH; then",
-                        "tap G string with wood of bow in rhythm indicated.",
-                    ]
-                ).boxed()
+                markup = abjad.Markup(
+                    r"\animales-col-legno-battuti-explanation",
+                    literal=True,
+                )
                 command: baca.CommandTyping
                 command = baca.markup(markup, selector=baca.leaf(0))
                 command = baca.only_parts(command)
