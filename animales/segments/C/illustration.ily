@@ -2620,16 +2620,7 @@ C_First_Violin_Voice_I_b = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-sub                                                                %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 %%% ^ \markup { "still (non vibrato)" }                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    _ \markup {                                                                %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-                \column                                                        %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-                    {                                                          %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-                        "all other strings:"                                   %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-                        "still (non vibrato)"                                  %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-                    }                                                          %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():-PARTS:baca.IndicatorCommand._call()
+    _ \animales-all-other-strings-still                                        %! baca.markup():-PARTS:baca.IndicatorCommand._call()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START

@@ -79,11 +79,8 @@ maker(
 maker(
     ("Clarinet_Rest_Voice_I", 4),
     baca.markup(
-        baca.markups.lines([
-            "choke sound suddenly:",
-            "touch tongue to reed",
-            "exactly on downbeat",
-        ]).boxed(),
+        r"\animales-choke-sound-suddenly-explanation",
+        literal=True,
         selector=baca.leaf(0),
     ),
     baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),
@@ -190,8 +187,10 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            baca.markups.lines(["suddenly ripped off;", "las. vib. poss."]).boxed(),
+            r"\animales-suddenly-ripped-off",
+            literal=True,
             selector=baca.leaf(0),
+
         ),
     ),
 )
@@ -200,7 +199,8 @@ maker(
     ("First_Violin_Rest_Voice_I", 4),
     baca.not_parts(
         baca.markup(
-            baca.markups.lines(["strings:", "suddenly ripped off;", "las. vib. poss."]).boxed(),
+            r"\animales-strings-suddenly-ripped-off",
+            literal=True,
             selector=baca.leaf(0),
         ),
     ),

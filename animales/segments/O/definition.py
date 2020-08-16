@@ -190,13 +190,8 @@ maker(
     baca.dynamic("f"),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.lines(
-            [
-                "solo: absolutely fixed and determined; ponticello;",
-                "non diminuendo: appear as if by magic",
-            ],
-            boxed=True,
-        ),
+        r"\animales-appear-as-if-by-magic",
+        literal=True,
     ),
     baca.pitch("C#4"),
     baca.stem_tremolo(selector=baca.pleaves()),
