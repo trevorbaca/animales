@@ -257,18 +257,8 @@ O_Global_Skips = {                                                             %
 O_Oboe_Voice_I_a = {                                                           %! ide.Path.extern()
 
     % [O Oboe_Voice_I measure 95 / measure 1]                                  %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-    \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-        \hcenter-in                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-            #16                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-            Ob.                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-        }                                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            Ob.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Ob."             %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Ob."                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)      %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -291,12 +281,7 @@ O_Oboe_Voice_I_a = {                                                           %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-    \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-        \hcenter-in                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-            #16                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-            Ob.                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-        }                                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Ob."             %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
 
     % [O Oboe_Voice_I measure 96 / measure 2]                                  %! baca.SegmentMaker._comment_measure_numbers()
@@ -437,18 +422,8 @@ O_Oboe_Staff_I = {                                                             %
 O_English_Horn_Voice_I_a = {                                                   %! ide.Path.extern()
 
     % [O English_Horn_Voice_I measure 95 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-    \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-        \hcenter-in                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-            #16                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-            "Eng. hn."                                                         %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-        }                                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            "Eng. hn."                                                         %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Eng. hn."             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)      %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -471,12 +446,7 @@ O_English_Horn_Voice_I_a = {                                                   %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-    \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-        \hcenter-in                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-            #16                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-            "Eng. hn."                                                         %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-        }                                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."        %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
 
     % [O English_Horn_Voice_I measure 96 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
@@ -617,18 +587,8 @@ O_English_Horn_Staff_I = {                                                     %
 O_Bassoon_Voice_I_a = {                                                        %! ide.Path.extern()
 
     % [O Bassoon_Voice_I measure 95 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-    \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-        \hcenter-in                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-            #16                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-            Bsn.                                                               %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-        }                                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            Bsn.                                                               %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bsn."            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Bsn."                 %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \clef "bass"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)      %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
@@ -652,12 +612,7 @@ O_Bassoon_Voice_I_a = {                                                        %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.InstrumentName.color = #(x11-color 'violet)                %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-    \markup {                                                                  %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-        \hcenter-in                                                            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-            #16                                                                %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-            Bsn.                                                               %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
-        }                                                                      %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bsn."            %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_DEFAULT_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
 
     % [O Bassoon_Voice_I measure 96 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -947,28 +902,8 @@ O_Bassoon_Staff_I = <<                                                         %
 O_First_Violin_Voice_I_a = {                                                   %! ide.Path.extern()
 
     % [O First_Violin_Voice_I measure 95 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    "Vni. I"                                                   %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (1-4)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (5-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    "Vni. I"                                                   %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (1-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (5-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -1010,17 +945,7 @@ O_First_Violin_Voice_I_a = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    "Vni. I"                                                   %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (1-4)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (5-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O First_Violin_Voice_I measure 96 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
     a''2.                                                                      %! baca.make_repeat_tied_notes()
@@ -1387,28 +1312,8 @@ O_First_Violin_Staff_I = <<                                                    %
 O_First_Violin_Voice_III_a = {                                                 %! ide.Path.extern()
 
     % [O First_Violin_Voice_III measure 95 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    "Vni. I"                                                   %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (9-12)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (13-17)                                                    %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    "Vni. I"                                                   %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (9-12)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (13-17)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -1444,17 +1349,7 @@ O_First_Violin_Voice_III_a = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    "Vni. I"                                                   %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (9-12)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (13-17)                                                    %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O First_Violin_Voice_III measure 96 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
     g''2.                                                                      %! baca.make_repeat_tied_notes()
@@ -1821,26 +1716,8 @@ O_First_Violin_Staff_II = <<                                                   %
 O_First_Violin_Voice_V_a = {                                                   %! ide.Path.extern()
 
     % [O First_Violin_Voice_V measure 95 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    "Vni. I"                                                   %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    18                                                         %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    "Vni. I"                                                   %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    18                                                         %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -1863,16 +1740,7 @@ O_First_Violin_Voice_V_a = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'violet)                          %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    "Vni. I"                                                   %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    18                                                         %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O First_Violin_Voice_V measure 96 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
     cs'2.                                                                      %! baca.make_repeat_tied_notes()
@@ -2015,28 +1883,8 @@ O_First_Violin_Staff_III = {                                                   %
 O_Second_Violin_Voice_I_a = {                                                  %! ide.Path.extern()
 
     % [O Second_Violin_Voice_I measure 95 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    "Vni. II"                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (1-4)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (5-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    "Vni. II"                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (1-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (5-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -2072,17 +1920,7 @@ O_Second_Violin_Voice_I_a = {                                                  %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    "Vni. II"                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (1-4)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (5-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O Second_Violin_Voice_I measure 96 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
@@ -2454,28 +2292,8 @@ O_Second_Violin_Staff_I = <<                                                   %
 O_Second_Violin_Voice_III_a = {                                                %! ide.Path.extern()
 
     % [O Second_Violin_Voice_III measure 95 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    "Vni. II"                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (9-12)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (13-18)                                                    %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    "Vni. II"                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (9-12)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (13-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -2511,17 +2329,7 @@ O_Second_Violin_Voice_III_a = {                                                %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    "Vni. II"                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (9-12)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (13-18)                                                    %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O Second_Violin_Voice_III measure 96 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
     a'2.                                                                       %! baca.make_repeat_tied_notes()
@@ -2888,28 +2696,8 @@ O_Second_Violin_Staff_II = <<                                                  %
 O_Viola_Voice_I_a = {                                                          %! ide.Path.extern()
 
     % [O Viola_Voice_I measure 95 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    Vle.                                                       %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (1-4)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (5-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    Vle.                                                       %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (1-4)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (5-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -2945,17 +2733,7 @@ O_Viola_Voice_I_a = {                                                          %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    Vle.                                                       %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (1-4)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (5-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O Viola_Voice_I measure 96 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
     d'2.                                                                       %! baca.make_repeat_tied_notes()
@@ -3322,28 +3100,8 @@ O_Viola_Staff_I = <<                                                           %
 O_Viola_Voice_III_a = {                                                        %! ide.Path.extern()
 
     % [O Viola_Voice_III measure 95 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    Vle.                                                       %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (9-12)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (13-18)                                                    %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    Vle.                                                       %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (9-12)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (13-18)                                                    %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -3379,17 +3137,7 @@ O_Viola_Voice_III_a = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    Vle.                                                       %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (9-12)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (13-18)                                                    %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O Viola_Voice_III measure 96 / measure 2]                               %! baca.SegmentMaker._comment_measure_numbers()
     b2.                                                                        %! baca.make_repeat_tied_notes()
@@ -3756,28 +3504,8 @@ O_Viola_Staff_II = <<                                                          %
 O_Cello_Voice_I_a = {                                                          %! ide.Path.extern()
 
     % [O Cello_Voice_I measure 95 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    Vc.                                                        %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (1-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                    (9-14)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            \center-column                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                {                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    Vc.                                                        %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (1-8)                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                    (9-14)                                                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-                }                                                              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
 %%% \override TextScript.extra-offset = #'(1 . 3)                              %! baca.text_script_extra_offset():+PARTS:baca.OverrideCommand._call(1)
 %%% \override TextSpanner.staff-padding = #5                                   %! baca.text_spanner_staff_padding():+PARTS:baca.OverrideCommand._call(1)
     \override DynamicText.stencil = ##f                                        %! baca.dynamic_text_stencil_false():-PARTS:baca.OverrideCommand._call(1)
@@ -3813,17 +3541,7 @@ O_Cello_Voice_I_a = {                                                          %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            \center-column                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                {                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    Vc.                                                        %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (1-8)                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                    (9-14)                                                     %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-                }                                                              %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O Cello_Voice_I measure 96 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
     d2.                                                                        %! baca.make_repeat_tied_notes()
@@ -4195,18 +3913,8 @@ O_Cello_Staff_I = <<                                                           %
 O_Contrabass_Voice_III_a = {                                                   %! ide.Path.extern()
 
     % [O Contrabass_Voice_III measure 95 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-            Cb.                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
-    \set Staff.instrumentName =                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \markup {                                                                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \hcenter-in                                                            %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            #16                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-            Cb.                                                                %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        }                                                                      %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."             %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \clef "bass"                                                               %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -4236,12 +3944,7 @@ O_Contrabass_Voice_III_a = {                                                   %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
-    \set Staff.shortInstrumentName =                                           %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-    \markup {                                                                  %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        \hcenter-in                                                            %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            #16                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-            Cb.                                                                %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
-        }                                                                      %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."             %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
     % [O Contrabass_Voice_III measure 96 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
     g,2.                                                                       %! baca.make_repeat_tied_notes()
