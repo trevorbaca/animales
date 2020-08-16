@@ -114,12 +114,9 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.edition(
         baca.markup("LH-damped près de la table", boxed=True),
-        baca.markups.lines(
-            [
-                "LH-damped près de la table:",
-                "LH damps at soundboard; RH plucks string at usual position",
-            ],
-            boxed=True,
+        baca.markup(
+            r"\ikribu-lh-damped-pdlt-explanation",
+            literal=True,
         ),
     ),
     baca.pitch("D5"),

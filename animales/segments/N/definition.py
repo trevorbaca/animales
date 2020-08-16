@@ -333,12 +333,11 @@ most_strings = [
     "Contrabass_Rest_Voice_III",
 ]
 
-lines = ["suddenly ripped off;", "las. vib. possibile"]
-
 maker(
     ("First_Violin_Rest_Voice_I", 4),
     baca.markup(
-        baca.markups.lines(lines).boxed(),
+        r"\animales-suddenly-ripped-off",
+        literal=True,
         selector=baca.leaf(0),
     ),
 )
@@ -347,7 +346,8 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            baca.markups.lines(lines).boxed(),
+            r"\animales-suddenly-ripped-off",
+            literal=True,
             selector=baca.leaf(0),
         ),
     ),

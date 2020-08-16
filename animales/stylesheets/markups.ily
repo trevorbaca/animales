@@ -12,3 +12,69 @@ animales-colophon-markup = \markup {
         }
     }
 
+%%% DIRECTIVES %%%
+
+animales-all-other-strings-still = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "all other strings:"
+    "still (non vibrato)"
+    }
+  }
+
+animales-appear-as-if-by-magic = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "solo: absolutely fixed and determined; ponticello;"
+    "non diminuendo: appear as if by magic"
+    }
+  }
+
+animales-choke-sound-suddenly-explanation = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "choke sound suddenly:",
+    "touch tongue to reed"
+    "exactly on downbeat"
+    }
+  }
+
+animales-lh-damped-pdlt-explanation = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "LH-damped près de la table:"
+    "LH damps at soundboard; RH plucks string at usual position"
+    }
+  }
+
+animales-stonecircle = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "stonecircle: scrape slate slowly in circle;"
+    "one quarter diameter of circle every quarter note"
+    }
+  }
+
+animales-strings-suddenly-ripped-off = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "strings:"
+    "suddenly ripped off;"
+    "las. vib. poss."
+    }
+  }
+
+animales-suddenly-ripped-off = \markup {
+  \override #'(box-padding . 0.5)
+  \box
+  \column {
+    "suddenly ripped off;"
+    "las. vib. poss."
+    }
+  }

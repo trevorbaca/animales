@@ -556,16 +556,7 @@ F_Harp_Voice_I_a = {                                                           %
                 \box                                                           %! baca.markup():-PARTS:baca.IndicatorCommand._call()
                     "LH-damped près de la table"                               %! baca.markup():-PARTS:baca.IndicatorCommand._call()
             }                                                                  %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-    %%% ^ \markup {                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%     \override                                                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%         #'(box-padding . 0.5)                                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%         \box                                                           %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%             \column                                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%                 {                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%                     "LH-damped près de la table:"                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%                     "LH damps at soundboard; RH plucks string at usual position" %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%                 }                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    %%%     }                                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+    %%% ^ \ikribu-lh-damped-pdlt-explanation                                   %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 

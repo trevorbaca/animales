@@ -251,9 +251,9 @@ maker(
     animales.parts("First_Violin", (2, 10)),
     baca.not_parts(
         baca.markup(
-            baca.markups.lines([
-                "all other strings:", "still (non vibrato)"]).boxed(),
+            r"\animales-all-other-strings-still",
             direction=abjad.Down,
+            literal=True,
         ),
     ),
     baca.not_parts(baca.voice_two()),

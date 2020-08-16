@@ -81,13 +81,8 @@ maker(
     baca.dynamic('"mf"'),
     baca.make_tied_repeated_durations([(1, 4)]),
     baca.markup(
-        baca.markups.lines(
-            [
-                "stonecircle: scrape slate slowly in circle;",
-                "one quarter diameter of circle every quarter note",
-            ],
-            boxed=True,
-        ),
+        r"\animales-sonecircle",
+        literal=True,
     ),
     baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),

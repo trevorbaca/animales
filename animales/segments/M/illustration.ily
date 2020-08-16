@@ -2083,16 +2083,7 @@ M_First_Violin_Voice_I_a = {                                                   %
 
             % [M First_Violin_Rest_Voice_I measure 85 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        \column                                                %! baca.markup():baca.IndicatorCommand._call()
-                            {                                                  %! baca.markup():baca.IndicatorCommand._call()
-                                "suddenly ripped off;"                         %! baca.markup():baca.IndicatorCommand._call()
-                                "las. vib. possibile"                          %! baca.markup():baca.IndicatorCommand._call()
-                            }                                                  %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \animales-suddenly-ripped-off                                    %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
@@ -2234,16 +2225,7 @@ M_Second_Violin_Voice_I_a = {                                                  %
 
             % [M Second_Violin_Rest_Voice_I measure 85 / measure 4]            %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \override                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #'(box-padding . 0.5)                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         \box                                                       %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%             \column                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 {                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "suddenly ripped off;"                         %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "las. vib. possibile"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 }                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \animales-suddenly-ripped-off                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
@@ -2382,16 +2364,7 @@ M_Viola_Voice_I_a = {                                                          %
 
             % [M Viola_Rest_Voice_I measure 85 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \override                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #'(box-padding . 0.5)                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         \box                                                       %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%             \column                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 {                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "suddenly ripped off;"                         %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "las. vib. possibile"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 }                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \animales-suddenly-ripped-off                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
@@ -2530,16 +2503,7 @@ M_Cello_Voice_I_a = {                                                          %
 
             % [M Cello_Rest_Voice_I measure 85 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \override                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #'(box-padding . 0.5)                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         \box                                                       %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%             \column                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 {                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "suddenly ripped off;"                         %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "las. vib. possibile"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 }                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \animales-suddenly-ripped-off                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
@@ -2826,16 +2790,7 @@ M_Contrabass_Voice_III_a = {                                                   %
 
             % [M Contrabass_Rest_Voice_III measure 85 / measure 4]             %! baca.SegmentMaker._comment_measure_numbers()
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \override                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #'(box-padding . 0.5)                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         \box                                                       %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%             \column                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 {                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "suddenly ripped off;"                         %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                     "las. vib. possibile"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%                 }                                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \animales-suddenly-ripped-off                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
