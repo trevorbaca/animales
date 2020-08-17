@@ -103,14 +103,14 @@ maker(
 
 maker(
     ("perc1", (3, 6)),
-    baca.markup("triangle (small beater)", boxed=True),
+    baca.markup(r'\baca-boxed-markup "triangle (small beater)"', literal=True),
 )
 
 maker(
     ("perc2", (3, 6)),
     baca.markup(
-        "suspended cymbal (soft yarn mallets: attackless sound)",
-        boxed=True,
+        r'\baca-boxed-markup "suspended cymbal (soft yarn mallets: attackless sound)"',
+        literal=True,
     ),
 )
 

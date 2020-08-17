@@ -61,8 +61,8 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.make_notes(),
     baca.markup(
-        "harmonic: touch lowest string of piano 1 cm from hammers",
-        boxed=True,
+        r'\baca-boxed-markup "harmonic: touch lowest string of piano 1 cm from hammers"',
+        literal=True,
     ),
     baca.pitch("C#4"),
     baca.only_parts(baca.text_script_x_offset(3)),

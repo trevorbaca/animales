@@ -1380,12 +1380,7 @@ X_Percussion_Voice_III_a = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"                        %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                "bass drum (soft yarn mallets: attackless sound)"              %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "bass drum (soft yarn mallets: attackless sound)"     %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-explicit-indicator-markup "[“Perc. 3 (BD)”]"                       %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -1483,12 +1478,7 @@ X_Percussion_Voice_IV_a = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup {                                                                %! baca.markup():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():baca.IndicatorCommand._call()
-                "tam-tam (soft yarn mallets: attackless sound)"                %! baca.markup():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "tam-tam (soft yarn mallets: attackless sound)"       %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-explicit-indicator-markup "[“Perc. 4 (tam.)”]"                     %! EXPLICIT_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START

@@ -113,9 +113,12 @@ maker(
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.edition(
-        baca.markup("LH-damped près de la table", boxed=True),
         baca.markup(
-            r"\ikribu-lh-damped-pdlt-explanation",
+            r'\baca-boxed-markup "LH-damped près de la table"',
+            literal=True,
+        ),
+        baca.markup(
+            r"\animales-lh-damped-pdlt-explanation",
             literal=True,
         ),
     ),
@@ -131,7 +134,10 @@ maker(
     animales.harp_exchange_rhythm(3, silence_first=True),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup("mute with LH inside piano: dull thud", boxed=True),
+    baca.markup(
+        r'\baca-boxed-markup "mute with LH inside piano: dull thud"',
+        literal=True,
+    ),
     baca.pitch("D5"),
     baca.stopped(selector=baca.pheads()),
 )
@@ -168,7 +174,10 @@ maker(
     baca.clef("treble"),
     baca.dynamic("mp"),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup("vibraphone", boxed=True),
+    baca.markup(
+        r'\baca-boxed-markup "vibraphone"',
+        literal=True,
+    ),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch("D5"),
 )
@@ -180,7 +189,10 @@ maker(
     animales.parts("First_Violin"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("strings: still (non vib.)", boxed=True),
+        baca.markup(
+            r'\baca-boxed-markup "strings: still (non vib.)"',
+            literal=True,
+        ),
     ),
     baca.pitch("Bb6"),
 )
