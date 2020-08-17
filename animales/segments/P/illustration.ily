@@ -2822,18 +2822,8 @@ P_First_Violin_Voice_I_a = {                                                   %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup {                                                                %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-                "tutti: sim."                                                  %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup "tutti: sim."                                         %! baca.markup():-PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -2985,12 +2975,7 @@ P_First_Violin_Voice_II_a = {                                                  %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -3159,12 +3144,7 @@ P_First_Violin_Voice_III_a = {                                                 %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"             %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -3316,12 +3296,7 @@ P_First_Violin_Voice_IV_a = {                                                  %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -3629,12 +3604,7 @@ P_Second_Violin_Voice_I_a = {                                                  %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -3791,12 +3761,7 @@ P_Second_Violin_Voice_II_a = {                                                 %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -3965,12 +3930,7 @@ P_Second_Violin_Voice_III_a = {                                                %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4122,12 +4082,7 @@ P_Second_Violin_Voice_IV_a = {                                                 %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4296,12 +4251,7 @@ P_Viola_Voice_I_a = {                                                          %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4453,12 +4403,7 @@ P_Viola_Voice_II_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4627,12 +4572,7 @@ P_Viola_Voice_III_a = {                                                        %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4784,12 +4724,7 @@ P_Viola_Voice_IV_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -4958,12 +4893,7 @@ P_Cello_Voice_I_a = {                                                          %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -5120,12 +5050,7 @@ P_Cello_Voice_II_a = {                                                         %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -5288,12 +5213,7 @@ P_Contrabass_Voice_III_a = {                                                   %
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
     ^ \baca-reapplied-indicator-markup "[“Cb.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \override                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #'(box-padding . 0.5)                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         \box                                                               %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%             "ext. ponticello: like acide"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \baca-boxed-markup "ext. ponticello: like acid"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START

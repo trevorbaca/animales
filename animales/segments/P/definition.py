@@ -294,7 +294,10 @@ def tremolo_suite():
         baca.dynamic("ff"),
         baca.hairpin("ff > pp", selector=baca.pleaves()[2:-2]),
         baca.only_parts(
-            baca.markup("ext. ponticello: like acide", boxed=True),
+            baca.markup(
+                r'\baca-boxed-markup "ext. ponticello: like acid"',
+                literal=True,
+            ),
         ),
         baca.text_spanner(
             "ext. pont. => tasto",
@@ -340,7 +343,10 @@ maker(
     animales.parts("First_Violin", (1, 4)),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("tutti: sim.", boxed=True),
+        baca.markup(
+            r'\baca-boxed-markup "tutti: sim."',
+            literal=True,
+        ),
     ),
     baca.pitch("A5"),
     tremolo_suite(),

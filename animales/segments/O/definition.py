@@ -153,7 +153,10 @@ def tremolo_suite():
             selector=baca.pleaves()[2:-2],
         ),
         baca.only_parts(
-            baca.markup("ext. ponticello: like acid", boxed=True),
+            baca.markup(
+                r'\baca-boxed-markup "ext. ponticello: like acid"',
+                literal=True,
+            ),
         ),
         baca.text_spanner(
             "ext. pont. => tasto",
@@ -231,7 +234,10 @@ maker(
     animales.margin_markup("Vni. I (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("tutti: ext. ponticello: like acid", boxed=True),
+        baca.markup(
+            r'\baca-boxed-markup "tutti: ext. ponticello: like acid"',
+            literal=True,
+        ),
     ),
     baca.not_parts(baca.markup("1-4 + 5-8")),
     baca.pitch("A5"),

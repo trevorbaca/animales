@@ -167,8 +167,8 @@ maker(
 maker(
     ("Clarinet_Rest_Voice_I", 4),
     baca.markup(
-        "choke sound suddenly",
-        boxed=True,
+        r'\baca-boxed-markup "choke sound suddenly"',
+        literal=True,
         selector=baca.leaf(0),
     ),
 )
