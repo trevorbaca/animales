@@ -228,20 +228,6 @@ maker(
     baca.make_repeat_tied_notes(),
 )
 
-warning = abjad.Markup.line([
-    abjad.Markup.concat([
-        "(",
-        "B",
-        abjad.Markup.flat().scale((0.65, 0.65)).raise_(0.5),
-    ]),
-    abjad.Markup("="),
-    abjad.Markup.concat([
-        "A",
-        abjad.Markup.sharp().scale((0.55, 0.55)).raise_(0.8),
-        ")",
-    ]),
-])
-warning = warning.scale((1.25, 1.25))
 maker(
     "cb3",
     baca.suite(
@@ -250,8 +236,18 @@ maker(
         baca.pitch("Bb1", selector=baca.leaves()[1:]),
         baca.repeat_tie(selector=baca.leaf(1)),
         baca.edition(
-            baca.markup(warning, selector=baca.leaf(1), direction=abjad.Down),
-            baca.markup(warning, selector=baca.leaf(1), direction=abjad.Up),
+            baca.markup(
+                r"\animales-b-flat-equals-a-sharp",
+                direction=abjad.Down,
+                literal=True,
+                selector=baca.leaf(1),
+            ),
+            baca.markup(
+                r"\animales-b-flat-equals-a-sharp",
+                direction=abjad.Up,
+                literal=True,
+                selector=baca.leaf(1),
+            ),
         ),
     ),
 )

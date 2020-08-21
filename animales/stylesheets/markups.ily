@@ -32,6 +32,15 @@ animales-appear-as-if-by-magic = \markup {
     }
   }
 
+animales-b-flat-equals-a-sharp = \markup {
+  \scale #'(1.25 . 1.25)
+  \line {
+      \concat { ( B \raise #0.5 \scale #'(0.65 . 0.65) \flat }
+      =
+      \concat { A \raise #0.8 \scale #'(0.55 . 0.55) \sharp) }
+    }
+  }
+
 animales-choke-sound-suddenly-explanation = \markup {
   \override #'(box-padding . 0.5)
   \box
