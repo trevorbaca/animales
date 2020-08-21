@@ -44,7 +44,10 @@ def attach_grand_pause_fermatas(
     assert maker.score_template is not None
     dummy_score = maker.score_template()
     for voice in abjad.iterate(dummy_score).components(abjad.Voice):
-        markup = abjad.Markup.musicglyph("scripts.ufermata")
+        markup = abjad.Markup(
+            r'\markup \musicglyph #"scripts.ufermata"',
+            literal=True,
+        )
         markup = baca.markup(markup, selector=baca.leaf(0))
         string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
         literal_1 = baca.literal(string)

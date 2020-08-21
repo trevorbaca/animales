@@ -267,10 +267,7 @@ CC_Piano_Voice_I_a = {                                                         %
         %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \musicglyph                                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #"scripts.ufermata"                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -539,10 +536,7 @@ CC_Percussion_Voice_IV_a = {                                                   %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
 }                                                                              %! ide.Path.extern()

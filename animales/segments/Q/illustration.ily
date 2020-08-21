@@ -283,10 +283,7 @@ Q_Horn_Voice_I_a = {                                                           %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_I measure 122 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
@@ -309,10 +306,7 @@ Q_Horn_Voice_I_a = {                                                           %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_I measure 127 / measure 9]                                 %! baca.SegmentMaker._comment_measure_numbers()
@@ -412,10 +406,7 @@ Q_Horn_Voice_III_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_III measure 122 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -438,10 +429,7 @@ Q_Horn_Voice_III_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_III measure 127 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -565,10 +553,7 @@ Q_Horn_Voice_II_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_II measure 122 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -591,10 +576,7 @@ Q_Horn_Voice_II_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_II measure 127 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -694,10 +676,7 @@ Q_Horn_Voice_IV_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_IV measure 122 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -720,10 +699,7 @@ Q_Horn_Voice_IV_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Horn_Voice_IV measure 127 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -847,10 +823,7 @@ Q_Trumpet_Voice_I_a = {                                                        %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_I measure 122 / measure 4]                              %! baca.SegmentMaker._comment_measure_numbers()
@@ -873,10 +846,7 @@ Q_Trumpet_Voice_I_a = {                                                        %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_I measure 127 / measure 9]                              %! baca.SegmentMaker._comment_measure_numbers()
@@ -976,10 +946,7 @@ Q_Trumpet_Voice_III_a = {                                                      %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_III measure 122 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1002,10 +969,7 @@ Q_Trumpet_Voice_III_a = {                                                      %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_III measure 127 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1129,10 +1093,7 @@ Q_Trumpet_Voice_II_a = {                                                       %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_II measure 122 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -1155,10 +1116,7 @@ Q_Trumpet_Voice_II_a = {                                                       %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_II measure 127 / measure 9]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -1258,10 +1216,7 @@ Q_Trumpet_Voice_IV_a = {                                                       %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_IV measure 122 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -1284,10 +1239,7 @@ Q_Trumpet_Voice_IV_a = {                                                       %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trumpet_Voice_IV measure 127 / measure 9]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -1411,10 +1363,7 @@ Q_Trombone_Voice_I_a = {                                                       %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_I measure 122 / measure 4]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -1437,10 +1386,7 @@ Q_Trombone_Voice_I_a = {                                                       %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_I measure 127 / measure 9]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -1540,10 +1486,7 @@ Q_Trombone_Voice_III_a = {                                                     %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_III measure 122 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
@@ -1566,10 +1509,7 @@ Q_Trombone_Voice_III_a = {                                                     %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_III measure 127 / measure 9]                           %! baca.SegmentMaker._comment_measure_numbers()
@@ -1693,10 +1633,7 @@ Q_Trombone_Voice_II_a = {                                                      %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_II measure 122 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1719,10 +1656,7 @@ Q_Trombone_Voice_II_a = {                                                      %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_II measure 127 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1822,10 +1756,7 @@ Q_Trombone_Voice_IV_a = {                                                      %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_IV measure 122 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1848,10 +1779,7 @@ Q_Trombone_Voice_IV_a = {                                                      %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Trombone_Voice_IV measure 127 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1974,10 +1902,7 @@ Q_First_Violin_Voice_I_a = {                                                   %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_I measure 122 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -2058,10 +1983,7 @@ Q_First_Violin_Voice_I_a = {                                                   %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_I measure 127 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -2220,10 +2142,7 @@ Q_First_Violin_Voice_II_a = {                                                  %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_II measure 122 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -2304,10 +2223,7 @@ Q_First_Violin_Voice_II_a = {                                                  %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_II measure 127 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -2489,10 +2405,7 @@ Q_First_Violin_Voice_III_a = {                                                 %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_III measure 122 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -2573,10 +2486,7 @@ Q_First_Violin_Voice_III_a = {                                                 %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_III measure 127 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -2735,10 +2645,7 @@ Q_First_Violin_Voice_IV_a = {                                                  %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_IV measure 122 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -2819,10 +2726,7 @@ Q_First_Violin_Voice_IV_a = {                                                  %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q First_Violin_Voice_IV measure 127 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -2997,10 +2901,7 @@ Q_First_Violin_Voice_V_a = {                                                   %
         %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \musicglyph                                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #"scripts.ufermata"                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -3060,10 +2961,7 @@ Q_First_Violin_Voice_V_a = {                                                   %
         %%% \once \override Score.TimeSignature.stencil = ##f                  %! baca.literal():+PARTS:baca.IndicatorCommand._call()
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
-        %%% ^ \markup {                                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     \musicglyph                                                    %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%         #"scripts.ufermata"                                        %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-        %%%     }                                                              %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -3213,10 +3111,7 @@ Q_Second_Violin_Voice_I_a = {                                                  %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_I measure 122 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -3299,10 +3194,7 @@ Q_Second_Violin_Voice_I_a = {                                                  %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_I measure 127 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -3463,10 +3355,7 @@ Q_Second_Violin_Voice_II_a = {                                                 %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_II measure 122 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -3547,10 +3436,7 @@ Q_Second_Violin_Voice_II_a = {                                                 %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_II measure 127 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -3732,10 +3618,7 @@ Q_Second_Violin_Voice_III_a = {                                                %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_III measure 122 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
@@ -3816,10 +3699,7 @@ Q_Second_Violin_Voice_III_a = {                                                %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_III measure 127 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
@@ -3978,10 +3858,7 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_IV measure 122 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -4062,10 +3939,7 @@ Q_Second_Violin_Voice_IV_a = {                                                 %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Second_Violin_Voice_IV measure 127 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -4247,10 +4121,7 @@ Q_Viola_Voice_I_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_I measure 122 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -4331,10 +4202,7 @@ Q_Viola_Voice_I_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_I measure 127 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -4493,10 +4361,7 @@ Q_Viola_Voice_II_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_II measure 122 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -4577,10 +4442,7 @@ Q_Viola_Voice_II_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_II measure 127 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -4762,10 +4624,7 @@ Q_Viola_Voice_III_a = {                                                        %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_III measure 122 / measure 4]                              %! baca.SegmentMaker._comment_measure_numbers()
@@ -4846,10 +4705,7 @@ Q_Viola_Voice_III_a = {                                                        %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_III measure 127 / measure 9]                              %! baca.SegmentMaker._comment_measure_numbers()
@@ -5008,10 +4864,7 @@ Q_Viola_Voice_IV_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_IV measure 122 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -5092,10 +4945,7 @@ Q_Viola_Voice_IV_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Viola_Voice_IV measure 127 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -5277,10 +5127,7 @@ Q_Cello_Voice_I_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Cello_Voice_I measure 122 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -5363,10 +5210,7 @@ Q_Cello_Voice_I_a = {                                                          %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Cello_Voice_I measure 127 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
@@ -5527,10 +5371,7 @@ Q_Cello_Voice_II_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Cello_Voice_II measure 122 / measure 4]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -5611,10 +5452,7 @@ Q_Cello_Voice_II_a = {                                                         %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Cello_Voice_II measure 127 / measure 9]                               %! baca.SegmentMaker._comment_measure_numbers()
@@ -5791,10 +5629,7 @@ Q_Contrabass_Voice_III_a = {                                                   %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Contrabass_Voice_III measure 122 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -5875,10 +5710,7 @@ Q_Contrabass_Voice_III_a = {                                                   %
 %%% \once \override Score.MultiMeasureRest.transparent = ##t                   %! baca.literal():+PARTS:baca.IndicatorCommand._call()
 %%% \once \override Score.TimeSignature.stencil = ##f                          %! baca.literal():+PARTS:baca.IndicatorCommand._call()
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_measure_silences()
-%%% ^ \markup {                                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     \musicglyph                                                            %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%         #"scripts.ufermata"                                                %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-%%%     }                                                                      %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+%%% ^ \markup \musicglyph #"scripts.ufermata"                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [Q Contrabass_Voice_III measure 127 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
