@@ -48,14 +48,14 @@ def attach_grand_pause_fermatas(
             r'\markup \musicglyph #"scripts.ufermata"',
             literal=True,
         )
-        markup = baca.markup(markup, selector=baca.leaf(0))
+        markup_command = baca.markup(markup, selector=baca.leaf(0))
         string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
         literal_1 = baca.literal(string)
         string = r"\once \override Score.TimeSignature.stencil = ##f"
         literal_2 = baca.literal(string)
         maker(
             (voice.name, measure),
-            baca.only_parts(markup),
+            baca.only_parts(markup_command),
             baca.only_parts(literal_1),
             baca.only_parts(literal_2),
         )
