@@ -114,7 +114,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.edition(
         baca.markup(
-            r'\baca-boxed-markup "LH-damped près de la table"',
+            r"\animales-lh-damped-pdlt-markup",
             literal=True,
         ),
         baca.markup(
@@ -135,7 +135,7 @@ maker(
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup(
-        r'\baca-boxed-markup "mute with LH inside piano: dull thud"',
+        r"\animales-mute-with-lh-inside-piano-dull-thud-markup",
         literal=True,
     ),
     baca.pitch("D5"),
@@ -175,7 +175,7 @@ maker(
     baca.dynamic("mp"),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup(
-        r'\baca-boxed-markup "vibraphone"',
+        r"\animales-vibraphone-markup",
         literal=True,
     ),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
@@ -190,7 +190,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(
-            r'\baca-boxed-markup "strings: still (non vib.)"',
+            r"\animales-strings-still-non-vib-markup",
             literal=True,
         ),
     ),
@@ -222,7 +222,10 @@ maker(
     "cb3",
     animales.margin_markup(
         "Cb. (2-6)",
-        alert=baca.markup("(cb. 2-6)"),
+        alert=baca.markup(
+            r"\animales-cb-two-to-six-markup",
+            literal=True,
+        ),
     ),
     animales.parts("Contrabass", (2, 6)),
     baca.make_repeat_tied_notes(),
@@ -263,7 +266,10 @@ maker(
     (upper_strings, 1),
     baca.dynamic("pp"),
     baca.only_parts(
-        baca.markup("still (non vibrato)"),
+        baca.markup(
+            r"\animales-still-non-vibrato-markup",
+            literal=True,
+        ),
     ),
 )
 
@@ -271,7 +277,10 @@ maker(
     ("cb3", 1),
     baca.dynamic("p"),
     baca.only_parts(
-        baca.markup("still (non vibrato)"),
+        baca.markup(
+            r"\animales-still-non-vibrato-markup",
+            literal=True,
+        ),
     ),
 )
 
@@ -299,9 +308,13 @@ maker(
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup(
-        "8th partial / D (harmonics at sounding pitch)",
+        r"\animales-eighth-partial-of-d-markup",
+        literal=True,
     ),
-    baca.markup("pizz."),
+    baca.markup(
+        r"\baca-pizz-markup",
+        literal=True,
+    ),
     baca.note_head_style_harmonic(),
     baca.pitch("D5", do_not_transpose=True),
 )

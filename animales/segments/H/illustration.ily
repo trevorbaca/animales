@@ -1288,7 +1288,7 @@ H_Contrabass_Voice_I_a = {                                                     %
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
         cqf''!8                                                                %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
-        ^ \markup { "7th partial / D (sounds slightly flat)" }                 %! baca.markup():baca.IndicatorCommand._call()
+        ^ \animales-seventh-partial-of-d-markup                                %! baca.markup():baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 

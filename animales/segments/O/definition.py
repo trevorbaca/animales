@@ -154,7 +154,7 @@ def tremolo_suite():
         ),
         baca.only_parts(
             baca.markup(
-                r'\baca-boxed-markup "ext. ponticello: like acid"',
+                r"\animales-ext-ponticello-like-acid-markup",
                 literal=True,
             ),
         ),
@@ -235,12 +235,15 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(
-            r'\baca-boxed-markup "tutti: ext. ponticello: like acid"',
+            r"\animales-tutti-ext-ponticello-like-acid-markup",
             literal=True,
         ),
     ),
     baca.not_parts(
-        baca.markup("1-4 + 5-8"),
+        baca.markup(
+            r"\animales-one-to-four-plus-five-to-eight-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("A5"),
     tremolo_suite(),
@@ -260,7 +263,10 @@ maker(
     animales.margin_markup("Vni. I (9-12) (13-17)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("9-12 + 13-17"),
+        baca.markup(
+            r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("G5"),
     tremolo_suite(),
@@ -282,7 +288,10 @@ maker(
     animales.margin_markup("Vni. II (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("1-4 + 5-8"),
+        baca.markup(
+            r"\animales-one-to-four-plus-five-to-eight-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("B4"),
     tremolo_suite(),
@@ -302,7 +311,10 @@ maker(
     animales.margin_markup("Vni. II (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("9-12 + 13-18"),
+        baca.markup(
+            r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("A4"),
     tremolo_suite(),
@@ -324,7 +336,10 @@ maker(
     animales.margin_markup("Vle. (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("1-4 + 5-8"),
+        baca.markup(
+            r"\animales-one-to-four-plus-five-to-eight-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("D4"),
     tremolo_suite(),
@@ -344,7 +359,10 @@ maker(
     animales.margin_markup("Vle. (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("9-12 + 13-18"),
+        baca.markup(
+            r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("B3"),
     tremolo_suite(),
@@ -366,7 +384,10 @@ maker(
     animales.margin_markup("Vc. (1-8) (9-14)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("1-8 + 9-14"),
+        baca.markup(
+            r"\animales-one-to-eight-plus-nine-to-fourteen-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("D3"),
     tremolo_suite(),
@@ -388,7 +409,10 @@ maker(
     animales.margin_markup("Cb."),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup("Cb. tutti"),
+        baca.markup(
+            r"\animales-cb-tutti-markup",
+            literal=True,
+        ),
     ),
     baca.pitch("G1"),
     #    baca.tag(

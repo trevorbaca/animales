@@ -112,7 +112,7 @@ maker(
 maker(
     ("perc2", (3, 6)),
     baca.markup(
-        r'\baca-boxed-markup "suspended cymbal (soft yarn mallets: attackless sound)"',
+        r"\animales-suspended-cymbal-markup",
         literal=True,
     ),
 )
@@ -240,7 +240,10 @@ maker(
     baca.dynamic("p-sub"),
     baca.make_repeat_tied_notes(),
     baca.only_parts(
-        baca.markup("still (non vibrato)"),
+        baca.markup(
+            r"\animales-still-non-vibrato-markup",
+            literal=True,
+        ),
     ),
     baca.pitch(0),
 )
