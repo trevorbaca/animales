@@ -81,7 +81,7 @@ maker(
     baca.dynamic('"mf"'),
     baca.make_tied_repeated_durations([(1, 4)]),
     baca.markup(
-        r"\animales-stonecircle",
+        r"\animales-stonecircle-markup",
         literal=True,
     ),
     baca.only_parts(baca.text_script_x_offset(3)),

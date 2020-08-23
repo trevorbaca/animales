@@ -103,7 +103,10 @@ maker(
 
 maker(
     ("perc1", (3, 6)),
-    baca.markup(r'\baca-boxed-markup "triangle (small beater)"', literal=True),
+    baca.markup(
+        r"\animales-triangle-small-beater-markup",
+        literal=True,
+    ),
 )
 
 maker(
@@ -236,7 +239,9 @@ maker(
     (strings, (3, 6)),
     baca.dynamic("p-sub"),
     baca.make_repeat_tied_notes(),
-    baca.only_parts(baca.markup("still (non vibrato)")),
+    baca.only_parts(
+        baca.markup("still (non vibrato)"),
+    ),
     baca.pitch(0),
 )
 
@@ -251,7 +256,7 @@ maker(
     animales.parts("First_Violin", (2, 10)),
     baca.not_parts(
         baca.markup(
-            r"\animales-all-other-strings-still",
+            r"\animales-all-other-strings-still-markup",
             direction=abjad.Down,
             literal=True,
         ),

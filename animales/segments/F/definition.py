@@ -118,7 +118,7 @@ maker(
             literal=True,
         ),
         baca.markup(
-            r"\animales-lh-damped-pdlt-explanation",
+            r"\animales-lh-damped-pdlt-explanation-markup",
             literal=True,
         ),
     ),
@@ -237,13 +237,13 @@ maker(
         baca.repeat_tie(selector=baca.leaf(1)),
         baca.edition(
             baca.markup(
-                r"\animales-b-flat-equals-a-sharp",
+                r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.Down,
                 literal=True,
                 selector=baca.leaf(1),
             ),
             baca.markup(
-                r"\animales-b-flat-equals-a-sharp",
+                r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.Up,
                 literal=True,
                 selector=baca.leaf(1),
@@ -262,13 +262,17 @@ upper_strings = [
 maker(
     (upper_strings, 1),
     baca.dynamic("pp"),
-    baca.only_parts(baca.markup("still (non vibrato)")),
+    baca.only_parts(
+        baca.markup("still (non vibrato)"),
+    ),
 )
 
 maker(
     ("cb3", 1),
     baca.dynamic("p"),
-    baca.only_parts(baca.markup("still (non vibrato)")),
+    baca.only_parts(
+        baca.markup("still (non vibrato)"),
+    ),
 )
 
 # contrabass solo
@@ -294,7 +298,9 @@ maker(
     baca.clef("treble"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup("8th partial / D (harmonics at sounding pitch)"),
+    baca.markup(
+        "8th partial / D (harmonics at sounding pitch)",
+    ),
     baca.markup("pizz."),
     baca.note_head_style_harmonic(),
     baca.pitch("D5", do_not_transpose=True),

@@ -471,7 +471,7 @@ F_Harp_Voice_I_a = {                                                           %
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
         - \stopped                                                             %! baca.stopped():baca.IndicatorCommand._call()
         ^ \baca-boxed-markup "LH-damped près de la table"                      %! baca.markup():-PARTS:baca.IndicatorCommand._call()
-    %%% ^ \animales-lh-damped-pdlt-explanation                                 %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+    %%% ^ \animales-lh-damped-pdlt-explanation-markup                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
 
         r4                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1552,8 +1552,8 @@ F_Contrabass_Voice_III_a = {                                                   %
 
     % [F Contrabass_Voice_III measure 37 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
     bf,1                                                                       %! baca.make_repeat_tied_notes()
-%%% ^ \animales-b-flat-equals-a-sharp                                          %! baca.markup():+PARTS:baca.IndicatorCommand._call()
-    _ \animales-b-flat-equals-a-sharp                                          %! baca.markup():-PARTS:baca.IndicatorCommand._call()
+%%% ^ \animales-b-flat-equals-a-sharp-markup                                   %! baca.markup():+PARTS:baca.IndicatorCommand._call()
+    _ \animales-b-flat-equals-a-sharp-markup                                   %! baca.markup():-PARTS:baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.repeat_tie():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()

@@ -193,7 +193,7 @@ maker(
     baca.dynamic("f"),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r"\animales-appear-as-if-by-magic",
+        r"\animales-appear-as-if-by-magic-markup",
         literal=True,
     ),
     baca.pitch("C#4"),
@@ -239,7 +239,9 @@ maker(
             literal=True,
         ),
     ),
-    baca.not_parts(baca.markup("1-4 + 5-8")),
+    baca.not_parts(
+        baca.markup("1-4 + 5-8"),
+    ),
     baca.pitch("A5"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -257,7 +259,9 @@ maker(
     ("1vn3", (1, 10)),
     animales.margin_markup("Vni. I (9-12) (13-17)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("9-12 + 13-17")),
+    baca.not_parts(
+        baca.markup("9-12 + 13-17"),
+    ),
     baca.pitch("G5"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -277,7 +281,9 @@ maker(
     ("2vn1", (1, 10)),
     animales.margin_markup("Vni. II (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("1-4 + 5-8")),
+    baca.not_parts(
+        baca.markup("1-4 + 5-8"),
+    ),
     baca.pitch("B4"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -295,7 +301,9 @@ maker(
     ("2vn3", (1, 10)),
     animales.margin_markup("Vni. II (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("9-12 + 13-18")),
+    baca.not_parts(
+        baca.markup("9-12 + 13-18"),
+    ),
     baca.pitch("A4"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -315,7 +323,9 @@ maker(
     ("va1", (1, 10)),
     animales.margin_markup("Vle. (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("1-4 + 5-8")),
+    baca.not_parts(
+        baca.markup("1-4 + 5-8"),
+    ),
     baca.pitch("D4"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -333,7 +343,9 @@ maker(
     ("va3", (1, 10)),
     animales.margin_markup("Vle. (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("9-12 + 13-18")),
+    baca.not_parts(
+        baca.markup("9-12 + 13-18"),
+    ),
     baca.pitch("B3"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -353,7 +365,9 @@ maker(
     ("vc1", (1, 10)),
     animales.margin_markup("Vc. (1-8) (9-14)"),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("1-8 + 9-14")),
+    baca.not_parts(
+        baca.markup("1-8 + 9-14"),
+    ),
     baca.pitch("D3"),
     tremolo_suite(),
     upper_voice_suite(),
@@ -373,7 +387,9 @@ maker(
     ("cb3", (1, 10)),
     animales.margin_markup("Cb."),
     baca.make_repeat_tied_notes(),
-    baca.not_parts(baca.markup("Cb. tutti")),
+    baca.not_parts(
+        baca.markup("Cb. tutti"),
+    ),
     baca.pitch("G1"),
     #    baca.tag(
     #        abjad.Tag("+LETTER_PARTS_CB-1"),

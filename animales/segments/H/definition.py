@@ -79,7 +79,7 @@ maker(
 maker(
     ("Clarinet_Rest_Voice_I", 4),
     baca.markup(
-        r"\animales-choke-sound-suddenly-explanation",
+        r"\animales-choke-sound-suddenly-explanation-markup",
         literal=True,
         selector=baca.leaf(0),
     ),
@@ -187,7 +187,7 @@ maker(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
-            r"\animales-suddenly-ripped-off",
+            r"\animales-suddenly-ripped-off-markup",
             literal=True,
             selector=baca.leaf(0),
 
@@ -199,7 +199,7 @@ maker(
     ("First_Violin_Rest_Voice_I", 4),
     baca.not_parts(
         baca.markup(
-            r"\animales-strings-suddenly-ripped-off",
+            r"\animales-strings-suddenly-ripped-off-markup",
             literal=True,
             selector=baca.leaf(0),
         ),
@@ -225,7 +225,9 @@ maker(
     animales.parts("Contrabass", 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markup("7th partial / D (sounds slightly flat)"),
+    baca.markup(
+        "7th partial / D (sounds slightly flat)",
+    ),
     baca.note_head_style_harmonic(),
     baca.pitch("Cqf5", do_not_transpose=True),
 )

@@ -151,7 +151,10 @@ maker(
     baca.clef("bass"),
     baca.hairpin("p <", right_broken=True),
     baca.make_repeat_tied_notes(),
-    baca.markup("arco"),
+    baca.markup(
+        r"\baca-arco-markup",
+        literal=True,
+    ),
     baca.pitch("C#2"),
     baca.staff_lines(5),
 )
