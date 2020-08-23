@@ -295,7 +295,7 @@ def tremolo_suite():
         baca.hairpin("ff > pp", selector=baca.pleaves()[2:-2]),
         baca.only_parts(
             baca.markup(
-                r'\baca-boxed-markup "ext. ponticello: like acid"',
+                r"\animales-ext-ponticello-like-acid-markup",
                 literal=True,
             ),
         ),
@@ -344,7 +344,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(
-            r'\baca-boxed-markup "tutti: sim."',
+            r"\animales-tutti-sim-markup",
             literal=True,
         ),
     ),

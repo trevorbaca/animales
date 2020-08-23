@@ -167,7 +167,7 @@ maker(
 maker(
     ("Clarinet_Rest_Voice_I", 4),
     baca.markup(
-        r'\baca-boxed-markup "choke sound suddenly"',
+        r"\animales-choke-sound-suddenly-markup",
         literal=True,
         selector=baca.leaf(0),
     ),
@@ -375,7 +375,8 @@ maker(
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup(
-        "as bell-like as possible (at sounding pitch)",
+        r"\animales-as-bell-like-as-possible-markup",
+        literal=True,
     ),
     baca.pitch("Bb4", do_not_transpose=True),
 )
