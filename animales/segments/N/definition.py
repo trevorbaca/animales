@@ -10,7 +10,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 87
 
-time_signatures = animales.time_signatures[start:start + 6] + ((1, 4),)
+time_signatures = animales.time_signatures[start : start + 6] + ((1, 4),)
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,

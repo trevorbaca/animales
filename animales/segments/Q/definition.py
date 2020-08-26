@@ -12,7 +12,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 118
 
-time_signatures = animales.time_signatures[start:start + 10]
+time_signatures = animales.time_signatures[start : start + 10]
 time_signatures = list(time_signatures)
 time_signatures.insert(2, (1, 4))
 time_signatures.insert(7, (1, 4))
