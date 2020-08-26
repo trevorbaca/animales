@@ -10,7 +10,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 130
 
-time_signatures = animales.time_signatures[start: start + 3]
+time_signatures = animales.time_signatures[start : start + 3]
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),

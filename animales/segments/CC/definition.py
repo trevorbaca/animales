@@ -9,7 +9,7 @@ import baca
 metadata = baca.previous_metadata(__file__)
 start = 142
 
-time_signatures = animales.time_signatures[start: start + 9] + ((1, 4),)
+time_signatures = animales.time_signatures[start : start + 9] + ((1, 4),)
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
@@ -97,7 +97,7 @@ for voice in (
         baca.tag(
             abjad.Tag("+TABLOID_SCORE"),
             baca.literal(r"\magnifyStaff #10/7"),
-        )
+        ),
     )
 
 maker(

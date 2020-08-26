@@ -9,7 +9,7 @@ import baca
 metadata = baca.previous_metadata(__file__)
 start = 130
 
-time_signatures = animales.time_signatures[start: start + 3]
+time_signatures = animales.time_signatures[start : start + 3]
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     score_template=animales.ScoreTemplate(
