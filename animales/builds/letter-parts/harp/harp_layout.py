@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'HP'
+part_identifier = "HP"
 
 
 def make_systems(measure_numbers, between_systems=20):

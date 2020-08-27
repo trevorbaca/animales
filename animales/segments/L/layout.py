@@ -2,7 +2,14 @@ import baca
 
 breaks = baca.breaks(
     baca.page(
-        [1, 0, (20, 18,)],
+        [
+            1,
+            0,
+            (
+                20,
+                18,
+            ),
+        ],
     ),
 )
 

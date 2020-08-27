@@ -33,9 +33,7 @@ time_signatures = abjad.CyclicTuple(pairs)
 # other functions
 
 
-def attach_grand_pause_fermatas(
-    maker: baca.SegmentMaker, *, measure: int = -1
-) -> None:
+def attach_grand_pause_fermatas(maker: baca.SegmentMaker, *, measure: int = -1) -> None:
     """
     Attaches grand pause fermatas in parts.
 
@@ -137,9 +135,7 @@ def brass_sforzando(
         maker((voice, range_), baca.pitch(pitch))
 
 
-def downbeat_attack(
-    count: int = 1, denominator: int = 8
-) -> baca.RhythmCommand:
+def downbeat_attack(count: int = 1, denominator: int = 8) -> baca.RhythmCommand:
     """
     Makes downbeat attack.
     """
@@ -381,7 +377,9 @@ def pennant_rhythm(
     )
 
 
-def sforzando_exchange_rhythm(this_part: int,) -> baca.RhythmCommand:
+def sforzando_exchange_rhythm(
+    this_part: int,
+) -> baca.RhythmCommand:
     """
     Makes sforzando-exchange rhythm.
     """

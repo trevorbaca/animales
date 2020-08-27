@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'FL-4'
+part_identifier = "FL-4"
 
 
 def make_systems(measure_numbers, between_systems=20):

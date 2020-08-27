@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'BSN-1'
+part_identifier = "BSN-1"
 
 
 def make_systems(measure_numbers, between_systems=20):

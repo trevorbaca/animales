@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'PERC-3'
+part_identifier = "PERC-3"
 
 
 def make_systems(measure_numbers, between_systems, global_context_padding):
