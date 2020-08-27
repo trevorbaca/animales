@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'TBN-3'
+part_identifier = "TBN-3"
 
 
 def make_systems(measure_numbers, between_systems, global_context_padding):

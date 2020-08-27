@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'VN-2-3'
+part_identifier = "VN-2-3"
 
 
 def make_systems(measure_numbers, between_systems=20, after_global_context=0):

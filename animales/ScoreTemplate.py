@@ -390,18 +390,14 @@ class ScoreTemplate(baca.ScoreTemplate):
                     ),
                     (
                         "ClarinetFamily",
-                        self.make_square_staff_group(
-                            "Clarinet", *clarinet_staves
-                        ),
+                        self.make_square_staff_group("Clarinet", *clarinet_staves),
                         self.make_square_staff_group(
                             "BassClarinet", *bass_clarinet_staves
                         ),
                     ),
                     (
                         "BassoonFamily",
-                        self.make_square_staff_group(
-                            "Bassoon", *bassoon_staves
-                        ),
+                        self.make_square_staff_group("Bassoon", *bassoon_staves),
                     ),
                 ),
             ),
@@ -417,20 +413,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             self.make_staff_group("Percussion", *percussion_staves),
             self.make_staff_group(
                 "String",
-                self.make_square_staff_group(
-                    "FirstViolin", *first_violin_staves
-                ),
-                self.make_square_staff_group(
-                    "SecondViolin", *second_violin_staves
-                ),
+                self.make_square_staff_group("FirstViolin", *first_violin_staves),
+                self.make_square_staff_group("SecondViolin", *second_violin_staves),
                 self.make_square_staff_group("Viola", *viola_staves),
                 self.make_square_staff_group("Cello", *cello_staves),
                 self.make_square_staff_group("Contrabass", *contrabass_staves),
             ),
         )
-        score = abjad.Score(
-            [global_context, music_context], name="Score", tag=tag
-        )
+        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
@@ -471,14 +461,10 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
             for voice_number in voices:
                 voice_numeral = self._to_roman(voice_number)
-                voice = abjad.Voice(
-                    name=f"{name}_Voice_{voice_numeral}", tag=tag
-                )
+                voice = abjad.Voice(name=f"{name}_Voice_{voice_numeral}", tag=tag)
                 staff.append(voice)
             abjad.annotate(staff, "default_instrument", default_instrument)
-            abjad.annotate(
-                staff, "default_margin_markup", default_margin_markup
-            )
+            abjad.annotate(staff, "default_margin_markup", default_margin_markup)
             if default_clef is not None:
                 abjad.annotate(staff, "default_clef", default_clef)
             staves.append(staff)
@@ -486,9 +472,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ### PUBLIC METHODS ###
 
-    def allows_instrument(
-        self, staff_name: str, instrument: abjad.Instrument
-    ) -> bool:
+    def allows_instrument(self, staff_name: str, instrument: abjad.Instrument) -> bool:
         """
         Is true when ``staff_name`` allows ``instrument``.
 
@@ -851,12 +835,12 @@ def _make_margin_markup(name):
     elif isinstance(name, list) and len(name) == 2:
         line_1 = rf'\hcenter-in #16 "{name[0]}"'
         line_2 = rf'\hcenter-in #16 "{name[1]}"'
-        string = rf'\markup \column {{ {line_1} {line_2} }}'
+        string = rf"\markup \column {{ {line_1} {line_2} }}"
     elif isinstance(name, list) and len(name) == 3:
         line_1 = rf'\hcenter-in #16 "{name[0]}"'
         line_2 = rf'\hcenter-in #16 "{name[1]}"'
         line_3 = rf'\hcenter-in #16 "{name[2]}"'
-        string = rf'\markup \column {{ {line_1} {line_2} {line_3} }}'
+        string = rf"\markup \column {{ {line_1} {line_2} {line_3} }}"
     return abjad.MarginMarkup(markup=string)
 
 
@@ -1042,9 +1026,7 @@ def assign_trill_parts(
     Assigns trill parts.
     """
 
-    voice_to_members: typing.Dict[
-        str, typing.Union[str, abjad.IntegerPair]
-    ] = {
+    voice_to_members: typing.Dict[str, typing.Union[str, abjad.IntegerPair]] = {
         "First_Violin_Voice_I": (1, 10),
         "First_Violin_Voice_III": (11, 18),
         "Second_Violin_Voice_I": (1, 10),
@@ -1151,14 +1133,10 @@ def constellations(
     }
 
     def upper_voice():
-        return baca.suite(
-            baca.not_parts(baca.voice_one()), baca.staff_position(1)
-        )
+        return baca.suite(baca.not_parts(baca.voice_one()), baca.staff_position(1))
 
     def lower_voice():
-        return baca.suite(
-            baca.not_parts(baca.voice_two()), baca.staff_position(-1)
-        )
+        return baca.suite(baca.not_parts(baca.voice_two()), baca.staff_position(-1))
 
     duration = sum([_.duration for _ in maker.time_signatures])
     assert isinstance(duration, abjad.Duration), repr(duration)
