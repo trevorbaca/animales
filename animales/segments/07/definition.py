@@ -1,7 +1,8 @@
 import abjad
-import animales
 import baca
 from abjadext import rmakers
+
+import animales
 
 ###############################################################################
 ##################################### [F] #####################################
