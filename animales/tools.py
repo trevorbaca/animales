@@ -237,7 +237,7 @@ def harp_exchange_rhythm(
             harp_indices.append((index, part))
             degrees = []
             for indices in part_to_indices.values():
-                talea = abjad.mathx.difference_series(indices)
+                talea = abjad.math.difference_series(indices)
                 degree = baca.sequence(talea).degree_of_rotational_symmetry()
                 degrees.append(degree)
             if all(1 < _ for _ in degrees):
@@ -256,7 +256,7 @@ def harp_exchange_rhythm(
         if offset != 0:
             preamble.append(offset)
         part_to_preamble[part] = preamble
-        counts = abjad.mathx.difference_series(indices)
+        counts = abjad.math.difference_series(indices)
         period = baca.sequence(counts).period_of_rotation()
         counts = counts[:period]
         part_to_counts[part] = counts
@@ -408,7 +408,7 @@ def sforzando_exchange_rhythm(
             sforzando_indices.append((index, part))
             degrees = []
             for indices in part_to_indices.values():
-                talea = abjad.mathx.difference_series(indices)
+                talea = abjad.math.difference_series(indices)
                 degree = baca.sequence(talea).degree_of_rotational_symmetry()
                 degrees.append(degree)
             if all(1 < _ for _ in degrees):
@@ -425,7 +425,7 @@ def sforzando_exchange_rhythm(
         if offset != 0:
             preamble.append(offset)
         part_to_preamble[part] = preamble
-        counts = abjad.mathx.difference_series(indices)
+        counts = abjad.math.difference_series(indices)
         period = baca.sequence(counts).period_of_rotation()
         counts = counts[:period]
         part_to_counts[part] = counts
