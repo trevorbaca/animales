@@ -58,7 +58,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         ...     cellos=[(1, [1])],
         ...     contrabasses=[(1, [1])],
         ...     )
-        >>> abjad.f(template)
+        >>> string = abjad.storage(template)
+        >>> print(string)
         animales.ScoreTemplate(
             flutes=[
                 (
@@ -624,7 +625,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         ..  container:: example
 
             >>> score_template = animales.ScoreTemplate()
-            >>> abjad.f(score_template.voice_abbreviations)
+            >>> string = abjad.storage(score_template.voice_abbreviations)
+            >>> print(string)
             abjad.OrderedDict(
                 [
                     ('fl1', 'Flute_Voice_I'),

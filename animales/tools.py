@@ -160,7 +160,8 @@ def glissando_positions(
     ..  container:: example
 
         >>> command = animales.glissando_positions()
-        >>> abjad.f(command)
+        >>> string = abjad.storage(command)
+        >>> print(string)
         baca.StaffPositionCommand(
             abjad.CyclicTuple(
                 [
