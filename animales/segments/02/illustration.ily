@@ -133,7 +133,7 @@ b_First_Violin_Voice_I_a = {                                                   %
     % [02 First_Violin_Voice_I measure 7 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -246,7 +246,7 @@ b_First_Violin_Voice_III_a = {                                                 %
     % [02 First_Violin_Voice_III measure 7 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 6                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -365,7 +365,7 @@ b_Second_Violin_Voice_I_a = {                                                  %
     % [02 Second_Violin_Voice_I measure 7 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -475,7 +475,7 @@ b_Second_Violin_Voice_III_a = {                                                %
     % [02 Second_Violin_Voice_III measure 7 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 6                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -594,7 +594,7 @@ b_Viola_Voice_I_a = {                                                          %
     % [02 Viola_Voice_I measure 7 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "alto"                                                               %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -709,7 +709,7 @@ b_Viola_Voice_III_a = {                                                        %
     % [02 Viola_Voice_III measure 7 / measure 1]                               %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" } %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "alto"                                                               %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
@@ -814,7 +814,7 @@ b_Cello_Voice_I_a = {                                                          %
     % [02 Cello_Voice_I measure 7 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."                  %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "tenor"                                                              %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
