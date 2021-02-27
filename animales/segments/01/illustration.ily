@@ -392,7 +392,7 @@ a_First_Violin_Voice_I_a = {                                                   %
     % [01 First_Violin_Voice_I measure 1]                                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins I" \hcenter-in #16 "(1-10)" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -501,7 +501,7 @@ a_First_Violin_Voice_III_a = {                                                 %
     % [01 First_Violin_Voice_III measure 1]                                    %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins I" \hcenter-in #16 "(11-18)" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 6                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -628,7 +628,7 @@ a_Second_Violin_Voice_I_a = {                                                  %
     % [01 Second_Violin_Voice_I measure 1]                                     %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins II" \hcenter-in #16 "(1-10)" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -753,7 +753,7 @@ a_Second_Violin_Voice_III_a = {                                                %
     % [01 Second_Violin_Voice_III measure 1]                                   %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins II" \hcenter-in #16 "(11-18)" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #6                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 6                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "treble"                                                             %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -889,7 +889,7 @@ a_Viola_Voice_I_a = {                                                          %
     % [01 Viola_Voice_I measure 1]                                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violas" \hcenter-in #16 "(1-10)" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "alto"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -1007,7 +1007,7 @@ a_Viola_Voice_III_a = {                                                        %
     % [01 Viola_Voice_III measure 1]                                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violas" \hcenter-in #16 "(11-18)" } %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
     \clef "alto"                                                               %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
@@ -1110,7 +1110,7 @@ a_Cello_Voice_I_a = {                                                          %
     % [01 Cello_Voice_I measure 1]                                             %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."             %! -PARTS:abjad.ScoreTemplate.attach_defaults(2):baca.SegmentMaker._set_status_tag():DEFAULT_MARGIN_MARKUP
     \set Staff.instrumentName = \markup \hcenter-in #16 "Cellos"               %! baca.start_markup():-PARTS:baca.IndicatorCommand._call()
-    \override TrillSpanner.staff-padding = #4                                  %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
+    \override TrillSpanner.staff-padding = 4                                   %! baca.trill_spanner_staff_padding():baca.OverrideCommand._call(1)
 %%% \once \override Staff.Clef.X-extent = ##f                                  %! baca.clef_x_extent_false():baca.clef_shift():SHIFTED_CLEF:MEASURE_1:baca.OverrideCommand._call(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! baca.clef_extra_offset():baca.clef_shift():SHIFTED_CLEF:MEASURE_1:baca.OverrideCommand._call(1)
     \clef "tenor"                                                              %! baca.clef():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_CLEF
