@@ -1,7 +1,7 @@
 import distutils.version
 import platform
 
-from .tools import (
+from .library import (
     ScoreTemplate,
     assign_brass_sforzando_parts,
     assign_trill_parts,
