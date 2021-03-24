@@ -198,7 +198,8 @@ k_Horn_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         - \tweak color #(x11-color 'blue)
@@ -219,7 +220,8 @@ k_Horn_Voice_I_a = {
     fs'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs'4
 
@@ -235,7 +237,8 @@ k_Horn_Voice_I_a = {
     e'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         - \tweak color #(x11-color 'blue)
@@ -256,7 +259,8 @@ k_Horn_Voice_I_a = {
     fs'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs'4
 
@@ -269,7 +273,8 @@ k_Horn_Voice_I_a = {
     e'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         - \tweak color #(x11-color 'blue)
@@ -287,7 +292,8 @@ k_Horn_Voice_I_a = {
     \<
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs'4
 
@@ -463,7 +469,8 @@ k_Horn_Voice_II_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -480,7 +487,8 @@ k_Horn_Voice_II_a = {
     fs'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs'8
 
@@ -494,7 +502,8 @@ k_Horn_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -515,7 +524,8 @@ k_Horn_Voice_II_a = {
     fs'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs'8
 
@@ -532,7 +542,8 @@ k_Horn_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -601,7 +612,8 @@ k_Horn_Voice_IV_a = {
     ef'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef'4
         - \tweak color #(x11-color 'blue)
@@ -630,7 +642,8 @@ k_Horn_Voice_IV_a = {
     ef'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Horn_Voice_IV measure 66 / measure 5]
         ef'4
@@ -735,7 +748,8 @@ k_Trumpet_Voice_I_a = {
     af'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af'8
         - \tweak color #(x11-color 'blue)
@@ -756,7 +770,8 @@ k_Trumpet_Voice_I_a = {
     bf'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'8
 
@@ -775,7 +790,8 @@ k_Trumpet_Voice_I_a = {
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -906,7 +922,8 @@ k_Trumpet_Voice_III_a = {
     g'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'4
         - \tweak color #(x11-color 'blue)
@@ -929,7 +946,8 @@ k_Trumpet_Voice_III_a = {
     a'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a'4
 
@@ -1018,7 +1036,8 @@ k_Trumpet_Voice_II_a = {
     af'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af'4
 
@@ -1032,7 +1051,8 @@ k_Trumpet_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \f
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1151,7 +1171,8 @@ k_Trumpet_Voice_IV_a = {
     g'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Trumpet_Voice_IV measure 67 / measure 6]
         g'8
@@ -1262,7 +1283,8 @@ k_Trombone_Voice_I_a = {
     af4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af8
 
@@ -1298,7 +1320,8 @@ k_Trombone_Voice_I_a = {
     - \tweak color #(x11-color 'blue)
     \ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1366,7 +1389,8 @@ k_Trombone_Voice_III_a = {
     - \tweak color #(x11-color 'blue)
     \f
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Trombone_Voice_III measure 64 / measure 3]
         r4
@@ -1397,7 +1421,8 @@ k_Trombone_Voice_III_a = {
     a2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a4
         - \tweak color #(x11-color 'blue)
@@ -1420,7 +1445,8 @@ k_Trombone_Voice_III_a = {
     g2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g8
 
@@ -1554,7 +1580,8 @@ k_Trombone_Voice_II_a = {
     bf4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf4
 
@@ -1629,7 +1656,8 @@ k_Trombone_Voice_IV_a = {
     g2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g4
 
@@ -1648,7 +1676,8 @@ k_Trombone_Voice_IV_a = {
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1679,7 +1708,8 @@ k_Trombone_Voice_IV_a = {
     g2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Trombone_Voice_IV measure 67 / measure 6]
         g8
@@ -1744,7 +1774,8 @@ k_Trombone_Staff_II = <<
 
 k_Piano_Voice_I_a = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Piano_Voice_I measure 62 / measure 1]
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
@@ -1776,7 +1807,8 @@ k_Piano_Voice_I_a = {
     % [11 Piano_Voice_I measure 64 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1794,7 +1826,8 @@ k_Piano_Voice_I_a = {
     % [11 Piano_Voice_I measure 66 / measure 5]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Piano_Voice_I measure 67 / measure 6]
         r4
@@ -1876,7 +1909,8 @@ k_Harp_Voice_I_a = {
     % [11 Harp_Voice_I measure 64 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -1892,7 +1926,8 @@ k_Harp_Voice_I_a = {
     % [11 Harp_Voice_I measure 66 / measure 5]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -2091,7 +2126,8 @@ k_Percussion_Voice_III_a = {
     % [11 Percussion_Voice_III measure 63 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -2105,7 +2141,8 @@ k_Percussion_Voice_III_a = {
     % [11 Percussion_Voice_III measure 64 / measure 3]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Percussion_Voice_III measure 65 / measure 4]
         c''8
@@ -2717,7 +2754,8 @@ k_Contrabass_Voice_I_a = {
     % [11 Contrabass_Voice_I measure 63 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         \override NoteHead.style = #'harmonic
         cqf''!8
@@ -2735,7 +2773,8 @@ k_Contrabass_Voice_I_a = {
     % [11 Contrabass_Voice_I measure 65 / measure 4]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Contrabass_Voice_I measure 66 / measure 5]
         cqf''!8

@@ -300,7 +300,8 @@ i_Piano_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -318,7 +319,8 @@ i_Piano_Voice_I_a = {
     % [09 Piano_Voice_I measure 52 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -400,7 +402,8 @@ i_Harp_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -416,7 +419,8 @@ i_Harp_Voice_I_a = {
     % [09 Harp_Voice_I measure 52 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -437,7 +441,8 @@ i_Harp_Voice_I_a = {
     % [09 Harp_Voice_I measure 55 / measure 6]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -592,7 +597,8 @@ i_Percussion_Voice_III_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [09 Percussion_Voice_III measure 51 / measure 2]
         c''8
@@ -613,7 +619,8 @@ i_Percussion_Voice_III_a = {
     % [09 Percussion_Voice_III measure 54 / measure 5]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -1154,7 +1161,8 @@ i_Contrabass_Voice_I_a = {
     % [09 Contrabass_Voice_I measure 51 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         \override NoteHead.style = #'harmonic
         cqf''!8
@@ -1176,7 +1184,8 @@ i_Contrabass_Voice_I_a = {
     % [09 Contrabass_Voice_I measure 54 / measure 5]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         cqf''!8
         \laissezVibrer

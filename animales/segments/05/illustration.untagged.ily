@@ -698,7 +698,8 @@ e_First_Violin_Voice_III_a = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
         \repeatTie
@@ -880,7 +881,8 @@ e_Second_Violin_Staff_I = {
 
 e_Second_Violin_Voice_III_a = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Second_Violin_Voice_III measure 24 / measure 1]
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
@@ -924,7 +926,8 @@ e_Second_Violin_Voice_III_a = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b4
         \repeatTie

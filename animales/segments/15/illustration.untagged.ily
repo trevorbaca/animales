@@ -96,7 +96,8 @@ o_Flute_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g''8
     %%% - \tweak color #(x11-color 'blue)
@@ -145,7 +146,8 @@ o_Flute_Voice_I_a = {
     bf''!16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b''8
         [
@@ -157,7 +159,8 @@ o_Flute_Voice_I_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         cs'''!8
         [
@@ -275,7 +278,8 @@ o_Flute_Voice_III_a = {
     e''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''!8
         [
@@ -287,7 +291,8 @@ o_Flute_Voice_III_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [15 Flute_Voice_III measure 89 / measure 2]
         f''8
@@ -331,7 +336,8 @@ o_Flute_Voice_III_a = {
     b''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c'''8
         [
@@ -343,7 +349,8 @@ o_Flute_Voice_III_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -458,7 +465,8 @@ o_Flute_Voice_II_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''!8
     %%% - \tweak color #(x11-color 'blue)
@@ -475,7 +483,8 @@ o_Flute_Voice_II_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -508,7 +517,8 @@ o_Flute_Voice_II_a = {
     f''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs''!8
         [
@@ -520,7 +530,8 @@ o_Flute_Voice_II_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [15 Flute_Voice_II measure 90 / measure 3]
         af''!8
@@ -553,7 +564,8 @@ o_Flute_Voice_II_a = {
     af''!16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -667,7 +679,8 @@ o_Flute_Voice_IV_a = {
     d''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''!8
         [
@@ -679,7 +692,8 @@ o_Flute_Voice_IV_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''!8
         [
@@ -712,7 +726,8 @@ o_Flute_Voice_IV_a = {
     af''!16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [15 Flute_Voice_IV measure 90 / measure 3]
         a''8
@@ -725,7 +740,8 @@ o_Flute_Voice_IV_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs''!8
         [
@@ -1017,7 +1033,8 @@ o_Piano_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1040,7 +1057,8 @@ o_Piano_Voice_I_a = {
     % [15 Piano_Voice_I measure 91 / measure 4]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1153,7 +1171,8 @@ o_Harp_Voice_I_a = {
     % [15 Harp_Voice_I measure 90 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'!8
         \laissezVibrer
@@ -1172,7 +1191,8 @@ o_Harp_Voice_I_a = {
     % [15 Harp_Voice_I measure 93 / measure 6]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'!8
         \laissezVibrer
@@ -1532,7 +1552,8 @@ o_Percussion_Voice_III_a = {
     % [15 Percussion_Voice_III measure 90 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'!8
         \laissezVibrer
@@ -1546,7 +1567,8 @@ o_Percussion_Voice_III_a = {
     % [15 Percussion_Voice_III measure 91 / measure 4]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [15 Percussion_Voice_III measure 92 / measure 5]
         bf'!8
@@ -2284,7 +2306,8 @@ o_Contrabass_Voice_I_a = {
     % [15 Contrabass_Voice_I measure 90 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2300,7 +2323,8 @@ o_Contrabass_Voice_I_a = {
     % [15 Contrabass_Voice_I measure 91 / measure 4]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [15 Contrabass_Voice_I measure 92 / measure 5]
         r4

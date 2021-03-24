@@ -88,7 +88,8 @@ n_Flute_Voice_I_a = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Flute_Voice_I measure 83 / measure 2]
         g''8
@@ -136,7 +137,8 @@ n_Flute_Voice_I_a = {
     bf''!16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Flute_Voice_I measure 84 / measure 3]
         b''8
@@ -149,7 +151,8 @@ n_Flute_Voice_I_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         cs'''!8
         [
@@ -249,7 +252,8 @@ n_Flute_Voice_III_a = {
     e''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Flute_Voice_III measure 83 / measure 2]
         ef''!8
@@ -262,7 +266,8 @@ n_Flute_Voice_III_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f''8
         [
@@ -305,7 +310,8 @@ n_Flute_Voice_III_a = {
     b''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c'''8
         [
@@ -412,7 +418,8 @@ n_Flute_Voice_II_a = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''!8
     %%% - \tweak color #(x11-color 'blue)
@@ -429,7 +436,8 @@ n_Flute_Voice_II_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -462,7 +470,8 @@ n_Flute_Voice_II_a = {
     f''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs''!8
         [
@@ -474,7 +483,8 @@ n_Flute_Voice_II_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af''!8
         [
@@ -603,7 +613,8 @@ n_Flute_Voice_IV_a = {
     d''16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef''!8
         [
@@ -615,7 +626,8 @@ n_Flute_Voice_IV_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Flute_Voice_IV measure 83 / measure 2]
         ef''!8
@@ -648,7 +660,8 @@ n_Flute_Voice_IV_a = {
     af''!16
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -660,7 +673,8 @@ n_Flute_Voice_IV_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Flute_Voice_IV measure 84 / measure 3]
         fs''!8
@@ -992,7 +1006,8 @@ n_Piano_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Piano_Voice_I measure 83 / measure 2]
         c''8
@@ -1014,7 +1029,8 @@ n_Piano_Voice_I_a = {
     % [14 Piano_Voice_I measure 86 / measure 5]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1078,7 +1094,8 @@ n_Piano_Staff_I = {
 
 n_Harp_Voice_I_a = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Harp_Voice_I measure 82 / measure 1]
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
@@ -1113,7 +1130,8 @@ n_Harp_Voice_I_a = {
     % [14 Harp_Voice_I measure 85 / measure 4]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'!8
         \laissezVibrer
@@ -1129,7 +1147,8 @@ n_Harp_Voice_I_a = {
     % [14 Harp_Voice_I measure 87 / measure 6]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'!8
         \laissezVibrer
@@ -1425,7 +1444,8 @@ n_Percussion_Staff_II = {
 
 n_Percussion_Voice_III_a = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Percussion_Voice_III measure 82 / measure 1]
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
@@ -1453,7 +1473,8 @@ n_Percussion_Voice_III_a = {
     % [14 Percussion_Voice_III measure 83 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -1471,7 +1492,8 @@ n_Percussion_Voice_III_a = {
     % [14 Percussion_Voice_III measure 86 / measure 5]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Percussion_Voice_III measure 87 / measure 6]
         bf'!8
@@ -2133,7 +2155,8 @@ n_Contrabass_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'!8
         \laissezVibrer
@@ -2148,7 +2171,8 @@ n_Contrabass_Voice_I_a = {
     % [14 Contrabass_Voice_I measure 83 / measure 2]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Contrabass_Voice_I measure 84 / measure 3]
         bf'!8
@@ -2166,7 +2190,8 @@ n_Contrabass_Voice_I_a = {
     % [14 Contrabass_Voice_I measure 86 / measure 5]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [14 Contrabass_Voice_I measure 87 / measure 6]
         bf'!8

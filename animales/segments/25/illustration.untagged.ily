@@ -2705,7 +2705,8 @@ y_Second_Violin_Voice_III_a = {
     % [25 Second_Violin_Voice_III measure 151 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3271,7 +3272,8 @@ y_Second_Violin_Voice_XII_a = {
     % [25 Second_Violin_Voice_XII measure 150 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [25 Second_Violin_Voice_XII measure 151 / measure 3]
         r4
@@ -3280,7 +3282,8 @@ y_Second_Violin_Voice_XII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -4420,7 +4423,8 @@ y_Viola_Voice_XII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 

@@ -376,7 +376,8 @@ h_Piano_Voice_I_a = {                                                          %
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         % [08 Piano_Voice_I measure 45 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
         d''8                                                                   %! animales.harp_exchange_rhythm()
@@ -395,7 +396,8 @@ h_Piano_Voice_I_a = {                                                          %
     % [08 Piano_Voice_I measure 47 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -478,7 +480,8 @@ h_Harp_Voice_I_a = {                                                           %
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -499,7 +502,8 @@ h_Harp_Voice_I_a = {                                                           %
     % [08 Harp_Voice_I measure 47 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -709,7 +713,8 @@ h_Percussion_Voice_III_a = {                                                   %
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -723,7 +728,8 @@ h_Percussion_Voice_III_a = {                                                   %
     % [08 Percussion_Voice_III measure 45 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -744,7 +750,8 @@ h_Percussion_Voice_III_a = {                                                   %
     % [08 Percussion_Voice_III measure 49 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -1358,7 +1365,8 @@ h_Contrabass_Voice_I_a = {                                                     %
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         r8                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1375,7 +1383,8 @@ h_Contrabass_Voice_I_a = {                                                     %
     % [08 Contrabass_Voice_I measure 45 / measure 2]                           %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         % [08 Contrabass_Voice_I measure 46 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -1396,7 +1405,8 @@ h_Contrabass_Voice_I_a = {                                                     %
     % [08 Contrabass_Voice_I measure 49 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         d''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()

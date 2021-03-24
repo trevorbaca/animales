@@ -327,7 +327,8 @@ j_Horn_Voice_I_a = {
     e'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'4
 
@@ -340,7 +341,8 @@ j_Horn_Voice_I_a = {
     fs'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         fs'8
         - \tweak color #(x11-color 'blue)
@@ -362,7 +364,8 @@ j_Horn_Voice_I_a = {
     e'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'4
 
@@ -532,7 +535,8 @@ j_Horn_Voice_II_a = {
     % [10 Horn_Voice_II measure 57 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Horn_Voice_II measure 58 / measure 3]
         r4
@@ -553,7 +557,8 @@ j_Horn_Voice_II_a = {
     e'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
 
@@ -570,7 +575,8 @@ j_Horn_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \mf
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -587,7 +593,8 @@ j_Horn_Voice_II_a = {
     e'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
 
@@ -655,7 +662,8 @@ j_Horn_Voice_IV_a = {
     f'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Horn_Voice_IV measure 59 / measure 4]
         f'4
@@ -688,7 +696,8 @@ j_Horn_Voice_IV_a = {
     f'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'4
         - \tweak color #(x11-color 'blue)
@@ -879,7 +888,8 @@ j_Trumpet_Voice_III_a = {
     a'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a'8
         - \tweak color #(x11-color 'blue)
@@ -900,7 +910,8 @@ j_Trumpet_Voice_III_a = {
     g'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'8
 
@@ -919,7 +930,8 @@ j_Trumpet_Voice_III_a = {
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Trumpet_Voice_III measure 61 / measure 6]
         r8
@@ -1068,7 +1080,8 @@ j_Trumpet_Voice_II_a = {
     bf'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf'4
         \!
@@ -1133,7 +1146,8 @@ j_Trumpet_Voice_IV_a = {
     g'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'4
 
@@ -1147,7 +1161,8 @@ j_Trumpet_Voice_IV_a = {
     - \tweak color #(x11-color 'blue)
     \mf
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Trumpet_Voice_IV measure 59 / measure 4]
         r4
@@ -1287,7 +1302,8 @@ j_Trombone_Voice_I_a = {
     bf4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf4
 
@@ -1347,7 +1363,8 @@ j_Trombone_Voice_III_a = {
     \<
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Trombone_Voice_III measure 57 / measure 2]
         g4
@@ -1393,7 +1410,8 @@ j_Trombone_Voice_III_a = {
     g2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Trombone_Voice_III measure 61 / measure 6]
         g8
@@ -1479,7 +1497,8 @@ j_Trombone_Voice_II_a = {
     % [10 Trombone_Voice_II measure 57 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Trombone_Voice_II measure 58 / measure 3]
         r4
@@ -1513,7 +1532,8 @@ j_Trombone_Voice_II_a = {
     af4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af4
         - \tweak color #(x11-color 'blue)
@@ -1536,7 +1556,8 @@ j_Trombone_Voice_II_a = {
     bf2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         bf8
 
@@ -1601,7 +1622,8 @@ j_Trombone_Voice_IV_a = {
     g2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g8
 
@@ -1694,7 +1716,8 @@ j_Trombone_Staff_II = <<
 
 j_Piano_Voice_I_a = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Piano_Voice_I measure 56 / measure 1]
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
@@ -1726,7 +1749,8 @@ j_Piano_Voice_I_a = {
     % [10 Piano_Voice_I measure 58 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Piano_Voice_I measure 59 / measure 4]
         c''8
@@ -1814,7 +1838,8 @@ j_Harp_Voice_I_a = {
     % [10 Harp_Voice_I measure 58 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -1835,7 +1860,8 @@ j_Harp_Voice_I_a = {
     % [10 Harp_Voice_I measure 61 / measure 6]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -1986,7 +2012,8 @@ j_Percussion_Voice_III_a = {
     % [10 Percussion_Voice_III measure 57 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Percussion_Voice_III measure 58 / measure 3]
         c''8
@@ -2001,7 +2028,8 @@ j_Percussion_Voice_III_a = {
     % [10 Percussion_Voice_III measure 59 / measure 4]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         c''8
         \laissezVibrer
@@ -2506,7 +2534,8 @@ j_Contrabass_Voice_I_a = {
     % [10 Contrabass_Voice_I measure 57 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Contrabass_Voice_I measure 58 / measure 3]
         r8
@@ -2524,7 +2553,8 @@ j_Contrabass_Voice_I_a = {
     % [10 Contrabass_Voice_I measure 59 / measure 4]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Contrabass_Voice_I measure 60 / measure 5]
         r4

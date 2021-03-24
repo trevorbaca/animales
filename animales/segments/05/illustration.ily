@@ -775,7 +775,8 @@ e_First_Violin_Voice_III_a = {                                                 %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
+    \times 2/3                                                                 %! animales.sforzando_exchange_rhythm()
+    {                                                                          %! animales.sforzando_exchange_rhythm()
 
         b8                                                                     %! animales.sforzando_exchange_rhythm()
         \repeatTie
@@ -964,7 +965,8 @@ e_Second_Violin_Staff_I = {                                                    %
 
 e_Second_Violin_Voice_III_a = {                                                %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
+    \times 2/3                                                                 %! animales.sforzando_exchange_rhythm()
+    {                                                                          %! animales.sforzando_exchange_rhythm()
 
         % [05 Second_Violin_Voice_III measure 24 / measure 1]                  %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1009,7 +1011,8 @@ e_Second_Violin_Voice_III_a = {                                                %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
+    \times 2/3                                                                 %! animales.sforzando_exchange_rhythm()
+    {                                                                          %! animales.sforzando_exchange_rhythm()
 
         b4                                                                     %! animales.sforzando_exchange_rhythm()
         \repeatTie

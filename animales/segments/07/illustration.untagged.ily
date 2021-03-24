@@ -260,7 +260,8 @@ g_Piano_Voice_I_a = {
     % [07 Piano_Voice_I measure 37 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -281,7 +282,8 @@ g_Piano_Voice_I_a = {
     % [07 Piano_Voice_I measure 39 / measure 4]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -302,7 +304,8 @@ g_Piano_Voice_I_a = {
     % [07 Piano_Voice_I measure 42 / measure 7]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [07 Piano_Voice_I measure 43 / measure 8]
         d''8
@@ -379,7 +382,8 @@ g_Harp_Voice_I_a = {
     % [07 Harp_Voice_I measure 37 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         - \tweak color #(x11-color 'blue)
@@ -399,7 +403,8 @@ g_Harp_Voice_I_a = {
     % [07 Harp_Voice_I measure 39 / measure 4]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         \laissezVibrer
@@ -420,7 +425,8 @@ g_Harp_Voice_I_a = {
     % [07 Harp_Voice_I measure 42 / measure 7]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         \laissezVibrer
@@ -699,7 +705,8 @@ g_Percussion_Staff_II = {
 
 g_Percussion_Voice_III_a = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [07 Percussion_Voice_III measure 36 / measure 1]
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
@@ -731,7 +738,8 @@ g_Percussion_Voice_III_a = {
     % [07 Percussion_Voice_III measure 37 / measure 2]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [07 Percussion_Voice_III measure 38 / measure 3]
         d''8
@@ -749,7 +757,8 @@ g_Percussion_Voice_III_a = {
     % [07 Percussion_Voice_III measure 40 / measure 5]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         \laissezVibrer
@@ -1286,7 +1295,8 @@ g_Contrabass_Voice_I_a = {
 
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [07 Contrabass_Voice_I measure 37 / measure 2]
         \override NoteHead.style = #'harmonic
@@ -1312,7 +1322,8 @@ g_Contrabass_Voice_I_a = {
     % [07 Contrabass_Voice_I measure 38 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         \laissezVibrer
@@ -1329,7 +1340,8 @@ g_Contrabass_Voice_I_a = {
     % [07 Contrabass_Voice_I measure 40 / measure 5]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [07 Contrabass_Voice_I measure 41 / measure 6]
         d''8

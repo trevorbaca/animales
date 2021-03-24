@@ -667,7 +667,8 @@ q_Horn_Voice_I_a = {
     d'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'4
 
@@ -683,7 +684,8 @@ q_Horn_Voice_I_a = {
     e'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         - \tweak color #(x11-color 'blue)
@@ -704,7 +706,8 @@ q_Horn_Voice_I_a = {
     d'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'4
 
@@ -720,7 +723,8 @@ q_Horn_Voice_I_a = {
     e'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         - \tweak color #(x11-color 'blue)
@@ -741,7 +745,8 @@ q_Horn_Voice_I_a = {
     d'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'4
 
@@ -754,7 +759,8 @@ q_Horn_Voice_I_a = {
     e'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         - \tweak color #(x11-color 'blue)
@@ -768,7 +774,8 @@ q_Horn_Voice_I_a = {
     d'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'4
 
@@ -974,7 +981,8 @@ q_Horn_Voice_II_a = {
     % [17 Horn_Voice_II measure 110 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -991,7 +999,8 @@ q_Horn_Voice_II_a = {
     d'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -1005,7 +1014,8 @@ q_Horn_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \mf
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1022,7 +1032,8 @@ q_Horn_Voice_II_a = {
     d'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -1036,7 +1047,8 @@ q_Horn_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \f
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Horn_Voice_II measure 115 / measure 7]
         r4
@@ -1057,7 +1069,8 @@ q_Horn_Voice_II_a = {
     d'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -1074,7 +1087,8 @@ q_Horn_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1090,7 +1104,8 @@ q_Horn_Voice_II_a = {
     d'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -1160,7 +1175,8 @@ q_Horn_Voice_IV_a = {
     ef'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef'4
         - \tweak color #(x11-color 'blue)
@@ -1189,7 +1205,8 @@ q_Horn_Voice_IV_a = {
     ef'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef'4
         - \tweak color #(x11-color 'blue)
@@ -1215,7 +1232,8 @@ q_Horn_Voice_IV_a = {
     ef'!2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Horn_Voice_IV measure 116 / measure 8]
         ef'4
@@ -1240,7 +1258,8 @@ q_Horn_Voice_IV_a = {
     ef'!2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Horn_Voice_IV measure 118 / measure 10]
         ef'4
@@ -1369,7 +1388,8 @@ q_Trumpet_Voice_I_a = {
     af'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af'8
         - \tweak color #(x11-color 'blue)
@@ -1383,7 +1403,8 @@ q_Trumpet_Voice_I_a = {
     gf'!2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         gf'8
 
@@ -1400,7 +1421,8 @@ q_Trumpet_Voice_I_a = {
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1463,7 +1485,8 @@ q_Trumpet_Voice_III_a = {
     g'2.
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trumpet_Voice_III measure 111 / measure 3]
         g'8
@@ -1481,7 +1504,8 @@ q_Trumpet_Voice_III_a = {
     \<
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trumpet_Voice_III measure 112 / measure 4]
         f'8
@@ -1500,7 +1524,8 @@ q_Trumpet_Voice_III_a = {
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trumpet_Voice_III measure 113 / measure 5]
         r8
@@ -1694,7 +1719,8 @@ q_Trumpet_Voice_II_a = {
     af'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af'4
         - \tweak color #(x11-color 'blue)
@@ -1717,7 +1743,8 @@ q_Trumpet_Voice_II_a = {
     gf'2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trumpet_Voice_II measure 115 / measure 7]
         gf'4
@@ -1735,7 +1762,8 @@ q_Trumpet_Voice_II_a = {
     - \tweak color #(x11-color 'blue)
     \ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1813,7 +1841,8 @@ q_Trumpet_Voice_IV_a = {
     f'4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'4
 
@@ -1830,7 +1859,8 @@ q_Trumpet_Voice_IV_a = {
     - \tweak color #(x11-color 'blue)
     \mf
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2010,7 +2040,8 @@ q_Trombone_Voice_I_a = {
     af4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af4
 
@@ -2055,7 +2086,8 @@ q_Trombone_Voice_I_a = {
     af2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af8
 
@@ -2127,7 +2159,8 @@ q_Trombone_Voice_III_a = {
     \<
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f4
 
@@ -2170,7 +2203,8 @@ q_Trombone_Voice_III_a = {
     f2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trombone_Voice_III measure 113 / measure 5]
         f8
@@ -2212,7 +2246,8 @@ q_Trombone_Voice_III_a = {
     - \tweak color #(x11-color 'blue)
     \ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2306,7 +2341,8 @@ q_Trombone_Voice_II_a = {
     % [17 Trombone_Voice_II measure 110 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2334,7 +2370,8 @@ q_Trombone_Voice_II_a = {
     gf!2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         gf4
         - \tweak color #(x11-color 'blue)
@@ -2357,7 +2394,8 @@ q_Trombone_Voice_II_a = {
     af2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         af8
 
@@ -2467,7 +2505,8 @@ q_Trombone_Voice_IV_a = {
     f4
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f8
 
@@ -2534,7 +2573,8 @@ q_Trombone_Voice_IV_a = {
     g2
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trombone_Voice_IV measure 116 / measure 8]
         g4
@@ -2553,7 +2593,8 @@ q_Trombone_Voice_IV_a = {
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [17 Trombone_Voice_IV measure 117 / measure 9]
         r8

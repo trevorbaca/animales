@@ -687,7 +687,8 @@ ab_First_Violin_Staff_I = <<                                                   %
 
 ab_First_Violin_Voice_III_a = {                                                %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_III measure 158 / measure 1]                  %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -706,7 +707,8 @@ ab_First_Violin_Voice_III_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -716,7 +718,8 @@ ab_First_Violin_Voice_III_a = {                                                %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_III measure 159 / measure 2]                  %! baca.SegmentMaker._comment_measure_numbers()
         d'8                                                                    %! animales.clb_rhythm()
@@ -727,7 +730,8 @@ ab_First_Violin_Voice_III_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -740,7 +744,8 @@ ab_First_Violin_Voice_III_a = {                                                %
     % [28 First_Violin_Voice_III measure 160 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -750,7 +755,8 @@ ab_First_Violin_Voice_III_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -804,7 +810,8 @@ ab_First_Violin_Voice_III = {                                                  %
 
 ab_First_Violin_Voice_IV_a = {                                                 %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_IV measure 158 / measure 1]                   %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -831,7 +838,8 @@ ab_First_Violin_Voice_IV_a = {                                                 %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -844,7 +852,8 @@ ab_First_Violin_Voice_IV_a = {                                                 %
     % [28 First_Violin_Voice_IV measure 159 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -854,7 +863,8 @@ ab_First_Violin_Voice_IV_a = {                                                 %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -865,7 +875,8 @@ ab_First_Violin_Voice_IV_a = {                                                 %
     % [28 First_Violin_Voice_IV measure 160 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -873,7 +884,8 @@ ab_First_Violin_Voice_IV_a = {                                                 %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -1161,7 +1173,8 @@ ab_First_Violin_Staff_III = <<                                                 %
 
 ab_First_Violin_Voice_VII_a = {                                                %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_VII measure 158 / measure 1]                  %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1180,7 +1193,8 @@ ab_First_Violin_Voice_VII_a = {                                                %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -1191,7 +1205,8 @@ ab_First_Violin_Voice_VII_a = {                                                %
     % [28 First_Violin_Voice_VII measure 159 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -1201,7 +1216,8 @@ ab_First_Violin_Voice_VII_a = {                                                %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_VII measure 160 / measure 3]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -1210,7 +1226,8 @@ ab_First_Violin_Voice_VII_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -1220,7 +1237,8 @@ ab_First_Violin_Voice_VII_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -1274,7 +1292,8 @@ ab_First_Violin_Voice_VII = {                                                  %
 
 ab_First_Violin_Voice_VIII_a = {                                               %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_VIII measure 158 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -1299,7 +1318,8 @@ ab_First_Violin_Voice_VIII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -1311,7 +1331,8 @@ ab_First_Violin_Voice_VIII_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -1326,7 +1347,8 @@ ab_First_Violin_Voice_VIII_a = {                                               %
     % [28 First_Violin_Voice_VIII measure 159 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -1343,7 +1365,8 @@ ab_First_Violin_Voice_VIII_a = {                                               %
     % [28 First_Violin_Voice_VIII measure 160 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -1736,7 +1759,8 @@ ab_First_Violin_Voice_XI = {                                                   %
 
 ab_First_Violin_Voice_XII_a = {                                                %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_XII measure 158 / measure 1]                  %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -1757,7 +1781,8 @@ ab_First_Violin_Voice_XII_a = {                                                %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -1768,7 +1793,8 @@ ab_First_Violin_Voice_XII_a = {                                                %
     % [28 First_Violin_Voice_XII measure 159 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -1782,7 +1808,8 @@ ab_First_Violin_Voice_XII_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -1794,7 +1821,8 @@ ab_First_Violin_Voice_XII_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_XII measure 160 / measure 3]                  %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! animales.clb_rhythm()
@@ -1809,7 +1837,8 @@ ab_First_Violin_Voice_XII_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -1887,7 +1916,8 @@ ab_First_Violin_Voice_XIII_a = {                                               %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -1897,7 +1927,8 @@ ab_First_Violin_Voice_XIII_a = {                                               %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_XIII measure 159 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -1906,7 +1937,8 @@ ab_First_Violin_Voice_XIII_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -1916,7 +1948,8 @@ ab_First_Violin_Voice_XIII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2207,7 +2240,8 @@ ab_First_Violin_Voice_XVI_a = {                                                %
     r2                                                                         %! animales.clb_rhythm()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -2215,7 +2249,8 @@ ab_First_Violin_Voice_XVI_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -2226,7 +2261,8 @@ ab_First_Violin_Voice_XVI_a = {                                                %
     % [28 First_Violin_Voice_XVI measure 159 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2243,7 +2279,8 @@ ab_First_Violin_Voice_XVI_a = {                                                %
     % [28 First_Violin_Voice_XVI measure 160 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2321,7 +2358,8 @@ ab_First_Violin_Voice_XVII_a = {                                               %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 First_Violin_Voice_XVII measure 159 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -2336,7 +2374,8 @@ ab_First_Violin_Voice_XVII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -2344,7 +2383,8 @@ ab_First_Violin_Voice_XVII_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -2355,7 +2395,8 @@ ab_First_Violin_Voice_XVII_a = {                                               %
     % [28 First_Violin_Voice_XVII measure 160 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -2761,7 +2802,8 @@ ab_Second_Violin_Voice_III_a = {                                               %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -2773,7 +2815,8 @@ ab_Second_Violin_Voice_III_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2787,7 +2830,8 @@ ab_Second_Violin_Voice_III_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_III measure 159 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -2802,7 +2846,8 @@ ab_Second_Violin_Voice_III_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -2815,7 +2860,8 @@ ab_Second_Violin_Voice_III_a = {                                               %
     % [28 Second_Violin_Voice_III measure 160 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -2825,7 +2871,8 @@ ab_Second_Violin_Voice_III_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -2890,7 +2937,8 @@ ab_Second_Violin_Voice_IV_a = {                                                %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2907,7 +2955,8 @@ ab_Second_Violin_Voice_IV_a = {                                                %
     % [28 Second_Violin_Voice_IV measure 159 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2921,7 +2970,8 @@ ab_Second_Violin_Voice_IV_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_IV measure 160 / measure 3]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -2934,7 +2984,8 @@ ab_Second_Violin_Voice_IV_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2948,7 +2999,8 @@ ab_Second_Violin_Voice_IV_a = {                                                %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -3247,7 +3299,8 @@ ab_Second_Violin_Voice_VII_a = {                                               %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_VII measure 159 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
         d'8                                                                    %! animales.clb_rhythm()
@@ -3262,7 +3315,8 @@ ab_Second_Violin_Voice_VII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -3274,7 +3328,8 @@ ab_Second_Violin_Voice_VII_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -3289,7 +3344,8 @@ ab_Second_Violin_Voice_VII_a = {                                               %
     % [28 Second_Violin_Voice_VII measure 160 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -3345,7 +3401,8 @@ ab_Second_Violin_Voice_VII = {                                                 %
 
 ab_Second_Violin_Voice_VIII_a = {                                              %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_VIII measure 158 / measure 1]                %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -3364,7 +3421,8 @@ ab_Second_Violin_Voice_VIII_a = {                                              %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -3374,7 +3432,8 @@ ab_Second_Violin_Voice_VIII_a = {                                              %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_VIII measure 159 / measure 2]                %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! animales.clb_rhythm()
@@ -3385,7 +3444,8 @@ ab_Second_Violin_Voice_VIII_a = {                                              %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -3398,7 +3458,8 @@ ab_Second_Violin_Voice_VIII_a = {                                              %
     % [28 Second_Violin_Voice_VIII measure 160 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -3408,7 +3469,8 @@ ab_Second_Violin_Voice_VIII_a = {                                              %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -3795,7 +3857,8 @@ ab_Second_Violin_Voice_XI = {                                                  %
 
 ab_Second_Violin_Voice_XII_a = {                                               %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XII measure 158 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -3816,7 +3879,8 @@ ab_Second_Violin_Voice_XII_a = {                                               %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -3827,7 +3891,8 @@ ab_Second_Violin_Voice_XII_a = {                                               %
     % [28 Second_Violin_Voice_XII measure 159 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -3837,7 +3902,8 @@ ab_Second_Violin_Voice_XII_a = {                                               %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XII measure 160 / measure 3]                 %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -3846,7 +3912,8 @@ ab_Second_Violin_Voice_XII_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -3856,7 +3923,8 @@ ab_Second_Violin_Voice_XII_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -3921,7 +3989,8 @@ ab_Second_Violin_Staff_VI = <<                                                 %
 
 ab_Second_Violin_Voice_XIII_a = {                                              %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XIII measure 158 / measure 1]                %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3944,7 +4013,8 @@ ab_Second_Violin_Voice_XIII_a = {                                              %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -3956,7 +4026,8 @@ ab_Second_Violin_Voice_XIII_a = {                                              %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -3971,7 +4042,8 @@ ab_Second_Violin_Voice_XIII_a = {                                              %
     % [28 Second_Violin_Voice_XIII measure 159 / measure 2]                    %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -3988,7 +4060,8 @@ ab_Second_Violin_Voice_XIII_a = {                                              %
     % [28 Second_Violin_Voice_XIII measure 160 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -4263,7 +4336,8 @@ ab_Second_Violin_Voice_XV = {                                                  %
 
 ab_Second_Violin_Voice_XVI_a = {                                               %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XVI measure 158 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -4286,7 +4360,8 @@ ab_Second_Violin_Voice_XVI_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -4300,7 +4375,8 @@ ab_Second_Violin_Voice_XVI_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -4315,7 +4391,8 @@ ab_Second_Violin_Voice_XVI_a = {                                               %
     % [28 Second_Violin_Voice_XVI measure 159 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XVI measure 160 / measure 3]                 %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -4330,7 +4407,8 @@ ab_Second_Violin_Voice_XVI_a = {                                               %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -4338,7 +4416,8 @@ ab_Second_Violin_Voice_XVI_a = {                                               %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -4399,7 +4478,8 @@ ab_Second_Violin_Staff_VIII = <<                                               %
 
 ab_Second_Violin_Voice_XVII_a = {                                              %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XVII measure 158 / measure 1]                %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4418,7 +4498,8 @@ ab_Second_Violin_Voice_XVII_a = {                                              %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -4429,7 +4510,8 @@ ab_Second_Violin_Voice_XVII_a = {                                              %
     % [28 Second_Violin_Voice_XVII measure 159 / measure 2]                    %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -4443,7 +4525,8 @@ ab_Second_Violin_Voice_XVII_a = {                                              %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -4455,7 +4538,8 @@ ab_Second_Violin_Voice_XVII_a = {                                              %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Second_Violin_Voice_XVII measure 160 / measure 3]                %! baca.SegmentMaker._comment_measure_numbers()
         d'8                                                                    %! animales.clb_rhythm()
@@ -4470,7 +4554,8 @@ ab_Second_Violin_Voice_XVII_a = {                                              %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -4884,7 +4969,8 @@ ab_Viola_Voice_III_a = {                                                       %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -4892,7 +4978,8 @@ ab_Viola_Voice_III_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -4903,7 +4990,8 @@ ab_Viola_Voice_III_a = {                                                       %
     % [28 Viola_Voice_III measure 159 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -4920,7 +5008,8 @@ ab_Viola_Voice_III_a = {                                                       %
     % [28 Viola_Voice_III measure 160 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -4991,7 +5080,8 @@ ab_Viola_Voice_IV_a = {                                                        %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_IV measure 159 / measure 2]                          %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -5006,7 +5096,8 @@ ab_Viola_Voice_IV_a = {                                                        %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -5014,7 +5105,8 @@ ab_Viola_Voice_IV_a = {                                                        %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -5025,7 +5117,8 @@ ab_Viola_Voice_IV_a = {                                                        %
     % [28 Viola_Voice_IV measure 160 / measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -5324,7 +5417,8 @@ ab_Viola_Voice_VII_a = {                                                       %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -5338,7 +5432,8 @@ ab_Viola_Voice_VII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_VII measure 159 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -5347,7 +5442,8 @@ ab_Viola_Voice_VII_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -5357,7 +5453,8 @@ ab_Viola_Voice_VII_a = {                                                       %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_VII measure 160 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
         d'8                                                                    %! animales.clb_rhythm()
@@ -5368,7 +5465,8 @@ ab_Viola_Voice_VII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -5433,7 +5531,8 @@ ab_Viola_Voice_VIII_a = {                                                      %
     r4                                                                         %! animales.clb_rhythm()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -5445,7 +5544,8 @@ ab_Viola_Voice_VIII_a = {                                                      %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -5459,7 +5559,8 @@ ab_Viola_Voice_VIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_VIII measure 159 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -5474,7 +5575,8 @@ ab_Viola_Voice_VIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -5487,7 +5589,8 @@ ab_Viola_Voice_VIII_a = {                                                      %
     % [28 Viola_Voice_VIII measure 160 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -5497,7 +5600,8 @@ ab_Viola_Voice_VIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -5891,7 +5995,8 @@ ab_Viola_Voice_XII_a = {                                                       %
     r1                                                                         %! animales.clb_rhythm()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_XII measure 159 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! animales.clb_rhythm()
@@ -5906,7 +6011,8 @@ ab_Viola_Voice_XII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -5918,7 +6024,8 @@ ab_Viola_Voice_XII_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -5933,7 +6040,8 @@ ab_Viola_Voice_XII_a = {                                                       %
     % [28 Viola_Voice_XII measure 160 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -6000,7 +6108,8 @@ ab_Viola_Staff_VI = <<                                                         %
 
 ab_Viola_Voice_XIII_a = {                                                      %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_XIII measure 158 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6017,7 +6126,8 @@ ab_Viola_Voice_XIII_a = {                                                      %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -6027,7 +6137,8 @@ ab_Viola_Voice_XIII_a = {                                                      %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_XIII measure 159 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
         d'8                                                                    %! animales.clb_rhythm()
@@ -6038,7 +6149,8 @@ ab_Viola_Voice_XIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -6051,7 +6163,8 @@ ab_Viola_Voice_XIII_a = {                                                      %
     % [28 Viola_Voice_XIII measure 160 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -6061,7 +6174,8 @@ ab_Viola_Voice_XIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6345,7 +6459,8 @@ ab_Viola_Voice_XVI_a = {                                                       %
     r2                                                                         %! animales.clb_rhythm()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -6355,7 +6470,8 @@ ab_Viola_Voice_XVI_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_XVI measure 159 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! animales.clb_rhythm()
@@ -6366,7 +6482,8 @@ ab_Viola_Voice_XVI_a = {                                                       %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -6377,7 +6494,8 @@ ab_Viola_Voice_XVI_a = {                                                       %
     % [28 Viola_Voice_XVI measure 160 / measure 3]                             %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6391,7 +6509,8 @@ ab_Viola_Voice_XVI_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -6456,7 +6575,8 @@ ab_Viola_Staff_VIII = <<                                                       %
 
 ab_Viola_Voice_XVII_a = {                                                      %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_XVII measure 158 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6475,7 +6595,8 @@ ab_Viola_Voice_XVII_a = {                                                      %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -6486,7 +6607,8 @@ ab_Viola_Voice_XVII_a = {                                                      %
     % [28 Viola_Voice_XVII measure 159 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -6496,7 +6618,8 @@ ab_Viola_Voice_XVII_a = {                                                      %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Viola_Voice_XVII measure 160 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -6505,7 +6628,8 @@ ab_Viola_Voice_XVII_a = {                                                      %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -6515,7 +6639,8 @@ ab_Viola_Voice_XVII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6912,7 +7037,8 @@ ab_Cello_Staff_I = <<                                                          %
 
 ab_Cello_Voice_III_a = {                                                       %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_III measure 158 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6933,7 +7059,8 @@ ab_Cello_Voice_III_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -6947,7 +7074,8 @@ ab_Cello_Voice_III_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -6962,7 +7090,8 @@ ab_Cello_Voice_III_a = {                                                       %
     % [28 Cello_Voice_III measure 159 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_III measure 160 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -6977,7 +7106,8 @@ ab_Cello_Voice_III_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -6985,7 +7115,8 @@ ab_Cello_Voice_III_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -7035,7 +7166,8 @@ ab_Cello_Voice_III = {                                                         %
 
 ab_Cello_Voice_IV_a = {                                                        %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_IV measure 158 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_STAFF_LINES
@@ -7056,7 +7188,8 @@ ab_Cello_Voice_IV_a = {                                                        %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -7067,7 +7200,8 @@ ab_Cello_Voice_IV_a = {                                                        %
     % [28 Cello_Voice_IV measure 159 / measure 2]                              %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -7081,7 +7215,8 @@ ab_Cello_Voice_IV_a = {                                                        %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -7093,7 +7228,8 @@ ab_Cello_Voice_IV_a = {                                                        %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_IV measure 160 / measure 3]                          %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! animales.clb_rhythm()
@@ -7108,7 +7244,8 @@ ab_Cello_Voice_IV_a = {                                                        %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -7401,7 +7538,8 @@ ab_Cello_Voice_VII_a = {                                                       %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
 
@@ -7411,7 +7549,8 @@ ab_Cello_Voice_VII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -7426,7 +7565,8 @@ ab_Cello_Voice_VII_a = {                                                       %
     % [28 Cello_Voice_VII measure 159 / measure 2]                             %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -7438,7 +7578,8 @@ ab_Cello_Voice_VII_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -7452,7 +7593,8 @@ ab_Cello_Voice_VII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_VII measure 160 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -7467,7 +7609,8 @@ ab_Cello_Voice_VII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -7532,7 +7675,8 @@ ab_Cello_Voice_VIII_a = {                                                      %
     r2                                                                         %! animales.clb_rhythm()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -7540,7 +7684,8 @@ ab_Cello_Voice_VIII_a = {                                                      %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -7551,7 +7696,8 @@ ab_Cello_Voice_VIII_a = {                                                      %
     % [28 Cello_Voice_VIII measure 159 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -7568,7 +7714,8 @@ ab_Cello_Voice_VIII_a = {                                                      %
     % [28 Cello_Voice_VIII measure 160 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -7968,7 +8115,8 @@ ab_Cello_Voice_XII_a = {                                                       %
     r2                                                                         %! animales.clb_rhythm()
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -7982,7 +8130,8 @@ ab_Cello_Voice_XII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_XII measure 159 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -7991,7 +8140,8 @@ ab_Cello_Voice_XII_a = {                                                       %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -8001,7 +8151,8 @@ ab_Cello_Voice_XII_a = {                                                       %
 
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_XII measure 160 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
         b8                                                                     %! animales.clb_rhythm()
@@ -8012,7 +8163,8 @@ ab_Cello_Voice_XII_a = {                                                       %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -8086,7 +8238,8 @@ ab_Cello_Voice_XIII_a = {                                                      %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -8098,7 +8251,8 @@ ab_Cello_Voice_XIII_a = {                                                      %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         d'8                                                                    %! animales.clb_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -8112,7 +8266,8 @@ ab_Cello_Voice_XIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [28 Cello_Voice_XIII measure 159 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! animales.clb_rhythm()
@@ -8127,7 +8282,8 @@ ab_Cello_Voice_XIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -8140,7 +8296,8 @@ ab_Cello_Voice_XIII_a = {                                                      %
     % [28 Cello_Voice_XIII measure 160 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 
@@ -8150,7 +8307,8 @@ ab_Cello_Voice_XIII_a = {                                                      %
 
     r4                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 

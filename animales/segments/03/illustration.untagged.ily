@@ -200,7 +200,8 @@ c_First_Violin_Voice_III_a = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         ef'8
         \repeatTie
@@ -404,7 +405,8 @@ c_Second_Violin_Voice_III_a = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         \repeatTie
@@ -433,7 +435,8 @@ c_Second_Violin_Voice_III_a = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'4
         \repeatTie
