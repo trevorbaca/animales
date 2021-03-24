@@ -2761,7 +2761,8 @@ s_Second_Violin_Voice_III_a = {                                                %
     % [19 Second_Violin_Voice_III measure 133 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r8                                                                     %! animales.clb_rhythm()
 
@@ -3426,7 +3427,8 @@ s_Second_Violin_Voice_XII_a = {                                                %
     % [19 Second_Violin_Voice_XII measure 132 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         % [19 Second_Violin_Voice_XII measure 133 / measure 3]                 %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.clb_rhythm()
@@ -3435,7 +3437,8 @@ s_Second_Violin_Voice_XII_a = {                                                %
 
     }                                                                          %! animales.clb_rhythm()
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         b8                                                                     %! animales.clb_rhythm()
 
@@ -4784,7 +4787,8 @@ s_Viola_Voice_XII_a = {                                                        %
 %%% ^ \animales-col-legno-battuti-explanation                                  %! baca.markup():+PARTS:baca.IndicatorCommand._call()
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.clb_rhythm()
+    \times 2/3                                                                 %! animales.clb_rhythm()
+    {                                                                          %! animales.clb_rhythm()
 
         r4                                                                     %! animales.clb_rhythm()
 

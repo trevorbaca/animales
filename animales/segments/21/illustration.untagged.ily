@@ -212,7 +212,8 @@ u_First_Violin_Voice_III_a = {
     % [21 First_Violin_Voice_III measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -225,7 +226,8 @@ u_First_Violin_Voice_III_a = {
     % [21 First_Violin_Voice_III measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
         [
@@ -290,7 +292,8 @@ u_First_Violin_Voice_IV_a = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 First_Violin_Voice_IV measure 138 / measure 2]
         b8
@@ -304,7 +307,8 @@ u_First_Violin_Voice_IV_a = {
     % [21 First_Violin_Voice_IV measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -530,7 +534,8 @@ u_First_Violin_Voice_VII_a = {
     % [21 First_Violin_Voice_VII measure 138 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -594,7 +599,8 @@ u_First_Violin_Voice_VIII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 First_Violin_Voice_VIII measure 138 / measure 2]
         r8
@@ -610,7 +616,8 @@ u_First_Violin_Voice_VIII_a = {
     % [21 First_Violin_Voice_VIII measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -899,7 +906,8 @@ u_First_Violin_Voice_XII_a = {
     % [21 First_Violin_Voice_XII measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -914,7 +922,8 @@ u_First_Violin_Voice_XII_a = {
     % [21 First_Violin_Voice_XII measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -991,7 +1000,8 @@ u_First_Violin_Voice_XIII_a = {
     % [21 First_Violin_Voice_XIII measure 139 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1199,7 +1209,8 @@ u_First_Violin_Voice_XVI_a = {
     % [21 First_Violin_Voice_XVI measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1212,7 +1223,8 @@ u_First_Violin_Voice_XVI_a = {
     % [21 First_Violin_Voice_XVI measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1281,7 +1293,8 @@ u_First_Violin_Voice_XVII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 First_Violin_Voice_XVII measure 138 / measure 2]
         r8
@@ -1299,7 +1312,8 @@ u_First_Violin_Voice_XVII_a = {
     % [21 First_Violin_Voice_XVII measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1595,7 +1609,8 @@ u_Second_Violin_Voice_III_a = {
     % [21 Second_Violin_Voice_III measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -1656,7 +1671,8 @@ u_Second_Violin_Voice_IV_a = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1670,7 +1686,8 @@ u_Second_Violin_Voice_IV_a = {
     % [21 Second_Violin_Voice_IV measure 139 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1678,7 +1695,8 @@ u_Second_Violin_Voice_IV_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -1896,7 +1914,8 @@ u_Second_Violin_Voice_VII_a = {
     % [21 Second_Violin_Voice_VII measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -1904,7 +1923,8 @@ u_Second_Violin_Voice_VII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -1968,7 +1988,8 @@ u_Second_Violin_Voice_VIII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Second_Violin_Voice_VIII measure 138 / measure 2]
         r4
@@ -2257,7 +2278,8 @@ u_Second_Violin_Voice_XII_a = {
     % [21 Second_Violin_Voice_XII measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -2270,7 +2292,8 @@ u_Second_Violin_Voice_XII_a = {
     % [21 Second_Violin_Voice_XII measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
         [
@@ -2343,7 +2366,8 @@ u_Second_Violin_Voice_XIII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Second_Violin_Voice_XIII measure 138 / measure 2]
         d'8
@@ -2357,7 +2381,8 @@ u_Second_Violin_Voice_XIII_a = {
     % [21 Second_Violin_Voice_XIII measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -2571,7 +2596,8 @@ u_Second_Violin_Voice_XVI_a = {
     % [21 Second_Violin_Voice_XVI measure 138 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -2645,7 +2671,8 @@ u_Second_Violin_Voice_XVII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Second_Violin_Voice_XVII measure 138 / measure 2]
         r8
@@ -2661,7 +2688,8 @@ u_Second_Violin_Voice_XVII_a = {
     % [21 Second_Violin_Voice_XVII measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2958,7 +2986,8 @@ u_Viola_Voice_III_a = {
     % [21 Viola_Voice_III measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2973,7 +3002,8 @@ u_Viola_Voice_III_a = {
     % [21 Viola_Voice_III measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3042,7 +3072,8 @@ u_Viola_Voice_IV_a = {
     % [21 Viola_Voice_IV measure 139 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3260,7 +3291,8 @@ u_Viola_Voice_VII_a = {
     % [21 Viola_Voice_VII measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3273,7 +3305,8 @@ u_Viola_Voice_VII_a = {
     % [21 Viola_Voice_VII measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3332,7 +3365,8 @@ u_Viola_Voice_VIII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Viola_Voice_VIII measure 138 / measure 2]
         r8
@@ -3350,7 +3384,8 @@ u_Viola_Voice_VIII_a = {
     % [21 Viola_Voice_VIII measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3638,7 +3673,8 @@ u_Viola_Voice_XII_a = {
     % [21 Viola_Voice_XII measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -3707,7 +3743,8 @@ u_Viola_Voice_XIII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3721,7 +3758,8 @@ u_Viola_Voice_XIII_a = {
     % [21 Viola_Voice_XIII measure 139 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3729,7 +3767,8 @@ u_Viola_Voice_XIII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -3937,7 +3976,8 @@ u_Viola_Voice_XVI_a = {
     % [21 Viola_Voice_XVI measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3945,7 +3985,8 @@ u_Viola_Voice_XVI_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -4019,7 +4060,8 @@ u_Viola_Voice_XVII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Viola_Voice_XVII measure 138 / measure 2]
         r4
@@ -4314,7 +4356,8 @@ u_Cello_Voice_III_a = {
     % [21 Cello_Voice_III measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -4327,7 +4370,8 @@ u_Cello_Voice_III_a = {
     % [21 Cello_Voice_III measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
         [
@@ -4390,7 +4434,8 @@ u_Cello_Voice_IV_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Cello_Voice_IV measure 138 / measure 2]
         b8
@@ -4404,7 +4449,8 @@ u_Cello_Voice_IV_a = {
     % [21 Cello_Voice_IV measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -4628,7 +4674,8 @@ u_Cello_Voice_VII_a = {
     % [21 Cello_Voice_VII measure 138 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
 
@@ -4692,7 +4739,8 @@ u_Cello_Voice_VIII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Cello_Voice_VIII measure 138 / measure 2]
         r8
@@ -4708,7 +4756,8 @@ u_Cello_Voice_VIII_a = {
     % [21 Cello_Voice_VIII measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -4997,7 +5046,8 @@ u_Cello_Voice_XII_a = {
     % [21 Cello_Voice_XII measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -5012,7 +5062,8 @@ u_Cello_Voice_XII_a = {
     % [21 Cello_Voice_XII measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -5089,7 +5140,8 @@ u_Cello_Voice_XIII_a = {
     % [21 Cello_Voice_XIII measure 139 / measure 3]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -5301,7 +5353,8 @@ u_Contrabass_Voice_II_a = {
     % [21 Contrabass_Voice_II measure 138 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -5314,7 +5367,8 @@ u_Contrabass_Voice_II_a = {
     % [21 Contrabass_Voice_II measure 139 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -5385,7 +5439,8 @@ u_Contrabass_Voice_III_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [21 Contrabass_Voice_III measure 138 / measure 2]
         r8
@@ -5403,7 +5458,8 @@ u_Contrabass_Voice_III_a = {
     % [21 Contrabass_Voice_III measure 139 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 

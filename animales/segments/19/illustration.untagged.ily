@@ -2530,7 +2530,8 @@ s_Second_Violin_Voice_III_a = {
     % [19 Second_Violin_Voice_III measure 133 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3159,7 +3160,8 @@ s_Second_Violin_Voice_XII_a = {
     % [19 Second_Violin_Voice_XII measure 132 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [19 Second_Violin_Voice_XII measure 133 / measure 3]
         r4
@@ -3168,7 +3170,8 @@ s_Second_Violin_Voice_XII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -4445,7 +4448,8 @@ s_Viola_Voice_XII_a = {
 %%% ^ \animales-col-legno-battuti-explanation
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 

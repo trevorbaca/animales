@@ -1570,7 +1570,8 @@ z_First_Violin_Voice_III_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 First_Violin_Voice_III measure 153 / measure 2]
         r8
@@ -1586,7 +1587,8 @@ z_First_Violin_Voice_III_a = {
     % [26 First_Violin_Voice_III measure 154 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -1915,7 +1917,8 @@ z_First_Violin_Voice_VIII_a = {
     r1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 First_Violin_Voice_VIII measure 153 / measure 2]
         r8
@@ -1931,7 +1934,8 @@ z_First_Violin_Voice_VIII_a = {
     % [26 First_Violin_Voice_VIII measure 154 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2205,7 +2209,8 @@ z_First_Violin_Voice_XII_a = {
     r4
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2218,7 +2223,8 @@ z_First_Violin_Voice_XII_a = {
     % [26 First_Violin_Voice_XII measure 153 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2226,7 +2232,8 @@ z_First_Violin_Voice_XII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 First_Violin_Voice_XII measure 154 / measure 3]
         b8
@@ -2304,7 +2311,8 @@ z_First_Violin_Voice_XIII_a = {
     % [26 First_Violin_Voice_XIII measure 154 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2510,7 +2518,8 @@ z_First_Violin_Voice_XVI_a = {
     % [26 First_Violin_Voice_XVI measure 153 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
         [
@@ -2527,7 +2536,8 @@ z_First_Violin_Voice_XVI_a = {
     % [26 First_Violin_Voice_XVI measure 154 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2946,7 +2956,8 @@ z_Second_Violin_Voice_IV_a = {
     % [26 Second_Violin_Voice_IV measure 153 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -3152,7 +3163,8 @@ z_Second_Violin_Voice_VII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3165,7 +3177,8 @@ z_Second_Violin_Voice_VII_a = {
     % [26 Second_Violin_Voice_VII measure 153 / measure 2]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Second_Violin_Voice_VII measure 154 / measure 3]
         r4
@@ -3227,7 +3240,8 @@ z_Second_Violin_Voice_VIII_a = {
     r1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Second_Violin_Voice_VIII measure 153 / measure 2]
         r8
@@ -3243,7 +3257,8 @@ z_Second_Violin_Voice_VIII_a = {
     % [26 Second_Violin_Voice_VIII measure 154 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3584,7 +3599,8 @@ z_Second_Violin_Voice_XIII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Second_Violin_Voice_XIII measure 153 / measure 2]
         r8
@@ -3600,7 +3616,8 @@ z_Second_Violin_Voice_XIII_a = {
     % [26 Second_Violin_Voice_XIII measure 154 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3874,7 +3891,8 @@ z_Second_Violin_Voice_XVII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3887,7 +3905,8 @@ z_Second_Violin_Voice_XVII_a = {
     % [26 Second_Violin_Voice_XVII measure 153 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3895,7 +3914,8 @@ z_Second_Violin_Voice_XVII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Second_Violin_Voice_XVII measure 154 / measure 3]
         d'8
@@ -4179,7 +4199,8 @@ z_Viola_Voice_III_a = {
     % [26 Viola_Voice_III measure 153 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d'8
         [
@@ -4196,7 +4217,8 @@ z_Viola_Voice_III_a = {
     % [26 Viola_Voice_III measure 154 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -4462,7 +4484,8 @@ z_Viola_Voice_VII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -4479,7 +4502,8 @@ z_Viola_Voice_VII_a = {
     % [26 Viola_Voice_VII measure 153 / measure 2]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Viola_Voice_VII measure 154 / measure 3]
         r4
@@ -4807,7 +4831,8 @@ z_Viola_Voice_XII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -4820,7 +4845,8 @@ z_Viola_Voice_XII_a = {
     % [26 Viola_Voice_XII measure 153 / measure 2]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Viola_Voice_XII measure 154 / measure 3]
         r4
@@ -4892,7 +4918,8 @@ z_Viola_Voice_XIII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Viola_Voice_XIII measure 153 / measure 2]
         r8
@@ -4908,7 +4935,8 @@ z_Viola_Voice_XIII_a = {
     % [26 Viola_Voice_XIII measure 154 / measure 3]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -5112,7 +5140,8 @@ z_Viola_Voice_XVI_a = {
     % [26 Viola_Voice_XVI measure 153 / measure 2]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
 
@@ -5525,7 +5554,8 @@ z_Cello_Voice_IV_a = {
     r4
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -5538,7 +5568,8 @@ z_Cello_Voice_IV_a = {
     % [26 Cello_Voice_IV measure 153 / measure 2]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -5546,7 +5577,8 @@ z_Cello_Voice_IV_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Cello_Voice_IV measure 154 / measure 3]
         b8
@@ -5758,7 +5790,8 @@ z_Cello_Voice_VII_a = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -5830,7 +5863,8 @@ z_Cello_Voice_VIII_a = {
     % [26 Cello_Voice_VIII measure 153 / measure 2]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         b8
         [
@@ -5847,7 +5881,8 @@ z_Cello_Voice_VIII_a = {
     % [26 Cello_Voice_VIII measure 154 / measure 3]
     r2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -6119,7 +6154,8 @@ z_Cello_Voice_XII_a = {
     r2
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -6136,7 +6172,8 @@ z_Cello_Voice_XII_a = {
     % [26 Cello_Voice_XII measure 153 / measure 2]
     r1
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [26 Cello_Voice_XII measure 154 / measure 3]
         r4

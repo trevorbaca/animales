@@ -262,7 +262,8 @@ k_Horn_Voice_I_a = {                                                           %
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         e'8                                                                    %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -283,7 +284,8 @@ k_Horn_Voice_I_a = {                                                           %
     fs'4                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         fs'4                                                                   %! animales.brass_manifest_rhythm()
 
@@ -299,7 +301,8 @@ k_Horn_Voice_I_a = {                                                           %
     e'4                                                                        %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         e'8                                                                    %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -320,7 +323,8 @@ k_Horn_Voice_I_a = {                                                           %
     fs'4                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         fs'4                                                                   %! animales.brass_manifest_rhythm()
 
@@ -333,7 +337,8 @@ k_Horn_Voice_I_a = {                                                           %
     e'2.                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         e'8                                                                    %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -351,7 +356,8 @@ k_Horn_Voice_I_a = {                                                           %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         fs'4                                                                   %! animales.brass_manifest_rhythm()
 
@@ -534,7 +540,8 @@ k_Horn_Voice_II_a = {                                                          %
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" } %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r4                                                                     %! animales.brass_manifest_rhythm()
 
@@ -551,7 +558,8 @@ k_Horn_Voice_II_a = {                                                          %
     fs'2.                                                                      %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         fs'8                                                                   %! animales.brass_manifest_rhythm()
 
@@ -565,7 +573,8 @@ k_Horn_Voice_II_a = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r4                                                                     %! animales.brass_manifest_rhythm()
 
@@ -586,7 +595,8 @@ k_Horn_Voice_II_a = {                                                          %
     fs'4                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         fs'8                                                                   %! animales.brass_manifest_rhythm()
 
@@ -603,7 +613,8 @@ k_Horn_Voice_II_a = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r4                                                                     %! animales.brass_manifest_rhythm()
 
@@ -675,7 +686,8 @@ k_Horn_Voice_IV_a = {                                                          %
     ef'2                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         ef'4                                                                   %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -704,7 +716,8 @@ k_Horn_Voice_IV_a = {                                                          %
     ef'2                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         % [11 Horn_Voice_IV measure 66 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
         ef'4                                                                   %! animales.brass_manifest_rhythm()
@@ -813,7 +826,8 @@ k_Trumpet_Voice_I_a = {                                                        %
     af'4                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         af'8                                                                   %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -834,7 +848,8 @@ k_Trumpet_Voice_I_a = {                                                        %
     bf'4                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         bf'8                                                                   %! animales.brass_manifest_rhythm()
 
@@ -853,7 +868,8 @@ k_Trumpet_Voice_I_a = {                                                        %
 
     r8                                                                         %! animales.brass_manifest_rhythm()
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r8                                                                     %! animales.brass_manifest_rhythm()
 
@@ -987,7 +1003,8 @@ k_Trumpet_Voice_III_a = {                                                      %
     g'2                                                                        %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         g'4                                                                    %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1010,7 +1027,8 @@ k_Trumpet_Voice_III_a = {                                                      %
     a'2                                                                        %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         a'4                                                                    %! animales.brass_manifest_rhythm()
 
@@ -1103,7 +1121,8 @@ k_Trumpet_Voice_II_a = {                                                       %
     af'2                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         af'4                                                                   %! animales.brass_manifest_rhythm()
 
@@ -1117,7 +1136,8 @@ k_Trumpet_Voice_II_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r4                                                                     %! animales.brass_manifest_rhythm()
 
@@ -1239,7 +1259,8 @@ k_Trumpet_Voice_IV_a = {                                                       %
     g'2.                                                                       %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         % [11 Trumpet_Voice_IV measure 67 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
         g'8                                                                    %! animales.brass_manifest_rhythm()
@@ -1354,7 +1375,8 @@ k_Trombone_Voice_I_a = {                                                       %
     af4                                                                        %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         af8                                                                    %! animales.brass_manifest_rhythm()
 
@@ -1390,7 +1412,8 @@ k_Trombone_Voice_I_a = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r4                                                                     %! animales.brass_manifest_rhythm()
 
@@ -1461,7 +1484,8 @@ k_Trombone_Voice_III_a = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         % [11 Trombone_Voice_III measure 64 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.brass_manifest_rhythm()
@@ -1492,7 +1516,8 @@ k_Trombone_Voice_III_a = {                                                     %
     a2                                                                         %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         a4                                                                     %! animales.brass_manifest_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1515,7 +1540,8 @@ k_Trombone_Voice_III_a = {                                                     %
     g2                                                                         %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         g8                                                                     %! animales.brass_manifest_rhythm()
 
@@ -1653,7 +1679,8 @@ k_Trombone_Voice_II_a = {                                                      %
     bf4                                                                        %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         bf4                                                                    %! animales.brass_manifest_rhythm()
 
@@ -1731,7 +1758,8 @@ k_Trombone_Voice_IV_a = {                                                      %
     g2                                                                         %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         g4                                                                     %! animales.brass_manifest_rhythm()
 
@@ -1750,7 +1778,8 @@ k_Trombone_Voice_IV_a = {                                                      %
 
     r8                                                                         %! animales.brass_manifest_rhythm()
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         r8                                                                     %! animales.brass_manifest_rhythm()
 
@@ -1781,7 +1810,8 @@ k_Trombone_Voice_IV_a = {                                                      %
     g2                                                                         %! animales.brass_manifest_rhythm()
     ~
 
-    \times 2/3 {                                                               %! animales.brass_manifest_rhythm()
+    \times 2/3                                                                 %! animales.brass_manifest_rhythm()
+    {                                                                          %! animales.brass_manifest_rhythm()
 
         % [11 Trombone_Voice_IV measure 67 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
         g8                                                                     %! animales.brass_manifest_rhythm()
@@ -1849,7 +1879,8 @@ k_Trombone_Staff_II = <<                                                       %
 
 k_Piano_Voice_I_a = {                                                          %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         % [11 Piano_Voice_I measure 62 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."         %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1882,7 +1913,8 @@ k_Piano_Voice_I_a = {                                                          %
     % [11 Piano_Voice_I measure 64 / measure 3]                                %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         r8                                                                     %! animales.harp_exchange_rhythm()
 
@@ -1900,7 +1932,8 @@ k_Piano_Voice_I_a = {                                                          %
     % [11 Piano_Voice_I measure 66 / measure 5]                                %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         % [11 Piano_Voice_I measure 67 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! animales.harp_exchange_rhythm()
@@ -1986,7 +2019,8 @@ k_Harp_Voice_I_a = {                                                           %
     % [11 Harp_Voice_I measure 64 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         c''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -2002,7 +2036,8 @@ k_Harp_Voice_I_a = {                                                           %
     % [11 Harp_Voice_I measure 66 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         c''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -2209,7 +2244,8 @@ k_Percussion_Voice_III_a = {                                                   %
     % [11 Percussion_Voice_III measure 63 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         c''8                                                                   %! animales.harp_exchange_rhythm()
         \laissezVibrer                                                         %! baca.laissez_vibrer():baca.IndicatorCommand._call()
@@ -2223,7 +2259,8 @@ k_Percussion_Voice_III_a = {                                                   %
     % [11 Percussion_Voice_III measure 64 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         % [11 Percussion_Voice_III measure 65 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
         c''8                                                                   %! animales.harp_exchange_rhythm()
@@ -2855,7 +2892,8 @@ k_Contrabass_Voice_I_a = {                                                     %
     % [11 Contrabass_Voice_I measure 63 / measure 2]                           %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
         cqf''!8                                                                %! animales.harp_exchange_rhythm()
@@ -2873,7 +2911,8 @@ k_Contrabass_Voice_I_a = {                                                     %
     % [11 Contrabass_Voice_I measure 65 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! animales.harp_exchange_rhythm()
 
-    \times 2/3 {                                                               %! animales.harp_exchange_rhythm()
+    \times 2/3                                                                 %! animales.harp_exchange_rhythm()
+    {                                                                          %! animales.harp_exchange_rhythm()
 
         % [11 Contrabass_Voice_I measure 66 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         cqf''!8                                                                %! animales.harp_exchange_rhythm()

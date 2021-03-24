@@ -437,7 +437,8 @@ a_First_Violin_Voice_III_a = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a'8
         \repeatTie
@@ -672,7 +673,8 @@ a_Second_Violin_Voice_III_a = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a'4
         \repeatTie
@@ -718,7 +720,8 @@ a_Second_Violin_Voice_III_a = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Second_Violin_Voice_III measure 6]
         af'8

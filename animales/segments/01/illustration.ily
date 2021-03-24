@@ -529,7 +529,8 @@ a_First_Violin_Voice_III_a = {                                                 %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
+    \times 2/3                                                                 %! animales.sforzando_exchange_rhythm()
+    {                                                                          %! animales.sforzando_exchange_rhythm()
 
         a'8                                                                    %! animales.sforzando_exchange_rhythm()
         \repeatTie
@@ -772,7 +773,8 @@ a_Second_Violin_Voice_III_a = {                                                %
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" } %! baca.margin_markup():-PARTS:ANIMALES:baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_EXPLICIT_MARGIN_MARKUP
 
-    \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
+    \times 2/3                                                                 %! animales.sforzando_exchange_rhythm()
+    {                                                                          %! animales.sforzando_exchange_rhythm()
 
         a'4                                                                    %! animales.sforzando_exchange_rhythm()
         \repeatTie
@@ -818,7 +820,8 @@ a_Second_Violin_Voice_III_a = {                                                %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    \times 2/3 {                                                               %! animales.sforzando_exchange_rhythm()
+    \times 2/3                                                                 %! animales.sforzando_exchange_rhythm()
+    {                                                                          %! animales.sforzando_exchange_rhythm()
 
         % [01 Second_Violin_Voice_III measure 6]                               %! baca.SegmentMaker._comment_measure_numbers()
         af'8                                                                   %! animales.sforzando_exchange_rhythm()
