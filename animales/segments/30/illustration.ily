@@ -1,3 +1,4 @@
+%! ide.Path.extern()
 ad_Global_Rests = { %! ide.Path.extern()
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -65,9 +66,11 @@ ad_Global_Rests = { %! ide.Path.extern()
     R1 * 1/4 %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
 %! abjad.ScoreTemplate._make_global_context()
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Global_Skips = { %! ide.Path.extern()
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -492,9 +495,11 @@ ad_Global_Skips = { %! ide.Path.extern()
     \once \override Score.SpanBar.transparent = ##t %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
 %! abjad.ScoreTemplate._make_global_context()
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Piano_Voice_I_a = { %! ide.Path.extern()
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -754,11 +759,14 @@ ad_Piano_Voice_I_a = { %! ide.Path.extern()
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     >> %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Piano_Voice_I = { %! ide.Path.extern()
 
+    %! ide.Path.extern()
     \ad_Piano_Voice_I_a %! ide.Path.extern()
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -853,20 +861,25 @@ ad_Piano_Voice_I = { %! ide.Path.extern()
     >> %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
 %! animales.ScoreTemplate._make_staves()
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Piano_Staff_I = { %! ide.Path.extern()
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Piano_Voice_I" %! animales.ScoreTemplate._make_staves()
     %! animales.ScoreTemplate._make_staves()
+    %! ide.Path.extern()
     \ad_Piano_Voice_I %! ide.Path.extern()
 
 %! animales.ScoreTemplate._make_staves()
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Percussion_Voice_IV_a = { %! ide.Path.extern()
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -1345,11 +1358,14 @@ ad_Percussion_Voice_IV_a = { %! ide.Path.extern()
     %! DURATION_MULTIPLIER
 %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Percussion_Voice_IV = { %! ide.Path.extern()
 
+    %! ide.Path.extern()
     \ad_Percussion_Voice_IV_a %! ide.Path.extern()
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -1464,15 +1480,19 @@ ad_Percussion_Voice_IV = { %! ide.Path.extern()
     >> %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
 %! animales.ScoreTemplate._make_staves()
+%! ide.Path.extern()
 } %! ide.Path.extern()
 
 
+%! ide.Path.extern()
 ad_Percussion_Staff_IV = { %! ide.Path.extern()
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Percussion_Voice_IV" %! animales.ScoreTemplate._make_staves()
     %! animales.ScoreTemplate._make_staves()
+    %! ide.Path.extern()
     \ad_Percussion_Voice_IV %! ide.Path.extern()
 
 %! animales.ScoreTemplate._make_staves()
+%! ide.Path.extern()
 } %! ide.Path.extern()
