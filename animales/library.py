@@ -23,7 +23,7 @@ metronome_marks = abjad.OrderedDict(
 
 # time signatures
 
-pairs = baca.sequence(
+pairs = baca.Sequence(
     [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
 )
 pairs = pairs.helianthate(-1, -1).flatten()
@@ -92,7 +92,7 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         persist="brass_manifest_rhythm",
         tag=abjad.Tag("animales.brass_manifest_rhythm()"),
     )
@@ -190,7 +190,7 @@ def glissando_positions(
     """
     positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
     positions_ = [_ + transpose for _ in positions_]
-    positions = baca.sequence(positions_)
+    positions = baca.Sequence(positions_)
     if reverse is True:
         positions = positions.reverse()
     positions = positions.rotate(rotate)
@@ -202,7 +202,7 @@ def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
     Makes glissando rhythm.
     """
     return baca.rhythm(
-        rmakers.talea(baca.sequence([5, 1, 2, 1]).rotate(n=rotate), 8),
+        rmakers.talea(baca.Sequence([5, 1, 2, 1]).rotate(n=rotate), 8),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
@@ -240,7 +240,7 @@ def harp_exchange_rhythm(
             degrees = []
             for indices in part_to_indices.values():
                 talea = abjad.math.difference_series(indices)
-                degree = baca.sequence(talea).degree_of_rotational_symmetry()
+                degree = baca.Sequence(talea).degree_of_rotational_symmetry()
                 degrees.append(degree)
             if all(1 < _ for _ in degrees):
                 break
@@ -259,7 +259,7 @@ def harp_exchange_rhythm(
             preamble.append(offset)
         part_to_preamble[part] = preamble
         counts = abjad.math.difference_series(indices)
-        period = baca.sequence(counts).period_of_rotation()
+        period = baca.Sequence(counts).period_of_rotation()
         counts = counts[:period]
         part_to_counts[part] = counts
 
@@ -285,7 +285,7 @@ def harp_exchange_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         persist="harp_exchange_rhythm",
         tag=abjad.Tag("animales.harp_exchange_rhythm()"),
     )
@@ -373,7 +373,7 @@ def pennant_rhythm(
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         tag=abjad.Tag("animales.pennant_rhythm()"),
     )
 
@@ -411,7 +411,7 @@ def sforzando_exchange_rhythm(
             degrees = []
             for indices in part_to_indices.values():
                 talea = abjad.math.difference_series(indices)
-                degree = baca.sequence(talea).degree_of_rotational_symmetry()
+                degree = baca.Sequence(talea).degree_of_rotational_symmetry()
                 degrees.append(degree)
             if all(1 < _ for _ in degrees):
                 break
@@ -428,7 +428,7 @@ def sforzando_exchange_rhythm(
             preamble.append(offset)
         part_to_preamble[part] = preamble
         counts = abjad.math.difference_series(indices)
-        period = baca.sequence(counts).period_of_rotation()
+        period = baca.Sequence(counts).period_of_rotation()
         counts = counts[:period]
         part_to_counts[part] = counts
 
@@ -442,7 +442,7 @@ def sforzando_exchange_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         persist="sforzando_exchange_rhythm",
         tag=abjad.Tag("animales.sforzando_exchange_rhythm()"),
     )
@@ -1521,7 +1521,7 @@ def clb_rhythm(
     total_players = 74
     index = section_to_offset[section] + member - 1
 
-    counts_ = baca.sequence(counts)
+    counts_ = baca.Sequence(counts)
     counts_ = counts_.helianthate(-1, -1)
     counts_ = counts_.flatten()
     counts_ = counts_.repeat_to_weight(total_players * wrap)
@@ -1542,7 +1542,7 @@ def clb_rhythm(
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
         tag=abjad.Tag("animales.clb_rhythm()"),
     )
 
