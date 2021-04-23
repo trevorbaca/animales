@@ -184,7 +184,7 @@ def glissando_positions(
                     6,
                     ]
                 ),
-            selector=baca.plts(exclude='HIDDEN'),
+            selector=...,
             )
 
     """
@@ -1633,19 +1633,19 @@ def parts(
     ..  container:: example
 
         >>> animales.parts('Horn')
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn'), selector=baca.leaves())
+        PartAssignmentCommand(part_assignment=PartAssignment('Horn'), selector=...)
 
         >>> animales.parts('Horn', 1)
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', 1), selector=baca.leaves())
+        PartAssignmentCommand(part_assignment=PartAssignment('Horn', 1), selector=...)
 
         >>> animales.parts('Horn', 2)
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', 2), selector=baca.leaves())
+        PartAssignmentCommand(part_assignment=PartAssignment('Horn', 2), selector=...)
 
         >>> animales.parts('Horn', (3, 4))
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', (3, 4)), selector=baca.leaves())
+        PartAssignmentCommand(part_assignment=PartAssignment('Horn', (3, 4)), selector=...)
 
         >>> animales.parts('Horn', [1, 3])
-        PartAssignmentCommand(part_assignment=PartAssignment('Horn', [1, 3]), selector=baca.leaves())
+        PartAssignmentCommand(part_assignment=PartAssignment('Horn', [1, 3]), selector=...)
 
     ..  container:: example exception
 
