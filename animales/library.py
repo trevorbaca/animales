@@ -30,6 +30,21 @@ pairs = pairs.helianthate(-1, -1).flatten()
 pairs = [abjad.TimeSignature(_) for _ in pairs]
 time_signatures = abjad.CyclicTuple(pairs)
 
+# selectors
+
+
+def leaves_in_measure(n, lleak=False, rleak=False):
+    def selector(argument):
+        result = baca.Selection(argument).mleaves(n)
+        if lleak is True:
+            result = result.lleak()
+        if rleak is True:
+            result = result.rleak()
+        return result
+
+    return selector
+
+
 # other functions
 
 

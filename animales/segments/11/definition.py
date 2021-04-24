@@ -107,7 +107,7 @@ crescendi = baca.suite(
             "mp < ff",
             remove_length_1_spanner_start=True,
         ),
-        map=baca.runs()[1:],
+        map=baca.selectors.runs((1, None)),
     ),
 )
 

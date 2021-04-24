@@ -109,7 +109,7 @@ def crescendi():
     return baca.suite(
         baca.new(
             baca.hairpin("mp < mf"),
-            map=baca.runs()[:-1],
+            map=baca.selectors.runs((None, -1)),
         ),
         baca.new(
             baca.hairpin(
