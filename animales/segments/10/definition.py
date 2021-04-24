@@ -117,7 +117,7 @@ def crescendi():
                 remove_length_1_spanner_start=True,
                 right_broken=True,
             ),
-            map=baca.run(-1),
+            map=baca.selectors.runs((-1, None)),
         ),
     )
 
