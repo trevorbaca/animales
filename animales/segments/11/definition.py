@@ -100,7 +100,7 @@ maker(
 crescendi = baca.suite(
     baca.new(
         baca.hairpin("< f", left_broken=True),
-        map=baca.run(0),
+        map=baca.selectors.runs((None, 1)),
     ),
     baca.new(
         baca.hairpin(
