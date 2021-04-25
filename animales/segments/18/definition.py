@@ -74,8 +74,8 @@ maker(
 
 maker(
     "Global_Rests",
-    baca.global_fermata("fermata", selector=baca.leaf(2)),
-    baca.global_fermata("fermata", selector=baca.leaf(7)),
+    baca.global_fermata("fermata", selector=baca.selectors.leaf(2)),
+    baca.global_fermata("fermata", selector=baca.selectors.leaf(7)),
 )
 
 animales.attach_grand_pause_fermatas(maker, measure=3)
@@ -292,7 +292,7 @@ for voice, items in string_parts.items():
 
 maker(
     "1vn5",
-    baca.repeat_tie(baca.leaf(0)),
+    baca.repeat_tie(baca.selectors.leaf(0)),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
