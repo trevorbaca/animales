@@ -170,7 +170,7 @@ maker(
     baca.markup(
         r"\animales-choke-sound-suddenly-markup",
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
 )
 
@@ -359,7 +359,7 @@ maker(
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
 )
 
@@ -369,7 +369,7 @@ maker(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
             literal=True,
-            selector=baca.leaf(0),
+            selector=baca.selectors.leaf(0),
         ),
     ),
 )

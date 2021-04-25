@@ -150,7 +150,7 @@ maker(
 maker(
     "perc1",
     animales.parts("Percussion", 1),
-    baca.dynamic("niente", selector=baca.leaf(0)),
+    baca.dynamic("niente", selector=baca.selectors.leaf(0)),
 )
 
 # cymbal
@@ -237,7 +237,7 @@ maker(
 maker(
     "cb3",
     baca.suite(
-        baca.untie(baca.leaf(1)),
+        baca.untie(baca.selectors.leaf(1)),
         baca.pitch(
             "A#1",
             selector=baca.selectors.pleaf(0),
@@ -246,19 +246,19 @@ maker(
             "Bb1",
             selector=baca.leaves()[1:],
         ),
-        baca.repeat_tie(selector=baca.leaf(1)),
+        baca.repeat_tie(selector=baca.selectors.leaf(1)),
         baca.edition(
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.Down,
                 literal=True,
-                selector=baca.leaf(1),
+                selector=baca.selectors.leaf(1),
             ),
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.Up,
                 literal=True,
-                selector=baca.leaf(1),
+                selector=baca.selectors.leaf(1),
             ),
         ),
     ),

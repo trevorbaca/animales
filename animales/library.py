@@ -61,7 +61,7 @@ def attach_grand_pause_fermatas(maker: baca.SegmentMaker, *, measure: int = -1) 
             r'\markup \musicglyph #"scripts.ufermata"',
             literal=True,
         )
-        markup_command = baca.markup(markup, selector=baca.leaf(0))
+        markup_command = baca.markup(markup, selector=baca.selectors.leaf(0))
         string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
         literal_1 = baca.literal(string)
         string = r"\once \override Score.TimeSignature.stencil = ##f"
@@ -1277,7 +1277,7 @@ def margin_markup(
     key: str,
     alert: baca.IndicatorCommand = None,
     context: str = "Staff",
-    selector: abjad.Expression = baca.leaf(0),
+    selector: abjad.Expression = baca.selectors.leaf(0),
 ) -> baca.CommandTyping:
     """
     Makes tagged margin markup indicator command.
@@ -1624,7 +1624,7 @@ def constellations(
                     literal=True,
                 )
                 command: baca.CommandTyping
-                command = baca.markup(markup, selector=baca.leaf(0))
+                command = baca.markup(markup, selector=baca.selectors.leaf(0))
                 command = baca.only_parts(command)
                 commands.append(command)
                 command = baca.staff_lines(1)

@@ -74,7 +74,7 @@ maker(
     baca.new(
         baca.global_fermata("fermata"),
         baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
-        selector=baca.leaf(7 - 1),
+        selector=baca.selectors.leaf(7 - 1),
     ),
 )
 
@@ -349,7 +349,7 @@ maker(
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
 )
 
@@ -359,7 +359,7 @@ maker(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
             literal=True,
-            selector=baca.leaf(0),
+            selector=baca.selectors.leaf(0),
         ),
     ),
 )

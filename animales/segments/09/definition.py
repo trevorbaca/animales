@@ -82,7 +82,7 @@ maker(
     baca.markup(
         r"\animales-choke-sound-suddenly-explanation-markup",
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),
 )
@@ -129,7 +129,7 @@ maker(
 maker(
     "perc2",
     animales.parts("Percussion", 2),
-    baca.dynamic("niente", selector=baca.leaf(0)),
+    baca.dynamic("niente", selector=baca.selectors.leaf(0)),
 )
 
 # vibraphone
@@ -192,7 +192,7 @@ maker(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
             literal=True,
-            selector=baca.leaf(0),
+            selector=baca.selectors.leaf(0),
         ),
     ),
 )
@@ -203,7 +203,7 @@ maker(
         baca.markup(
             r"\animales-strings-suddenly-ripped-off-markup",
             literal=True,
-            selector=baca.leaf(0),
+            selector=baca.selectors.leaf(0),
         ),
     ),
 )

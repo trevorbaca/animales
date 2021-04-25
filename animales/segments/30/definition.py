@@ -44,7 +44,7 @@ maker(
 
 maker(
     "Global_Rests",
-    baca.global_fermata("fermata", selector=baca.leaf(10 - 1)),
+    baca.global_fermata("fermata", selector=baca.selectors.leaf(10 - 1)),
 )
 
 animales.attach_grand_pause_fermatas(maker, measure=-1)
