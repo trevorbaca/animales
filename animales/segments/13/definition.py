@@ -109,7 +109,7 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # piano
@@ -120,7 +120,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # triangle
@@ -128,10 +128,13 @@ maker(
 maker(
     "perc1",
     animales.parts("Percussion", 1),
-    baca.hairpin("niente o< mp", selector=baca.pleaves()[:4]),
+    baca.hairpin(
+        "niente o< mp",
+        selector=baca.selectors.pleaves((None, 4)),
+    ),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # cymbal
@@ -140,9 +143,11 @@ maker(
     "perc2",
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # vibraphone

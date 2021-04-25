@@ -291,9 +291,9 @@ maker(
 
 def tremolo_suite():
     return baca.suite(
-        baca.accent(selector=baca.pleaves()),
+        baca.accent(selector=baca.selectors.pleaves()),
         baca.dynamic("ff"),
-        baca.hairpin("ff > pp", selector=baca.pleaves()[2:-2]),
+        baca.hairpin("ff > pp", selector=baca.selectors.pleaves((2, -2))),
         baca.only_parts(
             baca.markup(
                 r"\animales-ext-ponticello-like-acid-markup",
@@ -302,9 +302,9 @@ def tremolo_suite():
         ),
         baca.text_spanner(
             "ext. pont. => tasto",
-            selector=baca.pleaves()[2:-2],
+            selector=baca.selectors.pleaves((2, -2)),
         ),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(selector=baca.selectors.pleaves()),
     )
 
 
@@ -333,8 +333,10 @@ maker(
     animales.parts("First_Violin", 18),
     baca.make_repeat_tied_notes(),
     baca.pitch("C#4"),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # first violins

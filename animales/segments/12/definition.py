@@ -239,7 +239,7 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # piano
@@ -250,7 +250,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # percussion (cym., vib.)
@@ -260,7 +260,7 @@ maker(
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(

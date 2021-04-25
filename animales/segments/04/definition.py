@@ -99,7 +99,7 @@ maker(
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(
@@ -186,8 +186,16 @@ maker(
     baca.suite(
         baca.untie(baca.leaves()),
         animales.glissando_positions(reverse=True),
-        baca.pitch("C5", baca.pleaf(0), allow_repitch=True),
-        baca.pitch("C6", baca.pleaf(-1), allow_repitch=True),
+        baca.pitch(
+            "C5",
+            baca.selectors.pleaf(0),
+            allow_repitch=True,
+        ),
+        baca.pitch(
+            "C6",
+            baca.selectors.pleaf(-1),
+            allow_repitch=True,
+        ),
         baca.tie(baca.ptail(-2)),
         baca.glissando(),
     ),
@@ -207,8 +215,11 @@ strings = [
 
 maker(
     (strings, (1, 2)),
-    baca.accent(selector=baca.pheads()[1:]),
-    baca.dynamic("f-sub-but-accents-continue-sffz", selector=baca.pleaf(0)),
+    baca.accent(selector=baca.selectors.pheads((1, None))),
+    baca.dynamic(
+        "f-sub-but-accents-continue-sffz",
+        selector=baca.selectors.pleaf(0),
+    ),
     baca.pitch("Db4"),
     baca.trill_spanner(alteration="Eb4"),
 )

@@ -79,8 +79,10 @@ maker(
     animales.parts("Percussion", 1),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # cymbal
@@ -90,8 +92,10 @@ maker(
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # strings
@@ -114,8 +118,16 @@ maker(
     baca.suite(
         baca.untie(baca.leaves()),
         animales.glissando_positions(transpose=-1),
-        baca.pitch("B4", baca.pleaf(0), allow_repitch=True),
-        baca.pitch("B3", baca.pleaf(-1), allow_repitch=True),
+        baca.pitch(
+            "B4",
+            baca.selectors.pleaf(0),
+            allow_repitch=True,
+        ),
+        baca.pitch(
+            "B3",
+            baca.selectors.pleaf(-1),
+            allow_repitch=True,
+        ),
         baca.glissando(),
     ),
 )
@@ -145,8 +157,11 @@ strings = [
 
 maker(
     strings,
-    baca.accent(selector=baca.pheads()[1:]),
-    baca.dynamic("f-but-accents-sffz", selector=baca.pleaf(0)),
+    baca.accent(selector=baca.selectors.pheads((1, None))),
+    baca.dynamic(
+        "f-but-accents-sffz",
+        selector=baca.selectors.pleaf(0),
+    ),
     baca.pitch("B3"),
     baca.trill_spanner(alteration="C4", right_broken=True),
 )
@@ -156,7 +171,11 @@ maker(
 maker(
     "cb3",
     animales.parts("Contrabass"),
-    baca.hairpin("< ff", selector=baca.pleaves()[:4], left_broken=True),
+    baca.hairpin(
+        "< ff",
+        selector=baca.selectors.pleaves((None, 4)),
+        left_broken=True,
+    ),
     baca.make_repeat_tied_notes(),
     baca.pitch("B1"),
 )

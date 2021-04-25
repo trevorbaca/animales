@@ -147,11 +147,11 @@ maker(
 
 def tremolo_suite():
     return baca.suite(
-        baca.accent(selector=baca.pleaves()),
+        baca.accent(selector=baca.selectors.pleaves()),
         baca.dynamic("ff-ancora"),
         baca.hairpin(
             "ff > pp",
-            selector=baca.pleaves()[2:-2],
+            selector=baca.selectors.pleaves((2, -2)),
         ),
         baca.only_parts(
             baca.markup(
@@ -161,9 +161,9 @@ def tremolo_suite():
         ),
         baca.text_spanner(
             "ext. pont. => tasto",
-            selector=baca.pleaves()[2:-2],
+            selector=baca.selectors.pleaves((2, -2)),
         ),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(selector=baca.selectors.pleaves()),
     )
 
 
@@ -198,7 +198,7 @@ maker(
         literal=True,
     ),
     baca.pitch("C#4"),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # part assignments

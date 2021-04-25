@@ -168,7 +168,9 @@ maker(
         selector=baca.leaves()[2:4],
     ),
     baca.pitch("Ab2"),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
 )
 
 maker(
@@ -193,7 +195,7 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("Bb4"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # piano
@@ -208,7 +210,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("Bb4"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # percussion
@@ -224,11 +226,11 @@ maker(
     ("perc1", (1, 3)),
     baca.hairpin(
         "niente o< mp",
-        selector=baca.pleaves()[:2],
+        selector=baca.selectors.pleaves((None, 2)),
     ),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # cymbal
@@ -242,11 +244,11 @@ maker(
     ("perc2", (1, 3)),
     baca.hairpin(
         "niente o< mp",
-        selector=baca.pleaves()[:2],
+        selector=baca.selectors.pleaves((None, 2)),
     ),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # vibraphone
@@ -287,8 +289,16 @@ maker(
     baca.suite(
         baca.untie(baca.leaves()),
         animales.glissando_positions(transpose=-3),
-        baca.pitch("G4", baca.pleaf(0), allow_repitch=True),
-        baca.pitch("G4", baca.pleaf(-1), allow_repitch=True),
+        baca.pitch(
+            "G4",
+            baca.selectors.pleaf(0),
+            allow_repitch=True,
+        ),
+        baca.pitch(
+            "G4",
+            baca.selectors.pleaf(-1),
+            allow_repitch=True,
+        ),
         baca.glissando(),
     ),
 )

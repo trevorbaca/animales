@@ -91,10 +91,12 @@ maker(
 
 maker(
     ("bcl1", (1, 3)),
-    baca.hairpin("p >o niente", selector=baca.pleaves().rleak()),
+    baca.hairpin("p >o niente", selector=baca.selectors.pleaves(rleak=True)),
     baca.make_repeat_tied_notes(),
     baca.pitch("A2"),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
 )
 
 maker(
@@ -248,7 +250,7 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # piano
@@ -259,7 +261,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # percussion

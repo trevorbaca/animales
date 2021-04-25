@@ -94,7 +94,7 @@ maker(
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # cymbal
@@ -103,9 +103,11 @@ maker(
     "perc2",
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # bass drum
@@ -115,8 +117,10 @@ maker(
     animales.parts("Percussion", 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # tam-tam
@@ -126,8 +130,10 @@ maker(
     animales.parts("Percussion", 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # strings
@@ -144,6 +150,8 @@ maker(
     baca.dynamic("fff"),
     baca.make_repeat_tied_notes(),
     baca.pitch("C#2"),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
     baca.text_spanner("ord. => ext. pont."),
 )
