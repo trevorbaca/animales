@@ -106,7 +106,7 @@ maker(
     baca.only_parts(
         baca.hairpin(
             "mf < ff",
-            selector=baca.tleaves(),
+            selector=baca.selectors.tleaves(),
         ),
     ),
     baca.slur(),
@@ -118,7 +118,7 @@ maker(
     animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
     baca.hairpin(
         "mf < ff",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
@@ -133,7 +133,7 @@ maker(
     baca.only_parts(
         baca.hairpin(
             "mf < ff",
-            selector=baca.tleaves(),
+            selector=baca.selectors.tleaves(),
         ),
     ),
     baca.slur(),
@@ -145,7 +145,7 @@ maker(
     animales.pennant_rhythm([0, 0, -1, -1]),
     baca.hairpin(
         "mf < ff",
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
