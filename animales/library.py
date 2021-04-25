@@ -156,7 +156,9 @@ def downbeat_attack(count: int = 1, denominator: int = 8) -> baca.RhythmCommand:
     """
     return baca.rhythm(
         rmakers.talea([count], denominator),
-        rmakers.force_rest(baca.lts()[1:]),
+        rmakers.force_rest(
+            baca.lts()[1:],
+        ),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
@@ -287,7 +289,7 @@ def harp_exchange_rhythm(
 
     silence_first_specifier = []
     if silence_first is True:
-        specifier = rmakers.force_rest(baca.lt(0))
+        specifier = rmakers.force_rest(baca.selectors.lt(0))
         silence_first_specifier.append(specifier)
 
     return baca.rhythm(
@@ -376,7 +378,9 @@ def pennant_rhythm(
     """
     commands = []
     if silences is not None:
-        specifier = rmakers.force_rest(baca.tuplets().get(silences))
+        specifier = rmakers.force_rest(
+            baca.selectors.tuplets(silences),
+        )
         commands.append(specifier)
 
     return baca.rhythm(
