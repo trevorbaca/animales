@@ -99,8 +99,10 @@ maker(
     ("perc1", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # strings

@@ -89,8 +89,10 @@ maker(
     baca.hairpin("p >o", right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 maker(
@@ -98,8 +100,10 @@ maker(
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # strings
@@ -148,7 +152,9 @@ left_broken = [
 maker(
     (left_broken, 1),
     baca.not_segment(baca.stop_trill()),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
 )
 
 absent_left_broken = [
@@ -223,5 +229,7 @@ maker(
     ),
     baca.hairpin("ff >", right_broken=True),
     baca.interpolate_pitches("B1", "A1"),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
 )

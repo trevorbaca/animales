@@ -124,7 +124,7 @@ maker(
         ),
     ),
     baca.pitch("D5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # piano
@@ -140,7 +140,7 @@ maker(
         literal=True,
     ),
     baca.pitch("D5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # percussion
@@ -160,8 +160,10 @@ maker(
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.repeat_tie(baca.pleaf(0)),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # vibraphone
@@ -236,8 +238,14 @@ maker(
     "cb3",
     baca.suite(
         baca.untie(baca.leaf(1)),
-        baca.pitch("A#1", selector=baca.pleaf(0)),
-        baca.pitch("Bb1", selector=baca.leaves()[1:]),
+        baca.pitch(
+            "A#1",
+            selector=baca.selectors.pleaf(0),
+        ),
+        baca.pitch(
+            "Bb1",
+            selector=baca.leaves()[1:],
+        ),
         baca.repeat_tie(selector=baca.leaf(1)),
         baca.edition(
             baca.markup(

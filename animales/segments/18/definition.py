@@ -226,7 +226,7 @@ def tremolo(peak="f"):
             pieces=baca.selectors.cmgroups([2]),
         ),
         baca.stem_tremolo(
-            selector=baca.pleaves(exclude=baca.const.HIDDEN),
+            selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -294,7 +294,7 @@ maker(
     "1vn5",
     baca.repeat_tie(baca.leaf(0)),
     baca.stem_tremolo(
-        selector=baca.pleaves(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 

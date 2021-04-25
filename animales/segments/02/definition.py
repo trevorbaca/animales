@@ -63,26 +63,34 @@ strings = [
 # first accents ...
 maker(
     strings,
-    baca.accent(selector=baca.pheads()[1:]),
+    baca.accent(selector=baca.selectors.pheads((1, None))),
 )
 
 # then untie ...
 maker(
     (strings, 5),
-    baca.untie(baca.pleaf(0)),
+    baca.untie(
+        baca.selectors.pleaf(0),
+    ),
 )
 
 # ... then pitch
 maker(
     (strings, (1, 4)),
-    baca.dynamic("f-sub-but-accents-continue-sffz", selector=baca.pleaf(0)),
+    baca.dynamic(
+        "f-sub-but-accents-continue-sffz",
+        selector=baca.selectors.pleaf(0),
+    ),
     baca.pitch("Gb4"),
     baca.trill_spanner(alteration="Ab4"),
 )
 
 maker(
     (strings, (5, 6)),
-    baca.dynamic("p-sub-but-accents-continue-sffz", selector=baca.pleaf(0)),
+    baca.dynamic(
+        "p-sub-but-accents-continue-sffz",
+        selector=baca.selectors.pleaf(0),
+    ),
     baca.pitch("F4"),
     baca.trill_spanner(alteration="Gb4", right_broken=True),
 )

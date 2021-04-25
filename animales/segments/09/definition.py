@@ -95,7 +95,9 @@ maker(
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.pitch("A2"),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
 )
 
 # harp
@@ -106,7 +108,7 @@ maker(
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # piano
@@ -117,7 +119,7 @@ maker(
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch("C5"),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # percussion
@@ -150,7 +152,7 @@ maker(
         ("vc1", (1, 3)),
     ],
     baca.make_repeat_tied_notes(),
-    baca.hairpin("< ff", left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin("< ff", left_broken=True, selector=baca.selectors.pleaves((None, 2))),
     baca.pitch("Ab3"),
     baca.trill_spanner(alteration="Bb3"),
 )
@@ -209,7 +211,11 @@ maker(
 maker(
     ("cb3", (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.hairpin("< ff", left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin(
+        "< ff",
+        left_broken=True,
+        selector=baca.selectors.pleaves((None, 2)),
+    ),
     baca.pitch("Ab1"),
 )
 

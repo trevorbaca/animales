@@ -182,7 +182,9 @@ maker(
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab2"),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
 )
 
 # harp
@@ -192,7 +194,7 @@ maker(
     animales.parts("Harp"),
     animales.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 maker(
@@ -220,7 +222,7 @@ maker(
     animales.parts("Piano"),
     animales.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.stopped(selector=baca.pheads()),
+    baca.stopped(selector=baca.selectors.pheads()),
 )
 
 # percussion
@@ -235,9 +237,11 @@ maker(
 maker(
     ("perc1", (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # cymbal
@@ -250,9 +254,11 @@ maker(
 maker(
     ("perc2", (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
 # vibraphone
@@ -289,8 +295,16 @@ maker(
     baca.suite(
         baca.untie(baca.leaves()),
         animales.glissando_positions(transpose=-3),
-        baca.pitch("G4", baca.pleaf(0), allow_repitch=True),
-        baca.pitch("G4", baca.pleaf(-1), allow_repitch=True),
+        baca.pitch(
+            "G4",
+            baca.selectors.pleaf(0),
+            allow_repitch=True,
+        ),
+        baca.pitch(
+            "G4",
+            baca.selectors.pleaf(-1),
+            allow_repitch=True,
+        ),
         baca.glissando(),
     ),
 )
@@ -303,7 +317,11 @@ maker(
         ("vc1", (1, 3)),
     ],
     baca.make_repeat_tied_notes(),
-    baca.hairpin("< ff", left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin(
+        "< ff",
+        left_broken=True,
+        selector=baca.selectors.pleaves((None, 2)),
+    ),
     baca.pitch("G3"),
     baca.trill_spanner(alteration="Ab3"),
 )
@@ -364,7 +382,11 @@ maker(
 maker(
     ("cb3", (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.hairpin("< ff", left_broken=True, selector=baca.pleaves()[:2]),
+    baca.hairpin(
+        "< ff",
+        left_broken=True,
+        selector=baca.selectors.pleaves((None, 2)),
+    ),
     baca.pitch("G1"),
 )
 
