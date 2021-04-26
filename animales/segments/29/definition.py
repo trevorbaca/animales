@@ -71,7 +71,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "BB",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=abjad.Tag("+TABLOID_SCORE"),

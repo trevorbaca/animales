@@ -67,7 +67,7 @@ maker(
     baca.metronome_mark("76"),
     baca.rehearsal_mark(
         "K",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=baca.tags.ONLY_SCORE,
@@ -237,7 +237,7 @@ maker(
     "hp1",
     animales.parts("Harp"),
     animales.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("C5"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -248,7 +248,7 @@ maker(
     "pf1",
     animales.parts("Piano"),
     animales.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("C5"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -267,7 +267,7 @@ maker(
     "perc3",
     animales.parts("Percussion", 3),
     animales.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("C5"),
 )
 
@@ -327,7 +327,7 @@ maker(
     "cb1",
     animales.parts("Contrabass", 1),
     animales.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.note_head_style_harmonic(),
     baca.pitch("Cqf5", do_not_transpose=True),
 )

@@ -63,7 +63,7 @@ maker(
     baca.metronome_mark("114"),
     baca.rehearsal_mark(
         "M",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 12),
             tag=abjad.Tag("+TABLOID_SCORE"),
@@ -193,7 +193,7 @@ maker(
     "hp1",
     animales.parts("Harp"),
     animales.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.stopped(selector=baca.selectors.pheads()),
 )
 
@@ -221,7 +221,7 @@ maker(
     "pf1",
     animales.parts("Piano"),
     animales.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.stopped(selector=baca.selectors.pheads()),
 )
 
@@ -267,7 +267,7 @@ maker(
     "perc3",
     animales.parts("Percussion", 3),
     animales.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
 )
 
 # strings
@@ -396,7 +396,7 @@ maker(
     "cb1",
     animales.parts("Contrabass", 1),
     animales.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.markup(
         r"\animales-as-bell-like-as-possible-markup",
         literal=True,

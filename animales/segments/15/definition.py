@@ -61,7 +61,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "N",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, -2),
             tag=abjad.Tag("+TABLOID_SCORE"),
@@ -193,7 +193,7 @@ maker(
 maker(
     ("hp1", (1, 6)),
     animales.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("Bb4"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -208,7 +208,7 @@ maker(
 maker(
     ("pf1", (1, 6)),
     animales.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("Bb4"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -261,7 +261,7 @@ maker(
 maker(
     ("perc3", (1, 6)),
     animales.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("Bb4"),
 )
 
@@ -386,6 +386,6 @@ maker(
 maker(
     ("cb1", (1, 6)),
     animales.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("Bb4", do_not_transpose=True),
 )

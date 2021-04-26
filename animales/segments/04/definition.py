@@ -65,7 +65,7 @@ maker(
     ("Global_Skips", 3),
     baca.rehearsal_mark(
         "C",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, -2),
             tag=baca.tags.ONLY_SCORE,
@@ -196,7 +196,7 @@ maker(
             baca.selectors.pleaf(-1),
             allow_repitch=True,
         ),
-        baca.tie(baca.ptail(-2)),
+        baca.tie(baca.selectors.ptail(-2)),
         baca.glissando(),
     ),
 )
