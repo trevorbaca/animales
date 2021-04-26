@@ -161,11 +161,11 @@ maker(
     animales.parts("Bass_Clarinet"),
     baca.hairpin(
         "p >o niente",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
     baca.hairpin(
         "niente o< p",
-        selector=baca.leaves()[2:4],
+        selector=baca.selectors.leaves((2, 4)),
     ),
     baca.pitch("Ab2"),
     baca.repeat_tie(
@@ -287,7 +287,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
-        baca.untie(baca.leaves()),
+        baca.untie(baca.selectors.leaves()),
         animales.glissando_positions(transpose=-3),
         baca.pitch(
             "G4",
