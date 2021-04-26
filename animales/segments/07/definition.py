@@ -57,7 +57,7 @@ maker(
     baca.metronome_mark("76"),
     baca.rehearsal_mark(
         "F",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=abjad.Tag("+TABLOID_SCORE"),
@@ -112,7 +112,7 @@ maker(
     animales.parts("Harp"),
     animales.harp_exchange_rhythm(2, silence_first=True),
     baca.dynamic("mf"),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.edition(
         baca.markup(
             r"\animales-lh-damped-pdlt-markup",
@@ -134,7 +134,7 @@ maker(
     animales.parts("Piano"),
     animales.harp_exchange_rhythm(3, silence_first=True),
     baca.dynamic("mf"),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.markup(
         r"\animales-mute-with-lh-inside-piano-dull-thud-markup",
         literal=True,
@@ -176,7 +176,7 @@ maker(
     animales.harp_exchange_rhythm(0),
     baca.clef("treble"),
     baca.dynamic("mp"),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.markup(
         r"\animales-vibraphone-markup",
         literal=True,
@@ -315,7 +315,7 @@ maker(
     ("cb1", (2, -1)),
     baca.clef("treble"),
     baca.dynamic("mf"),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.markup(
         r"\animales-eighth-partial-of-d-markup",
         literal=True,

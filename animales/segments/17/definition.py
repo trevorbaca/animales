@@ -66,7 +66,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "P",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=abjad.Tag("+TABLOID_SCORE"),
@@ -160,9 +160,9 @@ maker(
 
 def crescendi():
     return baca.suite(
-        baca.hairpin("mp < mf", selector=baca.run(0)),
-        baca.hairpin("mp < f", selector=baca.run(1)),
-        baca.hairpin("mp < ff", selector=baca.run(2)),
+        baca.hairpin("mp < mf", selector=baca.selectors.run(0)),
+        baca.hairpin("mp < f", selector=baca.selectors.run(1)),
+        baca.hairpin("mp < ff", selector=baca.selectors.run(2)),
     )
 
 

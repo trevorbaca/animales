@@ -40,7 +40,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "B",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=baca.tags.ONLY_SCORE,

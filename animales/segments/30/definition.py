@@ -33,13 +33,13 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "CC",
-        baca.skip(1 - 1),
+        baca.selectors.skip(1 - 1),
         abjad.tweak(
             (0, 6),
             tag=abjad.Tag("+TABLOID_SCORE"),
         ).extra_offset,
     ),
-    baca.bar_line("|.", baca.skip(-1)),
+    baca.bar_line("|.", baca.selectors.skip(-1)),
 )
 
 maker(
@@ -59,7 +59,7 @@ maker(
 maker(
     ("pf1", (1, 9)),
     baca.note_head_style_harmonic(),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.make_notes(),
     baca.markup(
         r"\animales-harmonic-touch-lowest-string-of-piano-markup",
