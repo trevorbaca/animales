@@ -244,7 +244,7 @@ maker(
         ),
         baca.pitch(
             "Bb1",
-            selector=baca.leaves()[1:],
+            selector=baca.selectors.leaves((1, None)),
         ),
         baca.repeat_tie(selector=baca.selectors.leaf(1)),
         baca.edition(

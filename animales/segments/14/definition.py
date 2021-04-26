@@ -293,7 +293,7 @@ maker(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
-        baca.untie(baca.leaves()),
+        baca.untie(baca.selectors.leaves()),
         animales.glissando_positions(transpose=-3),
         baca.pitch(
             "G4",
