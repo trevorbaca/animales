@@ -150,7 +150,10 @@ maker(
 maker(
     "perc1",
     animales.parts("Percussion", 1),
-    baca.dynamic("niente", selector=baca.selectors.leaf(0)),
+    baca.dynamic(
+        "niente",
+        selector=baca.selectors.leaf(0),
+    ),
 )
 
 # cymbal

@@ -91,7 +91,10 @@ maker(
 
 maker(
     ("bcl1", (1, 3)),
-    baca.hairpin("p >o niente", selector=baca.selectors.pleaves(rleak=True)),
+    baca.hairpin(
+        "p >o niente",
+        selector=baca.selectors.pleaves(rleak=True),
+    ),
     baca.make_repeat_tied_notes(),
     baca.pitch("A2"),
     baca.repeat_tie(

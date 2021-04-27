@@ -160,9 +160,18 @@ maker(
 
 def crescendi():
     return baca.suite(
-        baca.hairpin("mp < mf", selector=baca.selectors.run(0)),
-        baca.hairpin("mp < f", selector=baca.selectors.run(1)),
-        baca.hairpin("mp < ff", selector=baca.selectors.run(2)),
+        baca.hairpin(
+            "mp < mf",
+            selector=baca.selectors.run(0),
+        ),
+        baca.hairpin(
+            "mp < f",
+            selector=baca.selectors.run(1),
+        ),
+        baca.hairpin(
+            "mp < ff",
+            selector=baca.selectors.run(2),
+        ),
     )
 
 
@@ -293,7 +302,10 @@ def tremolo_suite():
     return baca.suite(
         baca.accent(selector=baca.selectors.pleaves()),
         baca.dynamic("ff"),
-        baca.hairpin("ff > pp", selector=baca.selectors.pleaves((2, -2))),
+        baca.hairpin(
+            "ff > pp",
+            selector=baca.selectors.pleaves((2, -2)),
+        ),
         baca.only_parts(
             baca.markup(
                 r"\animales-ext-ponticello-like-acid-markup",
