@@ -129,7 +129,10 @@ maker(
 maker(
     "perc2",
     animales.parts("Percussion", 2),
-    baca.dynamic("niente", selector=baca.selectors.leaf(0)),
+    baca.dynamic(
+        "niente",
+        selector=baca.selectors.leaf(0),
+    ),
 )
 
 # vibraphone
@@ -152,7 +155,11 @@ maker(
         ("vc1", (1, 3)),
     ],
     baca.make_repeat_tied_notes(),
-    baca.hairpin("< ff", left_broken=True, selector=baca.selectors.pleaves((None, 2))),
+    baca.hairpin(
+        "< ff",
+        left_broken=True,
+        selector=baca.selectors.pleaves((None, 2)),
+    ),
     baca.pitch("Ab3"),
     baca.trill_spanner(alteration="Bb3"),
 )
