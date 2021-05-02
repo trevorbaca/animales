@@ -160,7 +160,7 @@ def downbeat_attack(count: int = 1, denominator: int = 8) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
-            baca.lts()[1:],
+            baca.selectors.lts((1, None)),
         ),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
