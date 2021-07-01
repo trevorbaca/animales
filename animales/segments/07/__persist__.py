@@ -1,5 +1,5 @@
 import abjad
-import ide
+import baca
 
 persist = abjad.OrderedDict(
     [
@@ -62,7 +62,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Cello_Voice_I_a",
                         (
-                            ide.PartAssignment("Cello"),
+                            baca.PartAssignment("Cello"),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -72,7 +72,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Clarinet_Voice_I_a",
                         (
-                            ide.PartAssignment("Clarinet", 1),
+                            baca.PartAssignment("Clarinet", 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 2)),
@@ -82,7 +82,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Clarinet_Voice_I_b",
                         (
-                            ide.PartAssignment("Clarinet", 2),
+                            baca.PartAssignment("Clarinet", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((7, 2)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -92,7 +92,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Contrabass_Voice_III_a",
                         (
-                            ide.PartAssignment("Contrabass", (2, 6)),
+                            baca.PartAssignment("Contrabass", (2, 6)),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -102,7 +102,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Contrabass_Voice_I_a",
                         (
-                            ide.PartAssignment("Contrabass", 1),
+                            baca.PartAssignment("Contrabass", 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -112,7 +112,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_First_Violin_Voice_I_a",
                         (
-                            ide.PartAssignment("First_Violin"),
+                            baca.PartAssignment("First_Violin"),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -122,7 +122,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Global_Rests_a",
                         (
-                            ide.PartAssignment("Clarinet", 2),
+                            baca.PartAssignment("Clarinet", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 2)),
@@ -132,7 +132,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Global_Rests_b",
                         (
-                            ide.PartAssignment("Clarinet", 1),
+                            baca.PartAssignment("Clarinet", 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((7, 2)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -142,7 +142,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Harp_Voice_I_a",
                         (
-                            ide.PartAssignment("Harp"),
+                            baca.PartAssignment("Harp"),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -152,7 +152,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Percussion_Voice_III_a",
                         (
-                            ide.PartAssignment("Percussion", 3),
+                            baca.PartAssignment("Percussion", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -162,7 +162,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Percussion_Voice_II_a",
                         (
-                            ide.PartAssignment("Percussion", 2),
+                            baca.PartAssignment("Percussion", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -172,7 +172,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Percussion_Voice_I_a",
                         (
-                            ide.PartAssignment("Percussion", 1),
+                            baca.PartAssignment("Percussion", 1),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -182,7 +182,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Piano_Voice_I_a",
                         (
-                            ide.PartAssignment("Piano"),
+                            baca.PartAssignment("Piano"),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -192,7 +192,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Second_Violin_Voice_I_a",
                         (
-                            ide.PartAssignment("Second_Violin"),
+                            baca.PartAssignment("Second_Violin"),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -202,7 +202,7 @@ persist = abjad.OrderedDict(
                     (
                         "g_Viola_Voice_I_a",
                         (
-                            ide.PartAssignment("Viola"),
+                            baca.PartAssignment("Viola"),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((7, 1)),
@@ -219,18 +219,18 @@ persist = abjad.OrderedDict(
                     (
                         "Cello_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Cello_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vc.",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Cello_Voice_I",
                                 manifest="instruments",
                                 value="Cello",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Cello_Voice_I",
                                 prototype="abjad.Clef",
                                 value="bass",
@@ -240,7 +240,7 @@ persist = abjad.OrderedDict(
                     (
                         "Cello_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Cello_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="pp",
@@ -250,18 +250,18 @@ persist = abjad.OrderedDict(
                     (
                         "Clarinet_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Clarinet_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Cl. 2",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Clarinet_Voice_I",
                                 manifest="instruments",
                                 value="Clarinet",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Clarinet_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -271,7 +271,7 @@ persist = abjad.OrderedDict(
                     (
                         "Clarinet_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Clarinet_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="mf",
@@ -281,18 +281,18 @@ persist = abjad.OrderedDict(
                     (
                         "Contrabass_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Cb. 1",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_I",
                                 manifest="instruments",
                                 value="Contrabass",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -302,18 +302,18 @@ persist = abjad.OrderedDict(
                     (
                         "Contrabass_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_III",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Cb. (2-6)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_III",
                                 manifest="instruments",
                                 value="Contrabass",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_III",
                                 prototype="abjad.Clef",
                                 value="bass",
@@ -323,7 +323,7 @@ persist = abjad.OrderedDict(
                     (
                         "Contrabass_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="mf",
@@ -333,7 +333,7 @@ persist = abjad.OrderedDict(
                     (
                         "Contrabass_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Contrabass_Voice_III",
                                 prototype="abjad.Dynamic",
                                 value="p",
@@ -343,18 +343,18 @@ persist = abjad.OrderedDict(
                     (
                         "First_Violin_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vni. I",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_I",
                                 manifest="instruments",
                                 value="Violin",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -364,18 +364,18 @@ persist = abjad.OrderedDict(
                     (
                         "First_Violin_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_III",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vni. I (11-18)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_III",
                                 manifest="instruments",
                                 value="Violin",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_III",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -385,7 +385,7 @@ persist = abjad.OrderedDict(
                     (
                         "First_Violin_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="pp",
@@ -395,7 +395,7 @@ persist = abjad.OrderedDict(
                     (
                         "First_Violin_Voice_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_II",
                                 prototype="abjad.Dynamic",
                                 value="p",
@@ -405,7 +405,7 @@ persist = abjad.OrderedDict(
                     (
                         "First_Violin_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="First_Violin_Voice_III",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-f-but-accents-sffz",
@@ -415,18 +415,18 @@ persist = abjad.OrderedDict(
                     (
                         "Harp_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Harp_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Hp.",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Harp_Voice_I",
                                 manifest="instruments",
                                 value="Harp",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Harp_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -436,7 +436,7 @@ persist = abjad.OrderedDict(
                     (
                         "Harp_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Harp_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="mf",
@@ -446,18 +446,18 @@ persist = abjad.OrderedDict(
                     (
                         "Horn_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Hn. (1+3)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_I",
                                 manifest="instruments",
                                 value="Horn",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_I",
                                 prototype="abjad.Clef",
                                 value="bass",
@@ -467,18 +467,18 @@ persist = abjad.OrderedDict(
                     (
                         "Horn_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_II",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Hn. (2+4)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_II",
                                 manifest="instruments",
                                 value="Horn",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_II",
                                 prototype="abjad.Clef",
                                 value="bass",
@@ -488,7 +488,7 @@ persist = abjad.OrderedDict(
                     (
                         "Horn_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -498,7 +498,7 @@ persist = abjad.OrderedDict(
                     (
                         "Horn_Voice_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_II",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -508,7 +508,7 @@ persist = abjad.OrderedDict(
                     (
                         "Horn_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_III",
                                 edition=abjad.Tag("+PARTS"),
                                 prototype="abjad.Dynamic",
@@ -519,7 +519,7 @@ persist = abjad.OrderedDict(
                     (
                         "Horn_Voice_IV",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Horn_Voice_IV",
                                 edition=abjad.Tag("+PARTS"),
                                 prototype="abjad.Dynamic",
@@ -530,29 +530,29 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Perc. 1 (tri.)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 prototype="baca.BarExtent",
                                 value=1,
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_I",
                                 manifest="instruments",
                                 value="Percussion",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_I",
                                 prototype="abjad.Clef",
                                 value="percussion",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_I",
                                 prototype="baca.StaffLines",
                                 value=1,
@@ -562,29 +562,29 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_II",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Perc. 2 (cym.)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_II",
                                 edition=abjad.Tag("-PARTS"),
                                 prototype="baca.BarExtent",
                                 value=1,
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_II",
                                 manifest="instruments",
                                 value="Percussion",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_II",
                                 prototype="abjad.Clef",
                                 value="percussion",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_II",
                                 prototype="baca.StaffLines",
                                 value=1,
@@ -594,18 +594,18 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Staff_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_III",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Perc. 3 (vib.)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_III",
                                 manifest="instruments",
                                 value="Vibraphone",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_III",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -615,29 +615,29 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Staff_IV",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_IV",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Perc.",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_IV",
                                 edition=abjad.Tag("-PARTS"),
                                 prototype="baca.BarExtent",
                                 value=1,
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_IV",
                                 manifest="instruments",
                                 value="Percussion",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_IV",
                                 prototype="abjad.Clef",
                                 value="percussion",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_IV",
                                 prototype="baca.StaffLines",
                                 value=1,
@@ -647,7 +647,7 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="niente",
@@ -657,7 +657,7 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Voice_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_II",
                                 prototype="abjad.Dynamic",
                                 value="p",
@@ -667,7 +667,7 @@ persist = abjad.OrderedDict(
                     (
                         "Percussion_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Percussion_Voice_III",
                                 prototype="abjad.Dynamic",
                                 value="mp",
@@ -677,18 +677,18 @@ persist = abjad.OrderedDict(
                     (
                         "Piano_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Piano_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Pf.",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Piano_Voice_I",
                                 manifest="instruments",
                                 value="Piano",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Piano_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -698,7 +698,7 @@ persist = abjad.OrderedDict(
                     (
                         "Piano_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Piano_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="mf",
@@ -708,12 +708,12 @@ persist = abjad.OrderedDict(
                     (
                         "Score",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Global_Skips",
                                 manifest="metronome_marks",
                                 value="76",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Global_Skips",
                                 prototype="abjad.TimeSignature",
                                 value="4/4",
@@ -723,18 +723,18 @@ persist = abjad.OrderedDict(
                     (
                         "Second_Violin_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vni. II",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_I",
                                 manifest="instruments",
                                 value="Violin",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -744,18 +744,18 @@ persist = abjad.OrderedDict(
                     (
                         "Second_Violin_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_III",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vni. II (11-18)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_III",
                                 manifest="instruments",
                                 value="Violin",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_III",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -765,7 +765,7 @@ persist = abjad.OrderedDict(
                     (
                         "Second_Violin_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="pp",
@@ -775,7 +775,7 @@ persist = abjad.OrderedDict(
                     (
                         "Second_Violin_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Second_Violin_Voice_III",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-f-but-accents-sffz",
@@ -785,18 +785,18 @@ persist = abjad.OrderedDict(
                     (
                         "Trombone_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Trb. (1+3)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_I",
                                 manifest="instruments",
                                 value="Trombone",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_I",
                                 prototype="abjad.Clef",
                                 value="tenor",
@@ -806,18 +806,18 @@ persist = abjad.OrderedDict(
                     (
                         "Trombone_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_II",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Trb. (2+4)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_II",
                                 manifest="instruments",
                                 value="Trombone",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_II",
                                 prototype="abjad.Clef",
                                 value="tenor",
@@ -827,7 +827,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trombone_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -837,7 +837,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trombone_Voice_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_II",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -847,7 +847,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trombone_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_III",
                                 edition=abjad.Tag("+PARTS"),
                                 prototype="abjad.Dynamic",
@@ -858,7 +858,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trombone_Voice_IV",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trombone_Voice_IV",
                                 edition=abjad.Tag("+PARTS"),
                                 prototype="abjad.Dynamic",
@@ -869,18 +869,18 @@ persist = abjad.OrderedDict(
                     (
                         "Trumpet_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Tp. (1+3)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_I",
                                 manifest="instruments",
                                 value="Trumpet",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -890,18 +890,18 @@ persist = abjad.OrderedDict(
                     (
                         "Trumpet_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_II",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Tp. (2+4)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_II",
                                 manifest="instruments",
                                 value="Trumpet",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_II",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -911,7 +911,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trumpet_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -921,7 +921,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trumpet_Voice_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_II",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -931,7 +931,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trumpet_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_III",
                                 edition=abjad.Tag("+PARTS"),
                                 prototype="abjad.Dynamic",
@@ -942,7 +942,7 @@ persist = abjad.OrderedDict(
                     (
                         "Trumpet_Voice_IV",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Trumpet_Voice_IV",
                                 edition=abjad.Tag("+PARTS"),
                                 prototype="abjad.Dynamic",
@@ -953,18 +953,18 @@ persist = abjad.OrderedDict(
                     (
                         "Tuba_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Tuba_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Tub.",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Tuba_Voice_I",
                                 manifest="instruments",
                                 value="Tuba",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Tuba_Voice_I",
                                 prototype="abjad.Clef",
                                 value="bass",
@@ -974,7 +974,7 @@ persist = abjad.OrderedDict(
                     (
                         "Tuba_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Tuba_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-sffz",
@@ -984,18 +984,18 @@ persist = abjad.OrderedDict(
                     (
                         "Viola_Staff_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_I",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vle.",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_I",
                                 manifest="instruments",
                                 value="Viola",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_I",
                                 prototype="abjad.Clef",
                                 value="alto",
@@ -1005,18 +1005,18 @@ persist = abjad.OrderedDict(
                     (
                         "Viola_Staff_II",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_III",
                                 edition=abjad.Tag("-PARTS"),
                                 manifest="margin_markups",
                                 value="Vle. (11-18)",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_III",
                                 manifest="instruments",
                                 value="Viola",
                             ),
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_III",
                                 prototype="abjad.Clef",
                                 value="alto",
@@ -1026,7 +1026,7 @@ persist = abjad.OrderedDict(
                     (
                         "Viola_Voice_I",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="pp",
@@ -1036,7 +1036,7 @@ persist = abjad.OrderedDict(
                     (
                         "Viola_Voice_III",
                         [
-                            ide.Momento(
+                            baca.Momento(
                                 context="Viola_Voice_III",
                                 prototype="abjad.Dynamic",
                                 value="\\baca-f-but-accents-sffz",

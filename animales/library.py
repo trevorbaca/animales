@@ -2,7 +2,6 @@ import typing
 
 import abjad
 import baca
-import ide
 import roman
 from abjadext import rmakers
 
@@ -593,35 +592,35 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
-    _part_manifest = ide.PartManifest(
-        ide.Section(abbreviation="FL", count=4, name="Flute"),
-        ide.Section(abbreviation="OB", count=3, name="Oboe"),
-        ide.Part(section="English_Horn", section_abbreviation="EH"),
-        ide.Section(abbreviation="CL", count=3, name="Clarinet"),
-        ide.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
-        ide.Section(abbreviation="BSN", count=2, name="Bassoon"),
-        ide.Section(abbreviation="HN", count=4, name="Horn"),
-        ide.Section(abbreviation="TP", count=4, name="Trumpet"),
-        ide.Section(abbreviation="TBN", count=4, name="Trombone"),
-        ide.Part(section="Tuba", section_abbreviation="TUB"),
-        ide.Part(section="Harp", section_abbreviation="HP"),
-        ide.Part(section="Piano", section_abbreviation="PF"),
-        ide.Section(abbreviation="PERC", count=4, name="Percussion"),
-        ide.Section(
+    _part_manifest = baca.PartManifest(
+        baca.Section(abbreviation="FL", count=4, name="Flute"),
+        baca.Section(abbreviation="OB", count=3, name="Oboe"),
+        baca.Part(section="English_Horn", section_abbreviation="EH"),
+        baca.Section(abbreviation="CL", count=3, name="Clarinet"),
+        baca.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
+        baca.Section(abbreviation="BSN", count=2, name="Bassoon"),
+        baca.Section(abbreviation="HN", count=4, name="Horn"),
+        baca.Section(abbreviation="TP", count=4, name="Trumpet"),
+        baca.Section(abbreviation="TBN", count=4, name="Trombone"),
+        baca.Part(section="Tuba", section_abbreviation="TUB"),
+        baca.Part(section="Harp", section_abbreviation="HP"),
+        baca.Part(section="Piano", section_abbreviation="PF"),
+        baca.Section(abbreviation="PERC", count=4, name="Percussion"),
+        baca.Section(
             abbreviation="VN-1",
             count=18,
             instrument="Violin",
             name="First_Violin",
         ),
-        ide.Section(
+        baca.Section(
             abbreviation="VN-2",
             count=18,
             instrument="Violin",
             name="Second_Violin",
         ),
-        ide.Section(abbreviation="VA", count=18, name="Viola"),
-        ide.Section(abbreviation="VC", count=14, name="Cello"),
-        ide.Section(abbreviation="CB", count=6, name="Contrabass"),
+        baca.Section(abbreviation="VA", count=18, name="Viola"),
+        baca.Section(abbreviation="VC", count=14, name="Cello"),
+        baca.Section(abbreviation="CB", count=6, name="Contrabass"),
     )
 
     all_music_in_part_containers = True
@@ -1007,7 +1006,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
     def allows_part_assignment(
-        self, voice_name: str, part_assignment: ide.PartAssignment
+        self, voice_name: str, part_assignment: baca.PartAssignment
     ) -> bool:
         """
         Is true when ``voice_name`` allows ``part_assignment``.
@@ -1018,25 +1017,25 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     ide.PartAssignment('First_Violin'),
+            ...     baca.PartAssignment('First_Violin'),
             ...     )
             True
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     ide.PartAssignment('First_Violin', (1, 10)),
+            ...     baca.PartAssignment('First_Violin', (1, 10)),
             ...     )
             True
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     ide.PartAssignment('Second_Violin'),
+            ...     baca.PartAssignment('Second_Violin'),
             ...     )
             False
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
-            ...     ide.PartAssignment('Violin'),
+            ...     baca.PartAssignment('Violin'),
             ...     )
             False
 
@@ -1685,7 +1684,7 @@ def parts(
         Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.
 
     """
-    part_assignment = ide.PartAssignment(section=section, token=token)
+    part_assignment = baca.PartAssignment(section=section, token=token)
     if part_assignment.token is not None:
         score_template = ScoreTemplate()
         assert score_template.part_manifest is not None
