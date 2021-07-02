@@ -64,9 +64,9 @@ Block for profiler:
 
 from animales.segments.N.__metadata__ import metadata as previous_metadata
 from __metadata__ import metadata as metadata
-import ide
+import baca
 import os
-segment_directory = ide.Path(os.path.realpath(__file__)).parent
+segment_directory = baca.Path(os.path.realpath(__file__)).parent
 argument = r'''maker.run(
     metadata=metadata,
     previous_metadata=previous_metadata,
