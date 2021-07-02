@@ -7,7 +7,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"
-%! ide.Path.extern()
+%! baca.Path.extern()
 \include "illustration.ily"
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -49,13 +49,13 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalRests = "Global_Rests"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! ide.Path.extern()
+                %! baca.Path.extern()
                 \ad_Global_Rests
 
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! ide.Path.extern()
+                %! baca.Path.extern()
                 \ad_Global_Skips
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -72,7 +72,7 @@
                     %! animales.ScoreTemplate._make_staves()
                     \context Staff = "Piano_Staff_I"
                     %! animales.ScoreTemplate._make_staves()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \ad_Piano_Staff_I
 
                 >>
@@ -85,7 +85,7 @@
                     %! animales.ScoreTemplate._make_staves()
                     \context Staff = "Percussion_Staff_IV"
                     %! animales.ScoreTemplate._make_staves()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \ad_Percussion_Staff_IV
 
                 %! baca.ScoreTemplate.make_staff_group()

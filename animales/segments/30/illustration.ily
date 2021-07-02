@@ -1,4 +1,4 @@
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Global_Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -66,11 +66,11 @@ ad_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Global_Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -495,11 +495,11 @@ ad_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Piano_Voice_I_a = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -759,14 +759,14 @@ ad_Piano_Voice_I_a = {
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     >>
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Piano_Voice_I = {
 
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \ad_Piano_Voice_I_a
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -861,25 +861,25 @@ ad_Piano_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Piano_Staff_I = {
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Piano_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \ad_Piano_Voice_I
 
 %! animales.ScoreTemplate._make_staves()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Percussion_Voice_IV_a = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -1358,14 +1358,14 @@ ad_Percussion_Voice_IV_a = {
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Percussion_Voice_IV = {
 
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \ad_Percussion_Voice_IV_a
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -1480,19 +1480,19 @@ ad_Percussion_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 ad_Percussion_Staff_IV = {
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Percussion_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \ad_Percussion_Voice_IV
 
 %! animales.ScoreTemplate._make_staves()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
