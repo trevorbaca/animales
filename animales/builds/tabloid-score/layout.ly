@@ -1,1296 +1,3683 @@
-% time_signatures = ['4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '1/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '1/4', '4/4', '4/4', '4/4', '3/4', '1/4', '3/4', '4/4', '4/4', '2/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '1/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '1/4']
-% measure_count = 174
+% page_count = 18
+% measure_count = 174 + 1
+% time_signatures = [
+% '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4',
+%  '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4',
+%  '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4',
+%  '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4',
+%  '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4',
+%  '2/4', '3/4', '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4',
+%  '4/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '4/4', '3/4', '3/4',
+%  '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4',
+%  '2/4', '4/4', '4/4', '4/4', '4/4', '1/4', '3/4', '3/4', '4/4', '4/4', '4/4',
+%  '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '4/4', '2/4', '3/4', '3/4',
+%  '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '2/4', '3/4', '3/4', '1/4',
+%  '4/4', '4/4', '4/4', '3/4', '1/4', '3/4', '4/4', '4/4', '2/4', '4/4', '2/4',
+%  '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '2/4',
+%  '4/4', '4/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '4/4', '4/4',
+%  '2/4', '4/4', '4/4', '4/4', '4/4', '4/4', '2/4', '4/4', '4/4', '1/4', '3/4',
+%  '3/4', '4/4', '4/4', '4/4', '3/4', '3/4', '4/4', '4/4', '1/4'
+%  ]
 
 
+%! baca.SingleStaffScoreTemplate.__call__()
 \context Score = "Score"
+%! baca.SingleStaffScoreTemplate.__call__()
 <<
-    \context GlobalContext = "GlobalContext"
+
+    %! abjad.ScoreTemplate._make_global_context()
+    \context GlobalContext = "Global_Context"
+    %! abjad.ScoreTemplate._make_global_context()
     <<
-        \context PageLayout = "PageLayout"
-        {   %*% PageLayout
-            
-            % [PageLayout measure 1]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \autoPageBreaksOff                                                           %! BMM1:BREAK
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 85) (alignment-distances . (12 20)))                          %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+
+        %! abjad.ScoreTemplate._make_global_context()
+        \context PageLayout = "Page_Layout"
+        %! abjad.ScoreTemplate._make_global_context()
+        {   %*% Page_Layout
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 1]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(1)
+            \autoPageBreaksOff
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #85 #'(12 20)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 2]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 2]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 3]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 3]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 4]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 4]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 5]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 5]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 6]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 6]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 7]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 7]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 8]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 235) (alignment-distances . (12 20)))                         %! IC:BREAK
-            \break                                                                       %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 8]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #235 #'(12 20)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 9]                                                     %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 9]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 10]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 10]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 11]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 11]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 12]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 12]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 13]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 13]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 14]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 14]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 15]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 15]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 16]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 28 18 18 18 18 18 18 28 18 30 18 18 18 18 18 18 18 28))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 16]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 28 18 18 18 18 18 18 28 18 30 18 18 18 18 18 18 18 28)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 17]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 17]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 18]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 18]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 19]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 19]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 20]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 20]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 21]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 21]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 22]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (10 16 12 24 22 17 17 17 17 17 12))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 22]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #0 #'(10 16 12 24 22 17 17 17 17 17 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 23]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 23]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 24]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 24]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 25]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 25]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 26]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 26]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 27]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 27]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 28]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 28]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 29]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 384)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 29]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #384
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/16 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 30]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 195) (alignment-distances . (10 16 16 16 14 14 22 16 16 16 16 12))) %! IC:BREAK
-            \break                                                                       %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/16 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 30]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #195 #'(10 16 16 16 14 14 22 16 16 16 16 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 31]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 31]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 32]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 32]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 33]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 33]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 34]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 34]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 35]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 35]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 36]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 36]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 37]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 37]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 38]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 336)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 38]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #336
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/14 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 39]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 10) (alignment-distances . (10 12 12 14 14 22 16 16 16 16 12))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/14 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 39]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #10 #'(10 12 12 14 14 22 16 16 16 16 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 40]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 40]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 41]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 41]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 42]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 42]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 43]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 43]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 44]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 44]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 45]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 45]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 46]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 336)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 46]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #336
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/14 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 47]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 195) (alignment-distances . (10 12 14 12 14 12 22 16 16 16 16 12))) %! IC:BREAK
-            \break                                                                       %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/14 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 47]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #195 #'(10 12 14 12 14 12 22 16 16 16 16 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 48]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 48]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 49]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 49]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 50]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 50]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 51]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 51]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 52]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 52]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 53]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 53]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 54]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 54]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #14
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/14]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 55]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 336)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/14]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 55]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #336
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/14 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 56]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 14 30 20 20 20 20 20 28 14 14 14 28 20 20 20 20 12 28))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/14 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 56]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 14 30 20 20 20 20 20 28 14 14 14 28 20 20 20 20 12 28)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 57]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 57]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 58]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 58]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 59]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 59]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 60]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 60]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 61]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 61]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 62]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 62]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 63]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 384)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 63]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #384
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/16 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 64]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 30 22 22 22 22 22 28 16 16 16 28 20 20 20 20 12 28))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/16 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 64]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 30 22 22 22 22 22 28 16 16 16 28 20 20 20 20 12 28)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 65]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 65]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 66]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 66]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 67]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 67]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #16
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/16]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 68]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/16]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 68]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 69]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 69]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 70]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 70]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 71]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 288)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 71]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #288
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/12 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 72]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 20 32 20 32 20 20 32 24 24 24 24 20 32))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/12 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 72]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 20 32 20 32 20 20 32 24 24 24 24 20 32)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 73]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 73]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 74]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 74]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 75]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 75]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 76]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 76]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 77]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 77]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 78]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 78]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 79]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 79]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 80]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 80]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #12
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/12]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 81]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 288)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/12]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 81]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #288
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/12 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 82]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 24 24 16 30 16 24 16 16 40 24 24 24 24 22 30))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/12 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 82]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #24
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 24 24 16 30 16 24 16 16 40 24 24 24 24 22 30)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/24]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 83]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/24]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 83]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #24
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/24]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 84]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/24]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 84]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #24
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/24]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 85]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/24]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 85]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #8
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/8]" }                                     %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 86]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)              %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/8]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 86]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #8
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/8]" }                                     %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 87]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 192)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/8]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 87]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #192
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/8 * 35/24]]" }                           %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 88]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 24 24 32 16 24 16 16 40 22 22 22 22 16 32))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/8 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 88]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #24
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 24 24 32 16 24 16 16 40 22 22 22 22 16 32)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/24]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 89]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/24]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 89]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #24
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/24]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 90]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/24]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 90]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #24
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/24]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 91]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/24]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 91]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #4
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/4]" }                                     %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 92]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/4]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 92]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #4
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/4]" }                                     %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 93]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/4]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 93]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #4
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/4]" }                                     %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 94]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 96)            %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/4]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 94]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #96
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/4 * 35/24]]" }                           %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 95]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (10 26 26 40 29 29 29 29 29 29 29 29 40))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/4 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 95]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(10 26 26 40 29 29 29 29 29 29 29 29 40)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 96]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 96]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 97]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 97]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 98]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 98]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 99]                                                    %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 99]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 100]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 100]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 101]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 101]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 102]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 102]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 103]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 103]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 104]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 104]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 105]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 105]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 106]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 240)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 106]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #240
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/10 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 107]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 10) (alignment-distances . (10 14 14 30 20 20 20 20 20 30 20 20 20 20 20 20 20 20 30))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/10 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 107]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #10 #'(10 14 14 30 20 20 20 20 20 30 20 20 20 20 20 20 20 20 30)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 108]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 108]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 109]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 10)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 109]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #10
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/10]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 110]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/10]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 110]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 111]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 111]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 112]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 112]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 113]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 113]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 114]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 114]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 115]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 10) (alignment-distances . (10 24 24 24 24 24 30 24 24 24 24 24 24 24 24 30))) %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 115]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #10 #'(10 24 24 24 24 24 30 24 24 24 24 24 24 24 24 30)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 116]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 116]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 117]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 117]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 118]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 118]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 119]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 119]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 120]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 120]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 121]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 121]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #4
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 122]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/4]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 122]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 123]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 123]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 124]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 124]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 125]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 125]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 126]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 126]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #96
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 127]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 5) (alignment-distances . (10 20)))                           %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/4 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 127]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #5 #'(10 20)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 128]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 128]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 129]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 129]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 130]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 130]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 131]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 131]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 132]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 132]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 133]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 133]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 134]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 5) (alignment-distances . (10 16)))                           %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 134]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #5 #'(10 16)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 135]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 135]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 136]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 136]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 137]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 137]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 138]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 138]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 139]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 139]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 140]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 140]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 141]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 141]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 142]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 5) (alignment-distances . (10 12)))                           %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 142]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #5 #'(10 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 143]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 143]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 144]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 144]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 145]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 145]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 146]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 146]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 147]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 147]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 148]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 148]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 149]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 5) (alignment-distances . (10 12)))                           %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 149]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #5 #'(10 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 150]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 150]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 151]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 151]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 152]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 152]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 153]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 153]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 154]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 154]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 155]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 155]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 156]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 156]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 157]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 157]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #480
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 158]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 5) (alignment-distances . (10 12)))                           %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/20 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 158]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #5 #'(10 12)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 159]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 159]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 160]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 160]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 161]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 161]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/2
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 162]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 162]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 163]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 163]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #20
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/20]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 164]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 480)           %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/20]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 164]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #35 #96
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/20 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 165]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (16 24 24)))                       %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[[1/4 * 35/24]]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 165]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(16 24 24)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 166]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 166]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 167]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 167]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 168]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 168]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 169]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 169]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 170]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 170]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 171]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 171]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 3/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 172]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 172]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 173]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 45)             %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 173]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #45
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1
-        %@% ^ \markup { \baca-forest-green-markup "[1/45]" }                                    %! HSS2:SPACING_MARKUP
-            
-            % [PageLayout measure 174]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 1080)          %! HSS1:SPACING
-            \noBreak                                                                     %! BMM2:BREAK
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/45]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 174]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            \baca-new-spacing-section #1 #4
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[[1/45 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
-            
-        }   %*% PageLayout
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %@% \bacaStopTextSpanSPM
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% - \baca-start-spm-left-only "[1/4]"
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(2)
+            %@% \bacaStartTextSpanSPM
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._style_phantom_measures(1)
+            %! PHANTOM
+            % [Page_Layout measure 175]
+            %! SPACING_COMMAND
+            %! baca.HorizontalSpacingSpecifier.__call__(1)
+            %! baca.SegmentMaker._style_phantom_measures(1)
+            %! PHANTOM
+            \baca-new-spacing-section #1 #4
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            %! baca.SegmentMaker._style_phantom_measures(1)
+            %! PHANTOM
+            \noBreak
+            %! baca.SegmentMaker._style_phantom_measures(2)
+            %! PHANTOM
+            \baca-time-signature-transparent
+            %! baca.SegmentMaker._make_global_skips(3)
+            %! PHANTOM
+            s1 * 1/4
+            %! SPACING
+            %! baca.HorizontalSpacingSpecifier.__call__(3)
+            %! baca.SegmentMaker._style_phantom_measures(1)
+            %! PHANTOM
+            %@% \bacaStopTextSpanSPM
+            %! baca.SegmentMaker._style_phantom_measures(3)
+            %! PHANTOM
+            \once \override Score.BarLine.transparent = ##t
+            %! baca.SegmentMaker._style_phantom_measures(3)
+            %! PHANTOM
+            \once \override Score.SpanBar.transparent = ##t
+
+        %! abjad.ScoreTemplate._make_global_context()
+        }   %*% Page_Layout
+
+    %! abjad.ScoreTemplate._make_global_context()
     >>
+
+%! baca.SingleStaffScoreTemplate.__call__()
 >>
