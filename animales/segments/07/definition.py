@@ -1,3 +1,5 @@
+import pathlib
+
 import abjad
 import baca
 from abjadext import rmakers
@@ -46,7 +48,7 @@ maker = baca.SegmentMaker(
             (2, [3]),
         ],
     ),
-    segment_directory=baca.Path(__file__).resolve().parent,
+    segment_directory=pathlib.Path(__file__).resolve().parent,
     time_signatures=animales.time_signatures[start : start + 8],
     transpose_score=True,
 )
