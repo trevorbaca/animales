@@ -143,3 +143,6 @@ animales.constellations(
     [[1, 1, -5], [1, 1, -5], [1, -8]],
     omit_contrabasses=True,
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

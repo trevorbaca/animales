@@ -323,3 +323,6 @@ maker(
     "cb3",
     animales.parts("Contrabass"),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

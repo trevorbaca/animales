@@ -180,3 +180,6 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.pitch("B1"),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

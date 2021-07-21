@@ -426,3 +426,6 @@ maker(
     #    baca.only_segment(baca.literal(r"\clef "bass"")),
     tremolo_suite(),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
