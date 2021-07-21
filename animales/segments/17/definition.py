@@ -503,3 +503,6 @@ maker(
     baca.pitch("G1"),
     tremolo_suite(),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

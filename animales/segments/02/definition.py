@@ -118,3 +118,6 @@ maker(
     unraised_trill,
     baca.trill_spanner_staff_padding(4),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

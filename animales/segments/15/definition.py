@@ -390,3 +390,6 @@ maker(
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.pitch("Bb4", do_not_transpose=True),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

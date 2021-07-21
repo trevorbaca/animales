@@ -314,3 +314,6 @@ maker(
     ],
     baca.make_repeat_tied_notes(),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
