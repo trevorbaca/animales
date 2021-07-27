@@ -12,9 +12,9 @@ install_requires = [
 
 keywords = [
     "abjad",
+    "lilypond",
     "music composition",
     "music notation",
-    "lilypond",
 ]
 
 if __name__ == "__main__":
