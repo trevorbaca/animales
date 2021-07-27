@@ -6,7 +6,6 @@ install_requires = [
     "black",
     "flake8",
     "isort",
-    "mypy",
     "pytest",
     "roman",
 ]
@@ -15,7 +14,6 @@ keywords = [
     "abjad",
     "music composition",
     "music notation",
-    "formalized score control",
     "lilypond",
 ]
 
