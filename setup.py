@@ -17,5 +17,6 @@ if __name__ == "__main__":
         name="animales",
         packages=["animales"],
         platforms="Any",
+        python_requires=">=3.9",
         url="https://github.com/trevorbaca/animales",
     )
