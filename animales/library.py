@@ -179,7 +179,7 @@ def glissando_positions(
 
     ..  container:: example
 
-        >>> command = animales.glissando_positions()
+        >>> command = animales.library.glissando_positions()
         >>> string = abjad.storage(command)
         >>> print(string)
         baca.StaffPositionCommand(
@@ -513,7 +513,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ..  container:: example
 
-        >>> template = animales.ScoreTemplate(
+        >>> template = animales.library.ScoreTemplate(
         ...     flutes=[(1, [1, 2]), (2, [3])],
         ...     first_violins=[(1, [1]), (2, [1])],
         ...     second_violins=[(1, [1]), (2, [1])],
@@ -523,7 +523,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         ...     )
         >>> string = abjad.storage(template)
         >>> print(string)
-        animales.ScoreTemplate(
+        animales.animales.library.ScoreTemplate(
             flutes=[
                 (
                     1,
@@ -941,31 +941,31 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> template = animales.ScoreTemplate()
+            >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
             ...     'First_Violin_Staff_I',
-            ...     animales.instruments['Violin'],
+            ...     animales.library.instruments['Violin'],
             ...     )
             True
 
-            >>> template = animales.ScoreTemplate()
+            >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
             ...     'Percussion_Staff_I',
-            ...     animales.instruments['Percussion'],
+            ...     animales.library.instruments['Percussion'],
             ...     )
             True
 
-            >>> template = animales.ScoreTemplate()
+            >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
             ...     'Percussion_Staff_I',
-            ...     animales.instruments['Vibraphone'],
+            ...     animales.library.instruments['Vibraphone'],
             ...     )
             False
 
-            >>> template = animales.ScoreTemplate()
+            >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
             ...     'Percussion_Staff_III',
-            ...     animales.instruments['Vibraphone'],
+            ...     animales.library.instruments['Vibraphone'],
             ...     )
             True
 
@@ -1013,7 +1013,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> template = animales.ScoreTemplate()
+            >>> template = animales.library.ScoreTemplate()
 
             >>> template.allows_part_assignment(
             ...     'First_Violin_Voice_II',
@@ -1051,7 +1051,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> score = animales.ScoreTemplate.skeleton()
+            >>> score = animales.library.ScoreTemplate.skeleton()
 
         """
         two_staff_token = [(1, [1]), (2, [2])]
@@ -1087,7 +1087,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> score_template = animales.ScoreTemplate()
+            >>> score_template = animales.library.ScoreTemplate()
             >>> string = abjad.storage(score_template.voice_abbreviations)
             >>> print(string)
             abjad.OrderedDict(
@@ -1209,19 +1209,19 @@ class ScoreTemplate(baca.ScoreTemplate):
         ..  container:: example
 
             >>> string = 'English_Horn_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_instrument(string)
+            >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'EnglishHorn'
 
             >>> string = 'First_Violin_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_instrument(string)
+            >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'Violin'
 
             >>> string = 'Second_Violin_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_instrument(string)
+            >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'Violin'
 
             >>> string = 'Viola_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_instrument(string)
+            >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'Viola'
 
         """
@@ -1246,19 +1246,19 @@ class ScoreTemplate(baca.ScoreTemplate):
         ..  container:: example
 
             >>> string = 'English_Horn_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_section(string)
+            >>> animales.library.ScoreTemplate.voice_to_section(string)
             'English_Horn'
 
             >>> string = 'First_Violin_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_section(string)
+            >>> animales.library.ScoreTemplate.voice_to_section(string)
             'First_Violin'
 
             >>> string = 'Second_Violin_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_section(string)
+            >>> animales.library.ScoreTemplate.voice_to_section(string)
             'Second_Violin'
 
             >>> string = 'Viola_Voice_I'
-            >>> animales.ScoreTemplate.voice_to_section(string)
+            >>> animales.library.ScoreTemplate.voice_to_section(string)
             'Viola'
 
         """
@@ -1659,26 +1659,26 @@ def parts(
 
     ..  container:: example
 
-        >>> animales.parts('Horn')
+        >>> animales.library.parts('Horn')
         PartAssignmentCommand(part_assignment=PartAssignment('Horn'), selector=...)
 
-        >>> animales.parts('Horn', 1)
+        >>> animales.library.parts('Horn', 1)
         PartAssignmentCommand(part_assignment=PartAssignment('Horn', 1), selector=...)
 
-        >>> animales.parts('Horn', 2)
+        >>> animales.library.parts('Horn', 2)
         PartAssignmentCommand(part_assignment=PartAssignment('Horn', 2), selector=...)
 
-        >>> animales.parts('Horn', (3, 4))
+        >>> animales.library.parts('Horn', (3, 4))
         PartAssignmentCommand(part_assignment=PartAssignment('Horn', (3, 4)), selector=...)
 
-        >>> animales.parts('Horn', [1, 3])
+        >>> animales.library.parts('Horn', [1, 3])
         PartAssignmentCommand(part_assignment=PartAssignment('Horn', [1, 3]), selector=...)
 
     ..  container:: example exception
 
         Raises exception on nonexistent part:
 
-        >>> animales.parts('Horn', 5)
+        >>> animales.library.parts('Horn', 5)
         Traceback (most recent call last):
             ...
         Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.

@@ -3,7 +3,7 @@ import pathlib
 import abjad
 import baca
 
-import animales
+from animales import library as animales
 
 ###############################################################################
 #################################### [S] ######################################
