@@ -4,7 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-import animales
+from animales import library as animales
 
 ###############################################################################
 ##################################### [F] #####################################
