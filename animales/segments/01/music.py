@@ -1,5 +1,3 @@
-import pathlib
-
 import baca
 
 from animales import library as animales
