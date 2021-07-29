@@ -54,7 +54,6 @@ maker = baca.SegmentMaker(
             (2, [3]),
         ],
     ),
-    segment_directory=pathlib.Path(__file__).resolve().parent,
     time_signatures=animales.time_signatures[start : start + 6],
     transpose_score=True,
 )
