@@ -19,7 +19,7 @@
         \context PageLayout = "Page_Layout"
         {   %*% ac_Page_Layout
 
-            % [29 Page_Layout measure 161]
+            % [Page_Layout measure 161]
             \baca-new-spacing-section #1 #20
             \autoPageBreaksOff
             \noBreak
@@ -27,22 +27,22 @@
             \pageBreak
             s1 * 1/2
 
-            % [29 Page_Layout measure 162]
+            % [Page_Layout measure 162]
             \baca-new-spacing-section #1 #20
             \noBreak
             s1 * 1
 
-            % [29 Page_Layout measure 163]
+            % [Page_Layout measure 163]
             \baca-new-spacing-section #1 #20
             \noBreak
             s1 * 1
 
-            % [29 Page_Layout measure 164]
+            % [Page_Layout measure 164]
             \baca-new-spacing-section #1 #4
             \noBreak
             s1 * 1/4
 
-            % [29 Page_Layout measure 165]
+            % [Page_Layout measure 165]
             \baca-new-spacing-section #1 #4
             \noBreak
             \baca-time-signature-transparent

@@ -1,38 +1,38 @@
 ad_Global_Rests = {
 
-    % [30 Global_Rests measure 165 / measure 1]
+    % [Global_Rests measure 165 / measure 1]
     R1 * 3/4
 
-    % [30 Global_Rests measure 166 / measure 2]
+    % [Global_Rests measure 166 / measure 2]
     R1 * 3/4
 
-    % [30 Global_Rests measure 167 / measure 3]
+    % [Global_Rests measure 167 / measure 3]
     R1 * 1
 
-    % [30 Global_Rests measure 168 / measure 4]
+    % [Global_Rests measure 168 / measure 4]
     R1 * 1
 
-    % [30 Global_Rests measure 169 / measure 5]
+    % [Global_Rests measure 169 / measure 5]
     R1 * 1
 
-    % [30 Global_Rests measure 170 / measure 6]
+    % [Global_Rests measure 170 / measure 6]
     R1 * 3/4
 
-    % [30 Global_Rests measure 171 / measure 7]
+    % [Global_Rests measure 171 / measure 7]
     R1 * 3/4
 
-    % [30 Global_Rests measure 172 / measure 8]
+    % [Global_Rests measure 172 / measure 8]
     R1 * 1
 
-    % [30 Global_Rests measure 173 / measure 9]
+    % [Global_Rests measure 173 / measure 9]
     R1 * 1
 
-    % [30 Global_Rests measure 174 / measure 10]
+    % [Global_Rests measure 174 / measure 10]
     \baca-fermata-measure
     R1 * 1/4
     ^ \baca-fermata-markup
 
-    % [30 Global_Rests measure 175 / measure 11]
+    % [Global_Rests measure 175 / measure 11]
     R1 * 1/4
 
 }
@@ -40,7 +40,7 @@ ad_Global_Rests = {
 
 ad_Global_Skips = {
 
-    % [30 Global_Skips measure 165 / measure 1]
+    % [Global_Skips measure 165 / measure 1]
     \time 3/4
     \bar ""
     \baca-time-signature-color #'blue
@@ -51,43 +51,43 @@ ad_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4
     \bacaStartTextSpanMM
 
-    % [30 Global_Skips measure 166 / measure 2]
+    % [Global_Skips measure 166 / measure 2]
     s1 * 3/4
 
-    % [30 Global_Skips measure 167 / measure 3]
+    % [Global_Skips measure 167 / measure 3]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
 
-    % [30 Global_Skips measure 168 / measure 4]
+    % [Global_Skips measure 168 / measure 4]
     s1 * 1
 
-    % [30 Global_Skips measure 169 / measure 5]
+    % [Global_Skips measure 169 / measure 5]
     s1 * 1
 
-    % [30 Global_Skips measure 170 / measure 6]
+    % [Global_Skips measure 170 / measure 6]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
 
-    % [30 Global_Skips measure 171 / measure 7]
+    % [Global_Skips measure 171 / measure 7]
     s1 * 3/4
 
-    % [30 Global_Skips measure 172 / measure 8]
+    % [Global_Skips measure 172 / measure 8]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
 
-    % [30 Global_Skips measure 173 / measure 9]
+    % [Global_Skips measure 173 / measure 9]
     s1 * 1
 
-    % [30 Global_Skips measure 174 / measure 10]
+    % [Global_Skips measure 174 / measure 10]
     \time 1/4
     \baca-time-signature-color #'blue
     s1 * 1/4
     \bar "|."
 
-    % [30 Global_Skips measure 175 / measure 11]
+    % [Global_Skips measure 175 / measure 11]
     \baca-time-signature-transparent
     s1 * 1/4
     \bacaStopTextSpanMM
@@ -99,7 +99,7 @@ ad_Global_Skips = {
 
 ad_Piano_Voice_I_a = {
 
-    % [30 Piano_Voice_I measure 165 / measure 1]
+    % [Piano_Voice_I measure 165 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
     \override NoteHead.style = #'harmonic
@@ -126,35 +126,35 @@ ad_Piano_Voice_I_a = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [30 Piano_Voice_I measure 166 / measure 2]
+    % [Piano_Voice_I measure 166 / measure 2]
     cs'!2.
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 167 / measure 3]
+    % [Piano_Voice_I measure 167 / measure 3]
     cs'!1
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 168 / measure 4]
+    % [Piano_Voice_I measure 168 / measure 4]
     cs'!1
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 169 / measure 5]
+    % [Piano_Voice_I measure 169 / measure 5]
     cs'!1
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 170 / measure 6]
+    % [Piano_Voice_I measure 170 / measure 6]
     cs'!2.
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 171 / measure 7]
+    % [Piano_Voice_I measure 171 / measure 7]
     cs'!2.
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 172 / measure 8]
+    % [Piano_Voice_I measure 172 / measure 8]
     cs'!1
     \laissezVibrer
 
-    % [30 Piano_Voice_I measure 173 / measure 9]
+    % [Piano_Voice_I measure 173 / measure 9]
     cs'!1
     \laissezVibrer
     \revert NoteHead.style
@@ -166,7 +166,7 @@ ad_Piano_Voice_I_a = {
         \context Voice = "Piano_Voice_I"
         {
 
-            % [30 Piano_Voice_I measure 174 / measure 10]
+            % [Piano_Voice_I measure 174 / measure 10]
             \abjad-invisible-music-coloring
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
         %%% \once \override Score.TimeSignature.stencil = ##f
@@ -179,7 +179,7 @@ ad_Piano_Voice_I_a = {
         \context Voice = "Piano_Rest_Voice_I"
         {
 
-            % [30 Piano_Rest_Voice_I measure 174 / measure 10]
+            % [Piano_Rest_Voice_I measure 174 / measure 10]
             R1 * 1/4
 
         }
@@ -198,7 +198,7 @@ ad_Piano_Voice_I = {
         \context Voice = "Piano_Voice_I"
         {
 
-            % [30 Piano_Voice_I measure 175 / measure 11]
+            % [Piano_Voice_I measure 175 / measure 11]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -207,7 +207,7 @@ ad_Piano_Voice_I = {
         \context Voice = "Piano_Rest_Voice_I"
         {
 
-            % [30 Piano_Rest_Voice_I measure 175 / measure 11]
+            % [Piano_Rest_Voice_I measure 175 / measure 11]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -232,7 +232,7 @@ ad_Piano_Staff_I = {
 
 ad_Percussion_Voice_IV_a = {
 
-    % [30 Percussion_Voice_IV measure 165 / measure 1]
+    % [Percussion_Voice_IV measure 165 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 0)
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
@@ -274,7 +274,7 @@ ad_Percussion_Voice_IV_a = {
     - \tweak stencil ##f
     ~
 
-    % [30 Percussion_Voice_IV measure 166 / measure 2]
+    % [Percussion_Voice_IV measure 166 / measure 2]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -290,28 +290,7 @@ ad_Percussion_Voice_IV_a = {
     - \tweak stencil ##f
     ~
 
-    % [30 Percussion_Voice_IV measure 167 / measure 3]
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    % [30 Percussion_Voice_IV measure 168 / measure 4]
+    % [Percussion_Voice_IV measure 167 / measure 3]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -332,7 +311,7 @@ ad_Percussion_Voice_IV_a = {
     - \tweak stencil ##f
     ~
 
-    % [30 Percussion_Voice_IV measure 169 / measure 5]
+    % [Percussion_Voice_IV measure 168 / measure 4]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -353,7 +332,7 @@ ad_Percussion_Voice_IV_a = {
     - \tweak stencil ##f
     ~
 
-    % [30 Percussion_Voice_IV measure 170 / measure 6]
+    % [Percussion_Voice_IV measure 169 / measure 5]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -369,7 +348,12 @@ ad_Percussion_Voice_IV_a = {
     - \tweak stencil ##f
     ~
 
-    % [30 Percussion_Voice_IV measure 171 / measure 7]
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    % [Percussion_Voice_IV measure 170 / measure 6]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -385,7 +369,23 @@ ad_Percussion_Voice_IV_a = {
     - \tweak stencil ##f
     ~
 
-    % [30 Percussion_Voice_IV measure 172 / measure 8]
+    % [Percussion_Voice_IV measure 171 / measure 7]
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    % [Percussion_Voice_IV measure 172 / measure 8]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -411,7 +411,7 @@ ad_Percussion_Voice_IV_a = {
         \context Voice = "Percussion_Voice_IV"
         {
 
-            % [30 Percussion_Voice_IV measure 173 / measure 9]
+            % [Percussion_Voice_IV measure 173 / measure 9]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1
@@ -421,14 +421,14 @@ ad_Percussion_Voice_IV_a = {
         \context Voice = "Percussion_Rest_Voice_IV"
         {
 
-            % [30 Percussion_Rest_Voice_IV measure 173 / measure 9]
+            % [Percussion_Rest_Voice_IV measure 173 / measure 9]
             R1 * 1
 
         }
 
     >>
 
-    % [30 Percussion_Voice_IV measure 174 / measure 10]
+    % [Percussion_Voice_IV measure 174 / measure 10]
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
 %%% \once \override Score.TimeSignature.stencil = ##f
     R1 * 1/4
@@ -446,7 +446,7 @@ ad_Percussion_Voice_IV = {
         \context Voice = "Percussion_Voice_IV"
         {
 
-            % [30 Percussion_Voice_IV measure 175 / measure 11]
+            % [Percussion_Voice_IV measure 175 / measure 11]
             \abjad-invisible-music-coloring
             \once \override Score.RehearsalMark.direction = #down
             \once \override Score.RehearsalMark.padding = 6
@@ -459,7 +459,7 @@ ad_Percussion_Voice_IV = {
         \context Voice = "Percussion_Rest_Voice_IV"
         {
 
-            % [30 Percussion_Rest_Voice_IV measure 175 / measure 11]
+            % [Percussion_Rest_Voice_IV measure 175 / measure 11]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
