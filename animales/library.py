@@ -47,12 +47,13 @@ def leaves_in_measure(n, lleak=False, rleak=False):
 # other functions
 
 
-def attach_grand_pause_fermatas(maker: baca.SegmentMaker, *, measure: int = -1) -> None:
+def attach_grand_pause_fermatas(maker, *, measure=-1):
     """
     Attaches grand pause fermatas in parts.
 
     Because voices alive in semgent do not receive GlobalRests variables.
     """
+    assert isinstance(maker, baca.SegmentMaker)
     assert maker.score_template is not None
     dummy_score = maker.score_template()
     for voice in abjad.iterate(dummy_score).components(abjad.Voice):
@@ -115,10 +116,7 @@ def brass_manifest_rhythm(part: int) -> baca.RhythmCommand:
     )
 
 
-def brass_sforzando(
-    maker: baca.SegmentMaker,
-    range_: typing.Union[int, abjad.IntegerPair] = (1, -1),
-) -> None:
+def brass_sforzando(maker, range_=(1, -1)):
     """
     Makes brass sforzando.
     """
@@ -152,7 +150,7 @@ def brass_sforzando(
         maker((voice, range_), baca.pitch(pitch))
 
 
-def downbeat_attack(count: int = 1, denominator: int = 8) -> baca.RhythmCommand:
+def downbeat_attack(count=1, denominator=8):
     """
     Makes downbeat attack.
     """
@@ -169,9 +167,7 @@ def downbeat_attack(count: int = 1, denominator: int = 8) -> baca.RhythmCommand:
     )
 
 
-def glissando_positions(
-    *, reverse: bool = False, rotate: int = 0, transpose: int = 0
-) -> baca.StaffPositionCommand:
+def glissando_positions(*, reverse=False, rotate=0, transpose=0):
     """
     Makes glissando positions.
 
@@ -216,7 +212,7 @@ def glissando_positions(
     return baca.staff_positions(positions)
 
 
-def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
+def glissando_rhythm(rotate=0):
     """
     Makes glissando rhythm.
     """
@@ -229,9 +225,7 @@ def glissando_rhythm(rotate: int = 0) -> baca.RhythmCommand:
     )
 
 
-def harp_exchange_rhythm(
-    this_part: int, *commands, silence_first: bool = False
-) -> baca.RhythmCommand:
+def harp_exchange_rhythm(this_part, *commands, silence_first=False):
     """
     Makes harp-exchange rhythm.
     """
@@ -273,7 +267,7 @@ def harp_exchange_rhythm(
     part_to_counts = abjad.OrderedDict()
     for part, indices in part_to_indices.items():
         offset = indices[0]
-        preamble: typing.List[int] = []
+        preamble = []
         if offset != 0:
             preamble.append(offset)
         part_to_preamble[part] = preamble
@@ -310,9 +304,7 @@ def harp_exchange_rhythm(
     )
 
 
-def make_trill_rhythm(
-    maker: baca.SegmentMaker, measures: abjad.IntegerPair = (1, -1)
-) -> None:
+def make_trill_rhythm(maker, measures=(1, -1)):
     """
     Makes trill rhythm.
     """
@@ -331,12 +323,7 @@ def make_trill_rhythm(
         maker((voice, measures), sforzando_exchange_rhythm(part))
 
 
-def pennant_pitches(
-    start_pitch: typing.Union[int, str],
-    intervals: abjad.IntegerSequence = [0],
-    *,
-    direction: typing.Union[int, abjad.VerticalAlignment] = abjad.Up,
-) -> baca.CommandTyping:
+def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.Up):
     """
     Makes pennant pitches.
     """
@@ -371,10 +358,7 @@ def pennant_pitches(
     return baca.loop(pitch_numbers, intervals)
 
 
-def pennant_rhythm(
-    extra_counts: abjad.IntegerSequence = None,
-    silences: abjad.IntegerSequence = None,
-) -> baca.RhythmCommand:
+def pennant_rhythm(extra_counts=None, silences=None):
     """
     Makes pennant rhythm.
     """
@@ -444,7 +428,7 @@ def sforzando_exchange_rhythm(
     part_to_counts = abjad.OrderedDict()
     for part, indices in part_to_indices.items():
         offset = indices[0]
-        preamble: typing.List[int] = []
+        preamble = []
         if offset != 0:
             preamble.append(offset)
         part_to_preamble[part] = preamble
@@ -1275,12 +1259,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 # margin markup
 
 
-def margin_markup(
-    key: str,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.Expression = baca.selectors.leaf(0),
-) -> baca.CommandTyping:
+def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
     """
     Makes tagged margin markup indicator command.
     """
@@ -1419,9 +1398,7 @@ for section, count in [
 # part assignment functions
 
 
-def assign_brass_sforzando_parts(
-    maker: baca.SegmentMaker, omit_tuba: bool = False
-) -> None:
+def assign_brass_sforzando_parts(maker, omit_tuba=False):
     """
     Assigns brass sforzando parts.
     """
@@ -1486,14 +1463,12 @@ def assign_brass_sforzando_parts(
         maker("Tuba_Voice_I", parts("Tuba"))
 
 
-def assign_trill_parts(
-    maker: baca.SegmentMaker, *, exclude_first_violin: bool = False
-) -> None:
+def assign_trill_parts(maker, *, exclude_first_violin=False):
     """
     Assigns trill parts.
     """
 
-    voice_to_members: typing.Dict[str, typing.Union[str, abjad.IntegerPair]] = {
+    voice_to_members = {
         "First_Violin_Voice_I": (1, 10),
         "First_Violin_Voice_III": (11, 18),
         "Second_Violin_Voice_I": (1, 10),
@@ -1572,12 +1547,12 @@ def clb_rhythm(
 
 
 def constellations(
-    maker: baca.SegmentMaker,
-    counts: typing.Sequence[abjad.IntegerSequence],
+    maker,
+    counts,
     *,
-    first: bool = False,
-    omit_contrabasses: bool = False,
-    range_: typing.Union[int, abjad.IntegerPair] = (1, -1),
+    first=False,
+    omit_contrabasses=False,
+    range_=(1, -1),
 ):
     """
     Makes constellations.
@@ -1648,10 +1623,7 @@ def constellations(
             maker((voice, range_), *commands)
 
 
-def parts(
-    section: str,
-    token: typing.Union[int, typing.List[int], typing.Tuple[int, int]] = None,
-) -> baca.PartAssignmentCommand:
+def parts(section, token=None):
     """
     Designates parts.
 
