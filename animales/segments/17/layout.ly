@@ -19,7 +19,7 @@
         \context PageLayout = "Page_Layout"
         {   %*% q_Page_Layout
 
-            % [17 Page_Layout measure 109]
+            % [Page_Layout measure 109]
             \baca-new-spacing-section #1 #12
             \autoPageBreaksOff
             \noBreak
@@ -27,52 +27,52 @@
             \pageBreak
             s1 * 3/4
 
-            % [17 Page_Layout measure 110]
+            % [Page_Layout measure 110]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 3/4
 
-            % [17 Page_Layout measure 111]
+            % [Page_Layout measure 111]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 1
 
-            % [17 Page_Layout measure 112]
+            % [Page_Layout measure 112]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 1
 
-            % [17 Page_Layout measure 113]
+            % [Page_Layout measure 113]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 1
 
-            % [17 Page_Layout measure 114]
+            % [Page_Layout measure 114]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 3/4
 
-            % [17 Page_Layout measure 115]
+            % [Page_Layout measure 115]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 3/4
 
-            % [17 Page_Layout measure 116]
+            % [Page_Layout measure 116]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 1
 
-            % [17 Page_Layout measure 117]
+            % [Page_Layout measure 117]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 1
 
-            % [17 Page_Layout measure 118]
+            % [Page_Layout measure 118]
             \baca-new-spacing-section #1 #12
             \noBreak
             s1 * 1/2
 
-            % [17 Page_Layout measure 119]
+            % [Page_Layout measure 119]
             \baca-new-spacing-section #1 #4
             \noBreak
             \baca-time-signature-transparent
