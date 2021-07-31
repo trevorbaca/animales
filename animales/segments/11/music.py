@@ -14,6 +14,9 @@ assert start == 61
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     clock_time_override=abjad.MetronomeMark((1, 4), 95),
+    instruments=animales.instruments,
+    margin_markups=animales.margin_markups,
+    metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
         clarinets=[
             (1, [1]),
