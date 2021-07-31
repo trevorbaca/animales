@@ -14,6 +14,9 @@ assert start == 130
 time_signatures = animales.time_signatures[start : start + 3]
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
+    instruments=animales.instruments,
+    margin_markups=animales.margin_markups,
+    metronome_marks=animales.metronome_marks,
     magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),
     score_template=animales.ScoreTemplate(
         horns=[

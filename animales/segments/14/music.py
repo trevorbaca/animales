@@ -13,6 +13,9 @@ assert start == 81
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
+    instruments=animales.instruments,
+    margin_markups=animales.margin_markups,
+    metronome_marks=animales.metronome_marks,
     score_template=animales.ScoreTemplate(
         flutes=[
             (1, [1, 3]),
