@@ -1663,4 +1663,4 @@ def parts(section, token=None):
         for part in part_assignment:
             if part not in score_template.part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
-    return baca.parts(part_assignment)
+    return baca.assign_parts(part_assignment)
