@@ -11,7 +11,6 @@ if __name__ == "__main__":
             "flake8",
             "isort",
             "pytest",
-            "roman",
         ],
         keywords="abjad, lilypond, music composition, music notation",
         name="animales",
