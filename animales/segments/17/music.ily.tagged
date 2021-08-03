@@ -1,5 +1,5 @@
-%! baca.Path.extern()
-q_Global_Rests = {
+%! baca.path.extern()
+segment.17.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 109 / measure 1]
@@ -60,12 +60,12 @@ q_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Global_Skips = {
+%! baca.path.extern()
+segment.17.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 109 / measure 1]
@@ -492,12 +492,12 @@ q_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Oboe_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Oboe.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Oboe_Voice_I measure 109 / measure 1]
@@ -810,15 +810,15 @@ q_Oboe_Voice_I_a = {
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Oboe_Voice_I = {
+%! baca.path.extern()
+segment.17.Oboe.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Oboe_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Oboe.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -912,26 +912,26 @@ q_Oboe_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Oboe_Staff_I = {
+%! baca.path.extern()
+segment.17.Oboe.Staff.I = {
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Oboe_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Oboe_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Oboe.Voice.I }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_English_Horn_Voice_I_a = {
+%! baca.path.extern()
+segment.17.English.Horn.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [English_Horn_Voice_I measure 109 / measure 1]
@@ -1244,15 +1244,15 @@ q_English_Horn_Voice_I_a = {
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_English_Horn_Voice_I = {
+%! baca.path.extern()
+segment.17.English.Horn.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_English_Horn_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.English.Horn.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1346,26 +1346,26 @@ q_English_Horn_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_English_Horn_Staff_I = {
+%! baca.path.extern()
+segment.17.English.Horn.Staff.I = {
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "English_Horn_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_English_Horn_Voice_I
+    %! baca.path.extern()
+    { \segment.17.English.Horn.Voice.I }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Bassoon_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Bassoon.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Bassoon_Voice_I measure 109 / measure 1]
@@ -1700,15 +1700,15 @@ q_Bassoon_Voice_I_a = {
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Bassoon_Voice_I = {
+%! baca.path.extern()
+segment.17.Bassoon.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Bassoon_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Bassoon.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1802,12 +1802,12 @@ q_Bassoon_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Bassoon_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Bassoon.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Bassoon_Voice_II measure 109 / measure 1]
@@ -2081,15 +2081,15 @@ q_Bassoon_Voice_II_a = {
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Bassoon_Voice_II = {
+%! baca.path.extern()
+segment.17.Bassoon.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Bassoon_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Bassoon.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2183,32 +2183,32 @@ q_Bassoon_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Bassoon_Staff_I = <<
+%! baca.path.extern()
+segment.17.Bassoon.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Bassoon_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Bassoon_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Bassoon.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Bassoon_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Bassoon_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Bassoon.Voice.II }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Horn_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Horn.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Horn_Voice_I measure 109 / measure 1]
@@ -2579,15 +2579,15 @@ q_Horn_Voice_I_a = {
     %! animales.brass_manifest_rhythm()
     e'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Voice_I = {
+%! baca.path.extern()
+segment.17.Horn.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Horn_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2688,12 +2688,12 @@ q_Horn_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Voice_III_a = {
+%! baca.path.extern()
+segment.17.Horn.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Horn_Voice_III measure 109 / measure 1]
@@ -2924,15 +2924,15 @@ q_Horn_Voice_III_a = {
     %! animales.brass_manifest_rhythm()
     df'!2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Voice_III = {
+%! baca.path.extern()
+segment.17.Horn.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_Horn_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3033,32 +3033,32 @@ q_Horn_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Staff_I = <<
+%! baca.path.extern()
+segment.17.Horn.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Horn_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Horn_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Horn_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Horn_Voice_III
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.III }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Horn_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Horn.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Horn_Voice_II measure 109 / measure 1]
@@ -3432,15 +3432,15 @@ q_Horn_Voice_II_a = {
     %! animales.brass_manifest_rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Voice_II = {
+%! baca.path.extern()
+segment.17.Horn.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Horn_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3541,12 +3541,12 @@ q_Horn_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Voice_IV_a = {
+%! baca.path.extern()
+segment.17.Horn.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Horn_Voice_IV measure 109 / measure 1]
@@ -3838,15 +3838,15 @@ q_Horn_Voice_IV_a = {
     %! animales.brass_manifest_rhythm()
     df'!8
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Voice_IV = {
+%! baca.path.extern()
+segment.17.Horn.Voice.IV = {
 
-    %! baca.Path.extern()
-    \q_Horn_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3947,32 +3947,32 @@ q_Horn_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Horn_Staff_II = <<
+%! baca.path.extern()
+segment.17.Horn.Staff.II = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Horn_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Horn_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.II }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Horn_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Horn_Voice_IV
+    %! baca.path.extern()
+    { \segment.17.Horn.Voice.IV }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trumpet_Voice_I measure 109 / measure 1]
@@ -4285,15 +4285,15 @@ q_Trumpet_Voice_I_a = {
     %! animales.brass_manifest_rhythm()
     gf'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_I = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -4394,12 +4394,12 @@ q_Trumpet_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_III_a = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trumpet_Voice_III measure 109 / measure 1]
@@ -4698,15 +4698,15 @@ q_Trumpet_Voice_III_a = {
     %! animales.brass_manifest_rhythm()
     g'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_III = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -4807,32 +4807,32 @@ q_Trumpet_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Staff_I = <<
+%! baca.path.extern()
+segment.17.Trumpet.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trumpet_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trumpet_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_III
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.III }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trumpet_Voice_II measure 109 / measure 1]
@@ -5175,15 +5175,15 @@ q_Trumpet_Voice_II_a = {
     %! animales.brass_manifest_rhythm()
     gf'!4
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_II = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -5284,12 +5284,12 @@ q_Trumpet_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_IV_a = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trumpet_Voice_IV measure 109 / measure 1]
@@ -5560,15 +5560,15 @@ q_Trumpet_Voice_IV_a = {
     %! animales.brass_manifest_rhythm()
     g'4
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Voice_IV = {
+%! baca.path.extern()
+segment.17.Trumpet.Voice.IV = {
 
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -5669,32 +5669,32 @@ q_Trumpet_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trumpet_Staff_II = <<
+%! baca.path.extern()
+segment.17.Trumpet.Staff.II = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trumpet_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.II }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trumpet_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trumpet_Voice_IV
+    %! baca.path.extern()
+    { \segment.17.Trumpet.Voice.IV }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trombone_Voice_I measure 109 / measure 1]
@@ -6034,15 +6034,15 @@ q_Trombone_Voice_I_a = {
     %! animales.brass_manifest_rhythm()
     gf!8
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_I = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Trombone_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6143,12 +6143,12 @@ q_Trombone_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_III_a = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trombone_Voice_III measure 109 / measure 1]
@@ -6433,15 +6433,15 @@ q_Trombone_Voice_III_a = {
     %! animales.brass_manifest_rhythm()
     g2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_III = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_Trombone_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6542,32 +6542,32 @@ q_Trombone_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Staff_I = <<
+%! baca.path.extern()
+segment.17.Trombone.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trombone_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trombone_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trombone_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trombone_Voice_III
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.III }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trombone_Voice_II measure 109 / measure 1]
@@ -6904,15 +6904,15 @@ q_Trombone_Voice_II_a = {
     %! animales.brass_manifest_rhythm()
     af!4.
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_II = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Trombone_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7013,12 +7013,12 @@ q_Trombone_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_IV_a = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Trombone_Voice_IV measure 109 / measure 1]
@@ -7317,15 +7317,15 @@ q_Trombone_Voice_IV_a = {
     %! animales.brass_manifest_rhythm()
     g8
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Voice_IV = {
+%! baca.path.extern()
+segment.17.Trombone.Voice.IV = {
 
-    %! baca.Path.extern()
-    \q_Trombone_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7426,32 +7426,32 @@ q_Trombone_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Trombone_Staff_II = <<
+%! baca.path.extern()
+segment.17.Trombone.Staff.II = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trombone_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trombone_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.II }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Trombone_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Trombone_Voice_IV
+    %! baca.path.extern()
+    { \segment.17.Trombone.Voice.IV }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_I_a = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [First_Violin_Voice_I measure 109 / measure 1]
@@ -7834,15 +7834,15 @@ q_First_Violin_Voice_I_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_I = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7943,12 +7943,12 @@ q_First_Violin_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_II_a = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [First_Violin_Voice_II measure 109 / measure 1]
@@ -8252,15 +8252,15 @@ q_First_Violin_Voice_II_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_II = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8361,32 +8361,32 @@ q_First_Violin_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Staff_I = <<
+%! baca.path.extern()
+segment.17.First.Violin.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "First_Violin_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_I
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "First_Violin_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_II
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.II }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_III_a = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [First_Violin_Voice_III measure 109 / measure 1]
@@ -8765,15 +8765,15 @@ q_First_Violin_Voice_III_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_III = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8874,12 +8874,12 @@ q_First_Violin_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_IV_a = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [First_Violin_Voice_IV measure 109 / measure 1]
@@ -9183,15 +9183,15 @@ q_First_Violin_Voice_IV_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_IV = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.IV = {
 
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -9292,32 +9292,32 @@ q_First_Violin_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Staff_II = <<
+%! baca.path.extern()
+segment.17.First.Violin.Staff.II = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "First_Violin_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_III
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.III }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "First_Violin_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_IV
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.IV }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_V_a = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.V.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [First_Violin_Voice_V measure 109 / measure 1]
@@ -9549,15 +9549,15 @@ q_First_Violin_Voice_V_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Voice_V = {
+%! baca.path.extern()
+segment.17.First.Violin.Voice.V = {
 
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_V_a
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.V.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -9658,26 +9658,26 @@ q_First_Violin_Voice_V = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_First_Violin_Staff_III = {
+%! baca.path.extern()
+segment.17.First.Violin.Staff.III = {
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "First_Violin_Voice_V"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_First_Violin_Voice_V
+    %! baca.path.extern()
+    { \segment.17.First.Violin.Voice.V }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Second_Violin_Voice_I measure 109 / measure 1]
@@ -10066,15 +10066,15 @@ q_Second_Violin_Voice_I_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_I = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -10175,12 +10175,12 @@ q_Second_Violin_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Second_Violin_Voice_II measure 109 / measure 1]
@@ -10484,15 +10484,15 @@ q_Second_Violin_Voice_II_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_II = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -10593,32 +10593,32 @@ q_Second_Violin_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Staff_I = <<
+%! baca.path.extern()
+segment.17.Second.Violin.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Second_Violin_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Second_Violin_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.II }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_III_a = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Second_Violin_Voice_III measure 109 / measure 1]
@@ -10997,15 +10997,15 @@ q_Second_Violin_Voice_III_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_III = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11106,12 +11106,12 @@ q_Second_Violin_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_IV_a = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Second_Violin_Voice_IV measure 109 / measure 1]
@@ -11415,15 +11415,15 @@ q_Second_Violin_Voice_IV_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Voice_IV = {
+%! baca.path.extern()
+segment.17.Second.Violin.Voice.IV = {
 
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11524,32 +11524,32 @@ q_Second_Violin_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Second_Violin_Staff_II = <<
+%! baca.path.extern()
+segment.17.Second.Violin.Staff.II = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Second_Violin_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_III
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.III }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Second_Violin_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Second_Violin_Voice_IV
+    %! baca.path.extern()
+    { \segment.17.Second.Violin.Voice.IV }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Viola_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Viola.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Voice_I measure 109 / measure 1]
@@ -11928,15 +11928,15 @@ q_Viola_Voice_I_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Voice_I = {
+%! baca.path.extern()
+segment.17.Viola.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Viola_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12037,12 +12037,12 @@ q_Viola_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Viola.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Voice_II measure 109 / measure 1]
@@ -12346,15 +12346,15 @@ q_Viola_Voice_II_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Voice_II = {
+%! baca.path.extern()
+segment.17.Viola.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Viola_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12455,32 +12455,32 @@ q_Viola_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Staff_I = <<
+%! baca.path.extern()
+segment.17.Viola.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Viola_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Viola_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Viola_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Viola_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.II }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Viola_Voice_III_a = {
+%! baca.path.extern()
+segment.17.Viola.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Voice_III measure 109 / measure 1]
@@ -12859,15 +12859,15 @@ q_Viola_Voice_III_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Voice_III = {
+%! baca.path.extern()
+segment.17.Viola.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_Viola_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12968,12 +12968,12 @@ q_Viola_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Voice_IV_a = {
+%! baca.path.extern()
+segment.17.Viola.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Viola_Voice_IV measure 109 / measure 1]
@@ -13277,15 +13277,15 @@ q_Viola_Voice_IV_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Voice_IV = {
+%! baca.path.extern()
+segment.17.Viola.Voice.IV = {
 
-    %! baca.Path.extern()
-    \q_Viola_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13386,32 +13386,32 @@ q_Viola_Voice_IV = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Viola_Staff_II = <<
+%! baca.path.extern()
+segment.17.Viola.Staff.II = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Viola_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Viola_Voice_III
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.III }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Viola_Voice_IV"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Viola_Voice_IV
+    %! baca.path.extern()
+    { \segment.17.Viola.Voice.IV }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Cello_Voice_I_a = {
+%! baca.path.extern()
+segment.17.Cello.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Voice_I measure 109 / measure 1]
@@ -13800,15 +13800,15 @@ q_Cello_Voice_I_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Cello_Voice_I = {
+%! baca.path.extern()
+segment.17.Cello.Voice.I = {
 
-    %! baca.Path.extern()
-    \q_Cello_Voice_I_a
+    %! baca.path.extern()
+    { \segment.17.Cello.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13909,12 +13909,12 @@ q_Cello_Voice_I = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Cello_Voice_II_a = {
+%! baca.path.extern()
+segment.17.Cello.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Voice_II measure 109 / measure 1]
@@ -14218,15 +14218,15 @@ q_Cello_Voice_II_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Cello_Voice_II = {
+%! baca.path.extern()
+segment.17.Cello.Voice.II = {
 
-    %! baca.Path.extern()
-    \q_Cello_Voice_II_a
+    %! baca.path.extern()
+    { \segment.17.Cello.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -14327,32 +14327,32 @@ q_Cello_Voice_II = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Cello_Staff_I = <<
+%! baca.path.extern()
+segment.17.Cello.Staff.I = <<
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Cello_Voice_I"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Cello_Voice_I
+    %! baca.path.extern()
+    { \segment.17.Cello.Voice.I }
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Cello_Voice_II"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Cello_Voice_II
+    %! baca.path.extern()
+    { \segment.17.Cello.Voice.II }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-q_Contrabass_Voice_III_a = {
+%! baca.path.extern()
+segment.17.Contrabass.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Contrabass_Voice_III measure 109 / measure 1]
@@ -14687,15 +14687,15 @@ q_Contrabass_Voice_III_a = {
     %! SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Contrabass_Voice_III = {
+%! baca.path.extern()
+segment.17.Contrabass.Voice.III = {
 
-    %! baca.Path.extern()
-    \q_Contrabass_Voice_III_a
+    %! baca.path.extern()
+    { \segment.17.Contrabass.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -14796,19 +14796,19 @@ q_Contrabass_Voice_III = {
     >>
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-q_Contrabass_Staff_II = {
+%! baca.path.extern()
+segment.17.Contrabass.Staff.II = {
 
     %! animales.ScoreTemplate._make_staves()
     \context Voice = "Contrabass_Voice_III"
     %! animales.ScoreTemplate._make_staves()
-    %! baca.Path.extern()
-    \q_Contrabass_Voice_III
+    %! baca.path.extern()
+    { \segment.17.Contrabass.Voice.III }
 
 %! animales.ScoreTemplate._make_staves()
-%! baca.Path.extern()
+%! baca.path.extern()
 }

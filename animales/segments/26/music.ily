@@ -1,4 +1,4 @@
-z_Global_Rests = {
+segment.26.Global.Rests = {
 
     % [Global_Rests measure 152 / measure 1]
     R1 * 1
@@ -15,7 +15,7 @@ z_Global_Rests = {
 }
 
 
-z_Global_Skips = {
+segment.26.Global.Skips = {
 
     % [Global_Skips measure 152 / measure 1]
     \time 4/4
@@ -45,7 +45,7 @@ z_Global_Skips = {
 }
 
 
-z_Horn_Voice_I_a = {
+segment.26.Horn.Voice.I.1 = {
 
     % [Horn_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
@@ -95,9 +95,9 @@ z_Horn_Voice_I_a = {
 }
 
 
-z_Horn_Voice_I = {
+segment.26.Horn.Voice.I = {
 
-    \z_Horn_Voice_I_a
+    { \segment.26.Horn.Voice.I.1 }
 
     <<
 
@@ -128,7 +128,7 @@ z_Horn_Voice_I = {
 }
 
 
-z_Horn_Voice_III_a = {
+segment.26.Horn.Voice.III.1 = {
 
     % [Horn_Voice_III measure 152 / measure 1]
     \voiceTwo
@@ -167,9 +167,9 @@ z_Horn_Voice_III_a = {
 }
 
 
-z_Horn_Voice_III = {
+segment.26.Horn.Voice.III = {
 
-    \z_Horn_Voice_III_a
+    { \segment.26.Horn.Voice.III.1 }
 
     <<
 
@@ -200,18 +200,18 @@ z_Horn_Voice_III = {
 }
 
 
-z_Horn_Staff_I = <<
+segment.26.Horn.Staff.I = <<
 
     \context Voice = "Horn_Voice_I"
-    \z_Horn_Voice_I
+    { \segment.26.Horn.Voice.I }
 
     \context Voice = "Horn_Voice_III"
-    \z_Horn_Voice_III
+    { \segment.26.Horn.Voice.III }
 
 >>
 
 
-z_Horn_Voice_II_a = {
+segment.26.Horn.Voice.II.1 = {
 
     % [Horn_Voice_II measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
@@ -261,9 +261,9 @@ z_Horn_Voice_II_a = {
 }
 
 
-z_Horn_Voice_II = {
+segment.26.Horn.Voice.II = {
 
-    \z_Horn_Voice_II_a
+    { \segment.26.Horn.Voice.II.1 }
 
     <<
 
@@ -294,7 +294,7 @@ z_Horn_Voice_II = {
 }
 
 
-z_Horn_Voice_IV_a = {
+segment.26.Horn.Voice.IV.1 = {
 
     % [Horn_Voice_IV measure 152 / measure 1]
     \voiceTwo
@@ -333,9 +333,9 @@ z_Horn_Voice_IV_a = {
 }
 
 
-z_Horn_Voice_IV = {
+segment.26.Horn.Voice.IV = {
 
-    \z_Horn_Voice_IV_a
+    { \segment.26.Horn.Voice.IV.1 }
 
     <<
 
@@ -366,18 +366,18 @@ z_Horn_Voice_IV = {
 }
 
 
-z_Horn_Staff_II = <<
+segment.26.Horn.Staff.II = <<
 
     \context Voice = "Horn_Voice_II"
-    \z_Horn_Voice_II
+    { \segment.26.Horn.Voice.II }
 
     \context Voice = "Horn_Voice_IV"
-    \z_Horn_Voice_IV
+    { \segment.26.Horn.Voice.IV }
 
 >>
 
 
-z_Trumpet_Voice_I_a = {
+segment.26.Trumpet.Voice.I.1 = {
 
     % [Trumpet_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
@@ -427,9 +427,9 @@ z_Trumpet_Voice_I_a = {
 }
 
 
-z_Trumpet_Voice_I = {
+segment.26.Trumpet.Voice.I = {
 
-    \z_Trumpet_Voice_I_a
+    { \segment.26.Trumpet.Voice.I.1 }
 
     <<
 
@@ -460,7 +460,7 @@ z_Trumpet_Voice_I = {
 }
 
 
-z_Trumpet_Voice_III_a = {
+segment.26.Trumpet.Voice.III.1 = {
 
     % [Trumpet_Voice_III measure 152 / measure 1]
     \voiceTwo
@@ -499,9 +499,9 @@ z_Trumpet_Voice_III_a = {
 }
 
 
-z_Trumpet_Voice_III = {
+segment.26.Trumpet.Voice.III = {
 
-    \z_Trumpet_Voice_III_a
+    { \segment.26.Trumpet.Voice.III.1 }
 
     <<
 
@@ -532,18 +532,18 @@ z_Trumpet_Voice_III = {
 }
 
 
-z_Trumpet_Staff_I = <<
+segment.26.Trumpet.Staff.I = <<
 
     \context Voice = "Trumpet_Voice_I"
-    \z_Trumpet_Voice_I
+    { \segment.26.Trumpet.Voice.I }
 
     \context Voice = "Trumpet_Voice_III"
-    \z_Trumpet_Voice_III
+    { \segment.26.Trumpet.Voice.III }
 
 >>
 
 
-z_Trumpet_Voice_II_a = {
+segment.26.Trumpet.Voice.II.1 = {
 
     % [Trumpet_Voice_II measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
@@ -593,9 +593,9 @@ z_Trumpet_Voice_II_a = {
 }
 
 
-z_Trumpet_Voice_II = {
+segment.26.Trumpet.Voice.II = {
 
-    \z_Trumpet_Voice_II_a
+    { \segment.26.Trumpet.Voice.II.1 }
 
     <<
 
@@ -626,7 +626,7 @@ z_Trumpet_Voice_II = {
 }
 
 
-z_Trumpet_Voice_IV_a = {
+segment.26.Trumpet.Voice.IV.1 = {
 
     % [Trumpet_Voice_IV measure 152 / measure 1]
     \voiceTwo
@@ -665,9 +665,9 @@ z_Trumpet_Voice_IV_a = {
 }
 
 
-z_Trumpet_Voice_IV = {
+segment.26.Trumpet.Voice.IV = {
 
-    \z_Trumpet_Voice_IV_a
+    { \segment.26.Trumpet.Voice.IV.1 }
 
     <<
 
@@ -698,18 +698,18 @@ z_Trumpet_Voice_IV = {
 }
 
 
-z_Trumpet_Staff_II = <<
+segment.26.Trumpet.Staff.II = <<
 
     \context Voice = "Trumpet_Voice_II"
-    \z_Trumpet_Voice_II
+    { \segment.26.Trumpet.Voice.II }
 
     \context Voice = "Trumpet_Voice_IV"
-    \z_Trumpet_Voice_IV
+    { \segment.26.Trumpet.Voice.IV }
 
 >>
 
 
-z_Trombone_Voice_I_a = {
+segment.26.Trombone.Voice.I.1 = {
 
     % [Trombone_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
@@ -759,9 +759,9 @@ z_Trombone_Voice_I_a = {
 }
 
 
-z_Trombone_Voice_I = {
+segment.26.Trombone.Voice.I = {
 
-    \z_Trombone_Voice_I_a
+    { \segment.26.Trombone.Voice.I.1 }
 
     <<
 
@@ -792,7 +792,7 @@ z_Trombone_Voice_I = {
 }
 
 
-z_Trombone_Voice_III_a = {
+segment.26.Trombone.Voice.III.1 = {
 
     % [Trombone_Voice_III measure 152 / measure 1]
     \voiceTwo
@@ -831,9 +831,9 @@ z_Trombone_Voice_III_a = {
 }
 
 
-z_Trombone_Voice_III = {
+segment.26.Trombone.Voice.III = {
 
-    \z_Trombone_Voice_III_a
+    { \segment.26.Trombone.Voice.III.1 }
 
     <<
 
@@ -864,18 +864,18 @@ z_Trombone_Voice_III = {
 }
 
 
-z_Trombone_Staff_I = <<
+segment.26.Trombone.Staff.I = <<
 
     \context Voice = "Trombone_Voice_I"
-    \z_Trombone_Voice_I
+    { \segment.26.Trombone.Voice.I }
 
     \context Voice = "Trombone_Voice_III"
-    \z_Trombone_Voice_III
+    { \segment.26.Trombone.Voice.III }
 
 >>
 
 
-z_Trombone_Voice_II_a = {
+segment.26.Trombone.Voice.II.1 = {
 
     % [Trombone_Voice_II measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
@@ -925,9 +925,9 @@ z_Trombone_Voice_II_a = {
 }
 
 
-z_Trombone_Voice_II = {
+segment.26.Trombone.Voice.II = {
 
-    \z_Trombone_Voice_II_a
+    { \segment.26.Trombone.Voice.II.1 }
 
     <<
 
@@ -958,7 +958,7 @@ z_Trombone_Voice_II = {
 }
 
 
-z_Trombone_Voice_IV_a = {
+segment.26.Trombone.Voice.IV.1 = {
 
     % [Trombone_Voice_IV measure 152 / measure 1]
     \voiceTwo
@@ -997,9 +997,9 @@ z_Trombone_Voice_IV_a = {
 }
 
 
-z_Trombone_Voice_IV = {
+segment.26.Trombone.Voice.IV = {
 
-    \z_Trombone_Voice_IV_a
+    { \segment.26.Trombone.Voice.IV.1 }
 
     <<
 
@@ -1030,18 +1030,18 @@ z_Trombone_Voice_IV = {
 }
 
 
-z_Trombone_Staff_II = <<
+segment.26.Trombone.Staff.II = <<
 
     \context Voice = "Trombone_Voice_II"
-    \z_Trombone_Voice_II
+    { \segment.26.Trombone.Voice.II }
 
     \context Voice = "Trombone_Voice_IV"
-    \z_Trombone_Voice_IV
+    { \segment.26.Trombone.Voice.IV }
 
 >>
 
 
-z_Tuba_Voice_I_a = {
+segment.26.Tuba.Voice.I.1 = {
 
     % [Tuba_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
@@ -1090,9 +1090,9 @@ z_Tuba_Voice_I_a = {
 }
 
 
-z_Tuba_Voice_I = {
+segment.26.Tuba.Voice.I = {
 
-    \z_Tuba_Voice_I_a
+    { \segment.26.Tuba.Voice.I.1 }
 
     <<
 
@@ -1123,15 +1123,15 @@ z_Tuba_Voice_I = {
 }
 
 
-z_Tuba_Staff_I = {
+segment.26.Tuba.Staff.I = {
 
     \context Voice = "Tuba_Voice_I"
-    \z_Tuba_Voice_I
+    { \segment.26.Tuba.Voice.I }
 
 }
 
 
-z_Percussion_Voice_II_a = {
+segment.26.Percussion.Voice.II.1 = {
 
     % [Percussion_Voice_II measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
@@ -1183,9 +1183,9 @@ z_Percussion_Voice_II_a = {
 }
 
 
-z_Percussion_Voice_II = {
+segment.26.Percussion.Voice.II = {
 
-    \z_Percussion_Voice_II_a
+    { \segment.26.Percussion.Voice.II.1 }
 
     <<
 
@@ -1217,15 +1217,15 @@ z_Percussion_Voice_II = {
 }
 
 
-z_Percussion_Staff_II = {
+segment.26.Percussion.Staff.II = {
 
     \context Voice = "Percussion_Voice_II"
-    \z_Percussion_Voice_II
+    { \segment.26.Percussion.Voice.II }
 
 }
 
 
-z_Percussion_Voice_III_a = {
+segment.26.Percussion.Voice.III.1 = {
 
     % [Percussion_Voice_III measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(BD)" }
@@ -1276,9 +1276,9 @@ z_Percussion_Voice_III_a = {
 }
 
 
-z_Percussion_Voice_III = {
+segment.26.Percussion.Voice.III = {
 
-    \z_Percussion_Voice_III_a
+    { \segment.26.Percussion.Voice.III.1 }
 
     <<
 
@@ -1310,15 +1310,15 @@ z_Percussion_Voice_III = {
 }
 
 
-z_Percussion_Staff_III = {
+segment.26.Percussion.Staff.III = {
 
     \context Voice = "Percussion_Voice_III"
-    \z_Percussion_Voice_III
+    { \segment.26.Percussion.Voice.III }
 
 }
 
 
-z_Percussion_Voice_IV_a = {
+segment.26.Percussion.Voice.IV.1 = {
 
     % [Percussion_Voice_IV measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(tam.)" }
@@ -1370,9 +1370,9 @@ z_Percussion_Voice_IV_a = {
 }
 
 
-z_Percussion_Voice_IV = {
+segment.26.Percussion.Voice.IV = {
 
-    \z_Percussion_Voice_IV_a
+    { \segment.26.Percussion.Voice.IV.1 }
 
     <<
 
@@ -1404,15 +1404,15 @@ z_Percussion_Voice_IV = {
 }
 
 
-z_Percussion_Staff_IV = {
+segment.26.Percussion.Staff.IV = {
 
     \context Voice = "Percussion_Voice_IV"
-    \z_Percussion_Voice_IV
+    { \segment.26.Percussion.Voice.IV }
 
 }
 
 
-z_First_Violin_Voice_I_a = {
+segment.26.First.Violin.Voice.I.1 = {
 
     % [First_Violin_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
@@ -1438,9 +1438,9 @@ z_First_Violin_Voice_I_a = {
 }
 
 
-z_First_Violin_Voice_I = {
+segment.26.First.Violin.Voice.I = {
 
-    \z_First_Violin_Voice_I_a
+    { \segment.26.First.Violin.Voice.I.1 }
 
     <<
 
@@ -1472,7 +1472,7 @@ z_First_Violin_Voice_I = {
 }
 
 
-z_First_Violin_Voice_II_a = {
+segment.26.First.Violin.Voice.II.1 = {
 
     % [First_Violin_Voice_II measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1510,9 +1510,9 @@ z_First_Violin_Voice_II_a = {
 }
 
 
-z_First_Violin_Voice_II = {
+segment.26.First.Violin.Voice.II = {
 
-    \z_First_Violin_Voice_II_a
+    { \segment.26.First.Violin.Voice.II.1 }
 
     <<
 
@@ -1544,18 +1544,18 @@ z_First_Violin_Voice_II = {
 }
 
 
-z_First_Violin_Staff_I = <<
+segment.26.First.Violin.Staff.I = <<
 
     \context Voice = "First_Violin_Voice_I"
-    \z_First_Violin_Voice_I
+    { \segment.26.First.Violin.Voice.I }
 
     \context Voice = "First_Violin_Voice_II"
-    \z_First_Violin_Voice_II
+    { \segment.26.First.Violin.Voice.II }
 
 >>
 
 
-z_First_Violin_Voice_III_a = {
+segment.26.First.Violin.Voice.III.1 = {
 
     % [First_Violin_Voice_III measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
@@ -1603,9 +1603,9 @@ z_First_Violin_Voice_III_a = {
 }
 
 
-z_First_Violin_Voice_III = {
+segment.26.First.Violin.Voice.III = {
 
-    \z_First_Violin_Voice_III_a
+    { \segment.26.First.Violin.Voice.III.1 }
 
     <<
 
@@ -1637,7 +1637,7 @@ z_First_Violin_Voice_III = {
 }
 
 
-z_First_Violin_Voice_IV_a = {
+segment.26.First.Violin.Voice.IV.1 = {
 
     % [First_Violin_Voice_IV measure 152 / measure 1]
     \stopStaff
@@ -1662,9 +1662,9 @@ z_First_Violin_Voice_IV_a = {
 }
 
 
-z_First_Violin_Voice_IV = {
+segment.26.First.Violin.Voice.IV = {
 
-    \z_First_Violin_Voice_IV_a
+    { \segment.26.First.Violin.Voice.IV.1 }
 
     <<
 
@@ -1696,18 +1696,18 @@ z_First_Violin_Voice_IV = {
 }
 
 
-z_First_Violin_Staff_II = <<
+segment.26.First.Violin.Staff.II = <<
 
     \context Voice = "First_Violin_Voice_III"
-    \z_First_Violin_Voice_III
+    { \segment.26.First.Violin.Voice.III }
 
     \context Voice = "First_Violin_Voice_IV"
-    \z_First_Violin_Voice_IV
+    { \segment.26.First.Violin.Voice.IV }
 
 >>
 
 
-z_First_Violin_Voice_V_a = {
+segment.26.First.Violin.Voice.V.1 = {
 
     % [First_Violin_Voice_V measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
@@ -1739,9 +1739,9 @@ z_First_Violin_Voice_V_a = {
 }
 
 
-z_First_Violin_Voice_V = {
+segment.26.First.Violin.Voice.V = {
 
-    \z_First_Violin_Voice_V_a
+    { \segment.26.First.Violin.Voice.V.1 }
 
     <<
 
@@ -1773,7 +1773,7 @@ z_First_Violin_Voice_V = {
 }
 
 
-z_First_Violin_Voice_VI_a = {
+segment.26.First.Violin.Voice.VI.1 = {
 
     % [First_Violin_Voice_VI measure 152 / measure 1]
     \stopStaff
@@ -1802,9 +1802,9 @@ z_First_Violin_Voice_VI_a = {
 }
 
 
-z_First_Violin_Voice_VI = {
+segment.26.First.Violin.Voice.VI = {
 
-    \z_First_Violin_Voice_VI_a
+    { \segment.26.First.Violin.Voice.VI.1 }
 
     <<
 
@@ -1836,18 +1836,18 @@ z_First_Violin_Voice_VI = {
 }
 
 
-z_First_Violin_Staff_III = <<
+segment.26.First.Violin.Staff.III = <<
 
     \context Voice = "First_Violin_Voice_V"
-    \z_First_Violin_Voice_V
+    { \segment.26.First.Violin.Voice.V }
 
     \context Voice = "First_Violin_Voice_VI"
-    \z_First_Violin_Voice_VI
+    { \segment.26.First.Violin.Voice.VI }
 
 >>
 
 
-z_First_Violin_Voice_VII_a = {
+segment.26.First.Violin.Voice.VII.1 = {
 
     % [First_Violin_Voice_VII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
@@ -1869,9 +1869,9 @@ z_First_Violin_Voice_VII_a = {
 }
 
 
-z_First_Violin_Voice_VII = {
+segment.26.First.Violin.Voice.VII = {
 
-    \z_First_Violin_Voice_VII_a
+    { \segment.26.First.Violin.Voice.VII.1 }
 
     <<
 
@@ -1903,7 +1903,7 @@ z_First_Violin_Voice_VII = {
 }
 
 
-z_First_Violin_Voice_VIII_a = {
+segment.26.First.Violin.Voice.VIII.1 = {
 
     % [First_Violin_Voice_VIII measure 152 / measure 1]
     \stopStaff
@@ -1952,9 +1952,9 @@ z_First_Violin_Voice_VIII_a = {
 }
 
 
-z_First_Violin_Voice_VIII = {
+segment.26.First.Violin.Voice.VIII = {
 
-    \z_First_Violin_Voice_VIII_a
+    { \segment.26.First.Violin.Voice.VIII.1 }
 
     <<
 
@@ -1986,18 +1986,18 @@ z_First_Violin_Voice_VIII = {
 }
 
 
-z_First_Violin_Staff_IV = <<
+segment.26.First.Violin.Staff.IV = <<
 
     \context Voice = "First_Violin_Voice_VII"
-    \z_First_Violin_Voice_VII
+    { \segment.26.First.Violin.Voice.VII }
 
     \context Voice = "First_Violin_Voice_VIII"
-    \z_First_Violin_Voice_VIII
+    { \segment.26.First.Violin.Voice.VIII }
 
 >>
 
 
-z_First_Violin_Voice_IX_a = {
+segment.26.First.Violin.Voice.IX.1 = {
 
     % [First_Violin_Voice_IX measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
@@ -2031,9 +2031,9 @@ z_First_Violin_Voice_IX_a = {
 }
 
 
-z_First_Violin_Voice_IX = {
+segment.26.First.Violin.Voice.IX = {
 
-    \z_First_Violin_Voice_IX_a
+    { \segment.26.First.Violin.Voice.IX.1 }
 
     <<
 
@@ -2065,7 +2065,7 @@ z_First_Violin_Voice_IX = {
 }
 
 
-z_First_Violin_Voice_X_a = {
+segment.26.First.Violin.Voice.X.1 = {
 
     % [First_Violin_Voice_X measure 152 / measure 1]
     \stopStaff
@@ -2094,9 +2094,9 @@ z_First_Violin_Voice_X_a = {
 }
 
 
-z_First_Violin_Voice_X = {
+segment.26.First.Violin.Voice.X = {
 
-    \z_First_Violin_Voice_X_a
+    { \segment.26.First.Violin.Voice.X.1 }
 
     <<
 
@@ -2128,18 +2128,18 @@ z_First_Violin_Voice_X = {
 }
 
 
-z_First_Violin_Staff_V = <<
+segment.26.First.Violin.Staff.V = <<
 
     \context Voice = "First_Violin_Voice_IX"
-    \z_First_Violin_Voice_IX
+    { \segment.26.First.Violin.Voice.IX }
 
     \context Voice = "First_Violin_Voice_X"
-    \z_First_Violin_Voice_X
+    { \segment.26.First.Violin.Voice.X }
 
 >>
 
 
-z_First_Violin_Voice_XI_a = {
+segment.26.First.Violin.Voice.XI.1 = {
 
     % [First_Violin_Voice_XI measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
@@ -2161,9 +2161,9 @@ z_First_Violin_Voice_XI_a = {
 }
 
 
-z_First_Violin_Voice_XI = {
+segment.26.First.Violin.Voice.XI = {
 
-    \z_First_Violin_Voice_XI_a
+    { \segment.26.First.Violin.Voice.XI.1 }
 
     <<
 
@@ -2195,7 +2195,7 @@ z_First_Violin_Voice_XI = {
 }
 
 
-z_First_Violin_Voice_XII_a = {
+segment.26.First.Violin.Voice.XII.1 = {
 
     % [First_Violin_Voice_XII measure 152 / measure 1]
     \stopStaff
@@ -2247,9 +2247,9 @@ z_First_Violin_Voice_XII_a = {
 }
 
 
-z_First_Violin_Voice_XII = {
+segment.26.First.Violin.Voice.XII = {
 
-    \z_First_Violin_Voice_XII_a
+    { \segment.26.First.Violin.Voice.XII.1 }
 
     <<
 
@@ -2281,18 +2281,18 @@ z_First_Violin_Voice_XII = {
 }
 
 
-z_First_Violin_Staff_VI = <<
+segment.26.First.Violin.Staff.VI = <<
 
     \context Voice = "First_Violin_Voice_XI"
-    \z_First_Violin_Voice_XI
+    { \segment.26.First.Violin.Voice.XI }
 
     \context Voice = "First_Violin_Voice_XII"
-    \z_First_Violin_Voice_XII
+    { \segment.26.First.Violin.Voice.XII }
 
 >>
 
 
-z_First_Violin_Voice_XIII_a = {
+segment.26.First.Violin.Voice.XIII.1 = {
 
     % [First_Violin_Voice_XIII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
@@ -2325,9 +2325,9 @@ z_First_Violin_Voice_XIII_a = {
 }
 
 
-z_First_Violin_Voice_XIII = {
+segment.26.First.Violin.Voice.XIII = {
 
-    \z_First_Violin_Voice_XIII_a
+    { \segment.26.First.Violin.Voice.XIII.1 }
 
     <<
 
@@ -2359,7 +2359,7 @@ z_First_Violin_Voice_XIII = {
 }
 
 
-z_First_Violin_Voice_XIV_a = {
+segment.26.First.Violin.Voice.XIV.1 = {
 
     % [First_Violin_Voice_XIV measure 152 / measure 1]
     \stopStaff
@@ -2396,9 +2396,9 @@ z_First_Violin_Voice_XIV_a = {
 }
 
 
-z_First_Violin_Voice_XIV = {
+segment.26.First.Violin.Voice.XIV = {
 
-    \z_First_Violin_Voice_XIV_a
+    { \segment.26.First.Violin.Voice.XIV.1 }
 
     <<
 
@@ -2430,18 +2430,18 @@ z_First_Violin_Voice_XIV = {
 }
 
 
-z_First_Violin_Staff_VII = <<
+segment.26.First.Violin.Staff.VII = <<
 
     \context Voice = "First_Violin_Voice_XIII"
-    \z_First_Violin_Voice_XIII
+    { \segment.26.First.Violin.Voice.XIII }
 
     \context Voice = "First_Violin_Voice_XIV"
-    \z_First_Violin_Voice_XIV
+    { \segment.26.First.Violin.Voice.XIV }
 
 >>
 
 
-z_First_Violin_Voice_XV_a = {
+segment.26.First.Violin.Voice.XV.1 = {
 
     % [First_Violin_Voice_XV measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
@@ -2467,9 +2467,9 @@ z_First_Violin_Voice_XV_a = {
 }
 
 
-z_First_Violin_Voice_XV = {
+segment.26.First.Violin.Voice.XV = {
 
-    \z_First_Violin_Voice_XV_a
+    { \segment.26.First.Violin.Voice.XV.1 }
 
     <<
 
@@ -2501,7 +2501,7 @@ z_First_Violin_Voice_XV = {
 }
 
 
-z_First_Violin_Voice_XVI_a = {
+segment.26.First.Violin.Voice.XVI.1 = {
 
     % [First_Violin_Voice_XVI measure 152 / measure 1]
     \stopStaff
@@ -2550,9 +2550,9 @@ z_First_Violin_Voice_XVI_a = {
 }
 
 
-z_First_Violin_Voice_XVI = {
+segment.26.First.Violin.Voice.XVI = {
 
-    \z_First_Violin_Voice_XVI_a
+    { \segment.26.First.Violin.Voice.XVI.1 }
 
     <<
 
@@ -2584,18 +2584,18 @@ z_First_Violin_Voice_XVI = {
 }
 
 
-z_First_Violin_Staff_VIII = <<
+segment.26.First.Violin.Staff.VIII = <<
 
     \context Voice = "First_Violin_Voice_XV"
-    \z_First_Violin_Voice_XV
+    { \segment.26.First.Violin.Voice.XV }
 
     \context Voice = "First_Violin_Voice_XVI"
-    \z_First_Violin_Voice_XVI
+    { \segment.26.First.Violin.Voice.XVI }
 
 >>
 
 
-z_First_Violin_Voice_XVII_a = {
+segment.26.First.Violin.Voice.XVII.1 = {
 
     % [First_Violin_Voice_XVII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
@@ -2617,9 +2617,9 @@ z_First_Violin_Voice_XVII_a = {
 }
 
 
-z_First_Violin_Voice_XVII = {
+segment.26.First.Violin.Voice.XVII = {
 
-    \z_First_Violin_Voice_XVII_a
+    { \segment.26.First.Violin.Voice.XVII.1 }
 
     <<
 
@@ -2651,7 +2651,7 @@ z_First_Violin_Voice_XVII = {
 }
 
 
-z_First_Violin_Voice_XVIII_a = {
+segment.26.First.Violin.Voice.XVIII.1 = {
 
     % [First_Violin_Voice_XVIII measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -2675,9 +2675,9 @@ z_First_Violin_Voice_XVIII_a = {
 }
 
 
-z_First_Violin_Voice_XVIII = {
+segment.26.First.Violin.Voice.XVIII = {
 
-    \z_First_Violin_Voice_XVIII_a
+    { \segment.26.First.Violin.Voice.XVIII.1 }
 
     <<
 
@@ -2709,18 +2709,18 @@ z_First_Violin_Voice_XVIII = {
 }
 
 
-z_First_Violin_Staff_IX = <<
+segment.26.First.Violin.Staff.IX = <<
 
     \context Voice = "First_Violin_Voice_XVII"
-    \z_First_Violin_Voice_XVII
+    { \segment.26.First.Violin.Voice.XVII }
 
     \context Voice = "First_Violin_Voice_XVIII"
-    \z_First_Violin_Voice_XVIII
+    { \segment.26.First.Violin.Voice.XVIII }
 
 >>
 
 
-z_Second_Violin_Voice_I_a = {
+segment.26.Second.Violin.Voice.I.1 = {
 
     % [Second_Violin_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
@@ -2756,9 +2756,9 @@ z_Second_Violin_Voice_I_a = {
 }
 
 
-z_Second_Violin_Voice_I = {
+segment.26.Second.Violin.Voice.I = {
 
-    \z_Second_Violin_Voice_I_a
+    { \segment.26.Second.Violin.Voice.I.1 }
 
     <<
 
@@ -2790,7 +2790,7 @@ z_Second_Violin_Voice_I = {
 }
 
 
-z_Second_Violin_Voice_II_a = {
+segment.26.Second.Violin.Voice.II.1 = {
 
     % [Second_Violin_Voice_II measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2834,9 +2834,9 @@ z_Second_Violin_Voice_II_a = {
 }
 
 
-z_Second_Violin_Voice_II = {
+segment.26.Second.Violin.Voice.II = {
 
-    \z_Second_Violin_Voice_II_a
+    { \segment.26.Second.Violin.Voice.II.1 }
 
     <<
 
@@ -2868,18 +2868,18 @@ z_Second_Violin_Voice_II = {
 }
 
 
-z_Second_Violin_Staff_I = <<
+segment.26.Second.Violin.Staff.I = <<
 
     \context Voice = "Second_Violin_Voice_I"
-    \z_Second_Violin_Voice_I
+    { \segment.26.Second.Violin.Voice.I }
 
     \context Voice = "Second_Violin_Voice_II"
-    \z_Second_Violin_Voice_II
+    { \segment.26.Second.Violin.Voice.II }
 
 >>
 
 
-z_Second_Violin_Voice_III_a = {
+segment.26.Second.Violin.Voice.III.1 = {
 
     % [Second_Violin_Voice_III measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
@@ -2903,9 +2903,9 @@ z_Second_Violin_Voice_III_a = {
 }
 
 
-z_Second_Violin_Voice_III = {
+segment.26.Second.Violin.Voice.III = {
 
-    \z_Second_Violin_Voice_III_a
+    { \segment.26.Second.Violin.Voice.III.1 }
 
     <<
 
@@ -2937,7 +2937,7 @@ z_Second_Violin_Voice_III = {
 }
 
 
-z_Second_Violin_Voice_IV_a = {
+segment.26.Second.Violin.Voice.IV.1 = {
 
     % [Second_Violin_Voice_IV measure 152 / measure 1]
     \stopStaff
@@ -2971,9 +2971,9 @@ z_Second_Violin_Voice_IV_a = {
 }
 
 
-z_Second_Violin_Voice_IV = {
+segment.26.Second.Violin.Voice.IV = {
 
-    \z_Second_Violin_Voice_IV_a
+    { \segment.26.Second.Violin.Voice.IV.1 }
 
     <<
 
@@ -3005,18 +3005,18 @@ z_Second_Violin_Voice_IV = {
 }
 
 
-z_Second_Violin_Staff_II = <<
+segment.26.Second.Violin.Staff.II = <<
 
     \context Voice = "Second_Violin_Voice_III"
-    \z_Second_Violin_Voice_III
+    { \segment.26.Second.Violin.Voice.III }
 
     \context Voice = "Second_Violin_Voice_IV"
-    \z_Second_Violin_Voice_IV
+    { \segment.26.Second.Violin.Voice.IV }
 
 >>
 
 
-z_Second_Violin_Voice_V_a = {
+segment.26.Second.Violin.Voice.V.1 = {
 
     % [Second_Violin_Voice_V measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
@@ -3046,9 +3046,9 @@ z_Second_Violin_Voice_V_a = {
 }
 
 
-z_Second_Violin_Voice_V = {
+segment.26.Second.Violin.Voice.V = {
 
-    \z_Second_Violin_Voice_V_a
+    { \segment.26.Second.Violin.Voice.V.1 }
 
     <<
 
@@ -3080,7 +3080,7 @@ z_Second_Violin_Voice_V = {
 }
 
 
-z_Second_Violin_Voice_VI_a = {
+segment.26.Second.Violin.Voice.VI.1 = {
 
     % [Second_Violin_Voice_VI measure 152 / measure 1]
     \stopStaff
@@ -3105,9 +3105,9 @@ z_Second_Violin_Voice_VI_a = {
 }
 
 
-z_Second_Violin_Voice_VI = {
+segment.26.Second.Violin.Voice.VI = {
 
-    \z_Second_Violin_Voice_VI_a
+    { \segment.26.Second.Violin.Voice.VI.1 }
 
     <<
 
@@ -3139,18 +3139,18 @@ z_Second_Violin_Voice_VI = {
 }
 
 
-z_Second_Violin_Staff_III = <<
+segment.26.Second.Violin.Staff.III = <<
 
     \context Voice = "Second_Violin_Voice_V"
-    \z_Second_Violin_Voice_V
+    { \segment.26.Second.Violin.Voice.V }
 
     \context Voice = "Second_Violin_Voice_VI"
-    \z_Second_Violin_Voice_VI
+    { \segment.26.Second.Violin.Voice.VI }
 
 >>
 
 
-z_Second_Violin_Voice_VII_a = {
+segment.26.Second.Violin.Voice.VII.1 = {
 
     % [Second_Violin_Voice_VII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
@@ -3192,9 +3192,9 @@ z_Second_Violin_Voice_VII_a = {
 }
 
 
-z_Second_Violin_Voice_VII = {
+segment.26.Second.Violin.Voice.VII = {
 
-    \z_Second_Violin_Voice_VII_a
+    { \segment.26.Second.Violin.Voice.VII.1 }
 
     <<
 
@@ -3226,7 +3226,7 @@ z_Second_Violin_Voice_VII = {
 }
 
 
-z_Second_Violin_Voice_VIII_a = {
+segment.26.Second.Violin.Voice.VIII.1 = {
 
     % [Second_Violin_Voice_VIII measure 152 / measure 1]
     \stopStaff
@@ -3273,9 +3273,9 @@ z_Second_Violin_Voice_VIII_a = {
 }
 
 
-z_Second_Violin_Voice_VIII = {
+segment.26.Second.Violin.Voice.VIII = {
 
-    \z_Second_Violin_Voice_VIII_a
+    { \segment.26.Second.Violin.Voice.VIII.1 }
 
     <<
 
@@ -3307,18 +3307,18 @@ z_Second_Violin_Voice_VIII = {
 }
 
 
-z_Second_Violin_Staff_IV = <<
+segment.26.Second.Violin.Staff.IV = <<
 
     \context Voice = "Second_Violin_Voice_VII"
-    \z_Second_Violin_Voice_VII
+    { \segment.26.Second.Violin.Voice.VII }
 
     \context Voice = "Second_Violin_Voice_VIII"
-    \z_Second_Violin_Voice_VIII
+    { \segment.26.Second.Violin.Voice.VIII }
 
 >>
 
 
-z_Second_Violin_Voice_IX_a = {
+segment.26.Second.Violin.Voice.IX.1 = {
 
     % [Second_Violin_Voice_IX measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
@@ -3346,9 +3346,9 @@ z_Second_Violin_Voice_IX_a = {
 }
 
 
-z_Second_Violin_Voice_IX = {
+segment.26.Second.Violin.Voice.IX = {
 
-    \z_Second_Violin_Voice_IX_a
+    { \segment.26.Second.Violin.Voice.IX.1 }
 
     <<
 
@@ -3380,7 +3380,7 @@ z_Second_Violin_Voice_IX = {
 }
 
 
-z_Second_Violin_Voice_X_a = {
+segment.26.Second.Violin.Voice.X.1 = {
 
     % [Second_Violin_Voice_X measure 152 / measure 1]
     \stopStaff
@@ -3411,9 +3411,9 @@ z_Second_Violin_Voice_X_a = {
 }
 
 
-z_Second_Violin_Voice_X = {
+segment.26.Second.Violin.Voice.X = {
 
-    \z_Second_Violin_Voice_X_a
+    { \segment.26.Second.Violin.Voice.X.1 }
 
     <<
 
@@ -3445,18 +3445,18 @@ z_Second_Violin_Voice_X = {
 }
 
 
-z_Second_Violin_Staff_V = <<
+segment.26.Second.Violin.Staff.V = <<
 
     \context Voice = "Second_Violin_Voice_IX"
-    \z_Second_Violin_Voice_IX
+    { \segment.26.Second.Violin.Voice.IX }
 
     \context Voice = "Second_Violin_Voice_X"
-    \z_Second_Violin_Voice_X
+    { \segment.26.Second.Violin.Voice.X }
 
 >>
 
 
-z_Second_Violin_Voice_XI_a = {
+segment.26.Second.Violin.Voice.XI.1 = {
 
     % [Second_Violin_Voice_XI measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
@@ -3484,9 +3484,9 @@ z_Second_Violin_Voice_XI_a = {
 }
 
 
-z_Second_Violin_Voice_XI = {
+segment.26.Second.Violin.Voice.XI = {
 
-    \z_Second_Violin_Voice_XI_a
+    { \segment.26.Second.Violin.Voice.XI.1 }
 
     <<
 
@@ -3518,7 +3518,7 @@ z_Second_Violin_Voice_XI = {
 }
 
 
-z_Second_Violin_Voice_XII_a = {
+segment.26.Second.Violin.Voice.XII.1 = {
 
     % [Second_Violin_Voice_XII measure 152 / measure 1]
     \stopStaff
@@ -3541,9 +3541,9 @@ z_Second_Violin_Voice_XII_a = {
 }
 
 
-z_Second_Violin_Voice_XII = {
+segment.26.Second.Violin.Voice.XII = {
 
-    \z_Second_Violin_Voice_XII_a
+    { \segment.26.Second.Violin.Voice.XII.1 }
 
     <<
 
@@ -3575,18 +3575,18 @@ z_Second_Violin_Voice_XII = {
 }
 
 
-z_Second_Violin_Staff_VI = <<
+segment.26.Second.Violin.Staff.VI = <<
 
     \context Voice = "Second_Violin_Voice_XI"
-    \z_Second_Violin_Voice_XI
+    { \segment.26.Second.Violin.Voice.XI }
 
     \context Voice = "Second_Violin_Voice_XII"
-    \z_Second_Violin_Voice_XII
+    { \segment.26.Second.Violin.Voice.XII }
 
 >>
 
 
-z_Second_Violin_Voice_XIII_a = {
+segment.26.Second.Violin.Voice.XIII.1 = {
 
     % [Second_Violin_Voice_XIII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
@@ -3634,9 +3634,9 @@ z_Second_Violin_Voice_XIII_a = {
 }
 
 
-z_Second_Violin_Voice_XIII = {
+segment.26.Second.Violin.Voice.XIII = {
 
-    \z_Second_Violin_Voice_XIII_a
+    { \segment.26.Second.Violin.Voice.XIII.1 }
 
     <<
 
@@ -3668,7 +3668,7 @@ z_Second_Violin_Voice_XIII = {
 }
 
 
-z_Second_Violin_Voice_XIV_a = {
+segment.26.Second.Violin.Voice.XIV.1 = {
 
     % [Second_Violin_Voice_XIV measure 152 / measure 1]
     \stopStaff
@@ -3703,9 +3703,9 @@ z_Second_Violin_Voice_XIV_a = {
 }
 
 
-z_Second_Violin_Voice_XIV = {
+segment.26.Second.Violin.Voice.XIV = {
 
-    \z_Second_Violin_Voice_XIV_a
+    { \segment.26.Second.Violin.Voice.XIV.1 }
 
     <<
 
@@ -3737,18 +3737,18 @@ z_Second_Violin_Voice_XIV = {
 }
 
 
-z_Second_Violin_Staff_VII = <<
+segment.26.Second.Violin.Staff.VII = <<
 
     \context Voice = "Second_Violin_Voice_XIII"
-    \z_Second_Violin_Voice_XIII
+    { \segment.26.Second.Violin.Voice.XIII }
 
     \context Voice = "Second_Violin_Voice_XIV"
-    \z_Second_Violin_Voice_XIV
+    { \segment.26.Second.Violin.Voice.XIV }
 
 >>
 
 
-z_Second_Violin_Voice_XV_a = {
+segment.26.Second.Violin.Voice.XV.1 = {
 
     % [Second_Violin_Voice_XV measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
@@ -3776,9 +3776,9 @@ z_Second_Violin_Voice_XV_a = {
 }
 
 
-z_Second_Violin_Voice_XV = {
+segment.26.Second.Violin.Voice.XV = {
 
-    \z_Second_Violin_Voice_XV_a
+    { \segment.26.Second.Violin.Voice.XV.1 }
 
     <<
 
@@ -3810,7 +3810,7 @@ z_Second_Violin_Voice_XV = {
 }
 
 
-z_Second_Violin_Voice_XVI_a = {
+segment.26.Second.Violin.Voice.XVI.1 = {
 
     % [Second_Violin_Voice_XVI measure 152 / measure 1]
     \stopStaff
@@ -3833,9 +3833,9 @@ z_Second_Violin_Voice_XVI_a = {
 }
 
 
-z_Second_Violin_Voice_XVI = {
+segment.26.Second.Violin.Voice.XVI = {
 
-    \z_Second_Violin_Voice_XVI_a
+    { \segment.26.Second.Violin.Voice.XVI.1 }
 
     <<
 
@@ -3867,18 +3867,18 @@ z_Second_Violin_Voice_XVI = {
 }
 
 
-z_Second_Violin_Staff_VIII = <<
+segment.26.Second.Violin.Staff.VIII = <<
 
     \context Voice = "Second_Violin_Voice_XV"
-    \z_Second_Violin_Voice_XV
+    { \segment.26.Second.Violin.Voice.XV }
 
     \context Voice = "Second_Violin_Voice_XVI"
-    \z_Second_Violin_Voice_XVI
+    { \segment.26.Second.Violin.Voice.XVI }
 
 >>
 
 
-z_Second_Violin_Voice_XVII_a = {
+segment.26.Second.Violin.Voice.XVII.1 = {
 
     % [Second_Violin_Voice_XVII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
@@ -3929,9 +3929,9 @@ z_Second_Violin_Voice_XVII_a = {
 }
 
 
-z_Second_Violin_Voice_XVII = {
+segment.26.Second.Violin.Voice.XVII = {
 
-    \z_Second_Violin_Voice_XVII_a
+    { \segment.26.Second.Violin.Voice.XVII.1 }
 
     <<
 
@@ -3963,7 +3963,7 @@ z_Second_Violin_Voice_XVII = {
 }
 
 
-z_Second_Violin_Voice_XVIII_a = {
+segment.26.Second.Violin.Voice.XVIII.1 = {
 
     % [Second_Violin_Voice_XVIII measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -3989,9 +3989,9 @@ z_Second_Violin_Voice_XVIII_a = {
 }
 
 
-z_Second_Violin_Voice_XVIII = {
+segment.26.Second.Violin.Voice.XVIII = {
 
-    \z_Second_Violin_Voice_XVIII_a
+    { \segment.26.Second.Violin.Voice.XVIII.1 }
 
     <<
 
@@ -4023,18 +4023,18 @@ z_Second_Violin_Voice_XVIII = {
 }
 
 
-z_Second_Violin_Staff_IX = <<
+segment.26.Second.Violin.Staff.IX = <<
 
     \context Voice = "Second_Violin_Voice_XVII"
-    \z_Second_Violin_Voice_XVII
+    { \segment.26.Second.Violin.Voice.XVII }
 
     \context Voice = "Second_Violin_Voice_XVIII"
-    \z_Second_Violin_Voice_XVIII
+    { \segment.26.Second.Violin.Voice.XVIII }
 
 >>
 
 
-z_Viola_Voice_I_a = {
+segment.26.Viola.Voice.I.1 = {
 
     % [Viola_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
@@ -4072,9 +4072,9 @@ z_Viola_Voice_I_a = {
 }
 
 
-z_Viola_Voice_I = {
+segment.26.Viola.Voice.I = {
 
-    \z_Viola_Voice_I_a
+    { \segment.26.Viola.Voice.I.1 }
 
     <<
 
@@ -4106,7 +4106,7 @@ z_Viola_Voice_I = {
 }
 
 
-z_Viola_Voice_II_a = {
+segment.26.Viola.Voice.II.1 = {
 
     % [Viola_Voice_II measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -4136,9 +4136,9 @@ z_Viola_Voice_II_a = {
 }
 
 
-z_Viola_Voice_II = {
+segment.26.Viola.Voice.II = {
 
-    \z_Viola_Voice_II_a
+    { \segment.26.Viola.Voice.II.1 }
 
     <<
 
@@ -4170,18 +4170,18 @@ z_Viola_Voice_II = {
 }
 
 
-z_Viola_Staff_I = <<
+segment.26.Viola.Staff.I = <<
 
     \context Voice = "Viola_Voice_I"
-    \z_Viola_Voice_I
+    { \segment.26.Viola.Voice.I }
 
     \context Voice = "Viola_Voice_II"
-    \z_Viola_Voice_II
+    { \segment.26.Viola.Voice.II }
 
 >>
 
 
-z_Viola_Voice_III_a = {
+segment.26.Viola.Voice.III.1 = {
 
     % [Viola_Voice_III measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
@@ -4231,9 +4231,9 @@ z_Viola_Voice_III_a = {
 }
 
 
-z_Viola_Voice_III = {
+segment.26.Viola.Voice.III = {
 
-    \z_Viola_Voice_III_a
+    { \segment.26.Viola.Voice.III.1 }
 
     <<
 
@@ -4265,7 +4265,7 @@ z_Viola_Voice_III = {
 }
 
 
-z_Viola_Voice_IV_a = {
+segment.26.Viola.Voice.IV.1 = {
 
     % [Viola_Voice_IV measure 152 / measure 1]
     \stopStaff
@@ -4290,9 +4290,9 @@ z_Viola_Voice_IV_a = {
 }
 
 
-z_Viola_Voice_IV = {
+segment.26.Viola.Voice.IV = {
 
-    \z_Viola_Voice_IV_a
+    { \segment.26.Viola.Voice.IV.1 }
 
     <<
 
@@ -4324,18 +4324,18 @@ z_Viola_Voice_IV = {
 }
 
 
-z_Viola_Staff_II = <<
+segment.26.Viola.Staff.II = <<
 
     \context Voice = "Viola_Voice_III"
-    \z_Viola_Voice_III
+    { \segment.26.Viola.Voice.III }
 
     \context Voice = "Viola_Voice_IV"
-    \z_Viola_Voice_IV
+    { \segment.26.Viola.Voice.IV }
 
 >>
 
 
-z_Viola_Voice_V_a = {
+segment.26.Viola.Voice.V.1 = {
 
     % [Viola_Voice_V measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
@@ -4357,9 +4357,9 @@ z_Viola_Voice_V_a = {
 }
 
 
-z_Viola_Voice_V = {
+segment.26.Viola.Voice.V = {
 
-    \z_Viola_Voice_V_a
+    { \segment.26.Viola.Voice.V.1 }
 
     <<
 
@@ -4391,7 +4391,7 @@ z_Viola_Voice_V = {
 }
 
 
-z_Viola_Voice_VI_a = {
+segment.26.Viola.Voice.VI.1 = {
 
     % [Viola_Voice_VI measure 152 / measure 1]
     \stopStaff
@@ -4426,9 +4426,9 @@ z_Viola_Voice_VI_a = {
 }
 
 
-z_Viola_Voice_VI = {
+segment.26.Viola.Voice.VI = {
 
-    \z_Viola_Voice_VI_a
+    { \segment.26.Viola.Voice.VI.1 }
 
     <<
 
@@ -4460,18 +4460,18 @@ z_Viola_Voice_VI = {
 }
 
 
-z_Viola_Staff_III = <<
+segment.26.Viola.Staff.III = <<
 
     \context Voice = "Viola_Voice_V"
-    \z_Viola_Voice_V
+    { \segment.26.Viola.Voice.V }
 
     \context Voice = "Viola_Voice_VI"
-    \z_Viola_Voice_VI
+    { \segment.26.Viola.Voice.VI }
 
 >>
 
 
-z_Viola_Voice_VII_a = {
+segment.26.Viola.Voice.VII.1 = {
 
     % [Viola_Voice_VII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
@@ -4517,9 +4517,9 @@ z_Viola_Voice_VII_a = {
 }
 
 
-z_Viola_Voice_VII = {
+segment.26.Viola.Voice.VII = {
 
-    \z_Viola_Voice_VII_a
+    { \segment.26.Viola.Voice.VII.1 }
 
     <<
 
@@ -4551,7 +4551,7 @@ z_Viola_Voice_VII = {
 }
 
 
-z_Viola_Voice_VIII_a = {
+segment.26.Viola.Voice.VIII.1 = {
 
     % [Viola_Voice_VIII measure 152 / measure 1]
     \stopStaff
@@ -4574,9 +4574,9 @@ z_Viola_Voice_VIII_a = {
 }
 
 
-z_Viola_Voice_VIII = {
+segment.26.Viola.Voice.VIII = {
 
-    \z_Viola_Voice_VIII_a
+    { \segment.26.Viola.Voice.VIII.1 }
 
     <<
 
@@ -4608,18 +4608,18 @@ z_Viola_Voice_VIII = {
 }
 
 
-z_Viola_Staff_IV = <<
+segment.26.Viola.Staff.IV = <<
 
     \context Voice = "Viola_Voice_VII"
-    \z_Viola_Voice_VII
+    { \segment.26.Viola.Voice.VII }
 
     \context Voice = "Viola_Voice_VIII"
-    \z_Viola_Voice_VIII
+    { \segment.26.Viola.Voice.VIII }
 
 >>
 
 
-z_Viola_Voice_IX_a = {
+segment.26.Viola.Voice.IX.1 = {
 
     % [Viola_Voice_IX measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
@@ -4649,9 +4649,9 @@ z_Viola_Voice_IX_a = {
 }
 
 
-z_Viola_Voice_IX = {
+segment.26.Viola.Voice.IX = {
 
-    \z_Viola_Voice_IX_a
+    { \segment.26.Viola.Voice.IX.1 }
 
     <<
 
@@ -4683,7 +4683,7 @@ z_Viola_Voice_IX = {
 }
 
 
-z_Viola_Voice_X_a = {
+segment.26.Viola.Voice.X.1 = {
 
     % [Viola_Voice_X measure 152 / measure 1]
     \stopStaff
@@ -4714,9 +4714,9 @@ z_Viola_Voice_X_a = {
 }
 
 
-z_Viola_Voice_X = {
+segment.26.Viola.Voice.X = {
 
-    \z_Viola_Voice_X_a
+    { \segment.26.Viola.Voice.X.1 }
 
     <<
 
@@ -4748,18 +4748,18 @@ z_Viola_Voice_X = {
 }
 
 
-z_Viola_Staff_V = <<
+segment.26.Viola.Staff.V = <<
 
     \context Voice = "Viola_Voice_IX"
-    \z_Viola_Voice_IX
+    { \segment.26.Viola.Voice.IX }
 
     \context Voice = "Viola_Voice_X"
-    \z_Viola_Voice_X
+    { \segment.26.Viola.Voice.X }
 
 >>
 
 
-z_Viola_Voice_XI_a = {
+segment.26.Viola.Voice.XI.1 = {
 
     % [Viola_Voice_XI measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
@@ -4783,9 +4783,9 @@ z_Viola_Voice_XI_a = {
 }
 
 
-z_Viola_Voice_XI = {
+segment.26.Viola.Voice.XI = {
 
-    \z_Viola_Voice_XI_a
+    { \segment.26.Viola.Voice.XI.1 }
 
     <<
 
@@ -4817,7 +4817,7 @@ z_Viola_Voice_XI = {
 }
 
 
-z_Viola_Voice_XII_a = {
+segment.26.Viola.Voice.XII.1 = {
 
     % [Viola_Voice_XII measure 152 / measure 1]
     \stopStaff
@@ -4860,9 +4860,9 @@ z_Viola_Voice_XII_a = {
 }
 
 
-z_Viola_Voice_XII = {
+segment.26.Viola.Voice.XII = {
 
-    \z_Viola_Voice_XII_a
+    { \segment.26.Viola.Voice.XII.1 }
 
     <<
 
@@ -4894,18 +4894,18 @@ z_Viola_Voice_XII = {
 }
 
 
-z_Viola_Staff_VI = <<
+segment.26.Viola.Staff.VI = <<
 
     \context Voice = "Viola_Voice_XI"
-    \z_Viola_Voice_XI
+    { \segment.26.Viola.Voice.XI }
 
     \context Voice = "Viola_Voice_XII"
-    \z_Viola_Voice_XII
+    { \segment.26.Viola.Voice.XII }
 
 >>
 
 
-z_Viola_Voice_XIII_a = {
+segment.26.Viola.Voice.XIII.1 = {
 
     % [Viola_Voice_XIII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
@@ -4951,9 +4951,9 @@ z_Viola_Voice_XIII_a = {
 }
 
 
-z_Viola_Voice_XIII = {
+segment.26.Viola.Voice.XIII = {
 
-    \z_Viola_Voice_XIII_a
+    { \segment.26.Viola.Voice.XIII.1 }
 
     <<
 
@@ -4985,7 +4985,7 @@ z_Viola_Voice_XIII = {
 }
 
 
-z_Viola_Voice_XIV_a = {
+segment.26.Viola.Voice.XIV.1 = {
 
     % [Viola_Voice_XIV measure 152 / measure 1]
     \stopStaff
@@ -5014,9 +5014,9 @@ z_Viola_Voice_XIV_a = {
 }
 
 
-z_Viola_Voice_XIV = {
+segment.26.Viola.Voice.XIV = {
 
-    \z_Viola_Voice_XIV_a
+    { \segment.26.Viola.Voice.XIV.1 }
 
     <<
 
@@ -5048,18 +5048,18 @@ z_Viola_Voice_XIV = {
 }
 
 
-z_Viola_Staff_VII = <<
+segment.26.Viola.Staff.VII = <<
 
     \context Voice = "Viola_Voice_XIII"
-    \z_Viola_Voice_XIII
+    { \segment.26.Viola.Voice.XIII }
 
     \context Voice = "Viola_Voice_XIV"
-    \z_Viola_Voice_XIV
+    { \segment.26.Viola.Voice.XIV }
 
 >>
 
 
-z_Viola_Voice_XV_a = {
+segment.26.Viola.Voice.XV.1 = {
 
     % [Viola_Voice_XV measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
@@ -5089,9 +5089,9 @@ z_Viola_Voice_XV_a = {
 }
 
 
-z_Viola_Voice_XV = {
+segment.26.Viola.Voice.XV = {
 
-    \z_Viola_Voice_XV_a
+    { \segment.26.Viola.Voice.XV.1 }
 
     <<
 
@@ -5123,7 +5123,7 @@ z_Viola_Voice_XV = {
 }
 
 
-z_Viola_Voice_XVI_a = {
+segment.26.Viola.Voice.XVI.1 = {
 
     % [Viola_Voice_XVI measure 152 / measure 1]
     \stopStaff
@@ -5157,9 +5157,9 @@ z_Viola_Voice_XVI_a = {
 }
 
 
-z_Viola_Voice_XVI = {
+segment.26.Viola.Voice.XVI = {
 
-    \z_Viola_Voice_XVI_a
+    { \segment.26.Viola.Voice.XVI.1 }
 
     <<
 
@@ -5191,18 +5191,18 @@ z_Viola_Voice_XVI = {
 }
 
 
-z_Viola_Staff_VIII = <<
+segment.26.Viola.Staff.VIII = <<
 
     \context Voice = "Viola_Voice_XV"
-    \z_Viola_Voice_XV
+    { \segment.26.Viola.Voice.XV }
 
     \context Voice = "Viola_Voice_XVI"
-    \z_Viola_Voice_XVI
+    { \segment.26.Viola.Voice.XVI }
 
 >>
 
 
-z_Viola_Voice_XVII_a = {
+segment.26.Viola.Voice.XVII.1 = {
 
     % [Viola_Voice_XVII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
@@ -5224,9 +5224,9 @@ z_Viola_Voice_XVII_a = {
 }
 
 
-z_Viola_Voice_XVII = {
+segment.26.Viola.Voice.XVII = {
 
-    \z_Viola_Voice_XVII_a
+    { \segment.26.Viola.Voice.XVII.1 }
 
     <<
 
@@ -5258,7 +5258,7 @@ z_Viola_Voice_XVII = {
 }
 
 
-z_Viola_Voice_XVIII_a = {
+segment.26.Viola.Voice.XVIII.1 = {
 
     % [Viola_Voice_XVIII measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -5292,9 +5292,9 @@ z_Viola_Voice_XVIII_a = {
 }
 
 
-z_Viola_Voice_XVIII = {
+segment.26.Viola.Voice.XVIII = {
 
-    \z_Viola_Voice_XVIII_a
+    { \segment.26.Viola.Voice.XVIII.1 }
 
     <<
 
@@ -5326,18 +5326,18 @@ z_Viola_Voice_XVIII = {
 }
 
 
-z_Viola_Staff_IX = <<
+segment.26.Viola.Staff.IX = <<
 
     \context Voice = "Viola_Voice_XVII"
-    \z_Viola_Voice_XVII
+    { \segment.26.Viola.Voice.XVII }
 
     \context Voice = "Viola_Voice_XVIII"
-    \z_Viola_Voice_XVIII
+    { \segment.26.Viola.Voice.XVIII }
 
 >>
 
 
-z_Cello_Voice_I_a = {
+segment.26.Cello.Voice.I.1 = {
 
     % [Cello_Voice_I measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
@@ -5373,9 +5373,9 @@ z_Cello_Voice_I_a = {
 }
 
 
-z_Cello_Voice_I = {
+segment.26.Cello.Voice.I = {
 
-    \z_Cello_Voice_I_a
+    { \segment.26.Cello.Voice.I.1 }
 
     <<
 
@@ -5407,7 +5407,7 @@ z_Cello_Voice_I = {
 }
 
 
-z_Cello_Voice_II_a = {
+segment.26.Cello.Voice.II.1 = {
 
     % [Cello_Voice_II measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -5439,9 +5439,9 @@ z_Cello_Voice_II_a = {
 }
 
 
-z_Cello_Voice_II = {
+segment.26.Cello.Voice.II = {
 
-    \z_Cello_Voice_II_a
+    { \segment.26.Cello.Voice.II.1 }
 
     <<
 
@@ -5473,18 +5473,18 @@ z_Cello_Voice_II = {
 }
 
 
-z_Cello_Staff_I = <<
+segment.26.Cello.Staff.I = <<
 
     \context Voice = "Cello_Voice_I"
-    \z_Cello_Voice_I
+    { \segment.26.Cello.Voice.I }
 
     \context Voice = "Cello_Voice_II"
-    \z_Cello_Voice_II
+    { \segment.26.Cello.Voice.II }
 
 >>
 
 
-z_Cello_Voice_III_a = {
+segment.26.Cello.Voice.III.1 = {
 
     % [Cello_Voice_III measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
@@ -5506,9 +5506,9 @@ z_Cello_Voice_III_a = {
 }
 
 
-z_Cello_Voice_III = {
+segment.26.Cello.Voice.III = {
 
-    \z_Cello_Voice_III_a
+    { \segment.26.Cello.Voice.III.1 }
 
     <<
 
@@ -5540,7 +5540,7 @@ z_Cello_Voice_III = {
 }
 
 
-z_Cello_Voice_IV_a = {
+segment.26.Cello.Voice.IV.1 = {
 
     % [Cello_Voice_IV measure 152 / measure 1]
     \stopStaff
@@ -5592,9 +5592,9 @@ z_Cello_Voice_IV_a = {
 }
 
 
-z_Cello_Voice_IV = {
+segment.26.Cello.Voice.IV = {
 
-    \z_Cello_Voice_IV_a
+    { \segment.26.Cello.Voice.IV.1 }
 
     <<
 
@@ -5626,18 +5626,18 @@ z_Cello_Voice_IV = {
 }
 
 
-z_Cello_Staff_II = <<
+segment.26.Cello.Staff.II = <<
 
     \context Voice = "Cello_Voice_III"
-    \z_Cello_Voice_III
+    { \segment.26.Cello.Voice.III }
 
     \context Voice = "Cello_Voice_IV"
-    \z_Cello_Voice_IV
+    { \segment.26.Cello.Voice.IV }
 
 >>
 
 
-z_Cello_Voice_V_a = {
+segment.26.Cello.Voice.V.1 = {
 
     % [Cello_Voice_V measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
@@ -5661,9 +5661,9 @@ z_Cello_Voice_V_a = {
 }
 
 
-z_Cello_Voice_V = {
+segment.26.Cello.Voice.V = {
 
-    \z_Cello_Voice_V_a
+    { \segment.26.Cello.Voice.V.1 }
 
     <<
 
@@ -5695,7 +5695,7 @@ z_Cello_Voice_V = {
 }
 
 
-z_Cello_Voice_VI_a = {
+segment.26.Cello.Voice.VI.1 = {
 
     % [Cello_Voice_VI measure 152 / measure 1]
     \stopStaff
@@ -5732,9 +5732,9 @@ z_Cello_Voice_VI_a = {
 }
 
 
-z_Cello_Voice_VI = {
+segment.26.Cello.Voice.VI = {
 
-    \z_Cello_Voice_VI_a
+    { \segment.26.Cello.Voice.VI.1 }
 
     <<
 
@@ -5766,18 +5766,18 @@ z_Cello_Voice_VI = {
 }
 
 
-z_Cello_Staff_III = <<
+segment.26.Cello.Staff.III = <<
 
     \context Voice = "Cello_Voice_V"
-    \z_Cello_Voice_V
+    { \segment.26.Cello.Voice.V }
 
     \context Voice = "Cello_Voice_VI"
-    \z_Cello_Voice_VI
+    { \segment.26.Cello.Voice.VI }
 
 >>
 
 
-z_Cello_Voice_VII_a = {
+segment.26.Cello.Voice.VII.1 = {
 
     % [Cello_Voice_VII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
@@ -5812,9 +5812,9 @@ z_Cello_Voice_VII_a = {
 }
 
 
-z_Cello_Voice_VII = {
+segment.26.Cello.Voice.VII = {
 
-    \z_Cello_Voice_VII_a
+    { \segment.26.Cello.Voice.VII.1 }
 
     <<
 
@@ -5846,7 +5846,7 @@ z_Cello_Voice_VII = {
 }
 
 
-z_Cello_Voice_VIII_a = {
+segment.26.Cello.Voice.VIII.1 = {
 
     % [Cello_Voice_VIII measure 152 / measure 1]
     \stopStaff
@@ -5895,9 +5895,9 @@ z_Cello_Voice_VIII_a = {
 }
 
 
-z_Cello_Voice_VIII = {
+segment.26.Cello.Voice.VIII = {
 
-    \z_Cello_Voice_VIII_a
+    { \segment.26.Cello.Voice.VIII.1 }
 
     <<
 
@@ -5929,18 +5929,18 @@ z_Cello_Voice_VIII = {
 }
 
 
-z_Cello_Staff_IV = <<
+segment.26.Cello.Staff.IV = <<
 
     \context Voice = "Cello_Voice_VII"
-    \z_Cello_Voice_VII
+    { \segment.26.Cello.Voice.VII }
 
     \context Voice = "Cello_Voice_VIII"
-    \z_Cello_Voice_VIII
+    { \segment.26.Cello.Voice.VIII }
 
 >>
 
 
-z_Cello_Voice_IX_a = {
+segment.26.Cello.Voice.IX.1 = {
 
     % [Cello_Voice_IX measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
@@ -5970,9 +5970,9 @@ z_Cello_Voice_IX_a = {
 }
 
 
-z_Cello_Voice_IX = {
+segment.26.Cello.Voice.IX = {
 
-    \z_Cello_Voice_IX_a
+    { \segment.26.Cello.Voice.IX.1 }
 
     <<
 
@@ -6004,7 +6004,7 @@ z_Cello_Voice_IX = {
 }
 
 
-z_Cello_Voice_X_a = {
+segment.26.Cello.Voice.X.1 = {
 
     % [Cello_Voice_X measure 152 / measure 1]
     \stopStaff
@@ -6027,9 +6027,9 @@ z_Cello_Voice_X_a = {
 }
 
 
-z_Cello_Voice_X = {
+segment.26.Cello.Voice.X = {
 
-    \z_Cello_Voice_X_a
+    { \segment.26.Cello.Voice.X.1 }
 
     <<
 
@@ -6061,18 +6061,18 @@ z_Cello_Voice_X = {
 }
 
 
-z_Cello_Staff_V = <<
+segment.26.Cello.Staff.V = <<
 
     \context Voice = "Cello_Voice_IX"
-    \z_Cello_Voice_IX
+    { \segment.26.Cello.Voice.IX }
 
     \context Voice = "Cello_Voice_X"
-    \z_Cello_Voice_X
+    { \segment.26.Cello.Voice.X }
 
 >>
 
 
-z_Cello_Voice_XI_a = {
+segment.26.Cello.Voice.XI.1 = {
 
     % [Cello_Voice_XI measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
@@ -6106,9 +6106,9 @@ z_Cello_Voice_XI_a = {
 }
 
 
-z_Cello_Voice_XI = {
+segment.26.Cello.Voice.XI = {
 
-    \z_Cello_Voice_XI_a
+    { \segment.26.Cello.Voice.XI.1 }
 
     <<
 
@@ -6140,7 +6140,7 @@ z_Cello_Voice_XI = {
 }
 
 
-z_Cello_Voice_XII_a = {
+segment.26.Cello.Voice.XII.1 = {
 
     % [Cello_Voice_XII measure 152 / measure 1]
     \stopStaff
@@ -6187,9 +6187,9 @@ z_Cello_Voice_XII_a = {
 }
 
 
-z_Cello_Voice_XII = {
+segment.26.Cello.Voice.XII = {
 
-    \z_Cello_Voice_XII_a
+    { \segment.26.Cello.Voice.XII.1 }
 
     <<
 
@@ -6221,18 +6221,18 @@ z_Cello_Voice_XII = {
 }
 
 
-z_Cello_Staff_VI = <<
+segment.26.Cello.Staff.VI = <<
 
     \context Voice = "Cello_Voice_XI"
-    \z_Cello_Voice_XI
+    { \segment.26.Cello.Voice.XI }
 
     \context Voice = "Cello_Voice_XII"
-    \z_Cello_Voice_XII
+    { \segment.26.Cello.Voice.XII }
 
 >>
 
 
-z_Cello_Voice_XIII_a = {
+segment.26.Cello.Voice.XIII.1 = {
 
     % [Cello_Voice_XIII measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
@@ -6254,9 +6254,9 @@ z_Cello_Voice_XIII_a = {
 }
 
 
-z_Cello_Voice_XIII = {
+segment.26.Cello.Voice.XIII = {
 
-    \z_Cello_Voice_XIII_a
+    { \segment.26.Cello.Voice.XIII.1 }
 
     <<
 
@@ -6288,7 +6288,7 @@ z_Cello_Voice_XIII = {
 }
 
 
-z_Cello_Voice_XIV_a = {
+segment.26.Cello.Voice.XIV.1 = {
 
     % [Cello_Voice_XIV measure 152 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -6320,9 +6320,9 @@ z_Cello_Voice_XIV_a = {
 }
 
 
-z_Cello_Voice_XIV = {
+segment.26.Cello.Voice.XIV = {
 
-    \z_Cello_Voice_XIV_a
+    { \segment.26.Cello.Voice.XIV.1 }
 
     <<
 
@@ -6354,18 +6354,18 @@ z_Cello_Voice_XIV = {
 }
 
 
-z_Cello_Staff_VII = <<
+segment.26.Cello.Staff.VII = <<
 
     \context Voice = "Cello_Voice_XIII"
-    \z_Cello_Voice_XIII
+    { \segment.26.Cello.Voice.XIII }
 
     \context Voice = "Cello_Voice_XIV"
-    \z_Cello_Voice_XIV
+    { \segment.26.Cello.Voice.XIV }
 
 >>
 
 
-z_Contrabass_Voice_III_a = {
+segment.26.Contrabass.Voice.III.1 = {
 
     % [Contrabass_Voice_III measure 152 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
@@ -6416,9 +6416,9 @@ z_Contrabass_Voice_III_a = {
 }
 
 
-z_Contrabass_Voice_III = {
+segment.26.Contrabass.Voice.III = {
 
-    \z_Contrabass_Voice_III_a
+    { \segment.26.Contrabass.Voice.III.1 }
 
     <<
 
@@ -6450,9 +6450,9 @@ z_Contrabass_Voice_III = {
 }
 
 
-z_Contrabass_Staff_II = {
+segment.26.Contrabass.Staff.II = {
 
     \context Voice = "Contrabass_Voice_III"
-    \z_Contrabass_Voice_III
+    { \segment.26.Contrabass.Voice.III }
 
 }

@@ -24,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \g_Global_Rests
+                { \segment.07.Global.Rests }
 
                 \context GlobalSkips = "Global_Skips"
-                \g_Global_Skips
+                { \segment.07.Global.Skips }
 
             >>
 
@@ -38,7 +38,7 @@
                 <<
 
                     \context Staff = "Clarinet_Staff_I"
-                    \g_Clarinet_Staff_I
+                    { \segment.07.Clarinet.Staff.I }
 
                 >>
 
@@ -46,7 +46,7 @@
                 <<
 
                     \context Staff = "Piano_Staff_I"
-                    \g_Piano_Staff_I
+                    { \segment.07.Piano.Staff.I }
 
                 >>
 
@@ -54,7 +54,7 @@
                 <<
 
                     \context Staff = "Harp_Staff_I"
-                    \g_Harp_Staff_I
+                    { \segment.07.Harp.Staff.I }
 
                 >>
 
@@ -62,13 +62,13 @@
                 <<
 
                     \context Staff = "Percussion_Staff_I"
-                    \g_Percussion_Staff_I
+                    { \segment.07.Percussion.Staff.I }
 
                     \context Staff = "Percussion_Staff_II"
-                    \g_Percussion_Staff_II
+                    { \segment.07.Percussion.Staff.II }
 
                     \context Staff = "Percussion_Staff_III"
-                    \g_Percussion_Staff_III
+                    { \segment.07.Percussion.Staff.III }
 
                 >>
 
@@ -76,16 +76,16 @@
                 <<
 
                     \context Staff = "First_Violin_Staff_I"
-                    \g_First_Violin_Staff_I
+                    { \segment.07.First.Violin.Staff.I }
 
                     \context Staff = "Second_Violin_Staff_I"
-                    \g_Second_Violin_Staff_I
+                    { \segment.07.Second.Violin.Staff.I }
 
                     \context Staff = "Viola_Staff_I"
-                    \g_Viola_Staff_I
+                    { \segment.07.Viola.Staff.I }
 
                     \context Staff = "Cello_Staff_I"
-                    \g_Cello_Staff_I
+                    { \segment.07.Cello.Staff.I }
 
                     \context StaffGroup = "Contrabass_Square_Staff_Group"
                     \with
@@ -95,10 +95,10 @@
                     <<
 
                         \context Staff = "Contrabass_Staff_I"
-                        \g_Contrabass_Staff_I
+                        { \segment.07.Contrabass.Staff.I }
 
                         \context Staff = "Contrabass_Staff_II"
-                        \g_Contrabass_Staff_II
+                        { \segment.07.Contrabass.Staff.II }
 
                     >>
 

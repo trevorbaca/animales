@@ -24,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \o_Global_Rests
+                { \segment.15.Global.Rests }
 
                 \context GlobalSkips = "Global_Skips"
-                \o_Global_Skips
+                { \segment.15.Global.Skips }
 
             >>
 
@@ -45,15 +45,15 @@
                     <<
 
                         \context Staff = "Flute_Staff_I"
-                        \o_Flute_Staff_I
+                        { \segment.15.Flute.Staff.I }
 
                         \context Staff = "Flute_Staff_II"
-                        \o_Flute_Staff_II
+                        { \segment.15.Flute.Staff.II }
 
                     >>
 
                     \context Staff = "Bass_Clarinet_Staff_I"
-                    \o_Bass_Clarinet_Staff_I
+                    { \segment.15.Bass.Clarinet.Staff.I }
 
                 >>
 
@@ -61,7 +61,7 @@
                 <<
 
                     \context Staff = "Piano_Staff_I"
-                    \o_Piano_Staff_I
+                    { \segment.15.Piano.Staff.I }
 
                 >>
 
@@ -69,7 +69,7 @@
                 <<
 
                     \context Staff = "Harp_Staff_I"
-                    \o_Harp_Staff_I
+                    { \segment.15.Harp.Staff.I }
 
                 >>
 
@@ -77,13 +77,13 @@
                 <<
 
                     \context Staff = "Percussion_Staff_I"
-                    \o_Percussion_Staff_I
+                    { \segment.15.Percussion.Staff.I }
 
                     \context Staff = "Percussion_Staff_II"
-                    \o_Percussion_Staff_II
+                    { \segment.15.Percussion.Staff.II }
 
                     \context Staff = "Percussion_Staff_III"
-                    \o_Percussion_Staff_III
+                    { \segment.15.Percussion.Staff.III }
 
                 >>
 
@@ -91,16 +91,16 @@
                 <<
 
                     \context Staff = "First_Violin_Staff_I"
-                    \o_First_Violin_Staff_I
+                    { \segment.15.First.Violin.Staff.I }
 
                     \context Staff = "Second_Violin_Staff_I"
-                    \o_Second_Violin_Staff_I
+                    { \segment.15.Second.Violin.Staff.I }
 
                     \context Staff = "Viola_Staff_I"
-                    \o_Viola_Staff_I
+                    { \segment.15.Viola.Staff.I }
 
                     \context Staff = "Cello_Staff_I"
-                    \o_Cello_Staff_I
+                    { \segment.15.Cello.Staff.I }
 
                     \context StaffGroup = "Contrabass_Square_Staff_Group"
                     \with
@@ -110,10 +110,10 @@
                     <<
 
                         \context Staff = "Contrabass_Staff_I"
-                        \o_Contrabass_Staff_I
+                        { \segment.15.Contrabass.Staff.I }
 
                         \context Staff = "Contrabass_Staff_II"
-                        \o_Contrabass_Staff_II
+                        { \segment.15.Contrabass.Staff.II }
 
                     >>
 

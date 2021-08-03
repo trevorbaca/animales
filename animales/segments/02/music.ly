@@ -24,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \b_Global_Rests
+                { \segment.02.Global.Rests }
 
                 \context GlobalSkips = "Global_Skips"
-                \b_Global_Skips
+                { \segment.02.Global.Skips }
 
             >>
 
@@ -45,10 +45,10 @@
                     <<
 
                         \context Staff = "First_Violin_Staff_I"
-                        \b_First_Violin_Staff_I
+                        { \segment.02.First.Violin.Staff.I }
 
                         \context Staff = "First_Violin_Staff_II"
-                        \b_First_Violin_Staff_II
+                        { \segment.02.First.Violin.Staff.II }
 
                     >>
 
@@ -60,10 +60,10 @@
                     <<
 
                         \context Staff = "Second_Violin_Staff_I"
-                        \b_Second_Violin_Staff_I
+                        { \segment.02.Second.Violin.Staff.I }
 
                         \context Staff = "Second_Violin_Staff_II"
-                        \b_Second_Violin_Staff_II
+                        { \segment.02.Second.Violin.Staff.II }
 
                     >>
 
@@ -75,15 +75,15 @@
                     <<
 
                         \context Staff = "Viola_Staff_I"
-                        \b_Viola_Staff_I
+                        { \segment.02.Viola.Staff.I }
 
                         \context Staff = "Viola_Staff_II"
-                        \b_Viola_Staff_II
+                        { \segment.02.Viola.Staff.II }
 
                     >>
 
                     \context Staff = "Cello_Staff_I"
-                    \b_Cello_Staff_I
+                    { \segment.02.Cello.Staff.I }
 
                 >>
 

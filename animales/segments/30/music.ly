@@ -24,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \ad_Global_Rests
+                { \segment.30.Global.Rests }
 
                 \context GlobalSkips = "Global_Skips"
-                \ad_Global_Skips
+                { \segment.30.Global.Skips }
 
             >>
 
@@ -38,7 +38,7 @@
                 <<
 
                     \context Staff = "Piano_Staff_I"
-                    \ad_Piano_Staff_I
+                    { \segment.30.Piano.Staff.I }
 
                 >>
 
@@ -46,7 +46,7 @@
                 <<
 
                     \context Staff = "Percussion_Staff_IV"
-                    \ad_Percussion_Staff_IV
+                    { \segment.30.Percussion.Staff.IV }
 
                 >>
 

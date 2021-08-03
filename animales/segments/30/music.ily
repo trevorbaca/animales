@@ -1,4 +1,4 @@
-ad_Global_Rests = {
+segment.30.Global.Rests = {
 
     % [Global_Rests measure 165 / measure 1]
     R1 * 3/4
@@ -38,7 +38,7 @@ ad_Global_Rests = {
 }
 
 
-ad_Global_Skips = {
+segment.30.Global.Skips = {
 
     % [Global_Skips measure 165 / measure 1]
     \time 3/4
@@ -97,7 +97,7 @@ ad_Global_Skips = {
 }
 
 
-ad_Piano_Voice_I_a = {
+segment.30.Piano.Voice.I.1 = {
 
     % [Piano_Voice_I measure 165 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
@@ -189,9 +189,9 @@ ad_Piano_Voice_I_a = {
 }
 
 
-ad_Piano_Voice_I = {
+segment.30.Piano.Voice.I = {
 
-    \ad_Piano_Voice_I_a
+    { \segment.30.Piano.Voice.I.1 }
 
     <<
 
@@ -222,15 +222,15 @@ ad_Piano_Voice_I = {
 }
 
 
-ad_Piano_Staff_I = {
+segment.30.Piano.Staff.I = {
 
     \context Voice = "Piano_Voice_I"
-    \ad_Piano_Voice_I
+    { \segment.30.Piano.Voice.I }
 
 }
 
 
-ad_Percussion_Voice_IV_a = {
+segment.30.Percussion.Voice.IV.1 = {
 
     % [Percussion_Voice_IV measure 165 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 0)
@@ -437,9 +437,9 @@ ad_Percussion_Voice_IV_a = {
 }
 
 
-ad_Percussion_Voice_IV = {
+segment.30.Percussion.Voice.IV = {
 
-    \ad_Percussion_Voice_IV_a
+    { \segment.30.Percussion.Voice.IV.1 }
 
     <<
 
@@ -474,9 +474,9 @@ ad_Percussion_Voice_IV = {
 }
 
 
-ad_Percussion_Staff_IV = {
+segment.30.Percussion.Staff.IV = {
 
     \context Voice = "Percussion_Voice_IV"
-    \ad_Percussion_Voice_IV
+    { \segment.30.Percussion.Voice.IV }
 
 }

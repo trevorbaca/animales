@@ -1,4 +1,4 @@
-n_Global_Rests = {
+segment.14.Global.Rests = {
 
     % [Global_Rests measure 82 / measure 1]
     R1 * 3/4
@@ -24,7 +24,7 @@ n_Global_Rests = {
 }
 
 
-n_Global_Skips = {
+segment.14.Global.Skips = {
 
     % [Global_Skips measure 82 / measure 1]
 %%% \override TextSpanner.bound-details.left.padding = -2
@@ -71,7 +71,7 @@ n_Global_Skips = {
 }
 
 
-n_Flute_Voice_I_a = {
+segment.14.Flute.Voice.I.1 = {
 
     % [Flute_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
@@ -198,9 +198,9 @@ n_Flute_Voice_I_a = {
 }
 
 
-n_Flute_Voice_I = {
+segment.14.Flute.Voice.I = {
 
-    \n_Flute_Voice_I_a
+    { \segment.14.Flute.Voice.I.1 }
 
     <<
 
@@ -231,7 +231,7 @@ n_Flute_Voice_I = {
 }
 
 
-n_Flute_Voice_III_a = {
+segment.14.Flute.Voice.III.1 = {
 
     % [Flute_Voice_III measure 82 / measure 1]
     \voiceTwo
@@ -357,9 +357,9 @@ n_Flute_Voice_III_a = {
 }
 
 
-n_Flute_Voice_III = {
+segment.14.Flute.Voice.III = {
 
-    \n_Flute_Voice_III_a
+    { \segment.14.Flute.Voice.III.1 }
 
     <<
 
@@ -390,18 +390,18 @@ n_Flute_Voice_III = {
 }
 
 
-n_Flute_Staff_I = <<
+segment.14.Flute.Staff.I = <<
 
     \context Voice = "Flute_Voice_I"
-    \n_Flute_Voice_I
+    { \segment.14.Flute.Voice.I }
 
     \context Voice = "Flute_Voice_III"
-    \n_Flute_Voice_III
+    { \segment.14.Flute.Voice.III }
 
 >>
 
 
-n_Flute_Voice_II_a = {
+segment.14.Flute.Voice.II.1 = {
 
     % [Flute_Voice_II measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
@@ -551,9 +551,9 @@ n_Flute_Voice_II_a = {
 }
 
 
-n_Flute_Voice_II = {
+segment.14.Flute.Voice.II = {
 
-    \n_Flute_Voice_II_a
+    { \segment.14.Flute.Voice.II.1 }
 
     <<
 
@@ -584,7 +584,7 @@ n_Flute_Voice_II = {
 }
 
 
-n_Flute_Voice_IV_a = {
+segment.14.Flute.Voice.IV.1 = {
 
     % [Flute_Voice_IV measure 82 / measure 1]
     \voiceTwo
@@ -731,9 +731,9 @@ n_Flute_Voice_IV_a = {
 }
 
 
-n_Flute_Voice_IV = {
+segment.14.Flute.Voice.IV = {
 
-    \n_Flute_Voice_IV_a
+    { \segment.14.Flute.Voice.IV.1 }
 
     <<
 
@@ -764,18 +764,18 @@ n_Flute_Voice_IV = {
 }
 
 
-n_Flute_Staff_II = <<
+segment.14.Flute.Staff.II = <<
 
     \context Voice = "Flute_Voice_II"
-    \n_Flute_Voice_II
+    { \segment.14.Flute.Voice.II }
 
     \context Voice = "Flute_Voice_IV"
-    \n_Flute_Voice_IV
+    { \segment.14.Flute.Voice.IV }
 
 >>
 
 
-n_Clarinet_Voice_I_a = {
+segment.14.Clarinet.Voice.I.1 = {
 
     % [Clarinet_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
@@ -846,9 +846,9 @@ n_Clarinet_Voice_I_a = {
 }
 
 
-n_Clarinet_Voice_I = {
+segment.14.Clarinet.Voice.I = {
 
-    \n_Clarinet_Voice_I_a
+    { \segment.14.Clarinet.Voice.I.1 }
 
     <<
 
@@ -879,15 +879,15 @@ n_Clarinet_Voice_I = {
 }
 
 
-n_Clarinet_Staff_I = {
+segment.14.Clarinet.Staff.I = {
 
     \context Voice = "Clarinet_Voice_I"
-    \n_Clarinet_Voice_I
+    { \segment.14.Clarinet.Voice.I }
 
 }
 
 
-n_Bass_Clarinet_Voice_I_a = {
+segment.14.Bass.Clarinet.Voice.I.1 = {
 
     % [Bass_Clarinet_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
@@ -946,9 +946,9 @@ n_Bass_Clarinet_Voice_I_a = {
 }
 
 
-n_Bass_Clarinet_Voice_I = {
+segment.14.Bass.Clarinet.Voice.I = {
 
-    \n_Bass_Clarinet_Voice_I_a
+    { \segment.14.Bass.Clarinet.Voice.I.1 }
 
     <<
 
@@ -980,15 +980,15 @@ n_Bass_Clarinet_Voice_I = {
 }
 
 
-n_Bass_Clarinet_Staff_I = {
+segment.14.Bass.Clarinet.Staff.I = {
 
     \context Voice = "Bass_Clarinet_Voice_I"
-    \n_Bass_Clarinet_Voice_I
+    { \segment.14.Bass.Clarinet.Voice.I }
 
 }
 
 
-n_Piano_Voice_I_a = {
+segment.14.Piano.Voice.I.1 = {
 
     % [Piano_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
@@ -1050,9 +1050,9 @@ n_Piano_Voice_I_a = {
 }
 
 
-n_Piano_Voice_I = {
+segment.14.Piano.Voice.I = {
 
-    \n_Piano_Voice_I_a
+    { \segment.14.Piano.Voice.I.1 }
 
     <<
 
@@ -1084,15 +1084,15 @@ n_Piano_Voice_I = {
 }
 
 
-n_Piano_Staff_I = {
+segment.14.Piano.Staff.I = {
 
     \context Voice = "Piano_Voice_I"
-    \n_Piano_Voice_I
+    { \segment.14.Piano.Voice.I }
 
 }
 
 
-n_Harp_Voice_I_a = {
+segment.14.Harp.Voice.I.1 = {
 
     \times 2/3
     {
@@ -1163,9 +1163,9 @@ n_Harp_Voice_I_a = {
 }
 
 
-n_Harp_Voice_I = {
+segment.14.Harp.Voice.I = {
 
-    \n_Harp_Voice_I_a
+    { \segment.14.Harp.Voice.I.1 }
 
     <<
 
@@ -1197,15 +1197,15 @@ n_Harp_Voice_I = {
 }
 
 
-n_Harp_Staff_I = {
+segment.14.Harp.Staff.I = {
 
     \context Voice = "Harp_Voice_I"
-    \n_Harp_Voice_I
+    { \segment.14.Harp.Voice.I }
 
 }
 
 
-n_Percussion_Voice_I_a = {
+segment.14.Percussion.Voice.I.1 = {
 
     % [Percussion_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
@@ -1283,9 +1283,9 @@ n_Percussion_Voice_I_a = {
 }
 
 
-n_Percussion_Voice_I = {
+segment.14.Percussion.Voice.I = {
 
-    \n_Percussion_Voice_I_a
+    { \segment.14.Percussion.Voice.I.1 }
 
     <<
 
@@ -1316,15 +1316,15 @@ n_Percussion_Voice_I = {
 }
 
 
-n_Percussion_Staff_I = {
+segment.14.Percussion.Staff.I = {
 
     \context Voice = "Percussion_Voice_I"
-    \n_Percussion_Voice_I
+    { \segment.14.Percussion.Voice.I }
 
 }
 
 
-n_Percussion_Voice_II_a = {
+segment.14.Percussion.Voice.II.1 = {
 
     % [Percussion_Voice_II measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
@@ -1401,9 +1401,9 @@ n_Percussion_Voice_II_a = {
 }
 
 
-n_Percussion_Voice_II = {
+segment.14.Percussion.Voice.II = {
 
-    \n_Percussion_Voice_II_a
+    { \segment.14.Percussion.Voice.II.1 }
 
     <<
 
@@ -1434,15 +1434,15 @@ n_Percussion_Voice_II = {
 }
 
 
-n_Percussion_Staff_II = {
+segment.14.Percussion.Staff.II = {
 
     \context Voice = "Percussion_Voice_II"
-    \n_Percussion_Voice_II
+    { \segment.14.Percussion.Voice.II }
 
 }
 
 
-n_Percussion_Voice_III_a = {
+segment.14.Percussion.Voice.III.1 = {
 
     \times 2/3
     {
@@ -1508,9 +1508,9 @@ n_Percussion_Voice_III_a = {
 }
 
 
-n_Percussion_Voice_III = {
+segment.14.Percussion.Voice.III = {
 
-    \n_Percussion_Voice_III_a
+    { \segment.14.Percussion.Voice.III.1 }
 
     <<
 
@@ -1542,15 +1542,15 @@ n_Percussion_Voice_III = {
 }
 
 
-n_Percussion_Staff_III = {
+segment.14.Percussion.Staff.III = {
 
     \context Voice = "Percussion_Voice_III"
-    \n_Percussion_Voice_III
+    { \segment.14.Percussion.Voice.III }
 
 }
 
 
-n_First_Violin_Voice_III_a = {
+segment.14.First.Violin.Voice.III.1 = {
 
     % [First_Violin_Voice_III measure 82 / measure 1]
     \override DynamicLineSpanner.direction = #up
@@ -1640,9 +1640,9 @@ n_First_Violin_Voice_III_a = {
 }
 
 
-n_First_Violin_Voice_III = {
+segment.14.First.Violin.Voice.III = {
 
-    \n_First_Violin_Voice_III_a
+    { \segment.14.First.Violin.Voice.III.1 }
 
     <<
 
@@ -1673,7 +1673,7 @@ n_First_Violin_Voice_III = {
 }
 
 
-n_First_Violin_Voice_I_a = {
+segment.14.First.Violin.Voice.I.1 = {
 
     % [First_Violin_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
@@ -1748,9 +1748,9 @@ n_First_Violin_Voice_I_a = {
 }
 
 
-n_First_Violin_Voice_I = {
+segment.14.First.Violin.Voice.I = {
 
-    \n_First_Violin_Voice_I_a
+    { \segment.14.First.Violin.Voice.I.1 }
 
     <<
 
@@ -1781,18 +1781,18 @@ n_First_Violin_Voice_I = {
 }
 
 
-n_First_Violin_Staff_I = <<
+segment.14.First.Violin.Staff.I = <<
 
     \context Voice = "First_Violin_Voice_III"
-    \n_First_Violin_Voice_III
+    { \segment.14.First.Violin.Voice.III }
 
     \context Voice = "First_Violin_Voice_I"
-    \n_First_Violin_Voice_I
+    { \segment.14.First.Violin.Voice.I }
 
 >>
 
 
-n_Second_Violin_Voice_I_a = {
+segment.14.Second.Violin.Voice.I.1 = {
 
     % [Second_Violin_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
@@ -1866,9 +1866,9 @@ n_Second_Violin_Voice_I_a = {
 }
 
 
-n_Second_Violin_Voice_I = {
+segment.14.Second.Violin.Voice.I = {
 
-    \n_Second_Violin_Voice_I_a
+    { \segment.14.Second.Violin.Voice.I.1 }
 
     <<
 
@@ -1899,15 +1899,15 @@ n_Second_Violin_Voice_I = {
 }
 
 
-n_Second_Violin_Staff_I = {
+segment.14.Second.Violin.Staff.I = {
 
     \context Voice = "Second_Violin_Voice_I"
-    \n_Second_Violin_Voice_I
+    { \segment.14.Second.Violin.Voice.I }
 
 }
 
 
-n_Viola_Voice_I_a = {
+segment.14.Viola.Voice.I.1 = {
 
     % [Viola_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
@@ -1981,9 +1981,9 @@ n_Viola_Voice_I_a = {
 }
 
 
-n_Viola_Voice_I = {
+segment.14.Viola.Voice.I = {
 
-    \n_Viola_Voice_I_a
+    { \segment.14.Viola.Voice.I.1 }
 
     <<
 
@@ -2014,15 +2014,15 @@ n_Viola_Voice_I = {
 }
 
 
-n_Viola_Staff_I = {
+segment.14.Viola.Staff.I = {
 
     \context Voice = "Viola_Voice_I"
-    \n_Viola_Voice_I
+    { \segment.14.Viola.Voice.I }
 
 }
 
 
-n_Cello_Voice_I_a = {
+segment.14.Cello.Voice.I.1 = {
 
     % [Cello_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
@@ -2096,9 +2096,9 @@ n_Cello_Voice_I_a = {
 }
 
 
-n_Cello_Voice_I = {
+segment.14.Cello.Voice.I = {
 
-    \n_Cello_Voice_I_a
+    { \segment.14.Cello.Voice.I.1 }
 
     <<
 
@@ -2129,15 +2129,15 @@ n_Cello_Voice_I = {
 }
 
 
-n_Cello_Staff_I = {
+segment.14.Cello.Staff.I = {
 
     \context Voice = "Cello_Voice_I"
-    \n_Cello_Voice_I
+    { \segment.14.Cello.Voice.I }
 
 }
 
 
-n_Contrabass_Voice_I_a = {
+segment.14.Contrabass.Voice.I.1 = {
 
     % [Contrabass_Voice_I measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
@@ -2206,9 +2206,9 @@ n_Contrabass_Voice_I_a = {
 }
 
 
-n_Contrabass_Voice_I = {
+segment.14.Contrabass.Voice.I = {
 
-    \n_Contrabass_Voice_I_a
+    { \segment.14.Contrabass.Voice.I.1 }
 
     <<
 
@@ -2240,15 +2240,15 @@ n_Contrabass_Voice_I = {
 }
 
 
-n_Contrabass_Staff_I = {
+segment.14.Contrabass.Staff.I = {
 
     \context Voice = "Contrabass_Voice_I"
-    \n_Contrabass_Voice_I
+    { \segment.14.Contrabass.Voice.I }
 
 }
 
 
-n_Contrabass_Voice_III_a = {
+segment.14.Contrabass.Voice.III.1 = {
 
     % [Contrabass_Voice_III measure 82 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
@@ -2319,9 +2319,9 @@ n_Contrabass_Voice_III_a = {
 }
 
 
-n_Contrabass_Voice_III = {
+segment.14.Contrabass.Voice.III = {
 
-    \n_Contrabass_Voice_III_a
+    { \segment.14.Contrabass.Voice.III.1 }
 
     <<
 
@@ -2352,9 +2352,9 @@ n_Contrabass_Voice_III = {
 }
 
 
-n_Contrabass_Staff_II = {
+segment.14.Contrabass.Staff.II = {
 
     \context Voice = "Contrabass_Voice_III"
-    \n_Contrabass_Voice_III
+    { \segment.14.Contrabass.Voice.III }
 
 }

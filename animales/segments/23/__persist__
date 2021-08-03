@@ -247,47 +247,7 @@ abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        "w_Cello_Voice_III_a",
-                        (
-                            baca.PartAssignment("Cello", 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Cello_Voice_II_a",
-                        (
-                            baca.PartAssignment("Cello", 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Cello_Voice_IV_a",
-                        (
-                            baca.PartAssignment("Cello", 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Cello_Voice_IX_a",
-                        (
-                            baca.PartAssignment("Cello", 9),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Cello_Voice_I_a",
+                        "segment.23.Cello.Voice.I.1",
                         (
                             baca.PartAssignment("Cello", 1),
                             abjad.Timespan(
@@ -297,9 +257,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_VIII_a",
+                        "segment.23.Cello.Voice.II.1",
                         (
-                            baca.PartAssignment("Cello", 8),
+                            baca.PartAssignment("Cello", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -307,9 +267,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_VII_a",
+                        "segment.23.Cello.Voice.III.1",
                         (
-                            baca.PartAssignment("Cello", 7),
+                            baca.PartAssignment("Cello", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -317,9 +277,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_VI_a",
+                        "segment.23.Cello.Voice.IV.1",
                         (
-                            baca.PartAssignment("Cello", 6),
+                            baca.PartAssignment("Cello", 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -327,7 +287,17 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_V_a",
+                        "segment.23.Cello.Voice.IX.1",
+                        (
+                            baca.PartAssignment("Cello", 9),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Cello.Voice.V.1",
                         (
                             baca.PartAssignment("Cello", 5),
                             abjad.Timespan(
@@ -337,9 +307,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_XIII_a",
+                        "segment.23.Cello.Voice.VI.1",
                         (
-                            baca.PartAssignment("Cello", 13),
+                            baca.PartAssignment("Cello", 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -347,9 +317,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_XII_a",
+                        "segment.23.Cello.Voice.VII.1",
                         (
-                            baca.PartAssignment("Cello", 12),
+                            baca.PartAssignment("Cello", 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -357,9 +327,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_XIV_a",
+                        "segment.23.Cello.Voice.VIII.1",
                         (
-                            baca.PartAssignment("Cello", 14),
+                            baca.PartAssignment("Cello", 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -367,17 +337,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Cello_Voice_XI_a",
-                        (
-                            baca.PartAssignment("Cello", 11),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Cello_Voice_X_a",
+                        "segment.23.Cello.Voice.X.1",
                         (
                             baca.PartAssignment("Cello", 10),
                             abjad.Timespan(
@@ -387,9 +347,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Contrabass_Voice_III_a",
+                        "segment.23.Cello.Voice.XI.1",
                         (
-                            baca.PartAssignment("Contrabass", 3),
+                            baca.PartAssignment("Cello", 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -397,9 +357,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Contrabass_Voice_II_a",
+                        "segment.23.Cello.Voice.XII.1",
                         (
-                            baca.PartAssignment("Contrabass", 2),
+                            baca.PartAssignment("Cello", 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -407,9 +367,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Contrabass_Voice_IV_a",
+                        "segment.23.Cello.Voice.XIII.1",
                         (
-                            baca.PartAssignment("Contrabass", 4),
+                            baca.PartAssignment("Cello", 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -417,7 +377,17 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Contrabass_Voice_I_a",
+                        "segment.23.Cello.Voice.XIV.1",
+                        (
+                            baca.PartAssignment("Cello", 14),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Contrabass.Voice.I.1",
                         (
                             baca.PartAssignment("Contrabass", 1),
                             abjad.Timespan(
@@ -427,9 +397,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Contrabass_Voice_VI_a",
+                        "segment.23.Contrabass.Voice.II.1",
                         (
-                            baca.PartAssignment("Contrabass", 6),
+                            baca.PartAssignment("Contrabass", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -437,7 +407,27 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Contrabass_Voice_V_a",
+                        "segment.23.Contrabass.Voice.III.1",
+                        (
+                            baca.PartAssignment("Contrabass", 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Contrabass.Voice.IV.1",
+                        (
+                            baca.PartAssignment("Contrabass", 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Contrabass.Voice.V.1",
                         (
                             baca.PartAssignment("Contrabass", 5),
                             abjad.Timespan(
@@ -447,9 +437,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_III_a",
+                        "segment.23.Contrabass.Voice.VI.1",
                         (
-                            baca.PartAssignment("First_Violin", 3),
+                            baca.PartAssignment("Contrabass", 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -457,37 +447,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_II_a",
-                        (
-                            baca.PartAssignment("First_Violin", 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_IV_a",
-                        (
-                            baca.PartAssignment("First_Violin", 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_IX_a",
-                        (
-                            baca.PartAssignment("First_Violin", 9),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_I_a",
+                        "segment.23.First.Violin.Voice.I.1",
                         (
                             baca.PartAssignment("First_Violin", 1),
                             abjad.Timespan(
@@ -497,9 +457,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_VIII_a",
+                        "segment.23.First.Violin.Voice.II.1",
                         (
-                            baca.PartAssignment("First_Violin", 8),
+                            baca.PartAssignment("First_Violin", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -507,9 +467,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_VII_a",
+                        "segment.23.First.Violin.Voice.III.1",
                         (
-                            baca.PartAssignment("First_Violin", 7),
+                            baca.PartAssignment("First_Violin", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -517,9 +477,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_VI_a",
+                        "segment.23.First.Violin.Voice.IV.1",
                         (
-                            baca.PartAssignment("First_Violin", 6),
+                            baca.PartAssignment("First_Violin", 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -527,7 +487,17 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_V_a",
+                        "segment.23.First.Violin.Voice.IX.1",
+                        (
+                            baca.PartAssignment("First_Violin", 9),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.First.Violin.Voice.V.1",
                         (
                             baca.PartAssignment("First_Violin", 5),
                             abjad.Timespan(
@@ -537,9 +507,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_XIII_a",
+                        "segment.23.First.Violin.Voice.VI.1",
                         (
-                            baca.PartAssignment("First_Violin", 13),
+                            baca.PartAssignment("First_Violin", 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -547,9 +517,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_XII_a",
+                        "segment.23.First.Violin.Voice.VII.1",
                         (
-                            baca.PartAssignment("First_Violin", 12),
+                            baca.PartAssignment("First_Violin", 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -557,9 +527,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_XIV_a",
+                        "segment.23.First.Violin.Voice.VIII.1",
                         (
-                            baca.PartAssignment("First_Violin", 14),
+                            baca.PartAssignment("First_Violin", 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -567,57 +537,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_First_Violin_Voice_XI_a",
-                        (
-                            baca.PartAssignment("First_Violin", 11),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_XVIII_a",
-                        (
-                            baca.PartAssignment("First_Violin", 18),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_XVII_a",
-                        (
-                            baca.PartAssignment("First_Violin", 17),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_XVI_a",
-                        (
-                            baca.PartAssignment("First_Violin", 16),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_XV_a",
-                        (
-                            baca.PartAssignment("First_Violin", 15),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_First_Violin_Voice_X_a",
+                        "segment.23.First.Violin.Voice.X.1",
                         (
                             baca.PartAssignment("First_Violin", 10),
                             abjad.Timespan(
@@ -627,9 +547,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Horn_Voice_III_a",
+                        "segment.23.First.Violin.Voice.XI.1",
                         (
-                            baca.PartAssignment("Horn", 3),
+                            baca.PartAssignment("First_Violin", 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -637,9 +557,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Horn_Voice_II_a",
+                        "segment.23.First.Violin.Voice.XII.1",
                         (
-                            baca.PartAssignment("Horn", 2),
+                            baca.PartAssignment("First_Violin", 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -647,9 +567,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Horn_Voice_IV_a",
+                        "segment.23.First.Violin.Voice.XIII.1",
                         (
-                            baca.PartAssignment("Horn", 4),
+                            baca.PartAssignment("First_Violin", 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -657,7 +577,57 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Horn_Voice_I_a",
+                        "segment.23.First.Violin.Voice.XIV.1",
+                        (
+                            baca.PartAssignment("First_Violin", 14),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.First.Violin.Voice.XV.1",
+                        (
+                            baca.PartAssignment("First_Violin", 15),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.First.Violin.Voice.XVI.1",
+                        (
+                            baca.PartAssignment("First_Violin", 16),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.First.Violin.Voice.XVII.1",
+                        (
+                            baca.PartAssignment("First_Violin", 17),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.First.Violin.Voice.XVIII.1",
+                        (
+                            baca.PartAssignment("First_Violin", 18),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Horn.Voice.I.1",
                         (
                             baca.PartAssignment("Horn", 1),
                             abjad.Timespan(
@@ -667,7 +637,37 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Percussion_Voice_II_a",
+                        "segment.23.Horn.Voice.II.1",
+                        (
+                            baca.PartAssignment("Horn", 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Horn.Voice.III.1",
+                        (
+                            baca.PartAssignment("Horn", 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Horn.Voice.IV.1",
+                        (
+                            baca.PartAssignment("Horn", 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Percussion.Voice.II.1",
                         (
                             baca.PartAssignment("Percussion", 2),
                             abjad.Timespan(
@@ -677,47 +677,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_III_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_II_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_IV_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_IX_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 9),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_I_a",
+                        "segment.23.Second.Violin.Voice.I.1",
                         (
                             baca.PartAssignment("Second_Violin", 1),
                             abjad.Timespan(
@@ -727,9 +687,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_VIII_a",
+                        "segment.23.Second.Violin.Voice.II.1",
                         (
-                            baca.PartAssignment("Second_Violin", 8),
+                            baca.PartAssignment("Second_Violin", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -737,9 +697,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_VII_a",
+                        "segment.23.Second.Violin.Voice.III.1",
                         (
-                            baca.PartAssignment("Second_Violin", 7),
+                            baca.PartAssignment("Second_Violin", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -747,9 +707,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_VI_a",
+                        "segment.23.Second.Violin.Voice.IV.1",
                         (
-                            baca.PartAssignment("Second_Violin", 6),
+                            baca.PartAssignment("Second_Violin", 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -757,7 +717,17 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_V_a",
+                        "segment.23.Second.Violin.Voice.IX.1",
+                        (
+                            baca.PartAssignment("Second_Violin", 9),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Second.Violin.Voice.V.1",
                         (
                             baca.PartAssignment("Second_Violin", 5),
                             abjad.Timespan(
@@ -767,9 +737,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_XIII_a",
+                        "segment.23.Second.Violin.Voice.VI.1",
                         (
-                            baca.PartAssignment("Second_Violin", 13),
+                            baca.PartAssignment("Second_Violin", 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -777,9 +747,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_XII_a",
+                        "segment.23.Second.Violin.Voice.VII.1",
                         (
-                            baca.PartAssignment("Second_Violin", 12),
+                            baca.PartAssignment("Second_Violin", 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -787,9 +757,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_XIV_a",
+                        "segment.23.Second.Violin.Voice.VIII.1",
                         (
-                            baca.PartAssignment("Second_Violin", 14),
+                            baca.PartAssignment("Second_Violin", 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -797,57 +767,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Second_Violin_Voice_XI_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 11),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_XVIII_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 18),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_XVII_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 17),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_XVI_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 16),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_XV_a",
-                        (
-                            baca.PartAssignment("Second_Violin", 15),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Second_Violin_Voice_X_a",
+                        "segment.23.Second.Violin.Voice.X.1",
                         (
                             baca.PartAssignment("Second_Violin", 10),
                             abjad.Timespan(
@@ -857,9 +777,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trombone_Voice_III_a",
+                        "segment.23.Second.Violin.Voice.XI.1",
                         (
-                            baca.PartAssignment("Trombone", 3),
+                            baca.PartAssignment("Second_Violin", 11),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -867,9 +787,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trombone_Voice_II_a",
+                        "segment.23.Second.Violin.Voice.XII.1",
                         (
-                            baca.PartAssignment("Trombone", 2),
+                            baca.PartAssignment("Second_Violin", 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -877,9 +797,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trombone_Voice_IV_a",
+                        "segment.23.Second.Violin.Voice.XIII.1",
                         (
-                            baca.PartAssignment("Trombone", 4),
+                            baca.PartAssignment("Second_Violin", 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -887,7 +807,57 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trombone_Voice_I_a",
+                        "segment.23.Second.Violin.Voice.XIV.1",
+                        (
+                            baca.PartAssignment("Second_Violin", 14),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Second.Violin.Voice.XV.1",
+                        (
+                            baca.PartAssignment("Second_Violin", 15),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Second.Violin.Voice.XVI.1",
+                        (
+                            baca.PartAssignment("Second_Violin", 16),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Second.Violin.Voice.XVII.1",
+                        (
+                            baca.PartAssignment("Second_Violin", 17),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Second.Violin.Voice.XVIII.1",
+                        (
+                            baca.PartAssignment("Second_Violin", 18),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Trombone.Voice.I.1",
                         (
                             baca.PartAssignment("Trombone", 1),
                             abjad.Timespan(
@@ -897,9 +867,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trumpet_Voice_III_a",
+                        "segment.23.Trombone.Voice.II.1",
                         (
-                            baca.PartAssignment("Trumpet", 3),
+                            baca.PartAssignment("Trombone", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -907,9 +877,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trumpet_Voice_II_a",
+                        "segment.23.Trombone.Voice.III.1",
                         (
-                            baca.PartAssignment("Trumpet", 2),
+                            baca.PartAssignment("Trombone", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -917,9 +887,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trumpet_Voice_IV_a",
+                        "segment.23.Trombone.Voice.IV.1",
                         (
-                            baca.PartAssignment("Trumpet", 4),
+                            baca.PartAssignment("Trombone", 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -927,7 +897,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Trumpet_Voice_I_a",
+                        "segment.23.Trumpet.Voice.I.1",
                         (
                             baca.PartAssignment("Trumpet", 1),
                             abjad.Timespan(
@@ -937,7 +907,37 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Tuba_Voice_I_a",
+                        "segment.23.Trumpet.Voice.II.1",
+                        (
+                            baca.PartAssignment("Trumpet", 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Trumpet.Voice.III.1",
+                        (
+                            baca.PartAssignment("Trumpet", 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Trumpet.Voice.IV.1",
+                        (
+                            baca.PartAssignment("Trumpet", 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Tuba.Voice.I.1",
                         (
                             baca.PartAssignment("Tuba"),
                             abjad.Timespan(
@@ -947,47 +947,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_III_a",
-                        (
-                            baca.PartAssignment("Viola", 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Viola_Voice_II_a",
-                        (
-                            baca.PartAssignment("Viola", 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Viola_Voice_IV_a",
-                        (
-                            baca.PartAssignment("Viola", 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Viola_Voice_IX_a",
-                        (
-                            baca.PartAssignment("Viola", 9),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((5, 2)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "w_Viola_Voice_I_a",
+                        "segment.23.Viola.Voice.I.1",
                         (
                             baca.PartAssignment("Viola", 1),
                             abjad.Timespan(
@@ -997,9 +957,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_VIII_a",
+                        "segment.23.Viola.Voice.II.1",
                         (
-                            baca.PartAssignment("Viola", 8),
+                            baca.PartAssignment("Viola", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1007,9 +967,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_VII_a",
+                        "segment.23.Viola.Voice.III.1",
                         (
-                            baca.PartAssignment("Viola", 7),
+                            baca.PartAssignment("Viola", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1017,9 +977,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_VI_a",
+                        "segment.23.Viola.Voice.IV.1",
                         (
-                            baca.PartAssignment("Viola", 6),
+                            baca.PartAssignment("Viola", 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1027,7 +987,17 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_V_a",
+                        "segment.23.Viola.Voice.IX.1",
+                        (
+                            baca.PartAssignment("Viola", 9),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Viola.Voice.V.1",
                         (
                             baca.PartAssignment("Viola", 5),
                             abjad.Timespan(
@@ -1037,9 +1007,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XIII_a",
+                        "segment.23.Viola.Voice.VI.1",
                         (
-                            baca.PartAssignment("Viola", 13),
+                            baca.PartAssignment("Viola", 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1047,9 +1017,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XII_a",
+                        "segment.23.Viola.Voice.VII.1",
                         (
-                            baca.PartAssignment("Viola", 12),
+                            baca.PartAssignment("Viola", 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1057,9 +1027,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XIV_a",
+                        "segment.23.Viola.Voice.VIII.1",
                         (
-                            baca.PartAssignment("Viola", 14),
+                            baca.PartAssignment("Viola", 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1067,7 +1037,17 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XI_a",
+                        "segment.23.Viola.Voice.X.1",
+                        (
+                            baca.PartAssignment("Viola", 10),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Viola.Voice.XI.1",
                         (
                             baca.PartAssignment("Viola", 11),
                             abjad.Timespan(
@@ -1077,9 +1057,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XVIII_a",
+                        "segment.23.Viola.Voice.XII.1",
                         (
-                            baca.PartAssignment("Viola", 18),
+                            baca.PartAssignment("Viola", 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1087,9 +1067,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XVII_a",
+                        "segment.23.Viola.Voice.XIII.1",
                         (
-                            baca.PartAssignment("Viola", 17),
+                            baca.PartAssignment("Viola", 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1097,9 +1077,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XVI_a",
+                        "segment.23.Viola.Voice.XIV.1",
                         (
-                            baca.PartAssignment("Viola", 16),
+                            baca.PartAssignment("Viola", 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
@@ -1107,7 +1087,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_XV_a",
+                        "segment.23.Viola.Voice.XV.1",
                         (
                             baca.PartAssignment("Viola", 15),
                             abjad.Timespan(
@@ -1117,9 +1097,29 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "w_Viola_Voice_X_a",
+                        "segment.23.Viola.Voice.XVI.1",
                         (
-                            baca.PartAssignment("Viola", 10),
+                            baca.PartAssignment("Viola", 16),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Viola.Voice.XVII.1",
+                        (
+                            baca.PartAssignment("Viola", 17),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((5, 2)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.23.Viola.Voice.XVIII.1",
+                        (
+                            baca.PartAssignment("Viola", 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((5, 2)),
