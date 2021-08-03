@@ -171,7 +171,7 @@ maker(
 maker(
     ("1vn2", (3, 6)),
     animales.glissando_rhythm(),
-    animales.parts("First_Violin", 1),
+    animales.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
         selector=animales.leaves_in_measure(1, rleak=True),
@@ -263,13 +263,13 @@ maker(
 
 maker(
     ("1vn1", (1, 2)),
-    animales.parts("First_Violin", (1, 10)),
+    animales.parts("First.Violin", (1, 10)),
     baca.not_parts(baca.voice_two()),
 )
 
 maker(
     ("1vn1", (3, 6)),
-    animales.parts("First_Violin", (2, 10)),
+    animales.parts("First.Violin", (2, 10)),
     baca.not_parts(
         baca.markup(
             r"\animales-all-other-strings-still-markup",
@@ -282,17 +282,17 @@ maker(
 
 maker(
     "1vn3",
-    animales.parts("First_Violin", (11, 18)),
+    animales.parts("First.Violin", (11, 18)),
 )
 
 maker(
     "2vn1",
-    animales.parts("Second_Violin", (1, 10)),
+    animales.parts("Second.Violin", (1, 10)),
 )
 
 maker(
     "2vn3",
-    animales.parts("Second_Violin", (11, 18)),
+    animales.parts("Second.Violin", (11, 18)),
 )
 
 maker(

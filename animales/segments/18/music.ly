@@ -44,11 +44,11 @@
                     }
                     <<
 
-                        \context Staff = "Horn_Staff_I"
-                        { \segment.18.Horn.Staff.I }
+                        \context Staff = "Horn.Staff.1"
+                        { \segment.18.Horn.Staff.1 }
 
-                        \context Staff = "Horn_Staff_II"
-                        { \segment.18.Horn.Staff.II }
+                        \context Staff = "Horn.Staff.2"
+                        { \segment.18.Horn.Staff.2 }
 
                     >>
 
@@ -59,11 +59,11 @@
                     }
                     <<
 
-                        \context Staff = "Trumpet_Staff_I"
-                        { \segment.18.Trumpet.Staff.I }
+                        \context Staff = "Trumpet.Staff.1"
+                        { \segment.18.Trumpet.Staff.1 }
 
-                        \context Staff = "Trumpet_Staff_II"
-                        { \segment.18.Trumpet.Staff.II }
+                        \context Staff = "Trumpet.Staff.2"
+                        { \segment.18.Trumpet.Staff.2 }
 
                     >>
 
@@ -74,11 +74,11 @@
                     }
                     <<
 
-                        \context Staff = "Trombone_Staff_I"
-                        { \segment.18.Trombone.Staff.I }
+                        \context Staff = "Trombone.Staff.1"
+                        { \segment.18.Trombone.Staff.1 }
 
-                        \context Staff = "Trombone_Staff_II"
-                        { \segment.18.Trombone.Staff.II }
+                        \context Staff = "Trombone.Staff.2"
+                        { \segment.18.Trombone.Staff.2 }
 
                     >>
 
@@ -94,14 +94,14 @@
                     }
                     <<
 
-                        \context Staff = "First_Violin_Staff_I"
-                        { \segment.18.First.Violin.Staff.I }
+                        \context Staff = "First.Violin.Staff.1"
+                        { \segment.18.First.Violin.Staff.1 }
 
-                        \context Staff = "First_Violin_Staff_II"
-                        { \segment.18.First.Violin.Staff.II }
+                        \context Staff = "First.Violin.Staff.2"
+                        { \segment.18.First.Violin.Staff.2 }
 
-                        \context Staff = "First_Violin_Staff_III"
-                        { \segment.18.First.Violin.Staff.III }
+                        \context Staff = "First.Violin.Staff.3"
+                        { \segment.18.First.Violin.Staff.3 }
 
                     >>
 
@@ -112,11 +112,11 @@
                     }
                     <<
 
-                        \context Staff = "Second_Violin_Staff_I"
-                        { \segment.18.Second.Violin.Staff.I }
+                        \context Staff = "Second.Violin.Staff.1"
+                        { \segment.18.Second.Violin.Staff.1 }
 
-                        \context Staff = "Second_Violin_Staff_II"
-                        { \segment.18.Second.Violin.Staff.II }
+                        \context Staff = "Second.Violin.Staff.2"
+                        { \segment.18.Second.Violin.Staff.2 }
 
                     >>
 
@@ -127,19 +127,19 @@
                     }
                     <<
 
-                        \context Staff = "Viola_Staff_I"
-                        { \segment.18.Viola.Staff.I }
+                        \context Staff = "Viola.Staff.1"
+                        { \segment.18.Viola.Staff.1 }
 
-                        \context Staff = "Viola_Staff_II"
-                        { \segment.18.Viola.Staff.II }
+                        \context Staff = "Viola.Staff.2"
+                        { \segment.18.Viola.Staff.2 }
 
                     >>
 
-                    \context Staff = "Cello_Staff_I"
-                    { \segment.18.Cello.Staff.I }
+                    \context Staff = "Cello.Staff.1"
+                    { \segment.18.Cello.Staff.1 }
 
-                    \context Staff = "Contrabass_Staff_II"
-                    { \segment.18.Contrabass.Staff.II }
+                    \context Staff = "Contrabass.Staff.2"
+                    { \segment.18.Contrabass.Staff.2 }
 
                 >>
 

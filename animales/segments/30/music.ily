@@ -97,9 +97,9 @@ segment.30.Global.Skips = {
 }
 
 
-segment.30.Piano.Voice.I.1 = {
+segment.30.Piano.Voice.1.part.1 = {
 
-    % [Piano_Voice_I measure 165 / measure 1]
+    % [Piano.Voice.1 measure 165 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
     \override NoteHead.style = #'harmonic
@@ -126,35 +126,35 @@ segment.30.Piano.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Piano_Voice_I measure 166 / measure 2]
+    % [Piano.Voice.1 measure 166 / measure 2]
     cs'!2.
     \laissezVibrer
 
-    % [Piano_Voice_I measure 167 / measure 3]
+    % [Piano.Voice.1 measure 167 / measure 3]
     cs'!1
     \laissezVibrer
 
-    % [Piano_Voice_I measure 168 / measure 4]
+    % [Piano.Voice.1 measure 168 / measure 4]
     cs'!1
     \laissezVibrer
 
-    % [Piano_Voice_I measure 169 / measure 5]
+    % [Piano.Voice.1 measure 169 / measure 5]
     cs'!1
     \laissezVibrer
 
-    % [Piano_Voice_I measure 170 / measure 6]
+    % [Piano.Voice.1 measure 170 / measure 6]
     cs'!2.
     \laissezVibrer
 
-    % [Piano_Voice_I measure 171 / measure 7]
+    % [Piano.Voice.1 measure 171 / measure 7]
     cs'!2.
     \laissezVibrer
 
-    % [Piano_Voice_I measure 172 / measure 8]
+    % [Piano.Voice.1 measure 172 / measure 8]
     cs'!1
     \laissezVibrer
 
-    % [Piano_Voice_I measure 173 / measure 9]
+    % [Piano.Voice.1 measure 173 / measure 9]
     cs'!1
     \laissezVibrer
     \revert NoteHead.style
@@ -163,10 +163,10 @@ segment.30.Piano.Voice.I.1 = {
 
     <<
 
-        \context Voice = "Piano_Voice_I"
+        \context Voice = "Piano.Voice.1"
         {
 
-            % [Piano_Voice_I measure 174 / measure 10]
+            % [Piano.Voice.1 measure 174 / measure 10]
             \abjad-invisible-music-coloring
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
         %%% \once \override Score.TimeSignature.stencil = ##f
@@ -176,10 +176,10 @@ segment.30.Piano.Voice.I.1 = {
 
         }
 
-        \context Voice = "Piano_Rest_Voice_I"
+        \context Voice = "Piano.Rest_Voice.1"
         {
 
-            % [Piano_Rest_Voice_I measure 174 / measure 10]
+            % [Piano.Rest_Voice.1 measure 174 / measure 10]
             R1 * 1/4
 
         }
@@ -189,25 +189,25 @@ segment.30.Piano.Voice.I.1 = {
 }
 
 
-segment.30.Piano.Voice.I = {
+segment.30.Piano.Voice.1 = {
 
-    { \segment.30.Piano.Voice.I.1 }
+    { \segment.30.Piano.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Piano_Voice_I"
+        \context Voice = "Piano.Voice.1"
         {
 
-            % [Piano_Voice_I measure 175 / measure 11]
+            % [Piano.Voice.1 measure 175 / measure 11]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Piano_Rest_Voice_I"
+        \context Voice = "Piano.Rest_Voice.1"
         {
 
-            % [Piano_Rest_Voice_I measure 175 / measure 11]
+            % [Piano.Rest_Voice.1 measure 175 / measure 11]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -222,17 +222,17 @@ segment.30.Piano.Voice.I = {
 }
 
 
-segment.30.Piano.Staff.I = {
+segment.30.Piano.Staff.1 = {
 
-    \context Voice = "Piano_Voice_I"
-    { \segment.30.Piano.Voice.I }
+    \context Voice = "Piano.Voice.1"
+    { \segment.30.Piano.Voice.1 }
 
 }
 
 
-segment.30.Percussion.Voice.IV.1 = {
+segment.30.Percussion.Voice.4.part.1 = {
 
-    % [Percussion_Voice_IV measure 165 / measure 1]
+    % [Percussion.Voice.4 measure 165 / measure 1]
     \override Staff.BarLine.bar-extent = #'(0 . 0)
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 1
@@ -274,7 +274,7 @@ segment.30.Percussion.Voice.IV.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Percussion_Voice_IV measure 166 / measure 2]
+    % [Percussion.Voice.4 measure 166 / measure 2]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -290,28 +290,7 @@ segment.30.Percussion.Voice.IV.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Percussion_Voice_IV measure 167 / measure 3]
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    c'4
-    \repeatTie
-    - \tweak stencil ##f
-    ~
-
-    % [Percussion_Voice_IV measure 168 / measure 4]
+    % [Percussion.Voice.4 measure 167 / measure 3]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -332,7 +311,7 @@ segment.30.Percussion.Voice.IV.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Percussion_Voice_IV measure 169 / measure 5]
+    % [Percussion.Voice.4 measure 168 / measure 4]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -353,7 +332,7 @@ segment.30.Percussion.Voice.IV.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Percussion_Voice_IV measure 170 / measure 6]
+    % [Percussion.Voice.4 measure 169 / measure 5]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -369,7 +348,12 @@ segment.30.Percussion.Voice.IV.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Percussion_Voice_IV measure 171 / measure 7]
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    % [Percussion.Voice.4 measure 170 / measure 6]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -385,7 +369,23 @@ segment.30.Percussion.Voice.IV.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Percussion_Voice_IV measure 172 / measure 8]
+    % [Percussion.Voice.4 measure 171 / measure 7]
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    c'4
+    \repeatTie
+    - \tweak stencil ##f
+    ~
+
+    % [Percussion.Voice.4 measure 172 / measure 8]
     c'4
     \repeatTie
     - \tweak stencil ##f
@@ -408,27 +408,27 @@ segment.30.Percussion.Voice.IV.1 = {
 
     <<
 
-        \context Voice = "Percussion_Voice_IV"
+        \context Voice = "Percussion.Voice.4"
         {
 
-            % [Percussion_Voice_IV measure 173 / measure 9]
+            % [Percussion.Voice.4 measure 173 / measure 9]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_IV"
+        \context Voice = "Percussion.Rest_Voice.4"
         {
 
-            % [Percussion_Rest_Voice_IV measure 173 / measure 9]
+            % [Percussion.Rest_Voice.4 measure 173 / measure 9]
             R1 * 1
 
         }
 
     >>
 
-    % [Percussion_Voice_IV measure 174 / measure 10]
+    % [Percussion.Voice.4 measure 174 / measure 10]
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
 %%% \once \override Score.TimeSignature.stencil = ##f
     R1 * 1/4
@@ -437,16 +437,16 @@ segment.30.Percussion.Voice.IV.1 = {
 }
 
 
-segment.30.Percussion.Voice.IV = {
+segment.30.Percussion.Voice.4 = {
 
-    { \segment.30.Percussion.Voice.IV.1 }
+    { \segment.30.Percussion.Voice.4.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_IV"
+        \context Voice = "Percussion.Voice.4"
         {
 
-            % [Percussion_Voice_IV measure 175 / measure 11]
+            % [Percussion.Voice.4 measure 175 / measure 11]
             \abjad-invisible-music-coloring
             \once \override Score.RehearsalMark.direction = #down
             \once \override Score.RehearsalMark.padding = 6
@@ -456,10 +456,10 @@ segment.30.Percussion.Voice.IV = {
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_IV"
+        \context Voice = "Percussion.Rest_Voice.4"
         {
 
-            % [Percussion_Rest_Voice_IV measure 175 / measure 11]
+            % [Percussion.Rest_Voice.4 measure 175 / measure 11]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -474,9 +474,9 @@ segment.30.Percussion.Voice.IV = {
 }
 
 
-segment.30.Percussion.Staff.IV = {
+segment.30.Percussion.Staff.4 = {
 
-    \context Voice = "Percussion_Voice_IV"
-    { \segment.30.Percussion.Voice.IV }
+    \context Voice = "Percussion.Voice.4"
+    { \segment.30.Percussion.Voice.4 }
 
 }

@@ -93,7 +93,7 @@ maker(
 
 maker(
     "eh1",
-    animales.parts("English_Horn"),
+    animales.parts("English.Horn"),
 )
 
 maker(
@@ -193,7 +193,7 @@ def lower_voice_suite(n=5):
 maker(
     "1vn5",
     animales.margin_markup("Vni. I 18"),
-    animales.parts("First_Violin", 18),
+    animales.parts("First.Violin", 18),
     baca.dynamic("f"),
     baca.make_repeat_tied_notes(),
     baca.markup(

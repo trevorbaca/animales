@@ -2,7 +2,6 @@ import typing
 
 import abjad
 import baca
-import roman
 from abjadext import rmakers
 
 # metronome marks
@@ -122,25 +121,25 @@ def brass_sforzando(maker, range_=(1, -1)):
     """
 
     voice_to_pitch = {
-        "Horn_Voice_I": "C4",
-        "Horn_Voice_II": "Gb3",
-        "Horn_Voice_III": "F3",
-        "Horn_Voice_IV": "E3",
-        "Trumpet_Voice_I": "D5",
-        "Trumpet_Voice_II": "Ab4",
-        "Trumpet_Voice_III": "G4",
-        "Trumpet_Voice_IV": "F4",
-        "Trombone_Voice_I": "G4",
-        "Trombone_Voice_II": "Db4",
-        "Trombone_Voice_III": "C4",
-        "Trombone_Voice_IV": "B3",
-        "Tuba_Voice_I": "C2",
+        "Horn.Voice.1": "C4",
+        "Horn.Voice.2": "Gb3",
+        "Horn.Voice.3": "F3",
+        "Horn.Voice.4": "E3",
+        "Trumpet.Voice.1": "D5",
+        "Trumpet.Voice.2": "Ab4",
+        "Trumpet.Voice.3": "G4",
+        "Trumpet.Voice.4": "F4",
+        "Trombone.Voice.1": "G4",
+        "Trombone.Voice.2": "Db4",
+        "Trombone.Voice.3": "C4",
+        "Trombone.Voice.4": "B3",
+        "Tuba.Voice.1": "C2",
     }
 
     for voice, pitch in voice_to_pitch.items():
         maker((voice, range_), downbeat_attack(), baca.marcato())
         words = abjad.String(voice).delimit_words()
-        member = roman.fromRoman(words[-1])
+        member = int(words[-1])
         if member in (1, 2):
             maker((voice, range_), baca.dynamic("sffz"))
         elif member in (3, 4):
@@ -310,13 +309,13 @@ def make_trill_rhythm(maker, measures=(1, -1)):
     """
 
     voice_to_part = {
-        "First_Violin_Voice_I": 0,
-        "First_Violin_Voice_III": 1,
-        "Second_Violin_Voice_I": 2,
-        "Second_Violin_Voice_III": 3,
-        "Viola_Voice_I": 4,
-        "Viola_Voice_III": 5,
-        "Cello_Voice_I": 6,
+        "First.Violin.Voice.1": 0,
+        "First.Violin.Voice.3": 1,
+        "Second.Violin.Voice.1": 2,
+        "Second.Violin.Voice.3": 3,
+        "Viola.Voice.1": 4,
+        "Viola.Voice.3": 5,
+        "Cello.Voice.1": 6,
     }
 
     for voice, part in voice_to_part.items():
@@ -579,9 +578,9 @@ class ScoreTemplate(baca.ScoreTemplate):
     _part_manifest = baca.PartManifest(
         baca.Section(abbreviation="FL", count=4, name="Flute"),
         baca.Section(abbreviation="OB", count=3, name="Oboe"),
-        baca.Part(section="English_Horn", section_abbreviation="EH"),
+        baca.Part(section="English.Horn", section_abbreviation="EH"),
         baca.Section(abbreviation="CL", count=3, name="Clarinet"),
-        baca.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
+        baca.Part(section="Bass.Clarinet", section_abbreviation="BCL"),
         baca.Section(abbreviation="BSN", count=2, name="Bassoon"),
         baca.Section(abbreviation="HN", count=4, name="Horn"),
         baca.Section(abbreviation="TP", count=4, name="Trumpet"),
@@ -594,13 +593,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             abbreviation="VN-1",
             count=18,
             instrument="Violin",
-            name="First_Violin",
+            name="First.Violin",
         ),
         baca.Section(
             abbreviation="VN-2",
             count=18,
             instrument="Violin",
-            name="Second_Violin",
+            name="Second.Violin",
         ),
         baca.Section(abbreviation="VA", count=18, name="Viola"),
         baca.Section(abbreviation="VC", count=14, name="Cello"),
@@ -678,8 +677,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             for n in range(1, count + 1):
                 voice_abbreviation = instrument_abbreviation + str(n)
                 words = abjad.String(instrument).delimit_words()
-                instrument = "_".join(words)
-                voice_name = f"{instrument}_Voice_{roman.toRoman(n)}"
+                instrument = ".".join(words)
+                voice_name = f"{instrument}.Voice.{n}"
                 self.voice_abbreviations[voice_abbreviation] = voice_name
 
     ### SPECIAL METHODS ###
@@ -709,7 +708,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef("treble"),
         )
         english_horn_staves = self._make_staves(
-            "English_Horn",
+            "English.Horn",
             self.english_horn,
             instruments["EnglishHorn"],
             margin_markups["Eng. hn."],
@@ -723,7 +722,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef("treble"),
         )
         bass_clarinet_staves = self._make_staves(
-            "Bass_Clarinet",
+            "Bass.Clarinet",
             self.bass_clarinet,
             instruments["BassClarinet"],
             margin_markups["B. cl."],
@@ -786,14 +785,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.Clef("percussion"),
         )
         first_violin_staves = self._make_staves(
-            "First_Violin",
+            "First.Violin",
             self.first_violins,
             instruments["Violin"],
             margin_markups["Vni. I"],
             abjad.Clef("treble"),
         )
         second_violin_staves = self._make_staves(
-            "Second_Violin",
+            "Second.Violin",
             self.second_violins,
             instruments["Violin"],
             margin_markups["Vni. II"],
@@ -896,19 +895,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             staff_number, voices = staff_specifier
             assert isinstance(staff_number, int), repr(staff_number)
             assert isinstance(voices, list), repr(voices)
-            staff_numeral = self._to_roman(staff_number)
             if len(voices) == 1:
                 simultaneous = False
             else:
                 simultaneous = True
             staff = abjad.Staff(
                 simultaneous=simultaneous,
-                name=f"{name}_Staff_{staff_numeral}",
+                name=f"{name}.Staff.{staff_number}",
                 tag=tag,
             )
             for voice_number in voices:
-                voice_numeral = self._to_roman(voice_number)
-                voice = abjad.Voice(name=f"{name}_Voice_{voice_numeral}", tag=tag)
+                voice = abjad.Voice(name=f"{name}.Voice.{voice_number}", tag=tag)
                 staff.append(voice)
             abjad.annotate(staff, "default_instrument", default_instrument)
             abjad.annotate(staff, "default_margin_markup", default_margin_markup)
@@ -927,28 +924,28 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
-            ...     'First_Violin_Staff_I',
+            ...     'First.Violin.Staff.1',
             ...     animales.library.instruments['Violin'],
             ...     )
             True
 
             >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
-            ...     'Percussion_Staff_I',
+            ...     'Percussion.Staff.1',
             ...     animales.library.instruments['Percussion'],
             ...     )
             True
 
             >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
-            ...     'Percussion_Staff_I',
+            ...     'Percussion.Staff.1',
             ...     animales.library.instruments['Vibraphone'],
             ...     )
             False
 
             >>> template = animales.library.ScoreTemplate()
             >>> template.allows_instrument(
-            ...     'Percussion_Staff_III',
+            ...     'Percussion.Staff.3',
             ...     animales.library.instruments['Vibraphone'],
             ...     )
             True
@@ -958,21 +955,21 @@ class ScoreTemplate(baca.ScoreTemplate):
             [
                 ("Flute", [instruments["Flute"]]),
                 ("Oboe", [instruments["Oboe"]]),
-                ("English_Horn", [instruments["EnglishHorn"]]),
+                ("English.Horn", [instruments["EnglishHorn"]]),
                 ("Clarinet", [instruments["Clarinet"]]),
-                ("Bass_Clarinet", [instruments["BassClarinet"]]),
+                ("Bass.Clarinet", [instruments["BassClarinet"]]),
                 ("Horn", [instruments["Horn"]]),
                 ("Trumpet", [instruments["Trumpet"]]),
                 ("Trombone", [instruments["Trombone"]]),
                 ("Tuba", [instruments["Tuba"]]),
                 ("Harp", [instruments["Harp"]]),
                 ("Piano", [instruments["Piano"]]),
-                ("Percussion_Staff_I", [instruments["Percussion"]]),
-                ("Percussion_Staff_II", [instruments["Percussion"]]),
-                ("Percussion_Staff_III", [instruments["Vibraphone"]]),
-                ("Percussion_Staff_IV", [instruments["Percussion"]]),
-                ("First_Violin", [instruments["Violin"]]),
-                ("Second_Violin", [instruments["Violin"]]),
+                ("Percussion.Staff.1", [instruments["Percussion"]]),
+                ("Percussion.Staff.2", [instruments["Percussion"]]),
+                ("Percussion.Staff.3", [instruments["Vibraphone"]]),
+                ("Percussion.Staff.4", [instruments["Percussion"]]),
+                ("First.Violin", [instruments["Violin"]]),
+                ("Second.Violin", [instruments["Violin"]]),
                 ("Viola", [instruments["Viola"]]),
                 ("Cello", [instruments["Cello"]]),
                 ("Contrabass", [instruments["Contrabass"]]),
@@ -1000,25 +997,25 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> template = animales.library.ScoreTemplate()
 
             >>> template.allows_part_assignment(
-            ...     'First_Violin_Voice_II',
-            ...     baca.PartAssignment('First_Violin'),
+            ...     'First.Violin.Voice.2',
+            ...     baca.PartAssignment('First.Violin'),
             ...     )
             True
 
             >>> template.allows_part_assignment(
-            ...     'First_Violin_Voice_II',
-            ...     baca.PartAssignment('First_Violin', (1, 10)),
+            ...     'First.Violin.Voice.2',
+            ...     baca.PartAssignment('First.Violin', (1, 10)),
             ...     )
             True
 
             >>> template.allows_part_assignment(
-            ...     'First_Violin_Voice_II',
-            ...     baca.PartAssignment('Second_Violin'),
+            ...     'First.Violin.Voice.2',
+            ...     baca.PartAssignment('Second.Violin'),
             ...     )
             False
 
             >>> template.allows_part_assignment(
-            ...     'First_Violin_Voice_II',
+            ...     'First.Violin.Voice.2',
             ...     baca.PartAssignment('Violin'),
             ...     )
             False
@@ -1076,109 +1073,109 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> print(string)
             abjad.OrderedDict(
                 [
-                    ('fl1', 'Flute_Voice_I'),
-                    ('fl2', 'Flute_Voice_II'),
-                    ('fl3', 'Flute_Voice_III'),
-                    ('fl4', 'Flute_Voice_IV'),
-                    ('ob1', 'Oboe_Voice_I'),
-                    ('eh1', 'English_Horn_Voice_I'),
-                    ('cl1', 'Clarinet_Voice_I'),
-                    ('bcl1', 'Bass_Clarinet_Voice_I'),
-                    ('bsn1', 'Bassoon_Voice_I'),
-                    ('bsn2', 'Bassoon_Voice_II'),
-                    ('hn1', 'Horn_Voice_I'),
-                    ('hn2', 'Horn_Voice_II'),
-                    ('hn3', 'Horn_Voice_III'),
-                    ('hn4', 'Horn_Voice_IV'),
-                    ('tp1', 'Trumpet_Voice_I'),
-                    ('tp2', 'Trumpet_Voice_II'),
-                    ('tp3', 'Trumpet_Voice_III'),
-                    ('tp4', 'Trumpet_Voice_IV'),
-                    ('tbn1', 'Trombone_Voice_I'),
-                    ('tbn2', 'Trombone_Voice_II'),
-                    ('tbn3', 'Trombone_Voice_III'),
-                    ('tbn4', 'Trombone_Voice_IV'),
-                    ('tub1', 'Tuba_Voice_I'),
-                    ('hp1', 'Harp_Voice_I'),
-                    ('pf1', 'Piano_Voice_I'),
-                    ('perc1', 'Percussion_Voice_I'),
-                    ('perc2', 'Percussion_Voice_II'),
-                    ('perc3', 'Percussion_Voice_III'),
-                    ('perc4', 'Percussion_Voice_IV'),
-                    ('1vn1', 'First_Violin_Voice_I'),
-                    ('1vn2', 'First_Violin_Voice_II'),
-                    ('1vn3', 'First_Violin_Voice_III'),
-                    ('1vn4', 'First_Violin_Voice_IV'),
-                    ('1vn5', 'First_Violin_Voice_V'),
-                    ('1vn6', 'First_Violin_Voice_VI'),
-                    ('1vn7', 'First_Violin_Voice_VII'),
-                    ('1vn8', 'First_Violin_Voice_VIII'),
-                    ('1vn9', 'First_Violin_Voice_IX'),
-                    ('1vn10', 'First_Violin_Voice_X'),
-                    ('1vn11', 'First_Violin_Voice_XI'),
-                    ('1vn12', 'First_Violin_Voice_XII'),
-                    ('1vn13', 'First_Violin_Voice_XIII'),
-                    ('1vn14', 'First_Violin_Voice_XIV'),
-                    ('1vn15', 'First_Violin_Voice_XV'),
-                    ('1vn16', 'First_Violin_Voice_XVI'),
-                    ('1vn17', 'First_Violin_Voice_XVII'),
-                    ('1vn18', 'First_Violin_Voice_XVIII'),
-                    ('2vn1', 'Second_Violin_Voice_I'),
-                    ('2vn2', 'Second_Violin_Voice_II'),
-                    ('2vn3', 'Second_Violin_Voice_III'),
-                    ('2vn4', 'Second_Violin_Voice_IV'),
-                    ('2vn5', 'Second_Violin_Voice_V'),
-                    ('2vn6', 'Second_Violin_Voice_VI'),
-                    ('2vn7', 'Second_Violin_Voice_VII'),
-                    ('2vn8', 'Second_Violin_Voice_VIII'),
-                    ('2vn9', 'Second_Violin_Voice_IX'),
-                    ('2vn10', 'Second_Violin_Voice_X'),
-                    ('2vn11', 'Second_Violin_Voice_XI'),
-                    ('2vn12', 'Second_Violin_Voice_XII'),
-                    ('2vn13', 'Second_Violin_Voice_XIII'),
-                    ('2vn14', 'Second_Violin_Voice_XIV'),
-                    ('2vn15', 'Second_Violin_Voice_XV'),
-                    ('2vn16', 'Second_Violin_Voice_XVI'),
-                    ('2vn17', 'Second_Violin_Voice_XVII'),
-                    ('2vn18', 'Second_Violin_Voice_XVIII'),
-                    ('va1', 'Viola_Voice_I'),
-                    ('va2', 'Viola_Voice_II'),
-                    ('va3', 'Viola_Voice_III'),
-                    ('va4', 'Viola_Voice_IV'),
-                    ('va5', 'Viola_Voice_V'),
-                    ('va6', 'Viola_Voice_VI'),
-                    ('va7', 'Viola_Voice_VII'),
-                    ('va8', 'Viola_Voice_VIII'),
-                    ('va9', 'Viola_Voice_IX'),
-                    ('va10', 'Viola_Voice_X'),
-                    ('va11', 'Viola_Voice_XI'),
-                    ('va12', 'Viola_Voice_XII'),
-                    ('va13', 'Viola_Voice_XIII'),
-                    ('va14', 'Viola_Voice_XIV'),
-                    ('va15', 'Viola_Voice_XV'),
-                    ('va16', 'Viola_Voice_XVI'),
-                    ('va17', 'Viola_Voice_XVII'),
-                    ('va18', 'Viola_Voice_XVIII'),
-                    ('vc1', 'Cello_Voice_I'),
-                    ('vc2', 'Cello_Voice_II'),
-                    ('vc3', 'Cello_Voice_III'),
-                    ('vc4', 'Cello_Voice_IV'),
-                    ('vc5', 'Cello_Voice_V'),
-                    ('vc6', 'Cello_Voice_VI'),
-                    ('vc7', 'Cello_Voice_VII'),
-                    ('vc8', 'Cello_Voice_VIII'),
-                    ('vc9', 'Cello_Voice_IX'),
-                    ('vc10', 'Cello_Voice_X'),
-                    ('vc11', 'Cello_Voice_XI'),
-                    ('vc12', 'Cello_Voice_XII'),
-                    ('vc13', 'Cello_Voice_XIII'),
-                    ('vc14', 'Cello_Voice_XIV'),
-                    ('cb1', 'Contrabass_Voice_I'),
-                    ('cb2', 'Contrabass_Voice_II'),
-                    ('cb3', 'Contrabass_Voice_III'),
-                    ('cb4', 'Contrabass_Voice_IV'),
-                    ('cb5', 'Contrabass_Voice_V'),
-                    ('cb6', 'Contrabass_Voice_VI'),
+                    ('fl1', 'Flute.Voice.1'),
+                    ('fl2', 'Flute.Voice.2'),
+                    ('fl3', 'Flute.Voice.3'),
+                    ('fl4', 'Flute.Voice.4'),
+                    ('ob1', 'Oboe.Voice.1'),
+                    ('eh1', 'English.Horn.Voice.1'),
+                    ('cl1', 'Clarinet.Voice.1'),
+                    ('bcl1', 'Bass.Clarinet.Voice.1'),
+                    ('bsn1', 'Bassoon.Voice.1'),
+                    ('bsn2', 'Bassoon.Voice.2'),
+                    ('hn1', 'Horn.Voice.1'),
+                    ('hn2', 'Horn.Voice.2'),
+                    ('hn3', 'Horn.Voice.3'),
+                    ('hn4', 'Horn.Voice.4'),
+                    ('tp1', 'Trumpet.Voice.1'),
+                    ('tp2', 'Trumpet.Voice.2'),
+                    ('tp3', 'Trumpet.Voice.3'),
+                    ('tp4', 'Trumpet.Voice.4'),
+                    ('tbn1', 'Trombone.Voice.1'),
+                    ('tbn2', 'Trombone.Voice.2'),
+                    ('tbn3', 'Trombone.Voice.3'),
+                    ('tbn4', 'Trombone.Voice.4'),
+                    ('tub1', 'Tuba.Voice.1'),
+                    ('hp1', 'Harp.Voice.1'),
+                    ('pf1', 'Piano.Voice.1'),
+                    ('perc1', 'Percussion.Voice.1'),
+                    ('perc2', 'Percussion.Voice.2'),
+                    ('perc3', 'Percussion.Voice.3'),
+                    ('perc4', 'Percussion.Voice.4'),
+                    ('1vn1', 'First.Violin.Voice.1'),
+                    ('1vn2', 'First.Violin.Voice.2'),
+                    ('1vn3', 'First.Violin.Voice.3'),
+                    ('1vn4', 'First.Violin.Voice.4'),
+                    ('1vn5', 'First.Violin.Voice.5'),
+                    ('1vn6', 'First.Violin.Voice.6'),
+                    ('1vn7', 'First.Violin.Voice.7'),
+                    ('1vn8', 'First.Violin.Voice.8'),
+                    ('1vn9', 'First.Violin.Voice.9'),
+                    ('1vn10', 'First.Violin.Voice.10'),
+                    ('1vn11', 'First.Violin.Voice.11'),
+                    ('1vn12', 'First.Violin.Voice.12'),
+                    ('1vn13', 'First.Violin.Voice.13'),
+                    ('1vn14', 'First.Violin.Voice.14'),
+                    ('1vn15', 'First.Violin.Voice.15'),
+                    ('1vn16', 'First.Violin.Voice.16'),
+                    ('1vn17', 'First.Violin.Voice.17'),
+                    ('1vn18', 'First.Violin.Voice.18'),
+                    ('2vn1', 'Second.Violin.Voice.1'),
+                    ('2vn2', 'Second.Violin.Voice.2'),
+                    ('2vn3', 'Second.Violin.Voice.3'),
+                    ('2vn4', 'Second.Violin.Voice.4'),
+                    ('2vn5', 'Second.Violin.Voice.5'),
+                    ('2vn6', 'Second.Violin.Voice.6'),
+                    ('2vn7', 'Second.Violin.Voice.7'),
+                    ('2vn8', 'Second.Violin.Voice.8'),
+                    ('2vn9', 'Second.Violin.Voice.9'),
+                    ('2vn10', 'Second.Violin.Voice.10'),
+                    ('2vn11', 'Second.Violin.Voice.11'),
+                    ('2vn12', 'Second.Violin.Voice.12'),
+                    ('2vn13', 'Second.Violin.Voice.13'),
+                    ('2vn14', 'Second.Violin.Voice.14'),
+                    ('2vn15', 'Second.Violin.Voice.15'),
+                    ('2vn16', 'Second.Violin.Voice.16'),
+                    ('2vn17', 'Second.Violin.Voice.17'),
+                    ('2vn18', 'Second.Violin.Voice.18'),
+                    ('va1', 'Viola.Voice.1'),
+                    ('va2', 'Viola.Voice.2'),
+                    ('va3', 'Viola.Voice.3'),
+                    ('va4', 'Viola.Voice.4'),
+                    ('va5', 'Viola.Voice.5'),
+                    ('va6', 'Viola.Voice.6'),
+                    ('va7', 'Viola.Voice.7'),
+                    ('va8', 'Viola.Voice.8'),
+                    ('va9', 'Viola.Voice.9'),
+                    ('va10', 'Viola.Voice.10'),
+                    ('va11', 'Viola.Voice.11'),
+                    ('va12', 'Viola.Voice.12'),
+                    ('va13', 'Viola.Voice.13'),
+                    ('va14', 'Viola.Voice.14'),
+                    ('va15', 'Viola.Voice.15'),
+                    ('va16', 'Viola.Voice.16'),
+                    ('va17', 'Viola.Voice.17'),
+                    ('va18', 'Viola.Voice.18'),
+                    ('vc1', 'Cello.Voice.1'),
+                    ('vc2', 'Cello.Voice.2'),
+                    ('vc3', 'Cello.Voice.3'),
+                    ('vc4', 'Cello.Voice.4'),
+                    ('vc5', 'Cello.Voice.5'),
+                    ('vc6', 'Cello.Voice.6'),
+                    ('vc7', 'Cello.Voice.7'),
+                    ('vc8', 'Cello.Voice.8'),
+                    ('vc9', 'Cello.Voice.9'),
+                    ('vc10', 'Cello.Voice.10'),
+                    ('vc11', 'Cello.Voice.11'),
+                    ('vc12', 'Cello.Voice.12'),
+                    ('vc13', 'Cello.Voice.13'),
+                    ('vc14', 'Cello.Voice.14'),
+                    ('cb1', 'Contrabass.Voice.1'),
+                    ('cb2', 'Contrabass.Voice.2'),
+                    ('cb3', 'Contrabass.Voice.3'),
+                    ('cb4', 'Contrabass.Voice.4'),
+                    ('cb5', 'Contrabass.Voice.5'),
+                    ('cb6', 'Contrabass.Voice.6'),
                     ]
                 )
 
@@ -1192,19 +1189,19 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> string = 'English_Horn_Voice_I'
+            >>> string = 'English.Horn.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'EnglishHorn'
 
-            >>> string = 'First_Violin_Voice_I'
+            >>> string = 'First.Violin.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'Violin'
 
-            >>> string = 'Second_Violin_Voice_I'
+            >>> string = 'Second.Violin.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'Violin'
 
-            >>> string = 'Viola_Voice_I'
+            >>> string = 'Viola.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_instrument(string)
             'Viola'
 
@@ -1229,19 +1226,19 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> string = 'English_Horn_Voice_I'
+            >>> string = 'English.Horn.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_section(string)
-            'English_Horn'
+            'English.Horn'
 
-            >>> string = 'First_Violin_Voice_I'
+            >>> string = 'First.Violin.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_section(string)
-            'First_Violin'
+            'First.Violin'
 
-            >>> string = 'Second_Violin_Voice_I'
+            >>> string = 'Second.Violin.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_section(string)
-            'Second_Violin'
+            'Second.Violin'
 
-            >>> string = 'Viola_Voice_I'
+            >>> string = 'Viola.Voice.1'
             >>> animales.library.ScoreTemplate.voice_to_section(string)
             'Viola'
 
@@ -1252,7 +1249,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         words = abjad.String(voice).delimit_words()
         assert "Voice" in words, repr(words)
         index = words.index("Voice")
-        section = "_".join(words[:index])
+        section = ".".join(words[:index])
         return section
 
 
@@ -1403,64 +1400,64 @@ def assign_brass_sforzando_parts(maker, omit_tuba=False):
     Assigns brass sforzando parts.
     """
 
-    maker("Horn_Voice_I", parts("Horn", 1), baca.not_parts(baca.voice_one()))
+    maker("Horn.Voice.1", parts("Horn", 1), baca.not_parts(baca.voice_one()))
 
-    maker("Horn_Voice_III", parts("Horn", 3), baca.not_parts(baca.voice_two()))
+    maker("Horn.Voice.3", parts("Horn", 3), baca.not_parts(baca.voice_two()))
 
-    maker("Horn_Voice_II", parts("Horn", 2), baca.not_parts(baca.voice_one()))
+    maker("Horn.Voice.2", parts("Horn", 2), baca.not_parts(baca.voice_one()))
 
-    maker("Horn_Voice_IV", parts("Horn", 4), baca.not_parts(baca.voice_two()))
+    maker("Horn.Voice.4", parts("Horn", 4), baca.not_parts(baca.voice_two()))
 
     maker(
-        "Trumpet_Voice_I",
+        "Trumpet.Voice.1",
         parts("Trumpet", 1),
         baca.not_parts(baca.voice_one()),
     )
 
     maker(
-        "Trumpet_Voice_III",
+        "Trumpet.Voice.3",
         parts("Trumpet", 3),
         baca.not_parts(baca.voice_two()),
     )
 
     maker(
-        "Trumpet_Voice_II",
+        "Trumpet.Voice.2",
         parts("Trumpet", 2),
         baca.not_parts(baca.voice_one()),
     )
 
     maker(
-        "Trumpet_Voice_IV",
+        "Trumpet.Voice.4",
         parts("Trumpet", 4),
         baca.not_parts(baca.voice_two()),
     )
 
     maker(
-        "Trombone_Voice_I",
+        "Trombone.Voice.1",
         parts("Trombone", 1),
         baca.not_parts(baca.voice_one()),
     )
 
     maker(
-        "Trombone_Voice_III",
+        "Trombone.Voice.3",
         parts("Trombone", 3),
         baca.not_parts(baca.voice_two()),
     )
 
     maker(
-        "Trombone_Voice_II",
+        "Trombone.Voice.2",
         parts("Trombone", 2),
         baca.not_parts(baca.voice_one()),
     )
 
     maker(
-        "Trombone_Voice_IV",
+        "Trombone.Voice.4",
         parts("Trombone", 4),
         baca.not_parts(baca.voice_two()),
     )
 
     if not omit_tuba:
-        maker("Tuba_Voice_I", parts("Tuba"))
+        maker("Tuba.Voice.1", parts("Tuba"))
 
 
 def assign_trill_parts(maker, *, exclude_first_violin=False):
@@ -1469,18 +1466,18 @@ def assign_trill_parts(maker, *, exclude_first_violin=False):
     """
 
     voice_to_members = {
-        "First_Violin_Voice_I": (1, 10),
-        "First_Violin_Voice_III": (11, 18),
-        "Second_Violin_Voice_I": (1, 10),
-        "Second_Violin_Voice_III": (11, 18),
-        "Viola_Voice_I": (1, 10),
-        "Viola_Voice_III": (11, 18),
-        "Cello_Voice_I": "all",
+        "First.Violin.Voice.1": (1, 10),
+        "First.Violin.Voice.3": (11, 18),
+        "Second.Violin.Voice.1": (1, 10),
+        "Second.Violin.Voice.3": (11, 18),
+        "Viola.Voice.1": (1, 10),
+        "Viola.Voice.3": (11, 18),
+        "Cello.Voice.1": "all",
     }
 
     for voice, members in voice_to_members.items():
         section = ScoreTemplate.voice_to_section(voice)
-        if voice == "First_Violin_Voice_I" and exclude_first_violin:
+        if voice == "First.Violin.Voice.1" and exclude_first_violin:
             command = parts(section, (2, 10))
         elif members == "all":
             command = parts(section)
@@ -1500,7 +1497,7 @@ def clb_rhythm(
     Makes clb rhythm.
     """
 
-    if section in ("First_Violin", "Second_Violin", "Viola"):
+    if section in ("First.Violin", "Second.Violin", "Viola"):
         assert member in range(1, 18 + 1), repr(member)
     elif section == "Cello":
         assert member in range(1, 14 + 1), repr(member)
@@ -1510,8 +1507,8 @@ def clb_rhythm(
         assert ValueError(section)
 
     section_to_offset = {
-        "First_Violin": 0,
-        "Second_Violin": 18,
+        "First.Violin": 0,
+        "Second.Violin": 18,
         "Viola": 36,
         "Cello": 54,
         "Contrabass": 68,
@@ -1559,16 +1556,16 @@ def constellations(
     """
 
     section_to_members = {
-        "First_Violin": 18,
-        "Second_Violin": 18,
+        "First.Violin": 18,
+        "Second.Violin": 18,
         "Viola": 18,
         "Cello": 14,
         "Contrabass": 6,
     }
 
     section_to_abbreviation = {
-        "First_Violin": "Vni. I",
-        "Second_Violin": "Vni. II",
+        "First.Violin": "Vni. I",
+        "Second.Violin": "Vni. II",
         "Viola": "Vle.",
         "Cello": "Vc.",
         "Contrabass": "Cb.",
@@ -1588,9 +1585,7 @@ def constellations(
             continue
         for member in range(1, members + 1):
             commands = []
-            numeral = roman.toRoman(member)
-            numeral = str(numeral).upper()
-            voice = f"{section}_Voice_{numeral}"
+            voice = f"{section}.Voice.{member}"
             maker(voice, parts(section, member))
             rhythm = clb_rhythm(section, member, counts, wrap)
             commands.append(rhythm)

@@ -70,10 +70,10 @@
                 <<
 
                     %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Piano_Staff_I"
+                    \context Staff = "Piano.Staff.1"
                     %! animales.ScoreTemplate._make_staves()
                     %! baca.path.extern()
-                    { \segment.30.Piano.Staff.I }
+                    { \segment.30.Piano.Staff.1 }
 
                 >>
 
@@ -83,10 +83,10 @@
                 <<
 
                     %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Percussion_Staff_IV"
+                    \context Staff = "Percussion.Staff.4"
                     %! animales.ScoreTemplate._make_staves()
                     %! baca.path.extern()
-                    { \segment.30.Percussion.Staff.IV }
+                    { \segment.30.Percussion.Staff.4 }
 
                 %! baca.ScoreTemplate.make_staff_group()
                 >>

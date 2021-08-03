@@ -88,7 +88,7 @@ maker(
 
 maker(
     "bcl1",
-    animales.parts("Bass_Clarinet"),
+    animales.parts("Bass.Clarinet"),
 )
 
 # harp
@@ -141,7 +141,7 @@ maker(
 
 maker(
     "1vn1",
-    animales.parts("First_Violin"),
+    animales.parts("First.Violin"),
     baca.articulation("trill"),
     baca.glissando(
         allow_repeats=True,
@@ -156,7 +156,7 @@ maker(
 
 maker(
     "2vn1",
-    animales.parts("Second_Violin"),
+    animales.parts("Second.Violin"),
     baca.articulation("trill"),
     baca.glissando(
         allow_repeats=True,

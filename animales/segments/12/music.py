@@ -276,14 +276,14 @@ maker(
 
 maker(
     "1vn1",
-    animales.parts("First_Violin"),
+    animales.parts("First.Violin"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab6"),
 )
 
 maker(
     "2vn1",
-    animales.parts("Second_Violin"),
+    animales.parts("Second.Violin"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab5"),
 )

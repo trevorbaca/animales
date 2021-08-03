@@ -282,13 +282,13 @@ maker(
 
 maker(
     "1vn1",
-    animales.parts("First_Violin"),
+    animales.parts("First.Violin"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 maker(
     "2vn1",
-    animales.parts("Second_Violin"),
+    animales.parts("Second.Violin"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
