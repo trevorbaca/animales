@@ -44,11 +44,11 @@
                     }
                     <<
 
-                        \context Staff = "First_Violin_Staff_I"
-                        { \segment.03.First.Violin.Staff.I }
+                        \context Staff = "First.Violin.Staff.1"
+                        { \segment.03.First.Violin.Staff.1 }
 
-                        \context Staff = "First_Violin_Staff_II"
-                        { \segment.03.First.Violin.Staff.II }
+                        \context Staff = "First.Violin.Staff.2"
+                        { \segment.03.First.Violin.Staff.2 }
 
                     >>
 
@@ -59,11 +59,11 @@
                     }
                     <<
 
-                        \context Staff = "Second_Violin_Staff_I"
-                        { \segment.03.Second.Violin.Staff.I }
+                        \context Staff = "Second.Violin.Staff.1"
+                        { \segment.03.Second.Violin.Staff.1 }
 
-                        \context Staff = "Second_Violin_Staff_II"
-                        { \segment.03.Second.Violin.Staff.II }
+                        \context Staff = "Second.Violin.Staff.2"
+                        { \segment.03.Second.Violin.Staff.2 }
 
                     >>
 
@@ -74,16 +74,16 @@
                     }
                     <<
 
-                        \context Staff = "Viola_Staff_I"
-                        { \segment.03.Viola.Staff.I }
+                        \context Staff = "Viola.Staff.1"
+                        { \segment.03.Viola.Staff.1 }
 
-                        \context Staff = "Viola_Staff_II"
-                        { \segment.03.Viola.Staff.II }
+                        \context Staff = "Viola.Staff.2"
+                        { \segment.03.Viola.Staff.2 }
 
                     >>
 
-                    \context Staff = "Cello_Staff_I"
-                    { \segment.03.Cello.Staff.I }
+                    \context Staff = "Cello.Staff.1"
+                    { \segment.03.Cello.Staff.1 }
 
                 >>
 

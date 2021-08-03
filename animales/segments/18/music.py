@@ -262,7 +262,7 @@ for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands: typing.List[baca.Command] = []
     voice = score_template.voice_abbreviations.get(voice, voice)
-    section = "_".join(abjad.String(voice).delimit_words()[:-2])
+    section = ".".join(abjad.String(voice).delimit_words()[:-2])
     members = items[0]
     commands.append(animales.parts(section, members))
     if items[1] is True:
@@ -279,7 +279,7 @@ for voice, items in string_parts.items():
         voice,
         *commands,
     )
-    if voice == "First_Violin_Voice_V":
+    if voice == "First.Violin.Voice.5":
         continue
     maker(
         [

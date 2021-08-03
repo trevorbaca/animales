@@ -37,19 +37,19 @@
                 \context StaffGroup = "Wind_Staff_Group"
                 <<
 
-                    \context Staff = "Clarinet_Staff_I"
-                    { \segment.05.Clarinet.Staff.I }
+                    \context Staff = "Clarinet.Staff.1"
+                    { \segment.05.Clarinet.Staff.1 }
 
                 >>
 
                 \context StaffGroup = "Percussion_Staff_Group"
                 <<
 
-                    \context Staff = "Percussion_Staff_I"
-                    { \segment.05.Percussion.Staff.I }
+                    \context Staff = "Percussion.Staff.1"
+                    { \segment.05.Percussion.Staff.1 }
 
-                    \context Staff = "Percussion_Staff_II"
-                    { \segment.05.Percussion.Staff.II }
+                    \context Staff = "Percussion.Staff.2"
+                    { \segment.05.Percussion.Staff.2 }
 
                 >>
 
@@ -63,11 +63,11 @@
                     }
                     <<
 
-                        \context Staff = "First_Violin_Staff_I"
-                        { \segment.05.First.Violin.Staff.I }
+                        \context Staff = "First.Violin.Staff.1"
+                        { \segment.05.First.Violin.Staff.1 }
 
-                        \context Staff = "First_Violin_Staff_II"
-                        { \segment.05.First.Violin.Staff.II }
+                        \context Staff = "First.Violin.Staff.2"
+                        { \segment.05.First.Violin.Staff.2 }
 
                     >>
 
@@ -78,11 +78,11 @@
                     }
                     <<
 
-                        \context Staff = "Second_Violin_Staff_I"
-                        { \segment.05.Second.Violin.Staff.I }
+                        \context Staff = "Second.Violin.Staff.1"
+                        { \segment.05.Second.Violin.Staff.1 }
 
-                        \context Staff = "Second_Violin_Staff_II"
-                        { \segment.05.Second.Violin.Staff.II }
+                        \context Staff = "Second.Violin.Staff.2"
+                        { \segment.05.Second.Violin.Staff.2 }
 
                     >>
 
@@ -93,19 +93,19 @@
                     }
                     <<
 
-                        \context Staff = "Viola_Staff_I"
-                        { \segment.05.Viola.Staff.I }
+                        \context Staff = "Viola.Staff.1"
+                        { \segment.05.Viola.Staff.1 }
 
-                        \context Staff = "Viola_Staff_II"
-                        { \segment.05.Viola.Staff.II }
+                        \context Staff = "Viola.Staff.2"
+                        { \segment.05.Viola.Staff.2 }
 
                     >>
 
-                    \context Staff = "Cello_Staff_I"
-                    { \segment.05.Cello.Staff.I }
+                    \context Staff = "Cello.Staff.1"
+                    { \segment.05.Cello.Staff.1 }
 
-                    \context Staff = "Contrabass_Staff_II"
-                    { \segment.05.Contrabass.Staff.II }
+                    \context Staff = "Contrabass.Staff.2"
+                    { \segment.05.Contrabass.Staff.2 }
 
                 >>
 

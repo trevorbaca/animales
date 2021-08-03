@@ -37,16 +37,16 @@
                 \context StaffGroup = "Piano_Piano_Staff"
                 <<
 
-                    \context Staff = "Piano_Staff_I"
-                    { \segment.30.Piano.Staff.I }
+                    \context Staff = "Piano.Staff.1"
+                    { \segment.30.Piano.Staff.1 }
 
                 >>
 
                 \context StaffGroup = "Percussion_Staff_Group"
                 <<
 
-                    \context Staff = "Percussion_Staff_IV"
-                    { \segment.30.Percussion.Staff.IV }
+                    \context Staff = "Percussion.Staff.4"
+                    { \segment.30.Percussion.Staff.4 }
 
                 >>
 

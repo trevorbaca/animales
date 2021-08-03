@@ -68,9 +68,9 @@ segment.09.Global.Skips = {
 }
 
 
-segment.09.Clarinet.Voice.I.1 = {
+segment.09.Clarinet.Voice.1.part.1 = {
 
-    % [Clarinet_Voice_I measure 50 / measure 1]
+    % [Clarinet.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
     \clef "treble"
@@ -94,13 +94,13 @@ segment.09.Clarinet.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Clarinet_Voice_I measure 51 / measure 2]
+    % [Clarinet.Voice.1 measure 51 / measure 2]
     g''1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [Clarinet_Voice_I measure 52 / measure 3]
+    % [Clarinet.Voice.1 measure 52 / measure 3]
     g''2.
     - \tweak color #(x11-color 'blue)
     \ff
@@ -109,20 +109,20 @@ segment.09.Clarinet.Voice.I.1 = {
 
     <<
 
-        \context Voice = "Clarinet_Voice_I"
+        \context Voice = "Clarinet.Voice.1"
         {
 
-            % [Clarinet_Voice_I measure 53 / measure 4]
+            % [Clarinet.Voice.1 measure 53 / measure 4]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 3/4
 
         }
 
-        \context Voice = "Clarinet_Rest_Voice_I"
+        \context Voice = "Clarinet.Rest_Voice.1"
         {
 
-            % [Clarinet_Rest_Voice_I measure 53 / measure 4]
+            % [Clarinet.Rest_Voice.1 measure 53 / measure 4]
         %%% \once \override MultiMeasureRestText.extra-offset = #'(-6 . 0)
             R1 * 3/4
             ^ \animales-choke-sound-suddenly-explanation-markup
@@ -131,34 +131,34 @@ segment.09.Clarinet.Voice.I.1 = {
 
     >>
 
-    % [Clarinet_Voice_I measure 54 / measure 5]
+    % [Clarinet.Voice.1 measure 54 / measure 5]
     R1 * 1
 
-    % [Clarinet_Voice_I measure 55 / measure 6]
+    % [Clarinet.Voice.1 measure 55 / measure 6]
     R1 * 1
 
 }
 
 
-segment.09.Clarinet.Voice.I = {
+segment.09.Clarinet.Voice.1 = {
 
-    { \segment.09.Clarinet.Voice.I.1 }
+    { \segment.09.Clarinet.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Clarinet_Voice_I"
+        \context Voice = "Clarinet.Voice.1"
         {
 
-            % [Clarinet_Voice_I measure 56 / measure 7]
+            % [Clarinet.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Clarinet_Rest_Voice_I"
+        \context Voice = "Clarinet.Rest_Voice.1"
         {
 
-            % [Clarinet_Rest_Voice_I measure 56 / measure 7]
+            % [Clarinet.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -173,17 +173,17 @@ segment.09.Clarinet.Voice.I = {
 }
 
 
-segment.09.Clarinet.Staff.I = {
+segment.09.Clarinet.Staff.1 = {
 
-    \context Voice = "Clarinet_Voice_I"
-    { \segment.09.Clarinet.Voice.I }
+    \context Voice = "Clarinet.Voice.1"
+    { \segment.09.Clarinet.Voice.1 }
 
 }
 
 
-segment.09.Bass.Clarinet.Voice.I.1 = {
+segment.09.Bass.Clarinet.Voice.1.part.1 = {
 
-    % [Bass_Clarinet_Voice_I measure 50 / measure 1]
+    % [Bass.Clarinet.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
     \set Staff.instrumentName = \markup \hcenter-in #16 "B. cl."
     \clef "treble"
@@ -208,31 +208,31 @@ segment.09.Bass.Clarinet.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Bass_Clarinet_Voice_I measure 51 / measure 2]
+    % [Bass.Clarinet.Voice.1 measure 51 / measure 2]
     b1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [Bass_Clarinet_Voice_I measure 52 / measure 3]
+    % [Bass.Clarinet.Voice.1 measure 52 / measure 3]
     b2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [Bass_Clarinet_Voice_I measure 53 / measure 4]
+    % [Bass.Clarinet.Voice.1 measure 53 / measure 4]
     b2.
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [Bass_Clarinet_Voice_I measure 54 / measure 5]
+    % [Bass.Clarinet.Voice.1 measure 54 / measure 5]
     b1
     \repeatTie
     - \tweak stencil ##f
     ~
 
-    % [Bass_Clarinet_Voice_I measure 55 / measure 6]
+    % [Bass.Clarinet.Voice.1 measure 55 / measure 6]
     b1
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
@@ -240,26 +240,26 @@ segment.09.Bass.Clarinet.Voice.I.1 = {
 }
 
 
-segment.09.Bass.Clarinet.Voice.I = {
+segment.09.Bass.Clarinet.Voice.1 = {
 
-    { \segment.09.Bass.Clarinet.Voice.I.1 }
+    { \segment.09.Bass.Clarinet.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Bass_Clarinet_Voice_I"
+        \context Voice = "Bass.Clarinet.Voice.1"
         {
 
-            % [Bass_Clarinet_Voice_I measure 56 / measure 7]
+            % [Bass.Clarinet.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
 
         }
 
-        \context Voice = "Bass_Clarinet_Rest_Voice_I"
+        \context Voice = "Bass.Clarinet.Rest_Voice.1"
         {
 
-            % [Bass_Clarinet_Rest_Voice_I measure 56 / measure 7]
+            % [Bass.Clarinet.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -274,17 +274,17 @@ segment.09.Bass.Clarinet.Voice.I = {
 }
 
 
-segment.09.Bass.Clarinet.Staff.I = {
+segment.09.Bass.Clarinet.Staff.1 = {
 
-    \context Voice = "Bass_Clarinet_Voice_I"
-    { \segment.09.Bass.Clarinet.Voice.I }
+    \context Voice = "Bass.Clarinet.Voice.1"
+    { \segment.09.Bass.Clarinet.Voice.1 }
 
 }
 
 
-segment.09.Piano.Voice.I.1 = {
+segment.09.Piano.Voice.1.part.1 = {
 
-    % [Piano_Voice_I measure 50 / measure 1]
+    % [Piano.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
     \clef "treble"
@@ -313,10 +313,10 @@ segment.09.Piano.Voice.I.1 = {
 
     }
 
-    % [Piano_Voice_I measure 51 / measure 2]
+    % [Piano.Voice.1 measure 51 / measure 2]
     r1
 
-    % [Piano_Voice_I measure 52 / measure 3]
+    % [Piano.Voice.1 measure 52 / measure 3]
     r2
 
     \times 2/3
@@ -330,38 +330,38 @@ segment.09.Piano.Voice.I.1 = {
 
     }
 
-    % [Piano_Voice_I measure 53 / measure 4]
+    % [Piano.Voice.1 measure 53 / measure 4]
     r2.
 
-    % [Piano_Voice_I measure 54 / measure 5]
+    % [Piano.Voice.1 measure 54 / measure 5]
     r1
 
-    % [Piano_Voice_I measure 55 / measure 6]
+    % [Piano.Voice.1 measure 55 / measure 6]
     r1
 
 }
 
 
-segment.09.Piano.Voice.I = {
+segment.09.Piano.Voice.1 = {
 
-    { \segment.09.Piano.Voice.I.1 }
+    { \segment.09.Piano.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Piano_Voice_I"
+        \context Voice = "Piano.Voice.1"
         {
 
-            % [Piano_Voice_I measure 56 / measure 7]
+            % [Piano.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
 
         }
 
-        \context Voice = "Piano_Rest_Voice_I"
+        \context Voice = "Piano.Rest_Voice.1"
         {
 
-            % [Piano_Rest_Voice_I measure 56 / measure 7]
+            % [Piano.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -376,17 +376,17 @@ segment.09.Piano.Voice.I = {
 }
 
 
-segment.09.Piano.Staff.I = {
+segment.09.Piano.Staff.1 = {
 
-    \context Voice = "Piano_Voice_I"
-    { \segment.09.Piano.Voice.I }
+    \context Voice = "Piano.Voice.1"
+    { \segment.09.Piano.Voice.1 }
 
 }
 
 
-segment.09.Harp.Voice.I.1 = {
+segment.09.Harp.Voice.1.part.1 = {
 
-    % [Harp_Voice_I measure 50 / measure 1]
+    % [Harp.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Hp."
     \clef "treble"
@@ -413,10 +413,10 @@ segment.09.Harp.Voice.I.1 = {
 
     }
 
-    % [Harp_Voice_I measure 51 / measure 2]
+    % [Harp.Voice.1 measure 51 / measure 2]
     r1
 
-    % [Harp_Voice_I measure 52 / measure 3]
+    % [Harp.Voice.1 measure 52 / measure 3]
     r4
 
     \times 2/3
@@ -432,13 +432,13 @@ segment.09.Harp.Voice.I.1 = {
 
     r4
 
-    % [Harp_Voice_I measure 53 / measure 4]
+    % [Harp.Voice.1 measure 53 / measure 4]
     r2.
 
-    % [Harp_Voice_I measure 54 / measure 5]
+    % [Harp.Voice.1 measure 54 / measure 5]
     r1
 
-    % [Harp_Voice_I measure 55 / measure 6]
+    % [Harp.Voice.1 measure 55 / measure 6]
     r2.
 
     \times 2/3
@@ -455,26 +455,26 @@ segment.09.Harp.Voice.I.1 = {
 }
 
 
-segment.09.Harp.Voice.I = {
+segment.09.Harp.Voice.1 = {
 
-    { \segment.09.Harp.Voice.I.1 }
+    { \segment.09.Harp.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Harp_Voice_I"
+        \context Voice = "Harp.Voice.1"
         {
 
-            % [Harp_Voice_I measure 56 / measure 7]
+            % [Harp.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
 
         }
 
-        \context Voice = "Harp_Rest_Voice_I"
+        \context Voice = "Harp.Rest_Voice.1"
         {
 
-            % [Harp_Rest_Voice_I measure 56 / measure 7]
+            % [Harp.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -489,17 +489,17 @@ segment.09.Harp.Voice.I = {
 }
 
 
-segment.09.Harp.Staff.I = {
+segment.09.Harp.Staff.1 = {
 
-    \context Voice = "Harp_Voice_I"
-    { \segment.09.Harp.Voice.I }
+    \context Voice = "Harp.Voice.1"
+    { \segment.09.Harp.Voice.1 }
 
 }
 
 
-segment.09.Percussion.Voice.II.1 = {
+segment.09.Percussion.Voice.2.part.1 = {
 
-    % [Percussion_Voice_II measure 50 / measure 1]
+    % [Percussion.Voice.2 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     \stopStaff
@@ -520,43 +520,43 @@ segment.09.Percussion.Voice.II.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_II measure 51 / measure 2]
+    % [Percussion.Voice.2 measure 51 / measure 2]
     R1 * 4/4
 
-    % [Percussion_Voice_II measure 52 / measure 3]
+    % [Percussion.Voice.2 measure 52 / measure 3]
     R1 * 3/4
 
-    % [Percussion_Voice_II measure 53 / measure 4]
+    % [Percussion.Voice.2 measure 53 / measure 4]
     R1 * 3/4
 
-    % [Percussion_Voice_II measure 54 / measure 5]
+    % [Percussion.Voice.2 measure 54 / measure 5]
     R1 * 4/4
 
-    % [Percussion_Voice_II measure 55 / measure 6]
+    % [Percussion.Voice.2 measure 55 / measure 6]
     R1 * 4/4
 
 }
 
 
-segment.09.Percussion.Voice.II = {
+segment.09.Percussion.Voice.2 = {
 
-    { \segment.09.Percussion.Voice.II.1 }
+    { \segment.09.Percussion.Voice.2.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_II"
+        \context Voice = "Percussion.Voice.2"
         {
 
-            % [Percussion_Voice_II measure 56 / measure 7]
+            % [Percussion.Voice.2 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_II"
+        \context Voice = "Percussion.Rest_Voice.2"
         {
 
-            % [Percussion_Rest_Voice_II measure 56 / measure 7]
+            % [Percussion.Rest_Voice.2 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -571,17 +571,17 @@ segment.09.Percussion.Voice.II = {
 }
 
 
-segment.09.Percussion.Staff.II = {
+segment.09.Percussion.Staff.2 = {
 
-    \context Voice = "Percussion_Voice_II"
-    { \segment.09.Percussion.Voice.II }
+    \context Voice = "Percussion.Voice.2"
+    { \segment.09.Percussion.Voice.2 }
 
 }
 
 
-segment.09.Percussion.Voice.III.1 = {
+segment.09.Percussion.Voice.3.part.1 = {
 
-    % [Percussion_Voice_III measure 50 / measure 1]
+    % [Percussion.Voice.3 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
     \clef "treble"
@@ -600,7 +600,7 @@ segment.09.Percussion.Voice.III.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_III measure 51 / measure 2]
+        % [Percussion.Voice.3 measure 51 / measure 2]
         c''8
         \laissezVibrer
 
@@ -610,13 +610,13 @@ segment.09.Percussion.Voice.III.1 = {
 
     r2.
 
-    % [Percussion_Voice_III measure 52 / measure 3]
+    % [Percussion.Voice.3 measure 52 / measure 3]
     r2.
 
-    % [Percussion_Voice_III measure 53 / measure 4]
+    % [Percussion.Voice.3 measure 53 / measure 4]
     r2.
 
-    % [Percussion_Voice_III measure 54 / measure 5]
+    % [Percussion.Voice.3 measure 54 / measure 5]
     r4
 
     \times 2/3
@@ -631,32 +631,32 @@ segment.09.Percussion.Voice.III.1 = {
 
     r2
 
-    % [Percussion_Voice_III measure 55 / measure 6]
+    % [Percussion.Voice.3 measure 55 / measure 6]
     r1
 
 }
 
 
-segment.09.Percussion.Voice.III = {
+segment.09.Percussion.Voice.3 = {
 
-    { \segment.09.Percussion.Voice.III.1 }
+    { \segment.09.Percussion.Voice.3.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_III"
+        \context Voice = "Percussion.Voice.3"
         {
 
-            % [Percussion_Voice_III measure 56 / measure 7]
+            % [Percussion.Voice.3 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_III"
+        \context Voice = "Percussion.Rest_Voice.3"
         {
 
-            % [Percussion_Rest_Voice_III measure 56 / measure 7]
+            % [Percussion.Rest_Voice.3 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -671,17 +671,17 @@ segment.09.Percussion.Voice.III = {
 }
 
 
-segment.09.Percussion.Staff.III = {
+segment.09.Percussion.Staff.3 = {
 
-    \context Voice = "Percussion_Voice_III"
-    { \segment.09.Percussion.Voice.III }
+    \context Voice = "Percussion.Voice.3"
+    { \segment.09.Percussion.Voice.3 }
 
 }
 
 
-segment.09.First.Violin.Voice.I.1 = {
+segment.09.First.Violin.Voice.1.part.1 = {
 
-    % [First_Violin_Voice_I measure 50 / measure 1]
+    % [First.Violin.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vni. I"
     \clef "treble"
@@ -707,7 +707,7 @@ segment.09.First.Violin.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [First_Violin_Voice_I measure 51 / measure 2]
+    % [First.Violin.Voice.1 measure 51 / measure 2]
     af1
     - \tweak color #(x11-color 'blue)
     \ff
@@ -715,17 +715,17 @@ segment.09.First.Violin.Voice.I.1 = {
     - \tweak stencil ##f
     ~
 
-    % [First_Violin_Voice_I measure 52 / measure 3]
+    % [First.Violin.Voice.1 measure 52 / measure 3]
     af2.
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
-        \context Voice = "First_Violin_Voice_I"
+        \context Voice = "First.Violin.Voice.1"
         {
 
-            % [First_Violin_Voice_I measure 53 / measure 4]
+            % [First.Violin.Voice.1 measure 53 / measure 4]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 3/4
@@ -733,10 +733,10 @@ segment.09.First.Violin.Voice.I.1 = {
 
         }
 
-        \context Voice = "First_Violin_Rest_Voice_I"
+        \context Voice = "First.Violin.Rest_Voice.1"
         {
 
-            % [First_Violin_Rest_Voice_I measure 53 / measure 4]
+            % [First.Violin.Rest_Voice.1 measure 53 / measure 4]
             R1 * 3/4
         %%% ^ \animales-suddenly-ripped-off-markup
             ^ \animales-strings-suddenly-ripped-off-markup
@@ -745,34 +745,34 @@ segment.09.First.Violin.Voice.I.1 = {
 
     >>
 
-    % [First_Violin_Voice_I measure 54 / measure 5]
+    % [First.Violin.Voice.1 measure 54 / measure 5]
     R1 * 1
 
-    % [First_Violin_Voice_I measure 55 / measure 6]
+    % [First.Violin.Voice.1 measure 55 / measure 6]
     R1 * 1
 
 }
 
 
-segment.09.First.Violin.Voice.I = {
+segment.09.First.Violin.Voice.1 = {
 
-    { \segment.09.First.Violin.Voice.I.1 }
+    { \segment.09.First.Violin.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "First_Violin_Voice_I"
+        \context Voice = "First.Violin.Voice.1"
         {
 
-            % [First_Violin_Voice_I measure 56 / measure 7]
+            % [First.Violin.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "First_Violin_Rest_Voice_I"
+        \context Voice = "First.Violin.Rest_Voice.1"
         {
 
-            % [First_Violin_Rest_Voice_I measure 56 / measure 7]
+            % [First.Violin.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -787,17 +787,17 @@ segment.09.First.Violin.Voice.I = {
 }
 
 
-segment.09.First.Violin.Staff.I = {
+segment.09.First.Violin.Staff.1 = {
 
-    \context Voice = "First_Violin_Voice_I"
-    { \segment.09.First.Violin.Voice.I }
+    \context Voice = "First.Violin.Voice.1"
+    { \segment.09.First.Violin.Voice.1 }
 
 }
 
 
-segment.09.Second.Violin.Voice.I.1 = {
+segment.09.Second.Violin.Voice.1.part.1 = {
 
-    % [Second_Violin_Voice_I measure 50 / measure 1]
+    % [Second.Violin.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vni. II"
     \clef "treble"
@@ -823,7 +823,7 @@ segment.09.Second.Violin.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Second_Violin_Voice_I measure 51 / measure 2]
+    % [Second.Violin.Voice.1 measure 51 / measure 2]
     af1
     - \tweak color #(x11-color 'blue)
     \ff
@@ -831,17 +831,17 @@ segment.09.Second.Violin.Voice.I.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Second_Violin_Voice_I measure 52 / measure 3]
+    % [Second.Violin.Voice.1 measure 52 / measure 3]
     af2.
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
-        \context Voice = "Second_Violin_Voice_I"
+        \context Voice = "Second.Violin.Voice.1"
         {
 
-            % [Second_Violin_Voice_I measure 53 / measure 4]
+            % [Second.Violin.Voice.1 measure 53 / measure 4]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 3/4
@@ -849,10 +849,10 @@ segment.09.Second.Violin.Voice.I.1 = {
 
         }
 
-        \context Voice = "Second_Violin_Rest_Voice_I"
+        \context Voice = "Second.Violin.Rest_Voice.1"
         {
 
-            % [Second_Violin_Rest_Voice_I measure 53 / measure 4]
+            % [Second.Violin.Rest_Voice.1 measure 53 / measure 4]
             R1 * 3/4
         %%% ^ \animales-suddenly-ripped-off-markup
 
@@ -860,34 +860,34 @@ segment.09.Second.Violin.Voice.I.1 = {
 
     >>
 
-    % [Second_Violin_Voice_I measure 54 / measure 5]
+    % [Second.Violin.Voice.1 measure 54 / measure 5]
     R1 * 1
 
-    % [Second_Violin_Voice_I measure 55 / measure 6]
+    % [Second.Violin.Voice.1 measure 55 / measure 6]
     R1 * 1
 
 }
 
 
-segment.09.Second.Violin.Voice.I = {
+segment.09.Second.Violin.Voice.1 = {
 
-    { \segment.09.Second.Violin.Voice.I.1 }
+    { \segment.09.Second.Violin.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Second_Violin_Voice_I"
+        \context Voice = "Second.Violin.Voice.1"
         {
 
-            % [Second_Violin_Voice_I measure 56 / measure 7]
+            % [Second.Violin.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Second_Violin_Rest_Voice_I"
+        \context Voice = "Second.Violin.Rest_Voice.1"
         {
 
-            % [Second_Violin_Rest_Voice_I measure 56 / measure 7]
+            % [Second.Violin.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -902,17 +902,17 @@ segment.09.Second.Violin.Voice.I = {
 }
 
 
-segment.09.Second.Violin.Staff.I = {
+segment.09.Second.Violin.Staff.1 = {
 
-    \context Voice = "Second_Violin_Voice_I"
-    { \segment.09.Second.Violin.Voice.I }
+    \context Voice = "Second.Violin.Voice.1"
+    { \segment.09.Second.Violin.Voice.1 }
 
 }
 
 
-segment.09.Viola.Voice.I.1 = {
+segment.09.Viola.Voice.1.part.1 = {
 
-    % [Viola_Voice_I measure 50 / measure 1]
+    % [Viola.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vle."
     \clef "alto"
@@ -938,7 +938,7 @@ segment.09.Viola.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Viola_Voice_I measure 51 / measure 2]
+    % [Viola.Voice.1 measure 51 / measure 2]
     af1
     - \tweak color #(x11-color 'blue)
     \ff
@@ -946,17 +946,17 @@ segment.09.Viola.Voice.I.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Viola_Voice_I measure 52 / measure 3]
+    % [Viola.Voice.1 measure 52 / measure 3]
     af2.
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
-        \context Voice = "Viola_Voice_I"
+        \context Voice = "Viola.Voice.1"
         {
 
-            % [Viola_Voice_I measure 53 / measure 4]
+            % [Viola.Voice.1 measure 53 / measure 4]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 3/4
@@ -964,10 +964,10 @@ segment.09.Viola.Voice.I.1 = {
 
         }
 
-        \context Voice = "Viola_Rest_Voice_I"
+        \context Voice = "Viola.Rest_Voice.1"
         {
 
-            % [Viola_Rest_Voice_I measure 53 / measure 4]
+            % [Viola.Rest_Voice.1 measure 53 / measure 4]
             R1 * 3/4
         %%% ^ \animales-suddenly-ripped-off-markup
 
@@ -975,34 +975,34 @@ segment.09.Viola.Voice.I.1 = {
 
     >>
 
-    % [Viola_Voice_I measure 54 / measure 5]
+    % [Viola.Voice.1 measure 54 / measure 5]
     R1 * 1
 
-    % [Viola_Voice_I measure 55 / measure 6]
+    % [Viola.Voice.1 measure 55 / measure 6]
     R1 * 1
 
 }
 
 
-segment.09.Viola.Voice.I = {
+segment.09.Viola.Voice.1 = {
 
-    { \segment.09.Viola.Voice.I.1 }
+    { \segment.09.Viola.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Viola_Voice_I"
+        \context Voice = "Viola.Voice.1"
         {
 
-            % [Viola_Voice_I measure 56 / measure 7]
+            % [Viola.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Viola_Rest_Voice_I"
+        \context Voice = "Viola.Rest_Voice.1"
         {
 
-            % [Viola_Rest_Voice_I measure 56 / measure 7]
+            % [Viola.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1017,17 +1017,17 @@ segment.09.Viola.Voice.I = {
 }
 
 
-segment.09.Viola.Staff.I = {
+segment.09.Viola.Staff.1 = {
 
-    \context Voice = "Viola_Voice_I"
-    { \segment.09.Viola.Voice.I }
+    \context Voice = "Viola.Voice.1"
+    { \segment.09.Viola.Voice.1 }
 
 }
 
 
-segment.09.Cello.Voice.I.1 = {
+segment.09.Cello.Voice.1.part.1 = {
 
-    % [Cello_Voice_I measure 50 / measure 1]
+    % [Cello.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
     \clef "bass"
@@ -1053,7 +1053,7 @@ segment.09.Cello.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Cello_Voice_I measure 51 / measure 2]
+    % [Cello.Voice.1 measure 51 / measure 2]
     af1
     - \tweak color #(x11-color 'blue)
     \ff
@@ -1061,17 +1061,17 @@ segment.09.Cello.Voice.I.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Cello_Voice_I measure 52 / measure 3]
+    % [Cello.Voice.1 measure 52 / measure 3]
     af2.
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
-        \context Voice = "Cello_Voice_I"
+        \context Voice = "Cello.Voice.1"
         {
 
-            % [Cello_Voice_I measure 53 / measure 4]
+            % [Cello.Voice.1 measure 53 / measure 4]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 3/4
@@ -1079,10 +1079,10 @@ segment.09.Cello.Voice.I.1 = {
 
         }
 
-        \context Voice = "Cello_Rest_Voice_I"
+        \context Voice = "Cello.Rest_Voice.1"
         {
 
-            % [Cello_Rest_Voice_I measure 53 / measure 4]
+            % [Cello.Rest_Voice.1 measure 53 / measure 4]
             R1 * 3/4
         %%% ^ \animales-suddenly-ripped-off-markup
 
@@ -1090,34 +1090,34 @@ segment.09.Cello.Voice.I.1 = {
 
     >>
 
-    % [Cello_Voice_I measure 54 / measure 5]
+    % [Cello.Voice.1 measure 54 / measure 5]
     R1 * 1
 
-    % [Cello_Voice_I measure 55 / measure 6]
+    % [Cello.Voice.1 measure 55 / measure 6]
     R1 * 1
 
 }
 
 
-segment.09.Cello.Voice.I = {
+segment.09.Cello.Voice.1 = {
 
-    { \segment.09.Cello.Voice.I.1 }
+    { \segment.09.Cello.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Cello_Voice_I"
+        \context Voice = "Cello.Voice.1"
         {
 
-            % [Cello_Voice_I measure 56 / measure 7]
+            % [Cello.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Cello_Rest_Voice_I"
+        \context Voice = "Cello.Rest_Voice.1"
         {
 
-            % [Cello_Rest_Voice_I measure 56 / measure 7]
+            % [Cello.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1132,17 +1132,17 @@ segment.09.Cello.Voice.I = {
 }
 
 
-segment.09.Cello.Staff.I = {
+segment.09.Cello.Staff.1 = {
 
-    \context Voice = "Cello_Voice_I"
-    { \segment.09.Cello.Voice.I }
+    \context Voice = "Cello.Voice.1"
+    { \segment.09.Cello.Voice.1 }
 
 }
 
 
-segment.09.Contrabass.Voice.I.1 = {
+segment.09.Contrabass.Voice.1.part.1 = {
 
-    % [Contrabass_Voice_I measure 50 / measure 1]
+    % [Contrabass.Voice.1 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
     \clef "treble"
@@ -1158,7 +1158,7 @@ segment.09.Contrabass.Voice.I.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Contrabass_Voice_I measure 51 / measure 2]
+    % [Contrabass.Voice.1 measure 51 / measure 2]
     r2
 
     \times 2/3
@@ -1175,13 +1175,13 @@ segment.09.Contrabass.Voice.I.1 = {
 
     r4
 
-    % [Contrabass_Voice_I measure 52 / measure 3]
+    % [Contrabass.Voice.1 measure 52 / measure 3]
     r2.
 
-    % [Contrabass_Voice_I measure 53 / measure 4]
+    % [Contrabass.Voice.1 measure 53 / measure 4]
     r2.
 
-    % [Contrabass_Voice_I measure 54 / measure 5]
+    % [Contrabass.Voice.1 measure 54 / measure 5]
     r2
 
     \times 2/3
@@ -1197,32 +1197,32 @@ segment.09.Contrabass.Voice.I.1 = {
 
     r4
 
-    % [Contrabass_Voice_I measure 55 / measure 6]
+    % [Contrabass.Voice.1 measure 55 / measure 6]
     r1
 
 }
 
 
-segment.09.Contrabass.Voice.I = {
+segment.09.Contrabass.Voice.1 = {
 
-    { \segment.09.Contrabass.Voice.I.1 }
+    { \segment.09.Contrabass.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Contrabass_Voice_I"
+        \context Voice = "Contrabass.Voice.1"
         {
 
-            % [Contrabass_Voice_I measure 56 / measure 7]
+            % [Contrabass.Voice.1 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
 
         }
 
-        \context Voice = "Contrabass_Rest_Voice_I"
+        \context Voice = "Contrabass.Rest_Voice.1"
         {
 
-            % [Contrabass_Rest_Voice_I measure 56 / measure 7]
+            % [Contrabass.Rest_Voice.1 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1237,17 +1237,17 @@ segment.09.Contrabass.Voice.I = {
 }
 
 
-segment.09.Contrabass.Staff.I = {
+segment.09.Contrabass.Staff.1 = {
 
-    \context Voice = "Contrabass_Voice_I"
-    { \segment.09.Contrabass.Voice.I }
+    \context Voice = "Contrabass.Voice.1"
+    { \segment.09.Contrabass.Voice.1 }
 
 }
 
 
-segment.09.Contrabass.Voice.III.1 = {
+segment.09.Contrabass.Voice.3.part.1 = {
 
-    % [Contrabass_Voice_III measure 50 / measure 1]
+    % [Contrabass.Voice.3 measure 50 / measure 1]
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
     \clef "bass"
@@ -1271,7 +1271,7 @@ segment.09.Contrabass.Voice.III.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Contrabass_Voice_III measure 51 / measure 2]
+    % [Contrabass.Voice.3 measure 51 / measure 2]
     af,1
     - \tweak color #(x11-color 'blue)
     \ff
@@ -1279,27 +1279,27 @@ segment.09.Contrabass.Voice.III.1 = {
     - \tweak stencil ##f
     ~
 
-    % [Contrabass_Voice_III measure 52 / measure 3]
+    % [Contrabass.Voice.3 measure 52 / measure 3]
     af,2.
     \repeatTie
     <> \bacaStopTextSpanRhythmAnnotation
 
     <<
 
-        \context Voice = "Contrabass_Voice_III"
+        \context Voice = "Contrabass.Voice.3"
         {
 
-            % [Contrabass_Voice_III measure 53 / measure 4]
+            % [Contrabass.Voice.3 measure 53 / measure 4]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 3/4
 
         }
 
-        \context Voice = "Contrabass_Rest_Voice_III"
+        \context Voice = "Contrabass.Rest_Voice.3"
         {
 
-            % [Contrabass_Rest_Voice_III measure 53 / measure 4]
+            % [Contrabass.Rest_Voice.3 measure 53 / measure 4]
             R1 * 3/4
         %%% ^ \animales-suddenly-ripped-off-markup
 
@@ -1307,34 +1307,34 @@ segment.09.Contrabass.Voice.III.1 = {
 
     >>
 
-    % [Contrabass_Voice_III measure 54 / measure 5]
+    % [Contrabass.Voice.3 measure 54 / measure 5]
     R1 * 1
 
-    % [Contrabass_Voice_III measure 55 / measure 6]
+    % [Contrabass.Voice.3 measure 55 / measure 6]
     R1 * 1
 
 }
 
 
-segment.09.Contrabass.Voice.III = {
+segment.09.Contrabass.Voice.3 = {
 
-    { \segment.09.Contrabass.Voice.III.1 }
+    { \segment.09.Contrabass.Voice.3.part.1 }
 
     <<
 
-        \context Voice = "Contrabass_Voice_III"
+        \context Voice = "Contrabass.Voice.3"
         {
 
-            % [Contrabass_Voice_III measure 56 / measure 7]
+            % [Contrabass.Voice.3 measure 56 / measure 7]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
         }
 
-        \context Voice = "Contrabass_Rest_Voice_III"
+        \context Voice = "Contrabass.Rest_Voice.3"
         {
 
-            % [Contrabass_Rest_Voice_III measure 56 / measure 7]
+            % [Contrabass.Rest_Voice.3 measure 56 / measure 7]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1349,9 +1349,9 @@ segment.09.Contrabass.Voice.III = {
 }
 
 
-segment.09.Contrabass.Staff.II = {
+segment.09.Contrabass.Staff.2 = {
 
-    \context Voice = "Contrabass_Voice_III"
-    { \segment.09.Contrabass.Voice.III }
+    \context Voice = "Contrabass.Voice.3"
+    { \segment.09.Contrabass.Voice.3 }
 
 }

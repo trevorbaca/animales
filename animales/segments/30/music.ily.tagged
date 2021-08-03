@@ -500,10 +500,10 @@ segment.30.Global.Skips = {
 
 
 %! baca.path.extern()
-segment.30.Piano.Voice.I.1 = {
+segment.30.Piano.Voice.1.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 165 / measure 1]
+    % [Piano.Voice.1 measure 165 / measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -613,7 +613,7 @@ segment.30.Piano.Voice.I.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 166 / measure 2]
+    % [Piano.Voice.1 measure 166 / measure 2]
     %! baca.make_notes()
     cs'!2.
     %! baca.laissez_vibrer()
@@ -621,7 +621,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 167 / measure 3]
+    % [Piano.Voice.1 measure 167 / measure 3]
     %! baca.make_notes()
     cs'!1
     %! baca.laissez_vibrer()
@@ -629,7 +629,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 168 / measure 4]
+    % [Piano.Voice.1 measure 168 / measure 4]
     %! baca.make_notes()
     cs'!1
     %! baca.laissez_vibrer()
@@ -637,7 +637,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 169 / measure 5]
+    % [Piano.Voice.1 measure 169 / measure 5]
     %! baca.make_notes()
     cs'!1
     %! baca.laissez_vibrer()
@@ -645,7 +645,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 170 / measure 6]
+    % [Piano.Voice.1 measure 170 / measure 6]
     %! baca.make_notes()
     cs'!2.
     %! baca.laissez_vibrer()
@@ -653,7 +653,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 171 / measure 7]
+    % [Piano.Voice.1 measure 171 / measure 7]
     %! baca.make_notes()
     cs'!2.
     %! baca.laissez_vibrer()
@@ -661,7 +661,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 172 / measure 8]
+    % [Piano.Voice.1 measure 172 / measure 8]
     %! baca.make_notes()
     cs'!1
     %! baca.laissez_vibrer()
@@ -669,7 +669,7 @@ segment.30.Piano.Voice.I.1 = {
     \laissezVibrer
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Piano_Voice_I measure 173 / measure 9]
+    % [Piano.Voice.1 measure 173 / measure 9]
     %! baca.make_notes()
     cs'!1
     %! baca.laissez_vibrer()
@@ -692,12 +692,12 @@ segment.30.Piano.Voice.I.1 = {
     <<
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
-        \context Voice = "Piano_Voice_I"
+        \context Voice = "Piano.Voice.1"
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Piano_Voice_I measure 174 / measure 10]
+            % [Piano.Voice.1 measure 174 / measure 10]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -737,12 +737,12 @@ segment.30.Piano.Voice.I.1 = {
         }
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
-        \context Voice = "Piano_Rest_Voice_I"
+        \context Voice = "Piano.Rest_Voice.1"
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Piano_Rest_Voice_I measure 174 / measure 10]
+            % [Piano.Rest_Voice.1 measure 174 / measure 10]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -764,10 +764,10 @@ segment.30.Piano.Voice.I.1 = {
 
 
 %! baca.path.extern()
-segment.30.Piano.Voice.I = {
+segment.30.Piano.Voice.1 = {
 
     %! baca.path.extern()
-    { \segment.30.Piano.Voice.I.1 }
+    { \segment.30.Piano.Voice.1.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -775,7 +775,7 @@ segment.30.Piano.Voice.I = {
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         %! PHANTOM
-        \context Voice = "Piano_Voice_I"
+        \context Voice = "Piano.Voice.1"
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         %! PHANTOM
         {
@@ -783,7 +783,7 @@ segment.30.Piano.Voice.I = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Piano_Voice_I measure 175 / measure 11]
+            % [Piano.Voice.1 measure 175 / measure 11]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -815,7 +815,7 @@ segment.30.Piano.Voice.I = {
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
         %! PHANTOM
-        \context Voice = "Piano_Rest_Voice_I"
+        \context Voice = "Piano.Rest_Voice.1"
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
         %! PHANTOM
         {
@@ -823,7 +823,7 @@ segment.30.Piano.Voice.I = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Piano_Rest_Voice_I measure 175 / measure 11]
+            % [Piano.Rest_Voice.1 measure 175 / measure 11]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -866,13 +866,13 @@ segment.30.Piano.Voice.I = {
 
 
 %! baca.path.extern()
-segment.30.Piano.Staff.I = {
+segment.30.Piano.Staff.1 = {
 
     %! animales.ScoreTemplate._make_staves()
-    \context Voice = "Piano_Voice_I"
+    \context Voice = "Piano.Voice.1"
     %! animales.ScoreTemplate._make_staves()
     %! baca.path.extern()
-    { \segment.30.Piano.Voice.I }
+    { \segment.30.Piano.Voice.1 }
 
 %! animales.ScoreTemplate._make_staves()
 %! baca.path.extern()
@@ -880,10 +880,10 @@ segment.30.Piano.Staff.I = {
 
 
 %! baca.path.extern()
-segment.30.Percussion.Voice.IV.1 = {
+segment.30.Percussion.Voice.4.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 165 / measure 1]
+    % [Percussion.Voice.4 measure 165 / measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -1036,7 +1036,7 @@ segment.30.Percussion.Voice.IV.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 166 / measure 2]
+    % [Percussion.Voice.4 measure 166 / measure 2]
     %! baca.make_tied_repeated_durations()
     c'4
     %! baca.make_tied_repeated_durations()
@@ -1065,45 +1065,7 @@ segment.30.Percussion.Voice.IV.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 167 / measure 3]
-    %! baca.make_tied_repeated_durations()
-    c'4
-    %! baca.make_tied_repeated_durations()
-    \repeatTie
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
-
-    %! baca.make_tied_repeated_durations()
-    c'4
-    %! baca.make_tied_repeated_durations()
-    \repeatTie
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
-
-    %! baca.make_tied_repeated_durations()
-    c'4
-    %! baca.make_tied_repeated_durations()
-    \repeatTie
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
-
-    %! baca.make_tied_repeated_durations()
-    c'4
-    %! baca.make_tied_repeated_durations()
-    \repeatTie
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 168 / measure 4]
+    % [Percussion.Voice.4 measure 167 / measure 3]
     %! baca.make_tied_repeated_durations()
     c'4
     %! baca.make_tied_repeated_durations()
@@ -1141,7 +1103,7 @@ segment.30.Percussion.Voice.IV.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 169 / measure 5]
+    % [Percussion.Voice.4 measure 168 / measure 4]
     %! baca.make_tied_repeated_durations()
     c'4
     %! baca.make_tied_repeated_durations()
@@ -1179,7 +1141,7 @@ segment.30.Percussion.Voice.IV.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 170 / measure 6]
+    % [Percussion.Voice.4 measure 169 / measure 5]
     %! baca.make_tied_repeated_durations()
     c'4
     %! baca.make_tied_repeated_durations()
@@ -1189,26 +1151,6 @@ segment.30.Percussion.Voice.IV.1 = {
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
 
-    %! baca.make_tied_repeated_durations()
-    c'4
-    %! baca.make_tied_repeated_durations()
-    \repeatTie
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
-
-    %! baca.make_tied_repeated_durations()
-    c'4
-    %! baca.make_tied_repeated_durations()
-    \repeatTie
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca.SegmentMaker._attach_shadow_tie_indicators()
-    ~
-
-    %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 171 / measure 7]
     %! baca.make_tied_repeated_durations()
     c'4
     %! baca.make_tied_repeated_durations()
@@ -1237,7 +1179,65 @@ segment.30.Percussion.Voice.IV.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 172 / measure 8]
+    % [Percussion.Voice.4 measure 170 / measure 6]
+    %! baca.make_tied_repeated_durations()
+    c'4
+    %! baca.make_tied_repeated_durations()
+    \repeatTie
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~
+
+    %! baca.make_tied_repeated_durations()
+    c'4
+    %! baca.make_tied_repeated_durations()
+    \repeatTie
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~
+
+    %! baca.make_tied_repeated_durations()
+    c'4
+    %! baca.make_tied_repeated_durations()
+    \repeatTie
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Percussion.Voice.4 measure 171 / measure 7]
+    %! baca.make_tied_repeated_durations()
+    c'4
+    %! baca.make_tied_repeated_durations()
+    \repeatTie
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~
+
+    %! baca.make_tied_repeated_durations()
+    c'4
+    %! baca.make_tied_repeated_durations()
+    \repeatTie
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~
+
+    %! baca.make_tied_repeated_durations()
+    c'4
+    %! baca.make_tied_repeated_durations()
+    \repeatTie
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~
+
+    %! baca.SegmentMaker._comment_measure_numbers()
+    % [Percussion.Voice.4 measure 172 / measure 8]
     %! baca.make_tied_repeated_durations()
     c'4
     %! baca.make_tied_repeated_durations()
@@ -1283,12 +1283,12 @@ segment.30.Percussion.Voice.IV.1 = {
     <<
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
-        \context Voice = "Percussion_Voice_IV"
+        \context Voice = "Percussion.Voice.4"
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Percussion_Voice_IV measure 173 / measure 9]
+            % [Percussion.Voice.4 measure 173 / measure 9]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -1316,12 +1316,12 @@ segment.30.Percussion.Voice.IV.1 = {
         }
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
-        \context Voice = "Percussion_Rest_Voice_IV"
+        \context Voice = "Percussion.Rest_Voice.4"
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Percussion_Rest_Voice_IV measure 173 / measure 9]
+            % [Percussion.Rest_Voice.4 measure 173 / measure 9]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -1339,7 +1339,7 @@ segment.30.Percussion.Voice.IV.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion_Voice_IV measure 174 / measure 10]
+    % [Percussion.Voice.4 measure 174 / measure 10]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1363,10 +1363,10 @@ segment.30.Percussion.Voice.IV.1 = {
 
 
 %! baca.path.extern()
-segment.30.Percussion.Voice.IV = {
+segment.30.Percussion.Voice.4 = {
 
     %! baca.path.extern()
-    { \segment.30.Percussion.Voice.IV.1 }
+    { \segment.30.Percussion.Voice.4.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1374,7 +1374,7 @@ segment.30.Percussion.Voice.IV = {
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         %! PHANTOM
-        \context Voice = "Percussion_Voice_IV"
+        \context Voice = "Percussion.Voice.4"
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
         %! PHANTOM
         {
@@ -1382,7 +1382,7 @@ segment.30.Percussion.Voice.IV = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion_Voice_IV measure 175 / measure 11]
+            % [Percussion.Voice.4 measure 175 / measure 11]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -1434,7 +1434,7 @@ segment.30.Percussion.Voice.IV = {
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
         %! PHANTOM
-        \context Voice = "Percussion_Rest_Voice_IV"
+        \context Voice = "Percussion.Rest_Voice.4"
         %! baca.SegmentMaker._make_multimeasure_rest_container(6)
         %! PHANTOM
         {
@@ -1442,7 +1442,7 @@ segment.30.Percussion.Voice.IV = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion_Rest_Voice_IV measure 175 / measure 11]
+            % [Percussion.Rest_Voice.4 measure 175 / measure 11]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1485,13 +1485,13 @@ segment.30.Percussion.Voice.IV = {
 
 
 %! baca.path.extern()
-segment.30.Percussion.Staff.IV = {
+segment.30.Percussion.Staff.4 = {
 
     %! animales.ScoreTemplate._make_staves()
-    \context Voice = "Percussion_Voice_IV"
+    \context Voice = "Percussion.Voice.4"
     %! animales.ScoreTemplate._make_staves()
     %! baca.path.extern()
-    { \segment.30.Percussion.Voice.IV }
+    { \segment.30.Percussion.Voice.4 }
 
 %! animales.ScoreTemplate._make_staves()
 %! baca.path.extern()

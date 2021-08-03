@@ -104,7 +104,7 @@ maker(
 maker(
     "1vn2",
     animales.glissando_rhythm(),
-    animales.parts("First_Violin", 1),
+    animales.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
         selector=animales.leaves_in_measure(1, rleak=True),

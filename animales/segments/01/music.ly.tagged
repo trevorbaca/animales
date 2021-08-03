@@ -63,22 +63,22 @@
                 <<
 
                     %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Percussion_Staff_I"
+                    \context Staff = "Percussion.Staff.1"
                     %! animales.ScoreTemplate._make_staves()
                     %! baca.path.extern()
-                    { \segment.01.Percussion.Staff.I }
+                    { \segment.01.Percussion.Staff.1 }
 
                     %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Percussion_Staff_II"
+                    \context Staff = "Percussion.Staff.2"
                     %! animales.ScoreTemplate._make_staves()
                     %! baca.path.extern()
-                    { \segment.01.Percussion.Staff.II }
+                    { \segment.01.Percussion.Staff.2 }
 
                     %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Percussion_Staff_IV"
+                    \context Staff = "Percussion.Staff.4"
                     %! animales.ScoreTemplate._make_staves()
                     %! baca.path.extern()
-                    { \segment.01.Percussion.Staff.IV }
+                    { \segment.01.Percussion.Staff.4 }
 
                 %! baca.ScoreTemplate.make_staff_group()
                 >>
@@ -102,16 +102,16 @@
                     <<
 
                         %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "First_Violin_Staff_I"
+                        \context Staff = "First.Violin.Staff.1"
                         %! animales.ScoreTemplate._make_staves()
                         %! baca.path.extern()
-                        { \segment.01.First.Violin.Staff.I }
+                        { \segment.01.First.Violin.Staff.1 }
 
                         %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "First_Violin_Staff_II"
+                        \context Staff = "First.Violin.Staff.2"
                         %! animales.ScoreTemplate._make_staves()
                         %! baca.path.extern()
-                        { \segment.01.First.Violin.Staff.II }
+                        { \segment.01.First.Violin.Staff.2 }
 
                     %! baca.ScoreTemplate.make_square_staff_group()
                     >>
@@ -130,16 +130,16 @@
                     <<
 
                         %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "Second_Violin_Staff_I"
+                        \context Staff = "Second.Violin.Staff.1"
                         %! animales.ScoreTemplate._make_staves()
                         %! baca.path.extern()
-                        { \segment.01.Second.Violin.Staff.I }
+                        { \segment.01.Second.Violin.Staff.1 }
 
                         %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "Second_Violin_Staff_II"
+                        \context Staff = "Second.Violin.Staff.2"
                         %! animales.ScoreTemplate._make_staves()
                         %! baca.path.extern()
-                        { \segment.01.Second.Violin.Staff.II }
+                        { \segment.01.Second.Violin.Staff.2 }
 
                     %! baca.ScoreTemplate.make_square_staff_group()
                     >>
@@ -158,25 +158,25 @@
                     <<
 
                         %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "Viola_Staff_I"
+                        \context Staff = "Viola.Staff.1"
                         %! animales.ScoreTemplate._make_staves()
                         %! baca.path.extern()
-                        { \segment.01.Viola.Staff.I }
+                        { \segment.01.Viola.Staff.1 }
 
                         %! animales.ScoreTemplate._make_staves()
-                        \context Staff = "Viola_Staff_II"
+                        \context Staff = "Viola.Staff.2"
                         %! animales.ScoreTemplate._make_staves()
                         %! baca.path.extern()
-                        { \segment.01.Viola.Staff.II }
+                        { \segment.01.Viola.Staff.2 }
 
                     %! baca.ScoreTemplate.make_square_staff_group()
                     >>
 
                     %! animales.ScoreTemplate._make_staves()
-                    \context Staff = "Cello_Staff_I"
+                    \context Staff = "Cello.Staff.1"
                     %! animales.ScoreTemplate._make_staves()
                     %! baca.path.extern()
-                    { \segment.01.Cello.Staff.I }
+                    { \segment.01.Cello.Staff.1 }
 
                 %! baca.ScoreTemplate.make_staff_group()
                 >>

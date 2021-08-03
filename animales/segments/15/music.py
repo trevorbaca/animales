@@ -159,7 +159,7 @@ maker(
 
 maker(
     "bcl1",
-    animales.parts("Bass_Clarinet"),
+    animales.parts("Bass.Clarinet"),
     baca.hairpin(
         "p >o niente",
         selector=baca.selectors.leaves((None, 2)),
@@ -270,7 +270,7 @@ maker(
 
 maker(
     "1vn2",
-    animales.parts("First_Violin", 1),
+    animales.parts("First.Violin", 1),
 )
 
 maker(
@@ -306,13 +306,13 @@ maker(
 
 maker(
     "1vn1",
-    animales.parts("First_Violin", (2, 18)),
+    animales.parts("First.Violin", (2, 18)),
     baca.not_parts(baca.voice_two()),
 )
 
 maker(
     "2vn1",
-    animales.parts("Second_Violin"),
+    animales.parts("Second.Violin"),
 )
 
 maker(
@@ -339,14 +339,14 @@ maker(
 )
 
 most_strings = [
-    "Second_Violin_Rest_Voice_I",
-    "Viola_Rest_Voice_I",
-    "Cello_Rest_Voice_I",
-    "Contrabass_Rest_Voice_III",
+    "Second.Violin.Rest_Voice.1",
+    "Viola.Rest_Voice.1",
+    "Cello.Rest_Voice.1",
+    "Contrabass.Rest_Voice.3",
 ]
 
 maker(
-    ("First_Violin_Rest_Voice_I", 4),
+    ("First.Violin.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         literal=True,
