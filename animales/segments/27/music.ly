@@ -24,10 +24,10 @@
             <<
 
                 \context GlobalRests = "Global_Rests"
-                \aa_Global_Rests
+                { \segment.27.Global.Rests }
 
                 \context GlobalSkips = "Global_Skips"
-                \aa_Global_Skips
+                { \segment.27.Global.Skips }
 
             >>
 
@@ -38,16 +38,16 @@
                 <<
 
                     \context Staff = "Percussion_Staff_I"
-                    \aa_Percussion_Staff_I
+                    { \segment.27.Percussion.Staff.I }
 
                     \context Staff = "Percussion_Staff_II"
-                    \aa_Percussion_Staff_II
+                    { \segment.27.Percussion.Staff.II }
 
                     \context Staff = "Percussion_Staff_III"
-                    \aa_Percussion_Staff_III
+                    { \segment.27.Percussion.Staff.III }
 
                     \context Staff = "Percussion_Staff_IV"
-                    \aa_Percussion_Staff_IV
+                    { \segment.27.Percussion.Staff.IV }
 
                 >>
 
@@ -62,31 +62,31 @@
                     <<
 
                         \context Staff = "First_Violin_Staff_I"
-                        \aa_First_Violin_Staff_I
+                        { \segment.27.First.Violin.Staff.I }
 
                         \context Staff = "First_Violin_Staff_II"
-                        \aa_First_Violin_Staff_II
+                        { \segment.27.First.Violin.Staff.II }
 
                         \context Staff = "First_Violin_Staff_III"
-                        \aa_First_Violin_Staff_III
+                        { \segment.27.First.Violin.Staff.III }
 
                         \context Staff = "First_Violin_Staff_IV"
-                        \aa_First_Violin_Staff_IV
+                        { \segment.27.First.Violin.Staff.IV }
 
                         \context Staff = "First_Violin_Staff_V"
-                        \aa_First_Violin_Staff_V
+                        { \segment.27.First.Violin.Staff.V }
 
                         \context Staff = "First_Violin_Staff_VI"
-                        \aa_First_Violin_Staff_VI
+                        { \segment.27.First.Violin.Staff.VI }
 
                         \context Staff = "First_Violin_Staff_VII"
-                        \aa_First_Violin_Staff_VII
+                        { \segment.27.First.Violin.Staff.VII }
 
                         \context Staff = "First_Violin_Staff_VIII"
-                        \aa_First_Violin_Staff_VIII
+                        { \segment.27.First.Violin.Staff.VIII }
 
                         \context Staff = "First_Violin_Staff_IX"
-                        \aa_First_Violin_Staff_IX
+                        { \segment.27.First.Violin.Staff.IX }
 
                     >>
 
@@ -98,31 +98,31 @@
                     <<
 
                         \context Staff = "Second_Violin_Staff_I"
-                        \aa_Second_Violin_Staff_I
+                        { \segment.27.Second.Violin.Staff.I }
 
                         \context Staff = "Second_Violin_Staff_II"
-                        \aa_Second_Violin_Staff_II
+                        { \segment.27.Second.Violin.Staff.II }
 
                         \context Staff = "Second_Violin_Staff_III"
-                        \aa_Second_Violin_Staff_III
+                        { \segment.27.Second.Violin.Staff.III }
 
                         \context Staff = "Second_Violin_Staff_IV"
-                        \aa_Second_Violin_Staff_IV
+                        { \segment.27.Second.Violin.Staff.IV }
 
                         \context Staff = "Second_Violin_Staff_V"
-                        \aa_Second_Violin_Staff_V
+                        { \segment.27.Second.Violin.Staff.V }
 
                         \context Staff = "Second_Violin_Staff_VI"
-                        \aa_Second_Violin_Staff_VI
+                        { \segment.27.Second.Violin.Staff.VI }
 
                         \context Staff = "Second_Violin_Staff_VII"
-                        \aa_Second_Violin_Staff_VII
+                        { \segment.27.Second.Violin.Staff.VII }
 
                         \context Staff = "Second_Violin_Staff_VIII"
-                        \aa_Second_Violin_Staff_VIII
+                        { \segment.27.Second.Violin.Staff.VIII }
 
                         \context Staff = "Second_Violin_Staff_IX"
-                        \aa_Second_Violin_Staff_IX
+                        { \segment.27.Second.Violin.Staff.IX }
 
                     >>
 
@@ -134,31 +134,31 @@
                     <<
 
                         \context Staff = "Viola_Staff_I"
-                        \aa_Viola_Staff_I
+                        { \segment.27.Viola.Staff.I }
 
                         \context Staff = "Viola_Staff_II"
-                        \aa_Viola_Staff_II
+                        { \segment.27.Viola.Staff.II }
 
                         \context Staff = "Viola_Staff_III"
-                        \aa_Viola_Staff_III
+                        { \segment.27.Viola.Staff.III }
 
                         \context Staff = "Viola_Staff_IV"
-                        \aa_Viola_Staff_IV
+                        { \segment.27.Viola.Staff.IV }
 
                         \context Staff = "Viola_Staff_V"
-                        \aa_Viola_Staff_V
+                        { \segment.27.Viola.Staff.V }
 
                         \context Staff = "Viola_Staff_VI"
-                        \aa_Viola_Staff_VI
+                        { \segment.27.Viola.Staff.VI }
 
                         \context Staff = "Viola_Staff_VII"
-                        \aa_Viola_Staff_VII
+                        { \segment.27.Viola.Staff.VII }
 
                         \context Staff = "Viola_Staff_VIII"
-                        \aa_Viola_Staff_VIII
+                        { \segment.27.Viola.Staff.VIII }
 
                         \context Staff = "Viola_Staff_IX"
-                        \aa_Viola_Staff_IX
+                        { \segment.27.Viola.Staff.IX }
 
                     >>
 
@@ -170,30 +170,30 @@
                     <<
 
                         \context Staff = "Cello_Staff_I"
-                        \aa_Cello_Staff_I
+                        { \segment.27.Cello.Staff.I }
 
                         \context Staff = "Cello_Staff_II"
-                        \aa_Cello_Staff_II
+                        { \segment.27.Cello.Staff.II }
 
                         \context Staff = "Cello_Staff_III"
-                        \aa_Cello_Staff_III
+                        { \segment.27.Cello.Staff.III }
 
                         \context Staff = "Cello_Staff_IV"
-                        \aa_Cello_Staff_IV
+                        { \segment.27.Cello.Staff.IV }
 
                         \context Staff = "Cello_Staff_V"
-                        \aa_Cello_Staff_V
+                        { \segment.27.Cello.Staff.V }
 
                         \context Staff = "Cello_Staff_VI"
-                        \aa_Cello_Staff_VI
+                        { \segment.27.Cello.Staff.VI }
 
                         \context Staff = "Cello_Staff_VII"
-                        \aa_Cello_Staff_VII
+                        { \segment.27.Cello.Staff.VII }
 
                     >>
 
                     \context Staff = "Contrabass_Staff_II"
-                    \aa_Contrabass_Staff_II
+                    { \segment.27.Contrabass.Staff.II }
 
                 >>
 
