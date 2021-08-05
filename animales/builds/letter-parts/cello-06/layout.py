@@ -26,15 +26,15 @@ def make_systems(measure_numbers, between_systems=20, after_global_context=0):
 
 breaks = baca.breaks(
     baca.page(
-        *make_systems([1, 9, 16, 24, 33, 41, 49], 24, 4),
+        make_systems([1, 9, 16, 24, 33, 41, 49], 24, 4),
         number=1,
     ),
     baca.page(
-        *make_systems([56, 66, 76, 88, 99, 109, 119], 30, 4),
+        make_systems([56, 66, 76, 88, 99, 109, 119], 30, 4),
         number=2,
     ),
     baca.page(
-        *make_systems([131, 137, 143, 149, 155, 161, 167], 28, 4),
+        make_systems([131, 137, 143, 149, 155, 161, 167], 28, 4),
         number=3,
     ),
 )
