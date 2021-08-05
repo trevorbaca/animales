@@ -27,11 +27,11 @@ def make_systems(measure_numbers, between_systems=20):
 
 breaks = baca.breaks(
     baca.page(
-        *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
+        make_systems([1, 11, 21, 31, 41, 51, 61], 24),
         number=1,
     ),
     baca.page(
-        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
+        make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
         number=2,
     ),
 )
