@@ -16,9 +16,9 @@ def make_systems(measure_numbers, between_systems, global_context_padding):
     for i, measure_number in enumerate(measure_numbers):
         y_offset = top_margin + i * between_systems
         system = baca.system(
-            global_context_padding,
             measure=measure_number,
             y_offset=y_offset,
+            distances=(global_context_padding,),
         )
         systems.append(system)
     return systems
