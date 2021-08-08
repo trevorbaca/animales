@@ -2,17 +2,17 @@
 segment.18.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 119 / measure 1]
+    % [Global_Rests measure 1]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 120 / measure 2]
+    % [Global_Rests measure 2]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 121 / measure 3]
+    % [Global_Rests measure 3]
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -23,27 +23,27 @@ segment.18.Global.Rests = {
     ^ \baca-fermata-markup
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 122 / measure 4]
+    % [Global_Rests measure 4]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 123 / measure 5]
+    % [Global_Rests measure 5]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 124 / measure 6]
+    % [Global_Rests measure 6]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 125 / measure 7]
+    % [Global_Rests measure 7]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 126 / measure 8]
+    % [Global_Rests measure 8]
     %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
     \baca-fermata-measure
@@ -54,29 +54,29 @@ segment.18.Global.Rests = {
     ^ \baca-fermata-markup
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 127 / measure 9]
+    % [Global_Rests measure 9]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 128 / measure 10]
+    % [Global_Rests measure 10]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 129 / measure 11]
+    % [Global_Rests measure 11]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 130 / measure 12]
+    % [Global_Rests measure 12]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
     %! baca.SegmentMaker._style_phantom_measures(4)
     %! PHANTOM
-    % [Global_Rests measure 131 / measure 13]
+    % [Global_Rests measure 13]
     %! baca.SegmentMaker._make_global_rests(2)
     %! PHANTOM
     R1 * 1/4
@@ -90,7 +90,7 @@ segment.18.Global.Rests = {
 segment.18.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 119 / measure 1]
+    % [Global_Skips measure 1]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -152,7 +152,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 120 / measure 2]
+    % [Global_Skips measure 2]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4
     %! LOCAL_MEASURE_NUMBER
@@ -184,7 +184,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 121 / measure 3]
+    % [Global_Skips measure 3]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -223,7 +223,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 122 / measure 4]
+    % [Global_Skips measure 4]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -262,7 +262,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 123 / measure 5]
+    % [Global_Skips measure 5]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1
     %! LOCAL_MEASURE_NUMBER
@@ -294,7 +294,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 124 / measure 6]
+    % [Global_Skips measure 6]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1
     %! LOCAL_MEASURE_NUMBER
@@ -326,7 +326,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 125 / measure 7]
+    % [Global_Skips measure 7]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -365,7 +365,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 126 / measure 8]
+    % [Global_Skips measure 8]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -404,7 +404,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 127 / measure 9]
+    % [Global_Skips measure 9]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -443,7 +443,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 128 / measure 10]
+    % [Global_Skips measure 10]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -482,7 +482,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 129 / measure 11]
+    % [Global_Skips measure 11]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1
     %! LOCAL_MEASURE_NUMBER
@@ -514,7 +514,7 @@ segment.18.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 130 / measure 12]
+    % [Global_Skips measure 12]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
@@ -555,7 +555,7 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     %! baca.SegmentMaker._style_phantom_measures(1)
     %! PHANTOM
-    % [Global_Skips measure 131 / measure 13]
+    % [Global_Skips measure 13]
     %! baca.SegmentMaker._make_global_skips(3)
     %! PHANTOM
     %! baca.SegmentMaker._set_status_tag()
@@ -604,7 +604,7 @@ segment.18.Global.Skips = {
 segment.18.Horn.Voice.1.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 119 / measure 1]
+    % [Horn.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -693,7 +693,7 @@ segment.18.Horn.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Voice.1 measure 120 / measure 2]
+            % [Horn.Voice.1 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -726,7 +726,7 @@ segment.18.Horn.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Rest_Voice.1 measure 120 / measure 2]
+            % [Horn.Rest_Voice.1 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -744,7 +744,7 @@ segment.18.Horn.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 121 / measure 3]
+    % [Horn.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -764,7 +764,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 122 / measure 4]
+    % [Horn.Voice.1 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -772,7 +772,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 123 / measure 5]
+    % [Horn.Voice.1 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -780,7 +780,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 124 / measure 6]
+    % [Horn.Voice.1 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -788,7 +788,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 125 / measure 7]
+    % [Horn.Voice.1 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -796,7 +796,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 126 / measure 8]
+    % [Horn.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -816,7 +816,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 127 / measure 9]
+    % [Horn.Voice.1 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -824,7 +824,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 128 / measure 10]
+    % [Horn.Voice.1 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -832,7 +832,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 129 / measure 11]
+    % [Horn.Voice.1 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -840,7 +840,7 @@ segment.18.Horn.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.1 measure 130 / measure 12]
+    % [Horn.Voice.1 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -871,7 +871,7 @@ segment.18.Horn.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Voice.1 measure 131 / measure 13]
+            % [Horn.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -911,7 +911,7 @@ segment.18.Horn.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Rest_Voice.1 measure 131 / measure 13]
+            % [Horn.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -957,7 +957,7 @@ segment.18.Horn.Voice.1 = {
 segment.18.Horn.Voice.3.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 119 / measure 1]
+    % [Horn.Voice.3 measure 1]
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -996,7 +996,7 @@ segment.18.Horn.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Voice.3 measure 120 / measure 2]
+            % [Horn.Voice.3 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -1029,7 +1029,7 @@ segment.18.Horn.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Rest_Voice.3 measure 120 / measure 2]
+            % [Horn.Rest_Voice.3 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -1047,7 +1047,7 @@ segment.18.Horn.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 121 / measure 3]
+    % [Horn.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1067,7 +1067,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 122 / measure 4]
+    % [Horn.Voice.3 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1075,7 +1075,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 123 / measure 5]
+    % [Horn.Voice.3 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1083,7 +1083,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 124 / measure 6]
+    % [Horn.Voice.3 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1091,7 +1091,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 125 / measure 7]
+    % [Horn.Voice.3 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1099,7 +1099,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 126 / measure 8]
+    % [Horn.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1119,7 +1119,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 127 / measure 9]
+    % [Horn.Voice.3 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1127,7 +1127,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 128 / measure 10]
+    % [Horn.Voice.3 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1135,7 +1135,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 129 / measure 11]
+    % [Horn.Voice.3 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1143,7 +1143,7 @@ segment.18.Horn.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.3 measure 130 / measure 12]
+    % [Horn.Voice.3 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1174,7 +1174,7 @@ segment.18.Horn.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Voice.3 measure 131 / measure 13]
+            % [Horn.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -1214,7 +1214,7 @@ segment.18.Horn.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Rest_Voice.3 measure 131 / measure 13]
+            % [Horn.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1280,7 +1280,7 @@ segment.18.Horn.Staff.1 = <<
 segment.18.Horn.Voice.2.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 119 / measure 1]
+    % [Horn.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -1369,7 +1369,7 @@ segment.18.Horn.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Voice.2 measure 120 / measure 2]
+            % [Horn.Voice.2 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -1402,7 +1402,7 @@ segment.18.Horn.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Rest_Voice.2 measure 120 / measure 2]
+            % [Horn.Rest_Voice.2 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -1420,7 +1420,7 @@ segment.18.Horn.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 121 / measure 3]
+    % [Horn.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1440,7 +1440,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 122 / measure 4]
+    % [Horn.Voice.2 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1448,7 +1448,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 123 / measure 5]
+    % [Horn.Voice.2 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1456,7 +1456,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 124 / measure 6]
+    % [Horn.Voice.2 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1464,7 +1464,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 125 / measure 7]
+    % [Horn.Voice.2 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1472,7 +1472,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 126 / measure 8]
+    % [Horn.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1492,7 +1492,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 127 / measure 9]
+    % [Horn.Voice.2 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1500,7 +1500,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 128 / measure 10]
+    % [Horn.Voice.2 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1508,7 +1508,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 129 / measure 11]
+    % [Horn.Voice.2 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1516,7 +1516,7 @@ segment.18.Horn.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.2 measure 130 / measure 12]
+    % [Horn.Voice.2 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1547,7 +1547,7 @@ segment.18.Horn.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Voice.2 measure 131 / measure 13]
+            % [Horn.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -1587,7 +1587,7 @@ segment.18.Horn.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Rest_Voice.2 measure 131 / measure 13]
+            % [Horn.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1633,7 +1633,7 @@ segment.18.Horn.Voice.2 = {
 segment.18.Horn.Voice.4.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 119 / measure 1]
+    % [Horn.Voice.4 measure 1]
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -1672,7 +1672,7 @@ segment.18.Horn.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Voice.4 measure 120 / measure 2]
+            % [Horn.Voice.4 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -1705,7 +1705,7 @@ segment.18.Horn.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Horn.Rest_Voice.4 measure 120 / measure 2]
+            % [Horn.Rest_Voice.4 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -1723,7 +1723,7 @@ segment.18.Horn.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 121 / measure 3]
+    % [Horn.Voice.4 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1743,7 +1743,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 122 / measure 4]
+    % [Horn.Voice.4 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1751,7 +1751,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 123 / measure 5]
+    % [Horn.Voice.4 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1759,7 +1759,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 124 / measure 6]
+    % [Horn.Voice.4 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1767,7 +1767,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 125 / measure 7]
+    % [Horn.Voice.4 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1775,7 +1775,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 126 / measure 8]
+    % [Horn.Voice.4 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -1795,7 +1795,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 127 / measure 9]
+    % [Horn.Voice.4 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1803,7 +1803,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 128 / measure 10]
+    % [Horn.Voice.4 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1811,7 +1811,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 129 / measure 11]
+    % [Horn.Voice.4 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1819,7 +1819,7 @@ segment.18.Horn.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Horn.Voice.4 measure 130 / measure 12]
+    % [Horn.Voice.4 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1850,7 +1850,7 @@ segment.18.Horn.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Voice.4 measure 131 / measure 13]
+            % [Horn.Voice.4 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -1890,7 +1890,7 @@ segment.18.Horn.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Horn.Rest_Voice.4 measure 131 / measure 13]
+            % [Horn.Rest_Voice.4 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1956,7 +1956,7 @@ segment.18.Horn.Staff.2 = <<
 segment.18.Trumpet.Voice.1.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 119 / measure 1]
+    % [Trumpet.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -2045,7 +2045,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Voice.1 measure 120 / measure 2]
+            % [Trumpet.Voice.1 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -2078,7 +2078,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Rest_Voice.1 measure 120 / measure 2]
+            % [Trumpet.Rest_Voice.1 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -2096,7 +2096,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 121 / measure 3]
+    % [Trumpet.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -2116,7 +2116,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 122 / measure 4]
+    % [Trumpet.Voice.1 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2124,7 +2124,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 123 / measure 5]
+    % [Trumpet.Voice.1 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2132,7 +2132,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 124 / measure 6]
+    % [Trumpet.Voice.1 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2140,7 +2140,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 125 / measure 7]
+    % [Trumpet.Voice.1 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2148,7 +2148,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 126 / measure 8]
+    % [Trumpet.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -2168,7 +2168,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 127 / measure 9]
+    % [Trumpet.Voice.1 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2176,7 +2176,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 128 / measure 10]
+    % [Trumpet.Voice.1 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2184,7 +2184,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 129 / measure 11]
+    % [Trumpet.Voice.1 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2192,7 +2192,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 130 / measure 12]
+    % [Trumpet.Voice.1 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2223,7 +2223,7 @@ segment.18.Trumpet.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Voice.1 measure 131 / measure 13]
+            % [Trumpet.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -2263,7 +2263,7 @@ segment.18.Trumpet.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Rest_Voice.1 measure 131 / measure 13]
+            % [Trumpet.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -2309,7 +2309,7 @@ segment.18.Trumpet.Voice.1 = {
 segment.18.Trumpet.Voice.3.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 119 / measure 1]
+    % [Trumpet.Voice.3 measure 1]
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -2348,7 +2348,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Voice.3 measure 120 / measure 2]
+            % [Trumpet.Voice.3 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -2381,7 +2381,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Rest_Voice.3 measure 120 / measure 2]
+            % [Trumpet.Rest_Voice.3 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -2399,7 +2399,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 121 / measure 3]
+    % [Trumpet.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -2419,7 +2419,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 122 / measure 4]
+    % [Trumpet.Voice.3 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2427,7 +2427,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 123 / measure 5]
+    % [Trumpet.Voice.3 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2435,7 +2435,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 124 / measure 6]
+    % [Trumpet.Voice.3 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2443,7 +2443,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 125 / measure 7]
+    % [Trumpet.Voice.3 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2451,7 +2451,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 126 / measure 8]
+    % [Trumpet.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -2471,7 +2471,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 127 / measure 9]
+    % [Trumpet.Voice.3 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2479,7 +2479,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 128 / measure 10]
+    % [Trumpet.Voice.3 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2487,7 +2487,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 129 / measure 11]
+    % [Trumpet.Voice.3 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2495,7 +2495,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 130 / measure 12]
+    % [Trumpet.Voice.3 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2526,7 +2526,7 @@ segment.18.Trumpet.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Voice.3 measure 131 / measure 13]
+            % [Trumpet.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -2566,7 +2566,7 @@ segment.18.Trumpet.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Rest_Voice.3 measure 131 / measure 13]
+            % [Trumpet.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -2632,7 +2632,7 @@ segment.18.Trumpet.Staff.1 = <<
 segment.18.Trumpet.Voice.2.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 119 / measure 1]
+    % [Trumpet.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -2721,7 +2721,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Voice.2 measure 120 / measure 2]
+            % [Trumpet.Voice.2 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -2754,7 +2754,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Rest_Voice.2 measure 120 / measure 2]
+            % [Trumpet.Rest_Voice.2 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -2772,7 +2772,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 121 / measure 3]
+    % [Trumpet.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -2792,7 +2792,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 122 / measure 4]
+    % [Trumpet.Voice.2 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2800,7 +2800,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 123 / measure 5]
+    % [Trumpet.Voice.2 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2808,7 +2808,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 124 / measure 6]
+    % [Trumpet.Voice.2 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2816,7 +2816,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 125 / measure 7]
+    % [Trumpet.Voice.2 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2824,7 +2824,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 126 / measure 8]
+    % [Trumpet.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -2844,7 +2844,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 127 / measure 9]
+    % [Trumpet.Voice.2 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2852,7 +2852,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 128 / measure 10]
+    % [Trumpet.Voice.2 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2860,7 +2860,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 129 / measure 11]
+    % [Trumpet.Voice.2 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2868,7 +2868,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 130 / measure 12]
+    % [Trumpet.Voice.2 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2899,7 +2899,7 @@ segment.18.Trumpet.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Voice.2 measure 131 / measure 13]
+            % [Trumpet.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -2939,7 +2939,7 @@ segment.18.Trumpet.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Rest_Voice.2 measure 131 / measure 13]
+            % [Trumpet.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -2985,7 +2985,7 @@ segment.18.Trumpet.Voice.2 = {
 segment.18.Trumpet.Voice.4.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 119 / measure 1]
+    % [Trumpet.Voice.4 measure 1]
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -3024,7 +3024,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Voice.4 measure 120 / measure 2]
+            % [Trumpet.Voice.4 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -3057,7 +3057,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trumpet.Rest_Voice.4 measure 120 / measure 2]
+            % [Trumpet.Rest_Voice.4 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -3075,7 +3075,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 121 / measure 3]
+    % [Trumpet.Voice.4 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -3095,7 +3095,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 122 / measure 4]
+    % [Trumpet.Voice.4 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3103,7 +3103,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 123 / measure 5]
+    % [Trumpet.Voice.4 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3111,7 +3111,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 124 / measure 6]
+    % [Trumpet.Voice.4 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3119,7 +3119,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 125 / measure 7]
+    % [Trumpet.Voice.4 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3127,7 +3127,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 126 / measure 8]
+    % [Trumpet.Voice.4 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -3147,7 +3147,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 127 / measure 9]
+    % [Trumpet.Voice.4 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3155,7 +3155,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 128 / measure 10]
+    % [Trumpet.Voice.4 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3163,7 +3163,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 129 / measure 11]
+    % [Trumpet.Voice.4 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3171,7 +3171,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 130 / measure 12]
+    % [Trumpet.Voice.4 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3202,7 +3202,7 @@ segment.18.Trumpet.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Voice.4 measure 131 / measure 13]
+            % [Trumpet.Voice.4 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -3242,7 +3242,7 @@ segment.18.Trumpet.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trumpet.Rest_Voice.4 measure 131 / measure 13]
+            % [Trumpet.Rest_Voice.4 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -3308,7 +3308,7 @@ segment.18.Trumpet.Staff.2 = <<
 segment.18.Trombone.Voice.1.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 119 / measure 1]
+    % [Trombone.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -3397,7 +3397,7 @@ segment.18.Trombone.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Voice.1 measure 120 / measure 2]
+            % [Trombone.Voice.1 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -3430,7 +3430,7 @@ segment.18.Trombone.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Rest_Voice.1 measure 120 / measure 2]
+            % [Trombone.Rest_Voice.1 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -3448,7 +3448,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 121 / measure 3]
+    % [Trombone.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -3468,7 +3468,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 122 / measure 4]
+    % [Trombone.Voice.1 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3476,7 +3476,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 123 / measure 5]
+    % [Trombone.Voice.1 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3484,7 +3484,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 124 / measure 6]
+    % [Trombone.Voice.1 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3492,7 +3492,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 125 / measure 7]
+    % [Trombone.Voice.1 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3500,7 +3500,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 126 / measure 8]
+    % [Trombone.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -3520,7 +3520,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 127 / measure 9]
+    % [Trombone.Voice.1 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3528,7 +3528,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 128 / measure 10]
+    % [Trombone.Voice.1 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3536,7 +3536,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 129 / measure 11]
+    % [Trombone.Voice.1 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3544,7 +3544,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 130 / measure 12]
+    % [Trombone.Voice.1 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3575,7 +3575,7 @@ segment.18.Trombone.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Voice.1 measure 131 / measure 13]
+            % [Trombone.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -3615,7 +3615,7 @@ segment.18.Trombone.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Rest_Voice.1 measure 131 / measure 13]
+            % [Trombone.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -3661,7 +3661,7 @@ segment.18.Trombone.Voice.1 = {
 segment.18.Trombone.Voice.3.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 119 / measure 1]
+    % [Trombone.Voice.3 measure 1]
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -3700,7 +3700,7 @@ segment.18.Trombone.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Voice.3 measure 120 / measure 2]
+            % [Trombone.Voice.3 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -3733,7 +3733,7 @@ segment.18.Trombone.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Rest_Voice.3 measure 120 / measure 2]
+            % [Trombone.Rest_Voice.3 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -3751,7 +3751,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 121 / measure 3]
+    % [Trombone.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -3771,7 +3771,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 122 / measure 4]
+    % [Trombone.Voice.3 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3779,7 +3779,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 123 / measure 5]
+    % [Trombone.Voice.3 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3787,7 +3787,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 124 / measure 6]
+    % [Trombone.Voice.3 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3795,7 +3795,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 125 / measure 7]
+    % [Trombone.Voice.3 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3803,7 +3803,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 126 / measure 8]
+    % [Trombone.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -3823,7 +3823,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 127 / measure 9]
+    % [Trombone.Voice.3 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3831,7 +3831,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 128 / measure 10]
+    % [Trombone.Voice.3 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3839,7 +3839,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 129 / measure 11]
+    % [Trombone.Voice.3 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3847,7 +3847,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 130 / measure 12]
+    % [Trombone.Voice.3 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -3878,7 +3878,7 @@ segment.18.Trombone.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Voice.3 measure 131 / measure 13]
+            % [Trombone.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -3918,7 +3918,7 @@ segment.18.Trombone.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Rest_Voice.3 measure 131 / measure 13]
+            % [Trombone.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -3984,7 +3984,7 @@ segment.18.Trombone.Staff.1 = <<
 segment.18.Trombone.Voice.2.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 119 / measure 1]
+    % [Trombone.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -4073,7 +4073,7 @@ segment.18.Trombone.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Voice.2 measure 120 / measure 2]
+            % [Trombone.Voice.2 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -4106,7 +4106,7 @@ segment.18.Trombone.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Rest_Voice.2 measure 120 / measure 2]
+            % [Trombone.Rest_Voice.2 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -4124,7 +4124,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 121 / measure 3]
+    % [Trombone.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -4144,7 +4144,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 122 / measure 4]
+    % [Trombone.Voice.2 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4152,7 +4152,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 123 / measure 5]
+    % [Trombone.Voice.2 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4160,7 +4160,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 124 / measure 6]
+    % [Trombone.Voice.2 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4168,7 +4168,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 125 / measure 7]
+    % [Trombone.Voice.2 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4176,7 +4176,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 126 / measure 8]
+    % [Trombone.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -4196,7 +4196,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 127 / measure 9]
+    % [Trombone.Voice.2 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4204,7 +4204,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 128 / measure 10]
+    % [Trombone.Voice.2 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4212,7 +4212,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 129 / measure 11]
+    % [Trombone.Voice.2 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4220,7 +4220,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 130 / measure 12]
+    % [Trombone.Voice.2 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4251,7 +4251,7 @@ segment.18.Trombone.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Voice.2 measure 131 / measure 13]
+            % [Trombone.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -4291,7 +4291,7 @@ segment.18.Trombone.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Rest_Voice.2 measure 131 / measure 13]
+            % [Trombone.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -4337,7 +4337,7 @@ segment.18.Trombone.Voice.2 = {
 segment.18.Trombone.Voice.4.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 119 / measure 1]
+    % [Trombone.Voice.4 measure 1]
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -4376,7 +4376,7 @@ segment.18.Trombone.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Voice.4 measure 120 / measure 2]
+            % [Trombone.Voice.4 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -4409,7 +4409,7 @@ segment.18.Trombone.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Trombone.Rest_Voice.4 measure 120 / measure 2]
+            % [Trombone.Rest_Voice.4 measure 2]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -4427,7 +4427,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 121 / measure 3]
+    % [Trombone.Voice.4 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -4447,7 +4447,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 122 / measure 4]
+    % [Trombone.Voice.4 measure 4]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4455,7 +4455,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 123 / measure 5]
+    % [Trombone.Voice.4 measure 5]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4463,7 +4463,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 124 / measure 6]
+    % [Trombone.Voice.4 measure 6]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4471,7 +4471,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 125 / measure 7]
+    % [Trombone.Voice.4 measure 7]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4479,7 +4479,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 126 / measure 8]
+    % [Trombone.Voice.4 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -4499,7 +4499,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 127 / measure 9]
+    % [Trombone.Voice.4 measure 9]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4507,7 +4507,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 128 / measure 10]
+    % [Trombone.Voice.4 measure 10]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4515,7 +4515,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 129 / measure 11]
+    % [Trombone.Voice.4 measure 11]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4523,7 +4523,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 130 / measure 12]
+    % [Trombone.Voice.4 measure 12]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4554,7 +4554,7 @@ segment.18.Trombone.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Voice.4 measure 131 / measure 13]
+            % [Trombone.Voice.4 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -4594,7 +4594,7 @@ segment.18.Trombone.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Trombone.Rest_Voice.4 measure 131 / measure 13]
+            % [Trombone.Rest_Voice.4 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -4668,7 +4668,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.1 measure 119 / measure 1]
+            % [First.Violin.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -4774,7 +4774,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.1 measure 119 / measure 1]
+            % [First.Violin.Rest_Voice.1 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -4792,7 +4792,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 120 / measure 2]
+    % [First.Violin.Voice.1 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -4800,7 +4800,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 121 / measure 3]
+    % [First.Violin.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -4820,7 +4820,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 122 / measure 4]
+    % [First.Violin.Voice.1 measure 4]
     %! baca.make_repeat_tied_notes()
     a''1
     %! baca.stem_tremolo()
@@ -4913,7 +4913,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 123 / measure 5]
+    % [First.Violin.Voice.1 measure 5]
     %! baca.make_repeat_tied_notes()
     a''1
     %! baca.stem_tremolo()
@@ -4927,7 +4927,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 124 / measure 6]
+    % [First.Violin.Voice.1 measure 6]
     %! baca.make_repeat_tied_notes()
     a''1
     %! baca.stem_tremolo()
@@ -5018,7 +5018,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.1 measure 125 / measure 7]
+            % [First.Violin.Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5069,7 +5069,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.1 measure 125 / measure 7]
+            % [First.Violin.Rest_Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -5087,7 +5087,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 126 / measure 8]
+    % [First.Violin.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -5107,7 +5107,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 127 / measure 9]
+    % [First.Violin.Voice.1 measure 9]
     %! baca.make_repeat_tied_notes()
     a''2.
     %! baca.stem_tremolo()
@@ -5200,7 +5200,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 128 / measure 10]
+    % [First.Violin.Voice.1 measure 10]
     %! baca.make_repeat_tied_notes()
     a''1
     %! baca.stem_tremolo()
@@ -5214,7 +5214,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 129 / measure 11]
+    % [First.Violin.Voice.1 measure 11]
     %! baca.make_repeat_tied_notes()
     a''1
     %! baca.stem_tremolo()
@@ -5305,7 +5305,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.1 measure 130 / measure 12]
+            % [First.Violin.Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5372,7 +5372,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.1 measure 130 / measure 12]
+            % [First.Violin.Rest_Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -5413,7 +5413,7 @@ segment.18.First.Violin.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Voice.1 measure 131 / measure 13]
+            % [First.Violin.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -5453,7 +5453,7 @@ segment.18.First.Violin.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Rest_Voice.1 measure 131 / measure 13]
+            % [First.Violin.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -5507,7 +5507,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.2 measure 119 / measure 1]
+            % [First.Violin.Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5558,7 +5558,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.2 measure 119 / measure 1]
+            % [First.Violin.Rest_Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -5576,7 +5576,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 120 / measure 2]
+    % [First.Violin.Voice.2 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -5584,7 +5584,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 121 / measure 3]
+    % [First.Violin.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -5604,7 +5604,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 122 / measure 4]
+    % [First.Violin.Voice.2 measure 4]
     %! baca.make_repeat_tied_notes()
     f''1
     %! baca.stem_tremolo()
@@ -5697,7 +5697,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 123 / measure 5]
+    % [First.Violin.Voice.2 measure 5]
     %! baca.make_repeat_tied_notes()
     f''1
     %! baca.stem_tremolo()
@@ -5711,7 +5711,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 124 / measure 6]
+    % [First.Violin.Voice.2 measure 6]
     %! baca.make_repeat_tied_notes()
     f''1
     %! baca.stem_tremolo()
@@ -5802,7 +5802,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.2 measure 125 / measure 7]
+            % [First.Violin.Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -5853,7 +5853,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.2 measure 125 / measure 7]
+            % [First.Violin.Rest_Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -5871,7 +5871,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 126 / measure 8]
+    % [First.Violin.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -5891,7 +5891,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 127 / measure 9]
+    % [First.Violin.Voice.2 measure 9]
     %! baca.make_repeat_tied_notes()
     f''2.
     %! baca.stem_tremolo()
@@ -5984,7 +5984,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 128 / measure 10]
+    % [First.Violin.Voice.2 measure 10]
     %! baca.make_repeat_tied_notes()
     f''1
     %! baca.stem_tremolo()
@@ -5998,7 +5998,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 129 / measure 11]
+    % [First.Violin.Voice.2 measure 11]
     %! baca.make_repeat_tied_notes()
     f''1
     %! baca.stem_tremolo()
@@ -6089,7 +6089,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.2 measure 130 / measure 12]
+            % [First.Violin.Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -6144,7 +6144,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.2 measure 130 / measure 12]
+            % [First.Violin.Rest_Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -6185,7 +6185,7 @@ segment.18.First.Violin.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Voice.2 measure 131 / measure 13]
+            % [First.Violin.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -6225,7 +6225,7 @@ segment.18.First.Violin.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Rest_Voice.2 measure 131 / measure 13]
+            % [First.Violin.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -6299,7 +6299,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.3 measure 119 / measure 1]
+            % [First.Violin.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -6405,7 +6405,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.3 measure 119 / measure 1]
+            % [First.Violin.Rest_Voice.3 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -6423,7 +6423,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 120 / measure 2]
+    % [First.Violin.Voice.3 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -6431,7 +6431,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 121 / measure 3]
+    % [First.Violin.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -6451,7 +6451,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 122 / measure 4]
+    % [First.Violin.Voice.3 measure 4]
     %! baca.make_repeat_tied_notes()
     g''1
     %! baca.stem_tremolo()
@@ -6544,7 +6544,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 123 / measure 5]
+    % [First.Violin.Voice.3 measure 5]
     %! baca.make_repeat_tied_notes()
     g''1
     %! baca.stem_tremolo()
@@ -6558,7 +6558,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 124 / measure 6]
+    % [First.Violin.Voice.3 measure 6]
     %! baca.make_repeat_tied_notes()
     g''1
     %! baca.stem_tremolo()
@@ -6649,7 +6649,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.3 measure 125 / measure 7]
+            % [First.Violin.Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -6700,7 +6700,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.3 measure 125 / measure 7]
+            % [First.Violin.Rest_Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -6718,7 +6718,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 126 / measure 8]
+    % [First.Violin.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -6738,7 +6738,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 127 / measure 9]
+    % [First.Violin.Voice.3 measure 9]
     %! baca.make_repeat_tied_notes()
     g''2.
     %! baca.stem_tremolo()
@@ -6831,7 +6831,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 128 / measure 10]
+    % [First.Violin.Voice.3 measure 10]
     %! baca.make_repeat_tied_notes()
     g''1
     %! baca.stem_tremolo()
@@ -6845,7 +6845,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 129 / measure 11]
+    % [First.Violin.Voice.3 measure 11]
     %! baca.make_repeat_tied_notes()
     g''1
     %! baca.stem_tremolo()
@@ -6936,7 +6936,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.3 measure 130 / measure 12]
+            % [First.Violin.Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -7003,7 +7003,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.3 measure 130 / measure 12]
+            % [First.Violin.Rest_Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -7044,7 +7044,7 @@ segment.18.First.Violin.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Voice.3 measure 131 / measure 13]
+            % [First.Violin.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -7084,7 +7084,7 @@ segment.18.First.Violin.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Rest_Voice.3 measure 131 / measure 13]
+            % [First.Violin.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -7138,7 +7138,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.4 measure 119 / measure 1]
+            % [First.Violin.Voice.4 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -7189,7 +7189,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.4 measure 119 / measure 1]
+            % [First.Violin.Rest_Voice.4 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -7207,7 +7207,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 120 / measure 2]
+    % [First.Violin.Voice.4 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -7215,7 +7215,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 121 / measure 3]
+    % [First.Violin.Voice.4 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -7235,7 +7235,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 122 / measure 4]
+    % [First.Violin.Voice.4 measure 4]
     %! baca.make_repeat_tied_notes()
     d''1
     %! baca.stem_tremolo()
@@ -7328,7 +7328,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 123 / measure 5]
+    % [First.Violin.Voice.4 measure 5]
     %! baca.make_repeat_tied_notes()
     d''1
     %! baca.stem_tremolo()
@@ -7342,7 +7342,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 124 / measure 6]
+    % [First.Violin.Voice.4 measure 6]
     %! baca.make_repeat_tied_notes()
     d''1
     %! baca.stem_tremolo()
@@ -7433,7 +7433,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.4 measure 125 / measure 7]
+            % [First.Violin.Voice.4 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -7484,7 +7484,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.4 measure 125 / measure 7]
+            % [First.Violin.Rest_Voice.4 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -7502,7 +7502,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 126 / measure 8]
+    % [First.Violin.Voice.4 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -7522,7 +7522,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 127 / measure 9]
+    % [First.Violin.Voice.4 measure 9]
     %! baca.make_repeat_tied_notes()
     d''2.
     %! baca.stem_tremolo()
@@ -7615,7 +7615,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 128 / measure 10]
+    % [First.Violin.Voice.4 measure 10]
     %! baca.make_repeat_tied_notes()
     d''1
     %! baca.stem_tremolo()
@@ -7629,7 +7629,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 129 / measure 11]
+    % [First.Violin.Voice.4 measure 11]
     %! baca.make_repeat_tied_notes()
     d''1
     %! baca.stem_tremolo()
@@ -7720,7 +7720,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.4 measure 130 / measure 12]
+            % [First.Violin.Voice.4 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -7775,7 +7775,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.4 measure 130 / measure 12]
+            % [First.Violin.Rest_Voice.4 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -7816,7 +7816,7 @@ segment.18.First.Violin.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Voice.4 measure 131 / measure 13]
+            % [First.Violin.Voice.4 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -7856,7 +7856,7 @@ segment.18.First.Violin.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Rest_Voice.4 measure 131 / measure 13]
+            % [First.Violin.Rest_Voice.4 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -7922,7 +7922,7 @@ segment.18.First.Violin.Staff.2 = <<
 segment.18.First.Violin.Voice.5.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 119 / measure 1]
+    % [First.Violin.Voice.5 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -8025,7 +8025,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 120 / measure 2]
+    % [First.Violin.Voice.5 measure 2]
     %! baca.make_repeat_tied_notes()
     cs'2.
     %! baca.stem_tremolo()
@@ -8048,7 +8048,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.5 measure 121 / measure 3]
+            % [First.Violin.Voice.5 measure 3]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -8093,7 +8093,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.5 measure 121 / measure 3]
+            % [First.Violin.Rest_Voice.5 measure 3]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -8111,7 +8111,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 122 / measure 4]
+    % [First.Violin.Voice.5 measure 4]
     %! baca.make_repeat_tied_notes()
     cs'!1
     %! baca.stem_tremolo()
@@ -8158,7 +8158,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 123 / measure 5]
+    % [First.Violin.Voice.5 measure 5]
     %! baca.make_repeat_tied_notes()
     cs'1
     %! baca.stem_tremolo()
@@ -8172,7 +8172,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 124 / measure 6]
+    % [First.Violin.Voice.5 measure 6]
     %! baca.make_repeat_tied_notes()
     cs'1
     %! baca.stem_tremolo()
@@ -8186,7 +8186,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 125 / measure 7]
+    % [First.Violin.Voice.5 measure 7]
     %! baca.make_repeat_tied_notes()
     cs'2.
     %! baca.stem_tremolo()
@@ -8209,7 +8209,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Voice.5 measure 126 / measure 8]
+            % [First.Violin.Voice.5 measure 8]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -8254,7 +8254,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [First.Violin.Rest_Voice.5 measure 126 / measure 8]
+            % [First.Violin.Rest_Voice.5 measure 8]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -8272,7 +8272,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 127 / measure 9]
+    % [First.Violin.Voice.5 measure 9]
     %! baca.make_repeat_tied_notes()
     cs'!2.
     %! baca.stem_tremolo()
@@ -8319,7 +8319,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 128 / measure 10]
+    % [First.Violin.Voice.5 measure 10]
     %! baca.make_repeat_tied_notes()
     cs'1
     %! baca.stem_tremolo()
@@ -8333,7 +8333,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 129 / measure 11]
+    % [First.Violin.Voice.5 measure 11]
     %! baca.make_repeat_tied_notes()
     cs'1
     %! baca.stem_tremolo()
@@ -8347,7 +8347,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 130 / measure 12]
+    % [First.Violin.Voice.5 measure 12]
     %! baca.make_repeat_tied_notes()
     cs'2
     %! baca.stem_tremolo()
@@ -8385,7 +8385,7 @@ segment.18.First.Violin.Voice.5 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Voice.5 measure 131 / measure 13]
+            % [First.Violin.Voice.5 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -8432,7 +8432,7 @@ segment.18.First.Violin.Voice.5 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [First.Violin.Rest_Voice.5 measure 131 / measure 13]
+            % [First.Violin.Rest_Voice.5 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -8500,7 +8500,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.1 measure 119 / measure 1]
+            % [Second.Violin.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -8606,7 +8606,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.1 measure 119 / measure 1]
+            % [Second.Violin.Rest_Voice.1 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -8624,7 +8624,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 120 / measure 2]
+    % [Second.Violin.Voice.1 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -8632,7 +8632,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 121 / measure 3]
+    % [Second.Violin.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -8652,7 +8652,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 122 / measure 4]
+    % [Second.Violin.Voice.1 measure 4]
     %! baca.make_repeat_tied_notes()
     b'1
     %! baca.stem_tremolo()
@@ -8745,7 +8745,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 123 / measure 5]
+    % [Second.Violin.Voice.1 measure 5]
     %! baca.make_repeat_tied_notes()
     b'1
     %! baca.stem_tremolo()
@@ -8761,7 +8761,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 124 / measure 6]
+    % [Second.Violin.Voice.1 measure 6]
     %! baca.make_repeat_tied_notes()
     b'1
     %! baca.stem_tremolo()
@@ -8854,7 +8854,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.1 measure 125 / measure 7]
+            % [Second.Violin.Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -8905,7 +8905,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.1 measure 125 / measure 7]
+            % [Second.Violin.Rest_Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -8923,7 +8923,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 126 / measure 8]
+    % [Second.Violin.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -8943,7 +8943,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 127 / measure 9]
+    % [Second.Violin.Voice.1 measure 9]
     %! baca.make_repeat_tied_notes()
     b'2.
     %! baca.stem_tremolo()
@@ -9036,7 +9036,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 128 / measure 10]
+    % [Second.Violin.Voice.1 measure 10]
     %! baca.make_repeat_tied_notes()
     b'1
     %! baca.stem_tremolo()
@@ -9052,7 +9052,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 129 / measure 11]
+    % [Second.Violin.Voice.1 measure 11]
     %! baca.make_repeat_tied_notes()
     b'1
     %! baca.stem_tremolo()
@@ -9145,7 +9145,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.1 measure 130 / measure 12]
+            % [Second.Violin.Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -9212,7 +9212,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.1 measure 130 / measure 12]
+            % [Second.Violin.Rest_Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -9253,7 +9253,7 @@ segment.18.Second.Violin.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Voice.1 measure 131 / measure 13]
+            % [Second.Violin.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -9293,7 +9293,7 @@ segment.18.Second.Violin.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Rest_Voice.1 measure 131 / measure 13]
+            % [Second.Violin.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -9347,7 +9347,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.2 measure 119 / measure 1]
+            % [Second.Violin.Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -9398,7 +9398,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.2 measure 119 / measure 1]
+            % [Second.Violin.Rest_Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -9416,7 +9416,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 120 / measure 2]
+    % [Second.Violin.Voice.2 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -9424,7 +9424,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 121 / measure 3]
+    % [Second.Violin.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -9444,7 +9444,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 122 / measure 4]
+    % [Second.Violin.Voice.2 measure 4]
     %! baca.make_repeat_tied_notes()
     g'1
     %! baca.stem_tremolo()
@@ -9537,7 +9537,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 123 / measure 5]
+    % [Second.Violin.Voice.2 measure 5]
     %! baca.make_repeat_tied_notes()
     g'1
     %! baca.stem_tremolo()
@@ -9551,7 +9551,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 124 / measure 6]
+    % [Second.Violin.Voice.2 measure 6]
     %! baca.make_repeat_tied_notes()
     g'1
     %! baca.stem_tremolo()
@@ -9642,7 +9642,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.2 measure 125 / measure 7]
+            % [Second.Violin.Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -9693,7 +9693,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.2 measure 125 / measure 7]
+            % [Second.Violin.Rest_Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -9711,7 +9711,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 126 / measure 8]
+    % [Second.Violin.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -9731,7 +9731,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 127 / measure 9]
+    % [Second.Violin.Voice.2 measure 9]
     %! baca.make_repeat_tied_notes()
     g'2.
     %! baca.stem_tremolo()
@@ -9824,7 +9824,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 128 / measure 10]
+    % [Second.Violin.Voice.2 measure 10]
     %! baca.make_repeat_tied_notes()
     g'1
     %! baca.stem_tremolo()
@@ -9838,7 +9838,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 129 / measure 11]
+    % [Second.Violin.Voice.2 measure 11]
     %! baca.make_repeat_tied_notes()
     g'1
     %! baca.stem_tremolo()
@@ -9929,7 +9929,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.2 measure 130 / measure 12]
+            % [Second.Violin.Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -9984,7 +9984,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.2 measure 130 / measure 12]
+            % [Second.Violin.Rest_Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -10025,7 +10025,7 @@ segment.18.Second.Violin.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Voice.2 measure 131 / measure 13]
+            % [Second.Violin.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -10065,7 +10065,7 @@ segment.18.Second.Violin.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Rest_Voice.2 measure 131 / measure 13]
+            % [Second.Violin.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -10139,7 +10139,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.3 measure 119 / measure 1]
+            % [Second.Violin.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -10245,7 +10245,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.3 measure 119 / measure 1]
+            % [Second.Violin.Rest_Voice.3 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -10263,7 +10263,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 120 / measure 2]
+    % [Second.Violin.Voice.3 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -10271,7 +10271,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 121 / measure 3]
+    % [Second.Violin.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -10291,7 +10291,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 122 / measure 4]
+    % [Second.Violin.Voice.3 measure 4]
     %! baca.make_repeat_tied_notes()
     a'1
     %! baca.stem_tremolo()
@@ -10384,7 +10384,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 123 / measure 5]
+    % [Second.Violin.Voice.3 measure 5]
     %! baca.make_repeat_tied_notes()
     a'1
     %! baca.stem_tremolo()
@@ -10398,7 +10398,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 124 / measure 6]
+    % [Second.Violin.Voice.3 measure 6]
     %! baca.make_repeat_tied_notes()
     a'1
     %! baca.stem_tremolo()
@@ -10489,7 +10489,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.3 measure 125 / measure 7]
+            % [Second.Violin.Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -10540,7 +10540,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.3 measure 125 / measure 7]
+            % [Second.Violin.Rest_Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -10558,7 +10558,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 126 / measure 8]
+    % [Second.Violin.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -10578,7 +10578,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 127 / measure 9]
+    % [Second.Violin.Voice.3 measure 9]
     %! baca.make_repeat_tied_notes()
     a'2.
     %! baca.stem_tremolo()
@@ -10671,7 +10671,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 128 / measure 10]
+    % [Second.Violin.Voice.3 measure 10]
     %! baca.make_repeat_tied_notes()
     a'1
     %! baca.stem_tremolo()
@@ -10685,7 +10685,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 129 / measure 11]
+    % [Second.Violin.Voice.3 measure 11]
     %! baca.make_repeat_tied_notes()
     a'1
     %! baca.stem_tremolo()
@@ -10776,7 +10776,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.3 measure 130 / measure 12]
+            % [Second.Violin.Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -10843,7 +10843,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.3 measure 130 / measure 12]
+            % [Second.Violin.Rest_Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -10884,7 +10884,7 @@ segment.18.Second.Violin.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Voice.3 measure 131 / measure 13]
+            % [Second.Violin.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -10924,7 +10924,7 @@ segment.18.Second.Violin.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Rest_Voice.3 measure 131 / measure 13]
+            % [Second.Violin.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -10978,7 +10978,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.4 measure 119 / measure 1]
+            % [Second.Violin.Voice.4 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -11029,7 +11029,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.4 measure 119 / measure 1]
+            % [Second.Violin.Rest_Voice.4 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -11047,7 +11047,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 120 / measure 2]
+    % [Second.Violin.Voice.4 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -11055,7 +11055,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 121 / measure 3]
+    % [Second.Violin.Voice.4 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -11075,7 +11075,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 122 / measure 4]
+    % [Second.Violin.Voice.4 measure 4]
     %! baca.make_repeat_tied_notes()
     f'1
     %! baca.stem_tremolo()
@@ -11168,7 +11168,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 123 / measure 5]
+    % [Second.Violin.Voice.4 measure 5]
     %! baca.make_repeat_tied_notes()
     f'1
     %! baca.stem_tremolo()
@@ -11182,7 +11182,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 124 / measure 6]
+    % [Second.Violin.Voice.4 measure 6]
     %! baca.make_repeat_tied_notes()
     f'1
     %! baca.stem_tremolo()
@@ -11273,7 +11273,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.4 measure 125 / measure 7]
+            % [Second.Violin.Voice.4 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -11324,7 +11324,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.4 measure 125 / measure 7]
+            % [Second.Violin.Rest_Voice.4 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -11342,7 +11342,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 126 / measure 8]
+    % [Second.Violin.Voice.4 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -11362,7 +11362,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 127 / measure 9]
+    % [Second.Violin.Voice.4 measure 9]
     %! baca.make_repeat_tied_notes()
     f'2.
     %! baca.stem_tremolo()
@@ -11455,7 +11455,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 128 / measure 10]
+    % [Second.Violin.Voice.4 measure 10]
     %! baca.make_repeat_tied_notes()
     f'1
     %! baca.stem_tremolo()
@@ -11469,7 +11469,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 129 / measure 11]
+    % [Second.Violin.Voice.4 measure 11]
     %! baca.make_repeat_tied_notes()
     f'1
     %! baca.stem_tremolo()
@@ -11560,7 +11560,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Voice.4 measure 130 / measure 12]
+            % [Second.Violin.Voice.4 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -11615,7 +11615,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Second.Violin.Rest_Voice.4 measure 130 / measure 12]
+            % [Second.Violin.Rest_Voice.4 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -11656,7 +11656,7 @@ segment.18.Second.Violin.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Voice.4 measure 131 / measure 13]
+            % [Second.Violin.Voice.4 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -11696,7 +11696,7 @@ segment.18.Second.Violin.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Second.Violin.Rest_Voice.4 measure 131 / measure 13]
+            % [Second.Violin.Rest_Voice.4 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -11770,7 +11770,7 @@ segment.18.Viola.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.1 measure 119 / measure 1]
+            % [Viola.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -11876,7 +11876,7 @@ segment.18.Viola.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.1 measure 119 / measure 1]
+            % [Viola.Rest_Voice.1 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -11894,7 +11894,7 @@ segment.18.Viola.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 120 / measure 2]
+    % [Viola.Voice.1 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -11902,7 +11902,7 @@ segment.18.Viola.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 121 / measure 3]
+    % [Viola.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -11922,7 +11922,7 @@ segment.18.Viola.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 122 / measure 4]
+    % [Viola.Voice.1 measure 4]
     %! baca.make_repeat_tied_notes()
     d'1
     %! baca.stem_tremolo()
@@ -12015,7 +12015,7 @@ segment.18.Viola.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 123 / measure 5]
+    % [Viola.Voice.1 measure 5]
     %! baca.make_repeat_tied_notes()
     d'1
     %! baca.stem_tremolo()
@@ -12029,7 +12029,7 @@ segment.18.Viola.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 124 / measure 6]
+    % [Viola.Voice.1 measure 6]
     %! baca.make_repeat_tied_notes()
     d'1
     %! baca.stem_tremolo()
@@ -12120,7 +12120,7 @@ segment.18.Viola.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.1 measure 125 / measure 7]
+            % [Viola.Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -12171,7 +12171,7 @@ segment.18.Viola.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.1 measure 125 / measure 7]
+            % [Viola.Rest_Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -12189,7 +12189,7 @@ segment.18.Viola.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 126 / measure 8]
+    % [Viola.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -12209,7 +12209,7 @@ segment.18.Viola.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 127 / measure 9]
+    % [Viola.Voice.1 measure 9]
     %! baca.make_repeat_tied_notes()
     d'2.
     %! baca.stem_tremolo()
@@ -12302,7 +12302,7 @@ segment.18.Viola.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 128 / measure 10]
+    % [Viola.Voice.1 measure 10]
     %! baca.make_repeat_tied_notes()
     d'1
     %! baca.stem_tremolo()
@@ -12316,7 +12316,7 @@ segment.18.Viola.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.1 measure 129 / measure 11]
+    % [Viola.Voice.1 measure 11]
     %! baca.make_repeat_tied_notes()
     d'1
     %! baca.stem_tremolo()
@@ -12407,7 +12407,7 @@ segment.18.Viola.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.1 measure 130 / measure 12]
+            % [Viola.Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -12474,7 +12474,7 @@ segment.18.Viola.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.1 measure 130 / measure 12]
+            % [Viola.Rest_Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -12515,7 +12515,7 @@ segment.18.Viola.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Voice.1 measure 131 / measure 13]
+            % [Viola.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -12555,7 +12555,7 @@ segment.18.Viola.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Rest_Voice.1 measure 131 / measure 13]
+            % [Viola.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -12609,7 +12609,7 @@ segment.18.Viola.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.2 measure 119 / measure 1]
+            % [Viola.Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -12660,7 +12660,7 @@ segment.18.Viola.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.2 measure 119 / measure 1]
+            % [Viola.Rest_Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -12678,7 +12678,7 @@ segment.18.Viola.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 120 / measure 2]
+    % [Viola.Voice.2 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -12686,7 +12686,7 @@ segment.18.Viola.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 121 / measure 3]
+    % [Viola.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -12706,7 +12706,7 @@ segment.18.Viola.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 122 / measure 4]
+    % [Viola.Voice.2 measure 4]
     %! baca.make_repeat_tied_notes()
     a1
     %! baca.stem_tremolo()
@@ -12799,7 +12799,7 @@ segment.18.Viola.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 123 / measure 5]
+    % [Viola.Voice.2 measure 5]
     %! baca.make_repeat_tied_notes()
     a1
     %! baca.stem_tremolo()
@@ -12813,7 +12813,7 @@ segment.18.Viola.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 124 / measure 6]
+    % [Viola.Voice.2 measure 6]
     %! baca.make_repeat_tied_notes()
     a1
     %! baca.stem_tremolo()
@@ -12904,7 +12904,7 @@ segment.18.Viola.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.2 measure 125 / measure 7]
+            % [Viola.Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -12955,7 +12955,7 @@ segment.18.Viola.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.2 measure 125 / measure 7]
+            % [Viola.Rest_Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -12973,7 +12973,7 @@ segment.18.Viola.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 126 / measure 8]
+    % [Viola.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -12993,7 +12993,7 @@ segment.18.Viola.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 127 / measure 9]
+    % [Viola.Voice.2 measure 9]
     %! baca.make_repeat_tied_notes()
     a2.
     %! baca.stem_tremolo()
@@ -13086,7 +13086,7 @@ segment.18.Viola.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 128 / measure 10]
+    % [Viola.Voice.2 measure 10]
     %! baca.make_repeat_tied_notes()
     a1
     %! baca.stem_tremolo()
@@ -13100,7 +13100,7 @@ segment.18.Viola.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.2 measure 129 / measure 11]
+    % [Viola.Voice.2 measure 11]
     %! baca.make_repeat_tied_notes()
     a1
     %! baca.stem_tremolo()
@@ -13191,7 +13191,7 @@ segment.18.Viola.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.2 measure 130 / measure 12]
+            % [Viola.Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -13246,7 +13246,7 @@ segment.18.Viola.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.2 measure 130 / measure 12]
+            % [Viola.Rest_Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -13287,7 +13287,7 @@ segment.18.Viola.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Voice.2 measure 131 / measure 13]
+            % [Viola.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -13327,7 +13327,7 @@ segment.18.Viola.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Rest_Voice.2 measure 131 / measure 13]
+            % [Viola.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -13401,7 +13401,7 @@ segment.18.Viola.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.3 measure 119 / measure 1]
+            % [Viola.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -13507,7 +13507,7 @@ segment.18.Viola.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.3 measure 119 / measure 1]
+            % [Viola.Rest_Voice.3 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -13525,7 +13525,7 @@ segment.18.Viola.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 120 / measure 2]
+    % [Viola.Voice.3 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -13533,7 +13533,7 @@ segment.18.Viola.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 121 / measure 3]
+    % [Viola.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -13553,7 +13553,7 @@ segment.18.Viola.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 122 / measure 4]
+    % [Viola.Voice.3 measure 4]
     %! baca.make_repeat_tied_notes()
     b1
     %! baca.stem_tremolo()
@@ -13646,7 +13646,7 @@ segment.18.Viola.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 123 / measure 5]
+    % [Viola.Voice.3 measure 5]
     %! baca.make_repeat_tied_notes()
     b1
     %! baca.stem_tremolo()
@@ -13660,7 +13660,7 @@ segment.18.Viola.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 124 / measure 6]
+    % [Viola.Voice.3 measure 6]
     %! baca.make_repeat_tied_notes()
     b1
     %! baca.stem_tremolo()
@@ -13751,7 +13751,7 @@ segment.18.Viola.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.3 measure 125 / measure 7]
+            % [Viola.Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -13802,7 +13802,7 @@ segment.18.Viola.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.3 measure 125 / measure 7]
+            % [Viola.Rest_Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -13820,7 +13820,7 @@ segment.18.Viola.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 126 / measure 8]
+    % [Viola.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -13840,7 +13840,7 @@ segment.18.Viola.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 127 / measure 9]
+    % [Viola.Voice.3 measure 9]
     %! baca.make_repeat_tied_notes()
     b2.
     %! baca.stem_tremolo()
@@ -13933,7 +13933,7 @@ segment.18.Viola.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 128 / measure 10]
+    % [Viola.Voice.3 measure 10]
     %! baca.make_repeat_tied_notes()
     b1
     %! baca.stem_tremolo()
@@ -13947,7 +13947,7 @@ segment.18.Viola.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.3 measure 129 / measure 11]
+    % [Viola.Voice.3 measure 11]
     %! baca.make_repeat_tied_notes()
     b1
     %! baca.stem_tremolo()
@@ -14038,7 +14038,7 @@ segment.18.Viola.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.3 measure 130 / measure 12]
+            % [Viola.Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -14105,7 +14105,7 @@ segment.18.Viola.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.3 measure 130 / measure 12]
+            % [Viola.Rest_Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -14146,7 +14146,7 @@ segment.18.Viola.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Voice.3 measure 131 / measure 13]
+            % [Viola.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -14186,7 +14186,7 @@ segment.18.Viola.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Rest_Voice.3 measure 131 / measure 13]
+            % [Viola.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -14240,7 +14240,7 @@ segment.18.Viola.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.4 measure 119 / measure 1]
+            % [Viola.Voice.4 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -14291,7 +14291,7 @@ segment.18.Viola.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.4 measure 119 / measure 1]
+            % [Viola.Rest_Voice.4 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -14309,7 +14309,7 @@ segment.18.Viola.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 120 / measure 2]
+    % [Viola.Voice.4 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -14317,7 +14317,7 @@ segment.18.Viola.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 121 / measure 3]
+    % [Viola.Voice.4 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -14337,7 +14337,7 @@ segment.18.Viola.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 122 / measure 4]
+    % [Viola.Voice.4 measure 4]
     %! baca.make_repeat_tied_notes()
     g1
     %! baca.stem_tremolo()
@@ -14430,7 +14430,7 @@ segment.18.Viola.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 123 / measure 5]
+    % [Viola.Voice.4 measure 5]
     %! baca.make_repeat_tied_notes()
     g1
     %! baca.stem_tremolo()
@@ -14444,7 +14444,7 @@ segment.18.Viola.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 124 / measure 6]
+    % [Viola.Voice.4 measure 6]
     %! baca.make_repeat_tied_notes()
     g1
     %! baca.stem_tremolo()
@@ -14535,7 +14535,7 @@ segment.18.Viola.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.4 measure 125 / measure 7]
+            % [Viola.Voice.4 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -14586,7 +14586,7 @@ segment.18.Viola.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.4 measure 125 / measure 7]
+            % [Viola.Rest_Voice.4 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -14604,7 +14604,7 @@ segment.18.Viola.Voice.4.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 126 / measure 8]
+    % [Viola.Voice.4 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -14624,7 +14624,7 @@ segment.18.Viola.Voice.4.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 127 / measure 9]
+    % [Viola.Voice.4 measure 9]
     %! baca.make_repeat_tied_notes()
     g2.
     %! baca.stem_tremolo()
@@ -14717,7 +14717,7 @@ segment.18.Viola.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 128 / measure 10]
+    % [Viola.Voice.4 measure 10]
     %! baca.make_repeat_tied_notes()
     g1
     %! baca.stem_tremolo()
@@ -14731,7 +14731,7 @@ segment.18.Viola.Voice.4.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Viola.Voice.4 measure 129 / measure 11]
+    % [Viola.Voice.4 measure 11]
     %! baca.make_repeat_tied_notes()
     g1
     %! baca.stem_tremolo()
@@ -14822,7 +14822,7 @@ segment.18.Viola.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Voice.4 measure 130 / measure 12]
+            % [Viola.Voice.4 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -14877,7 +14877,7 @@ segment.18.Viola.Voice.4.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Viola.Rest_Voice.4 measure 130 / measure 12]
+            % [Viola.Rest_Voice.4 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -14918,7 +14918,7 @@ segment.18.Viola.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Voice.4 measure 131 / measure 13]
+            % [Viola.Voice.4 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -14958,7 +14958,7 @@ segment.18.Viola.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Viola.Rest_Voice.4 measure 131 / measure 13]
+            % [Viola.Rest_Voice.4 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -15032,7 +15032,7 @@ segment.18.Cello.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Voice.1 measure 119 / measure 1]
+            % [Cello.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -15138,7 +15138,7 @@ segment.18.Cello.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Rest_Voice.1 measure 119 / measure 1]
+            % [Cello.Rest_Voice.1 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -15156,7 +15156,7 @@ segment.18.Cello.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 120 / measure 2]
+    % [Cello.Voice.1 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -15164,7 +15164,7 @@ segment.18.Cello.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 121 / measure 3]
+    % [Cello.Voice.1 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -15184,7 +15184,7 @@ segment.18.Cello.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 122 / measure 4]
+    % [Cello.Voice.1 measure 4]
     %! baca.make_repeat_tied_notes()
     d1
     %! baca.stem_tremolo()
@@ -15277,7 +15277,7 @@ segment.18.Cello.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 123 / measure 5]
+    % [Cello.Voice.1 measure 5]
     %! baca.make_repeat_tied_notes()
     d1
     %! baca.stem_tremolo()
@@ -15293,7 +15293,7 @@ segment.18.Cello.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 124 / measure 6]
+    % [Cello.Voice.1 measure 6]
     %! baca.make_repeat_tied_notes()
     d1
     %! baca.stem_tremolo()
@@ -15386,7 +15386,7 @@ segment.18.Cello.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Voice.1 measure 125 / measure 7]
+            % [Cello.Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -15437,7 +15437,7 @@ segment.18.Cello.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Rest_Voice.1 measure 125 / measure 7]
+            % [Cello.Rest_Voice.1 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -15455,7 +15455,7 @@ segment.18.Cello.Voice.1.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 126 / measure 8]
+    % [Cello.Voice.1 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -15475,7 +15475,7 @@ segment.18.Cello.Voice.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 127 / measure 9]
+    % [Cello.Voice.1 measure 9]
     %! baca.make_repeat_tied_notes()
     d2.
     %! baca.stem_tremolo()
@@ -15568,7 +15568,7 @@ segment.18.Cello.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 128 / measure 10]
+    % [Cello.Voice.1 measure 10]
     %! baca.make_repeat_tied_notes()
     d1
     %! baca.stem_tremolo()
@@ -15584,7 +15584,7 @@ segment.18.Cello.Voice.1.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.1 measure 129 / measure 11]
+    % [Cello.Voice.1 measure 11]
     %! baca.make_repeat_tied_notes()
     d1
     %! baca.stem_tremolo()
@@ -15677,7 +15677,7 @@ segment.18.Cello.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Voice.1 measure 130 / measure 12]
+            % [Cello.Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -15744,7 +15744,7 @@ segment.18.Cello.Voice.1.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Rest_Voice.1 measure 130 / measure 12]
+            % [Cello.Rest_Voice.1 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -15785,7 +15785,7 @@ segment.18.Cello.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Cello.Voice.1 measure 131 / measure 13]
+            % [Cello.Voice.1 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -15825,7 +15825,7 @@ segment.18.Cello.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Cello.Rest_Voice.1 measure 131 / measure 13]
+            % [Cello.Rest_Voice.1 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -15879,7 +15879,7 @@ segment.18.Cello.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Voice.2 measure 119 / measure 1]
+            % [Cello.Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -15930,7 +15930,7 @@ segment.18.Cello.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Rest_Voice.2 measure 119 / measure 1]
+            % [Cello.Rest_Voice.2 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -15948,7 +15948,7 @@ segment.18.Cello.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 120 / measure 2]
+    % [Cello.Voice.2 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -15956,7 +15956,7 @@ segment.18.Cello.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 121 / measure 3]
+    % [Cello.Voice.2 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -15976,7 +15976,7 @@ segment.18.Cello.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 122 / measure 4]
+    % [Cello.Voice.2 measure 4]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16069,7 +16069,7 @@ segment.18.Cello.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 123 / measure 5]
+    % [Cello.Voice.2 measure 5]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16083,7 +16083,7 @@ segment.18.Cello.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 124 / measure 6]
+    % [Cello.Voice.2 measure 6]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16174,7 +16174,7 @@ segment.18.Cello.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Voice.2 measure 125 / measure 7]
+            % [Cello.Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -16225,7 +16225,7 @@ segment.18.Cello.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Rest_Voice.2 measure 125 / measure 7]
+            % [Cello.Rest_Voice.2 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -16243,7 +16243,7 @@ segment.18.Cello.Voice.2.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 126 / measure 8]
+    % [Cello.Voice.2 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -16263,7 +16263,7 @@ segment.18.Cello.Voice.2.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 127 / measure 9]
+    % [Cello.Voice.2 measure 9]
     %! baca.make_repeat_tied_notes()
     g,2.
     %! baca.stem_tremolo()
@@ -16356,7 +16356,7 @@ segment.18.Cello.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 128 / measure 10]
+    % [Cello.Voice.2 measure 10]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16370,7 +16370,7 @@ segment.18.Cello.Voice.2.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Cello.Voice.2 measure 129 / measure 11]
+    % [Cello.Voice.2 measure 11]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16461,7 +16461,7 @@ segment.18.Cello.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Voice.2 measure 130 / measure 12]
+            % [Cello.Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -16516,7 +16516,7 @@ segment.18.Cello.Voice.2.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Cello.Rest_Voice.2 measure 130 / measure 12]
+            % [Cello.Rest_Voice.2 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -16557,7 +16557,7 @@ segment.18.Cello.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Cello.Voice.2 measure 131 / measure 13]
+            % [Cello.Voice.2 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -16597,7 +16597,7 @@ segment.18.Cello.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Cello.Rest_Voice.2 measure 131 / measure 13]
+            % [Cello.Rest_Voice.2 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -16671,7 +16671,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Contrabass.Voice.3 measure 119 / measure 1]
+            % [Contrabass.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
@@ -16757,7 +16757,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Contrabass.Rest_Voice.3 measure 119 / measure 1]
+            % [Contrabass.Rest_Voice.3 measure 1]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -16775,7 +16775,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 120 / measure 2]
+    % [Contrabass.Voice.3 measure 2]
     %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -16783,7 +16783,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 121 / measure 3]
+    % [Contrabass.Voice.3 measure 3]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -16803,7 +16803,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 122 / measure 4]
+    % [Contrabass.Voice.3 measure 4]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16896,7 +16896,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 123 / measure 5]
+    % [Contrabass.Voice.3 measure 5]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -16910,7 +16910,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 124 / measure 6]
+    % [Contrabass.Voice.3 measure 6]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -17001,7 +17001,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Contrabass.Voice.3 measure 125 / measure 7]
+            % [Contrabass.Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -17052,7 +17052,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Contrabass.Rest_Voice.3 measure 125 / measure 7]
+            % [Contrabass.Rest_Voice.3 measure 7]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -17070,7 +17070,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     >>
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 126 / measure 8]
+    % [Contrabass.Voice.3 measure 8]
     %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
@@ -17090,7 +17090,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 127 / measure 9]
+    % [Contrabass.Voice.3 measure 9]
     %! baca.make_repeat_tied_notes()
     g,2.
     %! baca.stem_tremolo()
@@ -17183,7 +17183,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 128 / measure 10]
+    % [Contrabass.Voice.3 measure 10]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -17197,7 +17197,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     ~
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 129 / measure 11]
+    % [Contrabass.Voice.3 measure 11]
     %! baca.make_repeat_tied_notes()
     g,1
     %! baca.stem_tremolo()
@@ -17288,7 +17288,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Contrabass.Voice.3 measure 130 / measure 12]
+            % [Contrabass.Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -17339,7 +17339,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
         {
 
             %! baca.SegmentMaker._comment_measure_numbers()
-            % [Contrabass.Rest_Voice.3 measure 130 / measure 12]
+            % [Contrabass.Rest_Voice.3 measure 12]
             %! baca.SegmentMaker._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! MULTIMEASURE_REST
@@ -17380,7 +17380,7 @@ segment.18.Contrabass.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Contrabass.Voice.3 measure 131 / measure 13]
+            % [Contrabass.Voice.3 measure 13]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! MULTIMEASURE_REST
@@ -17420,7 +17420,7 @@ segment.18.Contrabass.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Contrabass.Rest_Voice.3 measure 131 / measure 13]
+            % [Contrabass.Rest_Voice.3 measure 13]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
