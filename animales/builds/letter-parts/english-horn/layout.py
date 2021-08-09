@@ -27,11 +27,11 @@ def make_systems(measure_numbers, between_systems=20):
 
 breaks = baca.breaks(
     baca.page(
-        make_systems([1, 11, 21, 31, 41, 51, 61], 24),
+        *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
         number=1,
     ),
     baca.page(
-        make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
+        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
         number=2,
     ),
 )
@@ -40,4 +40,8 @@ spacing = baca.spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 8),
+    overrides=(baca.space((127, 174), (1, 16)),),
 )
+
+if __name__ == "__main__":
+    baca.build.make_layout_ly(__file__, breaks, spacing)
