@@ -271,7 +271,7 @@ if __name__ == "__main__":
             baca.space(94, (1, 4)),
             baca.space((95, 109), (1, 10)),
             baca.space((110, 118), (1, 20)),
-            baca.space((127, 164), (1, 20)),
-            baca.space((165, 174), (1, 45)),
+            baca.space((127, 163), (1, 20)),
+            baca.space((165, 173), (1, 45)),
         ),
     )
