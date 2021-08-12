@@ -50,6 +50,7 @@ if __name__ == "__main__":
             baca.space((85, 87), (1, 4)),
             baca.space((88, 90), (1, 12)),
             baca.space((91, 93), (1, 4)),
-            baca.space((127, 174), (1, 16)),
+            baca.space((127, 173), (1, 16)),
+            baca.space(164, (1, 4)),
         ),
     )
