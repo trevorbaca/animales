@@ -24,33 +24,33 @@ def make_systems(measure_numbers, between_systems, after_global_context):
     return systems
 
 
-breaks = baca.breaks(
-    baca.page(
-        *make_systems([1, 9, 16, 24, 30, 41, 49], 24, 6),
-        number=1,
+spacing = baca.SpacingSpecifier(
+    breaks=baca.breaks(
+        baca.page(
+            *make_systems([1, 9, 16, 24, 30, 41, 49], 24, 6),
+            number=1,
+        ),
+        baca.page(
+            *make_systems([56, 66, 76, 85, 95, 109, 119], 30, 6),
+            number=2,
+        ),
+        baca.page(
+            *make_systems([131, 137, 143, 149, 155, 161, 167], 28, 4),
+            number=3,
+        ),
     ),
-    baca.page(
-        *make_systems([56, 66, 76, 85, 95, 109, 119], 30, 6),
-        number=2,
-    ),
-    baca.page(
-        *make_systems([131, 137, 143, 149, 155, 161, 167], 28, 4),
-        number=3,
+    fallback_duration=(1, 8),
+    overrides=(
+        baca.space((36, 43), (1, 4)),
+        baca.space((76, 81), (1, 4)),
+        baca.space((82, 84), (1, 12)),
+        baca.space((85, 87), (1, 4)),
+        baca.space((88, 90), (1, 12)),
+        baca.space((91, 93), (1, 4)),
+        baca.space((127, 173), (1, 16)),
+        baca.space(164, (1, 4)),
     ),
 )
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(
-        breaks,
-        fallback_duration=(1, 8),
-        overrides=(
-            baca.space((36, 43), (1, 4)),
-            baca.space((76, 81), (1, 4)),
-            baca.space((82, 84), (1, 12)),
-            baca.space((85, 87), (1, 4)),
-            baca.space((88, 90), (1, 12)),
-            baca.space((91, 93), (1, 4)),
-            baca.space((127, 173), (1, 16)),
-            baca.space(164, (1, 4)),
-        ),
-    )
+    baca.build.make_layout_ly(spacing)

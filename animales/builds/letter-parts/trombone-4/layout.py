@@ -24,23 +24,23 @@ def make_systems(measure_numbers, between_systems, global_context_padding):
     return systems
 
 
-breaks = baca.breaks(
-    baca.page(
-        *make_systems([1, 11, 21, 31, 41, 56, 62], 24, 2),
-        number=1,
+spacing = baca.SpacingSpecifier(
+    breaks=baca.breaks(
+        baca.page(
+            *make_systems([1, 11, 21, 31, 41, 56, 62], 24, 2),
+            number=1,
+        ),
+        baca.page(
+            *make_systems([69, 82, 99, 109, 116, 127, 141, 151, 161, 171], 21, 2),
+            number=2,
+        ),
     ),
-    baca.page(
-        *make_systems([69, 82, 99, 109, 116, 127, 141, 151, 161, 171], 21, 2),
-        number=2,
+    fallback_duration=(1, 8),
+    overrides=(
+        baca.space((56, 68), (1, 12)),
+        baca.space((109, 118), (1, 12)),
     ),
 )
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(
-        breaks,
-        fallback_duration=(1, 8),
-        overrides=(
-            baca.space((56, 68), (1, 12)),
-            baca.space((109, 118), (1, 12)),
-        ),
-    )
+    baca.build.make_layout_ly(spacing)
