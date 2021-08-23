@@ -3,6 +3,7 @@ import baca
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             baca.system(measure=1, y_offset=0, distances=(20, 20)),
             baca.system(measure=5, y_offset=215, distances=(20, 20)),
         ),

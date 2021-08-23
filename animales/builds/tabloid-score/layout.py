@@ -15,6 +15,7 @@ def group(staff_count, inside, after):
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             baca.system(
                 measure=1,
                 y_offset=85,
@@ -25,9 +26,9 @@ spacing = baca.SpacingSpecifier(
                 y_offset=235,
                 distances=(time_signatures + trill_space, 20),
             ),
-            number=1,
         ),
         baca.page(
+            2,
             baca.system(
                 measure=16,
                 y_offset=15,
@@ -39,9 +40,9 @@ spacing = baca.SpacingSpecifier(
                     group(8, 18, 28),
                 ),
             ),
-            number=2,
         ),
         baca.page(
+            3,
             baca.system(
                 measure=22,
                 y_offset=0,
@@ -64,9 +65,9 @@ spacing = baca.SpacingSpecifier(
                     [16, 16, 16, 16, 12],
                 ),
             ),
-            number=3,
         ),
         baca.page(
+            4,
             baca.system(
                 measure=39,
                 y_offset=10,
@@ -91,9 +92,9 @@ spacing = baca.SpacingSpecifier(
                     [16, 16, 16, 16, 12],
                 ),
             ),
-            number=4,
         ),
         baca.page(
+            5,
             baca.system(
                 measure=56,
                 y_offset=15,
@@ -105,9 +106,9 @@ spacing = baca.SpacingSpecifier(
                     [20, 20, 20, 20, 12, 28],
                 ),
             ),
-            number=5,
         ),
         baca.page(
+            6,
             baca.system(
                 measure=64,
                 y_offset=15,
@@ -119,9 +120,9 @@ spacing = baca.SpacingSpecifier(
                     [20, 20, 20, 20, 12, 28],
                 ),
             ),
-            number=6,
         ),
         baca.page(
+            7,
             baca.system(
                 measure=72,
                 y_offset=15,
@@ -133,9 +134,9 @@ spacing = baca.SpacingSpecifier(
                     [24, 24, 24, 24, 20, 32],
                 ),
             ),
-            number=7,
         ),
         baca.page(
+            8,
             baca.system(
                 measure=82,
                 y_offset=15,
@@ -148,9 +149,9 @@ spacing = baca.SpacingSpecifier(
                     [24, 24, 24, 24, 22, 30],
                 ),
             ),
-            number=8,
         ),
         baca.page(
+            9,
             baca.system(
                 measure=88,
                 y_offset=15,
@@ -163,9 +164,9 @@ spacing = baca.SpacingSpecifier(
                     [22, 22, 22, 22, 16, 32],
                 ),
             ),
-            number=9,
         ),
         baca.page(
+            10,
             baca.system(
                 measure=95,
                 y_offset=15,
@@ -175,9 +176,9 @@ spacing = baca.SpacingSpecifier(
                     group(9, 29, 40),
                 ),
             ),
-            number=10,
         ),
         baca.page(
+            11,
             baca.system(
                 measure=107,
                 y_offset=10,
@@ -188,9 +189,9 @@ spacing = baca.SpacingSpecifier(
                     group(9, 20, 30),
                 ),
             ),
-            number=11,
         ),
         baca.page(
+            12,
             baca.system(
                 measure=115,
                 y_offset=10,
@@ -200,49 +201,49 @@ spacing = baca.SpacingSpecifier(
                     group(9, 24, 30),
                 ),
             ),
-            number=12,
         ),
         baca.page(
+            13,
             baca.system(
                 measure=127,
                 y_offset=5,
                 distances=(time_signatures, 16),
             ),
-            number=13,
         ),
         baca.page(
+            14,
             baca.system(
                 measure=134,
                 y_offset=5,
                 distances=(time_signatures, 16),
             ),
-            number=14,
         ),
         baca.page(
+            15,
             baca.system(
                 measure=142,
                 y_offset=5,
                 distances=(time_signatures, 12),
             ),
-            number=15,
         ),
         baca.page(
+            16,
             baca.system(
                 measure=149,
                 y_offset=5,
                 distances=(time_signatures, 12),
             ),
-            number=16,
         ),
         baca.page(
+            17,
             baca.system(
                 measure=158,
                 y_offset=5,
                 distances=(time_signatures, 12),
             ),
-            number=17,
         ),
         baca.page(
+            18,
             baca.system(
                 measure=165,
                 y_offset=15,
@@ -252,7 +253,6 @@ spacing = baca.SpacingSpecifier(
                     staff(24),
                 ),
             ),
-            number=18,
         ),
     ),
     fallback_duration=(1, 20),
