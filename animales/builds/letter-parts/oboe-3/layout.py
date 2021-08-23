@@ -28,12 +28,12 @@ def make_systems(measure_numbers, between_systems=20):
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
-            number=1,
         ),
         baca.page(
+            2,
             *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
-            number=2,
         ),
     ),
     fallback_duration=(1, 8),

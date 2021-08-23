@@ -27,16 +27,16 @@ def make_systems(measure_numbers, between_systems=20, after_global_context=0):
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             *make_systems([1, 9, 16, 24, 33, 41, 49], 24, 4),
-            number=1,
         ),
         baca.page(
+            2,
             *make_systems([56, 66, 76, 88, 99, 109, 119], 30, 4),
-            number=2,
         ),
         baca.page(
+            3,
             *make_systems([131, 137, 143, 149, 155, 161, 167], 28, 4),
-            number=3,
         ),
     ),
     fallback_duration=(1, 8),
