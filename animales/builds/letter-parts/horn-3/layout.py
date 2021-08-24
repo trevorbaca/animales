@@ -24,16 +24,14 @@ def make_systems(measure_numbers, between_systems, global_context_padding):
     return systems
 
 
-spacing = baca.SpacingSpecifier(
-    breaks=baca.breaks(
-        baca.page(
-            1,
-            *make_systems([1, 11, 21, 31, 41, 56, 62], 24, 5),
-        ),
-        baca.page(
-            2,
-            *make_systems([69, 82, 99, 109, 116, 127, 141, 151, 161, 171], 21, 5),
-        ),
+spacing = baca.make_layout(
+    baca.page(
+        1,
+        *make_systems([1, 11, 21, 31, 41, 56, 62], 24, 5),
+    ),
+    baca.page(
+        2,
+        *make_systems([69, 82, 99, 109, 116, 127, 141, 151, 161, 171], 21, 5),
     ),
     fallback_duration=(1, 8),
     overrides=(
