@@ -33,7 +33,7 @@ spacing = baca.make_layout(
         2,
         *make_systems([61, 76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 19, 2),
     ),
-    fallback_duration=(1, 8),
+    spacing=(1, 8),
 )
 
 if __name__ == "__main__":

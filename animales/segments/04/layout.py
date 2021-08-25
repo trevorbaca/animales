@@ -15,7 +15,7 @@ spacing = baca.make_layout(
             ),
         ),
     ),
-    fallback_duration=(1, 20),
+    spacing=(1, 20),
 )
 
 if __name__ == "__main__":
