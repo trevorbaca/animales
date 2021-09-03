@@ -111,7 +111,7 @@ maker(
 
 # strings
 
-animales.constellations(
+animales.battuti(
     maker,
     [[1, -17], [1, -17], [1, -17]],
     omit_contrabasses=True,

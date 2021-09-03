@@ -103,7 +103,7 @@ animales.brass_sforzando(maker, 1)
 
 # strings
 
-animales.constellations(maker, [[1, -55], [1, -17], [1, -17]])
+animales.battuti(maker, [[1, -55], [1, -17], [1, -17]])
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(maker)
