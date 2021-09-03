@@ -138,7 +138,7 @@ maker(
 
 # strings
 
-animales.constellations(
+animales.battuti(
     maker,
     [[1, 1, -5], [1, 1, -5], [1, -8]],
     omit_contrabasses=True,

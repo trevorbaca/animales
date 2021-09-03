@@ -1543,7 +1543,7 @@ def clb_rhythm(
     )
 
 
-def constellations(
+def battuti(
     maker,
     counts,
     *,
@@ -1552,7 +1552,7 @@ def constellations(
     range_=(1, -1),
 ):
     """
-    Makes constellations.
+    Makes battuti.
     """
 
     section_to_members = {
