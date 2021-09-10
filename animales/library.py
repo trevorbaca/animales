@@ -986,45 +986,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     return False
         raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
-    def allows_part_assignment(
-        self, voice_name: str, part_assignment: baca.PartAssignment
-    ) -> bool:
-        """
-        Is true when ``voice_name`` allows ``part_assignment``.
-
-        ..  container:: example
-
-            >>> template = animales.library.ScoreTemplate()
-
-            >>> template.allows_part_assignment(
-            ...     'First.Violin.Voice.2',
-            ...     baca.PartAssignment('First.Violin'),
-            ...     )
-            True
-
-            >>> template.allows_part_assignment(
-            ...     'First.Violin.Voice.2',
-            ...     baca.PartAssignment('First.Violin', (1, 10)),
-            ...     )
-            True
-
-            >>> template.allows_part_assignment(
-            ...     'First.Violin.Voice.2',
-            ...     baca.PartAssignment('Second.Violin'),
-            ...     )
-            False
-
-            >>> template.allows_part_assignment(
-            ...     'First.Violin.Voice.2',
-            ...     baca.PartAssignment('Violin'),
-            ...     )
-            False
-
-        """
-        return super(ScoreTemplate, self).allows_part_assignment(
-            voice_name, part_assignment
-        )
-
     @staticmethod
     def skeleton() -> abjad.Score:
         r"""
