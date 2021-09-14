@@ -446,11 +446,6 @@ segment.29.Percussion.Voice.1.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -715,11 +710,6 @@ segment.29.First.Violin.Voice.1.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -969,11 +959,6 @@ segment.29.First.Violin.Voice.2.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -1261,11 +1246,6 @@ segment.29.First.Violin.Voice.3.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -1520,11 +1500,6 @@ segment.29.First.Violin.Voice.4.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -1792,11 +1767,6 @@ segment.29.First.Violin.Voice.5.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -2039,11 +2009,6 @@ segment.29.First.Violin.Voice.6.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -2300,11 +2265,6 @@ segment.29.First.Violin.Voice.7.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -2553,11 +2513,6 @@ segment.29.First.Violin.Voice.8.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -2800,11 +2755,6 @@ segment.29.First.Violin.Voice.9.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -3053,11 +3003,6 @@ segment.29.First.Violin.Voice.10.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -3315,11 +3260,6 @@ segment.29.First.Violin.Voice.11.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -3564,11 +3504,6 @@ segment.29.First.Violin.Voice.12.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -3839,11 +3774,6 @@ segment.29.First.Violin.Voice.13.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -4080,11 +4010,6 @@ segment.29.First.Violin.Voice.14.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -4345,11 +4270,6 @@ segment.29.First.Violin.Voice.15.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -4608,11 +4528,6 @@ segment.29.First.Violin.Voice.16.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -4866,11 +4781,6 @@ segment.29.First.Violin.Voice.17.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -5119,11 +5029,6 @@ segment.29.First.Violin.Voice.18.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -5385,11 +5290,6 @@ segment.29.Second.Violin.Voice.1.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -5651,11 +5551,6 @@ segment.29.Second.Violin.Voice.2.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -5933,11 +5828,6 @@ segment.29.Second.Violin.Voice.3.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -6206,11 +6096,6 @@ segment.29.Second.Violin.Voice.4.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -6465,11 +6350,6 @@ segment.29.Second.Violin.Voice.5.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -6703,11 +6583,6 @@ segment.29.Second.Violin.Voice.6.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -6992,11 +6867,6 @@ segment.29.Second.Violin.Voice.7.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -7241,11 +7111,6 @@ segment.29.Second.Violin.Voice.8.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -7494,11 +7359,6 @@ segment.29.Second.Violin.Voice.9.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -7747,11 +7607,6 @@ segment.29.Second.Violin.Voice.10.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -7997,11 +7852,6 @@ segment.29.Second.Violin.Voice.11.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -8267,11 +8117,6 @@ segment.29.Second.Violin.Voice.12.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -8528,11 +8373,6 @@ segment.29.Second.Violin.Voice.13.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -8778,11 +8618,6 @@ segment.29.Second.Violin.Voice.14.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -9037,11 +8872,6 @@ segment.29.Second.Violin.Voice.15.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -9286,11 +9116,6 @@ segment.29.Second.Violin.Voice.16.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -9551,11 +9376,6 @@ segment.29.Second.Violin.Voice.17.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -9792,11 +9612,6 @@ segment.29.Second.Violin.Voice.18.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -10067,11 +9882,6 @@ segment.29.Viola.Voice.1.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -10333,11 +10143,6 @@ segment.29.Viola.Voice.2.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -10604,11 +10409,6 @@ segment.29.Viola.Voice.3.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -10877,11 +10677,6 @@ segment.29.Viola.Voice.4.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -11130,11 +10925,6 @@ segment.29.Viola.Voice.5.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -11383,11 +11173,6 @@ segment.29.Viola.Voice.6.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -11658,11 +11443,6 @@ segment.29.Viola.Voice.7.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -11904,11 +11684,6 @@ segment.29.Viola.Voice.8.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -12163,11 +11938,6 @@ segment.29.Viola.Voice.9.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -12407,11 +12177,6 @@ segment.29.Viola.Voice.10.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -12669,11 +12434,6 @@ segment.29.Viola.Voice.11.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -12929,11 +12689,6 @@ segment.29.Viola.Voice.12.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -13204,11 +12959,6 @@ segment.29.Viola.Voice.13.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -13451,11 +13201,6 @@ segment.29.Viola.Voice.14.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -13701,11 +13446,6 @@ segment.29.Viola.Voice.15.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -13978,11 +13718,6 @@ segment.29.Viola.Voice.16.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -14239,11 +13974,6 @@ segment.29.Viola.Voice.17.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -14486,11 +14216,6 @@ segment.29.Viola.Voice.18.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -14761,11 +14486,6 @@ segment.29.Cello.Voice.1.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -15015,11 +14735,6 @@ segment.29.Cello.Voice.2.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -15297,11 +15012,6 @@ segment.29.Cello.Voice.3.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -15546,11 +15256,6 @@ segment.29.Cello.Voice.4.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -15808,11 +15513,6 @@ segment.29.Cello.Voice.5.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -16055,11 +15755,6 @@ segment.29.Cello.Voice.6.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -16316,11 +16011,6 @@ segment.29.Cello.Voice.7.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -16569,11 +16259,6 @@ segment.29.Cello.Voice.8.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -16816,11 +16501,6 @@ segment.29.Cello.Voice.9.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -17069,11 +16749,6 @@ segment.29.Cello.Voice.10.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -17331,11 +17006,6 @@ segment.29.Cello.Voice.11.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -17580,11 +17250,6 @@ segment.29.Cello.Voice.12.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -17855,11 +17520,6 @@ segment.29.Cello.Voice.13.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -18102,11 +17762,6 @@ segment.29.Cello.Voice.14.part.1 = {
             %! +PARTS
             %! baca.IndicatorCommand._call()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
