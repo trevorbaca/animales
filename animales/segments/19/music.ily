@@ -254,7 +254,7 @@ segment.19.Horn.Voice.1 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -589,7 +589,7 @@ segment.19.Horn.Voice.2 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -924,7 +924,7 @@ segment.19.Trumpet.Voice.1 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -1259,7 +1259,7 @@ segment.19.Trumpet.Voice.2 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -1594,7 +1594,7 @@ segment.19.Trombone.Voice.1 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -1929,7 +1929,7 @@ segment.19.Trombone.Voice.2 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -2264,7 +2264,7 @@ segment.19.Tuba.Voice.1 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -2457,7 +2457,7 @@ segment.19.Piano.Voice.1 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -2671,7 +2671,7 @@ segment.19.Percussion.Voice.1 = {
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -2879,7 +2879,7 @@ segment.19.Percussion.Voice.2 = {
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -3072,7 +3072,7 @@ segment.19.Percussion.Voice.3 = {
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -3286,7 +3286,7 @@ segment.19.Percussion.Voice.4 = {
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
@@ -3512,7 +3512,7 @@ segment.19.First.Violin.Voice.1.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     d'16
@@ -3956,7 +3956,7 @@ segment.19.First.Violin.Voice.3.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -4392,7 +4392,7 @@ segment.19.First.Violin.Voice.5.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -4827,7 +4827,7 @@ segment.19.First.Violin.Voice.7.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -5243,7 +5243,7 @@ segment.19.First.Violin.Voice.9.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -5659,7 +5659,7 @@ segment.19.First.Violin.Voice.11.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -6075,7 +6075,7 @@ segment.19.First.Violin.Voice.13.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -6491,7 +6491,7 @@ segment.19.First.Violin.Voice.15.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -6912,7 +6912,7 @@ segment.19.First.Violin.Voice.17.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -7344,7 +7344,7 @@ segment.19.Second.Violin.Voice.1.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -7785,7 +7785,7 @@ segment.19.Second.Violin.Voice.3.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -8241,7 +8241,7 @@ segment.19.Second.Violin.Voice.5.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -8660,7 +8660,7 @@ segment.19.Second.Violin.Voice.7.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -9076,7 +9076,7 @@ segment.19.Second.Violin.Voice.9.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -9492,7 +9492,7 @@ segment.19.Second.Violin.Voice.11.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -9936,7 +9936,7 @@ segment.19.Second.Violin.Voice.13.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -10352,7 +10352,7 @@ segment.19.Second.Violin.Voice.15.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -10773,7 +10773,7 @@ segment.19.Second.Violin.Voice.17.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -11199,7 +11199,7 @@ segment.19.Viola.Voice.1.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -11640,7 +11640,7 @@ segment.19.Viola.Voice.3.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -12076,7 +12076,7 @@ segment.19.Viola.Voice.5.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -12508,7 +12508,7 @@ segment.19.Viola.Voice.7.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -12924,7 +12924,7 @@ segment.19.Viola.Voice.9.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -13340,7 +13340,7 @@ segment.19.Viola.Voice.11.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -13773,7 +13773,7 @@ segment.19.Viola.Voice.13.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -14189,7 +14189,7 @@ segment.19.Viola.Voice.15.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r4.
@@ -14619,7 +14619,7 @@ segment.19.Viola.Voice.17.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -15054,7 +15054,7 @@ segment.19.Cello.Voice.1.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -15495,7 +15495,7 @@ segment.19.Cello.Voice.3.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -15911,7 +15911,7 @@ segment.19.Cello.Voice.5.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -16330,7 +16330,7 @@ segment.19.Cello.Voice.7.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -16746,7 +16746,7 @@ segment.19.Cello.Voice.9.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -17162,7 +17162,7 @@ segment.19.Cello.Voice.11.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -17589,7 +17589,7 @@ segment.19.Cello.Voice.13.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -18015,7 +18015,7 @@ segment.19.Contrabass.Voice.1.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -18446,7 +18446,7 @@ segment.19.Contrabass.Voice.3.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
@@ -18877,7 +18877,7 @@ segment.19.Contrabass.Voice.5.part.1 = {
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
-    %! baca.SegmentMaker._magnify_staves_()
+    %! baca.SegmentMaker._magnify_staves()
     \magnifyStaff #3/5
     %! animales.clb_rhythm()
     r1
