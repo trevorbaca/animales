@@ -92,14 +92,14 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 1]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
     %! EMPTY_START_BAR
     %! +SEGMENT
     %! baca.SegmentMaker._make_global_skips(4)
     \bar ""
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -123,15 +123,15 @@ segment.18.Global.Skips = {
     %! MEASURE_NUMBER
     %! baca.SegmentMaker._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
     %@% - \abjad-invisible-line
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "76"
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
     %@% \bacaStartTextSpanMM
@@ -186,10 +186,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 3]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -225,10 +225,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 4]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -328,10 +328,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 7]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -367,10 +367,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 8]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -406,10 +406,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 9]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -445,10 +445,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 10]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -516,10 +516,10 @@ segment.18.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 12]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 2/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -558,7 +558,7 @@ segment.18.Global.Skips = {
     % [Global_Skips measure 13]
     %! baca.SegmentMaker._make_global_skips(3)
     %! PHANTOM
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     %! baca.SegmentMaker._style_phantom_measures(1)
     \time 1/4
@@ -607,27 +607,27 @@ segment.18.Horn.Voice.1.part.1 = {
     % [Horn.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "bass"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.voice_one()
@@ -650,31 +650,31 @@ segment.18.Horn.Voice.1.part.1 = {
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Horn”)"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -967,12 +967,12 @@ segment.18.Horn.Voice.3.part.1 = {
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sfz
 
@@ -1273,27 +1273,27 @@ segment.18.Horn.Voice.2.part.1 = {
     % [Horn.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "bass"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.voice_one()
@@ -1316,31 +1316,31 @@ segment.18.Horn.Voice.2.part.1 = {
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Horn”)"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -1633,12 +1633,12 @@ segment.18.Horn.Voice.4.part.1 = {
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sfz
 
@@ -1939,27 +1939,27 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % [Trumpet.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.voice_one()
@@ -1982,31 +1982,31 @@ segment.18.Trumpet.Voice.1.part.1 = {
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -2299,12 +2299,12 @@ segment.18.Trumpet.Voice.3.part.1 = {
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sfz
 
@@ -2605,27 +2605,27 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % [Trumpet.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.voice_one()
@@ -2648,31 +2648,31 @@ segment.18.Trumpet.Voice.2.part.1 = {
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -2965,12 +2965,12 @@ segment.18.Trumpet.Voice.4.part.1 = {
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sfz
 
@@ -3271,27 +3271,27 @@ segment.18.Trombone.Voice.1.part.1 = {
     % [Trombone.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "tenor"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.voice_one()
@@ -3314,31 +3314,31 @@ segment.18.Trombone.Voice.1.part.1 = {
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -3631,12 +3631,12 @@ segment.18.Trombone.Voice.3.part.1 = {
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sfz
 
@@ -3937,27 +3937,27 @@ segment.18.Trombone.Voice.2.part.1 = {
     % [Trombone.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "tenor"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.voice_one()
@@ -3980,31 +3980,31 @@ segment.18.Trombone.Voice.2.part.1 = {
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! +PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -4297,12 +4297,12 @@ segment.18.Trombone.Voice.4.part.1 = {
     %! _treat_persistent_wrapper(1)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \sfz
 
@@ -4611,7 +4611,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
             % [First.Violin.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -4641,21 +4641,21 @@ segment.18.First.Violin.Voice.1.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "treble"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -4669,34 +4669,34 @@ segment.18.First.Violin.Voice.1.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Violin”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -4766,13 +4766,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -4780,19 +4780,19 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -4873,13 +4873,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -4889,25 +4889,25 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -4971,13 +4971,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -5048,13 +5048,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -5062,19 +5062,19 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -5155,13 +5155,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -5171,25 +5171,25 @@ segment.18.First.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -5253,13 +5253,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -5456,11 +5456,11 @@ segment.18.First.Violin.Voice.2.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -5535,13 +5535,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -5549,19 +5549,19 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -5642,13 +5642,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -5658,25 +5658,25 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -5740,13 +5740,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -5817,13 +5817,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -5831,19 +5831,19 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -5924,13 +5924,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -5940,25 +5940,25 @@ segment.18.First.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -6022,13 +6022,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -6212,7 +6212,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
             % [First.Violin.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -6242,21 +6242,21 @@ segment.18.First.Violin.Voice.3.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "treble"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -6270,34 +6270,34 @@ segment.18.First.Violin.Voice.3.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Violin”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -6367,13 +6367,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -6381,19 +6381,19 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -6474,13 +6474,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -6490,25 +6490,25 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -6572,13 +6572,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -6649,13 +6649,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -6663,19 +6663,19 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -6756,13 +6756,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -6772,25 +6772,25 @@ segment.18.First.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -6854,13 +6854,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -7057,11 +7057,11 @@ segment.18.First.Violin.Voice.4.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -7136,13 +7136,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -7150,19 +7150,19 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -7243,13 +7243,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -7259,25 +7259,25 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -7341,13 +7341,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -7418,13 +7418,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -7432,19 +7432,19 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -7525,13 +7525,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -7541,25 +7541,25 @@ segment.18.First.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -7623,13 +7623,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -7805,27 +7805,27 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % [First.Violin.Voice.5 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! baca.make_repeat_tied_notes()
@@ -7836,18 +7836,18 @@ segment.18.First.Violin.Voice.5.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \f
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I 18”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! baca.repeat_tie()
     %! baca.IndicatorCommand._call()
@@ -7891,16 +7891,16 @@ segment.18.First.Violin.Voice.5.part.1 = {
     - \tweak stencil ##f
     %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -8366,7 +8366,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
             % [Second.Violin.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -8396,21 +8396,21 @@ segment.18.Second.Violin.Voice.1.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "treble"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -8424,34 +8424,34 @@ segment.18.Second.Violin.Voice.1.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Violin”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -8521,13 +8521,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -8535,19 +8535,19 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -8630,13 +8630,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -8648,25 +8648,25 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -8730,13 +8730,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -8807,13 +8807,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -8821,19 +8821,19 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -8916,13 +8916,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -8934,25 +8934,25 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -9016,13 +9016,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -9219,11 +9219,11 @@ segment.18.Second.Violin.Voice.2.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -9298,13 +9298,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -9312,19 +9312,19 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -9405,13 +9405,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -9421,25 +9421,25 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -9503,13 +9503,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -9580,13 +9580,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -9594,19 +9594,19 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -9687,13 +9687,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -9703,25 +9703,25 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -9785,13 +9785,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -9975,7 +9975,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
             % [Second.Violin.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -10005,21 +10005,21 @@ segment.18.Second.Violin.Voice.3.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "treble"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -10033,34 +10033,34 @@ segment.18.Second.Violin.Voice.3.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Violin”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -10130,13 +10130,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -10144,19 +10144,19 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -10237,13 +10237,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -10253,25 +10253,25 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -10335,13 +10335,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -10412,13 +10412,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -10426,19 +10426,19 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -10519,13 +10519,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -10535,25 +10535,25 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -10617,13 +10617,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -10820,11 +10820,11 @@ segment.18.Second.Violin.Voice.4.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -10899,13 +10899,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -10913,19 +10913,19 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -11006,13 +11006,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -11022,25 +11022,25 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -11104,13 +11104,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -11181,13 +11181,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -11195,19 +11195,19 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -11288,13 +11288,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -11304,25 +11304,25 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -11386,13 +11386,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -11576,7 +11576,7 @@ segment.18.Viola.Voice.1.part.1 = {
             % [Viola.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -11606,21 +11606,21 @@ segment.18.Viola.Voice.1.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "alto"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -11634,34 +11634,34 @@ segment.18.Viola.Voice.1.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Viola”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -11731,13 +11731,13 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -11745,19 +11745,19 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -11838,13 +11838,13 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -11854,25 +11854,25 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -11936,13 +11936,13 @@ segment.18.Viola.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -12013,13 +12013,13 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -12027,19 +12027,19 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -12120,13 +12120,13 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -12136,25 +12136,25 @@ segment.18.Viola.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -12218,13 +12218,13 @@ segment.18.Viola.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -12421,11 +12421,11 @@ segment.18.Viola.Voice.2.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -12500,13 +12500,13 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -12514,19 +12514,19 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -12607,13 +12607,13 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -12623,25 +12623,25 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -12705,13 +12705,13 @@ segment.18.Viola.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -12782,13 +12782,13 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -12796,19 +12796,19 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -12889,13 +12889,13 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -12905,25 +12905,25 @@ segment.18.Viola.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -12987,13 +12987,13 @@ segment.18.Viola.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -13177,7 +13177,7 @@ segment.18.Viola.Voice.3.part.1 = {
             % [Viola.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -13207,21 +13207,21 @@ segment.18.Viola.Voice.3.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "alto"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -13235,34 +13235,34 @@ segment.18.Viola.Voice.3.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Viola”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -13332,13 +13332,13 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -13346,19 +13346,19 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -13439,13 +13439,13 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -13455,25 +13455,25 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -13537,13 +13537,13 @@ segment.18.Viola.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -13614,13 +13614,13 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -13628,19 +13628,19 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -13721,13 +13721,13 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -13737,25 +13737,25 @@ segment.18.Viola.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -13819,13 +13819,13 @@ segment.18.Viola.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -14022,11 +14022,11 @@ segment.18.Viola.Voice.4.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -14101,13 +14101,13 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -14115,19 +14115,19 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -14208,13 +14208,13 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -14224,25 +14224,25 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -14306,13 +14306,13 @@ segment.18.Viola.Voice.4.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -14383,13 +14383,13 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -14397,19 +14397,19 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -14490,13 +14490,13 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -14506,25 +14506,25 @@ segment.18.Viola.Voice.4.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -14588,13 +14588,13 @@ segment.18.Viola.Voice.4.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -14778,7 +14778,7 @@ segment.18.Cello.Voice.1.part.1 = {
             % [Cello.Voice.1 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" }
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -14808,21 +14808,21 @@ segment.18.Cello.Voice.1.part.1 = {
             %! baca.OverrideCommand._call(1)
             \override TextSpanner.stencil = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "bass"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.voice_one()
@@ -14836,34 +14836,34 @@ segment.18.Cello.Voice.1.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Cello”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" }
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -14933,13 +14933,13 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -14947,19 +14947,19 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -15042,13 +15042,13 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -15060,25 +15060,25 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -15142,13 +15142,13 @@ segment.18.Cello.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -15219,13 +15219,13 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -15233,19 +15233,19 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -15328,13 +15328,13 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -15346,25 +15346,25 @@ segment.18.Cello.Voice.1.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -15428,13 +15428,13 @@ segment.18.Cello.Voice.1.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -15631,11 +15631,11 @@ segment.18.Cello.Voice.2.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -15710,13 +15710,13 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -15724,19 +15724,19 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -15817,13 +15817,13 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -15833,25 +15833,25 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -15915,13 +15915,13 @@ segment.18.Cello.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -15992,13 +15992,13 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -16006,19 +16006,19 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -16099,13 +16099,13 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -16115,25 +16115,25 @@ segment.18.Cello.Voice.2.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -16197,13 +16197,13 @@ segment.18.Cello.Voice.2.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -16387,7 +16387,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
             % [Contrabass.Voice.3 measure 1]
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
             %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -16401,21 +16401,21 @@ segment.18.Contrabass.Voice.3.part.1 = {
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \clef "bass"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_MARGIN_MARKUP_COLOR
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
-            %! baca.SegmentMaker.attach_color_literal(1)
+            %! baca.attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(2)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set Staff.forceClef = ##t
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
@@ -16425,34 +16425,34 @@ segment.18.Contrabass.Voice.3.part.1 = {
             %! REAPPLIED_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             - \tweak color #(x11-color 'green4)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \pp
             %! REAPPLIED_MARGIN_MARKUP_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Cb.”]"
             %! REAPPLIED_INSTRUMENT_ALERT
-            %! baca.SegmentMaker._attach_latent_indicator_alert()
+            %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
             %! baca.SegmentMaker._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
-            %! baca.SegmentMaker.treat_persistent_wrapper(3)
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
-            %! baca.SegmentMaker.attach_color_literal(2)
+            %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -16522,13 +16522,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -16536,19 +16536,19 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -16629,13 +16629,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \f
     %! baca.make_repeat_tied_notes()
@@ -16645,25 +16645,25 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -16727,13 +16727,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()
@@ -16804,13 +16804,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
     %! EXPLICIT_DYNAMIC_COLOR
@@ -16818,19 +16818,19 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
     %! baca.rhythm_annotation_spanner()
@@ -16911,13 +16911,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
     %! baca.make_repeat_tied_notes()
@@ -16927,25 +16927,25 @@ segment.18.Contrabass.Voice.3.part.1 = {
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak to-barline ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     - \tweak circled-tip ##t
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
     %! baca.text_spanner()
@@ -17009,13 +17009,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             - \tweak color #(x11-color 'blue)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            %! baca.SegmentMaker._set_status_tag()
+            %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
             %! baca.SegmentMaker._label_duration_multipliers()

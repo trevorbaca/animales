@@ -35,14 +35,14 @@ segment.19.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 1]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     %! EMPTY_START_BAR
     %! +SEGMENT
     %! baca.SegmentMaker._make_global_skips(4)
     \bar ""
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -67,17 +67,17 @@ segment.19.Global.Skips = {
     %! baca.SegmentMaker._label_measure_numbers()
     %@% \bacaStartTextSpanMN
     %! baca.SegmentMaker._reapply_persistent_indicators(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
     %@% - \abjad-invisible-line
     %! baca.SegmentMaker._reapply_persistent_indicators(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "76"
     %! baca.SegmentMaker._reapply_persistent_indicators(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca.SegmentMaker._attach_metronome_marks(2)
     %@% \bacaStartTextSpanMM
@@ -100,10 +100,10 @@ segment.19.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 2]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 2/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -139,10 +139,10 @@ segment.19.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 3]
     %! baca.SegmentMaker._make_global_skips(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
     %! baca.SegmentMaker._make_global_skips(1)
@@ -181,7 +181,7 @@ segment.19.Global.Skips = {
     % [Global_Skips measure 4]
     %! baca.SegmentMaker._make_global_skips(3)
     %! PHANTOM
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
     %! baca.SegmentMaker._style_phantom_measures(1)
     \time 1/4
@@ -230,27 +230,27 @@ segment.19.Horn.Voice.1 = {
     % [Horn.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "bass"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -263,33 +263,33 @@ segment.19.Horn.Voice.1 = {
     %! +PARTS
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% - \tweak color #(x11-color 'green4)
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Horn”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -415,11 +415,11 @@ segment.19.Horn.Voice.3 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \sfz
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -565,27 +565,27 @@ segment.19.Horn.Voice.2 = {
     % [Horn.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "bass"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -598,33 +598,33 @@ segment.19.Horn.Voice.2 = {
     %! +PARTS
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% - \tweak color #(x11-color 'green4)
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Horn”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -750,11 +750,11 @@ segment.19.Horn.Voice.4 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \sfz
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -900,27 +900,27 @@ segment.19.Trumpet.Voice.1 = {
     % [Trumpet.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -933,33 +933,33 @@ segment.19.Trumpet.Voice.1 = {
     %! +PARTS
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% - \tweak color #(x11-color 'green4)
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -1085,11 +1085,11 @@ segment.19.Trumpet.Voice.3 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \sfz
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1235,27 +1235,27 @@ segment.19.Trumpet.Voice.2 = {
     % [Trumpet.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -1268,33 +1268,33 @@ segment.19.Trumpet.Voice.2 = {
     %! +PARTS
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% - \tweak color #(x11-color 'green4)
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -1420,11 +1420,11 @@ segment.19.Trumpet.Voice.4 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \sfz
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1570,27 +1570,27 @@ segment.19.Trombone.Voice.1 = {
     % [Trombone.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "tenor"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -1603,33 +1603,33 @@ segment.19.Trombone.Voice.1 = {
     %! +PARTS
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% - \tweak color #(x11-color 'green4)
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -1755,11 +1755,11 @@ segment.19.Trombone.Voice.3 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \sfz
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -1905,27 +1905,27 @@ segment.19.Trombone.Voice.2 = {
     % [Trombone.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "tenor"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -1938,33 +1938,33 @@ segment.19.Trombone.Voice.2 = {
     %! +PARTS
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% - \tweak color #(x11-color 'green4)
     %! +PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \sfz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Trombone”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -2090,11 +2090,11 @@ segment.19.Trombone.Voice.4 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \sfz
     %! baca.SegmentMaker._label_duration_multipliers()
@@ -2240,27 +2240,27 @@ segment.19.Tuba.Voice.1 = {
     % [Tuba.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "bass"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -2271,32 +2271,32 @@ segment.19.Tuba.Voice.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \baca-sffz
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Tub.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Tuba”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -2433,27 +2433,27 @@ segment.19.Piano.Voice.1 = {
     % [Piano.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -2464,32 +2464,32 @@ segment.19.Piano.Voice.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mf
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Piano”)"
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -2626,48 +2626,48 @@ segment.19.Percussion.Voice.1 = {
     % [Percussion.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_BAR_EXTENT
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \stopStaff
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "percussion"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! -PARTS
@@ -2678,32 +2678,32 @@ segment.19.Percussion.Voice.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mp
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -2840,42 +2840,42 @@ segment.19.Percussion.Voice.2 = {
     % [Percussion.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \stopStaff
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "percussion"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! -PARTS
@@ -2886,32 +2886,32 @@ segment.19.Percussion.Voice.2 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mp
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -3048,27 +3048,27 @@ segment.19.Percussion.Voice.3 = {
     % [Percussion.Voice.3 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
     %! -PARTS
@@ -3079,32 +3079,32 @@ segment.19.Percussion.Voice.3 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mp
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -3241,48 +3241,48 @@ segment.19.Percussion.Voice.4 = {
     % [Percussion.Voice.4 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_BAR_EXTENT
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \stopStaff
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "percussion"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! -PARTS
@@ -3291,24 +3291,24 @@ segment.19.Percussion.Voice.4 = {
     %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4
     %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
     %! baca.SegmentMaker._label_duration_multipliers()
     %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
@@ -3445,29 +3445,29 @@ segment.19.First.Violin.Voice.1.part.1 = {
     % [First.Violin.Voice.1 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -3486,29 +3486,29 @@ segment.19.First.Violin.Voice.1.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -3519,35 +3519,35 @@ segment.19.First.Violin.Voice.1.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (1-2)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
 
@@ -3677,22 +3677,22 @@ segment.19.First.Violin.Voice.2.part.1 = {
     % [First.Violin.Voice.2 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -3709,26 +3709,26 @@ segment.19.First.Violin.Voice.2.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -3736,18 +3736,18 @@ segment.19.First.Violin.Voice.2.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -3894,24 +3894,24 @@ segment.19.First.Violin.Voice.3.part.1 = {
     % [First.Violin.Voice.3 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -3930,29 +3930,29 @@ segment.19.First.Violin.Voice.3.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -3963,35 +3963,35 @@ segment.19.First.Violin.Voice.3.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (3-4)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
 
@@ -4118,17 +4118,17 @@ segment.19.First.Violin.Voice.4.part.1 = {
     % [First.Violin.Voice.4 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -4145,26 +4145,26 @@ segment.19.First.Violin.Voice.4.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -4172,18 +4172,18 @@ segment.19.First.Violin.Voice.4.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -4330,24 +4330,24 @@ segment.19.First.Violin.Voice.5.part.1 = {
     % [First.Violin.Voice.5 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -4366,29 +4366,29 @@ segment.19.First.Violin.Voice.5.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -4399,35 +4399,35 @@ segment.19.First.Violin.Voice.5.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \f
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (5-6)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
 
@@ -4554,17 +4554,17 @@ segment.19.First.Violin.Voice.6.part.1 = {
     % [First.Violin.Voice.6 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -4581,26 +4581,26 @@ segment.19.First.Violin.Voice.6.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -4609,7 +4609,7 @@ segment.19.First.Violin.Voice.6.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -4765,24 +4765,24 @@ segment.19.First.Violin.Voice.7.part.1 = {
     % [First.Violin.Voice.7 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -4801,29 +4801,29 @@ segment.19.First.Violin.Voice.7.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -4832,27 +4832,27 @@ segment.19.First.Violin.Voice.7.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (7-8)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
 
@@ -4979,17 +4979,17 @@ segment.19.First.Violin.Voice.8.part.1 = {
     % [First.Violin.Voice.8 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -5006,26 +5006,26 @@ segment.19.First.Violin.Voice.8.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -5034,7 +5034,7 @@ segment.19.First.Violin.Voice.8.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -5181,24 +5181,24 @@ segment.19.First.Violin.Voice.9.part.1 = {
     % [First.Violin.Voice.9 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -5217,29 +5217,29 @@ segment.19.First.Violin.Voice.9.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -5248,27 +5248,27 @@ segment.19.First.Violin.Voice.9.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (9-10)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
 
@@ -5395,17 +5395,17 @@ segment.19.First.Violin.Voice.10.part.1 = {
     % [First.Violin.Voice.10 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -5422,26 +5422,26 @@ segment.19.First.Violin.Voice.10.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -5450,7 +5450,7 @@ segment.19.First.Violin.Voice.10.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -5597,24 +5597,24 @@ segment.19.First.Violin.Voice.11.part.1 = {
     % [First.Violin.Voice.11 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -5633,29 +5633,29 @@ segment.19.First.Violin.Voice.11.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -5664,27 +5664,27 @@ segment.19.First.Violin.Voice.11.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (11-12)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
 
@@ -5811,17 +5811,17 @@ segment.19.First.Violin.Voice.12.part.1 = {
     % [First.Violin.Voice.12 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -5838,26 +5838,26 @@ segment.19.First.Violin.Voice.12.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -5866,7 +5866,7 @@ segment.19.First.Violin.Voice.12.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -6013,24 +6013,24 @@ segment.19.First.Violin.Voice.13.part.1 = {
     % [First.Violin.Voice.13 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -6049,29 +6049,29 @@ segment.19.First.Violin.Voice.13.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -6080,27 +6080,27 @@ segment.19.First.Violin.Voice.13.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (13-14)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
 
@@ -6227,17 +6227,17 @@ segment.19.First.Violin.Voice.14.part.1 = {
     % [First.Violin.Voice.14 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -6254,26 +6254,26 @@ segment.19.First.Violin.Voice.14.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -6282,7 +6282,7 @@ segment.19.First.Violin.Voice.14.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -6429,24 +6429,24 @@ segment.19.First.Violin.Voice.15.part.1 = {
     % [First.Violin.Voice.15 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -6465,29 +6465,29 @@ segment.19.First.Violin.Voice.15.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -6496,27 +6496,27 @@ segment.19.First.Violin.Voice.15.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (15-16)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
 
@@ -6643,17 +6643,17 @@ segment.19.First.Violin.Voice.16.part.1 = {
     % [First.Violin.Voice.16 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -6670,26 +6670,26 @@ segment.19.First.Violin.Voice.16.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -6698,7 +6698,7 @@ segment.19.First.Violin.Voice.16.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -6845,29 +6845,29 @@ segment.19.First.Violin.Voice.17.part.1 = {
     % [First.Violin.Voice.17 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -6886,29 +6886,29 @@ segment.19.First.Violin.Voice.17.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -6917,27 +6917,27 @@ segment.19.First.Violin.Voice.17.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (17-18)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
 
@@ -7064,22 +7064,22 @@ segment.19.First.Violin.Voice.18.part.1 = {
     % [First.Violin.Voice.18 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -7096,26 +7096,26 @@ segment.19.First.Violin.Voice.18.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -7124,7 +7124,7 @@ segment.19.First.Violin.Voice.18.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -7277,29 +7277,29 @@ segment.19.Second.Violin.Voice.1.part.1 = {
     % [Second.Violin.Voice.1 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -7318,29 +7318,29 @@ segment.19.Second.Violin.Voice.1.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -7351,35 +7351,35 @@ segment.19.Second.Violin.Voice.1.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (1-2)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
 
@@ -7506,22 +7506,22 @@ segment.19.Second.Violin.Voice.2.part.1 = {
     % [Second.Violin.Voice.2 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -7538,26 +7538,26 @@ segment.19.Second.Violin.Voice.2.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -7565,18 +7565,18 @@ segment.19.Second.Violin.Voice.2.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -7723,24 +7723,24 @@ segment.19.Second.Violin.Voice.3.part.1 = {
     % [Second.Violin.Voice.3 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -7759,29 +7759,29 @@ segment.19.Second.Violin.Voice.3.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -7792,35 +7792,35 @@ segment.19.Second.Violin.Voice.3.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (3-4)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
 
@@ -7967,17 +7967,17 @@ segment.19.Second.Violin.Voice.4.part.1 = {
     % [Second.Violin.Voice.4 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -7994,26 +7994,26 @@ segment.19.Second.Violin.Voice.4.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -8021,18 +8021,18 @@ segment.19.Second.Violin.Voice.4.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -8179,24 +8179,24 @@ segment.19.Second.Violin.Voice.5.part.1 = {
     % [Second.Violin.Voice.5 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -8215,29 +8215,29 @@ segment.19.Second.Violin.Voice.5.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -8246,27 +8246,27 @@ segment.19.Second.Violin.Voice.5.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (5-6)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
 
@@ -8393,17 +8393,17 @@ segment.19.Second.Violin.Voice.6.part.1 = {
     % [Second.Violin.Voice.6 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -8420,26 +8420,26 @@ segment.19.Second.Violin.Voice.6.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -8448,7 +8448,7 @@ segment.19.Second.Violin.Voice.6.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -8598,24 +8598,24 @@ segment.19.Second.Violin.Voice.7.part.1 = {
     % [Second.Violin.Voice.7 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -8634,29 +8634,29 @@ segment.19.Second.Violin.Voice.7.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -8665,27 +8665,27 @@ segment.19.Second.Violin.Voice.7.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (7-8)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
 
@@ -8812,17 +8812,17 @@ segment.19.Second.Violin.Voice.8.part.1 = {
     % [Second.Violin.Voice.8 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -8839,26 +8839,26 @@ segment.19.Second.Violin.Voice.8.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -8867,7 +8867,7 @@ segment.19.Second.Violin.Voice.8.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -9014,24 +9014,24 @@ segment.19.Second.Violin.Voice.9.part.1 = {
     % [Second.Violin.Voice.9 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -9050,29 +9050,29 @@ segment.19.Second.Violin.Voice.9.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -9081,27 +9081,27 @@ segment.19.Second.Violin.Voice.9.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (9-10)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
 
@@ -9228,17 +9228,17 @@ segment.19.Second.Violin.Voice.10.part.1 = {
     % [Second.Violin.Voice.10 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -9255,26 +9255,26 @@ segment.19.Second.Violin.Voice.10.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -9283,7 +9283,7 @@ segment.19.Second.Violin.Voice.10.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -9430,24 +9430,24 @@ segment.19.Second.Violin.Voice.11.part.1 = {
     % [Second.Violin.Voice.11 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -9466,29 +9466,29 @@ segment.19.Second.Violin.Voice.11.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -9497,27 +9497,27 @@ segment.19.Second.Violin.Voice.11.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (11-12)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
 
@@ -9644,17 +9644,17 @@ segment.19.Second.Violin.Voice.12.part.1 = {
     % [Second.Violin.Voice.12 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -9671,26 +9671,26 @@ segment.19.Second.Violin.Voice.12.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -9699,7 +9699,7 @@ segment.19.Second.Violin.Voice.12.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -9874,24 +9874,24 @@ segment.19.Second.Violin.Voice.13.part.1 = {
     % [Second.Violin.Voice.13 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -9910,29 +9910,29 @@ segment.19.Second.Violin.Voice.13.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -9941,27 +9941,27 @@ segment.19.Second.Violin.Voice.13.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (13-14)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
 
@@ -10088,17 +10088,17 @@ segment.19.Second.Violin.Voice.14.part.1 = {
     % [Second.Violin.Voice.14 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -10115,26 +10115,26 @@ segment.19.Second.Violin.Voice.14.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -10143,7 +10143,7 @@ segment.19.Second.Violin.Voice.14.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -10290,24 +10290,24 @@ segment.19.Second.Violin.Voice.15.part.1 = {
     % [Second.Violin.Voice.15 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -10326,29 +10326,29 @@ segment.19.Second.Violin.Voice.15.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -10357,27 +10357,27 @@ segment.19.Second.Violin.Voice.15.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (15-16)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
 
@@ -10504,17 +10504,17 @@ segment.19.Second.Violin.Voice.16.part.1 = {
     % [Second.Violin.Voice.16 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -10531,26 +10531,26 @@ segment.19.Second.Violin.Voice.16.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -10559,7 +10559,7 @@ segment.19.Second.Violin.Voice.16.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -10706,29 +10706,29 @@ segment.19.Second.Violin.Voice.17.part.1 = {
     % [Second.Violin.Voice.17 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -10747,29 +10747,29 @@ segment.19.Second.Violin.Voice.17.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -10778,27 +10778,27 @@ segment.19.Second.Violin.Voice.17.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Violin”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (17-18)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
 
@@ -10925,22 +10925,22 @@ segment.19.Second.Violin.Voice.18.part.1 = {
     % [Second.Violin.Voice.18 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -10957,26 +10957,26 @@ segment.19.Second.Violin.Voice.18.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -10985,7 +10985,7 @@ segment.19.Second.Violin.Voice.18.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -11132,29 +11132,29 @@ segment.19.Viola.Voice.1.part.1 = {
     % [Viola.Voice.1 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -11173,29 +11173,29 @@ segment.19.Viola.Voice.1.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -11206,35 +11206,35 @@ segment.19.Viola.Voice.1.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (1-2)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
 
@@ -11361,22 +11361,22 @@ segment.19.Viola.Voice.2.part.1 = {
     % [Viola.Voice.2 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -11393,26 +11393,26 @@ segment.19.Viola.Voice.2.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -11420,18 +11420,18 @@ segment.19.Viola.Voice.2.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -11578,24 +11578,24 @@ segment.19.Viola.Voice.3.part.1 = {
     % [Viola.Voice.3 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -11614,29 +11614,29 @@ segment.19.Viola.Voice.3.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -11647,35 +11647,35 @@ segment.19.Viola.Voice.3.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (3-4)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
 
@@ -11802,17 +11802,17 @@ segment.19.Viola.Voice.4.part.1 = {
     % [Viola.Voice.4 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -11829,26 +11829,26 @@ segment.19.Viola.Voice.4.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -11856,18 +11856,18 @@ segment.19.Viola.Voice.4.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -12014,24 +12014,24 @@ segment.19.Viola.Voice.5.part.1 = {
     % [Viola.Voice.5 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -12050,29 +12050,29 @@ segment.19.Viola.Voice.5.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -12081,27 +12081,27 @@ segment.19.Viola.Voice.5.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (5-6)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
 
@@ -12228,17 +12228,17 @@ segment.19.Viola.Voice.6.part.1 = {
     % [Viola.Voice.6 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -12255,26 +12255,26 @@ segment.19.Viola.Voice.6.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -12283,7 +12283,7 @@ segment.19.Viola.Voice.6.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -12446,24 +12446,24 @@ segment.19.Viola.Voice.7.part.1 = {
     % [Viola.Voice.7 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -12482,29 +12482,29 @@ segment.19.Viola.Voice.7.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -12513,27 +12513,27 @@ segment.19.Viola.Voice.7.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (7-8)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
 
@@ -12660,17 +12660,17 @@ segment.19.Viola.Voice.8.part.1 = {
     % [Viola.Voice.8 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -12687,26 +12687,26 @@ segment.19.Viola.Voice.8.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -12715,7 +12715,7 @@ segment.19.Viola.Voice.8.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -12862,24 +12862,24 @@ segment.19.Viola.Voice.9.part.1 = {
     % [Viola.Voice.9 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -12898,29 +12898,29 @@ segment.19.Viola.Voice.9.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -12929,27 +12929,27 @@ segment.19.Viola.Voice.9.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (9-10)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
 
@@ -13076,17 +13076,17 @@ segment.19.Viola.Voice.10.part.1 = {
     % [Viola.Voice.10 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -13103,26 +13103,26 @@ segment.19.Viola.Voice.10.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -13131,7 +13131,7 @@ segment.19.Viola.Voice.10.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -13278,24 +13278,24 @@ segment.19.Viola.Voice.11.part.1 = {
     % [Viola.Voice.11 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -13314,29 +13314,29 @@ segment.19.Viola.Voice.11.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -13345,27 +13345,27 @@ segment.19.Viola.Voice.11.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (11-12)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
 
@@ -13492,17 +13492,17 @@ segment.19.Viola.Voice.12.part.1 = {
     % [Viola.Voice.12 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -13519,26 +13519,26 @@ segment.19.Viola.Voice.12.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -13547,7 +13547,7 @@ segment.19.Viola.Voice.12.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -13711,24 +13711,24 @@ segment.19.Viola.Voice.13.part.1 = {
     % [Viola.Voice.13 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -13747,29 +13747,29 @@ segment.19.Viola.Voice.13.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -13778,27 +13778,27 @@ segment.19.Viola.Voice.13.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (13-14)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
 
@@ -13925,17 +13925,17 @@ segment.19.Viola.Voice.14.part.1 = {
     % [Viola.Voice.14 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -13952,26 +13952,26 @@ segment.19.Viola.Voice.14.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -13980,7 +13980,7 @@ segment.19.Viola.Voice.14.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -14127,24 +14127,24 @@ segment.19.Viola.Voice.15.part.1 = {
     % [Viola.Voice.15 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -14163,29 +14163,29 @@ segment.19.Viola.Voice.15.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -14194,27 +14194,27 @@ segment.19.Viola.Voice.15.part.1 = {
     %! animales.clb_rhythm()
     r4.
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (15-16)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
 
@@ -14350,17 +14350,17 @@ segment.19.Viola.Voice.16.part.1 = {
     % [Viola.Voice.16 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -14377,26 +14377,26 @@ segment.19.Viola.Voice.16.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -14405,7 +14405,7 @@ segment.19.Viola.Voice.16.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -14552,29 +14552,29 @@ segment.19.Viola.Voice.17.part.1 = {
     % [Viola.Voice.17 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -14593,29 +14593,29 @@ segment.19.Viola.Voice.17.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -14624,27 +14624,27 @@ segment.19.Viola.Voice.17.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Viola”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (17-18)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
 
@@ -14771,22 +14771,22 @@ segment.19.Viola.Voice.18.part.1 = {
     % [Viola.Voice.18 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -14803,26 +14803,26 @@ segment.19.Viola.Voice.18.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -14831,7 +14831,7 @@ segment.19.Viola.Voice.18.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -14987,29 +14987,29 @@ segment.19.Cello.Voice.1.part.1 = {
     % [Cello.Voice.1 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -15028,29 +15028,29 @@ segment.19.Cello.Voice.1.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -15061,35 +15061,35 @@ segment.19.Cello.Voice.1.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (1-2)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
 
@@ -15216,22 +15216,22 @@ segment.19.Cello.Voice.2.part.1 = {
     % [Cello.Voice.2 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -15248,26 +15248,26 @@ segment.19.Cello.Voice.2.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -15275,18 +15275,18 @@ segment.19.Cello.Voice.2.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -15433,24 +15433,24 @@ segment.19.Cello.Voice.3.part.1 = {
     % [Cello.Voice.3 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -15469,29 +15469,29 @@ segment.19.Cello.Voice.3.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -15500,27 +15500,27 @@ segment.19.Cello.Voice.3.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (3-4)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
 
@@ -15647,17 +15647,17 @@ segment.19.Cello.Voice.4.part.1 = {
     % [Cello.Voice.4 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -15674,26 +15674,26 @@ segment.19.Cello.Voice.4.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -15702,7 +15702,7 @@ segment.19.Cello.Voice.4.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -15849,24 +15849,24 @@ segment.19.Cello.Voice.5.part.1 = {
     % [Cello.Voice.5 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -15885,29 +15885,29 @@ segment.19.Cello.Voice.5.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -15916,27 +15916,27 @@ segment.19.Cello.Voice.5.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (5-6)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
 
@@ -16066,17 +16066,17 @@ segment.19.Cello.Voice.6.part.1 = {
     % [Cello.Voice.6 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -16093,26 +16093,26 @@ segment.19.Cello.Voice.6.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -16121,7 +16121,7 @@ segment.19.Cello.Voice.6.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -16268,24 +16268,24 @@ segment.19.Cello.Voice.7.part.1 = {
     % [Cello.Voice.7 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -16304,29 +16304,29 @@ segment.19.Cello.Voice.7.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -16335,27 +16335,27 @@ segment.19.Cello.Voice.7.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (7-8)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
 
@@ -16482,17 +16482,17 @@ segment.19.Cello.Voice.8.part.1 = {
     % [Cello.Voice.8 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -16509,26 +16509,26 @@ segment.19.Cello.Voice.8.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -16537,7 +16537,7 @@ segment.19.Cello.Voice.8.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -16684,24 +16684,24 @@ segment.19.Cello.Voice.9.part.1 = {
     % [Cello.Voice.9 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -16720,29 +16720,29 @@ segment.19.Cello.Voice.9.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -16751,27 +16751,27 @@ segment.19.Cello.Voice.9.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (9-10)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
 
@@ -16898,17 +16898,17 @@ segment.19.Cello.Voice.10.part.1 = {
     % [Cello.Voice.10 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -16925,26 +16925,26 @@ segment.19.Cello.Voice.10.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -16953,7 +16953,7 @@ segment.19.Cello.Voice.10.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -17100,24 +17100,24 @@ segment.19.Cello.Voice.11.part.1 = {
     % [Cello.Voice.11 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -17136,29 +17136,29 @@ segment.19.Cello.Voice.11.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -17167,27 +17167,27 @@ segment.19.Cello.Voice.11.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (11-12)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
 
@@ -17320,17 +17320,17 @@ segment.19.Cello.Voice.12.part.1 = {
     % [Cello.Voice.12 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -17347,26 +17347,26 @@ segment.19.Cello.Voice.12.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -17375,7 +17375,7 @@ segment.19.Cello.Voice.12.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -17522,29 +17522,29 @@ segment.19.Cello.Voice.13.part.1 = {
     % [Cello.Voice.13 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -17563,29 +17563,29 @@ segment.19.Cello.Voice.13.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -17594,27 +17594,27 @@ segment.19.Cello.Voice.13.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Cello”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (13-14)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
 
@@ -17741,22 +17741,22 @@ segment.19.Cello.Voice.14.part.1 = {
     % [Cello.Voice.14 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -17773,26 +17773,26 @@ segment.19.Cello.Voice.14.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -17801,7 +17801,7 @@ segment.19.Cello.Voice.14.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -17948,29 +17948,29 @@ segment.19.Contrabass.Voice.1.part.1 = {
     % [Contrabass.Voice.1 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -17989,29 +17989,29 @@ segment.19.Contrabass.Voice.1.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -18022,35 +18022,35 @@ segment.19.Contrabass.Voice.1.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mf
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb. (1-2)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
 
@@ -18177,22 +18177,22 @@ segment.19.Contrabass.Voice.2.part.1 = {
     % [Contrabass.Voice.2 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -18209,26 +18209,26 @@ segment.19.Contrabass.Voice.2.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -18237,7 +18237,7 @@ segment.19.Contrabass.Voice.2.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -18384,24 +18384,24 @@ segment.19.Contrabass.Voice.3.part.1 = {
     % [Contrabass.Voice.3 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -18420,29 +18420,29 @@ segment.19.Contrabass.Voice.3.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -18453,35 +18453,35 @@ segment.19.Contrabass.Voice.3.part.1 = {
     %! REAPPLIED_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
     %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb. (3-4)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
 
@@ -18608,17 +18608,17 @@ segment.19.Contrabass.Voice.4.part.1 = {
     % [Contrabass.Voice.4 measure 1]
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -18635,26 +18635,26 @@ segment.19.Contrabass.Voice.4.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -18663,7 +18663,7 @@ segment.19.Contrabass.Voice.4.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
@@ -18810,29 +18810,29 @@ segment.19.Contrabass.Voice.5.part.1 = {
     % [Contrabass.Voice.5 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
@@ -18851,29 +18851,29 @@ segment.19.Contrabass.Voice.5.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceOne
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! -PARTS
@@ -18882,27 +18882,27 @@ segment.19.Contrabass.Voice.5.part.1 = {
     %! animales.clb_rhythm()
     r1
     %! DEFAULT_INSTRUMENT_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "(“Contrabass”)"
     %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
     %! EXPLICIT_MARGIN_MARKUP_ALERT
-    %! baca.SegmentMaker._attach_latent_indicator_alert()
+    %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb. (5-6)”]"
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(3)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
+    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
 
@@ -19029,22 +19029,22 @@ segment.19.Contrabass.Voice.6.part.1 = {
     % [Contrabass.Voice.6 measure 1]
     %! -PARTS
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \stopStaff
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
     %! baca.clef_x_extent_false()
@@ -19061,26 +19061,26 @@ segment.19.Contrabass.Voice.6.part.1 = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \clef "percussion"
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \voiceTwo
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'blue)
-    %! baca.SegmentMaker.attach_color_literal(1)
+    %! baca.attach_color_literal(1)
     %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
     %! baca.clef()
     %! baca.IndicatorCommand._call()
-    %! baca.SegmentMaker.treat_persistent_wrapper(2)
-    %! baca.SegmentMaker._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    %! baca._set_status_tag()
     %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
     %! animales.clb_rhythm()
@@ -19089,7 +19089,7 @@ segment.19.Contrabass.Voice.6.part.1 = {
     %! +PARTS
     %! baca.IndicatorCommand._call()
 %%% ^ \animales-col-legno-battuti-explanation
-    %! baca.SegmentMaker.attach_color_literal(2)
+    %! baca.attach_color_literal(2)
     %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
