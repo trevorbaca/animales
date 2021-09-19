@@ -55,7 +55,7 @@ def attach_grand_pause_fermatas(maker, *, measure=-1):
     assert isinstance(maker, baca.SegmentMaker)
     assert maker.score_template is not None
     dummy_score = maker.score_template()
-    for voice in abjad.iterate(dummy_score).components(abjad.Voice):
+    for voice in abjad.iterate.components(dummy_score, abjad.Voice):
         markup = abjad.Markup(
             r'\markup \musicglyph #"scripts.ufermata"',
             literal=True,
