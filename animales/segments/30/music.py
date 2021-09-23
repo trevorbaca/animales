@@ -13,6 +13,7 @@ start = 142
 time_signatures = animales.time_signatures[start : start + 9] + ((1, 4),)
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     error_on_not_yet_pitched=True,
     final_segment=True,
     instruments=animales.instruments,

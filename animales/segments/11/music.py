@@ -12,6 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 61
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     error_on_not_yet_pitched=True,
     clock_time_override=abjad.MetronomeMark((1, 4), 95),
     instruments=animales.instruments,
