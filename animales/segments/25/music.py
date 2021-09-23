@@ -161,4 +161,4 @@ maker(
 animales.battuti(maker, [[1, -117, -117], [1, -118]])
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker)
+    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
