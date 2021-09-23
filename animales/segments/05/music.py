@@ -12,6 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 23
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     error_on_not_yet_pitched=True,
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
