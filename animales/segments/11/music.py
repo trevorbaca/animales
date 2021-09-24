@@ -13,8 +13,6 @@ assert start == 61
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
-    clock_time_override=abjad.MetronomeMark((1, 4), 95),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
@@ -62,7 +60,6 @@ maker = baca.SegmentMaker(
         ],
     ),
     time_signatures=animales.time_signatures[start : start + 6],
-    transpose_score=True,
 )
 
 maker(
@@ -400,4 +397,7 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         maker,
         **baca.segments(runtime=True),
+        clock_time_override=abjad.MetronomeMark((1, 4), 95),
+        error_on_not_yet_pitched=True,
+        transpose_score=True,
     )

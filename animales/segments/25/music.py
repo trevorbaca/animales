@@ -13,7 +13,6 @@ start = 130
 time_signatures = animales.time_signatures[start : start + 3]
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
@@ -87,7 +86,6 @@ maker = baca.SegmentMaker(
         ],
     ),
     time_signatures=time_signatures,
-    transpose_score=True,
 )
 
 maker(
@@ -164,4 +162,6 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         maker,
         **baca.segments(runtime=True),
+        error_on_not_yet_pitched=True,
+        transpose_score=True,
     )
