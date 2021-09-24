@@ -610,8 +610,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     _always_make_global_rests = True
 
-    _publish_storage_format = True
-
     ### INITIALIZER ###
 
     def __init__(
