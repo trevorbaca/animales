@@ -52,7 +52,7 @@ def attach_grand_pause_fermatas(maker, *, measure=-1):
 
     Because voices alive in semgent do not receive GlobalRests variables.
     """
-    assert isinstance(maker, baca.SegmentMaker)
+    assert isinstance(maker, baca.CommandAccumulator)
     assert maker.score_template is not None
     dummy_score = maker.score_template()
     for voice in abjad.iterate.components(dummy_score, abjad.Voice):

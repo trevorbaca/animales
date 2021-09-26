@@ -6,7 +6,7 @@ from animales import library as animales
 ##################################### [_] #####################################
 ###############################################################################
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,

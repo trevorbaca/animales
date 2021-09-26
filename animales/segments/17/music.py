@@ -12,7 +12,7 @@ assert metadata.get("final_measure_number") == 108
 start = 94
 
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
