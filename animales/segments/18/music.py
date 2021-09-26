@@ -18,7 +18,7 @@ time_signatures = list(time_signatures)
 time_signatures.insert(2, (1, 4))
 time_signatures.insert(7, (1, 4))
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,

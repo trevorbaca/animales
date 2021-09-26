@@ -12,7 +12,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 35
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,

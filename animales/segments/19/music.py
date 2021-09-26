@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 130
 
 time_signatures = animales.time_signatures[start : start + 3]
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
