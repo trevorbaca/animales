@@ -93,11 +93,11 @@ voice_to_start_markup = {
     ],
 }
 
-for voice, commands in voice_to_start_markup.items():
-    assert isinstance(commands, list)
+for voice, commands_ in voice_to_start_markup.items():
+    assert isinstance(commands_, list)
     commands(
         (voice, 1),
-        *commands,
+        *commands_,
     )
 
 # strings
