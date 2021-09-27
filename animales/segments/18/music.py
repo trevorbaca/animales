@@ -18,7 +18,7 @@ time_signatures = list(time_signatures)
 time_signatures.insert(2, (1, 4))
 time_signatures.insert(7, (1, 4))
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -59,7 +59,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("76"),
     baca.rehearsal_mark(
@@ -72,7 +72,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
@@ -84,16 +84,16 @@ maker(
     ),
 )
 
-animales.attach_grand_pause_fermatas(maker, measure=3)
-animales.attach_grand_pause_fermatas(maker, measure=8)
+animales.attach_grand_pause_fermatas(commands, measure=3)
+animales.attach_grand_pause_fermatas(commands, measure=8)
 
 # brass
 
-animales.assign_brass_sforzando_parts(maker, omit_tuba=True)
+animales.assign_brass_sforzando_parts(commands, omit_tuba=True)
 
 # horns
 
-maker(
+commands(
     ("hn1", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -102,7 +102,7 @@ maker(
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("hn3", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -110,7 +110,7 @@ maker(
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("hn2", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -119,7 +119,7 @@ maker(
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("hn4", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -129,7 +129,7 @@ maker(
 
 # trumpets
 
-maker(
+commands(
     ("tp1", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -138,7 +138,7 @@ maker(
     baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tp3", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -146,7 +146,7 @@ maker(
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tp2", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -155,7 +155,7 @@ maker(
     baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tp4", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -165,7 +165,7 @@ maker(
 
 # trombones
 
-maker(
+commands(
     ("tbn1", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -174,7 +174,7 @@ maker(
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tbn3", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -182,7 +182,7 @@ maker(
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     ("tbn2", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -191,7 +191,7 @@ maker(
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tbn4", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -274,31 +274,31 @@ for voice, items in string_parts.items():
             selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
         ),
     )
-    maker(
+    commands(
         voice,
         *commands,
     )
     if voice == "First.Violin.Voice.5":
         continue
-    maker(
+    commands(
         [
             (voice, (4, 6)),
             (voice, (9, 11)),
         ],
         baca.make_repeat_tied_notes(),
     )
-    maker(
+    commands(
         (voice, (4, 7)),
         tremolo("f"),
     )
-    maker(
+    commands(
         (voice, (9, 12)),
         tremolo("mp"),
     )
 
 # solo violin
 
-maker(
+commands(
     "1vn5",
     baca.repeat_tie(baca.selectors.leaf(0)),
     baca.stem_tremolo(
@@ -306,7 +306,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     [
         ("1vn5", (1, 2)),
         ("1vn5", (4, 7)),
@@ -317,7 +317,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

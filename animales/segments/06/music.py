@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 29
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -46,7 +46,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 6],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark(
@@ -69,7 +69,7 @@ maker(
 
 # clarinet
 
-maker(
+commands(
     "cl1",
     animales.margin_markup("Cl. 3"),
     animales.parts("Clarinet", 3),
@@ -81,7 +81,7 @@ maker(
 
 # percussion
 
-maker(
+commands(
     "perc1",
     animales.parts("Percussion", 1),
     baca.hairpin("p >o", right_broken=True),
@@ -93,7 +93,7 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     "perc2",
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
@@ -106,7 +106,7 @@ maker(
 
 # strings
 
-maker(
+commands(
     "1vn1",
     animales.margin_markup("Vni. I"),
     animales.parts("First.Violin"),
@@ -114,27 +114,27 @@ maker(
     baca.not_parts(baca.one_voice()),
 )
 
-maker(
+commands(
     "2vn1",
     animales.margin_markup("Vni. II"),
     animales.parts("Second.Violin"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     "va1",
     animales.parts("Viola"),
     animales.margin_markup("Vle."),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     "vc1",
     animales.parts("Cello"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass"),
     baca.make_repeated_duration_notes([(1, 4)]),
@@ -147,7 +147,7 @@ left_broken = [
     "vc1",
 ]
 
-maker(
+commands(
     (left_broken, 1),
     baca.not_segment(baca.stop_trill()),
     baca.repeat_tie(
@@ -161,12 +161,12 @@ absent_left_broken = [
     "va3",
 ]
 
-maker(
+commands(
     (absent_left_broken, 1),
     baca.not_segment(baca.stop_trill()),
 )
 
-maker(
+commands(
     "1vn1",
     baca.articulation("trill"),
     baca.glissando(
@@ -179,7 +179,7 @@ maker(
     baca.interpolate_pitches("B3", "A6"),
 )
 
-maker(
+commands(
     "2vn1",
     baca.articulation("trill"),
     baca.glissando(
@@ -192,7 +192,7 @@ maker(
     baca.interpolate_pitches("B3", "A5"),
 )
 
-maker(
+commands(
     "va1",
     baca.articulation("trill"),
     baca.glissando(
@@ -205,7 +205,7 @@ maker(
     baca.interpolate_pitches("B3", "A4"),
 )
 
-maker(
+commands(
     "vc1",
     baca.articulation("trill"),
     baca.glissando(
@@ -218,7 +218,7 @@ maker(
     baca.interpolate_pitches("B3", "C3"),
 )
 
-maker(
+commands(
     "cb3",
     baca.glissando(
         allow_repeats=True,
@@ -234,7 +234,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),

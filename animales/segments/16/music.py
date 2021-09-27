@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 94
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -49,7 +49,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 14],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "O",
@@ -72,72 +72,72 @@ def swell(peak):
 
 # oboes
 
-maker(
+commands(
     "ob1",
     animales.parts("Oboe"),
 )
 
-maker(
+commands(
     ("ob1", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("A4"),
 )
 
-maker(
+commands(
     ("ob1", (1, 6)),
     swell("f"),
 )
 
 # english horn
 
-maker(
+commands(
     "eh1",
     animales.parts("English.Horn"),
 )
 
-maker(
+commands(
     ("eh1", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G3"),
 )
 
-maker(
+commands(
     ("eh1", (1, 6)),
     swell("f"),
 )
 
 # bassoons
 
-maker(
+commands(
     "bsn1",
     animales.parts("Bassoon", 1),
     baca.not_parts(baca.voice_one()),
 )
 
-maker(
+commands(
     "bsn2",
     animales.parts("Bassoon", 2),
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     ("bsn1", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("B3"),
 )
 
-maker(
+commands(
     ("bsn1", (1, 6)),
     baca.only_parts(swell("f")),
 )
 
-maker(
+commands(
     ("bsn2", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G2"),
 )
 
-maker(
+commands(
     ("bsn2", (1, 6)),
     swell("f"),
 )
@@ -189,7 +189,7 @@ def lower_voice_suite(n=5):
 
 # solo violin
 
-maker(
+commands(
     "1vn5",
     animales.margin_markup("Vni. I 18"),
     animales.parts("First.Violin", 18),
@@ -225,14 +225,14 @@ voice_to_members = {
 
 for voice, members in voice_to_members.items():
     section = animales.ScoreTemplate.voice_to_section(voice)
-    maker(
+    commands(
         voice,
         animales.parts(section, members),
     )
 
 # first violins
 
-maker(
+commands(
     ("1vn1", (1, 10)),
     animales.margin_markup("Vni. I (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
@@ -253,7 +253,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("1vn2", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("F5"),
@@ -261,7 +261,7 @@ maker(
     tremolo_suite(),
 )
 
-maker(
+commands(
     ("1vn3", (1, 10)),
     animales.margin_markup("Vni. I (9-12) (13-17)"),
     baca.make_repeat_tied_notes(),
@@ -276,7 +276,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("1vn4", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("D5"),
@@ -286,7 +286,7 @@ maker(
 
 # second violins
 
-maker(
+commands(
     ("2vn1", (1, 10)),
     animales.margin_markup("Vni. II (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
@@ -301,7 +301,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("2vn2", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G4"),
@@ -309,7 +309,7 @@ maker(
     tremolo_suite(),
 )
 
-maker(
+commands(
     ("2vn3", (1, 10)),
     animales.margin_markup("Vni. II (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
@@ -324,7 +324,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("2vn4", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("F4"),
@@ -334,7 +334,7 @@ maker(
 
 # violas
 
-maker(
+commands(
     ("va1", (1, 10)),
     animales.margin_markup("Vle. (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
@@ -349,7 +349,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("va2", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("A3"),
@@ -357,7 +357,7 @@ maker(
     tremolo_suite(),
 )
 
-maker(
+commands(
     ("va3", (1, 10)),
     animales.margin_markup("Vle. (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
@@ -372,7 +372,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("va4", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G3"),
@@ -382,7 +382,7 @@ maker(
 
 # cellos
 
-maker(
+commands(
     ("vc1", (1, 10)),
     animales.margin_markup("Vc. (1-8) (9-14)"),
     baca.make_repeat_tied_notes(),
@@ -397,7 +397,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     ("vc2", (1, 10)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G2"),
@@ -407,7 +407,7 @@ maker(
 
 # contrabasses
 
-maker(
+commands(
     ("cb3", (1, 10)),
     animales.margin_markup("Cb."),
     baca.make_repeat_tied_notes(),
@@ -428,7 +428,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

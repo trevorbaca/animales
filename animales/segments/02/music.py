@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 6
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -36,7 +36,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 6],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "A",
@@ -47,8 +47,8 @@ maker(
 
 # strings
 
-animales.assign_trill_parts(maker)
-animales.make_trill_rhythm(maker)
+animales.assign_trill_parts(commands)
+animales.make_trill_rhythm(commands)
 
 strings = [
     "1vn1",
@@ -61,13 +61,13 @@ strings = [
 ]
 
 # first accents ...
-maker(
+commands(
     strings,
     baca.accent(selector=baca.selectors.pheads((1, None))),
 )
 
 # then untie ...
-maker(
+commands(
     (strings, 5),
     baca.untie(
         baca.selectors.pleaf(0),
@@ -75,7 +75,7 @@ maker(
 )
 
 # ... then pitch
-maker(
+commands(
     (strings, (1, 4)),
     baca.dynamic(
         "f-sub-but-accents-continue-sffz",
@@ -85,7 +85,7 @@ maker(
     baca.trill_spanner(alteration="Ab4"),
 )
 
-maker(
+commands(
     (strings, (5, 6)),
     baca.dynamic(
         "p-sub-but-accents-continue-sffz",
@@ -108,19 +108,19 @@ unraised_trill = [
     "vc1",
 ]
 
-maker(
+commands(
     raised_trill,
     baca.trill_spanner_staff_padding(6),
 )
 
-maker(
+commands(
     unraised_trill,
     baca.trill_spanner_staff_padding(4),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 17
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -61,7 +61,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 6],
 )
 
-maker(
+commands(
     ("Global_Skips", 3),
     baca.rehearsal_mark(
         "C",
@@ -75,7 +75,7 @@ maker(
 
 # clarinet
 
-maker(
+commands(
     ("cl1", (3, 6)),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
@@ -83,7 +83,7 @@ maker(
     baca.pitch("C5"),
 )
 
-maker(
+commands(
     "cl1",
     animales.margin_markup("Cl. 3"),
     animales.parts("Clarinet", 3),
@@ -91,7 +91,7 @@ maker(
 
 # percussion
 
-maker(
+commands(
     [
         ("perc1", (3, 6)),
         ("perc2", (3, 6)),
@@ -102,7 +102,7 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("perc1", (3, 6)),
     baca.markup(
         r"\animales-triangle-small-beater-markup",
@@ -110,7 +110,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc2", (3, 6)),
     baca.markup(
         r"\animales-suspended-cymbal-markup",
@@ -118,13 +118,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     "perc1",
     animales.margin_markup("Perc. 1 (tri.)"),
     animales.parts("Percussion", 1),
 )
 
-maker(
+commands(
     "perc2",
     animales.margin_markup("Perc. 2 (cym.)"),
     animales.parts("Percussion", 2),
@@ -132,42 +132,42 @@ maker(
 
 # brass
 
-animales.assign_brass_sforzando_parts(maker)
-animales.brass_sforzando(maker, 3)
+animales.assign_brass_sforzando_parts(commands)
+animales.brass_sforzando(commands, 3)
 
-maker(
+commands(
     "hn1",
     animales.margin_markup("Hn. (1+3)"),
 )
 
-maker(
+commands(
     "hn2",
     animales.margin_markup("Hn. (2+4)"),
 )
 
-maker(
+commands(
     "tp1",
     animales.margin_markup("Tp. (1+3)"),
 )
 
-maker(
+commands(
     "tp2",
     animales.margin_markup("Tp. (2+4)"),
 )
 
-maker(
+commands(
     "tbn1",
     animales.margin_markup("Trb. (1+3)"),
 )
 
-maker(
+commands(
     "tbn2",
     animales.margin_markup("Trb. (2+4)"),
 )
 
 # strings
 
-maker(
+commands(
     ("1vn2", (3, 6)),
     animales.glissando_rhythm(),
     animales.parts("First.Violin", 1),
@@ -201,7 +201,7 @@ maker(
     ),
 )
 
-animales.make_trill_rhythm(maker, measures=(1, 2))
+animales.make_trill_rhythm(commands, measures=(1, 2))
 
 strings = [
     "1vn1",
@@ -213,7 +213,7 @@ strings = [
     "vc1",
 ]
 
-maker(
+commands(
     (strings, (1, 2)),
     baca.accent(selector=baca.selectors.pheads((1, None))),
     baca.dynamic(
@@ -237,17 +237,17 @@ unraised_trill = [
     "vc1",
 ]
 
-maker(
+commands(
     (raised_trill, (1, 2)),
     baca.trill_spanner_staff_padding(6),
 )
 
-maker(
+commands(
     (unraised_trill, (1, 2)),
     baca.trill_spanner_staff_padding(4),
 )
 
-maker(
+commands(
     (strings, (3, 6)),
     baca.dynamic("p-sub"),
     baca.make_repeat_tied_notes(),
@@ -260,13 +260,13 @@ maker(
     baca.pitch(0),
 )
 
-maker(
+commands(
     ("1vn1", (1, 2)),
     animales.parts("First.Violin", (1, 10)),
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     ("1vn1", (3, 6)),
     animales.parts("First.Violin", (2, 10)),
     baca.not_parts(
@@ -279,53 +279,53 @@ maker(
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     "1vn3",
     animales.parts("First.Violin", (11, 18)),
 )
 
-maker(
+commands(
     "2vn1",
     animales.parts("Second.Violin", (1, 10)),
 )
 
-maker(
+commands(
     "2vn3",
     animales.parts("Second.Violin", (11, 18)),
 )
 
-maker(
+commands(
     "va1",
     animales.parts("Viola", (1, 10)),
 )
 
-maker(
+commands(
     "va3",
     animales.parts("Viola", (11, 18)),
 )
 
-maker(
+commands(
     "vc1",
     animales.parts("Cello"),
 )
 
 # contrabasses
 
-maker(
+commands(
     ("cb3", (3, 6)),
     baca.hairpin("p <", right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch("C2"),
 )
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass"),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

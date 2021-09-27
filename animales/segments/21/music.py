@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 136
 
 time_signatures = animales.time_signatures[start : start + 3]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -69,7 +69,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "T",
@@ -81,11 +81,11 @@ maker(
     ),
 )
 
-animales.battuti(maker, [[1, -17], [1, -17], [1, -17]])
+animales.battuti(commands, [[1, -17], [1, -17], [1, -17]])
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 67
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -62,7 +62,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 8],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("76"),
     baca.rehearsal_mark(
@@ -85,7 +85,7 @@ maker(
 
 # clarinets
 
-maker(
+commands(
     ("cl1", (1, 4)),
     animales.margin_markup("Cl. 1"),
     animales.parts("Clarinet", 1),
@@ -94,17 +94,17 @@ maker(
     baca.pitch("C5"),
 )
 
-maker(
+commands(
     ("Global_Rests", (5, -1)),
     animales.parts("Clarinet", 1),
 )
 
-maker(
+commands(
     ("Global_Rests", (1, 4)),
     animales.parts("Clarinet", 2),
 )
 
-maker(
+commands(
     ("cl1", (5, 8)),
     animales.margin_markup("Cl. 2"),
     animales.parts("Clarinet", 2),
@@ -115,11 +115,11 @@ maker(
 
 # brass
 
-animales.assign_brass_sforzando_parts(maker, omit_tuba=True)
+animales.assign_brass_sforzando_parts(commands, omit_tuba=True)
 
 # horns
 
-maker(
+commands(
     ("hn1", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -130,7 +130,7 @@ maker(
     baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("hn3", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -138,7 +138,7 @@ maker(
     baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("hn2", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -147,7 +147,7 @@ maker(
     baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("hn4", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -157,7 +157,7 @@ maker(
 
 # trumpets
 
-maker(
+commands(
     ("tp1", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -166,7 +166,7 @@ maker(
     baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tp3", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -174,7 +174,7 @@ maker(
     baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tp2", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -183,7 +183,7 @@ maker(
     baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tp4", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -195,7 +195,7 @@ maker(
 
 # trombones
 
-maker(
+commands(
     ("tbn1", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -204,7 +204,7 @@ maker(
     baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tbn3", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -212,7 +212,7 @@ maker(
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     ("tbn2", 1),
     animales.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
@@ -221,7 +221,7 @@ maker(
     baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
 )
 
-maker(
+commands(
     ("tbn4", 1),
     animales.downbeat_attack(),
     baca.dynamic("sfz"),
@@ -233,7 +233,7 @@ maker(
 
 # harp
 
-maker(
+commands(
     "hp1",
     animales.parts("Harp"),
     animales.harp_exchange_rhythm(2),
@@ -244,7 +244,7 @@ maker(
 
 # piano
 
-maker(
+commands(
     "pf1",
     animales.parts("Piano"),
     animales.harp_exchange_rhythm(3),
@@ -255,7 +255,7 @@ maker(
 
 # percussion (cym., vib.)
 
-maker(
+commands(
     "perc2",
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
@@ -263,7 +263,7 @@ maker(
     baca.stem_tremolo(selector=baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     "perc3",
     animales.parts("Percussion", 3),
     animales.harp_exchange_rhythm(0),
@@ -273,28 +273,28 @@ maker(
 
 # strings
 
-maker(
+commands(
     "1vn1",
     animales.parts("First.Violin"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab6"),
 )
 
-maker(
+commands(
     "2vn1",
     animales.parts("Second.Violin"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab5"),
 )
 
-maker(
+commands(
     "va1",
     animales.parts("Viola"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab4"),
 )
 
-maker(
+commands(
     "vc1",
     animales.parts("Cello"),
     baca.make_repeat_tied_notes(),
@@ -308,12 +308,12 @@ most_strings = [
     "vc1",
 ]
 
-maker(
+commands(
     most_strings,
     baca.dynamic("pp"),
 )
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass", (2, 6)),
     baca.dynamic("p"),
@@ -323,7 +323,7 @@ maker(
 
 # contrabass solo
 
-maker(
+commands(
     "cb1",
     animales.parts("Contrabass", 1),
     animales.harp_exchange_rhythm(1),
@@ -334,7 +334,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,
