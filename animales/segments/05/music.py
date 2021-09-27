@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 23
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -46,7 +46,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 6],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "D",
@@ -60,7 +60,7 @@ maker(
 
 # clarinet
 
-maker(
+commands(
     "cl1",
     animales.margin_markup("Cl. 2"),
     animales.parts("Clarinet", 2),
@@ -74,7 +74,7 @@ maker(
 
 # triangle
 
-maker(
+commands(
     "perc1",
     animales.parts("Percussion", 1),
     baca.make_repeat_tied_notes(),
@@ -87,7 +87,7 @@ maker(
 
 # cymbal
 
-maker(
+commands(
     "perc2",
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
@@ -100,7 +100,7 @@ maker(
 
 # strings
 
-maker(
+commands(
     "1vn2",
     animales.glissando_rhythm(),
     animales.parts("First.Violin", 1),
@@ -132,15 +132,15 @@ maker(
     ),
 )
 
-animales.assign_trill_parts(maker, exclude_first_violin=True)
-animales.make_trill_rhythm(maker)
+animales.assign_trill_parts(commands, exclude_first_violin=True)
+animales.make_trill_rhythm(commands)
 
-maker(
+commands(
     ("1vn1", 1),
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     ("vc1", 1),
     baca.clef("bass"),
 )
@@ -155,7 +155,7 @@ strings = [
     "vc1",
 ]
 
-maker(
+commands(
     strings,
     baca.accent(selector=baca.selectors.pheads((1, None))),
     baca.dynamic(
@@ -168,7 +168,7 @@ maker(
 
 # contrabasses
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass"),
     baca.hairpin(
@@ -182,7 +182,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

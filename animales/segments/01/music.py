@@ -6,7 +6,7 @@ from animales import library as animales
 ##################################### [_] #####################################
 ###############################################################################
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -36,26 +36,26 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[:6],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("114"),
 )
 
 # single-staff percussion
 
-maker(
+commands(
     "perc1",
     animales.parts("Percussion", 1),
     baca.staff_lines(1),
 )
 
-maker(
+commands(
     "perc2",
     animales.parts("Percussion", 2),
     baca.staff_lines(1),
 )
 
-maker(
+commands(
     "perc4",
     animales.parts("Percussion", 4),
     baca.staff_lines(1),
@@ -95,17 +95,17 @@ voice_to_start_markup = {
 
 for voice, commands in voice_to_start_markup.items():
     assert isinstance(commands, list)
-    maker(
+    commands(
         (voice, 1),
         *commands,
     )
 
 # strings
 
-animales.assign_trill_parts(maker)
-animales.make_trill_rhythm(maker)
+animales.assign_trill_parts(commands)
+animales.make_trill_rhythm(commands)
 
-maker(
+commands(
     ("vc1", 1),
     baca.clef("tenor"),
 )
@@ -121,18 +121,18 @@ strings = [
 ]
 
 # first accents ...
-maker(
+commands(
     ("1vn1", 1),
     baca.accent(selector=baca.selectors.phead(0)),
 )
 
-maker(
+commands(
     strings,
     baca.accent(selector=baca.selectors.pheads((1, None))),
 )
 
 # then untie ...
-maker(
+commands(
     (strings, (5, 6)),
     baca.untie(
         baca.selectors.pleaf(0),
@@ -140,7 +140,7 @@ maker(
 )
 
 # ... then pitch
-maker(
+commands(
     (strings, (1, 4)),
     baca.dynamic(
         "f-but-accents-sffz",
@@ -150,7 +150,7 @@ maker(
     baca.trill_spanner(alteration="B4"),
 )
 
-maker(
+commands(
     (strings, (5, 6)),
     baca.dynamic(
         "p-sub-but-accents-continue-sffz",
@@ -173,19 +173,19 @@ unraised_trill = [
     "vc1",
 ]
 
-maker(
+commands(
     raised_trill,
     baca.trill_spanner_staff_padding(6),
 )
 
-maker(
+commands(
     unraised_trill,
     baca.trill_spanner_staff_padding(4),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

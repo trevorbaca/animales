@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = 136
 
 time_signatures = animales.time_signatures[start : start + 3]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -72,7 +72,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "Z",
@@ -88,7 +88,7 @@ maker(
 
 # triangle
 
-maker(
+commands(
     "perc1",
     animales.parts("Percussion", 1),
     baca.dynamic("p"),
@@ -99,7 +99,7 @@ maker(
 
 # cymbal
 
-maker(
+commands(
     "perc2",
     animales.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
@@ -112,7 +112,7 @@ maker(
 
 # bass drum
 
-maker(
+commands(
     "perc3",
     animales.parts("Percussion", 3),
     baca.make_repeat_tied_notes(),
@@ -125,7 +125,7 @@ maker(
 
 # tam-tam
 
-maker(
+commands(
     "perc4",
     animales.parts("Percussion", 4),
     baca.make_repeat_tied_notes(),
@@ -139,12 +139,12 @@ maker(
 # strings
 
 animales.battuti(
-    maker,
+    commands,
     [[1, -17], [1, -17], [1, -17]],
     omit_contrabasses=True,
 )
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass"),
     baca.dynamic("fff"),
@@ -158,7 +158,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

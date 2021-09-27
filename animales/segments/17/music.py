@@ -12,7 +12,7 @@ assert metadata.get("final_measure_number") == 108
 start = 94
 
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -62,7 +62,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 10],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "P",
@@ -85,72 +85,72 @@ def swell(peak):
 
 # oboes
 
-maker(
+commands(
     "ob1",
     animales.parts("Oboe"),
 )
 
-maker(
+commands(
     ("ob1", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("A4"),
 )
 
-maker(
+commands(
     ("ob1", (1, 6)),
     swell("f"),
 )
 
 # english horn
 
-maker(
+commands(
     "eh1",
     animales.parts("English.Horn"),
 )
 
-maker(
+commands(
     ("eh1", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G3"),
 )
 
-maker(
+commands(
     ("eh1", (1, 6)),
     swell("f"),
 )
 
 # bassoons
 
-maker(
+commands(
     "bsn1",
     animales.parts("Bassoon", 1),
     baca.not_parts(baca.voice_one()),
 )
 
-maker(
+commands(
     "bsn2",
     animales.parts("Bassoon", 2),
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     ("bsn1", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("B3"),
 )
 
-maker(
+commands(
     ("bsn1", (1, 6)),
     baca.only_parts(swell("f")),
 )
 
-maker(
+commands(
     ("bsn2", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.pitch("G2"),
 )
 
-maker(
+commands(
     ("bsn2", (1, 6)),
     swell("f"),
 )
@@ -177,7 +177,7 @@ def crescendi():
 
 # horns
 
-maker(
+commands(
     "hn1",
     animales.brass_manifest_rhythm(1),
     animales.parts("Horn", 1),
@@ -187,7 +187,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "hn3",
     animales.brass_manifest_rhythm(3),
     animales.parts("Horn", 3),
@@ -196,7 +196,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "hn2",
     animales.brass_manifest_rhythm(2),
     animales.parts("Horn", 2),
@@ -206,7 +206,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "hn4",
     animales.brass_manifest_rhythm(4),
     baca.not_parts(baca.voice_two()),
@@ -217,7 +217,7 @@ maker(
 
 # trumpets
 
-maker(
+commands(
     "tp1",
     animales.brass_manifest_rhythm(5),
     animales.parts("Trumpet", 1),
@@ -227,7 +227,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "tp3",
     animales.brass_manifest_rhythm(7),
     animales.parts("Trumpet", 3),
@@ -236,7 +236,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "tp2",
     animales.brass_manifest_rhythm(6),
     animales.parts("Trumpet", 2),
@@ -246,7 +246,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "tp4",
     animales.brass_manifest_rhythm(8),
     animales.parts("Trumpet", 4),
@@ -257,7 +257,7 @@ maker(
 
 # trombones
 
-maker(
+commands(
     "tbn1",
     animales.brass_manifest_rhythm(9),
     animales.parts("Trombone", 1),
@@ -267,7 +267,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "tbn3",
     animales.brass_manifest_rhythm(11),
     animales.parts("Trombone", 3),
@@ -276,7 +276,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "tbn2",
     animales.brass_manifest_rhythm(10),
     animales.parts("Trombone", 2),
@@ -286,7 +286,7 @@ maker(
     crescendi(),
 )
 
-maker(
+commands(
     "tbn4",
     animales.brass_manifest_rhythm(12),
     animales.parts("Trombone", 4),
@@ -342,7 +342,7 @@ def lower_voice_suite(n=5):
 
 # solo violin
 
-maker(
+commands(
     "1vn5",
     animales.parts("First.Violin", 18),
     baca.make_repeat_tied_notes(),
@@ -355,7 +355,7 @@ maker(
 
 # first violins
 
-maker(
+commands(
     "1vn1",
     animales.parts("First.Violin", (1, 4)),
     baca.make_repeat_tied_notes(),
@@ -370,7 +370,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "1vn2",
     animales.parts("First.Violin", (5, 8)),
     baca.make_repeat_tied_notes(),
@@ -379,7 +379,7 @@ maker(
     tremolo_suite(),
 )
 
-maker(
+commands(
     "1vn3",
     animales.parts("First.Violin", (9, 12)),
     baca.make_repeat_tied_notes(),
@@ -388,7 +388,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "1vn4",
     animales.parts("First.Violin", (13, 17)),
     baca.make_repeat_tied_notes(),
@@ -399,7 +399,7 @@ maker(
 
 # second violins
 
-maker(
+commands(
     "2vn1",
     animales.parts("Second.Violin", (1, 4)),
     baca.make_repeat_tied_notes(),
@@ -408,7 +408,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "2vn2",
     animales.parts("Second.Violin", (5, 8)),
     baca.make_repeat_tied_notes(),
@@ -417,7 +417,7 @@ maker(
     tremolo_suite(),
 )
 
-maker(
+commands(
     "2vn3",
     animales.parts("Second.Violin", (9, 12)),
     baca.make_repeat_tied_notes(),
@@ -426,7 +426,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "2vn4",
     animales.parts("Second.Violin", (13, 18)),
     baca.make_repeat_tied_notes(),
@@ -437,7 +437,7 @@ maker(
 
 # violas
 
-maker(
+commands(
     "va1",
     animales.parts("Viola", (1, 4)),
     baca.make_repeat_tied_notes(),
@@ -446,7 +446,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "va2",
     animales.parts("Viola", (5, 8)),
     baca.make_repeat_tied_notes(),
@@ -455,7 +455,7 @@ maker(
     tremolo_suite(),
 )
 
-maker(
+commands(
     "va3",
     animales.parts("Viola", (9, 12)),
     baca.make_repeat_tied_notes(),
@@ -464,7 +464,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "va4",
     animales.parts("Viola", (13, 18)),
     baca.make_repeat_tied_notes(),
@@ -475,7 +475,7 @@ maker(
 
 # cellos
 
-maker(
+commands(
     "vc1",
     animales.parts("Cello", (1, 8)),
     baca.make_repeat_tied_notes(),
@@ -484,7 +484,7 @@ maker(
     upper_voice_suite(),
 )
 
-maker(
+commands(
     "vc2",
     animales.parts("Cello", (9, 14)),
     baca.make_repeat_tied_notes(),
@@ -495,7 +495,7 @@ maker(
 
 # contrabasses
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass"),
     baca.make_repeat_tied_notes(),
@@ -505,7 +505,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

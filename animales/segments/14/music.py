@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 81
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -58,7 +58,7 @@ maker = baca.CommandAccumulator(
     time_signatures=animales.time_signatures[start : start + 6],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("114"),
     baca.rehearsal_mark(
@@ -77,27 +77,27 @@ maker(
 
 # flutes
 
-maker(
+commands(
     "fl1",
     animales.parts("Flute", 1),
 )
 
-maker(
+commands(
     "fl3",
     animales.parts("Flute", 3),
 )
 
-maker(
+commands(
     "fl2",
     animales.parts("Flute", 2),
 )
 
-maker(
+commands(
     "fl4",
     animales.parts("Flute", 4),
 )
 
-maker(
+commands(
     ("fl1", (1, 3)),
     animales.margin_markup("Fl. (1+3)"),
     animales.pennant_pitches("G5", [6]),
@@ -112,7 +112,7 @@ maker(
     baca.slur(),
 )
 
-maker(
+commands(
     ("fl3", (1, 3)),
     animales.pennant_pitches("F5", [6]),
     animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
@@ -124,7 +124,7 @@ maker(
     baca.slur(),
 )
 
-maker(
+commands(
     ("fl2", (1, 3)),
     animales.margin_markup("Fl. (2+4)"),
     animales.pennant_pitches("Eb5", [6]),
@@ -139,7 +139,7 @@ maker(
     baca.slur(),
 )
 
-maker(
+commands(
     ("fl4", (1, 3)),
     animales.pennant_pitches("D5", [6]),
     animales.pennant_rhythm([0, 0, -1, -1]),
@@ -153,19 +153,19 @@ maker(
 
 # clarinet
 
-maker(
+commands(
     "cl1",
     animales.parts("Clarinet", 1),
 )
 
-maker(
+commands(
     ("cl1", (1, 3)),
     baca.hairpin("< ff", left_broken=True),
     baca.make_repeat_tied_notes(),
     baca.pitch("Eb5"),
 )
 
-maker(
+commands(
     ("Clarinet.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-markup",
@@ -176,7 +176,7 @@ maker(
 
 # bass clarinet
 
-maker(
+commands(
     "bcl1",
     animales.parts("Bass.Clarinet"),
     baca.dynamic("p"),
@@ -189,7 +189,7 @@ maker(
 
 # harp
 
-maker(
+commands(
     "hp1",
     animales.parts("Harp"),
     animales.harp_exchange_rhythm(2),
@@ -197,7 +197,7 @@ maker(
     baca.stopped(selector=baca.selectors.pheads()),
 )
 
-maker(
+commands(
     [
         ("hp1", (1, 3)),
         ("pf1", (1, 3)),
@@ -206,7 +206,7 @@ maker(
     baca.pitch("C5"),
 )
 
-maker(
+commands(
     [
         ("hp1", (4, 6)),
         ("pf1", (4, 6)),
@@ -217,7 +217,7 @@ maker(
 
 # piano
 
-maker(
+commands(
     "pf1",
     animales.parts("Piano"),
     animales.harp_exchange_rhythm(3),
@@ -229,12 +229,12 @@ maker(
 
 # triangle
 
-maker(
+commands(
     "perc1",
     animales.parts("Percussion", 1),
 )
 
-maker(
+commands(
     ("perc1", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
@@ -246,12 +246,12 @@ maker(
 
 # cymbal
 
-maker(
+commands(
     "perc2",
     animales.parts("Percussion", 2),
 )
 
-maker(
+commands(
     ("perc2", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
@@ -263,7 +263,7 @@ maker(
 
 # vibraphone
 
-maker(
+commands(
     "perc3",
     animales.parts("Percussion", 3),
     animales.harp_exchange_rhythm(0),
@@ -272,12 +272,12 @@ maker(
 
 # strings
 
-maker(
+commands(
     "1vn3",
     animales.parts("First.Violin", 1),
 )
 
-maker(
+commands(
     ("1vn3", (1, 3)),
     animales.glissando_rhythm(rotate=-2),
     baca.hairpin(
@@ -309,7 +309,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     [
         ("1vn1", (1, 3)),
         ("2vn1", (1, 3)),
@@ -326,23 +326,23 @@ maker(
     baca.trill_spanner(alteration="Ab3"),
 )
 
-maker(
+commands(
     "1vn1",
     animales.parts("First.Violin", (2, 18)),
     baca.not_parts(baca.voice_two()),
 )
 
-maker(
+commands(
     "2vn1",
     animales.parts("Second.Violin"),
 )
 
-maker(
+commands(
     "va1",
     animales.parts("Viola"),
 )
 
-maker(
+commands(
     "vc1",
     animales.parts("Cello"),
 )
@@ -354,7 +354,7 @@ most_strings = [
     "Contrabass.Rest_Voice.3",
 ]
 
-maker(
+commands(
     ("First.Violin.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
@@ -363,7 +363,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (most_strings, 4),
     baca.only_parts(
         baca.markup(
@@ -374,12 +374,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     "cb3",
     animales.parts("Contrabass", (2, 6)),
 )
 
-maker(
+commands(
     ("cb3", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.hairpin(
@@ -392,7 +392,7 @@ maker(
 
 # contrabass solo
 
-maker(
+commands(
     "cb1",
     animales.parts("Contrabass", 1),
     animales.harp_exchange_rhythm(1),
@@ -406,7 +406,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

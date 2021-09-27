@@ -12,7 +12,7 @@ start = 136
 
 time_signatures = animales.time_signatures[start : start + 3] + ((1, 4),)
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -67,7 +67,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "BB",
@@ -79,7 +79,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
@@ -87,18 +87,18 @@ maker(
     ),
 )
 
-animales.attach_grand_pause_fermatas(maker, measure=-1)
+animales.attach_grand_pause_fermatas(commands, measure=-1)
 
 # percussion
 
 # triangle
 
-maker(
+commands(
     "perc1",
     animales.parts("Percussion", 1),
 )
 
-maker(
+commands(
     ("perc1", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -111,7 +111,7 @@ maker(
 # strings
 
 animales.battuti(
-    maker,
+    commands,
     [[1, -17], [1, -17], [1, -17]],
     omit_contrabasses=True,
     range_=(1, 3),
@@ -119,7 +119,7 @@ animales.battuti(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

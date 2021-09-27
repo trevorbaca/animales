@@ -12,7 +12,7 @@ start = 142
 
 time_signatures = animales.time_signatures[start : start + 9] + ((1, 4),)
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -28,7 +28,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "CC",
@@ -41,7 +41,7 @@ maker(
     baca.bar_line("|.", baca.selectors.skip(-1)),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
@@ -49,16 +49,16 @@ maker(
     ),
 )
 
-animales.attach_grand_pause_fermatas(maker, measure=-1)
+animales.attach_grand_pause_fermatas(commands, measure=-1)
 
 # piano
 
-maker(
+commands(
     "pf1",
     animales.parts("Piano"),
 )
 
-maker(
+commands(
     ("pf1", (1, 9)),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
@@ -73,12 +73,12 @@ maker(
 
 # slate
 
-maker(
+commands(
     "perc4",
     animales.parts("Percussion", 4),
 )
 
-maker(
+commands(
     ("perc4", (1, 8)),
     animales.margin_markup("Perc. 4 (slate)"),
     baca.dynamic('"mf"'),
@@ -95,7 +95,7 @@ for voice in (
     "perc4",
     "pf1",
 ):
-    maker(
+    commands(
         (voice, 1),
         baca.tag(
             abjad.Tag("+TABLOID_SCORE"),
@@ -103,7 +103,7 @@ for voice in (
         ),
     )
 
-maker(
+commands(
     ("perc4", -1),
     baca.chunk(
         baca.mark(r"\animales-colophon-markup"),
@@ -116,7 +116,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         final_segment=True,

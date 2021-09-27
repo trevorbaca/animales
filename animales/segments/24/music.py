@@ -11,7 +11,7 @@ metadata = baca.previous_metadata(__file__)
 start = 133
 
 time_signatures = animales.time_signatures[start : start + 3]
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
@@ -83,7 +83,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "W",
@@ -97,16 +97,16 @@ maker(
 
 # brass
 
-animales.assign_brass_sforzando_parts(maker)
-animales.brass_sforzando(maker, 1)
+animales.assign_brass_sforzando_parts(commands)
+animales.brass_sforzando(commands, 1)
 
 # strings
 
-animales.battuti(maker, [[1, -55], [1, -17], [1, -17]])
+animales.battuti(commands, [[1, -55], [1, -17], [1, -17]])
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,
