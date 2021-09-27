@@ -238,6 +238,5 @@ if __name__ == "__main__":
         **baca.segment_interpretation_defaults(),
         error_on_not_yet_pitched=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
-        do_not_check_wellformedness=True,
         transpose_score=True,
     )
