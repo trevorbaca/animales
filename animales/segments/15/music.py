@@ -14,7 +14,7 @@ assert start == 87
 time_signatures = animales.time_signatures[start : start + 6] + ((1, 4),)
 
 commands = baca.CommandAccumulator(
-    **baca.segments(),
+    **baca.segment_accumulation_defaults(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
@@ -393,7 +393,7 @@ commands(
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segments(runtime=True),
+        **baca.segment_interpretation_defaults(),
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

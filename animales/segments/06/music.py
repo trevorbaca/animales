@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 29
 
 commands = baca.CommandAccumulator(
-    **baca.segments(),
+    **baca.segment_accumulation_defaults(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
@@ -235,7 +235,7 @@ commands(
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segments(runtime=True),
+        **baca.segment_interpretation_defaults(),
         error_on_not_yet_pitched=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
         do_not_check_wellformedness=True,
