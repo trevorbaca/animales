@@ -260,11 +260,11 @@ def lower_voice(n=5):
     )
 
 
-score_template = animales.ScoreTemplate()
+voice_abbreviations = animales.voice_abbreviations()
 for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
-    voice = score_template.voice_abbreviations.get(voice, voice)
+    voice = voice_abbreviations.get(voice, voice)
     section = ".".join(abjad.String(voice).delimit_words()[:-2])
     members = items[0]
     commands_.append(animales.parts(section, members))
