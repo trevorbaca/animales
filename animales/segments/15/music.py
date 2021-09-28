@@ -3,9 +3,9 @@ import baca
 
 from animales import library as animales
 
-###############################################################################
-##################################### [N] #####################################
-###############################################################################
+#########################################################################################
+######################################### 15 [N] ########################################
+#########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
@@ -13,12 +13,9 @@ assert start == 87
 
 time_signatures = animales.time_signatures[start : start + 6] + ((1, 4),)
 
-commands = baca.CommandAccumulator(
-    **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    score_template=animales.ScoreTemplate(
+
+def make_empty_score():
+    return animales.make_empty_score(
         flutes=[
             (1, [1, 3]),
             (2, [2, 4]),
@@ -53,8 +50,17 @@ commands = baca.CommandAccumulator(
             (1, [1]),
             (2, [3]),
         ],
-    ),
+    )
+
+
+commands = baca.CommandAccumulator(
+    **baca.segment_accumulation_defaults(),
+    instruments=animales.instruments,
+    margin_markups=animales.margin_markups,
+    metronome_marks=animales.metronome_marks,
+    score_template=make_empty_score,
     time_signatures=time_signatures,
+    voice_abbreviations=animales.voice_abbreviations(),
 )
 
 commands(
@@ -394,6 +400,8 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
         **baca.segment_interpretation_defaults(),
+        all_music_in_part_containers=True,
+        always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

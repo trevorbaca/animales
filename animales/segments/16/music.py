@@ -3,20 +3,17 @@ import baca
 
 from animales import library as animales
 
-###############################################################################
-##################################### [O] ####################################
-###############################################################################
+#########################################################################################
+######################################### 16 [O] ########################################
+#########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 94
 
-commands = baca.CommandAccumulator(
-    **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    score_template=animales.ScoreTemplate(
+
+def make_empty_score():
+    return animales.make_empty_score(
         oboes=[
             (1, [1]),
         ],
@@ -45,8 +42,17 @@ commands = baca.CommandAccumulator(
         contrabasses=[
             (2, [3]),
         ],
-    ),
+    )
+
+
+commands = baca.CommandAccumulator(
+    **baca.segment_accumulation_defaults(),
+    instruments=animales.instruments,
+    margin_markups=animales.margin_markups,
+    metronome_marks=animales.metronome_marks,
+    score_template=make_empty_score,
     time_signatures=animales.time_signatures[start : start + 14],
+    voice_abbreviations=animales.voice_abbreviations(),
 )
 
 commands(
@@ -224,7 +230,7 @@ voice_to_members = {
 }
 
 for voice, members in voice_to_members.items():
-    section = animales.ScoreTemplate.voice_to_section(voice)
+    section = animales.voice_to_section(voice)
     commands(
         voice,
         animales.parts(section, members),
@@ -430,6 +436,8 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
         **baca.segment_interpretation_defaults(),
+        all_music_in_part_containers=True,
+        always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
