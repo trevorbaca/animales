@@ -573,8 +573,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ### CLASS VARIABLES ###
 
-    __documentation_section__ = None
-
     _part_manifest = baca.PartManifest(
         baca.Section(abbreviation="FL", count=4, name="Flute"),
         baca.Section(abbreviation="OB", count=3, name="Oboe"),
