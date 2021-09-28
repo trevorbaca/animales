@@ -259,16 +259,16 @@ def lower_voice(n=5):
 score_template = animales.ScoreTemplate()
 for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
-    commands: typing.List[baca.Command] = []
+    commands_ = []
     voice = score_template.voice_abbreviations.get(voice, voice)
     section = ".".join(abjad.String(voice).delimit_words()[:-2])
     members = items[0]
-    commands.append(animales.parts(section, members))
+    commands_.append(animales.parts(section, members))
     if items[1] is True:
-        commands.append(upper_voice())
+        commands_.append(upper_voice())
     elif items[1] is False:
-        commands.append(lower_voice())
-    commands.append(
+        commands_.append(lower_voice())
+    commands_.append(
         baca.pitch(
             items[2],
             selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
@@ -276,7 +276,7 @@ for voice, items in string_parts.items():
     )
     commands(
         voice,
-        *commands,
+        *commands_,
     )
     if voice == "First.Violin.Voice.5":
         continue
