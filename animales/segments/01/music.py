@@ -7,29 +7,29 @@ from animales import library as animales
 #########################################################################################
 
 
-def make_empty_score():
-    return animales.make_empty_score(
-        percussion=[
-            (1, [1]),
-            (2, [2]),
-            (4, [4]),
-        ],
-        first_violins=[
-            (1, [1]),
-            (2, [3]),
-        ],
-        second_violins=[
-            (1, [1]),
-            (2, [3]),
-        ],
-        violas=[
-            (1, [1]),
-            (2, [3]),
-        ],
-        cellos=[
-            (1, [1]),
-        ],
-    )
+score = animales.make_empty_score(
+    percussion=[
+        (1, [1]),
+        (2, [2]),
+        (4, [4]),
+    ],
+    first_violins=[
+        (1, [1]),
+        (2, [3]),
+    ],
+    second_violins=[
+        (1, [1]),
+        (2, [3]),
+    ],
+    violas=[
+        (1, [1]),
+        (2, [3]),
+    ],
+    cellos=[
+        (1, [1]),
+    ],
+)
+voice_names = baca.accumulator.get_voice_names(score)
 
 
 commands = baca.CommandAccumulator(
@@ -37,9 +37,9 @@ commands = baca.CommandAccumulator(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
-    score_template=make_empty_score,
     time_signatures=animales.time_signatures[:6],
     voice_abbreviations=animales.voice_abbreviations(),
+    voice_names=voice_names,
 )
 
 commands(
@@ -197,5 +197,6 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         part_manifest=animales.part_manifest,
+        score=score,
         transpose_score=True,
     )
