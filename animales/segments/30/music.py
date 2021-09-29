@@ -13,25 +13,26 @@ start = 142
 time_signatures = animales.time_signatures[start : start + 9] + ((1, 4),)
 
 
-def make_empty_score():
-    return animales.make_empty_score(
-        piano=[
-            (1, [1]),
-        ],
-        percussion=[
-            (4, [4]),
-        ],
-    )
+score = animales.make_empty_score(
+    piano=[
+        (1, [1]),
+    ],
+    percussion=[
+        (4, [4]),
+    ],
+)
 
+
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
-    score_template=make_empty_score,
     time_signatures=time_signatures,
     voice_abbreviations=animales.voice_abbreviations(),
+    voice_names=voice_names,
 )
 
 commands(
@@ -55,7 +56,7 @@ commands(
     ),
 )
 
-animales.attach_grand_pause_fermatas(commands, measure=-1)
+animales.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 # piano
 
@@ -128,5 +129,6 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         final_segment=True,
+        score=score,
         transpose_score=True,
     )

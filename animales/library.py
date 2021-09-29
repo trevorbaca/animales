@@ -46,16 +46,14 @@ def leaves_in_measure(n, lleak=False, rleak=False):
 # other functions
 
 
-def attach_grand_pause_fermatas(maker, *, measure=-1):
+def attach_grand_pause_fermatas(maker, score, *, measure=-1):
     """
     Attaches grand pause fermatas in parts.
 
     Because voices alive in semgent do not receive GlobalRests variables.
     """
     assert isinstance(maker, baca.CommandAccumulator)
-    assert maker.score_template is not None
-    dummy_score = maker.score_template()
-    for voice in abjad.iterate.components(dummy_score, abjad.Voice):
+    for voice in abjad.iterate.components(score, abjad.Voice):
         markup = abjad.Markup(
             r'\markup \musicglyph #"scripts.ufermata"',
             literal=True,

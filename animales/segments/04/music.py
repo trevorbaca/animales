@@ -12,49 +12,49 @@ start = metadata.get("final_measure_number")
 assert start == 17
 
 
-def make_empty_score():
-    return animales.make_empty_score(
-        clarinets=[
-            (1, [1]),
-        ],
-        horns=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-        ],
-        trumpets=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-        ],
-        trombones=[
-            (1, [1, 3]),
-            (2, [2, 4]),
-        ],
-        tuba=[
-            (1, [1]),
-        ],
-        percussion=[
-            (1, [1]),
-            (2, [2]),
-        ],
-        first_violins=[
-            (1, [2, 1]),
-            (2, [3]),
-        ],
-        second_violins=[
-            (1, [1]),
-            (2, [3]),
-        ],
-        violas=[
-            (1, [1]),
-            (2, [3]),
-        ],
-        cellos=[
-            (1, [1]),
-        ],
-        contrabasses=[
-            (2, [3]),
-        ],
-    )
+score = animales.make_empty_score(
+    clarinets=[
+        (1, [1]),
+    ],
+    horns=[
+        (1, [1, 3]),
+        (2, [2, 4]),
+    ],
+    trumpets=[
+        (1, [1, 3]),
+        (2, [2, 4]),
+    ],
+    trombones=[
+        (1, [1, 3]),
+        (2, [2, 4]),
+    ],
+    tuba=[
+        (1, [1]),
+    ],
+    percussion=[
+        (1, [1]),
+        (2, [2]),
+    ],
+    first_violins=[
+        (1, [2, 1]),
+        (2, [3]),
+    ],
+    second_violins=[
+        (1, [1]),
+        (2, [3]),
+    ],
+    violas=[
+        (1, [1]),
+        (2, [3]),
+    ],
+    cellos=[
+        (1, [1]),
+    ],
+    contrabasses=[
+        (2, [3]),
+    ],
+)
+voice_names = baca.accumulator.get_voice_names(score)
 
 
 commands = baca.CommandAccumulator(
@@ -62,9 +62,9 @@ commands = baca.CommandAccumulator(
     instruments=animales.instruments,
     margin_markups=animales.margin_markups,
     metronome_marks=animales.metronome_marks,
-    score_template=make_empty_score,
     time_signatures=animales.time_signatures[start : start + 6],
     voice_abbreviations=animales.voice_abbreviations(),
+    voice_names=voice_names,
 )
 
 commands(
@@ -336,5 +336,6 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        score=score,
         transpose_score=True,
     )
