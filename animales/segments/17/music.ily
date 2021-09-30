@@ -906,7 +906,7 @@ segment.17.Oboe.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -914,13 +914,13 @@ segment.17.Oboe.Voice.1 = {
 %! baca.path.extern()
 segment.17.Oboe.Staff.1 = {
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Oboe.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Oboe.Voice.1 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -1335,7 +1335,7 @@ segment.17.English.Horn.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -1343,13 +1343,13 @@ segment.17.English.Horn.Voice.1 = {
 %! baca.path.extern()
 segment.17.English.Horn.Staff.1 = {
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "English.Horn.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.English.Horn.Voice.1 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -1786,7 +1786,7 @@ segment.17.Bassoon.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -2162,7 +2162,7 @@ segment.17.Bassoon.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -2170,19 +2170,19 @@ segment.17.Bassoon.Voice.2 = {
 %! baca.path.extern()
 segment.17.Bassoon.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Bassoon.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Bassoon.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Bassoon.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Bassoon.Voice.2 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -2660,7 +2660,7 @@ segment.17.Horn.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -2998,7 +2998,7 @@ segment.17.Horn.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -3006,19 +3006,19 @@ segment.17.Horn.Voice.3 = {
 %! baca.path.extern()
 segment.17.Horn.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Horn.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Horn.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Horn.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Horn.Voice.3 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -3499,7 +3499,7 @@ segment.17.Horn.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -3898,7 +3898,7 @@ segment.17.Horn.Voice.4 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -3906,19 +3906,19 @@ segment.17.Horn.Voice.4 = {
 %! baca.path.extern()
 segment.17.Horn.Staff.2 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Horn.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Horn.Voice.2 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Horn.Voice.4"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Horn.Voice.4 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -4338,7 +4338,7 @@ segment.17.Trumpet.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -4744,7 +4744,7 @@ segment.17.Trumpet.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -4752,19 +4752,19 @@ segment.17.Trumpet.Voice.3 = {
 %! baca.path.extern()
 segment.17.Trumpet.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trumpet.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trumpet.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trumpet.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trumpet.Voice.3 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -5214,7 +5214,7 @@ segment.17.Trumpet.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -5592,7 +5592,7 @@ segment.17.Trumpet.Voice.4 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -5600,19 +5600,19 @@ segment.17.Trumpet.Voice.4 = {
 %! baca.path.extern()
 segment.17.Trumpet.Staff.2 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trumpet.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trumpet.Voice.2 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trumpet.Voice.4"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trumpet.Voice.4 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -6059,7 +6059,7 @@ segment.17.Trombone.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -6451,7 +6451,7 @@ segment.17.Trombone.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -6459,19 +6459,19 @@ segment.17.Trombone.Voice.3 = {
 %! baca.path.extern()
 segment.17.Trombone.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trombone.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trombone.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trombone.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trombone.Voice.3 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -6915,7 +6915,7 @@ segment.17.Trombone.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -7321,7 +7321,7 @@ segment.17.Trombone.Voice.4 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -7329,19 +7329,19 @@ segment.17.Trombone.Voice.4 = {
 %! baca.path.extern()
 segment.17.Trombone.Staff.2 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trombone.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trombone.Voice.2 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Trombone.Voice.4"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Trombone.Voice.4 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -7831,7 +7831,7 @@ segment.17.First.Violin.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -8242,7 +8242,7 @@ segment.17.First.Violin.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -8250,19 +8250,19 @@ segment.17.First.Violin.Voice.2 = {
 %! baca.path.extern()
 segment.17.First.Violin.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "First.Violin.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.First.Violin.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "First.Violin.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.First.Violin.Voice.2 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -8748,7 +8748,7 @@ segment.17.First.Violin.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -9159,7 +9159,7 @@ segment.17.First.Violin.Voice.4 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -9167,19 +9167,19 @@ segment.17.First.Violin.Voice.4 = {
 %! baca.path.extern()
 segment.17.First.Violin.Staff.2 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "First.Violin.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.First.Violin.Voice.3 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "First.Violin.Voice.4"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.First.Violin.Voice.4 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -9518,7 +9518,7 @@ segment.17.First.Violin.Voice.5 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -9526,13 +9526,13 @@ segment.17.First.Violin.Voice.5 = {
 %! baca.path.extern()
 segment.17.First.Violin.Staff.3 = {
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "First.Violin.Voice.5"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.First.Violin.Voice.5 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -10028,7 +10028,7 @@ segment.17.Second.Violin.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -10439,7 +10439,7 @@ segment.17.Second.Violin.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -10447,19 +10447,19 @@ segment.17.Second.Violin.Voice.2 = {
 %! baca.path.extern()
 segment.17.Second.Violin.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Second.Violin.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Second.Violin.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Second.Violin.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Second.Violin.Voice.2 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -10945,7 +10945,7 @@ segment.17.Second.Violin.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -11356,7 +11356,7 @@ segment.17.Second.Violin.Voice.4 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -11364,19 +11364,19 @@ segment.17.Second.Violin.Voice.4 = {
 %! baca.path.extern()
 segment.17.Second.Violin.Staff.2 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Second.Violin.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Second.Violin.Voice.3 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Second.Violin.Voice.4"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Second.Violin.Voice.4 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -11862,7 +11862,7 @@ segment.17.Viola.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -12273,7 +12273,7 @@ segment.17.Viola.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -12281,19 +12281,19 @@ segment.17.Viola.Voice.2 = {
 %! baca.path.extern()
 segment.17.Viola.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Viola.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Viola.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Viola.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Viola.Voice.2 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -12779,7 +12779,7 @@ segment.17.Viola.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -13190,7 +13190,7 @@ segment.17.Viola.Voice.4 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -13198,19 +13198,19 @@ segment.17.Viola.Voice.4 = {
 %! baca.path.extern()
 segment.17.Viola.Staff.2 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Viola.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Viola.Voice.3 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Viola.Voice.4"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Viola.Voice.4 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -13706,7 +13706,7 @@ segment.17.Cello.Voice.1 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -14117,7 +14117,7 @@ segment.17.Cello.Voice.2 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -14125,19 +14125,19 @@ segment.17.Cello.Voice.2 = {
 %! baca.path.extern()
 segment.17.Cello.Staff.1 = <<
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Cello.Voice.1"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Cello.Voice.1 }
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Cello.Voice.2"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Cello.Voice.2 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 >>
 
@@ -14579,7 +14579,7 @@ segment.17.Contrabass.Voice.3 = {
     %! PHANTOM
     >>
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
 
@@ -14587,12 +14587,12 @@ segment.17.Contrabass.Voice.3 = {
 %! baca.path.extern()
 segment.17.Contrabass.Staff.2 = {
 
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     \context Voice = "Contrabass.Voice.3"
-    %! animales.ScoreTemplate._make_staves()
+    %! animales._make_staves()
     %! baca.path.extern()
     { \segment.17.Contrabass.Voice.3 }
 
-%! animales.ScoreTemplate._make_staves()
+%! animales._make_staves()
 %! baca.path.extern()
 }
