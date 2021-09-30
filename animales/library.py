@@ -252,7 +252,7 @@ def _group_families(*families):
                 assert isinstance(family, abjad.Context)
                 contexts.append(family)
                 continue
-            square_staff_group = make_square_staff_group(*family)
+            square_staff_group = _make_square_staff_group(*family)
             assert square_staff_group is not None
             contexts.append(square_staff_group)
     return contexts
