@@ -33,9 +33,9 @@
         %! baca._make_lilypond_file()
         }
 
-        %! animales.ScoreTemplate.__call__()
+        %! animales.make_empty_score()
         \context Score = "Score"
-        %! animales.ScoreTemplate.__call__()
+        %! animales.make_empty_score()
         <<
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -63,212 +63,212 @@
             %! baca.ScoreTemplate.make_music_context()
             <<
 
-                %! baca.ScoreTemplate.make_staff_group()
+                %! animales._make_staff_group()
                 \context StaffGroup = "Brass_Staff_Group"
-                %! baca.ScoreTemplate.make_staff_group()
+                %! animales._make_staff_group()
                 <<
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \context StaffGroup = "Horn_Square_Staff_Group"
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \with
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     {
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                         systemStartDelimiter = #'SystemStartSquare
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     }
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     <<
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Horn.Staff.1"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Horn.Staff.1 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Horn.Staff.2"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Horn.Staff.2 }
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     >>
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \context StaffGroup = "Trumpet_Square_Staff_Group"
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \with
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     {
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                         systemStartDelimiter = #'SystemStartSquare
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     }
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     <<
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Trumpet.Staff.1"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Trumpet.Staff.1 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Trumpet.Staff.2"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Trumpet.Staff.2 }
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     >>
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \context StaffGroup = "Trombone_Square_Staff_Group"
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \with
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     {
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                         systemStartDelimiter = #'SystemStartSquare
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     }
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     <<
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Trombone.Staff.1"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Trombone.Staff.1 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Trombone.Staff.2"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Trombone.Staff.2 }
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     >>
 
-                %! baca.ScoreTemplate.make_staff_group()
+                %! animales._make_staff_group()
                 >>
 
-                %! baca.ScoreTemplate.make_staff_group()
+                %! animales._make_staff_group()
                 \context StaffGroup = "String_Staff_Group"
-                %! baca.ScoreTemplate.make_staff_group()
+                %! animales._make_staff_group()
                 <<
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \context StaffGroup = "FirstViolin_Square_Staff_Group"
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \with
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     {
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                         systemStartDelimiter = #'SystemStartSquare
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     }
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     <<
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "First.Violin.Staff.1"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.First.Violin.Staff.1 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "First.Violin.Staff.2"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.First.Violin.Staff.2 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "First.Violin.Staff.3"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.First.Violin.Staff.3 }
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     >>
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \context StaffGroup = "SecondViolin_Square_Staff_Group"
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \with
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     {
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                         systemStartDelimiter = #'SystemStartSquare
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     }
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     <<
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Second.Violin.Staff.1"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Second.Violin.Staff.1 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Second.Violin.Staff.2"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Second.Violin.Staff.2 }
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     >>
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \context StaffGroup = "Viola_Square_Staff_Group"
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     \with
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     {
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                         systemStartDelimiter = #'SystemStartSquare
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     }
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     <<
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Viola.Staff.1"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Viola.Staff.1 }
 
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         \context Staff = "Viola.Staff.2"
-                        %! animales.ScoreTemplate._make_staves()
+                        %! animales._make_staves()
                         %! baca.path.extern()
                         { \segment.18.Viola.Staff.2 }
 
-                    %! baca.ScoreTemplate.make_square_staff_group()
+                    %! animales._make_square_staff_group()
                     >>
 
-                    %! animales.ScoreTemplate._make_staves()
+                    %! animales._make_staves()
                     \context Staff = "Cello.Staff.1"
-                    %! animales.ScoreTemplate._make_staves()
+                    %! animales._make_staves()
                     %! baca.path.extern()
                     { \segment.18.Cello.Staff.1 }
 
-                    %! animales.ScoreTemplate._make_staves()
+                    %! animales._make_staves()
                     \context Staff = "Contrabass.Staff.2"
-                    %! animales.ScoreTemplate._make_staves()
+                    %! animales._make_staves()
                     %! baca.path.extern()
                     { \segment.18.Contrabass.Staff.2 }
 
-                %! baca.ScoreTemplate.make_staff_group()
+                %! animales._make_staff_group()
                 >>
 
             %! baca.ScoreTemplate.make_music_context()
             >>
 
-        %! animales.ScoreTemplate.__call__()
+        %! animales.make_empty_score()
         >>
 
     %! baca._make_lilypond_file()

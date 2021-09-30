@@ -1,3 +1,4 @@
+import inspect
 import typing
 
 import abjad
@@ -271,8 +272,7 @@ def _make_piano_staff(stem, *contexts):
 def _make_square_staff_group(stem, *contexts):
     if not isinstance(stem, str):
         raise Exception(f"stem must be string: {stem!r}.")
-    site = "baca.ScoreTemplate.make_square_staff_group()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     contexts = tuple(_ for _ in contexts if _ is not None)
     result = None
     if len(contexts) == 1:
@@ -290,8 +290,7 @@ def _make_square_staff_group(stem, *contexts):
 def _make_staff_group(stem, *contexts):
     if not isinstance(stem, str):
         raise Exception(f"stem must be string: {stem!r}.")
-    site = "baca.ScoreTemplate.make_staff_group()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     contexts = tuple(_ for _ in contexts if _ is not None)
     if contexts:
         return abjad.StaffGroup(contexts, name=f"{stem}_Staff_Group", tag=tag)
@@ -306,8 +305,7 @@ def _make_staves(
     default_margin_markup,
     default_clef=None,
 ):
-    site = "animales.ScoreTemplate._make_staves()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     assert default_margin_markup is not None
     staves = []
     if not bool(staff_specifiers):
@@ -833,8 +831,7 @@ def make_empty_score(
     cellos=0,
     contrabasses=0,
 ):
-    site = "animales.ScoreTemplate.__call__()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves(
         "Flute",
