@@ -345,6 +345,7 @@ def allows_instrument(staff_name, instrument):
 
     ..  container:: example
 
+        >>> import animales
         >>> animales.library.allows_instrument(
         ...     "First.Violin.Staff.1",
         ...     animales.library.instruments["Violin"],
@@ -1192,7 +1193,6 @@ def voice_abbreviations():
 
     ..  container:: example
 
-        >>> import animales
         >>> dictionary = animales.library.voice_abbreviations()
         >>> string = abjad.storage(dictionary)
         >>> print(string)
