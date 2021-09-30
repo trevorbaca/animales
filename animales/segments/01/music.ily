@@ -326,7 +326,7 @@ segment.01.Percussion.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
@@ -350,7 +350,7 @@ segment.01.Percussion.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "percussion"
@@ -363,7 +363,7 @@ segment.01.Percussion.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -386,7 +386,7 @@ segment.01.Percussion.Voice.1.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -561,7 +561,7 @@ segment.01.Percussion.Voice.2.part.1 = {
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.2 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
@@ -580,7 +580,7 @@ segment.01.Percussion.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "percussion"
@@ -593,7 +593,7 @@ segment.01.Percussion.Voice.2.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -616,7 +616,7 @@ segment.01.Percussion.Voice.2.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -791,7 +791,7 @@ segment.01.Percussion.Voice.4.part.1 = {
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
@@ -815,7 +815,7 @@ segment.01.Percussion.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "percussion"
@@ -828,7 +828,7 @@ segment.01.Percussion.Voice.4.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -851,7 +851,7 @@ segment.01.Percussion.Voice.4.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -1039,7 +1039,7 @@ segment.01.First.Violin.Voice.1.part.1 = {
     %! baca.trill_spanner_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override TrillSpanner.staff-padding = 4
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -1049,7 +1049,7 @@ segment.01.First.Violin.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1330,7 +1330,7 @@ segment.01.First.Violin.Voice.3.part.1 = {
     %! baca.trill_spanner_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override TrillSpanner.staff-padding = 6
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -1340,7 +1340,7 @@ segment.01.First.Violin.Voice.3.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1651,7 +1651,7 @@ segment.01.Second.Violin.Voice.1.part.1 = {
     %! baca.trill_spanner_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override TrillSpanner.staff-padding = 4
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -1661,7 +1661,7 @@ segment.01.Second.Violin.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1968,7 +1968,7 @@ segment.01.Second.Violin.Voice.3.part.1 = {
     %! baca.trill_spanner_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override TrillSpanner.staff-padding = 6
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -1978,7 +1978,7 @@ segment.01.Second.Violin.Voice.3.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -2305,7 +2305,7 @@ segment.01.Viola.Voice.1.part.1 = {
     %! baca.trill_spanner_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override TrillSpanner.staff-padding = 4
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "alto"
@@ -2315,7 +2315,7 @@ segment.01.Viola.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -2610,7 +2610,7 @@ segment.01.Viola.Voice.3.part.1 = {
     %! baca.trill_spanner_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override TrillSpanner.staff-padding = 4
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "alto"
@@ -2620,7 +2620,7 @@ segment.01.Viola.Voice.3.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -2878,7 +2878,7 @@ segment.01.Cello.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [Cello.Voice.1 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
@@ -2957,7 +2957,7 @@ segment.01.Cello.Voice.1.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
