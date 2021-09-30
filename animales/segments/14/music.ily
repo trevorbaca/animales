@@ -361,7 +361,7 @@ segment.14.Flute.Voice.1.part.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -371,7 +371,7 @@ segment.14.Flute.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1159,7 +1159,7 @@ segment.14.Flute.Voice.2.part.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -1169,7 +1169,7 @@ segment.14.Flute.Voice.2.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF

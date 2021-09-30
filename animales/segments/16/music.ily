@@ -671,13 +671,13 @@ segment.16.Oboe.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [Oboe.Voice.1 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Ob."
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Ob."
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -690,7 +690,7 @@ segment.16.Oboe.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -780,7 +780,7 @@ segment.16.Oboe.Voice.1.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -1132,13 +1132,13 @@ segment.16.English.Horn.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [English.Horn.Voice.1 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Eng. hn."
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -1151,7 +1151,7 @@ segment.16.English.Horn.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1241,7 +1241,7 @@ segment.16.English.Horn.Voice.1.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -1593,13 +1593,13 @@ segment.16.Bassoon.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [Bassoon.Voice.1 measure 1]
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca._set_status_tag()
     %! DEFAULT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bsn."
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Bsn."
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "bass"
@@ -1612,7 +1612,7 @@ segment.16.Bassoon.Voice.1.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1713,7 +1713,7 @@ segment.16.Bassoon.Voice.1.part.1 = {
     %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'violet)
     %! -PARTS
-    %! abjad.ScoreTemplate.attach_defaults(2)
+    %! baca._attach_default_indicators(2)
     %! baca.treat_persistent_wrapper(3)
     %! baca._set_status_tag()
     %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -4664,7 +4664,7 @@ segment.16.First.Violin.Voice.5.part.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
     \clef "treble"
@@ -4674,7 +4674,7 @@ segment.16.First.Violin.Voice.5.part.1 = {
     %! baca.attach_color_literal(1)
     %! DEFAULT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
-    %! abjad.ScoreTemplate.attach_defaults(3)
+    %! baca._attach_default_indicators(3)
     %! baca.treat_persistent_wrapper(2)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF

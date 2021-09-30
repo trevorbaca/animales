@@ -357,7 +357,7 @@ segment.04.Clarinet.Voice.1.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "treble"
@@ -367,7 +367,7 @@ segment.04.Clarinet.Voice.1.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -717,7 +717,7 @@ segment.04.Horn.Voice.1.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "bass"
@@ -727,7 +727,7 @@ segment.04.Horn.Voice.1.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -1323,7 +1323,7 @@ segment.04.Horn.Voice.2.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "bass"
@@ -1333,7 +1333,7 @@ segment.04.Horn.Voice.2.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -1929,7 +1929,7 @@ segment.04.Trumpet.Voice.1.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "treble"
@@ -1939,7 +1939,7 @@ segment.04.Trumpet.Voice.1.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -2535,7 +2535,7 @@ segment.04.Trumpet.Voice.2.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "treble"
@@ -2545,7 +2545,7 @@ segment.04.Trumpet.Voice.2.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -3141,7 +3141,7 @@ segment.04.Trombone.Voice.1.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "tenor"
@@ -3151,7 +3151,7 @@ segment.04.Trombone.Voice.1.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -3747,7 +3747,7 @@ segment.04.Trombone.Voice.2.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "tenor"
@@ -3757,7 +3757,7 @@ segment.04.Trombone.Voice.2.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -4337,7 +4337,7 @@ segment.04.Tuba.Voice.1.part.1 = {
             %! baca._comment_measure_numbers()
             % [Tuba.Voice.1 measure 1]
             %! -PARTS
-            %! abjad.ScoreTemplate.attach_defaults(2)
+            %! baca._attach_default_indicators(2)
             %! baca._set_status_tag()
             %! DEFAULT_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
@@ -4351,7 +4351,7 @@ segment.04.Tuba.Voice.1.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "bass"
@@ -4364,7 +4364,7 @@ segment.04.Tuba.Voice.1.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -4388,7 +4388,7 @@ segment.04.Tuba.Voice.1.part.1 = {
             %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'violet)
             %! -PARTS
-            %! abjad.ScoreTemplate.attach_defaults(2)
+            %! baca._attach_default_indicators(2)
             %! baca.treat_persistent_wrapper(3)
             %! baca._set_status_tag()
             %! REDRAWN_DEFAULT_MARGIN_MARKUP
@@ -8001,7 +8001,7 @@ segment.04.Contrabass.Voice.3.part.1 = {
             %! baca._comment_measure_numbers()
             % [Contrabass.Voice.3 measure 1]
             %! -PARTS
-            %! abjad.ScoreTemplate.attach_defaults(2)
+            %! baca._attach_default_indicators(2)
             %! baca._set_status_tag()
             %! DEFAULT_MARGIN_MARKUP
             \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
@@ -8015,7 +8015,7 @@ segment.04.Contrabass.Voice.3.part.1 = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
             \clef "bass"
@@ -8028,7 +8028,7 @@ segment.04.Contrabass.Voice.3.part.1 = {
             %! baca.attach_color_literal(1)
             %! DEFAULT_CLEF_COLOR_CANCELLATION
             %@% \override Staff.Clef.color = ##f
-            %! abjad.ScoreTemplate.attach_defaults(3)
+            %! baca._attach_default_indicators(3)
             %! baca.treat_persistent_wrapper(2)
             %! baca._set_status_tag()
             %! DEFAULT_CLEF
@@ -8052,7 +8052,7 @@ segment.04.Contrabass.Voice.3.part.1 = {
             %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
             \override Staff.InstrumentName.color = #(x11-color 'violet)
             %! -PARTS
-            %! abjad.ScoreTemplate.attach_defaults(2)
+            %! baca._attach_default_indicators(2)
             %! baca.treat_persistent_wrapper(3)
             %! baca._set_status_tag()
             %! REDRAWN_DEFAULT_MARGIN_MARKUP
