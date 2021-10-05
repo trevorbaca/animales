@@ -123,6 +123,10 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),
+        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
+            include_layout_ly=True,
+            includes=["../../stylesheet.ily"],
+        ),
         score=score,
         transpose_score=True,
     )

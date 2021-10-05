@@ -63,9 +63,9 @@
             %! baca.ScoreTemplate.make_music_context()
             <<
 
-                %! animales._make_staff_group()
+                %! baca.make_staff_group()
                 \context StaffGroup = "Wind_Staff_Group"
-                %! animales._make_staff_group()
+                %! baca.make_staff_group()
                 <<
 
                     %! animales._make_square_staff_group()
@@ -102,12 +102,12 @@
                     %! baca.path.extern()
                     { \segment.16.Bassoon.Staff.1 }
 
-                %! animales._make_staff_group()
+                %! baca.make_staff_group()
                 >>
 
-                %! animales._make_staff_group()
+                %! baca.make_staff_group()
                 \context StaffGroup = "String_Staff_Group"
-                %! animales._make_staff_group()
+                %! baca.make_staff_group()
                 <<
 
                     %! animales._make_square_staff_group()
@@ -212,7 +212,7 @@
                     %! baca.path.extern()
                     { \segment.16.Contrabass.Staff.2 }
 
-                %! animales._make_staff_group()
+                %! baca.make_staff_group()
                 >>
 
             %! baca.ScoreTemplate.make_music_context()

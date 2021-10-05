@@ -287,17 +287,6 @@ def _make_square_staff_group(stem, *contexts):
     return result
 
 
-def _make_staff_group(stem, *contexts):
-    if not isinstance(stem, str):
-        raise Exception(f"stem must be string: {stem!r}.")
-    tag = baca.site(inspect.currentframe())
-    contexts = tuple(_ for _ in contexts if _ is not None)
-    if contexts:
-        return abjad.StaffGroup(contexts, name=f"{stem}_Staff_Group", tag=tag)
-    else:
-        return None
-
-
 def _make_staves(
     name,
     staff_specifiers,
@@ -960,7 +949,7 @@ def make_empty_score(
         abjad.Clef("bass"),
     )
     music_context = baca.score.make_music_context(
-        _make_staff_group(
+        baca.score.make_staff_group(
             "Wind",
             *_group_families(
                 (
@@ -983,7 +972,7 @@ def make_empty_score(
                 ),
             ),
         ),
-        _make_staff_group(
+        baca.score.make_staff_group(
             "Brass",
             _make_square_staff_group("Horn", *horn_staves),
             _make_square_staff_group("Trumpet", *trumpet_staves),
@@ -992,8 +981,8 @@ def make_empty_score(
         ),
         _make_piano_staff("Piano", *piano_staves),
         _make_piano_staff("Harp", *harp_staves),
-        _make_staff_group("Percussion", *percussion_staves),
-        _make_staff_group(
+        baca.score.make_staff_group("Percussion", *percussion_staves),
+        baca.score.make_staff_group(
             "String",
             _make_square_staff_group("FirstViolin", *first_violin_staves),
             _make_square_staff_group("SecondViolin", *second_violin_staves),

@@ -244,8 +244,12 @@ if __name__ == "__main__":
         **baca.segment_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        error_on_not_yet_pitched=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
+        error_on_not_yet_pitched=True,
+        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
+            include_layout_ly=True,
+            includes=["../../stylesheet.ily"],
+        ),
         score=score,
         transpose_score=True,
     )
