@@ -838,44 +838,36 @@ dict(
         },
         "voice_metadata": {
             "Contrabass.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 50),
-                        ("logical_ties_produced", 57),
-                        ("talea_weight_consumed", 300),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 50,
+                    "logical_ties_produced": 57,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 300,
+                },
             },
             "Harp.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 50),
-                        ("logical_ties_produced", 51),
-                        ("talea_weight_consumed", 300),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 50,
+                    "logical_ties_produced": 51,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 300,
+                },
             },
             "Percussion.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 50),
-                        ("logical_ties_produced", 56),
-                        ("talea_weight_consumed", 300),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 50,
+                    "logical_ties_produced": 56,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 300,
+                },
             },
             "Piano.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 50),
-                        ("logical_ties_produced", 51),
-                        ("talea_weight_consumed", 300),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 50,
+                    "logical_ties_produced": 51,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 300,
+                },
             },
         },
     }

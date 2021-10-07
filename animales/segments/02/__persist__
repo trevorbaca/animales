@@ -361,80 +361,66 @@ dict(
         },
         "voice_metadata": {
             "Cello.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
             "First.Violin.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
             "First.Violin.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
             "Second.Violin.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
             "Second.Violin.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
             "Viola.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
             "Viola.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 40),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 6),
-                        ("talea_weight_consumed", 240),
-                        ("name", "sforzando_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 40,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 6,
+                    "name": "sforzando_exchange_rhythm",
+                    "talea_weight_consumed": 240,
+                },
             },
         },
     }
