@@ -848,44 +848,36 @@ dict(
         },
         "voice_metadata": {
             "Contrabass.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 161),
-                        ("logical_ties_produced", 181),
-                        ("talea_weight_consumed", 966),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 161,
+                    "logical_ties_produced": 181,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 966,
+                },
             },
             "Harp.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 161),
-                        ("logical_ties_produced", 174),
-                        ("talea_weight_consumed", 966),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 161,
+                    "logical_ties_produced": 174,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 966,
+                },
             },
             "Percussion.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 161),
-                        ("logical_ties_produced", 178),
-                        ("talea_weight_consumed", 966),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 161,
+                    "logical_ties_produced": 178,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 966,
+                },
             },
             "Piano.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 161),
-                        ("logical_ties_produced", 177),
-                        ("talea_weight_consumed", 966),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 161,
+                    "logical_ties_produced": 177,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 966,
+                },
             },
         },
     }

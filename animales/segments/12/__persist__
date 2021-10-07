@@ -965,24 +965,20 @@ dict(
         },
         "voice_metadata": {
             "Contrabass.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 142),
-                        ("logical_ties_produced", 160),
-                        ("talea_weight_consumed", 852),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 142,
+                    "logical_ties_produced": 160,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 852,
+                },
             },
             "Harp.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 142),
-                        ("logical_ties_produced", 153),
-                        ("talea_weight_consumed", 852),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 142,
+                    "logical_ties_produced": 153,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 852,
+                },
             },
             "Horn.Voice.1": {
                 "PITCH": {
@@ -1009,24 +1005,20 @@ dict(
                 },
             },
             "Percussion.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 142),
-                        ("logical_ties_produced", 157),
-                        ("talea_weight_consumed", 852),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 142,
+                    "logical_ties_produced": 157,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 852,
+                },
             },
             "Piano.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 142),
-                        ("logical_ties_produced", 155),
-                        ("talea_weight_consumed", 852),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 142,
+                    "logical_ties_produced": 155,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 852,
+                },
             },
             "Trombone.Voice.1": {
                 "PITCH": {

@@ -941,222 +941,190 @@ dict(
         },
         "voice_metadata": {
             "Contrabass.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 90),
-                        ("logical_ties_produced", 102),
-                        ("talea_weight_consumed", 540),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 90,
+                    "logical_ties_produced": 102,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 540,
+                },
             },
             "Harp.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 90),
-                        ("logical_ties_produced", 96),
-                        ("talea_weight_consumed", 540),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 90,
+                    "logical_ties_produced": 96,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 540,
+                },
             },
             "Horn.Voice.1": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 4,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 9),
-                        ("talea_weight_consumed", 40),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 9,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 40,
+                },
             },
             "Horn.Voice.2": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 4,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 11),
-                        ("talea_weight_consumed", 41),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 11,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 41,
+                },
             },
             "Horn.Voice.3": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 5,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 7),
-                        ("talea_weight_consumed", 40),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 7,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 40,
+                },
             },
             "Horn.Voice.4": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 5,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 11),
-                        ("talea_weight_consumed", 41),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 11,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 41,
+                },
             },
             "Percussion.Voice.3": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 90),
-                        ("logical_ties_produced", 100),
-                        ("talea_weight_consumed", 540),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 90,
+                    "logical_ties_produced": 100,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 540,
+                },
             },
             "Piano.Voice.1": {
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 90),
-                        ("logical_ties_produced", 96),
-                        ("talea_weight_consumed", 540),
-                        ("name", "harp_exchange_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 90,
+                    "logical_ties_produced": 96,
+                    "name": "harp_exchange_rhythm",
+                    "talea_weight_consumed": 540,
+                },
             },
             "Trombone.Voice.1": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 5,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 10),
-                        ("talea_weight_consumed", 40),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 10,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 40,
+                },
             },
             "Trombone.Voice.2": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 5,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 13),
-                        ("talea_weight_consumed", 41),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 13,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 41,
+                },
             },
             "Trombone.Voice.3": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 6,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("logical_ties_produced", 8),
-                        ("talea_weight_consumed", 40),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "logical_ties_produced": 8,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 40,
+                },
             },
             "Trombone.Voice.4": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 6,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 10),
-                        ("talea_weight_consumed", 41),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 10,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 41,
+                },
             },
             "Trumpet.Voice.1": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 5,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 10),
-                        ("talea_weight_consumed", 40),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 10,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 40,
+                },
             },
             "Trumpet.Voice.2": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 4,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("logical_ties_produced", 12),
-                        ("talea_weight_consumed", 41),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "logical_ties_produced": 12,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 41,
+                },
             },
             "Trumpet.Voice.3": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 6,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 9),
-                        ("talea_weight_consumed", 40),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 9,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 40,
+                },
             },
             "Trumpet.Voice.4": {
                 "PITCH": {
                     "name": "seconds",
                     "pitches_consumed": 5,
                 },
-                "RHYTHM": abjad.OrderedDict(
-                    [
-                        ("divisions_consumed", 18),
-                        ("incomplete_last_note", True),
-                        ("logical_ties_produced", 9),
-                        ("talea_weight_consumed", 41),
-                        ("name", "brass_manifest_rhythm"),
-                    ]
-                ),
+                "RHYTHM": {
+                    "divisions_consumed": 18,
+                    "incomplete_last_note": True,
+                    "logical_ties_produced": 9,
+                    "name": "brass_manifest_rhythm",
+                    "talea_weight_consumed": 41,
+                },
             },
         },
     }
