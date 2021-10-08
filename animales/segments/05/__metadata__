@@ -3,12 +3,10 @@ dict(
         "bol_measure_numbers": [24],
         "duration": "0'11''",
         "final_measure_number": 29,
-        "first_appearance_margin_markup": abjad.OrderedDict(
-            [
-                ("Clarinet_Staff_I", "Cl. 2"),
-                ("Contrabass_Staff_II", "Cb."),
-            ]
-        ),
+        "first_appearance_margin_markup": {
+            "Clarinet_Staff_I": "Cl. 2",
+            "Contrabass_Staff_II": "Cb.",
+        },
         "first_measure_number": 24,
         "start_clock_time": "0'44''",
         "stop_clock_time": "0'55''",
