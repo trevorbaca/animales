@@ -110,18 +110,12 @@ commands(
 
 commands(
     ("perc1", (3, 6)),
-    baca.markup(
-        r"\animales-triangle-small-beater-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-triangle-small-beater-markup"),
 )
 
 commands(
     ("perc2", (3, 6)),
-    baca.markup(
-        r"\animales-suspended-cymbal-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-suspended-cymbal-markup"),
 )
 
 commands(
@@ -258,10 +252,7 @@ commands(
     baca.dynamic("p-sub"),
     baca.make_repeat_tied_notes(),
     baca.only_parts(
-        baca.markup(
-            r"\animales-still-non-vibrato-markup",
-            literal=True,
-        ),
+        baca.markup(r"\animales-still-non-vibrato-markup"),
     ),
     baca.pitch(0),
 )
@@ -279,7 +270,6 @@ commands(
         baca.markup(
             r"\animales-all-other-strings-still-markup",
             direction=abjad.Down,
-            literal=True,
         ),
     ),
     baca.not_parts(baca.voice_two()),

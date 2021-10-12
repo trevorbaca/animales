@@ -70,10 +70,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.make_notes(),
-    baca.markup(
-        r"\animales-harmonic-touch-lowest-string-of-piano-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
     baca.pitch("C#4"),
     baca.only_parts(baca.text_script_x_offset(3)),
 )
@@ -90,10 +87,7 @@ commands(
     animales.margin_markup("Perc. 4 (slate)"),
     baca.dynamic('"mf"'),
     baca.make_tied_repeated_durations([(1, 4)]),
-    baca.markup(
-        r"\animales-stonecircle-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-stonecircle-markup"),
     baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),
 )

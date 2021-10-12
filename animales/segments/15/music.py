@@ -354,7 +354,6 @@ commands(
     ("First.Violin.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
-        literal=True,
         selector=baca.selectors.leaf(0),
     ),
 )
@@ -364,7 +363,6 @@ commands(
     baca.only_parts(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
-            literal=True,
             selector=baca.selectors.leaf(0),
         ),
     ),

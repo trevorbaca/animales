@@ -175,7 +175,6 @@ commands(
     ("Clarinet.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-markup",
-        literal=True,
         selector=baca.selectors.leaf(0),
     ),
 )
@@ -364,7 +363,6 @@ commands(
     ("First.Violin.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
-        literal=True,
         selector=baca.selectors.leaf(0),
     ),
 )
@@ -374,7 +372,6 @@ commands(
     baca.only_parts(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
-            literal=True,
             selector=baca.selectors.leaf(0),
         ),
     ),
@@ -403,10 +400,7 @@ commands(
     animales.parts("Contrabass", 1),
     animales.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
-    baca.markup(
-        r"\animales-as-bell-like-as-possible-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-as-bell-like-as-possible-markup"),
     baca.pitch("Bb4", do_not_transpose=True),
 )
 
