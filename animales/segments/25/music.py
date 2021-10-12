@@ -134,10 +134,7 @@ commands(
     baca.clef("percussion"),
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r"\animales-bass-drum-soft-yarn-mallets-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-bass-drum-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -152,10 +149,7 @@ commands(
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     animales.margin_markup("Perc. 4 (tam.)"),
-    baca.markup(
-        r"\animales-tam-tam-soft-yarn-mallets-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-tam-tam-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_position(0),
     baca.staff_lines(1),

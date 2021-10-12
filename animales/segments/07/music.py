@@ -120,14 +120,8 @@ commands(
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.edition(
-        baca.markup(
-            r"\animales-lh-damped-pdlt-markup",
-            literal=True,
-        ),
-        baca.markup(
-            r"\animales-lh-damped-pdlt-explanation-markup",
-            literal=True,
-        ),
+        baca.markup(r"\animales-lh-damped-pdlt-markup"),
+        baca.markup(r"\animales-lh-damped-pdlt-explanation-markup"),
     ),
     baca.pitch("D5"),
     baca.stopped(selector=baca.selectors.pheads()),
@@ -141,10 +135,7 @@ commands(
     animales.harp_exchange_rhythm(3, silence_first=True),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
-    baca.markup(
-        r"\animales-mute-with-lh-inside-piano-dull-thud-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
     baca.pitch("D5"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -186,10 +177,7 @@ commands(
     baca.clef("treble"),
     baca.dynamic("mp"),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
-    baca.markup(
-        r"\animales-vibraphone-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-vibraphone-markup"),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.pitch("D5"),
 )
@@ -201,10 +189,7 @@ commands(
     animales.parts("First.Violin"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
-        baca.markup(
-            r"\animales-strings-still-non-vib-markup",
-            literal=True,
-        ),
+        baca.markup(r"\animales-strings-still-non-vib-markup"),
     ),
     baca.pitch("Bb6"),
 )
@@ -234,10 +219,7 @@ commands(
     "cb3",
     animales.margin_markup(
         "Cb. (2-6)",
-        alert=baca.markup(
-            r"\animales-cb-two-to-six-markup",
-            literal=True,
-        ),
+        alert=baca.markup(r"\animales-cb-two-to-six-markup"),
     ),
     animales.parts("Contrabass", (2, 6)),
     baca.make_repeat_tied_notes(),
@@ -260,13 +242,11 @@ commands(
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.Down,
-                literal=True,
                 selector=baca.selectors.leaf(1),
             ),
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.Up,
-                literal=True,
                 selector=baca.selectors.leaf(1),
             ),
         ),
@@ -284,10 +264,7 @@ commands(
     (upper_strings, 1),
     baca.dynamic("pp"),
     baca.only_parts(
-        baca.markup(
-            r"\animales-still-non-vibrato-markup",
-            literal=True,
-        ),
+        baca.markup(r"\animales-still-non-vibrato-markup"),
     ),
 )
 
@@ -295,10 +272,7 @@ commands(
     ("cb3", 1),
     baca.dynamic("p"),
     baca.only_parts(
-        baca.markup(
-            r"\animales-still-non-vibrato-markup",
-            literal=True,
-        ),
+        baca.markup(r"\animales-still-non-vibrato-markup"),
     ),
 )
 
@@ -325,14 +299,8 @@ commands(
     baca.clef("treble"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
-    baca.markup(
-        r"\animales-eighth-partial-of-d-markup",
-        literal=True,
-    ),
-    baca.markup(
-        r"\baca-pizz-markup",
-        literal=True,
-    ),
+    baca.markup(r"\animales-eighth-partial-of-d-markup"),
+    baca.markup(r"\baca-pizz-markup"),
     baca.note_head_style_harmonic(),
     baca.pitch("D5", do_not_transpose=True),
 )

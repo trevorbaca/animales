@@ -470,10 +470,7 @@ def assign_trill_parts(maker, *, exclude_first_violin=False):
 def attach_grand_pause_fermatas(maker, score, *, measure=-1):
     assert isinstance(maker, baca.CommandAccumulator)
     for voice in abjad.iterate.components(score, abjad.Voice):
-        markup = abjad.Markup(
-            r'\markup \musicglyph #"scripts.ufermata"',
-            literal=True,
-        )
+        markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
         markup_command = baca.markup(
             markup,
             selector=baca.selectors.leaf(0),
@@ -537,10 +534,7 @@ def battuti(
             else:
                 polyphony = upper_voice()
             if first:
-                markup = abjad.Markup(
-                    r"\animales-col-legno-battuti-explanation",
-                    literal=True,
-                )
+                markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
                 command: baca.CommandTyping
                 command = baca.markup(
                     markup,
