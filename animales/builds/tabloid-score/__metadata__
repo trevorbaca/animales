@@ -23,8 +23,5 @@ dict(
             158,
             165,
         ],
-        "catalog_number_suffix": "TAB",
-        "paper_size": "tabloid",
-        "price": "$120 / \\euro 120",
     }
 )
