@@ -209,3 +209,8 @@ jobs:
             fi
             echo
         done
+
+    - name: Test builds
+      run: |
+        export PATH=/tmp/baca/scr:/home/runner/bin:$PATH
+        /tmp/baca/scr/test-builds
