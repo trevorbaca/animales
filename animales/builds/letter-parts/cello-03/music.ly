@@ -2,7 +2,6 @@
 % part_identifier = 'VC-3'
 
 \version "2.19.82"
-\language "english"
 
 \include "../stylesheet.ily"
 \include "../_segments/-.ily"
