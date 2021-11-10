@@ -2,7 +2,6 @@
 % part_identifier = 'VA-4'
 
 \version "2.19.82"
-\language "english"
 
 \include "../stylesheet.ily"
 \include "../_segments/-.ily"

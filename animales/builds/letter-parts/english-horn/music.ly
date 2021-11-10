@@ -2,7 +2,6 @@
 % part_identifier = 'EH'
 
 \version "2.19.82"
-\language "english"
 
 \include "../stylesheet.ily"
 \include "../_segments/-.ily"
