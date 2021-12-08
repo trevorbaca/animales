@@ -1,4 +1,3 @@
-
 name: CI
 
 
@@ -45,7 +44,7 @@ jobs:
       run: |
         lilypond=/tmp/lilypond
         lilypond_url=http://lilypond.org/download/binaries/linux-64/
-        lilypond_source=lilypond-2.23.3-1.linux-64.sh
+        lilypond_source=lilypond-2.22.1-1.linux-64.sh
         wget -q -O $lilypond $lilypond_url/$lilypond_source
         sh $lilypond --batch
 
@@ -64,13 +63,12 @@ jobs:
         git clone https://github.com/Abjad/abjad-ext-rmakers.git /tmp/abjad-ext-rmakers
         python -m pip install --use-feature=in-tree-build /tmp/abjad-ext-rmakers
 
-    - name: Install Bača ("editable" to include lilypond/baca.ily)
+    - name: Install Bača ("editable" to include baca.ily)
       run: |
         git clone https://github.com/trevorbaca/baca.git /tmp/baca
         python -m pip install --use-feature=in-tree-build -e /tmp/baca
 
-    # -e for doctest to process "import <score>" statements
-    - name: Install this score ("editable")
+    - name: Install this score ("editable" for doctest to import package)
       run: |
         python -m pip install --use-feature=in-tree-build -e .
 
@@ -102,115 +100,20 @@ jobs:
             py.test -rf $GITHUB_WORKSPACE/$NAME/test.py
         fi
 
-    - name: Make segments
+    - name: Test segments
       run: |
         export PATH=/tmp/baca/scr:/home/runner/bin:$PATH
-        package_name=$(basename "$GITHUB_WORKSPACE")
-        wrapper_directory="$GITHUB_WORKSPACE"
-        echo Wrapper directory "$wrapper_directory" ...
-        contents_directory="$wrapper_directory"/"$package_name"
-        echo Contents directory "$contents_directory" ...
-        segments_directory="$contents_directory"/segments
-        echo Segments directory "$segments_directory" ...
-        if [ ! -d "$segments_directory"/01 ]; then
-            echo Score contains no segments ...
-            exit 0
+        export PYTHONUNBUFFERED=TRUE
+        /tmp/baca/scr/test-segments
+
+    - name: Test score builds
+      run: |
+        export PATH=/tmp/baca/scr:/home/runner/bin:$PATH
+        export PYTHONUNBUFFERED=TRUE
+        NAME=$(basename $GITHUB_WORKSPACE)
+        BUILDS_DIRECTORY=$GITHUB_WORKSPACE/$NAME/builds
+        if [ -d $BUILDS_DIRECTORY ]; then
+          cd $BUILDS_DIRECTORY
+          /tmp/baca/scr/test-score-builds
         fi
-        for segment_directory in $(ls -d "$segments_directory"/[0-9]*); do
-            echo Segment directory "$segment_directory" ...
-            music_ly="$segment_directory/music.ly"
-            music_ly_old="$segment_directory/music.ly.old"
-            if [ -f "$music_ly" ]; then
-                cp "$music_ly" "$music_ly_old"
-            fi
-            rm "$music_ly"
-            music_ily="$segment_directory"/music.ily
-            music_ily_old="$segment_directory"/music.ily.old
-            if [ -f "$music_ily" ]; then
-                cp "$music_ily" "$music_ily_old"
-            fi
-            rm "$music_ily"
-            clicktrack_midi="$segment_directory/clicktrack.midi"
-            clicktrack_midi_old="$segment_directory/clicktrack.midi.old"
-            if [ -f "$clicktrack_midi" ]; then
-                cp "$clicktrack_midi" "$clicktrack_midi_old"
-                rm "$clicktrack_midi"
-            fi
-            music_midi="$segment_directory/music.midi"
-            music_midi_old="$segment_directory/music.midi.old"
-            if [ -f "$music_midi" ]; then
-                cp "$music_midi" "$music_midi_old"
-                rm "$music_midi"
-            fi
-            current_directory=$(pwd)
-            cd "$segment_directory"
-            # TODO: make clicktrack work for segment 06
-            # python music.py --pdf --clicktrack --midi
-            python music.py --pdf --midi
-            cd "$current_directory"
-            if [ -f "$music_ly" ]; then
-                echo Found "$music_ly" ...
-            else
-                exit -1
-            fi
-            differences=$(diff -I '^\\version' $music_ly $music_ly_old)
-            if [ -z "$differences" ]; then
-                echo Found matching music.ly files ...
-            else
-                echo Found mismatched music.ly files ...
-                diff -I '^\\version' "$music_ly" "$music_ly_old"
-                exit -1
-            fi
-            if [ -f "$music_ily" ]; then
-                echo Found "$music_ily" ...
-            else
-                exit -1
-            fi
-            differences=$(diff -I '^\\version' $music_ily $music_ily_old)
-            if [ -z "$differences" ]; then
-                echo Found matching music.ily files ...
-            else
-                echo Found mismatched music.ily files ...
-                diff -I '^\\version' "$music_ily" "$music_ily_old"
-                exit -1
-            fi
-
-            # TODO: make clicktrack work for segment 06
-            # if [ -f "$clicktrack_midi" ]; then
-            #    echo Found "$clicktrack_midi" ...
-            # else
-            #    exit -1
-            # fi
-            # if [ -f "$clicktrack_midi_old" ]; then
-            #    differences=$(diff $clicktrack_midi $clicktrack_midi_old)
-            #    if [ -z "$differences" ]; then
-            #        echo Found matching clicktrack.midi files ...
-            #    else
-            #        echo Found mismatched clicktrack.midi files ...
-            #        diff $clicktrack_midi $clicktrack_midi_old
-            #        exit -1
-            #    fi
-            #fi
-
-            if [ -f "$music_midi" ]; then
-                echo Found "$music_midi" ...
-            else
-                exit -1
-            fi
-            if [ -f "$music_midi_old" ]; then
-                differences=$(diff $music_midi $music_midi_old)
-                if [ -z "$differences" ]; then
-                    echo Found matching music.midi files ...
-                else
-                    echo Found mismatched music.midi files ...
-                    diff $music_midi $music_midi_old
-                    exit -1
-                fi
-            fi
-            echo
-        done
-
-    - name: Test builds
-      run: |
-        export PATH=/tmp/baca/scr:/home/runner/bin:$PATH
-        /tmp/baca/scr/test-builds
+        cd $GITHUB_WORKSPACE
