@@ -7,6 +7,7 @@ dict(
             "Bass_Clarinet_Staff_I": "B. cl.",
         },
         "first_measure_number": 44,
+        "first_metronome_mark": False,
         "start_clock_time": "1'30''",
         "stop_clock_time": "1'44''",
         "time_signatures": ["4/4", "4/4", "4/4", "3/4", "3/4", "4/4"],
