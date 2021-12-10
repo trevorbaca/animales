@@ -1,13 +1,13 @@
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 01 [_] ########################################
 #########################################################################################
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     percussion=[
         (1, [1]),
         (2, [2]),
@@ -34,11 +34,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[:6],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[:6],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -51,19 +51,19 @@ commands(
 
 commands(
     "perc1",
-    animales.parts("Percussion", 1),
+    library.parts("Percussion", 1),
     baca.staff_lines(1),
 )
 
 commands(
     "perc2",
-    animales.parts("Percussion", 2),
+    library.parts("Percussion", 2),
     baca.staff_lines(1),
 )
 
 commands(
     "perc4",
-    animales.parts("Percussion", 4),
+    library.parts("Percussion", 4),
     baca.staff_lines(1),
 )
 
@@ -71,27 +71,27 @@ commands(
 
 voice_to_start_markup = {
     "1vn1": [
-        animales.margin_markup("Vni. I (1-10)"),
+        library.margin_markup("Vni. I (1-10)"),
         baca.start_markup(["Violins I", "(1-10)"], hcenter_in=16),
     ],
     "1vn3": [
-        animales.margin_markup("Vni. I (11-18)"),
+        library.margin_markup("Vni. I (11-18)"),
         baca.start_markup(["Violins I", "(11-18)"], hcenter_in=16),
     ],
     "2vn1": [
-        animales.margin_markup("Vni. II (1-10)"),
+        library.margin_markup("Vni. II (1-10)"),
         baca.start_markup(["Violins II", "(1-10)"], hcenter_in=16),
     ],
     "2vn3": [
-        animales.margin_markup("Vni. II (11-18)"),
+        library.margin_markup("Vni. II (11-18)"),
         baca.start_markup(["Violins II", "(11-18)"], hcenter_in=16),
     ],
     "va1": [
-        animales.margin_markup("Vle. (1-10)"),
+        library.margin_markup("Vle. (1-10)"),
         baca.start_markup(["Violas", "(1-10)"], hcenter_in=16),
     ],
     "va3": [
-        animales.margin_markup("Vle. (11-18)"),
+        library.margin_markup("Vle. (11-18)"),
         baca.start_markup(["Violas", "(11-18)"], hcenter_in=16),
     ],
     "vc1": [
@@ -108,8 +108,8 @@ for voice, commands_ in voice_to_start_markup.items():
 
 # strings
 
-animales.assign_trill_parts(commands)
-animales.make_trill_rhythm(commands)
+library.assign_trill_parts(commands)
+library.make_trill_rhythm(commands)
 
 commands(
     ("vc1", 1),
@@ -197,7 +197,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
-        part_manifest=animales.part_manifest,
+        part_manifest=library.part_manifest,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

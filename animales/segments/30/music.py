@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################## 30 [CC] ########################################
@@ -10,10 +10,10 @@ from animales import library as animales
 metadata = baca.previous_metadata(__file__)
 start = 142
 
-time_signatures = animales.time_signatures[start : start + 9] + ((1, 4),)
+time_signatures = library.time_signatures[start : start + 9] + ((1, 4),)
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     piano=[
         (1, [1]),
     ],
@@ -27,11 +27,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=animales.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -56,13 +56,13 @@ commands(
     ),
 )
 
-animales.attach_grand_pause_fermatas(commands, score, measure=-1)
+library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 # piano
 
 commands(
     "pf1",
-    animales.parts("Piano"),
+    library.parts("Piano"),
 )
 
 commands(
@@ -79,12 +79,12 @@ commands(
 
 commands(
     "perc4",
-    animales.parts("Percussion", 4),
+    library.parts("Percussion", 4),
 )
 
 commands(
     ("perc4", (1, 8)),
-    animales.margin_markup("Perc. 4 (slate)"),
+    library.margin_markup("Perc. 4 (slate)"),
     baca.dynamic('"mf"'),
     baca.make_tied_repeated_durations([(1, 4)]),
     baca.markup(r"\animales-stonecircle-markup"),

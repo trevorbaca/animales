@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################## 29 [BB] ########################################
@@ -10,10 +10,10 @@ from animales import library as animales
 metadata = baca.previous_metadata(__file__)
 start = 136
 
-time_signatures = animales.time_signatures[start : start + 3] + ((1, 4),)
+time_signatures = library.time_signatures[start : start + 3] + ((1, 4),)
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     percussion=[
         (1, [1]),
     ],
@@ -66,11 +66,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=animales.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -94,7 +94,7 @@ commands(
     ),
 )
 
-animales.attach_grand_pause_fermatas(commands, score, measure=-1)
+library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 # percussion
 
@@ -102,7 +102,7 @@ animales.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 commands(
     "perc1",
-    animales.parts("Percussion", 1),
+    library.parts("Percussion", 1),
 )
 
 commands(
@@ -117,7 +117,7 @@ commands(
 
 # strings
 
-animales.battuti(
+library.battuti(
     commands,
     [[1, -17], [1, -17], [1, -17]],
     omit_contrabasses=True,

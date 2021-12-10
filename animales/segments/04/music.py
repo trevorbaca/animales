@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 04 [C] ########################################
@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 17
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     clarinets=[
         (1, [1]),
     ],
@@ -59,11 +59,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[start : start + 6],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[start : start + 6],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -91,8 +91,8 @@ commands(
 
 commands(
     "cl1",
-    animales.margin_markup("Cl. 3"),
-    animales.parts("Clarinet", 3),
+    library.margin_markup("Cl. 3"),
+    library.parts("Clarinet", 3),
 )
 
 # percussion
@@ -120,64 +120,64 @@ commands(
 
 commands(
     "perc1",
-    animales.margin_markup("Perc. 1 (tri.)"),
-    animales.parts("Percussion", 1),
+    library.margin_markup("Perc. 1 (tri.)"),
+    library.parts("Percussion", 1),
 )
 
 commands(
     "perc2",
-    animales.margin_markup("Perc. 2 (cym.)"),
-    animales.parts("Percussion", 2),
+    library.margin_markup("Perc. 2 (cym.)"),
+    library.parts("Percussion", 2),
 )
 
 # brass
 
-animales.assign_brass_sforzando_parts(commands)
-animales.brass_sforzando(commands, 3)
+library.assign_brass_sforzando_parts(commands)
+library.brass_sforzando(commands, 3)
 
 commands(
     "hn1",
-    animales.margin_markup("Hn. (1+3)"),
+    library.margin_markup("Hn. (1+3)"),
 )
 
 commands(
     "hn2",
-    animales.margin_markup("Hn. (2+4)"),
+    library.margin_markup("Hn. (2+4)"),
 )
 
 commands(
     "tp1",
-    animales.margin_markup("Tp. (1+3)"),
+    library.margin_markup("Tp. (1+3)"),
 )
 
 commands(
     "tp2",
-    animales.margin_markup("Tp. (2+4)"),
+    library.margin_markup("Tp. (2+4)"),
 )
 
 commands(
     "tbn1",
-    animales.margin_markup("Trb. (1+3)"),
+    library.margin_markup("Trb. (1+3)"),
 )
 
 commands(
     "tbn2",
-    animales.margin_markup("Trb. (2+4)"),
+    library.margin_markup("Trb. (2+4)"),
 )
 
 # strings
 
 commands(
     ("1vn2", (3, 6)),
-    animales.glissando_rhythm(),
-    animales.parts("First.Violin", 1),
+    library.glissando_rhythm(),
+    library.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
-        selector=animales.leaves_in_measure(1, rleak=True),
+        selector=library.leaves_in_measure(1, rleak=True),
     ),
     baca.hairpin(
         "f > p",
-        selector=animales.leaves_in_measure(-1, lleak=True),
+        selector=library.leaves_in_measure(-1, lleak=True),
     ),
     baca.edition("solo (first violin)", "solo"),
     baca.not_parts(baca.dls_up()),
@@ -185,7 +185,7 @@ commands(
     baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie(baca.selectors.leaves()),
-        animales.glissando_positions(reverse=True),
+        library.glissando_positions(reverse=True),
         baca.pitch(
             "C5",
             baca.selectors.pleaf(0),
@@ -201,7 +201,7 @@ commands(
     ),
 )
 
-animales.make_trill_rhythm(commands, measures=(1, 2))
+library.make_trill_rhythm(commands, measures=(1, 2))
 
 strings = [
     "1vn1",
@@ -259,13 +259,13 @@ commands(
 
 commands(
     ("1vn1", (1, 2)),
-    animales.parts("First.Violin", (1, 10)),
+    library.parts("First.Violin", (1, 10)),
     baca.not_parts(baca.voice_two()),
 )
 
 commands(
     ("1vn1", (3, 6)),
-    animales.parts("First.Violin", (2, 10)),
+    library.parts("First.Violin", (2, 10)),
     baca.not_parts(
         baca.markup(
             r"\animales-all-other-strings-still-markup",
@@ -277,32 +277,32 @@ commands(
 
 commands(
     "1vn3",
-    animales.parts("First.Violin", (11, 18)),
+    library.parts("First.Violin", (11, 18)),
 )
 
 commands(
     "2vn1",
-    animales.parts("Second.Violin", (1, 10)),
+    library.parts("Second.Violin", (1, 10)),
 )
 
 commands(
     "2vn3",
-    animales.parts("Second.Violin", (11, 18)),
+    library.parts("Second.Violin", (11, 18)),
 )
 
 commands(
     "va1",
-    animales.parts("Viola", (1, 10)),
+    library.parts("Viola", (1, 10)),
 )
 
 commands(
     "va3",
-    animales.parts("Viola", (11, 18)),
+    library.parts("Viola", (11, 18)),
 )
 
 commands(
     "vc1",
-    animales.parts("Cello"),
+    library.parts("Cello"),
 )
 
 # contrabasses
@@ -316,7 +316,7 @@ commands(
 
 commands(
     "cb3",
-    animales.parts("Contrabass"),
+    library.parts("Contrabass"),
 )
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 16 [O] ########################################
@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 94
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     oboes=[
         (1, [1]),
     ],
@@ -47,11 +47,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[start : start + 14],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[start : start + 14],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -80,7 +80,7 @@ def swell(peak):
 
 commands(
     "ob1",
-    animales.parts("Oboe"),
+    library.parts("Oboe"),
 )
 
 commands(
@@ -98,7 +98,7 @@ commands(
 
 commands(
     "eh1",
-    animales.parts("English.Horn"),
+    library.parts("English.Horn"),
 )
 
 commands(
@@ -116,13 +116,13 @@ commands(
 
 commands(
     "bsn1",
-    animales.parts("Bassoon", 1),
+    library.parts("Bassoon", 1),
     baca.not_parts(baca.voice_one()),
 )
 
 commands(
     "bsn2",
-    animales.parts("Bassoon", 2),
+    library.parts("Bassoon", 2),
     baca.not_parts(baca.voice_two()),
 )
 
@@ -194,8 +194,8 @@ def lower_voice_suite(n=5):
 
 commands(
     "1vn5",
-    animales.margin_markup("Vni. I 18"),
-    animales.parts("First.Violin", 18),
+    library.margin_markup("Vni. I 18"),
+    library.parts("First.Violin", 18),
     baca.dynamic("f"),
     baca.make_repeat_tied_notes(),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
@@ -224,17 +224,17 @@ voice_to_members = {
 }
 
 for voice, members in voice_to_members.items():
-    section = animales.voice_to_section(voice)
+    section = library.voice_to_section(voice)
     commands(
         voice,
-        animales.parts(section, members),
+        library.parts(section, members),
     )
 
 # first violins
 
 commands(
     ("1vn1", (1, 10)),
-    animales.margin_markup("Vni. I (1-4) (5-8)"),
+    library.margin_markup("Vni. I (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-tutti-ext-ponticello-like-acid-markup"),
@@ -257,7 +257,7 @@ commands(
 
 commands(
     ("1vn3", (1, 10)),
-    animales.margin_markup("Vni. I (9-12) (13-17)"),
+    library.margin_markup("Vni. I (9-12) (13-17)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup"),
@@ -279,7 +279,7 @@ commands(
 
 commands(
     ("2vn1", (1, 10)),
-    animales.margin_markup("Vni. II (1-4) (5-8)"),
+    library.margin_markup("Vni. II (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
@@ -299,7 +299,7 @@ commands(
 
 commands(
     ("2vn3", (1, 10)),
-    animales.margin_markup("Vni. II (9-12) (13-18)"),
+    library.margin_markup("Vni. II (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
@@ -321,7 +321,7 @@ commands(
 
 commands(
     ("va1", (1, 10)),
-    animales.margin_markup("Vle. (1-4) (5-8)"),
+    library.margin_markup("Vle. (1-4) (5-8)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
@@ -341,7 +341,7 @@ commands(
 
 commands(
     ("va3", (1, 10)),
-    animales.margin_markup("Vle. (9-12) (13-18)"),
+    library.margin_markup("Vle. (9-12) (13-18)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
@@ -363,7 +363,7 @@ commands(
 
 commands(
     ("vc1", (1, 10)),
-    animales.margin_markup("Vc. (1-8) (9-14)"),
+    library.margin_markup("Vc. (1-8) (9-14)"),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-one-to-eight-plus-nine-to-fourteen-markup"),
@@ -385,7 +385,7 @@ commands(
 
 commands(
     ("cb3", (1, 10)),
-    animales.margin_markup("Cb."),
+    library.margin_markup("Cb."),
     baca.make_repeat_tied_notes(),
     baca.not_parts(
         baca.markup(r"\animales-cb-tutti-markup"),

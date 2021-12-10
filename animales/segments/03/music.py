@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 03 [B] ########################################
@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 12
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     first_violins=[
         (1, [1]),
         (2, [3]),
@@ -34,11 +34,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[start : start + 5],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[start : start + 5],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -56,8 +56,8 @@ commands(
 
 # strings
 
-animales.assign_trill_parts(commands)
-animales.make_trill_rhythm(commands)
+library.assign_trill_parts(commands)
+library.make_trill_rhythm(commands)
 
 strings = [
     "1vn1",

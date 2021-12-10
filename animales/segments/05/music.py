@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 05 [D] ########################################
@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 23
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     clarinets=[
         (1, [1]),
     ],
@@ -44,11 +44,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[start : start + 6],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[start : start + 6],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -68,8 +68,8 @@ commands(
 
 commands(
     "cl1",
-    animales.margin_markup("Cl. 2"),
-    animales.parts("Clarinet", 2),
+    library.margin_markup("Cl. 2"),
+    library.parts("Clarinet", 2),
     baca.hairpin("mp < mf"),
     baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 2)", "solo"),
@@ -82,7 +82,7 @@ commands(
 
 commands(
     "perc1",
-    animales.parts("Percussion", 1),
+    library.parts("Percussion", 1),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -95,7 +95,7 @@ commands(
 
 commands(
     "perc2",
-    animales.parts("Percussion", 2),
+    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -108,22 +108,22 @@ commands(
 
 commands(
     "1vn2",
-    animales.glissando_rhythm(),
-    animales.parts("First.Violin", 1),
+    library.glissando_rhythm(),
+    library.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
-        selector=animales.leaves_in_measure(1, rleak=True),
+        selector=library.leaves_in_measure(1, rleak=True),
     ),
     baca.hairpin(
         "f > p",
-        selector=animales.leaves_in_measure(-1, lleak=True),
+        selector=library.leaves_in_measure(-1, lleak=True),
     ),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie(baca.selectors.leaves()),
-        animales.glissando_positions(transpose=-1),
+        library.glissando_positions(transpose=-1),
         baca.pitch(
             "B4",
             baca.selectors.pleaf(0),
@@ -138,8 +138,8 @@ commands(
     ),
 )
 
-animales.assign_trill_parts(commands, exclude_first_violin=True)
-animales.make_trill_rhythm(commands)
+library.assign_trill_parts(commands, exclude_first_violin=True)
+library.make_trill_rhythm(commands)
 
 commands(
     ("1vn1", 1),
@@ -176,7 +176,7 @@ commands(
 
 commands(
     "cb3",
-    animales.parts("Contrabass"),
+    library.parts("Contrabass"),
     baca.hairpin(
         "< ff",
         selector=baca.selectors.pleaves((None, 4)),
