@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 26 [Y] ########################################
@@ -10,10 +10,10 @@ from animales import library as animales
 metadata = baca.previous_metadata(__file__)
 start = 133
 
-time_signatures = animales.time_signatures[start : start + 3]
+time_signatures = library.time_signatures[start : start + 3]
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     horns=[
         (1, [1, 3]),
         (2, [2, 4]),
@@ -86,11 +86,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=animales.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -108,8 +108,8 @@ commands(
 
 # brass
 
-animales.assign_brass_sforzando_parts(commands)
-animales.brass_sforzando(commands, 1)
+library.assign_brass_sforzando_parts(commands)
+library.brass_sforzando(commands, 1)
 
 # percussion
 
@@ -117,7 +117,7 @@ animales.brass_sforzando(commands, 1)
 
 commands(
     "perc2",
-    animales.parts("Percussion", 2),
+    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
         baca.selectors.pleaf(0),
@@ -130,7 +130,7 @@ commands(
 
 commands(
     "perc3",
-    animales.parts("Percussion", 3),
+    library.parts("Percussion", 3),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -143,7 +143,7 @@ commands(
 
 commands(
     "perc4",
-    animales.parts("Percussion", 4),
+    library.parts("Percussion", 4),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -154,7 +154,7 @@ commands(
 
 # strings
 
-animales.battuti(
+library.battuti(
     commands,
     [[1, -55], [1, -17], [1, -17]],
     omit_contrabasses=True,
@@ -162,7 +162,7 @@ animales.battuti(
 
 commands(
     "cb3",
-    animales.parts("Contrabass"),
+    library.parts("Contrabass"),
     baca.clef("bass"),
     baca.hairpin("p <", right_broken=True),
     baca.make_repeat_tied_notes(),

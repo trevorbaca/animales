@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 22 [U] ########################################
@@ -11,10 +11,10 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 139
 
-time_signatures = animales.time_signatures[start : start + 3]
+time_signatures = library.time_signatures[start : start + 3]
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     first_violins=[
         (1, [1, 2]),
         (2, [3, 4]),
@@ -69,11 +69,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=animales.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -89,7 +89,7 @@ commands(
     ),
 )
 
-animales.battuti(commands, [[1, 1, -5], [1, 1, -5], [1, -8]])
+library.battuti(commands, [[1, 1, -5], [1, 1, -5], [1, -8]])
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

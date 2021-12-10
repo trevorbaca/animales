@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 18 [Q] ########################################
@@ -11,13 +11,13 @@ metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 118
 
-time_signatures = animales.time_signatures[start : start + 10]
+time_signatures = library.time_signatures[start : start + 10]
 time_signatures = list(time_signatures)
 time_signatures.insert(2, (1, 4))
 time_signatures.insert(7, (1, 4))
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     horns=[
         (1, [1, 3]),
         (2, [2, 4]),
@@ -56,11 +56,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=animales.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -89,18 +89,18 @@ commands(
     ),
 )
 
-animales.attach_grand_pause_fermatas(commands, score, measure=3)
-animales.attach_grand_pause_fermatas(commands, score, measure=8)
+library.attach_grand_pause_fermatas(commands, score, measure=3)
+library.attach_grand_pause_fermatas(commands, score, measure=8)
 
 # brass
 
-animales.assign_brass_sforzando_parts(commands, omit_tuba=True)
+library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 
 # horns
 
 commands(
     ("hn1", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -109,7 +109,7 @@ commands(
 
 commands(
     ("hn3", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
@@ -117,7 +117,7 @@ commands(
 
 commands(
     ("hn2", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -126,7 +126,7 @@ commands(
 
 commands(
     ("hn4", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
@@ -136,7 +136,7 @@ commands(
 
 commands(
     ("tp1", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -145,7 +145,7 @@ commands(
 
 commands(
     ("tp3", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
@@ -153,7 +153,7 @@ commands(
 
 commands(
     ("tp2", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -162,7 +162,7 @@ commands(
 
 commands(
     ("tp4", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
@@ -172,7 +172,7 @@ commands(
 
 commands(
     ("tbn1", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -181,7 +181,7 @@ commands(
 
 commands(
     ("tbn3", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.dynamic("sfz"),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -189,7 +189,7 @@ commands(
 
 commands(
     ("tbn2", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -198,7 +198,7 @@ commands(
 
 commands(
     ("tbn4", 1),
-    animales.downbeat_attack(),
+    library.downbeat_attack(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
@@ -261,14 +261,14 @@ def lower_voice(n=5):
     )
 
 
-voice_abbreviations = animales.voice_abbreviations()
+voice_abbreviations = library.voice_abbreviations()
 for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
     voice = voice_abbreviations.get(voice, voice)
     section = ".".join(abjad.String(voice).delimit_words()[:-2])
     members = items[0]
-    commands_.append(animales.parts(section, members))
+    commands_.append(library.parts(section, members))
     if items[1] is True:
         commands_.append(upper_voice())
     elif items[1] is False:

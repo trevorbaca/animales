@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 06 [E] ########################################
@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 29
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     clarinets=[
         (1, [1]),
     ],
@@ -44,11 +44,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[start : start + 6],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[start : start + 6],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -77,8 +77,8 @@ commands(
 
 commands(
     "cl1",
-    animales.margin_markup("Cl. 3"),
-    animales.parts("Clarinet", 3),
+    library.margin_markup("Cl. 3"),
+    library.parts("Clarinet", 3),
     baca.hairpin("mp < mf"),
     baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 3)", "solo"),
@@ -89,7 +89,7 @@ commands(
 
 commands(
     "perc1",
-    animales.parts("Percussion", 1),
+    library.parts("Percussion", 1),
     baca.hairpin("p >o", right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
@@ -101,7 +101,7 @@ commands(
 
 commands(
     "perc2",
-    animales.parts("Percussion", 2),
+    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -114,35 +114,35 @@ commands(
 
 commands(
     "1vn1",
-    animales.margin_markup("Vni. I"),
-    animales.parts("First.Violin"),
+    library.margin_markup("Vni. I"),
+    library.parts("First.Violin"),
     baca.make_repeated_duration_notes([(1, 4)]),
     baca.not_parts(baca.one_voice()),
 )
 
 commands(
     "2vn1",
-    animales.margin_markup("Vni. II"),
-    animales.parts("Second.Violin"),
+    library.margin_markup("Vni. II"),
+    library.parts("Second.Violin"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "va1",
-    animales.parts("Viola"),
-    animales.margin_markup("Vle."),
+    library.parts("Viola"),
+    library.margin_markup("Vle."),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "vc1",
-    animales.parts("Cello"),
+    library.parts("Cello"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "cb3",
-    animales.parts("Contrabass"),
+    library.parts("Contrabass"),
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 

@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from animales import library as animales
+from animales import library
 
 #########################################################################################
 ######################################### 14 [M] ########################################
@@ -12,7 +12,7 @@ start = metadata.get("final_measure_number")
 assert start == 81
 
 
-score = animales.make_empty_score(
+score = library.make_empty_score(
     flutes=[
         (1, [1, 3]),
         (2, [2, 4]),
@@ -56,11 +56,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=animales.instruments,
-    margin_markups=animales.margin_markups,
-    metronome_marks=animales.metronome_marks,
-    time_signatures=animales.time_signatures[start : start + 6],
-    voice_abbreviations=animales.voice_abbreviations(),
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
+    time_signatures=library.time_signatures[start : start + 6],
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -85,29 +85,29 @@ commands(
 
 commands(
     "fl1",
-    animales.parts("Flute", 1),
+    library.parts("Flute", 1),
 )
 
 commands(
     "fl3",
-    animales.parts("Flute", 3),
+    library.parts("Flute", 3),
 )
 
 commands(
     "fl2",
-    animales.parts("Flute", 2),
+    library.parts("Flute", 2),
 )
 
 commands(
     "fl4",
-    animales.parts("Flute", 4),
+    library.parts("Flute", 4),
 )
 
 commands(
     ("fl1", (1, 3)),
-    animales.margin_markup("Fl. (1+3)"),
-    animales.pennant_pitches("G5", [6]),
-    animales.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
+    library.margin_markup("Fl. (1+3)"),
+    library.pennant_pitches("G5", [6]),
+    library.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(
         baca.hairpin(
@@ -120,8 +120,8 @@ commands(
 
 commands(
     ("fl3", (1, 3)),
-    animales.pennant_pitches("F5", [6]),
-    animales.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
+    library.pennant_pitches("F5", [6]),
+    library.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
     baca.hairpin(
         "mf < ff",
         selector=baca.selectors.tleaves(),
@@ -132,9 +132,9 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
-    animales.margin_markup("Fl. (2+4)"),
-    animales.pennant_pitches("Eb5", [6]),
-    animales.pennant_rhythm([0, -1, -1, 0], [0]),
+    library.margin_markup("Fl. (2+4)"),
+    library.pennant_pitches("Eb5", [6]),
+    library.pennant_rhythm([0, -1, -1, 0], [0]),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(
         baca.hairpin(
@@ -147,8 +147,8 @@ commands(
 
 commands(
     ("fl4", (1, 3)),
-    animales.pennant_pitches("D5", [6]),
-    animales.pennant_rhythm([0, 0, -1, -1]),
+    library.pennant_pitches("D5", [6]),
+    library.pennant_rhythm([0, 0, -1, -1]),
     baca.hairpin(
         "mf < ff",
         selector=baca.selectors.tleaves(),
@@ -161,7 +161,7 @@ commands(
 
 commands(
     "cl1",
-    animales.parts("Clarinet", 1),
+    library.parts("Clarinet", 1),
 )
 
 commands(
@@ -183,7 +183,7 @@ commands(
 
 commands(
     "bcl1",
-    animales.parts("Bass.Clarinet"),
+    library.parts("Bass.Clarinet"),
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.pitch("Ab2"),
@@ -196,8 +196,8 @@ commands(
 
 commands(
     "hp1",
-    animales.parts("Harp"),
-    animales.harp_exchange_rhythm(2),
+    library.parts("Harp"),
+    library.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -224,8 +224,8 @@ commands(
 
 commands(
     "pf1",
-    animales.parts("Piano"),
-    animales.harp_exchange_rhythm(3),
+    library.parts("Piano"),
+    library.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -236,7 +236,7 @@ commands(
 
 commands(
     "perc1",
-    animales.parts("Percussion", 1),
+    library.parts("Percussion", 1),
 )
 
 commands(
@@ -253,7 +253,7 @@ commands(
 
 commands(
     "perc2",
-    animales.parts("Percussion", 2),
+    library.parts("Percussion", 2),
 )
 
 commands(
@@ -270,8 +270,8 @@ commands(
 
 commands(
     "perc3",
-    animales.parts("Percussion", 3),
-    animales.harp_exchange_rhythm(0),
+    library.parts("Percussion", 3),
+    library.harp_exchange_rhythm(0),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
 )
 
@@ -279,19 +279,19 @@ commands(
 
 commands(
     "1vn3",
-    animales.parts("First.Violin", 1),
+    library.parts("First.Violin", 1),
 )
 
 commands(
     ("1vn3", (1, 3)),
-    animales.glissando_rhythm(rotate=-2),
+    library.glissando_rhythm(rotate=-2),
     baca.hairpin(
         "p < ff",
-        selector=animales.leaves_in_measure(1, rleak=True),
+        selector=library.leaves_in_measure(1, rleak=True),
     ),
     baca.hairpin(
         "ff > p",
-        selector=animales.leaves_in_measure(-1, lleak=True),
+        selector=library.leaves_in_measure(-1, lleak=True),
     ),
     baca.edition("solo (first violin)", "solo"),
     baca.not_parts(baca.dls_up()),
@@ -299,7 +299,7 @@ commands(
     baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie(baca.selectors.leaves()),
-        animales.glissando_positions(transpose=-3),
+        library.glissando_positions(transpose=-3),
         baca.pitch(
             "G4",
             baca.selectors.pleaf(0),
@@ -333,23 +333,23 @@ commands(
 
 commands(
     "1vn1",
-    animales.parts("First.Violin", (2, 18)),
+    library.parts("First.Violin", (2, 18)),
     baca.not_parts(baca.voice_two()),
 )
 
 commands(
     "2vn1",
-    animales.parts("Second.Violin"),
+    library.parts("Second.Violin"),
 )
 
 commands(
     "va1",
-    animales.parts("Viola"),
+    library.parts("Viola"),
 )
 
 commands(
     "vc1",
-    animales.parts("Cello"),
+    library.parts("Cello"),
 )
 
 most_strings = [
@@ -379,7 +379,7 @@ commands(
 
 commands(
     "cb3",
-    animales.parts("Contrabass", (2, 6)),
+    library.parts("Contrabass", (2, 6)),
 )
 
 commands(
@@ -397,8 +397,8 @@ commands(
 
 commands(
     "cb1",
-    animales.parts("Contrabass", 1),
-    animales.harp_exchange_rhythm(1),
+    library.parts("Contrabass", 1),
+    library.harp_exchange_rhythm(1),
     baca.laissez_vibrer(selector=baca.selectors.ptails()),
     baca.markup(r"\animales-as-bell-like-as-possible-markup"),
     baca.pitch("Bb4", do_not_transpose=True),
