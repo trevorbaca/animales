@@ -91,15 +91,6 @@ jobs:
         export PATH=/home/runner/bin:$PATH
         /tmp/baca/scr/doctest $GITHUB_WORKSPACE
 
-    - name: Run pytest
-      run: |
-        export PATH=/home/runner/bin:${PATH}
-        NAME=$(basename $GITHUB_WORKSPACE)
-        if [ -e $GITHUB_WORKSPACE/$NAME/test.py ]; then
-            pytest --version
-            py.test -rf $GITHUB_WORKSPACE/$NAME/test.py
-        fi
-
     - name: Test segments
       run: |
         export PATH=/tmp/baca/scr:/home/runner/bin:$PATH
