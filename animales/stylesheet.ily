@@ -68,34 +68,6 @@
     top-margin = 15\mm
 }
 
-\header {
-    composer =
-        \markup
-        \override #'(font-name . "Palatino")
-        \fontsize #5
-        \line { Trevor Bača (*1975) \hspace #15 }
-    tagline =
-        \markup
-        \null
-    title =
-        \markup
-        \column
-        \center-align
-        {
-            \override #'(font-name . "Palatino")
-            \fontsize #14
-            {
-                ANIMALES
-                " "
-                DESCONOCIDOS
-            }
-            " "
-            \override #'(font-name . "Palatino Italic")
-            \fontsize #3
-            "for the Wisconsin Youth Symphony Orchestras"
-        }
-}
-
 \layout {
     \accidentalStyle neo-modern
     indent = 0
