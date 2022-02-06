@@ -1059,7 +1059,7 @@ def parts(section, token=None):
         >>> animales.library.parts("Horn", 5)
         Traceback (most recent call last):
             ...
-        Exception: no Part(instrument='Horn', member=5, section='Horn') in part manifest.
+        Exception: no Part(instrument='Horn', member=5, number=None, section='Horn', section_abbreviation=None, zfill=None) in part manifest.
 
     """
     part_assignment = baca.PartAssignment(section=section, token=token)
