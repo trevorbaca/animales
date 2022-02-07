@@ -1,14 +1,10 @@
-dict(
-    {
-        "bol_measure_numbers": [143],
-        "duration": "0'08''",
-        "final_measure_number": 145,
-        "first_appearance_margin_markup": {
-            "PercussionStaffIV": "Perc.",
-        },
-        "first_measure_number": 143,
-        "start_clock_time": "5'10''",
-        "stop_clock_time": "5'18''",
-        "time_signatures": ["2/4", "4/4", "4/4"],
-    }
-)
+{
+    "bol_measure_numbers": [143],
+    "duration": "0'08''",
+    "final_measure_number": 145,
+    "first_appearance_margin_markup": {"PercussionStaffIV": "Perc."},
+    "first_measure_number": 143,
+    "start_clock_time": "5'10''",
+    "stop_clock_time": "5'18''",
+    "time_signatures": ["2/4", "4/4", "4/4"],
+}
