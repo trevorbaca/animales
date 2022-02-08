@@ -527,9 +527,6 @@ segment.30.Piano.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -540,6 +537,9 @@ segment.30.Piano.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_notes()
     cs'!2.
     %! REAPPLIED_DYNAMIC_COLOR
@@ -600,6 +600,9 @@ segment.30.Piano.Voice.1.part.1 = {
     %! SPANNER_START
     \bacaStartTextSpanRhythmAnnotation
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -608,9 +611,6 @@ segment.30.Piano.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 2]
@@ -879,12 +879,6 @@ segment.30.Percussion.Voice.4.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -897,6 +891,12 @@ segment.30.Percussion.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 0)
     %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES

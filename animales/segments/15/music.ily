@@ -400,9 +400,6 @@ segment.15.Flute.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -413,6 +410,9 @@ segment.15.Flute.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -432,12 +432,15 @@ segment.15.Flute.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \ff
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Fl. (1+3)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Flute”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Fl. (1+3)”]"
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -447,9 +450,6 @@ segment.15.Flute.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! animales.pennant_rhythm()
     \times 2/3
@@ -1294,9 +1294,6 @@ segment.15.Flute.Voice.2.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -1307,6 +1304,9 @@ segment.15.Flute.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.voice_one()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -1326,12 +1326,15 @@ segment.15.Flute.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
 %%% \ff
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Fl. (2+4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Flute”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Fl. (2+4)”]"
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -1341,9 +1344,6 @@ segment.15.Flute.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! animales.pennant_rhythm()
     \times 2/3
@@ -2249,9 +2249,6 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -2262,6 +2259,9 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
     bf!1
     %! EXPLICIT_DYNAMIC_COLOR
@@ -2280,12 +2280,12 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! REDUNDANT_DYNAMIC
     %! EXPLICIT_DYNAMIC
     \p
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“B. cl.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“B. cl.”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -2351,6 +2351,9 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! SPANNER_START
     \bacaStartTextSpanRhythmAnnotation
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -2359,9 +2362,6 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(4)
@@ -2765,9 +2765,6 @@ segment.15.Piano.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -2778,6 +2775,9 @@ segment.15.Piano.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! animales.harp_exchange_rhythm()
     r4
     %! REAPPLIED_DYNAMIC_COLOR
@@ -2797,6 +2797,9 @@ segment.15.Piano.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -2805,9 +2808,6 @@ segment.15.Piano.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! animales.harp_exchange_rhythm()
     \times 2/3
@@ -3089,9 +3089,6 @@ segment.15.Harp.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -3102,6 +3099,9 @@ segment.15.Harp.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! animales.harp_exchange_rhythm()
     r1
     %! REAPPLIED_DYNAMIC_COLOR
@@ -3121,6 +3121,9 @@ segment.15.Harp.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hp.”]"
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -3129,9 +3132,6 @@ segment.15.Harp.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Harp.Voice.1 measure 2]
@@ -3389,17 +3389,6 @@ segment.15.Percussion.Voice.1.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -3412,15 +3401,23 @@ segment.15.Percussion.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "percussion"
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -3435,6 +3432,9 @@ segment.15.Percussion.Voice.1.part.1 = {
     %! baca.attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
     c'1
     %! baca.stem_tremolo()
@@ -3454,12 +3454,12 @@ segment.15.Percussion.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -3520,6 +3520,9 @@ segment.15.Percussion.Voice.1.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -3528,9 +3531,6 @@ segment.15.Percussion.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 2]
@@ -3792,11 +3792,6 @@ segment.15.Percussion.Voice.2.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -3809,15 +3804,17 @@ segment.15.Percussion.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \clef "percussion"
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -3832,6 +3829,9 @@ segment.15.Percussion.Voice.2.part.1 = {
     %! baca.attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
     c'1
     %! baca.stem_tremolo()
@@ -3851,12 +3851,12 @@ segment.15.Percussion.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \!
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -3917,6 +3917,9 @@ segment.15.Percussion.Voice.2.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -3925,9 +3928,6 @@ segment.15.Percussion.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.2 measure 2]
@@ -4201,9 +4201,6 @@ segment.15.Percussion.Voice.3.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -4214,6 +4211,9 @@ segment.15.Percussion.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! animales.harp_exchange_rhythm()
     r1
     %! REAPPLIED_DYNAMIC_COLOR
@@ -4226,12 +4226,15 @@ segment.15.Percussion.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mp
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4241,9 +4244,6 @@ segment.15.Percussion.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 2]
@@ -4898,9 +4898,6 @@ segment.15.First.Violin.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -4911,6 +4908,9 @@ segment.15.First.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.voice_two()
     %! -PARTS
     %! baca.IndicatorCommand._call()
@@ -4935,12 +4935,12 @@ segment.15.First.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -4999,6 +4999,9 @@ segment.15.First.Violin.Voice.1.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -5007,9 +5010,6 @@ segment.15.First.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.1 measure 2]
@@ -5288,9 +5288,6 @@ segment.15.Second.Violin.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -5301,6 +5298,9 @@ segment.15.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -5321,12 +5321,12 @@ segment.15.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -5385,6 +5385,9 @@ segment.15.Second.Violin.Voice.1.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -5393,9 +5396,6 @@ segment.15.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.1 measure 2]
@@ -5669,9 +5669,6 @@ segment.15.Viola.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "alto"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -5682,6 +5679,9 @@ segment.15.Viola.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -5702,12 +5702,12 @@ segment.15.Viola.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle.”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -5766,6 +5766,9 @@ segment.15.Viola.Voice.1.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -5774,9 +5777,6 @@ segment.15.Viola.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.1 measure 2]
@@ -6050,9 +6050,6 @@ segment.15.Cello.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "bass"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -6063,6 +6060,9 @@ segment.15.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -6083,12 +6083,12 @@ segment.15.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \pp
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -6147,6 +6147,9 @@ segment.15.Cello.Voice.1.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -6155,9 +6158,6 @@ segment.15.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.1 measure 2]
@@ -6431,9 +6431,6 @@ segment.15.Contrabass.Voice.1.part.1 = {
     %! REAPPLIED_CLEF
     \clef "treble"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -6444,6 +6441,9 @@ segment.15.Contrabass.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! animales.harp_exchange_rhythm()
     r1
     %! REAPPLIED_DYNAMIC_COLOR
@@ -6456,12 +6456,15 @@ segment.15.Contrabass.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mf
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cb. 1”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Cb. 1”]"
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6471,9 +6474,6 @@ segment.15.Contrabass.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Contrabass.Voice.1 measure 2]
@@ -6743,9 +6743,6 @@ segment.15.Contrabass.Voice.3.part.1 = {
     %! REAPPLIED_CLEF
     \clef "bass"
     %! baca.attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca.attach_color_literal(1)
@@ -6756,6 +6753,9 @@ segment.15.Contrabass.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    %! baca.attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_repeat_tied_notes()
     g,1
     %! EXPLICIT_DYNAMIC_COLOR
@@ -6772,12 +6772,12 @@ segment.15.Contrabass.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
@@ -6832,6 +6832,9 @@ segment.15.Contrabass.Voice.3.part.1 = {
     %! baca._attach_shadow_tie_indicators()
     ~
     %! baca.attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -6840,9 +6843,6 @@ segment.15.Contrabass.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
-    %! baca.attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca._comment_measure_numbers()
     % [Contrabass.Voice.3 measure 2]

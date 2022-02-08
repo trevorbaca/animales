@@ -241,12 +241,12 @@ segment.20.First.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -381,12 +381,6 @@ segment.20.First.Violin.Voice.2.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -399,6 +393,12 @@ segment.20.First.Violin.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -622,12 +622,12 @@ segment.20.First.Violin.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (3-4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (3-4)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -1013,12 +1013,12 @@ segment.20.First.Violin.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \f
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -1368,12 +1368,12 @@ segment.20.First.Violin.Voice.7.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (7-8)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (7-8)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -1743,12 +1743,12 @@ segment.20.First.Violin.Voice.9.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r8
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2104,12 +2104,12 @@ segment.20.First.Violin.Voice.11.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2483,12 +2483,12 @@ segment.20.First.Violin.Voice.13.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (13-14)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (13-14)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2855,12 +2855,12 @@ segment.20.First.Violin.Voice.15.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r4..
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3236,12 +3236,12 @@ segment.20.First.Violin.Voice.17.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (17-18)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. I (17-18)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3373,12 +3373,6 @@ segment.20.First.Violin.Voice.18.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.18 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -3391,6 +3385,12 @@ segment.20.First.Violin.Voice.18.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -3586,12 +3586,12 @@ segment.20.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3741,12 +3741,6 @@ segment.20.Second.Violin.Voice.2.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -3759,6 +3753,12 @@ segment.20.Second.Violin.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -3991,12 +3991,12 @@ segment.20.Second.Violin.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (3-4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (3-4)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4349,12 +4349,12 @@ segment.20.Second.Violin.Voice.5.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4698,12 +4698,12 @@ segment.20.Second.Violin.Voice.7.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r2
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (7-8)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (7-8)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -5100,12 +5100,12 @@ segment.20.Second.Violin.Voice.9.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -5455,12 +5455,12 @@ segment.20.Second.Violin.Voice.11.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -5798,12 +5798,12 @@ segment.20.Second.Violin.Voice.13.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6191,12 +6191,12 @@ segment.20.Second.Violin.Voice.15.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6534,12 +6534,12 @@ segment.20.Second.Violin.Voice.17.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r4
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (17-18)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vni. II (17-18)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6716,12 +6716,6 @@ segment.20.Second.Violin.Voice.18.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.18 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -6734,6 +6728,12 @@ segment.20.Second.Violin.Voice.18.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -6932,12 +6932,12 @@ segment.20.Viola.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -7090,12 +7090,6 @@ segment.20.Viola.Voice.2.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -7108,6 +7102,12 @@ segment.20.Viola.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -7319,12 +7319,12 @@ segment.20.Viola.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (3-4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (3-4)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -7704,12 +7704,12 @@ segment.20.Viola.Voice.5.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8056,12 +8056,12 @@ segment.20.Viola.Voice.7.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r2
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (7-8)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (7-8)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8428,12 +8428,12 @@ segment.20.Viola.Voice.9.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8786,12 +8786,12 @@ segment.20.Viola.Voice.11.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     d'16
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9154,12 +9154,12 @@ segment.20.Viola.Voice.13.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (13-14)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (13-14)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9534,12 +9534,12 @@ segment.20.Viola.Voice.15.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r2
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9897,12 +9897,12 @@ segment.20.Viola.Voice.17.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (17-18)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vle. (17-18)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -10034,12 +10034,6 @@ segment.20.Viola.Voice.18.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.18 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -10052,6 +10046,12 @@ segment.20.Viola.Voice.18.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -10262,12 +10262,12 @@ segment.20.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -10417,12 +10417,6 @@ segment.20.Cello.Voice.2.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -10435,6 +10429,12 @@ segment.20.Cello.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -10639,12 +10639,12 @@ segment.20.Cello.Voice.3.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (3-4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (3-4)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -11018,12 +11018,12 @@ segment.20.Cello.Voice.5.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -11376,12 +11376,12 @@ segment.20.Cello.Voice.7.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r2
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (7-8)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (7-8)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -11771,12 +11771,12 @@ segment.20.Cello.Voice.9.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -12117,12 +12117,12 @@ segment.20.Cello.Voice.11.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -12507,12 +12507,12 @@ segment.20.Cello.Voice.13.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (13-14)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vc. (13-14)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -12644,12 +12644,6 @@ segment.20.Cello.Voice.14.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.14 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -12662,6 +12656,12 @@ segment.20.Cello.Voice.14.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -12869,12 +12869,12 @@ segment.20.Contrabass.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     \mf
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cb. (1-2)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Cb. (1-2)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -13023,12 +13023,6 @@ segment.20.Contrabass.Voice.2.part.1 = {
 
         %! baca._comment_measure_numbers()
         % [Contrabass.Voice.2 measure 1]
-        %! -PARTS
-        %! baca._reapply_persistent_indicators(3)
-        %! baca._set_status_tag()
-        %! REAPPLIED_BAR_EXTENT
-        %! EXPLICIT_BAR_EXTENT
-        \override Staff.BarLine.bar-extent = #'(-2 . 0)
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_STAFF_LINES
@@ -13041,6 +13035,12 @@ segment.20.Contrabass.Voice.2.part.1 = {
         %! baca._set_status_tag()
         %! REAPPLIED_STAFF_LINES
         \startStaff
+        %! -PARTS
+        %! baca._reapply_persistent_indicators(3)
+        %! baca._set_status_tag()
+        %! REAPPLIED_BAR_EXTENT
+        %! EXPLICIT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 0)
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_CLEF
@@ -13245,12 +13245,12 @@ segment.20.Contrabass.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cb. (3-4)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Cb. (3-4)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -13622,12 +13622,12 @@ segment.20.Contrabass.Voice.5.part.1 = {
     \voiceOne
     %! animales.clb_rhythm()
     r1
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cb. (5-6)”]"
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
+    %! REAPPLIED_MARGIN_MARKUP_ALERT
+    %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Cb. (5-6)”]"
     %! baca.attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -13768,12 +13768,6 @@ segment.20.Contrabass.Voice.6.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Contrabass.Voice.6 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -13786,6 +13780,12 @@ segment.20.Contrabass.Voice.6.part.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
