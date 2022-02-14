@@ -266,7 +266,7 @@ for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
     voice = voice_abbreviations.get(voice, voice)
-    section = ".".join(abjad.String(voice).delimit_words()[:-2])
+    section = ".".join(abjad.string.delimit_words(voice)[:-2])
     members = items[0]
     commands_.append(library.parts(section, members))
     if items[1] is True:
