@@ -382,9 +382,9 @@ def allows_instrument(staff_name, instrument):
             ("Contrabass", [instruments["Contrabass"]]),
         ]
     )
-    staff_name_words = abjad.String(staff_name).delimit_words()
+    staff_name_words = abjad.string.delimit_words(staff_name)
     for key in dictionary:
-        key_words = abjad.String(key).delimit_words()
+        key_words = abjad.string.delimit_words(key)
         if staff_name_words[: len(key_words)] == key_words:
             instruments_ = dictionary[key]
             if instrument in instruments_:
@@ -609,7 +609,7 @@ def brass_sforzando(maker, range_=(1, -1)):
 
     for voice, pitch in voice_to_pitch.items():
         maker((voice, range_), downbeat_attack(), baca.marcato())
-        words = abjad.String(voice).delimit_words()
+        words = abjad.string.delimit_words(voice)
         member = int(words[-1])
         if member in (1, 2):
             maker((voice, range_), baca.dynamic("sffz"))
@@ -1278,7 +1278,7 @@ def voice_abbreviations():
     ):
         for n in range(1, count + 1):
             voice_abbreviation = instrument_abbreviation + str(n)
-            words = abjad.String(instrument).delimit_words()
+            words = abjad.string.delimit_words(instrument)
             instrument = ".".join(words)
             voice_name = f"{instrument}.Voice.{n}"
             result[voice_abbreviation] = voice_name
@@ -1310,7 +1310,7 @@ def voice_to_section(voice):
     """
     assert isinstance(voice, str), repr(voice)
     voice = voice_abbreviations().get(voice, voice)
-    words = abjad.String(voice).delimit_words()
+    words = abjad.string.delimit_words(voice)
     assert "Voice" in words, repr(words)
     index = words.index("Voice")
     section = ".".join(words[:index])
