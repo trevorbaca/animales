@@ -573,7 +573,7 @@ def brass_manifest_rhythm(part):
     }[part]
 
     if delay is None:
-        preamble = None
+        preamble = ()
     else:
         preamble = [-delay]
 
