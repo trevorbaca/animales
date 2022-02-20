@@ -189,7 +189,8 @@ metronome_marks = dict(
 def _make_time_signatures():
     pairs = [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
     pairs = baca.Sequence(pairs)
-    pairs = pairs.helianthate(-1, -1).flatten()
+    pairs = baca.sequence.helianthate(pairs, -1, -1)
+    pairs = abjad.Sequence(pairs).flatten()
     pairs = [abjad.TimeSignature(_) for _ in pairs]
     time_signatures = abjad.CyclicTuple(pairs)
     return time_signatures
@@ -647,7 +648,7 @@ def clb_rhythm(
     index = section_to_offset[section] + member - 1
 
     counts_ = baca.Sequence(counts)
-    counts_ = counts_.helianthate(-1, -1)
+    counts_ = baca.sequence.helianthate(counts_, -1, -1)
     counts_ = counts_.flatten()
     counts_ = counts_.repeat_to_weight(total_players * wrap)
     shards = counts_.split([wrap], cyclic=True, overhang=abjad.Exact)
@@ -731,7 +732,7 @@ def harp_exchange_rhythm(this_part, *commands, silence_first=False):
             degrees = []
             for indices in part_to_indices.values():
                 talea = abjad.math.difference_series(indices)
-                degree = baca.Sequence(talea).degree_of_rotational_symmetry()
+                degree = baca.sequence.degree_of_rotational_symmetry(talea)
                 degrees.append(degree)
             if all(1 < _ for _ in degrees):
                 break
@@ -750,7 +751,7 @@ def harp_exchange_rhythm(this_part, *commands, silence_first=False):
             preamble.append(offset)
         part_to_preamble[part] = preamble
         counts = abjad.math.difference_series(indices)
-        period = baca.Sequence(counts).period_of_rotation()
+        period = baca.sequence.period_of_rotation(counts)
         counts = counts[:period]
         part_to_counts[part] = counts
 
@@ -1105,7 +1106,7 @@ def sforzando_exchange_rhythm(this_part):
             degrees = []
             for indices in part_to_indices.values():
                 talea = abjad.math.difference_series(indices)
-                degree = baca.Sequence(talea).degree_of_rotational_symmetry()
+                degree = baca.sequence.degree_of_rotational_symmetry(talea)
                 degrees.append(degree)
             if all(1 < _ for _ in degrees):
                 break
@@ -1122,7 +1123,7 @@ def sforzando_exchange_rhythm(this_part):
             preamble.append(offset)
         part_to_preamble[part] = preamble
         counts = abjad.math.difference_series(indices)
-        period = baca.Sequence(counts).period_of_rotation()
+        period = baca.sequence.period_of_rotation(counts)
         counts = counts[:period]
         part_to_counts[part] = counts
 
