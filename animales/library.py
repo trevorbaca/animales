@@ -188,7 +188,6 @@ metronome_marks = dict(
 
 def _make_time_signatures():
     pairs = [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
-    pairs = baca.Sequence(pairs)
     pairs = baca.sequence.helianthate(pairs, -1, -1)
     pairs = abjad.Sequence(pairs).flatten()
     pairs = [abjad.TimeSignature(_) for _ in pairs]
@@ -578,6 +577,11 @@ def brass_manifest_rhythm(part):
     else:
         preamble = [-delay]
 
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(divisions)
+        return result
+
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extra_counts, preamble=preamble),
         rmakers.beam(),
@@ -585,7 +589,7 @@ def brass_manifest_rhythm(part):
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
+        preprocessor=preprocessor,
         persist="brass_manifest_rhythm",
         tag=abjad.Tag("animales.brass_manifest_rhythm()"),
     )
@@ -647,9 +651,8 @@ def clb_rhythm(
     total_players = 74
     index = section_to_offset[section] + member - 1
 
-    counts_ = baca.Sequence(counts)
-    counts_ = baca.sequence.helianthate(counts_, -1, -1)
-    counts_ = counts_.flatten()
+    counts_ = baca.sequence.helianthate(counts, -1, -1)
+    counts_ = abjad.Sequence(counts_).flatten()
     counts_ = counts_.repeat_to_weight(total_players * wrap)
     shards = counts_.split([wrap], cyclic=True, overhang=abjad.Exact)
     assert len(shards) == total_players
@@ -660,6 +663,11 @@ def clb_rhythm(
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
 
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(result)
+        return result
+
     return baca.rhythm(
         rmakers.talea(counts_, 16, extra_counts=extra_counts),
         rmakers.beam(),
@@ -668,7 +676,7 @@ def clb_rhythm(
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
+        preprocessor=preprocessor,
         tag=abjad.Tag("animales.clb_rhythm()"),
     )
 
@@ -690,16 +698,15 @@ def downbeat_attack(count=1, denominator=8):
 def glissando_positions(*, reverse=False, rotate=0, transpose=0):
     positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
     positions_ = [_ + transpose for _ in positions_]
-    positions = baca.Sequence(positions_)
     if reverse is True:
-        positions = positions.reverse()
-    positions = positions.rotate(rotate)
+        positions_.reverse()
+    positions = abjad.Sequence(positions_).rotate(rotate)
     return baca.staff_positions(positions)
 
 
 def glissando_rhythm(rotate=0):
     return baca.rhythm(
-        rmakers.talea(baca.Sequence([5, 1, 2, 1]).rotate(n=rotate), 8),
+        rmakers.talea(abjad.Sequence([5, 1, 2, 1]).rotate(n=rotate), 8),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
@@ -767,6 +774,11 @@ def harp_exchange_rhythm(this_part, *commands, silence_first=False):
         specifier = rmakers.force_rest(baca.selectors.lt(0))
         silence_first_specifier.append(specifier)
 
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(result)
+        return result
+
     return baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         *commands,
@@ -777,7 +789,7 @@ def harp_exchange_rhythm(this_part, *commands, silence_first=False):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
+        preprocessor=preprocessor,
         persist="harp_exchange_rhythm",
         tag=abjad.Tag("animales.harp_exchange_rhythm()"),
     )
@@ -1064,6 +1076,11 @@ def pennant_rhythm(extra_counts=None, silences=None):
         )
         commands.append(specifier)
 
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(divisions)
+        return result
+
     return baca.rhythm(
         rmakers.talea([1], 16, extra_counts=extra_counts),
         *commands,
@@ -1073,7 +1090,7 @@ def pennant_rhythm(extra_counts=None, silences=None):
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
+        preprocessor=preprocessor,
         tag=abjad.Tag("animales.pennant_rhythm()"),
     )
 
@@ -1130,6 +1147,11 @@ def sforzando_exchange_rhythm(this_part):
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
 
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(divisions)
+        return result
+
     return baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         rmakers.beam(),
@@ -1137,7 +1159,7 @@ def sforzando_exchange_rhythm(this_part):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
+        preprocessor=preprocessor,
         persist="sforzando_exchange_rhythm",
         tag=abjad.Tag("animales.sforzando_exchange_rhythm()"),
     )
