@@ -653,7 +653,7 @@ def clb_rhythm(
 
     counts_ = baca.sequence.helianthate(counts, -1, -1)
     counts_ = abjad.Sequence(counts_).flatten()
-    counts_ = counts_.repeat_to_weight(total_players * wrap)
+    counts_ = abjad.sequence.repeat_to_weight(counts_, total_players * wrap)
     shards = counts_.split([wrap], cyclic=True, overhang=abjad.Exact)
     assert len(shards) == total_players
     assert shards.weight() == counts_.weight()
