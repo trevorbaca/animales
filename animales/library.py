@@ -189,7 +189,7 @@ metronome_marks = dict(
 def _make_time_signatures():
     pairs = [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
     pairs = baca.sequence.helianthate(pairs, -1, -1)
-    pairs = abjad.Sequence(pairs).flatten()
+    pairs = abjad.sequence.flatten(pairs)
     pairs = [abjad.TimeSignature(_) for _ in pairs]
     time_signatures = abjad.CyclicTuple(pairs)
     return time_signatures
@@ -652,11 +652,11 @@ def clb_rhythm(
     index = section_to_offset[section] + member - 1
 
     counts_ = baca.sequence.helianthate(counts, -1, -1)
-    counts_ = abjad.Sequence(counts_).flatten()
+    counts_ = abjad.sequence.flatten(counts_)
     counts_ = abjad.sequence.repeat_to_weight(counts_, total_players * wrap)
-    shards = counts_.split([wrap], cyclic=True, overhang=abjad.Exact)
+    shards = abjad.Sequence(counts_).split([wrap], cyclic=True, overhang=abjad.Exact)
     assert len(shards) == total_players
-    assert shards.weight() == counts_.weight()
+    assert abjad.sequence.weight(shards) == abjad.sequence.weight(counts_)
     counts_ = shards[index]
 
     extra_counts = None
@@ -700,13 +700,13 @@ def glissando_positions(*, reverse=False, rotate=0, transpose=0):
     positions_ = [_ + transpose for _ in positions_]
     if reverse is True:
         positions_.reverse()
-    positions = abjad.Sequence(positions_).rotate(rotate)
+    positions = abjad.sequence.rotate(positions_, rotate)
     return baca.staff_positions(positions)
 
 
 def glissando_rhythm(rotate=0):
     return baca.rhythm(
-        rmakers.talea(abjad.Sequence([5, 1, 2, 1]).rotate(n=rotate), 8),
+        rmakers.talea(abjad.sequence.rotate([5, 1, 2, 1], n=rotate), 8),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
