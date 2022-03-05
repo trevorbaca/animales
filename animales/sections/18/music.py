@@ -230,7 +230,7 @@ def tremolo(peak="f"):
     return baca.suite(
         baca.hairpin(
             f"niente o< {peak} >o niente",
-            pieces=lambda _: baca.Selection(_).mgroups([2, 2]),
+            pieces=lambda _: baca.select.mgroups(_, [2, 2]),
         ),
         baca.text_spanner(
             "tasto => ext. pont. => tasto",
