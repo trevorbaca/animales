@@ -797,11 +797,11 @@ def harp_exchange_rhythm(this_part, *commands, silence_first=False):
 
 def leaves_in_measure(n, lleak=False, rleak=False):
     def selector(argument):
-        result = baca.select.mleaves(argument, n)
+        result = baca.mleaves(argument, n)
         if lleak is True:
-            result = baca.select.lleak(result)
+            result = baca.lleak(result)
         if rleak is True:
-            result = baca.select.rleak(result)
+            result = baca.rleak(result)
         return result
 
     return selector
