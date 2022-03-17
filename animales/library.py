@@ -654,7 +654,7 @@ def clb_rhythm(
     counts_ = baca.sequence.helianthate(counts, -1, -1)
     counts_ = abjad.sequence.flatten(counts_)
     counts_ = abjad.sequence.repeat_to_weight(counts_, total_players * wrap)
-    shards = abjad.sequence.split(counts_, [wrap], cyclic=True, overhang=abjad.Exact)
+    shards = abjad.sequence.split(counts_, [wrap], cyclic=True, overhang=abjad.EXACT)
     assert len(shards) == total_players
     assert abjad.sequence.weight(shards) == abjad.sequence.weight(counts_)
     counts_ = shards[index]
@@ -1058,11 +1058,11 @@ def parts(section, token=None):
     return baca.assign_parts(part_assignment)
 
 
-def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.Up):
+def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
     start_pitch_ = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch_.number
     intervals_ = [0, 1, 0, -1, -2, 0, -1, 0, 1, 3, 2, 1, 0, 2, 3, 4, 3, 5, 6, 4, 5]
-    if direction == abjad.Down:
+    if direction == abjad.DOWN:
         intervals_ = [-_ for _ in intervals_]
     pitch_numbers = [_ + start_pitch for _ in intervals_]
     return baca.loop(pitch_numbers, intervals)

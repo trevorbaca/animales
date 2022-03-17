@@ -269,7 +269,7 @@ commands(
     baca.not_parts(
         baca.markup(
             r"\animales-all-other-strings-still-markup",
-            direction=abjad.Down,
+            direction=abjad.DOWN,
         ),
     ),
     baca.not_parts(baca.voice_two()),
