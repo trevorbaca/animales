@@ -241,12 +241,12 @@ commands(
         baca.edition(
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
-                direction=abjad.Down,
+                direction=abjad.DOWN,
                 selector=baca.selectors.leaf(1),
             ),
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
-                direction=abjad.Up,
+                direction=abjad.UP,
                 selector=baca.selectors.leaf(1),
             ),
         ),
