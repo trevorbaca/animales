@@ -272,7 +272,7 @@ def _make_piano_staff(stem, *contexts):
 def _make_square_staff_group(stem, *contexts):
     if not isinstance(stem, str):
         raise Exception(f"stem must be string: {stem!r}.")
-    tag = baca.site(inspect.currentframe())
+    tag = baca.function_name(inspect.currentframe())
     contexts = tuple(_ for _ in contexts if _ is not None)
     result = None
     if len(contexts) == 1:
@@ -294,7 +294,7 @@ def _make_staves(
     default_margin_markup,
     default_clef=None,
 ):
-    tag = baca.site(inspect.currentframe())
+    tag = baca.function_name(inspect.currentframe())
     assert default_margin_markup is not None
     staves = []
     if not bool(staff_specifiers):
@@ -827,7 +827,7 @@ def make_empty_score(
     cellos=0,
     contrabasses=0,
 ):
-    tag = baca.site(inspect.currentframe())
+    tag = baca.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves(
         "Flute",
