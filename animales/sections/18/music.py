@@ -70,11 +70,13 @@ commands(
     baca.rehearsal_mark(
         "Q",
         baca.selectors.skip(1 - 1),
-#        abjad.tweak(
-#            (0, 12),
-#            tag=abjad.Tag("+TABLOID_SCORE"),
-#        ).extra_offset,
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")),
+        #        abjad.tweak(
+        #            (0, 12),
+        #            tag=abjad.Tag("+TABLOID_SCORE"),
+        #        ).extra_offset,
+        abjad.Tweak(
+            r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")
+        ),
     ),
 )
 
