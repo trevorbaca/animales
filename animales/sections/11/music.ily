@@ -666,21 +666,21 @@ segment.11.Horn.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     ~
     %! baca.attach_color_literal(2)
@@ -1426,21 +1426,21 @@ segment.11.Horn.Voice.2.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1479,19 +1479,19 @@ segment.11.Horn.Voice.2.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \mp
-        %! EXPLICIT_DYNAMIC_COLOR
+        %! REDUNDANT_DYNAMIC_COLOR
         %! _treat_persistent_wrapper(1)
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        %! REDUNDANT_DYNAMIC
+        - \tweak color #(x11-color 'DeepPink1)
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
+        %! REDUNDANT_DYNAMIC
         \<
         ~
 
@@ -2537,21 +2537,21 @@ segment.11.Trumpet.Voice.3.part.1 = {
     \voiceTwo
     %! animales.brass_manifest_rhythm()
     g'2
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     ~
 
@@ -2993,21 +2993,21 @@ segment.11.Trumpet.Voice.2.part.1 = {
 
     %! animales.brass_manifest_rhythm()
     af'!8
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     ~
 
@@ -3649,21 +3649,21 @@ segment.11.Trombone.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! rmakers.RewriteMeterCommand.__call__
     [
@@ -3998,21 +3998,21 @@ segment.11.Trombone.Voice.3.part.1 = {
     \voiceTwo
     %! animales.brass_manifest_rhythm()
     g2
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     ~
 
@@ -4389,21 +4389,21 @@ segment.11.Trombone.Voice.2.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4712,21 +4712,21 @@ segment.11.Trombone.Voice.4.part.1 = {
     \voiceTwo
     %! animales.brass_manifest_rhythm()
     g8
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
 
     %! animales.brass_manifest_rhythm()
@@ -4751,19 +4751,19 @@ segment.11.Trombone.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mp
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     ~
 
