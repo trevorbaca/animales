@@ -2052,21 +2052,21 @@ segment.14.Clarinet.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Cl. 1”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -4347,21 +4347,21 @@ segment.14.First.Violin.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4661,21 +4661,21 @@ segment.14.Second.Violin.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
@@ -4970,21 +4970,21 @@ segment.14.Viola.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle.”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
@@ -5279,21 +5279,21 @@ segment.14.Cello.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
@@ -5847,21 +5847,21 @@ segment.14.Contrabass.Voice.3.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"
-    %! EXPLICIT_DYNAMIC_COLOR
+    %! REDUNDANT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    %! REDUNDANT_DYNAMIC
+    - \tweak color #(x11-color 'DeepPink1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
     %! SPANNER_START
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! REDUNDANT_DYNAMIC
     \<
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
