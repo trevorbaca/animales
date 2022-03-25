@@ -82,10 +82,6 @@ commands(
     baca.rehearsal_mark(
         "U",
         baca.selectors.skip(1 - 1),
-        #        abjad.tweak(
-        #            (0, 6),
-        #            tag=abjad.Tag("+TABLOID_SCORE"),
-        #        ).extra_offset,
         abjad.Tweak(
             r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
         ),
