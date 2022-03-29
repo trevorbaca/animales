@@ -504,7 +504,7 @@
             ),
             baca.Memento(
                 context="Bass.Clarinet.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -540,7 +540,7 @@
             ),
             baca.Memento(
                 context="Bassoon.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -550,7 +550,7 @@
         "Bassoon.Voice.1": [
             baca.Memento(
                 context="Bassoon.Voice.1",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -578,7 +578,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -602,7 +602,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -620,7 +620,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -644,7 +644,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.4",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -662,7 +662,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.5",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -686,7 +686,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.6",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -704,7 +704,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.7",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -728,7 +728,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.8",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -754,7 +754,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.10",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -770,7 +770,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.9",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -788,7 +788,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.11",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -812,7 +812,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.12",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -830,7 +830,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.13",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -854,7 +854,7 @@
             ),
             baca.Memento(
                 context="Cello.Voice.14",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -900,7 +900,7 @@
             ),
             baca.Memento(
                 context="Clarinet.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -928,7 +928,7 @@
             ),
             baca.Memento(
                 context="Contrabass.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -952,7 +952,7 @@
             ),
             baca.Memento(
                 context="Contrabass.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -986,7 +986,7 @@
             ),
             baca.Memento(
                 context="Contrabass.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -994,7 +994,7 @@
             ),
             baca.Memento(
                 context="Contrabass.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1012,7 +1012,7 @@
             ),
             baca.Memento(
                 context="Contrabass.Voice.5",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1036,7 +1036,7 @@
             ),
             baca.Memento(
                 context="Contrabass.Voice.6",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1082,7 +1082,7 @@
             ),
             baca.Memento(
                 context="English.Horn.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1110,7 +1110,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1134,7 +1134,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1152,7 +1152,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1176,7 +1176,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.4",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1194,7 +1194,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.5",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1218,7 +1218,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.6",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1236,7 +1236,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.7",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1260,7 +1260,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.8",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1286,7 +1286,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.10",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1302,7 +1302,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.9",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1320,7 +1320,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.11",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1344,7 +1344,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.12",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1362,7 +1362,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.13",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1386,7 +1386,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.14",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1404,7 +1404,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.15",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1428,7 +1428,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.16",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1446,7 +1446,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.17",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1470,7 +1470,7 @@
             ),
             baca.Memento(
                 context="First.Violin.Voice.18",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1546,7 +1546,7 @@
             ),
             baca.Memento(
                 context="Flute.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1572,7 +1572,7 @@
             ),
             baca.Memento(
                 context="Flute.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1582,7 +1582,7 @@
         "Flute.Voice.1": [
             baca.Memento(
                 context="Flute.Voice.1",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -1592,7 +1592,7 @@
         "Flute.Voice.2": [
             baca.Memento(
                 context="Flute.Voice.2",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -1630,7 +1630,7 @@
             ),
             baca.Memento(
                 context="Harp.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1676,7 +1676,7 @@
             ),
             baca.Memento(
                 context="Horn.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1702,7 +1702,7 @@
             ),
             baca.Memento(
                 context="Horn.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1732,7 +1732,7 @@
         "Horn.Voice.3": [
             baca.Memento(
                 context="Horn.Voice.3",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -1742,7 +1742,7 @@
         "Horn.Voice.4": [
             baca.Memento(
                 context="Horn.Voice.4",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -1768,7 +1768,7 @@
             ),
             baca.Memento(
                 context="Oboe.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1812,7 +1812,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1820,7 +1820,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1854,7 +1854,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1862,7 +1862,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1896,7 +1896,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1904,7 +1904,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -1938,7 +1938,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.4",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -1946,7 +1946,7 @@
             ),
             baca.Memento(
                 context="Percussion.Voice.4",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2004,7 +2004,7 @@
             ),
             baca.Memento(
                 context="Piano.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2060,7 +2060,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2084,7 +2084,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2102,7 +2102,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2126,7 +2126,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.4",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2144,7 +2144,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.5",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2168,7 +2168,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.6",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2186,7 +2186,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.7",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2210,7 +2210,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.8",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2236,7 +2236,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.10",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2252,7 +2252,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.9",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2270,7 +2270,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.11",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2294,7 +2294,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.12",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2312,7 +2312,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.13",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2336,7 +2336,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.14",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2354,7 +2354,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.15",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2378,7 +2378,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.16",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2396,7 +2396,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.17",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2420,7 +2420,7 @@
             ),
             baca.Memento(
                 context="Second.Violin.Voice.18",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2486,7 +2486,7 @@
             ),
             baca.Memento(
                 context="Trombone.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2512,7 +2512,7 @@
             ),
             baca.Memento(
                 context="Trombone.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2542,7 +2542,7 @@
         "Trombone.Voice.3": [
             baca.Memento(
                 context="Trombone.Voice.3",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -2552,7 +2552,7 @@
         "Trombone.Voice.4": [
             baca.Memento(
                 context="Trombone.Voice.4",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -2578,7 +2578,7 @@
             ),
             baca.Memento(
                 context="Trumpet.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2604,7 +2604,7 @@
             ),
             baca.Memento(
                 context="Trumpet.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2634,7 +2634,7 @@
         "Trumpet.Voice.3": [
             baca.Memento(
                 context="Trumpet.Voice.3",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -2644,7 +2644,7 @@
         "Trumpet.Voice.4": [
             baca.Memento(
                 context="Trumpet.Voice.4",
-                edition=Tag("+PARTS"),
+                edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
@@ -2670,7 +2670,7 @@
             ),
             baca.Memento(
                 context="Tuba.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2698,7 +2698,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.1",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2722,7 +2722,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.2",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2740,7 +2740,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.3",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2764,7 +2764,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.4",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2782,7 +2782,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.5",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2806,7 +2806,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.6",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2824,7 +2824,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.7",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2848,7 +2848,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.8",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2874,7 +2874,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.10",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2890,7 +2890,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.9",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2908,7 +2908,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.11",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2932,7 +2932,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.12",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2950,7 +2950,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.13",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -2974,7 +2974,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.14",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -2992,7 +2992,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.15",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -3016,7 +3016,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.16",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
@@ -3034,7 +3034,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.17",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
                 synthetic_offset=None,
@@ -3058,7 +3058,7 @@
             ),
             baca.Memento(
                 context="Viola.Voice.18",
-                edition=Tag("-PARTS"),
+                edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
