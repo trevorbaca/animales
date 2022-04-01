@@ -330,7 +330,7 @@ segment.03.First.Violin.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -391,7 +391,7 @@ segment.03.First.Violin.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -597,7 +597,7 @@ segment.03.First.Violin.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -666,7 +666,7 @@ segment.03.First.Violin.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -896,7 +896,7 @@ segment.03.Second.Violin.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -987,7 +987,7 @@ segment.03.Second.Violin.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1193,7 +1193,7 @@ segment.03.Second.Violin.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1316,7 +1316,7 @@ segment.03.Second.Violin.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1522,7 +1522,7 @@ segment.03.Viola.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1597,7 +1597,7 @@ segment.03.Viola.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1797,7 +1797,7 @@ segment.03.Viola.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1866,7 +1866,7 @@ segment.03.Viola.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2069,7 +2069,7 @@ segment.03.Cello.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     e'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2138,7 +2138,7 @@ segment.03.Cello.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     ef'!4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()

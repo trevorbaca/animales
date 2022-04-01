@@ -543,7 +543,7 @@ segment.30.Piano.Voice.1.part.1 = {
     %! baca.make_notes()
     cs'!2.
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -898,7 +898,7 @@ segment.30.Percussion.Voice.4.part.1 = {
     %! baca.make_tied_repeated_durations()
     c'4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
