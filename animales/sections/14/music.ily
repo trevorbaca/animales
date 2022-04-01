@@ -416,7 +416,7 @@ segment.14.Flute.Voice.1.part.1 = {
         %! animales.pennant_rhythm()
         g''8
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! +PARTS
         %! baca.hairpin()
         %! +PARTS
@@ -433,7 +433,7 @@ segment.14.Flute.Voice.1.part.1 = {
         %! EXPLICIT_DYNAMIC
     %%% \mf
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! +PARTS
         %! baca.hairpin()
         %! +PARTS
@@ -554,7 +554,7 @@ segment.14.Flute.Voice.1.part.1 = {
         %! animales.pennant_rhythm()
         c'''8
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! +PARTS
         %! baca.hairpin()
         %! +PARTS
@@ -771,7 +771,7 @@ segment.14.Flute.Voice.3.part.1 = {
     %! animales.pennant_rhythm()
     f''16
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -785,7 +785,7 @@ segment.14.Flute.Voice.3.part.1 = {
     %! EXPLICIT_DYNAMIC
     \mf
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -926,7 +926,7 @@ segment.14.Flute.Voice.3.part.1 = {
         %! animales.pennant_rhythm()
         bf''!8
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! baca.hairpin()
         %! baca.PiecewiseCommand._call(3)
         %! SPANNER_STOP
@@ -1212,7 +1212,7 @@ segment.14.Flute.Voice.2.part.1 = {
         %! animales.pennant_rhythm()
         ef''!8
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! +PARTS
         %! baca.hairpin()
         %! +PARTS
@@ -1229,7 +1229,7 @@ segment.14.Flute.Voice.2.part.1 = {
         %! EXPLICIT_DYNAMIC
     %%% \mf
         %! EXPLICIT_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! +PARTS
         %! baca.hairpin()
         %! +PARTS
@@ -1392,7 +1392,7 @@ segment.14.Flute.Voice.2.part.1 = {
     %! animales.pennant_rhythm()
     af''!16
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.hairpin()
     %! +PARTS
@@ -1603,7 +1603,7 @@ segment.14.Flute.Voice.4.part.1 = {
     %! animales.pennant_rhythm()
     d''16
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -1617,7 +1617,7 @@ segment.14.Flute.Voice.4.part.1 = {
     %! EXPLICIT_DYNAMIC
     \mf
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -1798,7 +1798,7 @@ segment.14.Flute.Voice.4.part.1 = {
     %! animales.pennant_rhythm()
     bf''!16
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -2053,7 +2053,7 @@ segment.14.Clarinet.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Cl. 1”]"
     %! REDUNDANT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
@@ -2101,7 +2101,7 @@ segment.14.Clarinet.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     f''2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -2343,7 +2343,7 @@ segment.14.Bass.Clarinet.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     bf!2.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2584,7 +2584,7 @@ segment.14.Piano.Voice.1.part.1 = {
     %! animales.harp_exchange_rhythm()
     r2.
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -2841,7 +2841,7 @@ segment.14.Harp.Voice.1.part.1 = {
         %! animales.harp_exchange_rhythm()
         c''8
         %! REAPPLIED_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_DYNAMIC
@@ -3129,7 +3129,7 @@ segment.14.Percussion.Voice.1.part.1 = {
     %! baca.IndicatorCommand._call()
     :32
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -3431,7 +3431,7 @@ segment.14.Percussion.Voice.2.part.1 = {
     %! baca.IndicatorCommand._call()
     :32
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -3720,7 +3720,7 @@ segment.14.Percussion.Voice.3.part.1 = {
         %! animales.harp_exchange_rhythm()
         c''8
         %! REAPPLIED_DYNAMIC_COLOR
-        %! _treat_persistent_wrapper(1)
+        %! baca.treat_persistent_wrapper()
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_DYNAMIC
@@ -3959,7 +3959,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     %! baca.IndicatorCommand._call()
 %%% \stopTrillSpan
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -3981,7 +3981,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     %! baca.IndicatorCommand._call()
 %%% ^ \markup { solo }
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -4015,7 +4015,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     %! animales.glissando_rhythm()
     f'''4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -4065,7 +4065,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     %! animales.glissando_rhythm()
     a'4
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -4079,7 +4079,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     %! EXPLICIT_DYNAMIC
     \ff
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -4107,7 +4107,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     %! animales.glissando_rhythm()
     g'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -4348,7 +4348,7 @@ segment.14.First.Violin.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I”]"
     %! REDUNDANT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
@@ -4389,7 +4389,7 @@ segment.14.First.Violin.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     g1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -4662,7 +4662,7 @@ segment.14.Second.Violin.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II”]"
     %! REDUNDANT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
@@ -4703,7 +4703,7 @@ segment.14.Second.Violin.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     g1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -4971,7 +4971,7 @@ segment.14.Viola.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle.”]"
     %! REDUNDANT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
@@ -5012,7 +5012,7 @@ segment.14.Viola.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     g1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -5280,7 +5280,7 @@ segment.14.Cello.Voice.1.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     %! REDUNDANT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
@@ -5321,7 +5321,7 @@ segment.14.Cello.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     g1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -5579,7 +5579,7 @@ segment.14.Contrabass.Voice.1.part.1 = {
     %! animales.harp_exchange_rhythm()
     r4
     %! REAPPLIED_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_DYNAMIC
@@ -5848,7 +5848,7 @@ segment.14.Contrabass.Voice.3.part.1 = {
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Cb. (2-6)”]"
     %! REDUNDANT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! LEFT_BROKEN
@@ -5885,7 +5885,7 @@ segment.14.Contrabass.Voice.3.part.1 = {
     %! baca.make_repeat_tied_notes()
     g,1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP

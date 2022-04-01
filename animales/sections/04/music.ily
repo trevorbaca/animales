@@ -444,7 +444,7 @@ segment.04.Clarinet.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     d''1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -466,7 +466,7 @@ segment.04.Clarinet.Voice.1.part.1 = {
     %! baca.IndicatorCommand._call()
 %%% ^ \markup { solo }
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -511,7 +511,7 @@ segment.04.Clarinet.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     d''2.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -768,7 +768,7 @@ segment.04.Horn.Voice.1.part.1 = {
     %! animales.downbeat_attack()
     g'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1036,7 +1036,7 @@ segment.04.Horn.Voice.3.part.1 = {
     %! animales.downbeat_attack()
     c'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.dynamic()
     %! +PARTS
@@ -1374,7 +1374,7 @@ segment.04.Horn.Voice.2.part.1 = {
     %! animales.downbeat_attack()
     df'!8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1642,7 +1642,7 @@ segment.04.Horn.Voice.4.part.1 = {
     %! animales.downbeat_attack()
     b8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.dynamic()
     %! +PARTS
@@ -1980,7 +1980,7 @@ segment.04.Trumpet.Voice.1.part.1 = {
     %! animales.downbeat_attack()
     d''8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2248,7 +2248,7 @@ segment.04.Trumpet.Voice.3.part.1 = {
     %! animales.downbeat_attack()
     g'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.dynamic()
     %! +PARTS
@@ -2586,7 +2586,7 @@ segment.04.Trumpet.Voice.2.part.1 = {
     %! animales.downbeat_attack()
     af'!8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2854,7 +2854,7 @@ segment.04.Trumpet.Voice.4.part.1 = {
     %! animales.downbeat_attack()
     f'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.dynamic()
     %! +PARTS
@@ -3192,7 +3192,7 @@ segment.04.Trombone.Voice.1.part.1 = {
     %! animales.downbeat_attack()
     g'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -3460,7 +3460,7 @@ segment.04.Trombone.Voice.3.part.1 = {
     %! animales.downbeat_attack()
     c'8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.dynamic()
     %! +PARTS
@@ -3798,7 +3798,7 @@ segment.04.Trombone.Voice.2.part.1 = {
     %! animales.downbeat_attack()
     df'!8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4066,7 +4066,7 @@ segment.04.Trombone.Voice.4.part.1 = {
     %! animales.downbeat_attack()
     b8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! +PARTS
     %! baca.dynamic()
     %! +PARTS
@@ -4396,7 +4396,7 @@ segment.04.Tuba.Voice.1.part.1 = {
     %! animales.downbeat_attack()
     c,8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4745,7 +4745,7 @@ segment.04.Percussion.Voice.1.part.1 = {
     %! baca.IndicatorCommand._call()
     :32
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -5067,7 +5067,7 @@ segment.04.Percussion.Voice.2.part.1 = {
     %! baca.IndicatorCommand._call()
     :32
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -5268,7 +5268,7 @@ segment.04.First.Violin.Voice.2.part.1 = {
     %! baca.IndicatorCommand._call()
 %%% \stopTrillSpan
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -5290,7 +5290,7 @@ segment.04.First.Violin.Voice.2.part.1 = {
     %! baca.IndicatorCommand._call()
 %%% ^ \markup { solo }
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -5334,7 +5334,7 @@ segment.04.First.Violin.Voice.2.part.1 = {
     %! animales.glissando_rhythm()
     d'''8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -5416,7 +5416,7 @@ segment.04.First.Violin.Voice.2.part.1 = {
     %! animales.glissando_rhythm()
     d'''8
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_STOP
@@ -5430,7 +5430,7 @@ segment.04.First.Violin.Voice.2.part.1 = {
     %! EXPLICIT_DYNAMIC
     \f
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -5466,7 +5466,7 @@ segment.04.First.Violin.Voice.2.part.1 = {
     %! animales.glissando_rhythm()
     c'''4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
@@ -5696,7 +5696,7 @@ segment.04.First.Violin.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -5765,7 +5765,7 @@ segment.04.First.Violin.Voice.1.part.2 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -5991,7 +5991,7 @@ segment.04.First.Violin.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6049,7 +6049,7 @@ segment.04.First.Violin.Voice.3.part.1 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6262,7 +6262,7 @@ segment.04.Second.Violin.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6320,7 +6320,7 @@ segment.04.Second.Violin.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6533,7 +6533,7 @@ segment.04.Second.Violin.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6585,7 +6585,7 @@ segment.04.Second.Violin.Voice.3.part.1 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6798,7 +6798,7 @@ segment.04.Viola.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!4.
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6864,7 +6864,7 @@ segment.04.Viola.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7081,7 +7081,7 @@ segment.04.Viola.Voice.3.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!2
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7139,7 +7139,7 @@ segment.04.Viola.Voice.3.part.1 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7356,7 +7356,7 @@ segment.04.Cello.Voice.1.part.1 = {
     %! animales.sforzando_exchange_rhythm()
     df'!1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7414,7 +7414,7 @@ segment.04.Cello.Voice.1.part.1 = {
     %! baca.make_repeat_tied_notes()
     c'1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.dynamic()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7700,7 +7700,7 @@ segment.04.Contrabass.Voice.3.part.1 = {
     %! baca.make_repeat_tied_notes()
     c1
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! RIGHT_BROKEN
@@ -7716,7 +7716,7 @@ segment.04.Contrabass.Voice.3.part.1 = {
     %! EXPLICIT_DYNAMIC
     \p
     %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
+    %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
     %! RIGHT_BROKEN
