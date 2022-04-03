@@ -967,12 +967,12 @@ segment.08.Piano.Voice.1.part.1 = {
         % [Piano.Voice.1 measure 2]
         %! animales.harp_exchange_rhythm()
         d''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r4
@@ -1000,12 +1000,12 @@ segment.08.Piano.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         d''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r4
@@ -1211,12 +1211,12 @@ segment.08.Harp.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         d''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r4
@@ -1249,12 +1249,12 @@ segment.08.Harp.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         d''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r4
