@@ -5106,12 +5106,12 @@ segment.11.Piano.Voice.1.part.1 = {
         %! baca._set_status_tag()
         %! REAPPLIED_DYNAMIC
         \mf
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
         %! REAPPLIED_INSTRUMENT_ALERT
         %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“Piano”)"
@@ -5160,12 +5160,12 @@ segment.11.Piano.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         c''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r8
@@ -5195,12 +5195,12 @@ segment.11.Piano.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         c''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
     %! animales.harp_exchange_rhythm()
     }
@@ -5406,12 +5406,12 @@ segment.11.Harp.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         c''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r4
@@ -5436,12 +5436,12 @@ segment.11.Harp.Voice.1.part.1 = {
 
         %! animales.harp_exchange_rhythm()
         c''8
-        %! baca.laissez_vibrer()
-        %! baca.IndicatorCommand._call()
-        \laissezVibrer
         %! baca.stopped()
         %! baca.IndicatorCommand._call()
         - \stopped
+        %! baca.laissez_vibrer()
+        %! baca.IndicatorCommand._call()
+        \laissezVibrer
 
         %! animales.harp_exchange_rhythm()
         r4
